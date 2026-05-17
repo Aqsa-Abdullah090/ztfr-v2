@@ -1,46 +1,68 @@
 'use client';
 
 import { useState } from 'react';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import SidePopup from '@/components/SidePopup';
 
 export default function Home() {
   const [isPanelOpen, setIsPanelOpen] = useState(false);
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 flex flex-col items-center justify-center p-6 text-slate-800">
-      <div className="max-w-md w-full bg-white rounded-2xl shadow-xl border border-slate-100 p-8 text-center space-y-6">
-        
-        {/* Placeholder UI Graphic representation */}
-        <div className="mx-auto w-16 h-16 bg-indigo-50 rounded-2xl flex items-center justify-center text-indigo-600 mb-4">
-          <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-          </svg>
-        </div>
-
-        <div className="space-y-2">
-          <h1 className="text-2xl font-bold text-slate-900 tracking-tight">
-            ZTFR Design Wrapper
-          </h1>
-          <p className="text-sm text-slate-500 max-w-sm mx-auto">
-            Click the button below to display the interactive right-hand side pop-up menu modeled from the design specs workspace layout.
-          </p>
-        </div>
-
-        <div>
-          <button
-            onClick={() => setIsPanelOpen(true)}
-            className="inline-flex items-center justify-center rounded-xl bg-indigo-600 px-5 py-3 text-sm font-semibold text-white hover:bg-indigo-700 transition-all shadow-md hover:shadow-lg active:scale-95 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-          >
-            Open Side Pop-up Panel
-          </button>
-        </div>
+    <main className="relative h-screen w-full overflow-hidden text-white flex flex-col justify-between bg-transparent">
+      
+      {/* 1. CINEMATIC BACKGROUND LAYER */}
+      <div className="absolute inset-0 -z-10">
+        <img
+          src="/assets/14.png"
+          alt="Background image"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/20 pointer-events-none" />
       </div>
 
-      {/* Render the instantiated Modal drawer */}
+      {/* 2. TOP HEADER UTILITY */}
+      <div className="pl-16 md:pl-20 z-10 transition-all duration-300">
+        <Header />
+      </div>
+
+      {/* 3. CENTRAL WORKSPACE SCREEN */}
+      <section className="relative flex-1 flex flex-col items-center justify-center px-6 pl-20 md:pl-24 text-center z-10 transition-all duration-300">
+        <div className="max-w-3xl w-full p-8 space-y-6">
+          
+          {/* Main Drag & Drop Interface Callout Text */}
+          <div className="space-y-4 select-none">
+            <p className="text-[11px] font-bold tracking-[0.3em] text-white/50 uppercase font-mono">
+              SYSTEM INTERFACE ACTIVE
+            </p>
+            <h1 className="text-sm md:text-base font-medium tracking-[0.15em] text-slate-200 max-w-xl mx-auto uppercase leading-relaxed font-sans">
+              UPLOAD FILES OR FOLDERS BY DROPPING THEM ANYWHERE IN THIS WINDOW
+            </h1>
+          </div>
+
+          {/* Quick Action to Trigger Expanded State Drawer manually if needed */}
+          <div className="pt-4">
+            <button
+              onClick={() => setIsPanelOpen(true)}
+              className="inline-flex items-center justify-center rounded-full border-white/20 backdrop-blur-md px-6 py-2.5 text-xs font-semibold tracking-widest uppercase transition-all active:scale-95"
+            >
+              Open Transfer Panel
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* 4. BASE FOOTER SYSTEM METRICS */}
+      <div className="pl-16 md:pl-20 transition-all duration-300">
+        <Footer />
+      </div>
+
+      {/* 5. SLIDE-OUT FILE TRANSFER MANAGER popup */}
       <SidePopup 
         isOpen={isPanelOpen} 
         onClose={() => setIsPanelOpen(false)} 
-        title="ZTFR Configuration Drawer"
+        onOpen={() => setIsPanelOpen(true)} 
+        title="UPLOAD FILES"
       />
     </main>
   );

@@ -1,15 +1,18 @@
-
 'use client';
 
-import React, { useEffect } from 'react';
-
+import React, { useEffect, useState, useRef } from 'react';
 
 export default function SidePopup({
   isOpen,
   onClose,
-  title = "Dummy Side Panel Details",
+  onOpen,
+  title = "UPLOAD FILES",
 }) {
-  
+  const [fileTitle, setFileTitle] = useState('');
+  const [fileNote, setFileNote] = useState('');
+  const fileInputRef = useRef(null);
+  const folderInputRef = useRef(null);
+
   // Close on Escape key press
   useEffect(() => {
     const handleEscape = (e) => {
@@ -17,7 +20,6 @@ export default function SidePopup({
     };
     if (isOpen) {
       window.addEventListener('keydown', handleEscape);
-      // Prevent background scrolling when open
       document.body.style.overflow = 'hidden';
     }
     return () => {
@@ -26,142 +28,208 @@ export default function SidePopup({
     };
   }, [isOpen, onClose]);
 
+  const triggerFileSelect = () => fileInputRef.current?.click();
+  const triggerFolderSelect = () => folderInputRef.current?.click();
+
+  const handleFileChange = (e) => {
+    const files = e.target.files;
+    if (files && files.length > 0) {
+      alert(`Selected ${files.length} item(s) for transfer.`);
+    }
+  };
+
   return (
     <>
-      {/* Backdrop Backdrop Overlay */}
+      {/* 1. MINIMIZED SIDEBAR STRIP */}
       <div
-        className={`fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-sm transition-opacity duration-300 ease-in-out ${
+        onClick={isOpen ? undefined : onOpen}
+        className={`fixed inset-y-0 left-0 z-40 w-16 md:w-20 bg-slate-950/85 backdrop-blur-md border-r border-white/10 flex flex-col items-center justify-between py-8 transition-all duration-300 select-none ${
+          isOpen ? 'opacity-0 pointer-events-none' : 'opacity-100 cursor-pointer hover:bg-slate-900/90'
+        }`}
+      >
+        <div className="text-white font-mono font-bold tracking-widest text-sm">
+          ZT<span className="text-slate-400">R</span>
+        </div>
+
+        <div className="flex-1 flex items-center justify-center">
+          <p 
+            className="text-[10px] md:text-xs font-semibold tracking-widest text-slate-300 uppercase whitespace-nowrap font-sans" 
+            style={{ writingMode: 'vertical-lr', transform: 'rotate(180deg)' }}
+          >
+            UPLOAD FILES OR FOLDERS BY DROPPING THEM ANYWHERE IN THIS WINDOW
+          </p>
+        </div>
+
+        <div className="text-[9px] text-slate-600 font-mono text-center px-1 leading-none">
+          © 2026
+        </div>
+      </div>
+
+      {/* 2. BACKDROP OVERLAY */}
+      <div
+        className={`fixed inset-0 z-50 bg-slate-950/40 backdrop-blur-xs transition-opacity duration-300 ease-in-out ${
           isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
         onClick={onClose}
         aria-hidden="true"
       />
 
-      {/* Side Pop-Up Container */}
+      {/* 3. EXPANDED PRODUCTION PANEL CONTAINER */}
       <div
-        className={`fixed inset-y-0 left-0 z-50 w-full max-w-md bg-white shadow-2xl flex flex-col transform transition-transform duration-300 ease-out sm:max-w-lg ${
+        className={`fixed inset-y-0 left-0 z-50 w-full max-w-md bg-white text-slate-900 flex flex-col transform transition-transform duration-300 ease-out sm:max-w-lg ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
         role="dialog"
         aria-modal="true"
-        aria-labelledby="slide-over-title"
       >
-        {/* Header */}
-        <div className="flex items-center justify-between border-b border-slate-100 px-6 py-5">
-          <h2 
-            id="slide-over-title" 
-            className="text-lg font-semibold text-slate-900"
-          >
-            {title}
-          </h2>
-          <button
-            onClick={onClose}
+        {/* Top Control Block: Split Dropzone/Action Header */}
+        <div className="relative flex min-h-[160px] border-b border-slate-100">
+          
+          {/* Left Plus Add Block */}
+          <button 
+            onClick={triggerFileSelect}
             type="button"
-            className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-100 hover:text-slate-600 transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500"
-            aria-label="Close panel"
+            className="w-1/3 transition-colors flex items-center justify-center group relative overflow-hidden"
           >
-            <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
+            <span className="text-5xl font-light text-slate-400 group-hover:text-slate-600 transition-colors">
+              +
+            </span>
+            {/* Hidden Input Nodes */}
+            <input 
+              type="file" 
+              ref={fileInputRef} 
+              onChange={handleFileChange} 
+              multiple 
+              className="hidden" 
+            />
+            <input 
+              type="file" 
+              ref={folderInputRef} 
+              onChange={handleFileChange} 
+              webkitdirectory="true" 
+              directory="true" 
+              className="hidden" 
+            />
           </button>
+
+          {/* Right Text Trigger Header */}
+          <div className="flex-1 p-6 flex flex-col justify-between relative">
+            <div className="flex items-start justify-between">
+              <div className="space-y-0.5">
+                <h2 className="text-xs font-bold tracking-widest text-slate-500 uppercase">
+                  {title}
+                </h2>
+                <div 
+                  onClick={triggerFolderSelect}
+                  className="text-3xl font-normal tracking-tight cursor-pointer text-slate-900 hover:text-indigo-600 transition-colors font-sans"
+                >
+                  OR
+                </div>
+                <button 
+                  onClick={triggerFolderSelect}
+                  type="button"
+                  className="text-xs font-semibold tracking-wider  uppercase pt-1 block text-left"
+                >
+                  SELECT A FOLDER
+                </button>
+              </div>
+              
+              {/* Context Safe Lock Icon */}
+              <div className="text-slate-900 p-1">
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2a5 5 0 00-5 5v3H6a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2v-8a2 2 0 00-2-2h-1V7a5 5 0 00-5-5zm3 8H9V7a3 3 0 016 0v3z" />
+                </svg>
+              </div>
+            </div>
+
+            {/* Absolute Panel Window Close Vector */}
+            <button
+              onClick={onClose}
+              className="absolute bottom-4 right-6 text-slate-300 hover:text-slate-500 transition-colors text-xs font-mono tracking-widest"
+              aria-label="Close panel"
+            >
+              ✕ CLOSE
+            </button>
+          </div>
         </div>
 
-        {/* Content Body (Scrollable Content Area) */}
-        <div className="flex-1 overflow-y-auto px-6 py-6 space-y-6 custom-scrollbar">
+        {/* Minimalist Inputs Form Section */}
+        <div className="flex-1 px-8 py-10 space-y-10 overflow-y-auto custom-scrollbar">
           
-          {/* Section 1: Overview Info card */}
-          <div className="bg-slate-50 border border-slate-100 rounded-xl p-4">
-            <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">System Status</h3>
-            <div className="flex items-center space-x-3">
-              <span className="flex h-3 w-3 relative">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
-              </span>
-              <p className="text-sm font-medium text-slate-700">ZTFR Dummy Pop-up System Connected</p>
-            </div>
-          </div>
-
-          {/* Section 2: Mock Input Fields */}
-          <div className="space-y-4">
-            <div>
-              <label htmlFor="dummyName" className="block text-sm font-medium text-slate-700 mb-1">
-                Resource Name
-              </label>
+          {/* Title Input field container */}
+          <div className="relative border-b border-slate-900 pb-2">
+            <label htmlFor="panelTitle" className="block text-[10px] font-bold tracking-widest text-slate-400 uppercase mb-1">
+              TITLE
+            </label>
+            <div className="flex items-center justify-between">
               <input
                 type="text"
-                id="dummyName"
-                defaultValue="ZTFR-Alpha-Mockup"
-                className="w-full rounded-lg border border-slate-200 px-3.5 py-2 text-sm text-slate-900 placeholder-slate-400 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+                id="panelTitle"
+                maxLength={30}
+                value={fileTitle}
+                onChange={(e) => setFileTitle(e.target.value)}
+                placeholder="Give your transfer a name..."
+                className="w-full bg-transparent text-sm text-slate-900 placeholder-slate-300 focus:outline-none font-medium"
               />
-            </div>
-
-            <div>
-              <label htmlFor="dummyRole" className="block text-sm font-medium text-slate-700 mb-1">
-                Access Tier Role
-              </label>
-              <select
-                id="dummyRole"
-                className="w-full rounded-lg border border-slate-200 px-3.5 py-2 text-sm text-slate-900 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
-              >
-                <option>Administrator</option>
-                <option>Editor / Contributor</option>
-                <option>Viewer Default</option>
-              </select>
-            </div>
-
-            <div>
-              <label htmlFor="dummyDesc" className="block text-sm font-medium text-slate-700 mb-1">
-                Configuration Description
-              </label>
-              <textarea
-                id="dummyDesc"
-                rows={4}
-                placeholder="Enter mockup notes extracted from layout..."
-                className="w-full rounded-lg border border-slate-200 px-3.5 py-2 text-sm text-slate-900 placeholder-slate-400 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
-              />
+              <span className="text-[10px] font-mono text-slate-300 tracking-wider ml-2">
+                {fileTitle.length}/30
+              </span>
             </div>
           </div>
 
-          {/* Section 3: Checkbox Switches */}
-          <div className="border-t border-slate-100 pt-5 space-y-3">
-            <div className="flex items-start">
-              <div className="flex h-5 items-center">
-                <input
-                  id="notify"
-                  type="checkbox"
-                  defaultChecked
-                  className="h-4 w-4 rounded border-slate-300 text-indigo-600 focus:ring-indigo-500"
-                />
-              </div>
-              <div className="ml-3 text-sm">
-                <label htmlFor="notify" className="font-medium text-slate-700">Real-time webhooks</label>
-                <p className="text-slate-400">Trigger notification on status update events.</p>
-              </div>
-            </div>
+          {/* Note Input field container */}
+          <div className="relative border-b border-slate-900 pb-2">
+            <label htmlFor="panelNote" className="block text-[10px] font-bold tracking-widest text-slate-400 uppercase mb-1">
+              NOTE
+            </label>
+            <textarea
+              id="panelNote"
+              rows={4}
+              value={fileNote}
+              onChange={(e) => setFileNote(e.target.value)}
+              placeholder="Add a description or details for the recipient..."
+              className="w-full bg-transparent text-sm text-slate-900 placeholder-slate-300 focus:outline-none resize-none font-medium pt-1"
+            />
           </div>
 
         </div>
 
-        {/* Action Footer */}
-        <div className="border-t border-slate-100 bg-slate-50 px-6 py-4 flex items-center justify-end space-x-3">
-          <button
-            type="button"
-            onClick={onClose}
-            className="rounded-lg border border-slate-200 bg-white px-4 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50 transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500"
-          >
-            Cancel
-          </button>
-          <button
-            type="button"
-            onClick={() => {
-              alert('Dummy Action Saved Successfully!');
-              onClose();
-            }}
-            className="rounded-lg bg-indigo-600 px-4 py-2.5 text-sm font-medium text-white hover:bg-indigo-700 shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500"
-          >
-            Save Changes
-          </button>
+        {/* Action Panel Base Grid */}
+        <div className="border-t border-slate-100 px-8 py-5 bg-slate-50 flex items-center justify-between">
+          <div className="flex flex-col">
+            <span className="text-xs font-bold tracking-wider text-slate-800 uppercase">
+              UNLIMITED TRANSFERS
+            </span>
+            <span className="text-[9px] text-slate-400 tracking-tight font-mono">
+              AES 256-BIT ENCRYPTION ACTIVE
+            </span>
+          </div>
+
+          <div className="flex items-center space-x-2">
+            <button
+              type="button"
+              onClick={() => {
+                if(!fileTitle) {
+                  alert('Please append a Transfer Title configuration before submission.');
+                  return;
+                }
+                alert('Secure Transfer Initialized Successfully!');
+                onClose();
+              }}
+              className="rounded-full bg-slate-900 px-6 py-2.5 text-xs font-bold tracking-widest text-white hover:bg-slate-800 transition-colors uppercase shadow-sm"
+            >
+              Transfer
+            </button>
+            
+            {/* More Context Icon Button */}
+            <button type="button" className="p-1 text-slate-400 hover:text-slate-600 transition-colors">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 8a2 2 0 110-4 2 2 0 010 4zm0 6a2 2 0 110-4 2 2 0 010 4zm0 6a2 2 0 110-4 2 2 0 010 4z" />
+              </svg>
+            </button>
+          </div>
         </div>
+
       </div>
     </>
   );
