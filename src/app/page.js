@@ -4,9 +4,11 @@ import { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import SidePopup from '@/components/SidePopup';
+import CountryFlagsSidePopup from '@/components/CountryFlagsSidePopup';
 
 export default function Home() {
   const [isPanelOpen, setIsPanelOpen] = useState(false);
+  const [isRegionPanelOpen, setIsRegionPanelOpen] = useState(false);
 
   return (
     <main className="relative h-screen w-full overflow-hidden text-white flex flex-col justify-between bg-transparent">
@@ -21,9 +23,9 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/20 pointer-events-none" />
       </div>
 
-      {/* 2. TOP HEADER UTILITY */}
+      {/* 2. TOP HEADER UTILITY (Pass the click handler to the flag section) */}
       <div className="pl-16 md:pl-20 z-10 transition-all duration-300">
-        <Header />
+        <Header onFlagClick={() => setIsRegionPanelOpen(true)} />
       </div>
 
       {/* 3. CENTRAL WORKSPACE SCREEN */}
@@ -40,11 +42,11 @@ export default function Home() {
             </h1>
           </div>
 
-          {/* Quick Action to Trigger Expanded State Drawer manually if needed */}
+          {/* Quick Action to Trigger State Drawer */}
           <div className="pt-4">
             <button
               onClick={() => setIsPanelOpen(true)}
-              className="inline-flex items-center justify-center rounded-full border-white/20 backdrop-blur-md px-6 py-2.5 text-xs font-semibold tracking-widest uppercase transition-all active:scale-95"
+              className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 hover:bg-white/20 backdrop-blur-md px-6 py-2.5 text-xs font-semibold tracking-widest uppercase transition-all active:scale-95"
             >
               Open Transfer Panel
             </button>
@@ -57,12 +59,17 @@ export default function Home() {
         <Footer />
       </div>
 
-      {/* 5. SLIDE-OUT FILE TRANSFER MANAGER popup */}
+      {/* 5. SLIDE-OUT FILE TRANSFER MANAGER (Configured right-to-left layout alignment) */}
       <SidePopup 
         isOpen={isPanelOpen} 
         onClose={() => setIsPanelOpen(false)} 
         onOpen={() => setIsPanelOpen(true)} 
         title="UPLOAD FILES"
+      />
+
+      <CountryFlagsSidePopup 
+        isOpen={isRegionPanelOpen} 
+        onClose={() => setIsRegionPanelOpen(false)} 
       />
     </main>
   );

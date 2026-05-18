@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <footer className="relative w-full z-10 px-8 py-5 border-t border-white/5 bg-black/50 backdrop-blur-xs flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+    <footer className="relative w-full z-10 px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
       <div className="space-y-1">
         <p className="text-xs tracking-widest uppercase font-bold text-white">
           UNLIMITED TRANSFERS

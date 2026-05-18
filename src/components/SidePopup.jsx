@@ -43,13 +43,10 @@ export default function SidePopup({
       {/* 1. MINIMIZED SIDEBAR STRIP */}
       <div
         onClick={isOpen ? undefined : onOpen}
-        className={`fixed inset-y-0 left-0 z-40 w-16 md:w-20 bg-slate-950/85 backdrop-blur-md border-r border-white/10 flex flex-col items-center justify-between py-8 transition-all duration-300 select-none ${
-          isOpen ? 'opacity-0 pointer-events-none' : 'opacity-100 cursor-pointer hover:bg-slate-900/90'
+        className={`fixed inset-y-0 left-0 z-40 w-16 md:w-20 bg-black/50 backdrop-blur-md  flex flex-col items-center justify-between py-8 transition-all duration-300 select-none ${
+          isOpen ? 'opacity-0 pointer-events-none' : 'opacity-100 cursor-pointer'
         }`}
       >
-        <div className="text-white font-mono font-bold tracking-widest text-sm">
-          ZT<span className="text-slate-400">R</span>
-        </div>
 
         <div className="flex-1 flex items-center justify-center">
           <p 
