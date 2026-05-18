@@ -1,28 +1,12 @@
 'use client';
+import React, { useEffect, useState, useRef } from 'react';
+import { countriesData } from '../../lib/countries_data'; 
 
-import React, { useEffect } from 'react';
+export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId = 1 }) {
+  const scrollContainerRef = useRef(null);
+  const [hideBottomIcon, setHideBottomIcon] = useState(false);
 
-// Mock list matching the data schema from your layout screenshot
-const REGIONS_DATA = [
-  { id: 'uk', flag: '🇬🇧', country: 'UNITED KINGDOM', languages: ['ENGLISH'], active: true },
-  { id: 'us', flag: '🇺🇸', country: 'UNITED STATES', languages: ['ENGLISH'] },
-  { id: 'ca', flag: '🇨🇦', country: 'CANADA', languages: ['ENGLISH', 'FRANÇAIS'] },
-  { id: 'au', flag: '🇦🇺', country: 'AUSTRALIA', languages: ['ENGLISH'] },
-  { id: 'it', flag: '🇮🇹', country: 'ITALIA', languages: ['ITALIANO'] },
-  { id: 'de', flag: '🇩🇪', country: 'DEUTSCHLAND', languages: ['DEUTSCH'] },
-  { id: 'fr', flag: '🇫🇷', country: 'FRANCE', languages: ['FRANÇAIS'] },
-  { id: 'es', flag: '🇪🇸', country: 'ESPAÑA', languages: ['ESPAÑOL'] },
-  { id: 'pt', flag: '🇵🇹', country: 'PORTUGAL', languages: ['PORTUGUÊS'] },
-  { id: 'nl', flag: '🇳🇱', country: 'NEDERLAND', languages: ['NEDERLANDS'] },
-  { id: 'no', flag: '🇳🇴', country: 'NORGE', languages: ['NORSK'] },
-  { id: 'dk', flag: '🇩🇰', country: 'DANMARK', languages: ['DANSE'] },
-  { id: 'se', flag: '🇸🇪', country: 'SVERIGE', languages: ['SVENSKA'] },
-  { id: 'pl', flag: '🇵🇱', country: 'POLSKA', languages: ['POLSKI'] },
-];
-
-export default function CountryFlagsSidePopup({ isOpen, onClose }) {
-  
-  // Handle escape key bindings and global scrolling locking states
+  // 1. Core listener handling sidebar closing events via Escape key
   useEffect(() => {
     const handleEscape = (e) => {
       if (e.key === 'Escape') onClose();
@@ -37,11 +21,33 @@ export default function CountryFlagsSidePopup({ isOpen, onClose }) {
     };
   }, [isOpen, onClose]);
 
+  // 2. Dynamic Scroll Calculation Logic to hide indicator at the bottom element threshold
+  const handleScroll = () => {
+    const container = scrollContainerRef.current;
+    if (!container) return;
+
+    // Calculate current position relative to total height and threshold tolerance padding
+    const isAtBottom = 
+      container.scrollHeight - container.scrollTop <= container.clientHeight + 4;
+    
+    setHideBottomIcon(isAtBottom);
+  };
+
+  // 3. Trigger recalculation checks instantly when the drawer expands or options scale
+  useEffect(() => {
+    if (isOpen) {
+      // Small macro-task timeout allows the DOM thread to finalize structural layout maps
+      setTimeout(() => {
+        handleScroll();
+      }, 50);
+    }
+  }, [isOpen, countriesData]);
+
   return (
     <>
       {/* Backdrop overlay layout layer */}
       <div
-        className={`fixed inset-0 z-50 bg-black/40 backdrop-blur-xs transition-opacity duration-300 ease-in-out ${
+        className={`fixed inset-0 z-50 transition-opacity duration-300 ease-in-out ${
           isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
         onClick={onClose}
@@ -50,72 +56,81 @@ export default function CountryFlagsSidePopup({ isOpen, onClose }) {
 
       {/* Slide-over panel structural container */}
       <div
-        className={`fixed inset-y-0 right-0 z-50 w-full max-w-xs md:max-w-sm bg-[#18181b]/95 border-l border-white/5 text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
+        className={`fixed inset-y-0 right-0 z-50 pl-[55px] pr-[20px] w-full max-w-xs md:max-w-sm bg-[#000]/50 backdrop-blur-[4px] text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         {/* Panel Header */}
-        <div className="px-6 pt-10 pb-4 space-y-1">
-          <h2 className="text-[11px] font-bold tracking-[0.18em] text-slate-200 font-sans uppercase">
+        <div className="pt-[45px] space-y-1 flex-shrink-0">
+          <h2 className="text-[10px] xl:text-[14px] tracking-[1px] font-sans uppercase">
             CHOOSE YOUR COUNTRY OR REGION
           </h2>
-          <p className="text-[10px] italic font-medium tracking-widest text-slate-400 font-serif">
+          <p className="text-[10px] italic tracking-[1px] font-sans text-slate-400">
             LANGUAGE
           </p>
         </div>
 
         {/* Scrollable Regions Stack */}
-        <div className="flex-1 overflow-y-auto px-6 py-4 space-y-5 custom-scrollbar pb-12">
-          {REGIONS_DATA.map((region) => (
-            <div
-              key={region.id}
-              onClick={() => {
-                // Interactive handler for selection updates
-                console.log(`Region swapped to: ${region.country}`);
-                onClose();
-              }}
-              className="flex items-center justify-between group cursor-pointer py-1.5 transition-all duration-200 hover:opacity-100 opacity-80"
-            >
-              {/* Left Column Flag and Label Data Block */}
-              <div className="flex items-center space-x-4">
-                {/* Clean, scaled emoji rendering container */}
-                <span className="text-2xl filter drop-shadow-sm leading-none" role="img" aria-label={region.country}>
-                  {region.flag}
-                </span>
-                
-                <span className={`text-[10px] font-bold tracking-[0.15em] font-sans uppercase transition-colors ${
-                  region.active ? 'text-cyan-400' : 'text-slate-300 group-hover:text-white'
-                }`}>
-                  {region.country}
-                </span>
-              </div>
+        <div 
+          ref={scrollContainerRef}
+          onScroll={handleScroll}
+          id="note-input" /* Webkit targets this identifier to clear visual track aesthetics */
+          className="flex-1 overflow-y-auto space-y-[30px] pt-[45px] pb-[60px] font-sans"
+          style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+        >
+          {countriesData.map((region) => {
+            const isActive = region.id === activeRegionId;
 
-              {/* Right Column Available Languages Metadata List */}
-              <div className="flex items-center space-x-2 text-right pl-4">
-                {region.languages.map((lang, idx) => (
-                  <span
-                    key={idx}
-                    className={`text-[9px] font-bold tracking-widest uppercase font-mono ${
-                      region.active && idx === 0 ? 'text-cyan-400' : 'text-slate-400 group-hover:text-slate-200'
-                    }`}
-                  >
-                    {lang}
+            return (
+              <div
+                key={region.id}
+                onClick={() => {
+                  console.log(`Region swapped to: ${region.country_name} (${region.value})`);
+                  onClose();
+                }}
+                className="flex items-center cursor-pointer space-x-[30px] opacity-85 hover:opacity-100 transition-opacity"
+              >
+                {/* Left Column Flag Container */}
+                <div className="flex items-center flex-shrink-0">
+                  <img 
+                    src={region.country_flag} 
+                    alt={`${region.country_name} flag`}
+                    className="w-[40px] h-auto object-contain"
+                    loading="lazy"
+                  />
+                </div>
+
+                {/* Right Column Available Languages Metadata List */}
+                <div className="flex items-center justify-baseline text-[10px] space-x-[20px] tracking-[1px]">
+                  <span className={`uppercase transition-colors font-medium ${
+                    isActive ? 'text-cyan-400' : 'text-white'
+                  }`}>
+                    {region.country_name}
                   </span>
-                ))}
+
+                  {/* Primary Language */}
+                  <span className={`uppercase ${isActive ? 'text-cyan-400' : 'text-slate-300'}`}>
+                    {region.country_language}
+                  </span>
+
+                  {/* Optional Secondary Language */}
+                  {region.country_language_optional && (
+                    <span className="uppercase text-slate-400">
+                      {region.country_language_optional}
+                    </span>
+                  )}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
-        {/* Absolute Floating Bottom Right Window Close Indicator */}
-        <button
-          onClick={onClose}
-          type="button"
-          className="absolute top-4 right-4 text-slate-500 hover:text-slate-300 transition-colors text-xs font-mono p-2 focus:outline-none"
-          aria-label="Close region selector"
-        >
-          ✕
-        </button>
+        {/* 🎬 ANIMATED SCROLL INDICATOR COMPONENT */}
+        {isOpen && !hideBottomIcon && (
+          <div className="absolute bottom-[10px] right-3 w-[10px] h-[64px] z-[100] flex items-center justify-center pointer-events-none">
+            <div className="c02136 !left-auto !right-0 !bg-white" />
+          </div>
+        )}
       </div>
     </>
   );

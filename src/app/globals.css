@@ -24,3 +24,43 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* Animated line on video/images */
+.c02136 {
+  left: 20px;
+  width: 1px;
+  height: 54px;
+  background: #ffffff;
+  position: absolute;
+  bottom: 0;
+  z-index: 30;
+  animation: c02137 3s cubic-bezier(0.79, 0, 0.15, 1) infinite;
+}
+
+@keyframes c02137 {
+  0% {
+    transform: scaleY(0);
+    transform-origin: top; /* start from top */
+  }
+  40% {
+    transform: scaleY(1);
+    transform-origin: top; /* grow downwards */
+  }
+  60% {
+    transform: scaleY(1);
+    transform-origin: bottom; /* shrink from bottom */
+  }
+  100% {
+    transform: scaleY(0);
+    transform-origin: bottom; /* fully disappear from bottom */
+  }
+}
+
+#note-input::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
