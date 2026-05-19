@@ -57,7 +57,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
       {/* Slide-over panel structural container */}
       {/* Added 'relative' to establish a solid anchoring base for your absolute indicators */}
       <div
-        className={`fixed inset-y-0 right-0 z-50 pl-[55px] pr-[20px] w-[480px] bg-[#000]/50 backdrop-blur-[4px] text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
+        className={`fixed inset-y-0 right-0 z-50 pl-[55px] w-[480px] bg-[#000]/50 backdrop-blur-[4px] text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
