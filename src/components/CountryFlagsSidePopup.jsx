@@ -52,7 +52,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
 
       {/* Slide-over panel */}
       <div
-        className={`fixed inset-y-0 right-0 z-50 pl-[55px] w-[480px] bg-[#000]/10 backdrop-blur-[14px] text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
+        className={`fixed inset-y-0 right-0 z-50 pl-[55px] w-[480px] bg-black/20 backdrop-blur-sm text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
@@ -71,7 +71,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
           ref={scrollContainerRef}
           onScroll={handleScroll}
           id="note-input" 
-          className="flex-1 overflow-y-auto space-y-[30px] pt-[45px] pb-[60px] font-sans"
+          className="flex-1 overflow-y-auto scrollbar-hide space-y-[30px] pt-[45px] pb-[60px] font-sans"
           style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         >
           {countriesData.map((region) => {
@@ -109,13 +109,13 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
                   </span>
 
                   {/* Column 2: Primary Language */}
-                  <span className="uppercase">
+                  <span className="uppercase italic">
                     {region.country_language}
                   </span>
 
                   {/* Column 3: Optional Secondary Language */}
                   {region.country_language_optional ? (
-                    <span className="uppercase">
+                    <span className="uppercase italic">
                       {region.country_language_optional}
                     </span>
                   ) : (
