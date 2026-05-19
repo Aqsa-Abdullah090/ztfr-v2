@@ -2,11 +2,11 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { countriesData } from '../../lib/countries_data'; 
 
-export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId = 1 }) {
+export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId = 1, onSelectRegion }) {
   const scrollContainerRef = useRef(null);
   const [hideBottomIcon, setHideBottomIcon] = useState(false);
 
-  // 1. Core listener handling sidebar closing events via Escape key
+  // Escape key overlay handler
   useEffect(() => {
     const handleEscape = (e) => {
       if (e.key === 'Escape') onClose();
@@ -21,7 +21,6 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
     };
   }, [isOpen, onClose]);
 
-  // 2. Dynamic Scroll Calculation Logic to hide indicator at the bottom element threshold
   const handleScroll = () => {
     const container = scrollContainerRef.current;
     if (!container) return;
@@ -32,19 +31,17 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
     setHideBottomIcon(isAtBottom);
   };
 
-  // 3. Trigger recalculation checks instantly when the drawer expands or options scale
   useEffect(() => {
     if (isOpen) {
       setTimeout(() => {
         handleScroll();
       }, 100); 
     }
-  }, [isOpen, countriesData]);
+  }, [isOpen]);
 
   return (
     <>
-      {/* Backdrop overlay layout layer */}
-      {/* CHANGE: Added onClick={onClose} to close sidebar when clicking outside */}
+      {/* Backdrop overlay */}
       <div
         className={`fixed inset-0 z-50 transition-opacity duration-300 ease-in-out ${
           isOpen ? 'opacity-100 pointer-events-auto bg-black/40' : 'opacity-0 pointer-events-none'
@@ -53,7 +50,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
         aria-hidden="true"
       />
 
-      {/* Slide-over panel structural container */}
+      {/* Slide-over panel */}
       <div
         className={`fixed inset-y-0 right-0 z-50 pl-[55px] w-[480px] bg-[#000]/10 backdrop-blur-[14px] text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
@@ -84,28 +81,30 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
               <div
                 key={region.id}
                 onClick={() => {
-                  console.log(`Region swapped to: ${region.country_name} (${region.value})`);
+                  if (onSelectRegion) onSelectRegion(region); // Parent state update save trigger
                   onClose();
                 }}
-                className="flex items-center cursor-pointer space-x-[40px] transition-opacity"
+                className={`flex items-center cursor-pointer space-x-[40px] transition-opacity ${
+                  isActive ? 'opacity-100' : 'opacity-80 hover:opacity-100'
+                }`}
               >
                 {/* Left Column Flag Container */}
                 <div className="flex items-center flex-shrink-0">
                   <img 
                     src={region.country_flag} 
                     alt={`${region.country_name} flag`}
-                    className="w-[40px] h-auto object-contain"
+                    className={`w-[40px] h-auto object-contain transition-transform ${isActive ? 'scale-110' : ''}`}
                     loading="lazy"
                   />
                 </div>
 
                 {/* Right Column Grid Layout Container */}
                 <div className={`flex-1 grid grid-cols-3 gap-x-[10px] items-center text-[10px] tracking-[1.5px] ${
-                    isActive ? 'text-cyan-400' : 'text-white hover:text-cyan-400'
+                    isActive ? 'text-cyan-400 font-bold' : 'text-white hover:text-cyan-400'
                   }`}>
                   
                   {/* Column 1: Country Name */}
-                  <span  className="uppercase">
+                  <span className="uppercase">
                     {region.country_name}
                   </span>
 
@@ -116,7 +115,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
 
                   {/* Column 3: Optional Secondary Language */}
                   {region.country_language_optional ? (
-                    <span  className="uppercase">
+                    <span className="uppercase">
                       {region.country_language_optional}
                     </span>
                   ) : (

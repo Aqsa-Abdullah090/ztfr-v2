@@ -1,6 +1,6 @@
 'use client';
 
-export default function Header({ onFlagClick }) {
+export default function Header({ onFlagClick, selectedRegion }) {
   return (
     <header className="relative w-full z-10 flex items-center justify-between px-8 py-6 bg-gradient-to-b from-black/40 to-transparent">
       <div className="flex items-center space-x-2">
@@ -9,7 +9,7 @@ export default function Header({ onFlagClick }) {
         </span>
       </div>
       
-      {/* Right side controls (Close indicator and Flag Action) */}
+      {/* Right side controls */}
       <div className="flex items-center space-x-6">
         <button 
           type="button" 
@@ -18,13 +18,21 @@ export default function Header({ onFlagClick }) {
           00.00 <span className="mx-2 text-xs">✕</span>
         </button>
         
-        {/* Clickable Flag Element */}
+        {/* Clickable Flag Element (Now Dynamic!) */}
         <div 
           onClick={onFlagClick}
-          className="flex items-center space-x-1 border border-white/20 bg-black/20 rounded px-2 py-1 cursor-pointer hover:bg-white/10 transition-colors select-none"
+          className="flex items-center cursor-pointer "
         >
-          <span className="text-xs font-bold tracking-wider uppercase text-slate-300">UK</span>
-          <span className="text-sm">🇬🇧</span>
+          {/* Check mapping: Agar data array me country_flag image URL hai to image show karein */}
+          {selectedRegion?.country_flag?.startsWith('http') || selectedRegion?.country_flag?.startsWith('/') ? (
+            <img 
+              src={selectedRegion.country_flag} 
+              alt="flag" 
+              className="w-[40px] h-auto object-contain"
+            />
+          ) : (
+            <span className="text-sm">{selectedRegion?.country_flag || '🇬🇧'}</span>
+          )}
         </div>
       </div>
     </header>
