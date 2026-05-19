@@ -26,9 +26,8 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
     const container = scrollContainerRef.current;
     if (!container) return;
 
-    // Calculate current position relative to total height and threshold tolerance padding
     const isAtBottom = 
-      container.scrollHeight - container.scrollTop <= container.clientHeight + 6; // Slight padding tolerance bump
+      container.scrollHeight - container.scrollTop <= container.clientHeight + 6; 
     
     setHideBottomIcon(isAtBottom);
   };
@@ -36,28 +35,27 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
   // 3. Trigger recalculation checks instantly when the drawer expands or options scale
   useEffect(() => {
     if (isOpen) {
-      // Small macro-task timeout allows the DOM thread to finalize structural layout maps
       setTimeout(() => {
         handleScroll();
-      }, 100); // Bumped slightly to guarantee DOM layout calculations are finalized
+      }, 100); 
     }
   }, [isOpen, countriesData]);
 
   return (
     <>
       {/* Backdrop overlay layout layer */}
+      {/* CHANGE: Added onClick={onClose} to close sidebar when clicking outside */}
       <div
         className={`fixed inset-0 z-50 transition-opacity duration-300 ease-in-out ${
-          isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+          isOpen ? 'opacity-100 pointer-events-auto bg-black/40' : 'opacity-0 pointer-events-none'
         }`}
-       
+        onClick={onClose}
         aria-hidden="true"
       />
 
       {/* Slide-over panel structural container */}
-      {/* Added 'relative' to establish a solid anchoring base for your absolute indicators */}
       <div
-        className={`fixed inset-y-0 right-0 z-50 pl-[55px] w-[480px] bg-[#000]/50 backdrop-blur-[4px] text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
+        className={`fixed inset-y-0 right-0 z-50 pl-[55px] w-[480px] bg-[#000]/10 backdrop-blur-[14px] text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
@@ -75,7 +73,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
         <div 
           ref={scrollContainerRef}
           onScroll={handleScroll}
-          id="note-input" /* Webkit targets this identifier to clear visual track aesthetics */
+          id="note-input" 
           className="flex-1 overflow-y-auto space-y-[30px] pt-[45px] pb-[60px] font-sans"
           style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         >
@@ -89,7 +87,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
                   console.log(`Region swapped to: ${region.country_name} (${region.value})`);
                   onClose();
                 }}
-                className="flex items-center cursor-pointer space-x-[30px] opacity-85 hover:opacity-100 transition-opacity"
+                className="flex items-center cursor-pointer space-x-[40px] transition-opacity"
               >
                 {/* Left Column Flag Container */}
                 <div className="flex items-center flex-shrink-0">
@@ -102,23 +100,23 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
                 </div>
 
                 {/* Right Column Grid Layout Container */}
-                <div className="flex-1 grid grid-cols-3 gap-x-[10px] items-center text-[10px] tracking-[1px]">
+                <div className={`flex-1 grid grid-cols-3 gap-x-[10px] items-center text-[10px] tracking-[1.5px] ${
+                    isActive ? 'text-cyan-400' : 'text-white hover:text-cyan-400'
+                  }`}>
                   
                   {/* Column 1: Country Name */}
-                  <span className={`uppercase transition-colors font-medium ${
-                    isActive ? 'text-cyan-400' : 'text-white'
-                  }`}>
+                  <span  className="uppercase">
                     {region.country_name}
                   </span>
 
                   {/* Column 2: Primary Language */}
-                  <span className={`uppercase ${isActive ? 'text-cyan-400' : 'text-white'}`}>
+                  <span className="uppercase">
                     {region.country_language}
                   </span>
 
                   {/* Column 3: Optional Secondary Language */}
                   {region.country_language_optional ? (
-                    <span className="uppercase text-white">
+                    <span  className="uppercase">
                       {region.country_language_optional}
                     </span>
                   ) : (
@@ -131,9 +129,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
           })}
         </div>
 
-       {isOpen && !hideBottomIcon && (
-          /* Removed the nested helper wrappers that were breaking transform calculations. 
-             The element now renders directly relative to the sidebar container frame bounds. */
+        {isOpen && !hideBottomIcon && (
           <div className="c02136 cursor-default" />
         )}
       </div>
