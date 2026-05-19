@@ -4,19 +4,12 @@ export default function Header({ onFlagClick, selectedRegion }) {
   return (
     <header className="relative w-full z-10 flex items-center justify-between px-8 py-6 bg-gradient-to-b from-black/40 to-transparent">
       <div className="flex items-center space-x-2">
-        <span className="text-2xl font-black tracking-widest text-white font-mono">
-          ZT<span className="text-slate-400">R</span>
-        </span>
+       <img src="/assets/ZTFR-b.svg" alt="logo" className="h-[40px] w-auto" />
       </div>
       
       {/* Right side controls */}
       <div className="flex items-center space-x-6">
-        <button 
-          type="button" 
-          className="text-slate-300 hover:text-white font-mono text-sm tracking-widest flex items-center transition-colors"
-        >
-          00.00 <span className="mx-2 text-xs">✕</span>
-        </button>
+       
         
         {/* Clickable Flag Element (Now Dynamic!) */}
         <div 
