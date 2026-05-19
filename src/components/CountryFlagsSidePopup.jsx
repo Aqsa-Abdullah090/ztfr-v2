@@ -28,7 +28,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
 
     // Calculate current position relative to total height and threshold tolerance padding
     const isAtBottom = 
-      container.scrollHeight - container.scrollTop <= container.clientHeight + 4;
+      container.scrollHeight - container.scrollTop <= container.clientHeight + 6; // Slight padding tolerance bump
     
     setHideBottomIcon(isAtBottom);
   };
@@ -39,7 +39,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
       // Small macro-task timeout allows the DOM thread to finalize structural layout maps
       setTimeout(() => {
         handleScroll();
-      }, 50);
+      }, 100); // Bumped slightly to guarantee DOM layout calculations are finalized
     }
   }, [isOpen, countriesData]);
 
@@ -50,13 +50,14 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
         className={`fixed inset-0 z-50 transition-opacity duration-300 ease-in-out ${
           isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
-        onClick={onClose}
+       
         aria-hidden="true"
       />
 
       {/* Slide-over panel structural container */}
+      {/* Added 'relative' to establish a solid anchoring base for your absolute indicators */}
       <div
-        className={`fixed inset-y-0 right-0 z-50 pl-[55px] pr-[20px] w-full max-w-xs md:max-w-sm bg-[#000]/50 backdrop-blur-[4px] text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
+        className={`fixed inset-y-0 right-0 z-50 pl-[55px] pr-[20px] w-[480px] bg-[#000]/50 backdrop-blur-[4px] text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
@@ -100,36 +101,40 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
                   />
                 </div>
 
-                {/* Right Column Available Languages Metadata List */}
-                <div className="flex items-center justify-baseline text-[10px] space-x-[20px] tracking-[1px]">
+                {/* Right Column Grid Layout Container */}
+                <div className="flex-1 grid grid-cols-3 gap-x-[10px] items-center text-[10px] tracking-[1px]">
+                  
+                  {/* Column 1: Country Name */}
                   <span className={`uppercase transition-colors font-medium ${
                     isActive ? 'text-cyan-400' : 'text-white'
                   }`}>
                     {region.country_name}
                   </span>
 
-                  {/* Primary Language */}
-                  <span className={`uppercase ${isActive ? 'text-cyan-400' : 'text-slate-300'}`}>
+                  {/* Column 2: Primary Language */}
+                  <span className={`uppercase ${isActive ? 'text-cyan-400' : 'text-white'}`}>
                     {region.country_language}
                   </span>
 
-                  {/* Optional Secondary Language */}
-                  {region.country_language_optional && (
-                    <span className="uppercase text-slate-400">
+                  {/* Column 3: Optional Secondary Language */}
+                  {region.country_language_optional ? (
+                    <span className="uppercase text-white">
                       {region.country_language_optional}
                     </span>
+                  ) : (
+                    <span />
                   )}
+
                 </div>
               </div>
             );
           })}
         </div>
 
-        {/* 🎬 ANIMATED SCROLL INDICATOR COMPONENT */}
-        {isOpen && !hideBottomIcon && (
-          <div className="absolute bottom-[10px] right-3 w-[10px] h-[64px] z-[100] flex items-center justify-center pointer-events-none">
-            <div className="c02136 !left-auto !right-0 !bg-white" />
-          </div>
+       {isOpen && !hideBottomIcon && (
+          /* Removed the nested helper wrappers that were breaking transform calculations. 
+             The element now renders directly relative to the sidebar container frame bounds. */
+          <div className="c02136 cursor-default" />
         )}
       </div>
     </>

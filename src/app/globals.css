@@ -26,41 +26,44 @@ body {
 }
 
 
-/* Animated line on video/images */
+/* Animated line on side layout menus */
 .c02136 {
-  left: 20px;
   width: 1px;
-  height: 54px;
+  height: 64px;
   background: #ffffff;
   position: absolute;
-  bottom: 0;
-  z-index: 30;
+  /* Placed cleanly on the bottom-right corner area of the relative side pop panel frame */
+  right: 24px; 
+  bottom: 24px;
+  z-index: 100;
+  transform-origin: top;
   animation: c02137 3s cubic-bezier(0.79, 0, 0.15, 1) infinite;
 }
 
 @keyframes c02137 {
   0% {
     transform: scaleY(0);
-    transform-origin: top; /* start from top */
+    transform-origin: top;
   }
   40% {
     transform: scaleY(1);
-    transform-origin: top; /* grow downwards */
+    transform-origin: top;
+  }
+  40.1% {
+    transform-origin: bottom; /* Instantly flip processing origin anchors at peak maturity point */
   }
   60% {
     transform: scaleY(1);
-    transform-origin: bottom; /* shrink from bottom */
+    transform-origin: bottom;
   }
   100% {
     transform: scaleY(0);
-    transform-origin: bottom; /* fully disappear from bottom */
+    transform-origin: bottom;
   }
 }
 
 #note-input::-webkit-scrollbar {
   display: none;
 }
-
-
 
 
