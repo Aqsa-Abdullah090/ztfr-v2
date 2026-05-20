@@ -49,7 +49,7 @@ export default function Home() {
       {/* 1. CINEMATIC BACKGROUND LAYER */}
       <div className="absolute inset-0 -z-10">
         <img
-          src="/assets/14.png"
+          src="/assets/14.jpeg"
           alt="Background image"
           className="absolute inset-0 h-full w-full object-cover"
         />
