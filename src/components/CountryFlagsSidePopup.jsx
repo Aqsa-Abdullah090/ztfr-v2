@@ -104,7 +104,7 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
   }, [controls, onScrollChange]);
 
   return (
-    <div ref={containerRef} className="flex-1 overflow-hidden mt-[20px] pt-[25px]">
+    <div ref={containerRef} className="flex-1 overflow-hidden mt-[20px] pt-[20px]">
       <motion.div
         animate={controls}
         className="relative w-full will-change-transform space-y-[30px] pb-[60px]"
@@ -153,11 +153,11 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
         }`}
       >
         {/* Panel Header */}
-        <div className="pt-[45px] space-y-1 flex-shrink-0">
-          <h2 className="text-[10px] xl:text-[14px] tracking-[1px] uppercase font-arial">
+        <div className="pt-[45px] space-y-[20px] flex-shrink-0">
+          <h2 className="text-[12px] xl:text-[14px] tracking-[1px] uppercase font-arial">
             CHOOSE YOUR COUNTRY OR REGION
           </h2>
-          <p className="text-[10px] italic tracking-[1px] font-arial opacity-80">
+          <p className="text-[12px] xl:text-[14px] italic tracking-[1px] font-arial">
             LANGUAGE
           </p>
         </div>
