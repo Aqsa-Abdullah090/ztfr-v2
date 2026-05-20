@@ -43,7 +43,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
     <>
       {/* Backdrop overlay */}
       <div
-        className={`fixed inset-0 z-50 transition-opacity duration-300 ease-in-out ${
+        className={`fixed inset-0 z-50 transition-opacity duration-300 ease-in-out  ${
           isOpen ? 'opacity-100 pointer-events-auto bg-black/40' : 'opacity-0 pointer-events-none'
         }`}
         onClick={onClose}
@@ -52,16 +52,16 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
 
       {/* Slide-over panel */}
       <div
-        className={`fixed inset-y-0 right-0 z-50 pl-[55px] w-[480px] bg-black/20 backdrop-blur-sm text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
+        className={`fixed inset-y-0 right-0 z-50 pl-[55px] w-[540px] bg-black/20 backdrop-blur-sm text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         {/* Panel Header */}
         <div className="pt-[45px] space-y-1 flex-shrink-0">
-          <h2 className="text-[10px] xl:text-[14px] tracking-[1px] font-sans uppercase">
+          <h2 className="text-[10px] xl:text-[14px] tracking-[1px] uppercase font-arial">
             CHOOSE YOUR COUNTRY OR REGION
           </h2>
-          <p className="text-[10px] italic tracking-[1px] font-sans text-slate-400">
+          <p className="text-[10px] italic tracking-[1px] font-arial opacity-80">
             LANGUAGE
           </p>
         </div>
@@ -71,7 +71,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
           ref={scrollContainerRef}
           onScroll={handleScroll}
           id="note-input" 
-          className="flex-1 overflow-y-auto scrollbar-hide space-y-[30px] pt-[45px] pb-[60px] font-sans"
+          className="flex-1 overflow-y-auto scrollbar-hide space-y-[30px] pt-[45px] pb-[60px] "
           style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         >
           {countriesData.map((region) => {
@@ -99,7 +99,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
                 </div>
 
                 {/* Right Column Grid Layout Container */}
-                <div className={`flex-1 grid grid-cols-3 gap-x-[10px] items-center text-[10px] tracking-[1.5px] ${
+                <div className={`flex-1 grid grid-cols-3 gap-x-[10px] items-center text-[12px] font-arail tracking-[1.5px] ${
                     isActive ? 'text-cyan-400 font-bold' : 'text-white hover:text-cyan-400'
                   }`}>
                   
