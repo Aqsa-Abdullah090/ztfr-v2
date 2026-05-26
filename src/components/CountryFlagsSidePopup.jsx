@@ -104,10 +104,10 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
   }, [controls, onScrollChange]);
 
   return (
-    <div ref={containerRef} className="flex-1 overflow-hidden mt-[20px] pt-[20px]">
+    <div ref={containerRef} className="flex-1 overflow-hidden mt-[20px] lg:pt-[20px]">
       <motion.div
         animate={controls}
-        className="relative w-full will-change-transform space-y-[30px] pb-[60px]"
+        className="relative w-full will-change-transform space-y-[25px] lg:space-y-[30px] pb-[30px] lg:pb-[60px]"
         style={{ y: 0 }}
       >
         {children}
@@ -148,16 +148,16 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
 
       {/* Slide-over panel */}
       <div
-        className={`fixed inset-y-0 right-0 z-50 pl-[55px] w-[540px] bg-black/20 backdrop-blur-sm text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
+        className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[55px] w-full lg:w-[540px] bg-black/20 backdrop-blur-sm text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
         {/* Panel Header */}
-        <div className="pt-[45px] space-y-[20px] flex-shrink-0">
-          <h2 className="text-[12px] xl:text-[14px] tracking-[1px] uppercase font-arial">
+        <div className="pt-[30px] lg:pt-[45px] space-y-[10px] lg:space-y-[20px] flex-shrink-0">
+          <h2 className="text-[12px] lg:text-[14px] tracking-[1px] uppercase font-arial">
             CHOOSE YOUR COUNTRY OR REGION
           </h2>
-          <p className="text-[12px] xl:text-[14px] italic tracking-[1px] font-arial">
+          <p className="text-[12px] lg:text-[14px] italic tracking-[1px] font-arial">
             LANGUAGE
           </p>
         </div>
@@ -174,7 +174,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
                   if (onSelectRegion) onSelectRegion(region);
                   onClose();
                 }}
-                className={`flex items-center cursor-pointer space-x-[40px] transition-opacity ${
+                className={`flex items-center cursor-pointer space-x-[20px] lg:space-x-[40px] transition-opacity ${
                   isActive ? "opacity-100" : "opacity-80 hover:opacity-100"
                 }`}
               >
@@ -183,7 +183,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
                   <img
                     src={region.country_flag}
                     alt={`${region.country_name} flag`}
-                    className={`w-[40px] h-auto object-contain transition-transform ${
+                    className={`w-[30px] lg:w-[40px] h-auto object-contain transition-transform ${
                       isActive ? "scale-110" : ""
                     }`}
                     loading="lazy"
@@ -192,7 +192,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
 
                 {/* Right Column Grid Layout Container */}
                 <div
-                  className={`flex-1 grid grid-cols-3 gap-x-[10px] items-center text-[12px] font-arial tracking-[1.5px] ${
+                  className={`flex-1 grid grid-cols-3 gap-x-[3px] lg:gap-x-[10px] items-center text-[8.5px] lg:text-[12px] font-arial tracking-[1.5px] ${
                     isActive ? "text-cyan-400 font-bold" : "text-white hover:text-cyan-400"
                   }`}
                 >
