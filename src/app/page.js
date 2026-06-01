@@ -10,14 +10,12 @@ export default function Home() {
   const [isPanelOpen, setIsPanelOpen] = useState(false);
   const [isRegionPanelOpen, setIsRegionPanelOpen] = useState(false);
   
-  // Default fallback data agar localStorage khali ho
   const [selectedRegion, setSelectedRegion] = useState({
     id: 1,
     country_name: 'UK',
-    country_flag: '🇬🇧' // Unicode flag ya image URL dono handle ho sakte hain
+    country_flag: '🇬🇧'
   });
 
-  // Client-side par localStorage se data reload karna
   useEffect(() => {
     const savedRegion = localStorage.getItem('activeRegion');
     if (savedRegion) {
@@ -29,17 +27,13 @@ export default function Home() {
     }
   }, []);
 
-  // Jab user popup se koi naya region select karega
   const handleRegionSelect = (region) => {
-    // Local state update karein
     const updatedRegion = {
       id: region.id,
       country_name: region.country_name,
-      country_flag: region.country_flag || region.country_emoji // dynamically update ke liye
+      country_flag: region.country_flag || region.country_emoji
     };
     setSelectedRegion(updatedRegion);
-    
-    // LocalStorage mein save karein
     localStorage.setItem('activeRegion', JSON.stringify(updatedRegion));
   };
 
@@ -56,11 +50,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/20 pointer-events-none" />
       </div>
 
-      {/* 2. TOP HEADER UTILITY (Passed selectedRegion details here) */}
+      {/* 2. TOP HEADER UTILITY */}
       <div className="pl-16 md:pl-20 z-10 transition-all duration-300">
+        {/* Yahan isSidebarOpen prop pass kiya hai */}
         <Header 
           onFlagClick={() => setIsRegionPanelOpen(true)} 
           selectedRegion={selectedRegion}
+          isSidebarOpen={isRegionPanelOpen} 
         />
       </div>
 
