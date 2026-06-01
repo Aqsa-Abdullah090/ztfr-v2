@@ -3,10 +3,10 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 export default function Header({ onFlagClick, selectedRegion, isSidebarOpen }) {
-  // Yeh local state animation sequence trigger karne ke liye hai
+  // Local state trigger handle karne ke liye
   const [startFlyUp, setStartFlyUp] = useState(false);
 
-  // Agar sidebar parent se close ho jaye toh automatic state reset ho jaye
+  // Jab parent se completely sidebar close ho, tabhi state reset ho
   useEffect(() => {
     if (!isSidebarOpen) {
       setStartFlyUp(false);
@@ -15,10 +15,9 @@ export default function Header({ onFlagClick, selectedRegion, isSidebarOpen }) {
 
   const handleFlagClick = () => {
     if (startFlyUp || isSidebarOpen) return;
-    setStartFlyUp(true); // Animation trigger karein
+    setStartFlyUp(true); 
   };
 
-  // Determine karein ki flag ko kab upar rehna hai aur kab niche aana hai
   const shouldBeUp = startFlyUp || isSidebarOpen;
 
   return (
@@ -29,18 +28,18 @@ export default function Header({ onFlagClick, selectedRegion, isSidebarOpen }) {
       
       {/* Right side controls */}
       <div className="flex items-center space-x-6">
-        {/* Clickable Flag Element */}
         <motion.div 
           onClick={handleFlagClick}
           className="flex items-center cursor-pointer"
-          // Agar shouldBeUp true hai toh upar chala jaye, warna normal position (0) par smoothly niche aaye
-          animate={shouldBeUp ? { y: -70, opacity: 0, scale: 0.8 } : { y: 0, opacity: 1, scale: 1 }}
+          animate={shouldBeUp ? { y: -70 } : { y: 0 }}
+          // Dynamic transition configuration
           transition={{ 
-            duration: 0.4, 
-            ease: [0.25, 1, 0.5, 1] // Custom swift cubic-bezier transition
+            duration: 1,
+            // AGAR flag upar ja raha hai toh delay: 0, 
+            // AGAR niche aa raha hai (sidebar close ho chuka hai) toh 0.6 seconds ka delay
+            delay: shouldBeUp ? 0 : 0.6 
           }} 
           onAnimationComplete={() => {
-            // Sirf tab sidebar kholein jab flag upar ja raha ho aur sidebar abhi khula na ho
             if (startFlyUp && !isSidebarOpen) {
               onFlagClick();
             }

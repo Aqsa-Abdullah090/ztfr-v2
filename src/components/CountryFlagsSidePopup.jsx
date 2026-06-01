@@ -78,7 +78,7 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
 
       controls.start({
         y: -currentRef.current,
-        transition: { duration: 0.3, ease: "linear" },
+        transition: { duration: 0.8, ease: "linear" },
       });
 
       if (onScrollChange) {
@@ -132,7 +132,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
   return (
     <>
       <div
-        className={`fixed inset-0 z-50 transition-opacity duration-300 ease-in-out ${
+        className={`fixed inset-0 z-50 transition-opacity duration-700 ease-in-out ${
           isOpen ? "opacity-100 pointer-events-auto bg-black/40" : "opacity-0 pointer-events-none"
         }`}
         onClick={onClose}
@@ -140,7 +140,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
       />
 
       <div
-        className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[55px] w-full lg:w-[540px] bg-black/20 backdrop-blur-sm text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
+        className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[55px] w-full lg:w-[540px] bg-black/20 backdrop-blur-sm text-white flex flex-col transform transition-transform duration-900 ease-out shadow-2xl select-none ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >

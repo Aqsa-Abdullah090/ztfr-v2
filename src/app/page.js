@@ -51,7 +51,7 @@ export default function Home() {
       </div>
 
       {/* 2. TOP HEADER UTILITY */}
-      <div className="pl-16 md:pl-20 z-10 transition-all duration-300">
+      <div className="pl-16 md:pl-20 z-10">
         {/* Yahan isSidebarOpen prop pass kiya hai */}
         <Header 
           onFlagClick={() => setIsRegionPanelOpen(true)} 
