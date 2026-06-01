@@ -7,11 +7,10 @@ import { countriesData } from "../../lib/countries_data";
 function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
   const controls = useAnimation();
   const containerRef = useRef(null);
-  const targetRef = useRef(0); // target scroll value
-  const currentRef = useRef(0); // current scroll position
+  const targetRef = useRef(0);
+  const currentRef = useRef(0);
   const rafRef = useRef(null);
 
-  // Jab popup close ho toh scroll target reset karne ke liye
   useEffect(() => {
     if (!isOpen) {
       targetRef.current = 0;
@@ -20,12 +19,10 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
     }
   }, [isOpen, controls]);
 
-  // Wheel and Touch listeners
   useEffect(() => {
     let startY = 0;
 
     const handleWheel = (e) => {
-      // Check if wrapper actually needs scrolling (content larger than container)
       const container = containerRef.current;
       if (!container) return;
       const contentHeight = container.firstElementChild?.scrollHeight || 0;
@@ -50,9 +47,9 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
       if (contentHeight > viewHeight) {
         e.preventDefault();
         const currentY = e.touches[0].clientY;
-        const deltaY = startY - currentY; // positive when swiping up
+        const deltaY = startY - currentY;
         startY = currentY;
-        targetRef.current += deltaY * 1.2; // scale factor
+        targetRef.current += deltaY * 1.2;
       }
     };
 
@@ -67,7 +64,6 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
     };
   }, []);
 
-  // Smooth animation loop with clamping
   useEffect(() => {
     const animate = () => {
       const container = containerRef.current;
@@ -77,10 +73,7 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
       const viewHeight = container.offsetHeight;
       const maxScroll = Math.max(0, contentHeight - viewHeight);
 
-      // clamp scroll range
       targetRef.current = Math.min(Math.max(targetRef.current, 0), maxScroll);
-
-      // smooth interpolation
       currentRef.current += (targetRef.current - currentRef.current) * 0.08;
 
       controls.start({
@@ -88,7 +81,6 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
         transition: { duration: 0.3, ease: "linear" },
       });
 
-      // detect scroll position for bottom fade/icon indicator
       if (onScrollChange) {
         const isAtBottom = currentRef.current >= maxScroll - 5;
         onScrollChange(isAtBottom);
@@ -119,6 +111,9 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
 // ---------------- Main Component ---------------- //
 export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId = 1, onSelectRegion }) {
   const [hideBottomIcon, setHideBottomIcon] = useState(false);
+  
+  // Hovered state track karne ke liye: { regionId: number, type: 'primary' | 'optional' | null }
+  const [hoveredItem, setHoveredItem] = useState({ regionId: null, type: null });
 
   // Escape key overlay handler
   useEffect(() => {
@@ -166,20 +161,27 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
         <SmoothScrollRegions onScrollChange={setHideBottomIcon} isOpen={isOpen}>
           {countriesData.map((region) => {
             const isActive = region.id === activeRegionId;
+            
+            // Check kar rahe hain ke kya is specific row ka koi element hovered hai
+            const isRowHovered = hoveredItem.regionId === region.id;
+            const isPrimaryHovered = isRowHovered && hoveredItem.type === "primary";
+            const isOptionalHovered = isRowHovered && hoveredItem.type === "optional";
 
             return (
               <div
                 key={region.id}
-                onClick={() => {
-                  if (onSelectRegion) onSelectRegion(region);
-                  onClose();
-                }}
                 className={`flex items-center cursor-pointer space-x-[20px] lg:space-x-[40px] transition-opacity ${
                   isActive ? "opacity-100" : "opacity-80 hover:opacity-100"
                 }`}
               >
                 {/* Left Column Flag Container */}
-                <div className="flex items-center flex-shrink-0">
+                <div 
+                  className="flex items-center flex-shrink-0"
+                  onClick={() => {
+                    if (onSelectRegion) onSelectRegion(region);
+                    onClose();
+                  }}
+                >
                   <img
                     src={region.country_flag}
                     alt={`${region.country_name} flag`}
@@ -193,18 +195,58 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
                 {/* Right Column Grid Layout Container */}
                 <div
                   className={`flex-1 grid grid-cols-3 gap-x-[3px] lg:gap-x-[10px] items-center text-[8.5px] lg:text-[12px] font-arial tracking-[1.5px] ${
-                    isActive ? "text-cyan-400 font-bold" : "text-white hover:text-cyan-400"
+                    isActive ? "text-cyan-400 font-bold" : "text-white"
                   }`}
                 >
                   {/* Column 1: Country Name */}
-                  <span className="uppercase">{region.country_name}</span>
+                  <span 
+                    onClick={() => {
+                      if (onSelectRegion) onSelectRegion(region);
+                      onClose();
+                    }}
+                    className={`uppercase transition-colors ${
+                      isActive 
+                        ? "text-cyan-400" 
+                        : (isPrimaryHovered || isOptionalHovered) ? "text-cyan-400" : "text-white"
+                    }`}
+                  >
+                    {region.country_name}
+                  </span>
 
                   {/* Column 2: Primary Language */}
-                  <span className="uppercase italic">{region.country_language}</span>
+                  <span 
+                    onClick={() => {
+                      if (onSelectRegion) onSelectRegion(region);
+                      onClose();
+                    }}
+                    onMouseEnter={() => setHoveredItem({ regionId: region.id, type: "primary" })}
+                    onMouseLeave={() => setHoveredItem({ regionId: null, type: null })}
+                    className={`uppercase italic transition-colors ${
+                      isActive 
+                        ? "text-cyan-400" 
+                        : isPrimaryHovered ? "text-cyan-400" : "text-white/60 hover:text-cyan-400"
+                    }`}
+                  >
+                    {region.country_language}
+                  </span>
 
                   {/* Column 3: Optional Secondary Language */}
                   {region.country_language_optional ? (
-                    <span className="uppercase italic">{region.country_language_optional}</span>
+                    <span 
+                      onClick={() => {
+                        if (onSelectRegion) onSelectRegion(region);
+                        onClose();
+                      }}
+                      onMouseEnter={() => setHoveredItem({ regionId: region.id, type: "optional" })}
+                      onMouseLeave={() => setHoveredItem({ regionId: null, type: null })}
+                      className={`uppercase italic transition-colors ${
+                        isActive 
+                          ? "text-cyan-400" 
+                          : isOptionalHovered ? "text-cyan-400" : "text-white/60 hover:text-cyan-400"
+                      }`}
+                    >
+                      {region.country_language_optional}
+                    </span>
                   ) : (
                     <span />
                   )}
