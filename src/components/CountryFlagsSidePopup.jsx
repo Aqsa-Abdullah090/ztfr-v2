@@ -112,10 +112,9 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
 export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId = 1, onSelectRegion }) {
   const [hideBottomIcon, setHideBottomIcon] = useState(false);
   
-  // Hovered state track karne ke liye: { regionId: number, type: 'primary' | 'optional' | null }
-  const [hoveredItem, setHoveredItem] = useState({ regionId: null, type: null });
+  // Hovered state track karne ke liye state (e.g., { regionId: 1, type: 'primary' | 'optional' })
+  const [hoveredRow, setHoveredRow] = useState({ id: null, type: null });
 
-  // Escape key overlay handler
   useEffect(() => {
     const handleEscape = (e) => {
       if (e.key === "Escape") onClose();
@@ -132,7 +131,6 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
 
   return (
     <>
-      {/* Backdrop overlay */}
       <div
         className={`fixed inset-0 z-50 transition-opacity duration-300 ease-in-out ${
           isOpen ? "opacity-100 pointer-events-auto bg-black/40" : "opacity-0 pointer-events-none"
@@ -141,13 +139,11 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
         aria-hidden="true"
       />
 
-      {/* Slide-over panel */}
       <div
         className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[55px] w-full lg:w-[540px] bg-black/20 backdrop-blur-sm text-white flex flex-col transform transition-transform duration-300 ease-out shadow-2xl select-none ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        {/* Panel Header */}
         <div className="pt-[30px] lg:pt-[45px] space-y-[10px] lg:space-y-[20px] flex-shrink-0">
           <h2 className="text-[12px] lg:text-[14px] tracking-[1px] uppercase font-arial">
             CHOOSE YOUR COUNTRY OR REGION
@@ -157,31 +153,26 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
           </p>
         </div>
 
-        {/* Smooth Scroll Wrapper applied here */}
         <SmoothScrollRegions onScrollChange={setHideBottomIcon} isOpen={isOpen}>
           {countriesData.map((region) => {
             const isActive = region.id === activeRegionId;
-            
-            // Check kar rahe hain ke kya is specific row ka koi element hovered hai
-            const isRowHovered = hoveredItem.regionId === region.id;
-            const isPrimaryHovered = isRowHovered && hoveredItem.type === "primary";
-            const isOptionalHovered = isRowHovered && hoveredItem.type === "optional";
+            const isRowHovered = hoveredRow.id === region.id;
 
             return (
               <div
                 key={region.id}
+                onClick={() => {
+                  if (onSelectRegion) onSelectRegion(region);
+                  onClose();
+                }}
                 className={`flex items-center cursor-pointer space-x-[20px] lg:space-x-[40px] transition-opacity ${
                   isActive ? "opacity-100" : "opacity-80 hover:opacity-100"
                 }`}
+                // Pure row se mouse leave hote hi state reset
+                onMouseLeave={() => setHoveredRow({ id: null, type: null })}
               >
-                {/* Left Column Flag Container */}
-                <div 
-                  className="flex items-center flex-shrink-0"
-                  onClick={() => {
-                    if (onSelectRegion) onSelectRegion(region);
-                    onClose();
-                  }}
-                >
+                {/* Flag Container */}
+                <div className="flex items-center flex-shrink-0">
                   <img
                     src={region.country_flag}
                     alt={`${region.country_name} flag`}
@@ -192,7 +183,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
                   />
                 </div>
 
-                {/* Right Column Grid Layout Container */}
+                {/* Grid Layout Container */}
                 <div
                   className={`flex-1 grid grid-cols-3 gap-x-[3px] lg:gap-x-[10px] items-center text-[8.5px] lg:text-[12px] font-arial tracking-[1.5px] ${
                     isActive ? "text-cyan-400 font-bold" : "text-white"
@@ -200,32 +191,28 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
                 >
                   {/* Column 1: Country Name */}
                   <span 
-                    onClick={() => {
-                      if (onSelectRegion) onSelectRegion(region);
-                      onClose();
-                    }}
                     className={`uppercase transition-colors ${
                       isActive 
                         ? "text-cyan-400" 
-                        : (isPrimaryHovered || isOptionalHovered) ? "text-cyan-400" : "text-white"
+                        : isRowHovered 
+                          ? "text-cyan-400" 
+                          : "text-white"
                     }`}
+                    onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
                   >
                     {region.country_name}
                   </span>
 
                   {/* Column 2: Primary Language */}
                   <span 
-                    onClick={() => {
-                      if (onSelectRegion) onSelectRegion(region);
-                      onClose();
-                    }}
-                    onMouseEnter={() => setHoveredItem({ regionId: region.id, type: "primary" })}
-                    onMouseLeave={() => setHoveredItem({ regionId: null, type: null })}
                     className={`uppercase italic transition-colors ${
                       isActive 
                         ? "text-cyan-400" 
-                        : isPrimaryHovered ? "text-cyan-400" : "text-white/60 hover:text-cyan-400"
+                        : (isRowHovered && hoveredRow.type === "primary") 
+                          ? "text-cyan-400" 
+                          : "text-white"
                     }`}
+                    onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
                   >
                     {region.country_language}
                   </span>
@@ -233,17 +220,14 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
                   {/* Column 3: Optional Secondary Language */}
                   {region.country_language_optional ? (
                     <span 
-                      onClick={() => {
-                        if (onSelectRegion) onSelectRegion(region);
-                        onClose();
-                      }}
-                      onMouseEnter={() => setHoveredItem({ regionId: region.id, type: "optional" })}
-                      onMouseLeave={() => setHoveredItem({ regionId: null, type: null })}
                       className={`uppercase italic transition-colors ${
                         isActive 
                           ? "text-cyan-400" 
-                          : isOptionalHovered ? "text-cyan-400" : "text-white/60 hover:text-cyan-400"
+                          : (isRowHovered && hoveredRow.type === "optional") 
+                            ? "text-cyan-400" 
+                            : "text-white"
                       }`}
+                      onMouseEnter={() => setHoveredRow({ id: region.id, type: "optional" })}
                     >
                       {region.country_language_optional}
                     </span>
