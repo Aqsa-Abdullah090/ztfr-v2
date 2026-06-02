@@ -133,7 +133,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
     <>
       <div
         className={`fixed inset-0 z-50 transition-opacity duration-700 ease-in-out ${
-          isOpen ? "opacity-100 pointer-events-auto bg-black/40" : "opacity-0 pointer-events-none"
+          isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
         onClick={onClose}
         aria-hidden="true"
@@ -165,10 +165,8 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
                   if (onSelectRegion) onSelectRegion(region);
                   onClose();
                 }}
-                className={`flex items-center cursor-pointer space-x-[20px] lg:space-x-[40px] transition-opacity ${
-                  isActive ? "opacity-100" : "opacity-80 hover:opacity-100"
-                }`}
-                // Pure row se mouse leave hote hi state reset
+                className={`flex items-center cursor-pointer space-x-[20px] lg:space-x-[40px] transition-opacity `}
+        
                 onMouseLeave={() => setHoveredRow({ id: null, type: null })}
               >
                 {/* Flag Container */}
@@ -176,9 +174,7 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
                   <img
                     src={region.country_flag}
                     alt={`${region.country_name} flag`}
-                    className={`w-[30px] lg:w-[40px] h-auto object-contain transition-transform ${
-                      isActive ? "scale-110" : ""
-                    }`}
+                    className={"w-[30px] lg:w-[40px] h-auto object-contain transition-transform "}
                     loading="lazy"
                   />
                 </div>
@@ -186,16 +182,16 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
                 {/* Grid Layout Container */}
                 <div
                   className={`flex-1 grid grid-cols-3 gap-x-[3px] lg:gap-x-[10px] items-center text-[8.5px] lg:text-[12px] font-arial tracking-[1.5px] ${
-                    isActive ? "text-cyan-400 font-bold" : "text-white"
+                    isActive ? "text-[#0098AA] font-bold" : "text-white"
                   }`}
                 >
                   {/* Column 1: Country Name */}
                   <span 
                     className={`uppercase transition-colors ${
                       isActive 
-                        ? "text-cyan-400" 
+                        ? "text-[#0098AA]" 
                         : isRowHovered 
-                          ? "text-cyan-400" 
+                          ? "text-[#0098AA]" 
                           : "text-white"
                     }`}
                     onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
@@ -207,9 +203,9 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
                   <span 
                     className={`uppercase italic transition-colors ${
                       isActive 
-                        ? "text-cyan-400" 
+                        ? "text-[#0098AA]" 
                         : (isRowHovered && hoveredRow.type === "primary") 
-                          ? "text-cyan-400" 
+                          ? "text-[#0098AA]" 
                           : "text-white"
                     }`}
                     onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
@@ -222,9 +218,9 @@ export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId 
                     <span 
                       className={`uppercase italic transition-colors ${
                         isActive 
-                          ? "text-cyan-400" 
+                          ? "text-[#0098AA]" 
                           : (isRowHovered && hoveredRow.type === "optional") 
-                            ? "text-cyan-400" 
+                            ? "text-[#0098AA]" 
                             : "text-white"
                       }`}
                       onMouseEnter={() => setHoveredRow({ id: region.id, type: "optional" })}
