@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation"; 
 import { useEffect, useState } from "react";
-import store from "@/src/store";
+import store from "@/store";
 
 import VisitorUser from "@/components/startup/VisitorUser";
 import Loading from "@/components/startup/Loading";

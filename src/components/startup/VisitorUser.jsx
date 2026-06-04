@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import {
   fetchVisitor,
   loadVisitor,
-} from "../../src/store/features/visitorSlice";
+} from "../../store/features/visitorSlice";
 import { useDispatch, useSelector } from "react-redux";
 
 function VisitorUser({ loading, setLoading }) {
