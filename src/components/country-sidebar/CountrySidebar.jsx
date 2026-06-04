@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
-import { countriesData } from "../../lib/countries_data";
+import { countriesData } from "../../../lib/countries_data";
 
 // ---------------- Smooth Scroll Wrapper ---------------- //
 function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
@@ -109,7 +109,7 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
 }
 
 // ---------------- Main Component ---------------- //
-export default function CountryFlagsSidePopup({ isOpen, onClose, activeRegionId = 1, onSelectRegion }) {
+export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 1, onSelectRegion }) {
   const [hideBottomIcon, setHideBottomIcon] = useState(false);
   
   // Hovered state track karne ke liye state (e.g., { regionId: 1, type: 'primary' | 'optional' })
