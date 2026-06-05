@@ -1,7 +1,7 @@
 "use client";
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef, useMemo } from "react";
 import { motion, useAnimation } from "framer-motion";
-import { countriesData } from "../../../lib/countries_data";
+import { countriesData } from "../../lib/countries_data";
 
 // ---------------- Smooth Scroll Wrapper ---------------- //
 function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
@@ -10,22 +10,17 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
   const targetRef = useRef(0);
   const currentRef = useRef(0);
   const rafRef = useRef(null);
-  
-  // Track karega ki current device desktop hai ya mobile
   const [isDesktop, setIsDesktop] = useState(false);
 
-  // Screen size dynamically track karne ke liye hook equivalent
   useEffect(() => {
     const checkDevice = () => {
-      setIsDesktop(window.innerWidth >= 1024); // lg breakpoint: 1024px
+      setIsDesktop(window.innerWidth >= 1024);
     };
-    
-    checkDevice(); // Initial check
+    checkDevice();
     window.addEventListener("resize", checkDevice);
     return () => window.removeEventListener("resize", checkDevice);
   }, []);
 
-  // Reset positioning when sidebar closes or layout changes
   useEffect(() => {
     if (!isOpen || !isDesktop) {
       targetRef.current = 0;
@@ -34,10 +29,8 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
     }
   }, [isOpen, isDesktop, controls]);
 
-  // Touch and Wheel listeners - ONLY FOR DESKTOP
   useEffect(() => {
-    if (!isDesktop) return; // Mobile par in custom events ki zaroorat nahi hai
-
+    if (!isDesktop) return;
     let startY = 0;
 
     const handleWheel = (e) => {
@@ -45,23 +38,18 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
       if (!container) return;
       const contentHeight = container.firstElementChild?.scrollHeight || 0;
       const viewHeight = container.offsetHeight;
-      
       if (contentHeight > viewHeight) {
         e.preventDefault();
         targetRef.current += e.deltaY;
       }
     };
 
-    const handleTouchStart = (e) => {
-      startY = e.touches[0].clientY;
-    };
-
+    const handleTouchStart = (e) => { startY = e.touches[0].clientY; };
     const handleTouchMove = (e) => {
       const container = containerRef.current;
       if (!container) return;
       const contentHeight = container.firstElementChild?.scrollHeight || 0;
       const viewHeight = container.offsetHeight;
-
       if (contentHeight > viewHeight) {
         e.preventDefault();
         const currentY = e.touches[0].clientY;
@@ -74,7 +62,6 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
     window.addEventListener("wheel", handleWheel, { passive: false });
     window.addEventListener("touchstart", handleTouchStart, { passive: false });
     window.addEventListener("touchmove", handleTouchMove, { passive: false });
-
     return () => {
       window.removeEventListener("wheel", handleWheel);
       window.removeEventListener("touchstart", handleTouchStart);
@@ -82,14 +69,11 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
     };
   }, [isDesktop]);
 
-  // Animation Loop (RAF) - ONLY FOR DESKTOP
   useEffect(() => {
-    if (!isDesktop) return; // Mobile par requestAnimationFrame run nahi hoga
-
+    if (!isDesktop) return;
     const animate = () => {
       const container = containerRef.current;
       if (!container || !container.firstElementChild) return;
-
       const contentHeight = container.firstElementChild.scrollHeight;
       const viewHeight = container.offsetHeight;
       const maxScroll = Math.max(0, contentHeight - viewHeight);
@@ -103,55 +87,39 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
       });
 
       if (onScrollChange) {
-        const isAtBottom = currentRef.current >= maxScroll - 5;
-        onScrollChange(isAtBottom);
+        onScrollChange(currentRef.current >= maxScroll - 5);
       }
-
       rafRef.current = requestAnimationFrame(animate);
     };
-
     animate();
-    return () => {
-      if (rafRef.current) cancelAnimationFrame(rafRef.current);
-    };
+    return () => { if (rafRef.current) cancelAnimationFrame(rafRef.current); };
   }, [controls, onScrollChange, isDesktop]);
-
-  // Mobile fallback native scroll checker
-  const handleNativeScroll = (e) => {
-    if (isDesktop || !onScrollChange) return;
-    const { scrollTop, scrollHeight, clientHeight } = e.currentTarget;
-    const isAtBottom = scrollTop + clientHeight >= scrollHeight - 5;
-    onScrollChange(isAtBottom);
-  };
 
   return (
     <div 
       ref={containerRef} 
-      onScroll={handleNativeScroll}
-      className={`flex-1 mt-[20px] lg:pt-[20px] ${
-        isDesktop ? "overflow-hidden" : "overflow-y-auto scrolling-touch"
-      }`}
+      onScroll={(e) => {
+        if (isDesktop || !onScrollChange) return;
+        const { scrollTop, scrollHeight, clientHeight } = e.currentTarget;
+        onScrollChange(scrollTop + clientHeight >= scrollHeight - 5);
+      }}
+      className={`flex-1 mt-[20px] lg:pt-[20px] ${isDesktop ? "overflow-hidden" : "overflow-y-auto scrolling-touch"}`}
     >
-      <motion.div
-        animate={isDesktop ? controls : { y: 0 }}
-        className="relative w-full will-change-transform space-y-[25px] lg:space-y-[30px] pb-[30px] lg:pb-[60px]"
-        style={{ y: 0 }}
-      >
+      <motion.div animate={isDesktop ? controls : { y: 0 }} className="relative w-full space-y-[25px] lg:space-y-[30px] pb-[30px] lg:pb-[60px]">
         {children}
       </motion.div>
     </div>
   );
 }
 
-// ---------------- Main Component ---------------- //
-export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 1, onSelectRegion }) {
+// ---------------- Main Sidebar Component ---------------- //
+export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = null, onSelectRegion }) {
   const [hideBottomIcon, setHideBottomIcon] = useState(false);
   const [hoveredRow, setHoveredRow] = useState({ id: null, type: null });
 
+  // Escape key listener & body overflow lock
   useEffect(() => {
-    const handleEscape = (e) => {
-      if (e.key === "Escape") onClose();
-    };
+    const handleEscape = (e) => { if (e.key === "Escape") onClose(); };
     if (isOpen) {
       window.addEventListener("keydown", handleEscape);
       document.body.style.overflow = "hidden";
@@ -162,23 +130,33 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
     };
   }, [isOpen, onClose]);
 
+  // CORE LOGIC: Selected flag ko list me top par filter kar ke push karna
+  const orderedCountries = useMemo(() => {
+    if (!activeRegionId) return countriesData;
+
+    // Active country item isolated extract karein
+    const activeItem = countriesData.find(item => item.id === activeRegionId);
+    
+    if (!activeItem) return countriesData;
+
+    // Remaining items nikalien jo active nahi hain
+    const remainingItems = countriesData.filter(item => item.id !== activeRegionId);
+
+    // Active item ko list ke sabse top (0 index) par array me push karein
+    return [activeItem, ...remainingItems];
+  }, [activeRegionId]);
+
   return (
     <>
       {/* Backdrop */}
-      <div
-        className={`fixed inset-0 z-50 transition-opacity duration-700 ease-in-out ${
-          isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
-        }`}
-        onClick={onClose}
-        aria-hidden="true"
+      <div 
+        className={`fixed inset-0 z-50 transition-opacity duration-700 ease-in-out ${isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`} 
+        onClick={onClose} 
       />
 
       {/* Sidebar Panel */}
-      <div
-        className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[55px] w-full lg:w-[540px] bg-black/20 backdrop-blur-sm text-white flex flex-col transform transition-transform duration-900 ease-out shadow-2xl select-none ${
-          isOpen ? "translate-x-0" : "translate-x-full"
-        }`}
-      >
+      <div className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[55px] w-full lg:w-[540px] bg-black/20 backdrop-blur-sm text-white flex flex-col transform transition-transform duration-900 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
+        
         <div className="pt-[30px] lg:pt-[45px] space-y-[10px] lg:space-y-[20px] flex-shrink-0">
           <h2 className="text-[12px] lg:text-[14px] tracking-[1px] uppercase font-arial">
             CHOOSE YOUR COUNTRY OR REGION
@@ -188,9 +166,10 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
           </p>
         </div>
 
+        {/* Scroll Container Rendering Sorted Array */}
         <SmoothScrollRegions onScrollChange={setHideBottomIcon} isOpen={isOpen}>
-          {countriesData.map((region) => {
-            const isActive = region.id === activeRegionId;
+          {orderedCountries.map((region) => {
+            const isActive = activeRegionId !== null && region.id === activeRegionId;
             const isRowHovered = hoveredRow.id === region.id;
 
             return (
@@ -203,7 +182,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                 className="flex items-center cursor-pointer space-x-[20px] lg:space-x-[40px] transition-opacity"
                 onMouseLeave={() => setHoveredRow({ id: null, type: null })}
               >
-                {/* Flag Container */}
+                {/* Flag Asset */}
                 <div className="flex items-center flex-shrink-0">
                   <img
                     src={region.country_flag}
@@ -213,7 +192,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                   />
                 </div>
 
-                {/* Grid Layout Container */}
+                {/* Grid UI Context Wrapper */}
                 <div
                   className={`flex-1 grid grid-cols-3 gap-x-[3px] lg:gap-x-[10px] items-center text-[8.5px] lg:text-[12px] font-arial tracking-[1.5px] ${
                     isActive ? "text-[#0098AA] font-bold" : "text-white"
@@ -222,11 +201,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                   {/* Column 1: Country Name */}
                   <span 
                     className={`uppercase transition-colors ${
-                      isActive 
-                        ? "text-[#0098AA]" 
-                        : isRowHovered 
-                          ? "text-[#0098AA]" 
-                          : "text-white"
+                      isActive || isRowHovered ? "text-[#0098AA]" : "text-white"
                     }`}
                     onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
                   >
@@ -236,26 +211,18 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                   {/* Column 2: Primary Language */}
                   <span 
                     className={`uppercase italic transition-colors ${
-                      isActive 
-                        ? "text-[#0098AA]" 
-                        : (isRowHovered && hoveredRow.type === "primary") 
-                          ? "text-[#0098AA]" 
-                          : "text-white"
+                      isActive || (isRowHovered && hoveredRow.type === "primary") ? "text-[#0098AA]" : "text-white"
                     }`}
                     onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
                   >
                     {region.country_language}
                   </span>
 
-                  {/* Column 3: Optional Secondary Language */}
+                  {/* Column 3: Secondary Optional Language */}
                   {region.country_language_optional ? (
                     <span 
                       className={`uppercase italic transition-colors ${
-                        isActive 
-                          ? "text-[#0098AA]" 
-                          : (isRowHovered && hoveredRow.type === "optional") 
-                            ? "text-[#0098AA]" 
-                            : "text-white"
+                        isActive || (isRowHovered && hoveredRow.type === "optional") ? "text-[#0098AA]" : "text-white"
                       }`}
                       onMouseEnter={() => setHoveredRow({ id: region.id, type: "optional" })}
                     >

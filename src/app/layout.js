@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
       <head />
       <body className="bg-black">
         <Providers>
-          <Home />
+   
           {children}
         </Providers>
       </body>

@@ -37,11 +37,18 @@ export const visitorSlice = createSlice({
     isAllowed: true,
   },
   reducers: {
-    loadVisitor: (state) => {
-      state.status = "success";
-      state.data = JSON.parse(localStorage.getItem("visitor_data"));
-    },
+  loadVisitor: (state) => {
+    const localData = localStorage.getItem("visitor_data");
+    if (localData) {
+      try {
+        state.status = "success";
+        state.data = JSON.parse(localData);
+      } catch (e) {
+        console.error("Error parsing initial local visitor data", e);
+      }
+    }
   },
+},
   extraReducers(builder) {
     builder
       .addCase(fetchVisitor.pending, (state) => {

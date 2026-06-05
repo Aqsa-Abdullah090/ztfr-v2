@@ -1,30 +1,103 @@
 'use client';
 import { useState, useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchVisitor, loadVisitor } from '@/store/features/visitorSlice'; 
 import Header from '@/components/home/header/Header';
 import Footer from '@/components/home/footer/Footer';
 import SidePopup from '@/components/SidePopup';
-import CountryFlagsSidePopup from '@/components/country-sidebar/CountrySidebar';
+import CountryFlagsSidebar from '@/components/country-sidebar/CountrySidebar';
+import { countriesData } from '@/lib/countries_data';
 
 export default function Home() {
+  const dispatch = useDispatch();
   const [isPanelOpen, setIsPanelOpen] = useState(false);
   const [isRegionPanelOpen, setIsRegionPanelOpen] = useState(false);
-  
-  const [selectedRegion, setSelectedRegion] = useState({
-    id: 1,
-    country_name: 'UK',
-    country_flag: '🇬🇧'
-  });
+  const [selectedRegion, setSelectedRegion] = useState(null);
 
+  // Redux telemetry connection
+  const visitorState = useSelector((state) => state.visitor);
+  const visitorData = visitorState?.data;
+
+  // 1. Initial Load Matrix
   useEffect(() => {
+    dispatch(loadVisitor()); // Instant local storage load
+    dispatch(fetchVisitor()); // Background dynamic fetch
+  }, [dispatch]);
+
+  // 2. Heavy-Duty Synchronization Loop
+  useEffect(() => {
+    // Priority 1: User Explicit Selection (LocalStorage Locked Preference)
     const savedRegion = localStorage.getItem('activeRegion');
     if (savedRegion) {
       try {
-        setSelectedRegion(JSON.parse(savedRegion));
+        const parsed = JSON.parse(savedRegion);
+        if (parsed && parsed.id) {
+          setSelectedRegion(parsed);
+          return; 
+        }
       } catch (e) {
-        console.error("Error parsing localStorage region:", e);
+        console.error("Active region storage parse error:", e);
       }
     }
-  }, []);
+
+    // Priority 2: Extracting From Visitor Data (Redux State)
+    if (visitorData) {
+      // API Object Keys Logging Fallbacks (Har kism ki API structure ko read karne ke liye)
+      const apiCountryCode = visitorData?.countryCode || 
+                            visitorData?.country_code || 
+                            visitorData?.country?.country_code || 
+                            visitorData?.country?.code ||
+                            visitorData?.geo?.country_code;
+
+      const dynamicFlagUrl = visitorData?.country?.flag_url || visitorData?.flag_url || visitorData?.flag;
+      const apiCountryName = visitorData?.country_name || visitorData?.country?.country_name || visitorData?.country;
+
+      if (apiCountryCode) {
+        const cleanApiCode = String(apiCountryCode).trim().toLowerCase();
+
+        // Matching strategy with local data array
+        const matchedCountry = countriesData.find((c) => {
+          const localCode = c.country_code || c.code || c.id;
+          return localCode && String(localCode).trim().toLowerCase() === cleanApiCode;
+        });
+
+        if (matchedCountry) {
+          setSelectedRegion({
+            id: matchedCountry.id,
+            country_name: matchedCountry.country_name,
+            country_flag: dynamicFlagUrl || matchedCountry.country_flag || matchedCountry.country_emoji
+          });
+          return;
+        }
+      }
+
+      // ULTIMATE FALLBACK: Agar dynamic code string phir bhi match na ho, lekin API name bhej rahi ho
+      if (apiCountryName && typeof apiCountryName === 'string') {
+        const cleanApiName = apiCountryName.trim().toLowerCase();
+        const matchedByName = countriesData.find((c) => 
+          c.country_name && c.country_name.trim().toLowerCase() === cleanApiName
+        );
+
+        if (matchedByName) {
+          setSelectedRegion({
+            id: matchedByName.id,
+            country_name: matchedByName.country_name,
+            country_flag: dynamicFlagUrl || matchedByName.country_flag || matchedByName.country_emoji
+          });
+          return;
+        }
+      }
+
+      // EXTRA EMERGENCY SAFEGUARD: Agar kuch bhi match nahi hua toh safe asset mapping lagayein
+      if (dynamicFlagUrl) {
+        setSelectedRegion({
+          id: 'dynamic-api-node',
+          country_name: typeof apiCountryName === 'string' ? apiCountryName : 'Detected Region',
+          country_flag: dynamicFlagUrl
+        });
+      }
+    }
+  }, [visitorData]);
 
   const handleRegionSelect = (region) => {
     const updatedRegion = {
@@ -38,68 +111,45 @@ export default function Home() {
 
   return (
     <main className="relative h-screen w-full overflow-hidden text-white flex flex-col justify-between bg-transparent">
-      
-      {/* 1. CINEMATIC BACKGROUND LAYER */}
       <div className="absolute inset-0 -z-10">
-        <img
-          src="/assets/14.jpeg"
-          alt="Background image"
-          className="absolute inset-0 h-full w-full object-cover"
-        />
+        <img src="/assets/14.jpeg" alt="Background graphic" className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-black/20 pointer-events-none" />
       </div>
 
-      {/* 2. TOP HEADER UTILITY */}
       <div className="pl-16 md:pl-20 z-10">
-        {/* Yahan isSidebarOpen prop pass kiya hai */}
         <Header 
           onFlagClick={() => setIsRegionPanelOpen(true)} 
-          selectedRegion={selectedRegion}
+          selectedRegion={selectedRegion} 
           isSidebarOpen={isRegionPanelOpen} 
         />
       </div>
 
-      {/* 3. CENTRAL WORKSPACE SCREEN */}
-      <section className="relative flex-1 flex flex-col items-center justify-center px-6 pl-20 md:pl-24 text-center z-10 transition-all duration-300">
+      <section className="relative flex-1 flex flex-col items-center justify-center px-6 pl-20 md:pl-24 text-center z-10">
         <div className="max-w-3xl w-full p-8 space-y-6">
           <div className="space-y-4 select-none">
-            <p className="text-[11px] font-bold tracking-[0.3em] text-white/50 uppercase font-mono">
-              SYSTEM INTERFACE ACTIVE
-            </p>
+            <p className="text-[11px] font-bold tracking-[0.3em] text-white/50 uppercase font-mono">SYSTEM INTERFACE ACTIVE</p>
             <h1 className="text-sm md:text-base font-medium tracking-[0.15em] text-slate-200 max-w-xl mx-auto uppercase leading-relaxed font-sans">
               UPLOAD FILES OR FOLDERS BY DROPPING THEM ANYWHERE IN THIS WINDOW
             </h1>
           </div>
-
           <div className="pt-4">
-            <button
-              onClick={() => setIsPanelOpen(true)}
-              className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 hover:bg-white/20 backdrop-blur-md px-6 py-2.5 text-xs font-semibold tracking-widest uppercase transition-all active:scale-95"
-            >
+            <button onClick={() => setIsPanelOpen(true)} className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 hover:bg-white/20 backdrop-blur-md px-6 py-2.5 text-xs font-semibold tracking-widest uppercase transition-all active:scale-95">
               Open Transfer Panel
             </button>
           </div>
         </div>
       </section>
 
-      {/* 4. BASE FOOTER SYSTEM METRICS */}
-      <div className="pl-16 md:pl-20 transition-all duration-300">
+      <div className="pl-16 md:pl-20">
         <Footer />
       </div>
 
-      {/* 5. SLIDE-OUT FILE TRANSFER MANAGER */}
-      <SidePopup 
-        isOpen={isPanelOpen} 
-        onClose={() => setIsPanelOpen(false)} 
-        onOpen={() => setIsPanelOpen(true)} 
-        title="UPLOAD FILES"
-      />
+      <SidePopup isOpen={isPanelOpen} onClose={() => setIsPanelOpen(false)} title="UPLOAD FILES" />
 
-      {/* 6. COUNTRY FLAGS SIDE POPUP */}
-      <CountryFlagsSidePopup 
+      <CountryFlagsSidebar 
         isOpen={isRegionPanelOpen} 
         onClose={() => setIsRegionPanelOpen(false)} 
-        activeRegionId={selectedRegion.id}
+        activeRegionId={selectedRegion?.id} 
         onSelectRegion={handleRegionSelect}
       />
     </main>
