@@ -1,7 +1,7 @@
 'use client'; // This is mandatory for client-side state/hooks
 
 import { Provider } from "react-redux";
-import { QueryClient, QueryClientProvider } from "react-query";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation"; 
 import { useEffect, useState } from "react";

@@ -10,16 +10,34 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
   const targetRef = useRef(0);
   const currentRef = useRef(0);
   const rafRef = useRef(null);
+  
+  // Track karega ki current device desktop hai ya mobile
+  const [isDesktop, setIsDesktop] = useState(false);
 
+  // Screen size dynamically track karne ke liye hook equivalent
   useEffect(() => {
-    if (!isOpen) {
+    const checkDevice = () => {
+      setIsDesktop(window.innerWidth >= 1024); // lg breakpoint: 1024px
+    };
+    
+    checkDevice(); // Initial check
+    window.addEventListener("resize", checkDevice);
+    return () => window.removeEventListener("resize", checkDevice);
+  }, []);
+
+  // Reset positioning when sidebar closes or layout changes
+  useEffect(() => {
+    if (!isOpen || !isDesktop) {
       targetRef.current = 0;
       currentRef.current = 0;
       controls.set({ y: 0 });
     }
-  }, [isOpen, controls]);
+  }, [isOpen, isDesktop, controls]);
 
+  // Touch and Wheel listeners - ONLY FOR DESKTOP
   useEffect(() => {
+    if (!isDesktop) return; // Mobile par in custom events ki zaroorat nahi hai
+
     let startY = 0;
 
     const handleWheel = (e) => {
@@ -62,9 +80,12 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
       window.removeEventListener("touchstart", handleTouchStart);
       window.removeEventListener("touchmove", handleTouchMove);
     };
-  }, []);
+  }, [isDesktop]);
 
+  // Animation Loop (RAF) - ONLY FOR DESKTOP
   useEffect(() => {
+    if (!isDesktop) return; // Mobile par requestAnimationFrame run nahi hoga
+
     const animate = () => {
       const container = containerRef.current;
       if (!container || !container.firstElementChild) return;
@@ -93,12 +114,26 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
     return () => {
       if (rafRef.current) cancelAnimationFrame(rafRef.current);
     };
-  }, [controls, onScrollChange]);
+  }, [controls, onScrollChange, isDesktop]);
+
+  // Mobile fallback native scroll checker
+  const handleNativeScroll = (e) => {
+    if (isDesktop || !onScrollChange) return;
+    const { scrollTop, scrollHeight, clientHeight } = e.currentTarget;
+    const isAtBottom = scrollTop + clientHeight >= scrollHeight - 5;
+    onScrollChange(isAtBottom);
+  };
 
   return (
-    <div ref={containerRef} className="flex-1 overflow-hidden mt-[20px] lg:pt-[20px]">
+    <div 
+      ref={containerRef} 
+      onScroll={handleNativeScroll}
+      className={`flex-1 mt-[20px] lg:pt-[20px] ${
+        isDesktop ? "overflow-hidden" : "overflow-y-auto scrolling-touch"
+      }`}
+    >
       <motion.div
-        animate={controls}
+        animate={isDesktop ? controls : { y: 0 }}
         className="relative w-full will-change-transform space-y-[25px] lg:space-y-[30px] pb-[30px] lg:pb-[60px]"
         style={{ y: 0 }}
       >
@@ -111,8 +146,6 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
 // ---------------- Main Component ---------------- //
 export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 1, onSelectRegion }) {
   const [hideBottomIcon, setHideBottomIcon] = useState(false);
-  
-  // Hovered state track karne ke liye state (e.g., { regionId: 1, type: 'primary' | 'optional' })
   const [hoveredRow, setHoveredRow] = useState({ id: null, type: null });
 
   useEffect(() => {
@@ -131,6 +164,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
 
   return (
     <>
+      {/* Backdrop */}
       <div
         className={`fixed inset-0 z-50 transition-opacity duration-700 ease-in-out ${
           isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
@@ -139,6 +173,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
         aria-hidden="true"
       />
 
+      {/* Sidebar Panel */}
       <div
         className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[55px] w-full lg:w-[540px] bg-black/20 backdrop-blur-sm text-white flex flex-col transform transition-transform duration-900 ease-out shadow-2xl select-none ${
           isOpen ? "translate-x-0" : "translate-x-full"
@@ -165,8 +200,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                   if (onSelectRegion) onSelectRegion(region);
                   onClose();
                 }}
-                className={`flex items-center cursor-pointer space-x-[20px] lg:space-x-[40px] transition-opacity `}
-        
+                className="flex items-center cursor-pointer space-x-[20px] lg:space-x-[40px] transition-opacity"
                 onMouseLeave={() => setHoveredRow({ id: null, type: null })}
               >
                 {/* Flag Container */}
@@ -174,7 +208,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                   <img
                     src={region.country_flag}
                     alt={`${region.country_name} flag`}
-                    className={"w-[30px] lg:w-[40px] h-auto object-contain transition-transform "}
+                    className="w-[30px] lg:w-[40px] h-auto object-contain transition-transform"
                     loading="lazy"
                   />
                 </div>

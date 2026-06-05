@@ -1,19 +1,24 @@
-import { useRouter } from "next/router";
+"use client";
+
 import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 import { useSelector } from "react-redux";
 
-/* eslint-disable @next/next/no-img-element */
 function Loading({ setLoading }) {
-  const { isAllowed } = useSelector((state) => state.visitor);
   const router = useRouter();
+
+  const isAllowed = useSelector(
+    (state) => state.visitor?.isAllowed
+  );
 
   useEffect(() => {
     if (isAllowed === false) {
       router.replace("/unavailable");
       setLoading(false);
     }
-  }, [isAllowed, router]);
+  }, [isAllowed, router, setLoading]);
 
   return null;
 }
+
 export default Loading;

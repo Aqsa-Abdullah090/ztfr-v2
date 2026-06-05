@@ -8,7 +8,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { appWithTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { QueryClient, QueryClientProvider } from "react-query";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Provider } from "react-redux";
 import "swiper/css";
 
