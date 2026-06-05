@@ -194,7 +194,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
 
                 {/* Grid UI Context Wrapper */}
                 <div
-                  className={`flex-1 grid grid-cols-3 gap-x-[20px] lg:gap-x-[40px] items-center text-[8.5px] lg:text-[12px] font-arial tracking-[1.5px] ${
+                  className={`flex-1 grid grid-cols-3 gap-x-[20px] lg:gap-x-[50px] items-center text-[8.5px] lg:text-[12px] font-arial tracking-[1.5px] ${
                     isActive ? "text-[#0098AA] font-bold" : "text-white"
                   }`}
                 >
