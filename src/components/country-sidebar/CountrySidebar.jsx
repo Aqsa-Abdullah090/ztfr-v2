@@ -155,7 +155,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
       />
 
       {/* Sidebar Panel */}
-      <div className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[55px] w-full lg:w-[540px] bg-black/20 backdrop-blur-sm text-white flex flex-col transform transition-transform duration-900 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
+      <div className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[45px] w-full lg:w-[480px] bg-black/20 backdrop-blur-sm text-white flex flex-col transform transition-transform duration-900 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
         
         <div className="pt-[30px] lg:pt-[45px] space-y-[10px] lg:space-y-[20px] flex-shrink-0">
           <h2 className="text-[12px] lg:text-[14px] tracking-[1px] uppercase font-arial">
@@ -179,7 +179,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                   if (onSelectRegion) onSelectRegion(region);
                   onClose();
                 }}
-                className="flex items-center cursor-pointer space-x-[20px] lg:space-x-[40px] transition-opacity"
+                className="flex items-center space-x-[20px] lg:space-x-[40px] transition-opacity"
                 onMouseLeave={() => setHoveredRow({ id: null, type: null })}
               >
                 {/* Flag Asset */}
@@ -194,13 +194,13 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
 
                 {/* Grid UI Context Wrapper */}
                 <div
-                  className={`flex-1 grid grid-cols-3 gap-x-[3px] lg:gap-x-[10px] items-center text-[8.5px] lg:text-[12px] font-arial tracking-[1.5px] ${
+                  className={`flex-1 grid grid-cols-3 gap-x-[20px] lg:gap-x-[40px] items-center text-[8.5px] lg:text-[12px] font-arial tracking-[1.5px] ${
                     isActive ? "text-[#0098AA] font-bold" : "text-white"
                   }`}
                 >
                   {/* Column 1: Country Name */}
                   <span 
-                    className={`uppercase transition-colors ${
+                    className={`uppercase whitespace-nowrap transition-colors cursor-pointer  ${
                       isActive || isRowHovered ? "text-[#0098AA]" : "text-white"
                     }`}
                     onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
@@ -210,7 +210,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
 
                   {/* Column 2: Primary Language */}
                   <span 
-                    className={`uppercase italic transition-colors ${
+                    className={`uppercase transition-colors cursor-pointer pl-[20px]  ${
                       isActive || (isRowHovered && hoveredRow.type === "primary") ? "text-[#0098AA]" : "text-white"
                     }`}
                     onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
@@ -221,7 +221,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                   {/* Column 3: Secondary Optional Language */}
                   {region.country_language_optional ? (
                     <span 
-                      className={`uppercase italic transition-colors ${
+                      className={`uppercase italic transition-colors cursor-pointer ${
                         isActive || (isRowHovered && hoveredRow.type === "optional") ? "text-[#0098AA]" : "text-white"
                       }`}
                       onMouseEnter={() => setHoveredRow({ id: region.id, type: "optional" })}

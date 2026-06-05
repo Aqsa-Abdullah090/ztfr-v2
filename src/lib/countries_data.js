@@ -1,13 +1,5 @@
 export const countriesData = [
   {
-    country_name: "پاکستان",
-    country_language: "اردو",
-    country_language_optional: "EN",
-    id: 19,
-    value: "PK",
-    country_flag: "/assets/flags/PAKISTAN.svg",
-  },
-  {
     country_name: "AUSTRALIA",
     country_language: "ENGLISH",
     id: 4,
@@ -128,6 +120,14 @@ export const countriesData = [
     value: "NO",
     country_flag: "/assets/flags/NORWAY.svg",
   },
+   {
+    country_name: "پاکستان",
+    country_language: "اردو",
+    country_language_optional: "EN",
+    id: 19,
+    value: "PK",
+    country_flag: "/assets/flags/PAKISTAN.svg",
+  },
   {
     country_name: "Philippines",
     country_language: "Tagalog",
@@ -136,6 +136,7 @@ export const countriesData = [
     value: "PH",
     country_flag: "/assets/flags/PHILIPPINES.svg",
   },
+
   {
     country_name: "Polska",
     country_language: "Polski",
