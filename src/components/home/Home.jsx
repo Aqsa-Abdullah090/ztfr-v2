@@ -1,12 +1,12 @@
-'use client';
-import { useState, useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { fetchVisitor, loadVisitor } from '@/store/features/visitorSlice'; 
-import Header from '@/components/home/header/Header';
-import Footer from '@/components/home/footer/Footer';
-import SidePopup from '@/components/SidePopup';
-import CountryFlagsSidebar from '@/components/country-sidebar/CountrySidebar';
-import { countriesData } from '@/lib/countries_data';
+"use client";
+import { useState, useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { fetchVisitor, loadVisitor } from "@/store/features/visitorSlice";
+import Header from "@/components/home/header/Header";
+import Footer from "@/components/home/footer/Footer";
+import SidePopup from "@/components/SidePopup";
+import CountryFlagsSidebar from "@/components/country-sidebar/CountrySidebar";
+import { countriesData } from "@/lib/countries_data";
 
 export default function Home() {
   const dispatch = useDispatch();
@@ -25,6 +25,7 @@ export default function Home() {
   }, [dispatch]);
 
   // 2. Heavy-Duty Synchronization Loop
+  // 2. Heavy-Duty Synchronization Loop
   useEffect(() => {
     // Priority 1: User Explicit Selection (LocalStorage Locked Preference)
     const savedRegion = localStorage.getItem('activeRegion');
@@ -42,7 +43,6 @@ export default function Home() {
 
     // Priority 2: Extracting From Visitor Data (Redux State)
     if (visitorData) {
-      // API Object Keys Logging Fallbacks (Har kism ki API structure ko read karne ke liye)
       const apiCountryCode = visitorData?.countryCode || 
                             visitorData?.country_code || 
                             visitorData?.country?.country_code || 
@@ -55,9 +55,9 @@ export default function Home() {
       if (apiCountryCode) {
         const cleanApiCode = String(apiCountryCode).trim().toLowerCase();
 
-        // Matching strategy with local data array
+        // Check local array 'value' field (like 'pk', 'in') as priority matching keys
         const matchedCountry = countriesData.find((c) => {
-          const localCode = c.country_code || c.code || c.id;
+          const localCode = c.value || c.country_code || c.code || c.id;
           return localCode && String(localCode).trim().toLowerCase() === cleanApiCode;
         });
 
@@ -65,33 +65,36 @@ export default function Home() {
           setSelectedRegion({
             id: matchedCountry.id,
             country_name: matchedCountry.country_name,
-            country_flag: dynamicFlagUrl || matchedCountry.country_flag || matchedCountry.country_emoji
+            country_flag: dynamicFlagUrl || matchedCountry.country_flag
           });
           return;
         }
       }
 
-      // ULTIMATE FALLBACK: Agar dynamic code string phir bhi match na ho, lekin API name bhej rahi ho
+      // ULTIMATE FALLBACK: Agar English Name ya Asset verification matches mil jayein
       if (apiCountryName && typeof apiCountryName === 'string') {
         const cleanApiName = apiCountryName.trim().toLowerCase();
-        const matchedByName = countriesData.find((c) => 
-          c.country_name && c.country_name.trim().toLowerCase() === cleanApiName
-        );
+        const matchedByName = countriesData.find((c) => {
+          const localName = String(c.country_name).trim().toLowerCase();
+          const localFlagPath = String(c.country_flag).trim().toLowerCase();
+          return localName === cleanApiName || localFlagPath.includes(cleanApiName);
+        });
 
         if (matchedByName) {
           setSelectedRegion({
             id: matchedByName.id,
             country_name: matchedByName.country_name,
-            country_flag: dynamicFlagUrl || matchedByName.country_flag || matchedByName.country_emoji
+            country_flag: dynamicFlagUrl || matchedByName.country_flag
           });
           return;
         }
       }
 
-      // EXTRA EMERGENCY SAFEGUARD: Agar kuch bhi match nahi hua toh safe asset mapping lagayein
+      // EXTRA EMERGENCY SAFEGUARD
       if (dynamicFlagUrl) {
+        const fallbackId = apiCountryCode ? String(apiCountryCode).trim().toLowerCase() : 'dynamic-api-node';
         setSelectedRegion({
-          id: 'dynamic-api-node',
+          id: fallbackId, 
           country_name: typeof apiCountryName === 'string' ? apiCountryName : 'Detected Region',
           country_flag: dynamicFlagUrl
         });
@@ -103,37 +106,46 @@ export default function Home() {
     const updatedRegion = {
       id: region.id,
       country_name: region.country_name,
-      country_flag: region.country_flag || region.country_emoji
+      country_flag: region.country_flag || region.country_emoji,
     };
     setSelectedRegion(updatedRegion);
-    localStorage.setItem('activeRegion', JSON.stringify(updatedRegion));
+    localStorage.setItem("activeRegion", JSON.stringify(updatedRegion));
   };
 
   return (
     <main className="relative h-screen w-full overflow-hidden text-white flex flex-col justify-between bg-transparent">
       <div className="absolute inset-0 -z-10">
-        <img src="/assets/14.jpeg" alt="Background graphic" className="absolute inset-0 h-full w-full object-cover" />
+        <img
+          src="/assets/14.jpeg"
+          alt="Background graphic"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
         <div className="absolute inset-0 bg-black/20 pointer-events-none" />
       </div>
 
       <div className="pl-16 md:pl-20 z-10">
-        <Header 
-          onFlagClick={() => setIsRegionPanelOpen(true)} 
-          selectedRegion={selectedRegion} 
-          isSidebarOpen={isRegionPanelOpen} 
+        <Header
+          onFlagClick={() => setIsRegionPanelOpen(true)}
+          selectedRegion={selectedRegion}
+          isSidebarOpen={isRegionPanelOpen}
         />
       </div>
 
       <section className="relative flex-1 flex flex-col items-center justify-center px-6 pl-20 md:pl-24 text-center z-10">
         <div className="max-w-3xl w-full p-8 space-y-6">
           <div className="space-y-4 select-none">
-            <p className="text-[11px] font-bold tracking-[0.3em] text-white/50 uppercase font-mono">SYSTEM INTERFACE ACTIVE</p>
+            <p className="text-[11px] font-bold tracking-[0.3em] text-white/50 uppercase font-mono">
+              SYSTEM INTERFACE ACTIVE
+            </p>
             <h1 className="text-sm md:text-base font-medium tracking-[0.15em] text-slate-200 max-w-xl mx-auto uppercase leading-relaxed font-sans">
               UPLOAD FILES OR FOLDERS BY DROPPING THEM ANYWHERE IN THIS WINDOW
             </h1>
           </div>
           <div className="pt-4">
-            <button onClick={() => setIsPanelOpen(true)} className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 hover:bg-white/20 backdrop-blur-md px-6 py-2.5 text-xs font-semibold tracking-widest uppercase transition-all active:scale-95">
+            <button
+              onClick={() => setIsPanelOpen(true)}
+              className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 hover:bg-white/20 backdrop-blur-md px-6 py-2.5 text-xs font-semibold tracking-widest uppercase transition-all active:scale-95"
+            >
               Open Transfer Panel
             </button>
           </div>
@@ -144,12 +156,17 @@ export default function Home() {
         <Footer />
       </div>
 
-      <SidePopup isOpen={isPanelOpen} onClose={() => setIsPanelOpen(false)} title="UPLOAD FILES" />
+      <SidePopup
+        isOpen={isPanelOpen}
+        onClose={() => setIsPanelOpen(false)}
+        title="UPLOAD FILES"
+      />
 
-      <CountryFlagsSidebar 
-        isOpen={isRegionPanelOpen} 
-        onClose={() => setIsRegionPanelOpen(false)} 
-        activeRegionId={selectedRegion?.id} 
+      <CountryFlagsSidebar
+        isOpen={isRegionPanelOpen}
+        onClose={() => setIsRegionPanelOpen(false)}
+        activeRegionId={selectedRegion?.id}
+        selectedRegion={selectedRegion} // YEH WALA PROP ZAROOR ADD KAREIN
         onSelectRegion={handleRegionSelect}
       />
     </main>

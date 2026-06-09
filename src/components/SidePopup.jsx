@@ -7,6 +7,7 @@ export default function SidePopup({
   onClose,
   onOpen,
   title = "UPLOAD FILES",
+  selectedRegion, // Recieving the state tracking node from Home layout
 }) {
   const [fileTitle, setFileTitle] = useState("");
   const [fileNote, setFileNote] = useState("");
@@ -38,15 +39,19 @@ export default function SidePopup({
     }
   };
 
+  // Safely fallback tracking properties
+  const currentCountry = selectedRegion?.country_name || "Global Node";
+  
+  // Dynamic language configuration map (agar local data array me language structure na ho to base tracking fallback)
+  const currentLanguage = selectedRegion?.language || "EN / International";
+
   return (
     <>
       {/* 1. MINIMIZED SIDEBAR STRIP */}
       <div
         onClick={isOpen ? undefined : onOpen}
-        className={`fixed inset-y-0 left-0 z-40 w-16 md:w-20 bg-black/50 backdrop-blur-md  flex flex-col items-center justify-between py-8 transition-all duration-300 select-none ${
-          isOpen
-            ? "opacity-0 pointer-events-none"
-            : "opacity-100 cursor-pointer"
+        className={`fixed inset-y-0 left-0 z-40 w-16 md:w-20 bg-black/50 backdrop-blur-md flex flex-col items-center justify-between py-8 transition-all duration-300 select-none ${
+          isOpen ? "opacity-0 pointer-events-none" : "opacity-100 cursor-pointer"
         }`}
       >
         <div className="flex-1 flex items-center justify-center">
@@ -65,18 +70,9 @@ export default function SidePopup({
 
       {/* 2. BACKDROP OVERLAY */}
       <div
-        className={`
-                fixed sm:relative top-0 left-0 flex flex-col
-                w-full sm:w-48 md:w-60 lg:w-120
-                h-screen
-                bg-black/20 backdrop-blur-sm
-                overflow-hidden z-40
-                transition-transform duration-300 ease-in-out -translate-x-full sm:translate-x-0
-             ${
-               isOpen
-                 ? "opacity-100 pointer-events-auto"
-                 : "opacity-0 pointer-events-none"
-             }`}
+        className={`fixed inset-0 bg-black/20 backdrop-blur-sm overflow-hidden z-40 transition-all duration-300 ${
+          isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+        }`}
         onClick={onClose}
         aria-hidden="true"
       />
@@ -95,7 +91,7 @@ export default function SidePopup({
           <button
             onClick={triggerFileSelect}
             type="button"
-            className="w-1/3 transition-colors flex items-center justify-center group relative overflow-hidden"
+            className="w-1/3 transition-colors flex items-center justify-center group relative overflow-hidden bg-slate-50/50 hover:bg-slate-50"
           >
             <span className="text-5xl font-light text-slate-400 group-hover:text-slate-600 transition-colors">
               +
@@ -121,32 +117,38 @@ export default function SidePopup({
           {/* Right Text Trigger Header */}
           <div className="flex-1 p-6 flex flex-col justify-between relative">
             <div className="flex items-start justify-between">
-              <div className="space-y-0.5">
-                <h2 className="text-xs font-bold tracking-widest text-slate-500 uppercase">
+              <div className="space-y-1">
+                {/* DYNAMIC TOP ROW HIGHLIGHT: Displays active Region and Telemetry Language */}
+                <div className="flex flex-wrap gap-1.5 items-center mb-1">
+                  <span className="text-[9px] font-extrabold tracking-wider bg-slate-900 text-white px-2 py-0.5 rounded-sm uppercase font-mono">
+                    {currentCountry}
+                  </span>
+                  <span className="text-[9px] font-bold tracking-wider border border-slate-200 text-slate-500 px-1.5 py-0.5 rounded-sm uppercase font-mono">
+                    {currentLanguage}
+                  </span>
+                </div>
+
+                <h2 className="text-xs font-bold tracking-widest text-slate-400 uppercase">
                   {title}
                 </h2>
                 <div
                   onClick={triggerFolderSelect}
-                  className="text-3xl font-normal tracking-tight cursor-pointer text-slate-900 hover:text-indigo-600 transition-colors font-sans"
+                  className="text-3xl font-normal tracking-tight cursor-pointer text-slate-900 hover:text-indigo-600 transition-colors font-sans leading-none my-1"
                 >
                   OR
                 </div>
                 <button
                   onClick={triggerFolderSelect}
                   type="button"
-                  className="text-xs font-semibold tracking-wider  uppercase pt-1 block text-left"
+                  className="text-xs font-semibold tracking-wider text-slate-600 hover:text-slate-900 transition-colors uppercase pt-0.5 block text-left"
                 >
                   SELECT A FOLDER
                 </button>
               </div>
 
               {/* Context Safe Lock Icon */}
-              <div className="text-slate-900 p-1">
-                <svg
-                  className="w-4 h-4"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
+              <div className="text-slate-400 p-1">
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2a5 5 0 00-5 5v3H6a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2v-8a2 2 0 00-2-2h-1V7a5 5 0 00-5-5zm3 8H9V7a3 3 0 016 0v3z" />
                 </svg>
               </div>
@@ -155,7 +157,7 @@ export default function SidePopup({
             {/* Absolute Panel Window Close Vector */}
             <button
               onClick={onClose}
-              className="absolute bottom-4 right-6 text-slate-300 hover:text-slate-500 transition-colors text-xs font-mono tracking-widest"
+              className="absolute bottom-4 right-6 text-slate-400 hover:text-slate-600 transition-colors text-xs font-mono tracking-widest"
               aria-label="Close panel"
             >
               ✕ CLOSE
@@ -215,7 +217,7 @@ export default function SidePopup({
               UNLIMITED TRANSFERS
             </span>
             <span className="text-[9px] text-slate-400 tracking-tight font-mono">
-              AES 256-BIT ENCRYPTION ACTIVE
+              AES 256-BIT ENCRYPTION • SECURED VIA {currentCountry.toUpperCase()}
             </span>
           </div>
 
@@ -224,9 +226,7 @@ export default function SidePopup({
               type="button"
               onClick={() => {
                 if (!fileTitle) {
-                  alert(
-                    "Please append a Transfer Title configuration before submission.",
-                  );
+                  alert("Please append a Transfer Title configuration before submission.");
                   return;
                 }
                 alert("Secure Transfer Initialized Successfully!");
@@ -237,7 +237,6 @@ export default function SidePopup({
               Transfer
             </button>
 
-            {/* More Context Icon Button */}
             <button
               type="button"
               className="p-1 text-slate-400 hover:text-slate-600 transition-colors"

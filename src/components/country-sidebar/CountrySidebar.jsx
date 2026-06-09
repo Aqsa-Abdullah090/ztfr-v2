@@ -113,11 +113,10 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
 }
 
 // ---------------- Main Sidebar Component ---------------- //
-export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = null, onSelectRegion }) {
+export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = null, onSelectRegion, selectedRegion = null }) {
   const [hideBottomIcon, setHideBottomIcon] = useState(false);
   const [hoveredRow, setHoveredRow] = useState({ id: null, type: null });
 
-  // Escape key listener & body overflow lock
   useEffect(() => {
     const handleEscape = (e) => { if (e.key === "Escape") onClose(); };
     if (isOpen) {
@@ -130,21 +129,35 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
     };
   }, [isOpen, onClose]);
 
-  // CORE LOGIC: Selected flag ko list me top par filter kar ke push karna
-  const orderedCountries = useMemo(() => {
-    if (!activeRegionId) return countriesData;
+  // Clean active key structures
+  const cleanActiveId = String(activeRegionId || "").trim().toLowerCase();
+  const cleanActiveName = String(selectedRegion?.country_name || "").trim().toLowerCase();
 
-    // Active country item isolated extract karein
-    const activeItem = countriesData.find(item => item.id === activeRegionId);
-    
+  // Helper matching validation matrix
+  const isCountryMatch = (region) => {
+    const localId = String(region.id || "").trim().toLowerCase();
+    const localValueCode = String(region.value || "").trim().toLowerCase();
+    const localName = String(region.country_name || "").trim().toLowerCase();
+    const localFlagPath = String(region.country_flag || "").trim().toLowerCase();
+
+    // Check if ID matches, or value code (e.g. 'pk') matches, or asset name path includes the string
+    const isIdOrCodeMatch = localId === cleanActiveId || localValueCode === cleanActiveId;
+    const isNameMatch = cleanActiveName && (localName === cleanActiveName || localFlagPath.includes(cleanActiveName));
+
+    return isIdOrCodeMatch || isNameMatch;
+  };
+
+  // CORE LOGIC: Dynamic sorting strategy loop
+  const orderedCountries = useMemo(() => {
+    if (!cleanActiveId && !cleanActiveName) return countriesData;
+
+    const activeItem = countriesData.find(item => isCountryMatch(item));
     if (!activeItem) return countriesData;
 
-    // Remaining items nikalien jo active nahi hain
-    const remainingItems = countriesData.filter(item => item.id !== activeRegionId);
+    const remainingItems = countriesData.filter(item => !isCountryMatch(item));
 
-    // Active item ko list ke sabse top (0 index) par array me push karein
     return [activeItem, ...remainingItems];
-  }, [activeRegionId]);
+  }, [cleanActiveId, cleanActiveName]);
 
   return (
     <>
@@ -169,7 +182,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
         {/* Scroll Container Rendering Sorted Array */}
         <SmoothScrollRegions onScrollChange={setHideBottomIcon} isOpen={isOpen}>
           {orderedCountries.map((region) => {
-            const isActive = activeRegionId !== null && region.id === activeRegionId;
+            const isActive = isCountryMatch(region);
             const isRowHovered = hoveredRow.id === region.id;
 
             return (
@@ -185,9 +198,9 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                 {/* Flag Asset */}
                 <div className="flex items-center flex-shrink-0">
                   <img
-                    src={region.country_flag}
+                    src={isActive && selectedRegion?.country_flag && !selectedRegion.country_flag.includes('dynamic') ? selectedRegion.country_flag : region.country_flag}
                     alt={`${region.country_name} flag`}
-                    className="w-[30px] lg:w-[40px] h-auto object-contain transition-transform"
+                    className="h-[40px] w-[40px] object-cover rounded-xl"
                     loading="lazy"
                   />
                 </div>
