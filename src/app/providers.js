@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { Provider, useSelector } from "react-redux";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -13,8 +13,7 @@ import ProtectedRoute from "@/components/primitives/ProtectedRoute";
 import IPBlockProvider from "@/components/primitives/ip-block/IPBlockProvider";
 
 import "swiper/css";
-
-import i18n from "@/components/primitives/I18n"; // 🔥 IMPORTANT (adjust path if needed)
+import i18n from "@/components/primitives/I18n";
 
 const queryClient = new QueryClient();
 
@@ -25,52 +24,49 @@ function ProvidersContent({ children }) {
   const { status, data } = useSelector((state) => state.visitor);
   const language = data?.country?.language;
 
-  const supportedLanguages = [
-    "en","PK","FR","IT","DE","ES","PT","NL","NO","DK","SE",
-    "PL","BG","CZ","TR","AE","CN","IL","JP","KP","TH","PH","IN"
-  ];
-
   // ---------------- LANGUAGE HANDLING ----------------
   useEffect(() => {
-    if (!data) return;
-
     const storedLanguage = localStorage.getItem("language");
 
+    // Case 1: Agar user ne manually change kiya hai ya pehle se cache store hai
+    if (storedLanguage) {
+      i18n.changeLanguage(storedLanguage.toLowerCase());
+      return;
+    }
+
+    // Case 2: Agar local storage empty hai, to visitor location IP language backup run hoga
     if (!storedLanguage && language) {
-      // Map full language names → codes
       const map = {
-        "БЪЛГАРСКИ": "BG",
-        "PORTUGUÊS": "PT",
-        "DANSK": "DK",
-        "⽇本語": "JP",
-        "TAGALOG": "PH",
-        "FRANÇAIS": "FR",
-        "NEDERLANDS": "NL",
-        "DEUTSCH": "DE",
-        "SVENSKA": "SE",
-        "िहंदी": "IN",
-        "POLSKI": "PL",
-        "العربية": "AE",
-        "ESPAÑOL": "ES",
-        "ITALIANO": "IT",
-        "עִברִית": "IL",
-        "NORSK": "NO",
-        "แบบไทย": "TH",
-        "普通话": "CN",
-        "ČESKY": "CZ",
-        "한국어": "KP",
-        "TÜRKÇE": "TR",
-        "Bangla": "BG",
+        "БЪЛГАРСКИ": "bg",
+        "PORTUGUÊS": "pt",
+        "DANSK": "dk",
+        "⽇本語": "jp",
+        "TAGALOG": "ph",
+        "FRANÇAIS": "fr",
+        "NEDERLANDS": "nl",
+        "DEUTSCH": "de",
+        "SVENSKA": "se",
+        "िहंदी": "in",
+        "POLSKI": "pl",
+        "العربية": "ae",
+        "ESPAÑOL": "es",
+        "ITALIANO": "it",
+        "עִברִیت": "il",
+        "NORSK": "no",
+        "แบบไทย": "th",
+        "普通话": "cn",
+        "ČESKY": "cz",
+        "한국어": "kp",
+        "TÜRKÇE": "tr",
+        "BANGLA": "bg",
         "ENGLISH": "en",
       };
 
-      const detected = map[language] || "en";
+      const detected = map[String(language).toUpperCase()] || "en";
       i18n.changeLanguage(detected);
       localStorage.setItem("language", detected);
-    } else if (storedLanguage) {
-      i18n.changeLanguage(storedLanguage);
     }
-  }, [status, data]);
+  }, [status, language]);
 
   // ---------------- SCROLL RESET ----------------
   useEffect(() => {
@@ -101,7 +97,6 @@ function ProvidersContent({ children }) {
   );
 }
 
-// ✅ FINAL WRAPPER
 export function Providers({ children }) {
   return (
     <Provider store={store}>

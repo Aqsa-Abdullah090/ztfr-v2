@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import Cookies from "js-cookie";
 import { useRouter, usePathname } from "next/navigation";
@@ -10,10 +10,6 @@ const ProtectedRoute = ({ children }) => {
 
   useEffect(() => {
     const storedUser = Cookies.get("user");
-
-    // if (!storedUser && pathname !== "/login-or-createuser") {
-    //   router.push("/login-or-createuser");
-    // }
 
     if (storedUser && pathname === "/login-or-createuser") {
       router.push("/");

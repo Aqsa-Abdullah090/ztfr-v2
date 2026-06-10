@@ -2,6 +2,8 @@
 import React, { useEffect, useState, useRef, useMemo } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { countriesData } from "../../lib/countries_data";
+import i18n from "@/components/primitives/I18n";
+import { useTranslation } from "react-i18next"; // 🔥 Added translation hook
 
 // ---------------- Smooth Scroll Wrapper ---------------- //
 function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
@@ -114,6 +116,7 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
 
 // ---------------- Main Sidebar Component ---------------- //
 export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = null, onSelectRegion, selectedRegion = null }) {
+  const { t } = useTranslation(); // 🔥 Initialized translation hook
   const [hideBottomIcon, setHideBottomIcon] = useState(false);
   const [hoveredRow, setHoveredRow] = useState({ id: null, type: null });
 
@@ -129,25 +132,21 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
     };
   }, [isOpen, onClose]);
 
-  // Clean active key structures
   const cleanActiveId = String(activeRegionId || "").trim().toLowerCase();
   const cleanActiveName = String(selectedRegion?.country_name || "").trim().toLowerCase();
 
-  // Helper matching validation matrix
   const isCountryMatch = (region) => {
     const localId = String(region.id || "").trim().toLowerCase();
     const localValueCode = String(region.value || "").trim().toLowerCase();
     const localName = String(region.country_name || "").trim().toLowerCase();
     const localFlagPath = String(region.country_flag || "").trim().toLowerCase();
 
-    // Check if ID matches, or value code (e.g. 'pk') matches, or asset name path includes the string
     const isIdOrCodeMatch = localId === cleanActiveId || localValueCode === cleanActiveId;
     const isNameMatch = cleanActiveName && (localName === cleanActiveName || localFlagPath.includes(cleanActiveName));
 
     return isIdOrCodeMatch || isNameMatch;
   };
 
-  // CORE LOGIC: Dynamic sorting strategy loop
   const orderedCountries = useMemo(() => {
     if (!cleanActiveId && !cleanActiveName) return countriesData;
 
@@ -155,35 +154,43 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
     if (!activeItem) return countriesData;
 
     const remainingItems = countriesData.filter(item => !isCountryMatch(item));
-
     return [activeItem, ...remainingItems];
   }, [cleanActiveId, cleanActiveName]);
 
+  // Dynamic localization execution handler
+  const handleItemSelection = (region) => {
+    const designatedLang = String(region.value || "en").toLowerCase();
+    
+    // Switch languages dynamically via instance sync
+    i18n.changeLanguage(designatedLang);
+    localStorage.setItem("language", designatedLang);
+
+    if (onSelectRegion) onSelectRegion(region);
+    onClose();
+  };
+
   return (
     <>
-      {/* Backdrop */}
       <div 
         className={`fixed inset-0 z-50 transition-opacity duration-700 ease-in-out ${isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`} 
         onClick={onClose} 
       />
 
-      {/* Sidebar Panel */}
-      <div className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[45px] w-full lg:w-[480px]  text-white flex flex-col transform transition-transform duration-900 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}
+      <div className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[45px] w-full lg:w-[480px] text-white flex flex-col transform transition-transform duration-900 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}
         style={{
-                        backdropFilter: "blur(30px)",
-                        WebkitBackdropFilter: "blur(30px)",
-                    }}>
+          backdropFilter: "blur(30px)",
+          WebkitBackdropFilter: "blur(30px)",
+        }}>
         
         <div className="pt-[30px] lg:pt-[45px] space-y-[10px] lg:space-y-[20px] flex-shrink-0">
           <h2 className="text-[12px] lg:text-[14px] tracking-[1px] uppercase font-arial">
-            CHOOSE YOUR COUNTRY OR REGION
+            {t("countries.choose", "CHOOSE YOUR COUNTRY OR REGION")} {/* 🔥 Dynamic translation with English fallback */}
           </h2>
           <p className="text-[12px] lg:text-[14px] italic tracking-[1px] font-arial">
-            LANGUAGE
+            {t("countries.language", "LANGUAGE")} {/* 🔥 Dynamic translation with English fallback */}
           </p>
         </div>
 
-        {/* Scroll Container Rendering Sorted Array */}
         <SmoothScrollRegions onScrollChange={setHideBottomIcon} isOpen={isOpen}>
           {orderedCountries.map((region) => {
             const isActive = isCountryMatch(region);
@@ -192,14 +199,10 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
             return (
               <div
                 key={region.id}
-                onClick={() => {
-                  if (onSelectRegion) onSelectRegion(region);
-                  onClose();
-                }}
+                onClick={() => handleItemSelection(region)}
                 className="flex items-center space-x-[20px] lg:space-x-[40px] transition-opacity"
                 onMouseLeave={() => setHoveredRow({ id: null, type: null })}
               >
-                {/* Flag Asset */}
                 <div className="flex items-center flex-shrink-0">
                   <img
                     src={isActive && selectedRegion?.country_flag && !selectedRegion.country_flag.includes('dynamic') ? selectedRegion.country_flag : region.country_flag}
@@ -209,15 +212,13 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                   />
                 </div>
 
-                {/* Grid UI Context Wrapper */}
                 <div
                   className={`flex-1 grid grid-cols-3 gap-x-[20px] lg:gap-x-[50px] items-center text-[8.5px] lg:text-[12px] font-arial tracking-[1.5px] ${
                     isActive ? "text-[#0098AA] font-bold" : "text-white"
                   }`}
                 >
-                  {/* Column 1: Country Name */}
                   <span 
-                    className={`uppercase whitespace-nowrap transition-colors cursor-pointer  ${
+                    className={`uppercase whitespace-nowrap transition-colors cursor-pointer ${
                       isActive || isRowHovered ? "text-[#0098AA]" : "text-white"
                     }`}
                     onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
@@ -225,9 +226,8 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                     {region.country_name}
                   </span>
 
-                  {/* Column 2: Primary Language */}
                   <span 
-                    className={`uppercase transition-colors cursor-pointer pl-[20px]  ${
+                    className={`uppercase transition-colors cursor-pointer pl-[20px] ${
                       isActive || (isRowHovered && hoveredRow.type === "primary") ? "text-[#0098AA]" : "text-white"
                     }`}
                     onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
@@ -235,7 +235,6 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                     {region.country_language}
                   </span>
 
-                  {/* Column 3: Secondary Optional Language */}
                   {region.country_language_optional ? (
                     <span 
                       className={`uppercase italic transition-colors cursor-pointer ${
