@@ -1,0 +1,1326 @@
+{
+  "hero": {
+    "left": "hero_left_norwegian",
+    "letsDoSize": "this_size_italian",
+    "letsDo": "LA OSS GJØRE",
+    "this": "Dette",
+    "upload": "LAST OPP FILER ELLER MAPPER VED Å SLIPPE DEM HVOR SOM HELST I DETTE VINDUET",
+    "welcomeText": "VELKOMMEN"
+  },
+  "sidebar": {
+    "uploadText": "upload__text__norwegian",
+    "advanceTextTop": "advance_text_top_norge_new",
+    "upload": "LAST OPP FILER ELLER MAPPER VED Å SLIPPE",
+    "them": "DEM HVOR SOM HELST I DETTE VINDUET",
+    "advance": "AVANSERT KRYPTERINGSTANDARD (AES) 256-BIT"
+  },
+  "getlink": {
+    "sendEmail": "SEND E-POST",
+    "unlimitedTransfers": "UBEGRENSET ANTALL OVERFØRINGER",
+    "geta": "få en link",
+    "lgText": "lg:text-[14px]",
+    "text": "text-[10px]",
+    "lgUptoSize": "lg:text-[40px]",
+    "UptoSize": "text-[20px]",
+    "uploadFiles": "LAST OPP FILER",
+    "or": "ELLER",
+    "select": "VELG EN MAPPE",
+    "upto": "OPPTIL",
+    "free": "GRATIS",
+    "styles": {
+      "freeTextLg": "text-[20px]",
+      "freeTextMd": "text-[16px]"
+    },
+    "selectFolderRightAlign": "select_folder_align_right_NO",
+    "UptoTextRightAlign": "Upto_text_size_align_right_NO"
+  },
+  "uploading": {
+    "uploadingFiles": "Laster opp filer",
+    "uploaded": "lastet opp",
+    "uploading": "Laster opp",
+    "pending": "Venter",
+    "of_text": "av",
+    "about_text": "Om",
+    "remaining_text": "gjenstående",
+    "title_text": "tittel",
+    "note_text": "Merk",
+    "cancel_text": "Avbryt",
+    "almostDone": "nesten ferdig",
+    "textsizes": {
+      "textsize3": "uploading_size_v2"
+    },
+    "styles": {
+      "uploadingFiles_text_lg": "text-[14px]",
+      "uploadingFiles_text_md": "text-[12px]"
+    }
+  },
+  "uploaded": {
+    "filesUploaded": "Filer lastet opp",
+    "completed": "fullført",
+    "youDidIt": "Du gjorde det!",
+    "copyDownloadLink": "Kopier din nedlastede lenke",
+    "seeWhatsInside": "Se hva som er inni",
+    "code": "kode",
+    "styles": {
+      "filesUploaded_text_lg": "text-[14px]",
+      "filesUploaded_text_md": "text-[12px]",
+      "youDidIt_text_lg": "text-[30px]",
+      "youDidIt_text_md": "text-[20px]"
+    }
+  },
+  "assignContent": {
+    "assignHeading": "tilordne",
+    "assign": "tilordne ER EN EKSKLUSIV FUNKSJON SOM GIR TILORDNEREN MULIGHETEN TIL Å LASTE OPP FILER/MAPPER OG HA MULIGHETEN TIL Å SPESIFISERE OG KONTROLLERE HVILKE FILER/MAPPER DE VIL AT DEN TILDELTE SKAL FÅ TILGANG TIL. EN UNIK 4-SIFFERS PIN-KODE blir gitt til den tilordnede personen for å få tilgang til filene/mappene.",
+    "one": "ÉN OPPLASTING.",
+    "magnitude": "MULIGHETENES OMFANG.",
+    "title": "TITTEL",
+    "note": "MERK",
+    "Hi": "Hei, tenkte bare at du kanskje vil ha disse tilgjengelige. Lykke til. Vi sees snart. Jessica x",
+    "Revsion": "Revisjonsfil",
+    "lets_get": "La oss få",
+    "started": "Startet",
+    "uploaded_Files": "Opplastede filer",
+    "or": "ELLER",
+    "folders": "Mapper",
+    "clear": "klar",
+    "assignee": "OVERDRAGENDE"
+  },
+  "assign_SubContent": {
+    "assign_heading": "tilordne",
+    "assign_files": "tilordne filer",
+    "assignee_name": "navn på mottaker",
+    "assign_pinCode": "tildel pinkode",
+    "generate_pinCode": "generer pin",
+    "custom_pinCode": "egendefinert pin",
+    "Additional_Note": "ekstra merknad",
+    "clear_text": "klar"
+  },
+  "fileDownloadedModal": {
+    "close": "Lukk",
+    "youDidIt": "Du gjorde det!",
+    "items_text": "Elementer i denne",
+    "files": "filer",
+    "folder": "mappe",
+    "expiresIn": "Utgår om",
+    "days": "dager",
+    "downloadOrShare": "last ned eller del",
+    "copied": "kopiert",
+    "copyLink": "Kopier link",
+    "qrCode": "QR kode",
+    "email": "e-post",
+    "whatsapp": "Hva skjer",
+    "message": "beskjed",
+    "facebook": "facebook",
+    "x": "x",
+    "hours": "TIMER",
+    "textsizes": {
+      "textsize1": "text__20__12",
+      "textsize4": "text__8__10",
+      "textsize2": "text__12__10__8"
+    }
+  },
+  "FileDropZone": {
+    "drop": "Slipp filene dine her"
+  },
+  "footer": {
+    "zitransfer": "© ZITRANSFER 2023",
+    "rights": "ALLE RETTIGHETER RESERVERT",
+    "partof": "ZITRANSFER ER EN DEL AV ZIMO GROUP",
+    "zitransferUses": "ZITRANSFER BRUKER AVANSERT KRYPTERINGSTANDARD (AES) 256-BIT FOR Å BESKYTTE KONFIDENSIALITETEN TIL DE OPPLASTEDE DATAENE."
+  },
+  "countries": {
+    "choose": "Velg ditt land eller region",
+    "language": "SPRÅK"
+  },
+  "MainShare": {
+    "email": "E-post",
+    "emailTo": "SEND E-POST TIL",
+    "yourEmail": "DIN E-POST",
+    "enterZVC": "SKRIV INN ZVC-KODE",
+    "messages": "MELDINGER",
+    "typeYourCustomisedLink": "SKRIV INN DEN TILPASSEDE KOBLINGEN",
+    "linkCopied": "Link kopiert",
+    "uploadFileText": "upload_file_text_main",
+    "selectFolderText": "select_folder_text_main",
+    "logout": "LOGOUT",
+    "login": "LOGIN",
+    "createUserId": "OPPRETT BRUKER-ID",
+    "getLink": "FÅ EN LINK",
+    "gitQRCode": "FÅ EN QR-KODE",
+    "exText": "expires_text",
+    "title": "TITTEL",
+    "Revsion": "Revisjonsfil",
+    "note": "MERK",
+    "assignHeading": "tilordne",
+    "Hi": "Hei, tenkte bare at du kanskje vil ha disse tilgjengelige. Lykke til. Vi sees snart. Jessica x",
+    "Expires": "Utløper om",
+    "days": "OPPTIL 365 DAGER",
+    "schedule": "PLANLEGG OVERFØRING",
+    "advance": "Avansert krypteringsstandard AES 256-bit",
+    "assign": "tilordne ER EN EKSKLUSIV FUNKSJON SOM GIR TILORDNEREN MULIGHETEN TIL Å LASTE OPP FILER/MAPPER OG HA MULIGHETEN TIL Å SPESIFISERE OG KONTROLLERE HVILKE FILER/MAPPER DE VIL AT DEN TILDELTE SKAL FÅ TILGANG TIL. EN UNIK 4-SIFFERS PIN-KODE blir gitt til den tilordnede personen for å få tilgang til filene/mappene.",
+    "one": "ÉN OPPLASTING.",
+    "magnitude": "MULIGHETENES OMFANG.",
+    "assignButton": {
+      "files": {
+        "text": "tilordne filer",
+        "css": "text__v1"
+      },
+      "folders": {
+        "text": "tilordne mapper",
+        "css": "text__v1"
+      },
+      "filesFolder": {
+        "text": "tilordne filer/mapper",
+        "css": "text__v21"
+      }
+    }
+  },
+  "Expires": {
+    "expires": "UTLØPER",
+    "setPasswordTextSize": "set_password_size_expires_bulgarian",
+    "minute": "minutt",
+    "hour": "time",
+    "day": "dag",
+    "week": "uke",
+    "months": "måneder",
+    "year": "år",
+    "optional": "valgfritt",
+    "pick": "velg fra kalenderen",
+    "password": "sett passord",
+    "invalidDate": "ugyldig dato"
+  },
+  "Verit": {
+    "verify": "bekreft e-postadressen din",
+    "confirm": "BEKREFT E-POSTEN DIN",
+    "receive": "HAR DU IKKE MOTTATT EN E-POST?",
+    "we": "VI HAR SENDT EN BEKREFTELSESKODE (ZVC)",
+    "to": "TIL",
+    "sure": "FOR Å SIKRE AT DU ER DEG SELV",
+    "remember": "HUSK Å SE I SPAM-MAPPEN DIN",
+    "verifyEmailTextsize": "verify_email_german_textsize"
+  },
+  "Copy": {
+    "sendText": "text-[14px]",
+    "Revision": "Revisjonsfiler",
+    "download": "KOPIER NEDLASTINGSLINKEN",
+    "link": "KOPIER lenke",
+    "another": "SEND EN ANNEN?"
+  },
+  "GetAQRCode": {
+    "linkCopied": "Lenke kopiert",
+    "download": "LAST NED"
+  },
+  "DateTimePicker": {
+    "meeting": "PLANLEGG MØTE",
+    "pick": "VELG FRA KALENDEREN"
+  },
+  "RenameFile": {
+    "rename": "GI NYTT NAVN TIL FIL/MAPPE"
+  },
+  "RenameTitle": {
+    "rename": "GI NYTT NAVN TIL TITTEL"
+  },
+  "FirstPage": {
+    "drop": "Slipp filene her..."
+  },
+  "GetALink": {
+    "filename": "filnavn"
+  },
+  "Download4": {
+    "revision": "revisjon",
+    "files": "filer"
+  },
+  "Download9": {
+    "complete": "fullført"
+  },
+  "CustomiseALink": {
+    "password": "sett passord",
+    "type": "skriv inn din tilpassede lenke",
+    "Customise": "Tilpass en lenke",
+    "your": "KOPIER NEDLASTINGSLINKEN DIN",
+    "copyCustomised": "Kopier tilpasset lenke"
+  },
+  "SetPassword": {
+    "protected": "beskyttet med passord",
+    "notmatch": "Passordene stemmer ikke overens.",
+    "Removepassword": "Fjern passord",
+    "enterPassword": "Vennligst oppgi et passord først",
+    "Invalid": "Ugyldig"
+  },
+  "Assign": {
+    "PIN": "tilordne PIN-kode",
+    "generate": "GENERER PIN",
+    "customPin": "EGEN PIN",
+    "clear": "TØM"
+  },
+  "Preview": {
+    "prev": "FORHÅNDSVISNING",
+    "notImg": "Dette er ikke en bilde- eller videofil",
+    "notSupported": "FORHÅNDSVISNING IKKE STØTTET",
+    "previewError": "FORHÅNDSVISEFEIL",
+    "fileLimit": "Filen overstiger forhåndsvisningsgrensen",
+    "limitExceeded": "GRENSE FOR FORHÅNDSVISNING OVERSKREDET"
+  },
+  "Remove": {
+    "rev": "Fjern",
+    "fileName": "Filnavn"
+  },
+  "ViewDetails": {
+    "viewD": "VIS DETALJER",
+    "fileD": "FILDETALJER",
+    "type": "TYPE",
+    "size": "STØRRELSE",
+    "created": "skapt",
+    "description": "BESKRIVELSE",
+    "max": "MAKS",
+    "addDescription": "Legg til beskrivelse"
+  },
+  "Hero2": {
+    "Close": "Lukk",
+    "oxford": "UNIVERSITETET I OXFORD",
+    "transfers": "OVERFØRINGER",
+    "send": "SENDE",
+    "recevice": "MOTTA",
+    "byDate": "SORTER ETTER DATO",
+    "july2023": "juli 2023",
+    "urgent": "oppgave 768 - haster",
+    "NoYet": "ikke lastet ned ennå",
+    "file": "fil",
+    "minuteAgo": "SENDT FOR 52 MINUTTER SIDEN",
+    "18july": "18. JULI 2023",
+    "london": "London Institute",
+    "Downloaded": "Lastet ned"
+  },
+  "CMail": {
+    "confirmEmail": "BEKREFT DIN E-POST",
+    "quickCheck": "En rask sjekk for å være sikker på at det er deg.",
+    "verificationLink": "Vi har sendt en verifiseringslenke til",
+    "checkSpam": "(Hvis du ikke finner den, sjekk spam-mappen din).",
+    "didn'tReceive": "Har du ikke mottatt en e-post?"
+  },
+  "ForgetPassword": {
+    "reset": "TILBAKESTILL DITT PASSORD",
+    "sendInstructions": "Vi vil sende deg instruksjoner for å tilbakestille passordet ditt og logge deg inn igjen."
+  },
+  "LoginUser": {
+    "CreateUserText": "text-[10px]",
+    "CreateUserTextLg": "lg:text-[16px]",
+    "Login": "LOGG INN",
+    "CreateUser": "OPPRETT BRUKER-ID",
+    "withGoogle": "FORTSETT MED GOOGLE",
+    "or": "ELLER",
+    "Forgotten": "Glemt passordet ditt?"
+  },
+  "SignupUser": {
+    "creatingUserID": "VED Å OPPRETTE EN BRUKER-ID GODTAR DU VÅRE ",
+    "Terms": "VILKÅR FOR TJENESTE OG PERSONVERN- OG INFORMASJONSKAPSELERKLÆRING",
+    "firstName": "VOORNAAM",
+    "lastName": "ACHTERNAAM",
+    "organisationOptional": "ORGANISATIE (OPTIONEEL)",
+    "additionalNote": "AANVULLENDE OPMERKING"
+  },
+  "UserHeader": {
+    "sendFiles": "SENDE FILER",
+    "sendFolders": "SENDE MAPPER",
+    "shareIdeas": "DEL IDEER",
+    "MultipleFormats": "DEL OVERFØRINGER I FLERE FORMATER",
+    "unlimitedStorage": "UBEGRENSET LAGRING",
+    "sendUnlimited": "UBEGRENSET SENDING AV OVERFØRINGER",
+    "ReceiveUnlimited": "UBEGRENSET MOTTAK AV OVERFØRINGER",
+    "StorageUpTo": "LAGRING I OPPTIL 10 ÅR",
+    "portal": "PORTAL",
+    "customExpiration": "TILPASSET UTLØPSDATOER",
+    "AssignPIN": "TILDEL PIN-BESKYTTELSE",
+    "PublicSharing": "OFFENTLIG DELING",
+    "DynamicLinks": "DYNAMISKE LENKER",
+    "PasswordsProtect": "PASSORDBESKYTTET",
+    "TrackDownloads": "SPOR NEDLASTINGER",
+    "advance": "AVANSERT AES 254-BIT KRYPTERING",
+    "creator": "INNHOLDSSKAPER",
+    "userPortal": "BRUKERPORTAL",
+    "themes": "PERSONLIGE TEMAER",
+    "customisedProfiles": "TILPASSEDE PROFILER",
+    "militaryGrade": "KRYPTERING AV MILITÆR KARAKTER"
+  },
+  "Download": {
+    "ready": "KLAR.",
+    "set": "SETT.",
+    "download": "LAST NED.",
+    "ZTFRExpires": "ZTFR UTLOPER OM 7 DAGER",
+    "revision": "REVISJON",
+    "files": "FILER",
+    "seeYou": "Hei, tenkte du kanskje vil ha disse tilgjengelige. Lykke til. Ser deg snart. Jessica x",
+    "preview": "FORHÅNDSVISNING",
+    "unlocked": "LÅST OPP",
+    "downloadPreview": "download_preview_portuguese",
+    "previewIcon": "preview_icon_portuguese",
+    "previewText": "preview_text_nowergian",
+    "downloadTick": "download_tick_portuguese",
+    "downloadTextSize": "download_text_size_portuguese",
+    "advanceAssignTxt": "advance_assign_text_top_noNew",
+    "letsDoLeft": "lets_do_left_sweden",
+    "ztfrExpiresIn": "ZTFR UTLØPER OM",
+    "advanceTxt": "download_text_top_norgeNew",
+    "days": "DAGER",
+    "ztfrExpired": "ZTFR UTLØPT"
+  },
+  "DownloadAssign": {
+    "ready": "KLAR.",
+    "set": "SETT.",
+    "download": "LAST NED.",
+    "ZTFRExpires": "ZTFR UTLOPER OM 30 DAGER",
+    "university": "UNIVERSITET",
+    "hiAll": "Hei alle sammen.",
+    "assignAdvanceTop": "assign_advance_txt_nowergian",
+    "workAccess": "Vennligst bruk din tildelte ZTFR PIN for å få tilgang til arbeidet ditt.",
+    "assign": "tilordne"
+  },
+  "DownloadPassword": {
+    "enterPassword": "SKRIV INN PASSORD",
+    "pinCode": "PIN-KODE"
+  },
+  "DownloadPasswordC": {
+    "revision": "REVISJONSFILER"
+  },
+  "DownloadPreview": {
+    "close": "LUKK",
+    "items": "ELEMENTER I DENNE ZTFR",
+    "ZTFRExpires": "ZTFR UTLOPER OM 7 DAGER",
+    "downloadAll": "LAST NED ALT",
+    "lookingInside": "Ser inni mappen.",
+    "WhatInside": "Hva er inne i mappen? La oss se.",
+    "preview": "FORHÅNDSVISNING",
+    "name": "NAVN",
+    "type": "TYPE",
+    "size": "STØRRELSE",
+    "hide": "gjemme seg"
+  },
+  "EnterPinCode": {
+    "pinCode": "PIN-KODE",
+    "hello": "HEI",
+    "youNote": "Du har en merknad:",
+    "DueDate": "Forfallsdatoen er 19. juli - 09:00.",
+    "items": "ELEMENTER I DENNE ZTFR",
+    "enterPin": "SKRIV INN DIN TILDELTE PIN-KODE",
+    "incorrectPin": "FEIL PIN-KODE",
+    "clear": "TØM"
+  },
+  "ResendMail": {
+    "checkEmail": "SJEKK DIN E-POST",
+    "getBottom": "La oss komme til bunns i dette. Dette er e-postadressen du bruker på ZTFR.",
+    "resend": "SEND PÅ NYTT"
+  },
+  "Assignfiles": {
+    "assign": "tilordne",
+    "assignFiles": "tilordne filer",
+    "assignName": "tildelt navn",
+    "assignPin": "tildelt PIN-kode",
+    "generatePin": "GENERER PIN-KODE",
+    "CustomPin": "EGENDEFINERT PIN-KODE",
+    "AdditionalNote": "TILLEGGSMERKNAD",
+    "clear": "TØM"
+  },
+  "AssignShare": {
+    "exclusiveFeature": "tilordne ER EN EKSKLUSIV FUNKSJON SOM GIR TILDELINGEN (DEG) MULIGHET TIL Å LASTE OPP FILER/MAPPER OG HA MULIGHET TIL Å SPESIFISERE OG KONTROLLERE HVILKE FILER/MAPPER DU ØNSKER",
+    "gainAccess": "tilordne ER EN EKSKLUSIV FUNKSJON SOM GIR TILDELINGEN (DEG) MULIGHET TIL Å LASTE OPP FILER/MAPPER OG HA MULIGHET TIL Å SPESIFISERE OG KONTROLLERE HVILKE FILER/MAPPER DU ØNSKER AT MOTTAKEREN SKAL HA TILGANG TIL. EN UNIK 4-SIFFRET PIN-KODE blir gitt til mottakeren for å få tilgang til filene/mappene.",
+    "oneUpload": "ÉN OPPLASTING. STOR SKALA AV MULIGHETER.",
+    "title": "TITTEL",
+    "note": "MERKNAD",
+    "RevisionFiles": "REVISJONSFILER",
+    "justThought": "Hei, tenkte du kanskje vil ha disse tilgjengelige. Lykke til. Ser deg snart. Jessica x",
+    "assignee": "MOTTAKER"
+  },
+  "DownloadIndex": {
+    "DownloadIndexStyle": "revision_file_norwegian",
+    "heroLeft": "hero_left_norwegiann",
+    "revision": "REVISJON",
+    "files": "FILER"
+  },
+  "ShareIndividual": {
+    "renameTitle": "GI NYTT NAVN TIL TITTEL",
+    "fileLgSIze": "lg:text-[11px]",
+    "fileSIze": "text-[8px]",
+    "renameFile": "GI NYTT NAVN TIL FILER/MAPPER",
+    "preview": "FORHÅNDSVISNING",
+    "view": "VIS DETALJER",
+    "expires": "UTLØPER OM",
+    "getLink": "FÅ EN LENKE",
+    "QRCode": "FÅ EN QR-KODE",
+    "setPassword": "SETT PASSORD",
+    "assign": "tilordne",
+    "remove": "FJERNE",
+    "optionLgSIze": "lg:text-[8px]",
+    "optionSIze": "text-[6px]",
+    "moreOption": "FLERE ALTERNATIVER"
+  },
+  "Password": {
+    "password": "PASSORD",
+    "confirmPassword": "Bekreft passord"
+  },
+  "error": {
+    "required": "Påkrevd",
+    "allFieldRequired": "ALLE FELTER ER PÅKREVDE",
+    "invalidEmail": "Ugyldig e-post",
+    "invalidPassword": "Ugyldig passord",
+    "enterValidEmail": "Skriv inn en gyldig e-post",
+    "enterValidPassword": "Skriv inn et gyldig passord",
+    "enterValidFirstName": "Skriv inn et gyldig fornavn",
+    "enterValidLastName": "Skriv inn et gyldig etternavn",
+    "minimumLength3": "Minimumslengden må være 3",
+    "shortLength": "Lengden er for kort",
+    "longLength": "Lengden er for lang",
+    "passwordMatch": "PASSORDENE ER IKKE LIKE.",
+    "invalid": "Ugyldig",
+    "passwordReq": "Passord er påkrevd",
+    "confirmPasswordReq": "Bekreft passord er påkrevd",
+    "verfied": "Verifisert",
+    "invalidZVC": "UGYLDIG ZVC",
+    "invalidCredentials": "Ugyldige legitimasjon",
+    "invalidPin": "Ugyldig pin",
+    "inputPassword": "Vennligst skriv inn passord først",
+    "inputpasswordConfirm": "Skriv inn passordet for å bekrefte"
+  },
+  "page": {
+    "404": {
+      "somethingWrong": "Noe gikk galt.",
+      "oops": "Oisann",
+      "couldNotFound": "Vi kunne ikke finne siden du leter etter.",
+      "tryAgain": "Du kan prøve igjen, eller hvis du ønsker det, kan du fortelle oss hva som skjedde.",
+      "sendError": "Send feilkoden din til support@zitransfer.com, og vi vil prøve å hjelpe deg.",
+      "copyCode": "kopier feilkoden min",
+      "codeCopied": "Feilkoden er kopiert"
+    },
+    "legalModal": {
+      "textsizes": {
+        "textsize3": "text__14__10__3xl",
+        "textsize5": "text__7__6__10_2xl"
+      },
+      "links": {
+        "termsOfServices": "tjenestevilkår",
+        "privacyStatement": "personvernerklæring",
+        "noticePolicy": "Merknad/Nedtakingspolitikk",
+        "advertisingTerms": "Annonseringsvilkår"
+      },
+      "legal": "LOVLIG",
+      "legalInfo": "Juridisk informasjon og kunngjøringer",
+      "termsOfConditions": {
+        "termsOfServices": "VILKÅR FOR TJENESTE",
+        "ownership": {
+          "ownership_heading": "Eierskap til nettsted; Avtale om Tjenestevilkår",
+          "ownership_para1": "Disse Tjenestevilkårene (heretter kalt \"Tjenestevilkår\") gjelder for ZTFR (ZITRANSFER) nettsted (plattform) som er lokalisert på <a href='https://zitransfer.com' target='_blank'>www.zitransfer.com</a>, <a href='https://zitransfer.com' target='_blank'>www.ztfr.org</a> og alle tilknyttede nettsteder tilknyttet <a href='https://www.zimogroup.org' target='_blank'>www.zimogroup.org</a> av ZIMO (ZIMO GROUP), dets datterselskaper og tilknyttede selskaper, inkludert ZIMO nettsteder over hele verden (samlet referert til som \"Nettstedet\"). Nettstedet tilhører ZIMO GROUP LIMITED (\"ZIMO\") og dets lisensgivere. VED Å BRUKE NETTSTEDET SAMTYKKER DU I DISSE TJENESTEVILKÅRENE; HVIS DU IKKE SAMTYKKER, MÅ DU IKKE BRUKE NETTSTEDET.",
+          "ownership_para2": "ZTFR forbeholder seg retten, etter eget skjønn, til å endre, modifisere, legge til eller fjerne deler av disse Tjenestevilkårene når som helst. Det er ditt ansvar å sjekke disse Tjenestevilkårene jevnlig for endringer. Din fortsatte bruk av Nettstedet/Plattformen etter publisering av endringer vil bety at du aksepterer og godtar endringene. Så lenge du overholder disse Tjenestevilkårene, gir ZTFR deg en personlig, ikke-eksklusiv, ikke-overførbar, begrenset rett til å gå inn på og bruke Nettstedet/Plattformen."
+        },
+        "content": {
+          "content_heading": "INNHOLD",
+          "content_para1": "All tekst, grafikk, brukergrensesnitt, visuelle grensesnitt, fotografier, varemerker, logoer, lyder, musikk, kunstverk og dataprogrammer (samlet referert til som 'Innhold'), inkludert, men ikke begrenset til design, struktur, utvalg, koordinering, uttrykk, \"utseende og følelse\" og arrangement av slikt Innhold, som er inneholdt på Nettstedet, eies, kontrolleres eller lisensieres av eller til ZTFR (ZITRANSFER) og ZIMO, og er beskyttet av varemerkelovgivning, opphavsrett, patent og varemerkerettigheter, samt ulike andre immaterielle rettigheter og lover om unfair konkurranse.",
+          "content_para2": "Bortsett fra det som uttrykkelig er angitt i disse Tjenestevilkårene, kan ingen del av Nettstedet/Plattformen og intet Innhold kopieres, reproduseres, publiseres på nytt, lastes opp, postes, offentlig vises, kodes, oversettes, sendes eller distribueres på noen måte (inkludert \"speiling\") til en annen datamaskin, server, nettside eller annet medium for publisering eller distribusjon eller for noen kommersiell virksomhet uten ZIMOs uttrykkelige skriftlige forhåndssamtykke.",
+          "content_para3": "Du kan bruke informasjon om ZTFRs produkter og tjenester (for eksempel datablader, kunnskapsbaseartikler og lignende materialer) som bevisst er gjort tilgjengelige av ZIMO for nedlasting fra Nettstedet, forutsatt at du (1) ikke fjerner eventuelle eierrettslige merknader i alle kopier av slike dokumenter, (2) bruker slik informasjon kun til personlig, ikke-kommersiell informasjonsformål og ikke kopierer eller publiserer slik informasjon på noen nettverksdatamaskin eller sender den på noen medieplattform, (3) ikke gjør noen endringer i slik informasjon, og (4) ikke fremsetter noen ytterligere representasjoner eller garantier vedrørende slike dokumenter."
+        },
+        "headlines": {
+          "headlines_heading": "HENDELSER",
+          "headlines_point1": "Ditt innhold tilhører deg - du eier det, og du er ansvarlig for det. Vi vil bare gjøre det som er nødvendig for at tjenestene våre skal fungere skikkelig.",
+          "headlines_point2": "Hvis du gjør noe ulovlig, kan vi blokkere og/eller slette dataene/dine opplastninger/nedlastninger og suspendere kontoen din.",
+          "headlines_point3": "Vi kan foreta endringer i vilkårene våre, tjenestene og/eller avgiftene fra tid til annen. Hvis du har en konto og ikke liker noe vi endrer, kan du alltid avslutte når som helst.",
+          "headlines_point4": "Vi bør nevne at du bruker tjenesten vår på egen risiko; vi er ikke ansvarlige for noen skader hvis noe går galt."
+        },
+        "termsOfServices_points": {
+          "termsOfServices_heading": "VILKÅR FOR TJENESTE",
+          "termsOfServices_subheading": "ZTFR TILBYR FØLGENDE VERKTØY:",
+          "termsOfServices_point1": "En tjeneste for å dele filer (\"ZTFR/ZITRANSFER fil-deling\")",
+          "termsOfServices_point2": "En tjeneste som lar deg lagre, organisere, dele og motta innhold fra flere kilder (\"Samle\")",
+          "termsOfServices_point3": "En tjeneste som lar deg dele ideer og data/filer i flere formater/plattformer",
+          "termsOfServices_point4": "En tjeneste som lar deg selge via ZTFR X",
+          "termsOfServices_point5": "En tjeneste som er gratis å bruke med ubegrenset opplasting/nedlastingsbruk (unntatt premiumtjenester)",
+          "termsOfServices_point6": "Tilleggsfunksjoner og funksjonaliteter",
+          "termsOfServices_para1": "Bruken din av og tilgang til tjenestene våre, programvaren, nettstedene (inkludert nettleserutvidelser) og/eller applikasjonene (samlet omtalt som \"Tjenestene\") styres av disse tjenestevilkårene (\"Vilkår\").",
+          "termsOfServices_para2": "Tjenestene kan bli levert til deg online, i form av en mobil- og/eller skrivebordsapplikasjon og/eller kan integreres i en tredjepartstjeneste.",
+          "termsOfServices_para3": "Tjenestene lar deg laste opp, sende inn, lagre, dele, motta, samle, fange og/eller visualisere ideene dine, tekster, grafikk, videoer, data, informasjon, filer, presentasjonsdekk eller annet innhold, inkludert tredjepartsinnhold som du bruker (samlet omtalt som \"Innhold\"). Du beholder alle rettigheter, ansvar og plikter for alt Innhold. ZTFR hevder ikke eierskap til ditt Innhold.",
+          "termsOfServices_para4": "Tjenestene blir levert til deg som bruker av Tjenestene av ZIMO GROUP LIMITED (\"ZITRANSFER\", \"ZTFR\"), med hovedkontor på 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, England, Storbritannia.",
+          "registered_location": "Registrert i England & Wales.",
+          "registered_number": "Registrert selskapsnummer: 14383397."
+        },
+        "applicability": {
+          "applicability_heading": "PÅVIRKNING",
+          "applicability_point1": "Du er kun autorisert til å bruke Tjenestene når du er 16 år eller eldre (med mindre du bruker dem under ZTFRs utdanningsprogram).",
+          "applicability_point2": "Vennligst les Vilkårene nøye. Ved å bruke Tjenestene (direkte med oss eller gjennom en tredjepartsapplikasjon, tillegg, utvidelse eller integrering) samtykker du og aksepterer disse Vilkårene og vår Merknad/Nedtakingspolitikk (\"MNP-politikk\"). For bruk av personopplysninger og informasjonskapsler i forhold til Tjenestene, gjelder vår Personvernerklæring.",
+          "applicability_point3": "Hvis Tjenestene inkludert brukes i forbindelse med eller er integrert i tjenestene til tredjeparter, kan vilkårene og betingelsene, merknad/nedtakingspolitikken og/eller personvernerklæringene til disse tredjepartene gjelde i tillegg til disse Vilkårene. Hvis du bruker Tjenestene på vegne av arbeidsgiveren din eller en annen organisasjon, godtar du vilkårene til den organisasjonen og bekrefter og garanterer at du har myndighet til å gjøre det. ZTFR er ikke ansvarlig for tredjepartstjenester, vilkår og/eller politikker.",
+          "applicability_point4": "Hvis du ønsker å sende en klage eller melding om ulovlig Innhold som lagres eller deles via Tjenestene eller ZTFR API, vennligst les vår MNP-politikk.",
+          "applicability_point5": "Hvis du oppdager en sårbarhet i noen av Tjenestene, vennligst les vår Ansvarlig Offentliggjøring.",
+          "applicability_point6": "Hvis du ønsker å bruke ZTFR API (som beskrevet i API Bruksvilkår), gjelder våre API Bruksvilkår i tillegg til disse Vilkårene.",
+          "applicability_point7": "ZTFR kan endre Vilkårene fra tid til annen. De endrede Vilkårene blir effektive når de blir publisert på ZITRANSFERs (ZTFR) nettsted(er) og/eller på ZITRANSFERs mobil- og/eller skrivebordsapplikasjon(er), eller på et senere tidspunkt som kan angis i de endrede Vilkårene. Derfor anbefaler vi at du gjennomgår Vilkårene fra tid til annen og merker deg eventuelle endringer. Ved å fortsette å bruke Tjenestene aksepterer du de endrede Vilkårene. Ved vesentlige endringer i Vilkårene vil du bli informert før endringen: (i) på det tidspunktet du bruker Tjenestene, eller (ii) ved en melding til kontaktopplysningene du har oppgitt til oss, eller (iii) ved publisering av melding om endringen på ZITRANSFERs nettsted(er) og/eller på ZITRANSFERs mobil- og/eller skrivebordsapplikasjon(er). Hvis du ikke aksepterer en endring, kan du avslutte abonnementet ditt.",
+          "applicability_point8": "Disse Vilkårene erstatter alle tidligere muntlige og skriftlige tilbud, vilkår, kommunikasjoner, avtaler og forståelser mellom deg og ZTFR (ZITRANSFER)."
+        },
+        "fileSharing": {
+          "fileSharing_heading": "FILDELING",
+          "fileSharing_point1": "ZTFR (ZITRANSFER) Fil-deling lar deg dele Innholdet ditt med andre",
+          "fileSharing_point2": "For å dele Innholdet ditt må du laste det opp og gi oss (et begrenset antall) e-postadresser til mottaker(e) (\"e-postoverføring\"), velge å distribuere en nedlastingslenke selv (\"Få en lenke\"). Videre har du flere alternativer for hvordan du ønsker å distribuere/dele Innholdet ditt, velg blant følgende metoder; Få en QR-kode, WhatsApp, Facebook, Threads, X (tidligere Twitter) og Meldinger.",
+          "fileSharing_point3": "ZTFR (ZITRANFSER) Fil-deling gir muligheten til å dele Innhold opptil en maksimal total kapasitet. Opplastet Innhold lagres på ZITRANFSERs servere i en begrenset periode, etter at muligheten for nedlasting utløper.",
+          "fileSharing_point4": "Etter utløpsperioden vil ZTFR slette de opplastede filene permanent ved hjelp av sletting av militær karakter. Disse filene vil ikke være tilgjengelige eller gjenopprettbare lenger.",
+          "fileSharing_point5": "Grunnleggende funksjonalitet for ZTFR Fil-deling er (for øyeblikket) gratis og krever ingen registrering eller avgift.",
+          "fileSharing_point6": "ZTFR behandler Innholdet som konfidensielt og kontrollerer ikke bruken av nedlastingslenker, uavhengig av om de opprinnelig ble distribuert av oss eller av deg. Du er alene ansvarlig for Innholdet du laster opp og deler.",
+          "fileSharing_point7": "ZTFR Pro og ZTFR Premium er betalte abonnementsversjoner som - sammenlignet med gratisversjonen - tilbyr en rekke premiumtjenester og forskjellige abonnementsvilkår.",
+          "fileSharing_point8": "Et ZTFR-abonnement (enten Gratis, Pro eller Premium) inkluderer abonnement på andre deler av ZTFR og tjenestene dens.",
+          "fileSharing_point9": "ZTFR forbeholder seg retten til automatisk å slette all opplastet Innhold med ZTFR Pro som fortsatt er tilgjengelig på serverne våre, 28 dager etter at ZTFR Pro- eller ZTFR Premium-abonnementet ditt har utløpt.",
+          "fileSharing_point10": "ZTFR Premium tilbyr deg (blant annet) ubegrenset ZITRANSFER Fil-deling-lagring med ubegrenset tilpasning. Du vil ha ubegrenset terabyte kapasitet til disposisjon med eksklusive tilpasningsverktøy.",
+          "fileSharing_point11": "ZTFR Teams (\"Teams\") er en betalt abonnementsversjon av ZTFR Pro og ZTFR Premium, som lar deg legge til teammedlemmer i ZTFR Pro- eller ZTFR Premium-kontoen din. Teammedlemmer kan enkelt legges til og fjernes per abonnementsperiode.",
+          "fileSharing_point12": "Startdatoen for ZTFR Teams' betalte abonnementsperiode er når du har registrert deg som ZTFR-teamleverandør (\"Team Vendor\") for ZTFR Teams-kontoen."
+        },
+        "payment": {
+          "payment_heading": "BETALING",
+          "payment_point1": "ZTFR er en gratis fil-delingstjeneste med mindre du har valgt en betalt tjeneste (ZTFR Pro, ZTFR Premium, ZTFR X, og mer).",
+          "payment_point2": "Vi kan innføre eller endre avgifter for tjenestene fra tid til annen, og vi vil gi deg forhåndsvarsel. Hvis du har et fast abonnement med fast pris, vil prisen gjelde for den faste perioden. Hvis du ikke er enig i prisendringen, kan du avslutte abonnementet og slutte å bruke tjenestene innen slutten av den gjeldende tjenesteperioden. Hvis du fortsetter å bruke tjenestene etter at prisendringen trer i kraft, godtar du å betale den endrede prisen. Innføring av avgifter vil kreve ditt forhåndssamtykke og registrering.",
+          "payment_point3": "Avhengig av betalingsmåten du velger, kan utstederen av betalingsmåten belaste deg visse gebyrer knyttet til behandlingen av betalingen din.",
+          "payment_point4": "Du kan endre betalingsmåten i kontoinnstillingene dine (Portal) for den respektive tjenesten.",
+          "payment_point5": "ZTFR kan suspendere eller avslutte tjenestene for deg hvis en betaling ikke blir gjennomført (for eksempel ved utilstrekkelige midler, utløp av kredittkort, endring av betalingsopplysninger eller annet). Suspensjon eller avslutning av tjenestene på grunn av manglende betaling kan føre til tap av tilgang til kontoen din og ditt Innhold.",
+          "payment_point6": "Hvis du abonnerer og betaler oss via Apple App Store eller Google Play Store, kan Apples eller Googles vilkår også gjelde."
+        },
+        "subscription_cancelation": {
+          "subscription_cancelation_heading": "AVSLUTNING AV ET ABONNEMENT",
+          "subscription_cancelation_point1": "Den opprinnelige abonnementsperioden varierer avhengig av ditt valg og/eller tjenesten det gjelder.",
+          "subscription_cancelation_point2": "Bortsett fra dine avbestillingsrettigheter i henhold til lokal lovgivning om forbrukerrettigheter, har du rett til å avbryte abonnementet ditt i løpet av de første 7 dagene, med mindre du begynner å bruke tjenesten i løpet av denne perioden, dermed gir du avkall på retten til å avbryte.",
+          "subscription_cancelation_point3": "Abonnementsperioden fornyes automatisk for den valgte abonnementsperioden, med mindre du har avsluttet abonnementet ditt i tide (før den siste dagen for abonnementet).",
+          "subscription_cancelation_point4": "Ved avbestilling vil du fortsette å ha tilgang til tjenestene frem til slutten av den betalte abonnementsperioden.",
+          "subscription_cancelation_point5": "Avbestilling gir deg ikke rett til refusjon av (delen av) abonnementsavgiften.",
+          "subscription_cancelation_point6": "Hvis abonnementet ditt automatisk fornyes for en periode på mer enn tre (3) måneder, har du rett til å avbryte abonnementet når som helst etter en slik fornyelse med en oppsigelsesfrist på en (1) måned. Ved avbestilling i henhold til denne klausulen kan du be om refusjon av en del av abonnementsavgiften. Dette betyr at du betaler for perioden frem til oppsigelsen trer i kraft, basert på den standard månedlige avgiften for den respektive tjenesten.",
+          "subscription_cancelation_point7": "Ved avbestilling eller hvis betalingen ikke blir gjennomført med suksess (for eksempel på grunn av utløp eller utilstrekkelige midler), vil kontoen din bli deaktivert etter slutten av abonnementsperioden. Du vil da ikke ha tilgang til dine personlige data, adressebok og alt Innhold lagret ved hjelp av tjenesten(e). Du kan reaktivere abonnementet når som helst i kontoinnstillingene dine (Portal) ved å foreta betaling innen fire uker etter deaktivering. Abonnementet ditt blir deretter fornyet fra dagen for reaktivering.",
+          "subscription_cancelation_point8": "Hvis du ikke reaktiverer abonnementet innenfor den angitte fristen ovenfor, kan noe av Innholdet ditt lagret ved hjelp av tjenesten(e) og informasjonen din, inkludert personlig innhold, innstillinger, adressebok og alle filer lagret for overføring, ha blitt automatisk og permanent slettet fra våre servere.",
+          "subscription_cancelation_point9": "Hvis du abonnerer via Apple App Store, kan Apples vilkår gjelde for varighet og avbestilling av abonnementet ditt i stedet for vilkårene i denne klausulen."
+        },
+        "teams": {
+          "teams_heading": "TEAM (Betaling, vilkår og avbestilling)",
+          "teams_point1": "En ZTFR Teams-konto er registrert på vegne av Team Vendor. Team Vendor blir fakturert for alle teammedlemmer som er abonnert på ZTFR Teams-kontoen.",
+          "teams_point2": "Team Vendor og enkelte teammedlemmer kan legge til teammedlemmer i Teams-kontoen, etter at slike nye teammedlemmer umiddelbart får tilgang til kontoen. Hvis teammedlemmer legges til i løpet av en gjeldende abonnementsperiode, belastes Team Vendor proporsjonalt for de gjenværende dagene i den abonnementsperioden. Deretter blir Team Vendor belastet i sin helhet for det nye teammedlemmet i den neste betalte abonnementsperioden.",
+          "teams_point3": "Team Vendor og individuelle teammedlemmer kan fjerne teammedlemmer fra ZTFR Teams-kontoen, etter at slike teammedlemmer umiddelbart mister tilgang til kontoen. Hvis teammedlemmer fjernes i løpet av en gjeldende abonnementsperiode, belastes Team Vendor for dette teammedlemmet frem til slutten av den betalte abonnementsperioden. Team Vendor blir ikke belastet for det fjernede teammedlemmet i den neste betalte abonnementsperioden.",
+          "teams_point4": "Eventuelle ubrukte dager i en betalt abonnementsperiode på grunn av fjerning av et teammedlem kan brukes til et nytt lagt teammedlem i samme betalte abonnementsperiode.",
+          "teams_point5": "Hvis en ZTFR Teams-konto avbrytes, vil Team Vendor og teammedlemmene fortsette å ha tilgang til ZTFR Teams-kontoen frem til slutten av den betalte abonnementsperioden. Etter den betalte abonnementsperioden får Team Vendor og teammedlemmene automatisk tilgang til en individuell, gratis ZTFR-konto.",
+          "teams_point6": "Hvis abonnementet ditt automatisk fornyes for en periode på mer enn tre (3) måneder, har du rett til å avbryte abonnementet når som helst etter en slik fornyelse med en oppsigelsesfrist på en (1) måned. Ved avbestilling i henhold til denne klausulen kan du be om refusjon av en del av abonnementsavgiften. Dette betyr at du betaler for perioden frem til oppsigelsen trer i kraft, basert på den standard månedlige avgiften for den respektive tjenesten.",
+          "teams_point7": "Ved avbestilling eller hvis betalingen ikke blir gjennomført med suksess (for eksempel på grunn av utløp eller utilstrekkelige midler), vil kontoen din bli deaktivert etter slutten av abonnementsperioden. Du vil da ikke ha tilgang til dine personlige data, adressebok og alt Innhold lagret ved hjelp av tjenesten(e). Du kan reaktivere abonnementet når som helst i kontoinnstillingene dine (Portal) ved å foreta betaling innen fire uker etter deaktivering. Abonnementet ditt blir deretter fornyet fra dagen for reaktivering.",
+          "teams_point8": "Hvis du ikke reaktiverer abonnementet innenfor den angitte fristen ovenfor, kan noe av Innholdet ditt lagret ved hjelp av tjenesten(e) og informasjonen din, inkludert personlig innhold, innstillinger, adressebok og alle filer lagret for overføring, ha blitt automatisk og permanent slettet fra våre servere.",
+          "teams_point9": "Hvis du abonnerer via Apple App Store, kan Apples vilkår gjelde for varighet og avbestilling av abonnementet ditt i stedet for vilkårene i denne klausulen."
+        },
+        "content_ownership": {
+          "content_ownership_heading": "Eierskap til innhold, tillatelser og ansvar",
+          "content_ownership_point1": "ZITRANSFER (ZTFR) hevder ikke noe eierskap til innholdet du oppretter, bruker, lagrer eller deler gjennom tjenestene, og du er utelukkende ansvarlig for det. Du er utelukkende ansvarlig for å dele det med riktige mottakere. Enhver ansvar for skader knyttet til innholdet ligger hos den enkeltpersonen som oppretter, bruker, lagrer og/eller deler det innenfor tjenestene. Du erkjenner at nedlastings- og/eller tilgangslenker kan videresendes, og at mottakere som har tilgang til slike lenker, kan få tilgang til innholdet det er knyttet til.",
+          "content_ownership_point2": "Noen av tjenestene lar deg beskytte innhold eller overføringer med et passord og pin-kode. Brukeren er utelukkende ansvarlig for konfidensialiteten og/eller distribusjonen av passord.",
+          "content_ownership_point3": "Ved å bruke tjenestene garanterer du at du har, for alt innhold du oppretter, bruker, lagrer eller deler ved hjelp av tjenestene, alle nødvendige tillatelser (inkludert fra opphavsrett og andre rettighetseiere av immaterielle rettigheter) for å distribuere, lisensiere, overføre, lagre og/eller gjøre innholdet tilgjengelig online som en del av tjenestene.",
+          "content_ownership_point4": "ZTFR er ikke ansvarlig overfor deg eller tredjeparter for skader som oppstår i forbindelse med innholdet opprettet, brukt, lagret eller delt av deg innenfor tjenestene, inkludert, men ikke begrenset til, opphavsrettsbeskyttede verk og/eller varemerker.",
+          "content_ownership_point5": "ZITRANSFER (ZTFR) krever en lisens fra deg med hensyn til innholdet KUN MED HENSYN TIL DRIFT, MULIGGJØRING OG FORBEDRING AV TJENESTENE. Utelukkende for dette eksplisitte formålet, og inntil du sletter innholdet fra tjenestene, samtykker du og erkjenner at ved å bruke tjenestene gir du oss en ubegrenset, verdensomspennende, royaltyfri lisens til (i) bruke, lagre, skanne, søke, sortere, indeksere, opprette forhåndsvisninger og (ii) reprodusere, kommunisere, publisere, vise offentlig, distribuere og redigere (inkludert, men ikke begrenset til, skalering, beskjæring, tilpasning og oversettelse) innholdet. LISENSDelen UNDER (ii) GJELDER IKKE FOR ZITRANSFER (ZTFR) FILDELING som angitt i punkt 2 i disse vilkårene. For å unngå tvil vil ZITRANSFER (ZTFR) ikke selge eller annonsere innholdet: ZITRANSFER (ZTFR) krever kun lisens FOR DET ENE FORMÅLET Å DRIVE, MULIGGJØRE OG FORBEDRE TJENESTENE.",
+          "content_ownership_point6": "ZTFR gir ikke noen offentlig søkefunksjon, katalog eller liste for å finne innhold.",
+          "content_ownership_point7": "ZTFR kan vise deg annonser fra annonsører og kunstnere valgt av ZTFR (slik som fullskjerm-annonser) når du bruker tjenestene."
+        },
+        "restrictions": {
+          "restrictions_heading": "Begrensninger",
+          "restrictions_point1": "ZTFR respekterer dine rettigheter og forventer at du respekterer andres, inkludert ZITRANSFER (ZTFR), dets kunstnere, annonsører og tredjeparter. Dette inkluderer respekt for retten til personvern, forretningshemmeligheter og immaterielle rettigheter, som varemerker, opphavsrett, firmanavn og logoer. Du samtykker i å ikke bruke tjenestene til å begå, fremme, muliggjøre eller lette ulovlige eller kriminelle handlinger eller brudd på disse vilkårene eller til å lette eller fremme at andre gjør det.",
+          "restrictions_point2": {
+            "point": {
+              "pointpart1": "Som en betingelse for å bruke tjenestene du ",
+              "pointpart2": "godta å ikke opprette, bruke, lagre eller",
+              "pointpart3": " del noen ",
+              "pointpart4": "Innhold som:"
+            },
+            "subpoint1": "Inneholder barnepornografi (bilde- eller videoinnhold med seksuelle overgrep mot barn)",
+            "subpoint2": "Er obskønt, ærekrenkende, æreskrenkende, injurierende, blasfemisk, umoralsk, diskriminerende, truende, skadelig, uanstendig, vulgært eller ulovlig",
+            "subpoint3": "Fremmer rasisme, vold eller hat",
+            "subpoint4": "Er faktisk unøyaktig, falsk, villedende, feilaktig fremstilt eller bedragende",
+            "subpoint5": "Du ikke har rettighetene til",
+            "subpoint6": "Krenker, bryter eller misbruker immaterielle rettigheter, personvernrettigheter, inkludert rettigheter knyttet til personvern av personopplysninger, og/eller andre rettigheter av enhver art",
+            "subpoint7": "Krenker eller bryter noen gjeldende lov eller forskrift; og/eller",
+            "subpoint8": "Utgjør 'hatprat', enten rettet mot enkeltpersoner eller en gruppe, og enten basert på rase, kjønn, trosbekjennelse, nasjonal opprinnelse, religiøst tilhørighet, seksuell legning, språk eller en annen egenskap ved slik enkeltperson eller gruppe."
+          },
+          "restrictions_point3": {
+            "point": "I tillegg samtykker du i å ikke:",
+            "subpoint1": "Mishandle, trakassere, forfølge, true, begå vold, eller på annen måte handle ulovlig, eller oppmuntre andre til å gjøre det",
+            "subpoint2": "Utgir deg for å være eller falsk pretenderer til tilknytning til noen person eller enhet",
+            "subpoint3": "Få tilgang til ikke-offentlige områder av tjenestene",
+            "subpoint4": "Forstyrre eventuelle tilgangs- eller brukbegrensninger",
+            "subpoint5": "Bruke metoder for datautvinning eller datainnsamling eller -ekstraksjon, eller på annen måte samle informasjon om brukerne av tjenestene",
+            "subpoint6": "Sende virus, ormer, skadelig programvare, løsepengevirus, søppelpost, søppelpost, kjedebrev, phishing-e-post, uønskede meldinger, markedsføringskampanjer eller annonser av noen slag og for ethvert formål",
+            "subpoint7": "Forstyrre, skade eller forstyrre tjenestene eller handle på en måte som kan gjøre det",
+            "subpoint8": "Forsøke å undersøke, skanne, kompromittere eller teste sårbarheten til tjenestene eller noen relatert tjeneste, system eller nettverk eller bryte noen sikkerhet eller autentisering, med mindre du gjør det i samsvar med vår Responsible Disclosure",
+            "subpoint9": "Bruke automatiserte midler for å få tilgang til eller bruke tjenestene uten vår tillatelse",
+            "subpoint10": "Reversere ingeniør eller dekompilere noen (del) av tjenestene",
+            "subpoint11": "Selge på nytt, lisensiere, leie, lease, tilby eller på annen måte kommersialisere tjenestene uten vår tillatelse",
+            "subpoint12": "Tillate andre å bruke kontoen din"
+          }
+        },
+        "violation": {
+          "content_ownership_heading": "Brudd på Vilkårene for Tjenesten",
+          "content_ownership_point1": "ZITRANSFER (ZTFR) forbeholder seg retten til å undersøke, gi til tredjeparter, (midlertidig) blokkere og/eller permanent slette fra sine servere, uten forhåndsvarsel eller ansvar, enhver form for innhold og/eller kontoinformasjon eller å blokkere noen fra å få tilgang til en hvilken som helst del av tjenestene, når ZTFR fastslår, etter eget skjønn eller etter å ha mottatt saklig og gyldige klager, at du bryter disse vilkårene eller handler i strid med gjeldende lov eller forskrift. Mer informasjon er tilgjengelig i vår Merknad/Strukturpolitikk."
+        },
+        "intellectual": {
+          "intellectual_heading": "Immaterielle rettigheter",
+          "intellectual_point1": "Alle immaterielle rettigheter og/eller lignende rettigheter til tjenestene (inkludert programvaren, bakgrunnsbilder, videoer, innhold, fotografier, grafisk design, typografi, portretter, logoer, varemerker, firmanavn, domenenavn, opphavsrett og patenter) tilhører ZITRANSFER (ZTFR) og/eller dets lisensgivere, og du har ikke lov til å bruke, fjerne, endre, kopiere, speile, distribuere, dekompilere eller reversere ingeniør noe av det på noen måte.",
+          "intellectual_point2": "ZTFR er ikke ansvarlig eller erstatningspliktig for tredjepartsinnhold publisert innenfor tjenestene, i-annonser til eksterne nettsteder eller innhold, produkter eller tjenester som tilbys på eksterne nettsteder. Du erkjenner og aksepterer at all bruk utenfor tjenestene er på egen risiko.",
+          "intellectual_point3": "Du vil alltid respektere og opprettholde ZITRANSFERs (ZTFR)/ZIMO GROUPs gode navn og omdømme og sørge for at din bruk av tjenestene på ingen måte vil skade noen rettigheter og/eller det gode navnet og omdømmet til ZITRANSFER/ZTFR og dets lisensgivere."
+        },
+        "disclaimer": {
+          "disclaimer_heading": "Ansvarsfraskrivelse og kontoregistrering",
+          "disclaimer_point1": "ZTFR leverer tjenestene 'SOM DE ER', uten noen form for garanti. Uten å begrense det foregående fraskriver ZTFR seg uttrykkelig enhver form for garantier for salgbarhet, egnethet for et bestemt formål og manglende krenkelse. ZTFR gir ingen garanti for at tjenestene er tilgjengelige på en uavbrutt, sikker eller feilfri basis. Din bruk av tjenestene er på eget ansvar. Du erkjenner og godtar at ZTFR ikke er ansvarlig for eventuelle skader på datamaskinsystemet eller mobil enhet av deg eller tredjeparter som følge av bruk av tjenestene, og er ikke ansvarlig for eventuelle feil i tjenestene ved lagring, overføring eller sletting av en fil, eller for korrupt eller tap av data, informasjon eller innhold som er inneholdt i en fil.",
+          "disclaimer_point2": "ZTFR kan endre, avslutte eller utvide tjenestene fra tid til annen og forbeholder seg retten til å begrense tilgang til eller eliminere funksjoner eller funksjonalitet i tjenestene etter eget skjønn.",
+          "disclaimer_point3": "Noen av tjenestene krever at du registrerer deg og gir oss data som din e-postadresse, passord og/eller betalingsopplysninger. Du må sørge for at disse opplysningene er nøyaktige og holde dem oppdatert i dine kontoinnstillinger (Portal). Du er ansvarlig for all aktivitet fra eller med din konto, så du bør ikke dele passordet ditt og du bør beskytte det nøye. Hvis registreringer eller kontodata ser ut til å bli misbrukt, forbeholder ZTFR seg retten til å slette kontoen. ZTFR er ikke erstatningspliktig for tap eller skade som følge av uautorisert bruk av kontoen din."
+        },
+        "indemnity": {
+          "indemnity_heading": "Erstatning og ansvar",
+          "indemnity_point1": "Du vil forsvare, friholde og holde ZITRANSFER/ZTFR (inkludert dets ansatte og tilknyttede selskaper) skadesløse for eventuelle krav, hendelser, ansvar, prosedyrer, skader, tap og utgifter (inkludert juridiske og regnskapsmessige gebyrer), som oppstår som følge av eller på noen måte er knyttet til din tilgang til eller bruk av tjenestene eller brudd på disse vilkårene, inkludert eventuelle tredjeparts krav om at innhold opprettet, brukt, lagret eller delt ved hjelp av tjenestene av deg eller gjennom din konto, krenker eller bryter tredjeparts rettigheter.",
+          "indemnity_point2": "Tjenestene kan tilby integrasjon med tjenester fra tredjeparter. Du erkjenner at: (i) ZTFR ikke er ansvarlig for handlinger eller forsømmelser fra slike tredjepartstjenester; (ii) at ZTFR ikke er en agent for slike tredjepartstjenester; og (iii) din bruk av slike tjenester er underlagt eventuelle gjeldende vilkår og betingelser mellom deg og leverandørene av slike tjenester.",
+          "indemnity_point3": "I den grad som er tillatt etter gjeldende tvungen lov, er ZTFR ikke ansvarlig for skade eller personskade som følge av bruk av tjenestene, inkludert eventuell (midlertidig) utilgjengelighet eller (tilfeldig) fjerning av innhold eller kontoen din. Begrensningen av ansvar som er referert til i denne klausulen, skal ikke gjelde hvis ansvaret for skade skyldes forsett eller grov uaktsomhet fra ZTFR. Hvis ZTFR er ansvarlig for skade i henhold til tvungen lov, vil ZTFRs samlede ansvar overfor deg - i den grad som er tillatt etter tvungen lov - for eventuelle krav som oppstår i forbindelse med bruk av tjenestene, i ingen tilfeller overstige beløpet på hundre USD ($100) per hendelse."
+        },
+        "wavier": {
+          "wavier_heading": "Frafallelse, skillelse og overdragelse",
+          "wavier_point1": "ZITRANSFERs unnlatelse av å håndheve en bestemmelse er ikke en frafallelse av dens rett til å gjøre det senere.",
+          "wavier_point2": "Hvis en (del av en) bestemmelse i disse vilkårene anses å være ulovlig, ugyldig eller på annen måte ugyldig, vil (i) de øvrige vilkårene forbli i full kraft og virkning i den grad som er tillatt i samsvar med gjeldende lover; og (ii) den delen vil bli ansett som slettet og erstattet med en gyldig som i sin økonomiske effekt kommer nærmest den ugyldige delen.",
+          "wavier_point3": "Du kan ikke overføre noen av dine rettigheter i henhold til disse vilkårene. ZTFR har til enhver tid rett til å overføre sine rettigheter til noen av sine tilknyttede selskaper eller datterselskaper, eller til enhver rettighetshaver som er tilknyttet noen av virksomhetene som er knyttet til tjenestene uten ditt samtykke eller andre begrensninger."
+        },
+        "applicable_law": {
+          "applicable_law_heading": "Gjeldende lov og jurisdiksjon",
+          "applicable_law_point1": "Disse vilkårene og eventuelle kontraktsfestede forpliktelser som oppstår i forbindelse med dem, vil bli regulert av og tolket i samsvar med engelsk lov, inkludert tvungen forbrukerrett. Disse vilkårene vil ikke begrense eventuelle forbrukerbeskyttelsesrettigheter som du kan ha i henhold til tvungen lover i ditt land bosted.",
+          "applicable_law_point2": "Eventuelle tvister angående disse vilkårene vil bli forelagt den eksklusive jurisdiksjonen til kompetente domstoler i England, Storbritannia (unntatt engelsk internasjonal privatrett)."
+        },
+        "contact": {
+          "contact_heading": "Kontakt",
+          "contact_point1": "Du kan kontakte ZITRANSFER (ZTFR) Juridisk på ",
+          "email": "legal@zimogroup.org"
+        }
+      },
+      "privacyStatement": {
+        "privacyStatement": "PERSONVERNERNKLÆRING",
+        "privacy": {
+          "privacy_heading": "Personvernernklæring beskriver hvordan ZTFR samler, bruker og deler dine personopplysninger.",
+          "privacy_para1": "Beskyttelse av våre brukeres data er av største viktighet for oss, og vi går langt for å sørge for at vi holder den trygg.",
+          "privacy_para2": "Vi tar din tillit og rett til personvern på alvor og jobber kontinuerlig for å holde ditt digitale fotavtrykk lite og under din kontroll. Likevel, for å gjøre det mulig for deg i flyten din og for å forbedre og sikre tjenesten vår, må vi behandle noen personopplysninger. For personvernrelaterte spørsmål, vennligst kontakt vårt databeskyttelsesteam via ",
+          "privacy_para3": "Denne erklæringen dekker behandlingsaktivitetene til ZITRANSFER (ZTFR) tjenester, programvare, nettsteder (inkludert nettleserutvidelser) og/eller applikasjoner (samlet: \"Tjenester\"). Tjenestene lar deg opprette, dele, samle, fange opp og/eller visualisere ideer, tekster, grafikk, videoer, data, informasjon, filer, presentasjoner eller annet innhold (samlet: \"Innhold\"). Tjenestene kan tilbys deg på nettet, i form av en mobil- og/eller skrivebordsapplikasjon(er) og/eller kan integreres i en tredjepartstjeneste. Ved å bruke noen av tjenestene samtykker du i å ha lest og forstått vår Personvernernklæring som nedenfor.",
+          "privacy_para4": "Du kan bli kjent med våre personvernpraksiser, tilgjengelig via overskriftene nedenfor.",
+          "accordians": {
+            "accordian1": {
+              "heading": "HVA SLAGS INFORMASJON SAMLER VI?",
+              "content": {
+                "first_para": "Vi lagrer noen personlige opplysninger for å gjøre bruk av våre tjenester mulig. Det er flere måter vi kan samle personlig informasjon fra deg på: du kan sende den inn, eller vi vil samle den automatisk gjennom våre tjenester. Forskjellige typer personlig informasjon kan samles, avhengig av måten du bruker våre tjenester på og hvilke tjenester du bruker. Sjekk avsnittet 'Hva er dine rettigheter som bruker' for å finne ut hvordan du kan endre, få tilgang til, eller slette din personlige informasjon.",
+                "sub_heading1": {
+                  "heading": "Personlig informasjon du sender",
+                  "text1": "ZITRANSFER (ZTFR) samler, behandler eller lagrer personlig informasjon du oppgir.",
+                  "text2": "Opplasteren eller skaper(e) er ansvarlig for legitimiteten av innholdet og må følge våre vilkår for tjenesten, ZTFR behandler det kun for å levere tjenestene. Hvis du laster opp, sender eller oppretter personlig informasjon via en av våre tjenester, kan du be om en databehandlingsavtale ved å sende en e-post til legal@zimogroup.org.",
+                  "points": {
+                    "point1": "KONTAKTINFORMASJON: ditt navn og din e-postadresse eller mottakerens e-postadresse.",
+                    "point2": "INFORMASJON OM DEG SELV: alder, kjønn, by, land.",
+                    "point3": "PREFERANSER: for eksempel språkinnstillinger eller interesser.",
+                    "point4": "INNHOLD OG METADATA: du kan velge å laste opp eller opprette innhold som inneholder all slags personlig informasjon om deg selv og andre. Slikt innhold inneholder også filnavn, størrelse og filtype.",
+                    "point5": "PERSONLIGE MELDINGER/NOTATER: de du sender til personer i forbindelse med deling av filene dine."
+                  }
+                },
+                "sub_heading2": {
+                  "heading": "Personlig informasjon vi samler automatisk",
+                  "text1": "ZTFR samler også og bruker personlig informasjon automatisk mens du bruker våre tjenester.",
+                  "points": {
+                    "point1": "NETTLESERINFORMASJON: type nettleser, språkinnstillinger, land og tidssone.",
+                    "point2": "INFORMASJON OM INFORMASJONSKAPSLER ELLER WEBBEKJENTGJØRING: informasjon om informasjonskapsler og innstillinger og annen personlig informasjon mottatt via informasjonskapsler, webbekjennelser eller pikselkoder. Lær mer om dette under avsnittet 'Hvorfor og hvordan brukes informasjonskapsler'.",
+                    "point3": "ENHETSINFORMASJON: typen enhet, maskinvaremodell og operativsystem.",
+                    "point4": "IDENTIFIKASJONSDATA: unike identifikatorer som for eksempel en IDFA (for iOS), MAC-adresse eller bruker-ID.",
+                    "point5": "NETTVERKSINFORMASJON: IP-adresser og mobilnettverksinformasjon.",
+                    "point6": "LOKASJONSDATA: data om geolokasjonen din. Hvis vi bruker nøyaktig GPS-lokasjon basert på enheten din, vil vi sørge for å gjøre det bare etter å ha fått ditt samtykke.",
+                    "point7": "TJENESTEBRUK: informasjon om måten du samhandler med våre tjenester, nettsteder og mobilapper."
+                  }
+                },
+                "sub_heading3": {
+                  "heading": "Personlig informasjon vi mottar fra partnere",
+                  "text1": "Vi kan motta personlig informasjon fra tredjeparter, som for eksempel:",
+                  "points": {
+                    "point1": "INTEGRASJONSINFORMASJON: du kan velge å integrere noen av våre tjenester med din (sosiale medier eller meldingstjenester) konto for å gi deg rik meldingsfunksjonalitet.",
+                    "point2": "MARKEDSFØRINGSINFORMASJON: noen partnere kan gi tilleggs(aggregert) informasjon, for eksempel gjennom sine programvareutviklerverktøy (SDK-er). Dette kan inneholde demografisk eller atferdsinformasjon for å tilpasse innhold, annonser og tilbud, og for å nå riktig målgruppe for våre annonser.",
+                    "point3": "JURIDISK INFORMASJON: når lovhandhevelsesorganer eller domstoler pålegger oss å fjerne innhold, kan vi i utgangspunktet motta personlig informasjon om deg og din atferd."
+                  }
+                }
+              }
+            },
+            "accordian2": {
+              "heading": "HVILKE PARTER DELER VI PERSONLIG INFORMASJON MED?",
+              "content": {
+                "first_para": "ZTFR har flere partnere for å drive og forbedre sine tjenester. Videre kan vi dele eller tillate deg å dele informasjonen din som en del av noen av tjenestene våre.",
+                "second_para": "Vi er en global plattform/bedrift og en del av en global teknologiorganisasjon, noe som betyr at vi kan dele eller lagre personlig informasjon i land utenfor Det europeiske økonomiske samarbeidsområdet (EØS). Disse landene har forskjellige databeskyttelseslover på plass. Imidlertid vil vi sørge for at passende sikkerhetstiltak er på plass når vi overfører og lagrer data globalt, for å sikre at din personlige informasjon nyter godt av en lignende beskyttelsesnivå som den ville innenfor EØS.",
+                "points": {
+                  "point1": "TJENESTELEVERANDØRER: som vår hostingleverandør, brukerstøtteleverandør, IT- og programvareleverandører, betalingsbehandlere, e-postbehandlere og regnskapsførerne.",
+                  "point2": "PERSONER OG (SOSIALE) MEDIER ETTER DITT VALG: du kan velge å dele innholdet ditt med andre, for eksempel lagkamerater, innenfor våre tjenester eller på (sosiale) medier som Facebook, X, osv.",
+                  "point3": "LOVHÅNDHERINGSORGANER ELLER REGULATORER: vi er forpliktet til å dele din personlige informasjon i tilfelle av en juridisk forespørsel. Hvis vi støter på CSAI eller når vi blir varslet om annet ulovlig innhold, vil vi også dele din personlige informasjon med lovhandhevelsesorganer.",
+                  "point4": "FORRETNINGSPARTNERE: vi samarbeider med annonseringspartnere, markedsførings- og kommunikasjonsbyråer. Dette gjør vi for (interessebasert) annonsering, merkevarebygging og for å nå ut til deg. Våre annonseringspartnere implementerer sine egne sporing informasjonskapsler som faller under deres tjenestevilkår og personvernerklæring.",
+                  "point5": "INTEGRERTE TJENESTER: hvis du velger å integrere (en av) våre tjenester med en annen tjeneste (for eksempel din sosiale mediekonto), vil vi koble den tjenesten med vår. For å tilby en slik tjeneste må vi dele noe av din personlige informasjon med den tjenesten. Vilkårene og personvernerklæringen til disse tredjepartene gjelder, i det minste for deres del av tilkoblingen.",
+                  "point6": "ZTFR ENTITETER: vi deler personlig informasjon mellom enheter som er en del av ZITRANSFER og ZIMO GROUP for å tilby våre tjenester og for alle formål nevnt under 'Hvorfor bruker vi din personlige informasjon?'."
+                }
+              }
+            },
+            "accordian3": {
+              "heading": "HVORFOR OG HVORDAN BRUKES INFORMASJONSKAPSLER?",
+              "content": {
+                "first_para": "Vi plasserer informasjonskapsler med intensjonen om å gjøre ZTFR enda bedre. Vi jobber hardt for å gjøre tjenestene våre trygge, vakre og lite påtrengende. Du er velkommen til å blokkere informasjonskapsler, men dette kan påvirke hvor godt tjenestene våre fungerer.",
+                "second_para": "Vi plasserer flere informasjonskapsler (eller lignende teknologier, som piksler eller webbekjennelser) på enheten din med det formålet å lette bruken av tjenesten og for å finne ut hvordan tjenesten kan forbedres. Vi eller våre annonsørpartnere plasserer også informasjonskapsler på nettstedet(e) våre. Som en global tjeneste kan disse partnerne variere fra land til land. Når våre annonsørpartnere plasserer informasjonskapsler, kan disse informasjonskapslene behandle personlig informasjon for å måle effektiviteten av kampanjen.",
+                "third_para": "Informasjonskapsler er små tekstfiler som lagres på datamaskinen din av nettleseren din når du besøker en nettside. Eksempler på formål for informasjonskapsler inkluderer: språkpreferanser, pålogging på en konto, huske påloggingsdetaljer, servere deg personlig tilpassede annonser og aksept av vilkårene for tjenesten og personvernerklæringen. Nettsiden vår kan plassere disse informasjonskapslene for følgende formål:",
+                "points": {
+                  "point1": "FUNKSJONELLE INFORMASJONSKAPSLER brukes for å tilby funksjoner når du bruker tjenesten vår, som muligheten til å angi preferanser eller huske tidligere innstillinger.",
+                  "point2": "ANALYTISKE INFORMASJONSKAPSLER brukes for å optimalisere tjenesten vår. For eksempel for å optimalisere brukervennligheten på nettstedet vårt ved å utføre AB-testing av en ny funksjon, gjøre nettstedet mer brukervennlig og analysere hvordan du bruker tjenesten vår. Vi bruker også analytiske informasjonskapsler for å stoppe bots og ondsinnet atferd som søppelpost. Når vi bruker analytiske informasjonskapsler, kan dette inkludere tredjeparts informasjonskapsler, som finnes i informasjonskapsellisten. Disse tredjeparts analytiske informasjonskapslene behandler personlig informasjon, som er detaljert i informasjonskapsellisten også.",
+                  "point3": "ANNONSERINGSINFORMASJONSKAPSLER brukes til kommersielle, redaksjonelle og promoteringer. Med disse informasjonskapslene kan din internett- og surfeatferd følges over forskjellige domener og nettsteder. ZTFR sjekker bare det (en) nettstedet du besøkte før du besøkte ett av nettstedene våre. Vi sporer ikke nettstedet du besøker etter at du forlater nettstedet vårt. Annonsørinformasjonskapsler plasseres ofte også av tredjeparter for å måle effektiviteten av deres reklamekampanjer og følge internett- og surfeatferden din over andre domener og nettsteder der de har plassert en informasjonskapsel. ZTFR har ikke tilgang til eller kontroll over personlig informasjon som samles inn via disse informasjonskapslene eller andre funksjoner som annonsører og tredjeparter kan bruke. Vår personvernerklæring gjelder derfor ikke for disse tredjeparts informasjonskapsler, og vi henviser deg til tredjeparters personvernerklæringer for å lese hvordan de håndterer personlig informasjon.",
+                  "point4": "PIKSELTAGGER ELLER WEBBEKJENNELSER er en kodebit som er innebygd på nettstedet og samler personlig informasjon om brukernes engasjement på den nettsiden. Bruk av en piksel gjør det mulig for oss å registrere, for eksempel, at en bruker har besøkt en bestemt nettside eller klikket på en bestemt annonse. Pikselen gjør det også mulig for oss å se fra hvilken tidligere nettside eller kanal en bruker kom til nettstedet vårt."
+                }
+              }
+            },
+            "accordian4": {
+              "heading": "HVORFOR BRUKER VI DIN PERSONLIGE INFORMASJON?",
+              "content": {
+                "first_para": "Vi bruker din personlige informasjon for å tilby og forbedre tjenestene våre, for å overholde juridiske forpliktelser og for å annonsere tjenestene våre og holde tjenestene våre trygge og sikre. Vennligst se nedenfor hvordan vi bruker din personlige informasjon spesifikt og på hvilke juridiske grunnlag vi baserer bruken av din personlige informasjon.",
+                "sub_heading1": {
+                  "heading": "Personlig informasjon som samles inn automatisk",
+                  "points": {
+                    "point1": "TJENESTE: den viktigste grunnen til å bruke din personlige informasjon er selvfølgelig å tilby deg tjenestene våre, som nevnt i våre vilkår for tjenesten, for eksempel å opprette eller visualisere innholdet ditt eller dele ideene dine og la deg få tilgang til og bruke innholdet ditt på forskjellige enheter.",
+                    "point2": "SUPPORT: vi tilbyr et bredt spekter av supporttjenester for å hjelpe deg når du trenger det, for eksempel når du trenger teknisk assistanse. Hvis det er nødvendig å tilby support, kan støtteteamet, på din forespørsel, få tilgang til innholdet ditt for å hjelpe deg.",
+                    "point3": "KONTO & FAKTURERING: opprette og opprettholde din personlige konto, for eksempel for å lette adresseboken din og la deg få tilgang til innholdet ditt på forskjellige enheter, lette betalingen av abonnementsavgiften din og utføre regnskap, revisjon og fakturering.",
+                    "point4": "SIKKERHET, INTEGRITET & SIKKERHET: ZTFR følger opp rapporter om misbruk, NTD/DMCA-rapporter, svindelundersøkelser og kan undersøke din overholdelse av våre tjenestevilkår og/eller API-vilkår for bruk. Videre oppdager vi og blokkerer overgrepsbilder av barn (Child Sexual Abuse Imagery - CSAI). Påvisning av CSAI fører til automatiserte beslutninger om hvorvidt slikt innhold er potensielt CSAI. Tilfeller av potensiell CSAI vil bli rapportert direkte til rettshåndhevingsorganer. Videre beskytter vi oss mot svindel og andre ulovlige aktiviteter. I alle disse tilfellene forbeholder vi oss retten til å bevare innholdet ditt og dele det, sammen med annen identifiserende informasjon, med rettshåndhevingsorganer. Til slutt kan vi bruke din personlige informasjon til intern kontroll for å beskytte vår og din sikkerhet, integritet og sikkerhet. For eksempel, i tilfelle mistanke om brudd på våre tjenestevilkår eller API-vilkår for bruk.",
+                    "point5": "FORBEDRING OG UTVIKLING: vi evaluerer bruken av tjenestene våre for å forbedre dem, fikse feil, utvikle nye produkter og tjenester. Dette gjør vi enten ved markedsundersøkelser (for eksempel ved å sende ut spørreundersøkelser) eller ved å utføre analyser (for eksempel ved å spore og samle din personlige informasjon over tjenestene våre eller over dine mobile enheter). Dette gjør vi for å forstå hvordan hele brukerbasen vår samhandler med tjenestene våre som helhet, men også for å vurdere effekten av annonsene våre og forbedre de tjenestene og annonsene deretter.",
+                    "point6": "MARKEDSFØRING, ANNONSERING & KOMMUNIKASJON: vi bruker din personlige informasjon for markedsføring og (interessebasert) annonsering, for eksempel ved å bruke SDK-er eller informasjonskapsler, samt kommunikasjon. Tenk oppdateringer om nye tjenester, men også personlig tilpassede annonser fra ZTFR eller partnerne våre, som vi kan servere på våre eller tredjeparts nettsteder. For å finne riktig målgruppe for disse annonsene vil vi se på visse segmenter av mennesker. For eksempel personer som bruker lignende tjenester som våre, personer som deler de samme egenskapene som våre nåværende brukere, eller personer innenfor en bestemt geografisk plassering, som London-området. For å koble til målgruppen vår kan vi bruke sekvensiell meldingsformidling, som i hovedsak er en form for fortelling: hver gang du samhandler med tjenestene våre på en annen enhet, kan du motta en litt annerledes annonse i en annen form, men annonsene er en del av den samme historien. Videre, basert på måten du samhandler med tjenestene våre gjennom enhetene dine, kan vi fremme en av tjenestene våre eller funksjonene. Videre gir vi deg muligheten til å delta i eventuelle (personlig tilpassede) handlinger, kampanjer eller arrangementer vi tilbyr. Til slutt bruker vi e-postmarkedsføring for å sende deg relevante historier om kreativitet eller ZTFR-nyheter. Hvor nødvendig vil vi alltid be om samtykke før vi sender deg e-postmarkedsføring. Selvfølgelig kan du alltid enkelt velge å ikke motta e-postmarkedsføring i hver e-post du mottar.",
+                    "point7": "JURIDISK: i den grad det er nødvendig, kan vi bruke din personlige informasjon til å forsvare ZITRANSFER (ZTFR) / ZIMO GROUP i juridiske prosedyrer i forbindelse med eller som et resultat av din bruk av tjenestene våre, etter en rettskjennelse, i samsvar med lov, forskrift eller regjeringsforespørsel, samarbeide med rettshåndhevelse, samarbeide i svindelundersøkelser av tredjeparter, beskytte nasjonal sikkerhet, forsvar, offentlig sikkerhet og for å opprettholde våre tjenestevilkår."
+                  }
+                },
+                "sub_heading2": {
+                  "heading": "Juridiske grunnlag",
+                  "text1": "Hver behandlingsaktivitet har et gyldig juridisk grunnlag, som beskrives nedenfor.",
+                  "points": {
+                    "point1": "KONTRAKTFORPLIKTELSER MED DEG: angående aktiviteter og formål nevnt under 1, 2 og 3. Vi må behandle personlig informasjon for å tilby tjenestene våre via nettstedene og mobilappene våre, for eksempel å gi (teknisk) støtte og for å belaste abonnementsavgiften din.",
+                    "point2": "JURIDISKE FORPLIKTELSER: angående aktiviteter og formål under 3, 4 og 7. Vi er lovpålagt å behandle din personlige informasjon for regnskapsformål, for å svare på juridiske henvendelser og NTD- eller DMCA-henvendelser.",
+                    "point3": "SAMTYKKE: (delvis) angående aktiviteter og formål nevnt under 2 (for eksempel tilgang til innholdet ditt for støtte) og 6, med unntak når vi kommuniserer direkte markedsføring i forhold til våre egne og lignende tjenester til deg som en betalende bruker.",
+                    "point4": "BERETTIGEDE INTERESSER: (delvis) angående aktiviteter og formål under 1 og 3 (for eksempel å tilby tilgang på tvers av enheter). For formål nevnt under 4 for å tilby trygge tjenester, forhindre svindel og reagere på ulovlig bruk av tjenestene våre. For våre innovative interesser som nevnt under 5. Og til slutt for vår (direkte) markedsføring, merkevareinteresser under 6 og juridiske og overholdelsesinteresser som er oppgitt under 7. Når vi bruker din personlige informasjon basert på vår eller en tredjeparts berettigede interesse, vil vi sørge for å balansere dine rettigheter og friheter mot denne berettigede interessen. Hvis det, i den grad det er aktuelt, ønsker du å protestere mot aktivitetene basert på vår berettigede interesse, og det ikke er noen mulighet for å velge bort i kontoinnstillingene dine eller mottatt kommunikasjon, vennligst kontakt"
+                  }
+                }
+              }
+            },
+            "accordian5": {
+              "heading": "KAN DU BRUKE ZITRANSFER (ZTFR) FOR PRIVATE OG SENSITIVE FILER?",
+              "content": {
+                "first_para": "Vi behandler innholdet ditt med respekt. Vi tilbyr ikke noen offentlig søkefunksjon, katalog eller oversikt for å finne innhold. Vi stoler på at du forstår at for å oppfylle vårt moralske ansvar med å redusere spredningen av overgrepsbilder av barn (Child Sexual Abuse Imagery - CSAI), bruker vi automatiserte systemer for å oppdage slikt innhold. Til slutt er vi forpliktet til å slette innholdet ditt når vi mottar en varsel om fjerning/DMCA-henvendelse eller når vi mottar en juridisk henvendelse.",
+                "second_para": "Vær oppmerksom når du deler nedlastings-/tilgangskoblinger - hvem det enn blir videresendt til eller har tilgang til en nedlastings-/tilgangskobling, kan få tilgang til eller laste ned innholdet. For ekstra sikkerhet og konfidensialitet vil du kanskje bruke funksjonen vår for å beskytte filene dine med et passord (hvis tilgjengelig)."
+              }
+            },
+            "accordian6": {
+              "heading": "HVOR TRYGT ER DET Å BRUKE VÅRE KRYPTERTE TJENESTER?",
+              "content": {
+                "first_para": "ZITRANSFER (ZTFR) tar tekniske og organisatoriske tiltak for å beskytte din personlige informasjon mot tap eller annen ulovlig behandling.",
+                "second_para": "Vi sørger for at personlig informasjon kun er tilgjengelig for de som trenger tilgang for å utføre jobben sin, og at de har riktig autorisasjon. Det betyr at vi fører logger over hvem som har tilgang til personlig informasjon, begrenser antallet personer som har tilgang, og sørger for at personlig informasjon kun kan leses, kopieres, endres eller slettes av autorisert personell. Vi overvåker intern aktivitet for å sikre sikkerheten og nøyaktighet av personlig informasjon.",
+                "third_para": "ZTFR-ansatte forventes å opptre i samsvar med selskapets retningslinjer angående konfidensialitet, etikk og riktig bruk av personlig informasjon. Ansatte må signere en taushetserklæring.",
+                "forth_para": "Under opplasting, mens det er lagret på våre servere, og under nedlasting, er innholdet kryptert og sendes kun over en sikker tilkobling (https). Serverne vi bruker for å lagre innholdet ditt er i samsvar med GDPR og er sikre."
+              },
+              "text": "ZTFR BRUKER ADVANSERT KRYPTERINGSTANDARD (AES) 256-BIT FOR Å BESKYTTE KONFIDENSIALITETEN TIL DATAEN DU LASTER OPP."
+            },
+            "accordian7": {
+              "heading": "HVA ER RETENSJONSPROSEDYRER PÅ PLASS?",
+              "content": {
+                "para": "Oppbevaringsperioden for din personlige informasjon avhenger av hvilken tjeneste du bruker og hvilken kategori av personlig informasjon vi snakker om. Sjekk alltid nettsidene eller appene til tjenestene for spesifikk informasjon om oppbevaringsperiodene.",
+                "heading1": {
+                  "sub_heading": "PERSONLIG INFORMASJON",
+                  "para": "ZTFR beholder din personlige informasjon så lenge det er nødvendig for å tilby tjenestene til deg (f.eks. vedlikeholde brukerkontoen din), drive forretningsaktiviteter og oppfylle våre legitime interesser, som å tilby trygge og sikre tjenester, løse feil og komme i kontakt med deg, overholde gjeldende lover (f.eks. oppbevare økonomisk informasjon i 7 år av skatteformål) og juridiske forespørsler samt løse (juridiske) tvister."
+                },
+                "heading2": {
+                  "sub_heading": "FILER DU OVERFØRER",
+                  "para": "Når du bruker ZTFR-fildeling, blir innholdet ditt slettet etter 7 dager (standard), med mindre du har valgt en spesifikk varighet. Overføring av data for en ZTFR Pro-konto blir lagret som standard i 28 dager eller til utløpsdatoen du har satt manuelt. Etter denne perioden blir en fil automatisk slettet fra våre servere ved hjelp av militærgradssletting. Den personlige informasjonen som følger med overføringen din, blir oppbevart i maksimalt 12 måneder. Slik personlig informasjon er kun tilgjengelig for svært få personer innenfor ZTFR, de som trenger den for å utføre jobben sin, for eksempel å gi deg support. Når dataen er eldre enn 12 måneder, fjerner vi den fra databasen, pseudonymiserer eller anonymiserer den for analyse. Pseudonymisering av personlig informasjon betyr at vi ikke bruker e-postadressen eller IP-adressen din til analytiske formål, men oppretter et tilfeldig pseudonym for begge og bruker dette pseudonymet i stedet. På denne måten håndterer vi ikke direkte identifiserbar personlig informasjon, noe som er personvernvennlig."
+                },
+                "heading3": {
+                  "sub_heading": "INNHOLD DU OPPRETTER, BRUKER, LAGRER ELLER DELER GJENNOM TJENESTENE ANDRE ENN FILD",
+                  "para": "Innholdet du oppretter, bruker, lagrer eller deler på våre tjenester, unntatt vår fildeletjeneste, blir i prinsippet oppbevart til du slutter å samhandle med våre tjenester, sletter innholdet ditt fra tjenestene, sletter tjenestene fra enhetene dine eller sletter kontoen din. Sjekk alltid nettsidene eller appene til tjenestene du bruker for spesifikk informasjon."
+                }
+              }
+            },
+            "accordian8": {
+              "heading": "HVA ER DINE RETTIGHETER SOM BRUKER?",
+              "content": {
+                "para1": "Hvis du trenger mer informasjon om din personlige informasjon, gi oss beskjed. Vi kan be om identitetsbevis. Hvis du ombestemmer deg og ikke lenger ønsker at vi skal behandle din personlige informasjon, gi oss beskjed.",
+                "points": {
+                  "text": "Du kan be ZTFR om:",
+                  "point1": "Få tilgang til, motta en kopi av eller korrigere din personlige informasjon",
+                  "point2": "I visse tilfeller slette (militærgrad) din personlige informasjon eller blokkere eller begrense vår bruk av den",
+                  "point3": "I visse tilfeller sende din personlige informasjon til andre tredjeparter"
+                },
+                "para2": "Du kan gjøre dette ved å sende en e-post til <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>. Vennligst oppgi tydelig i emnefeltet at din henvendelse gjelder personvernsspørsmål og mer spesifikt om det er en forespørsel om tilgang, korreksjon eller sletting. Merk at ZTFR under visse omstendigheter kan be om tilleggsinformasjon for å fastslå din identitet.",
+                "heading1": {
+                  "sub_heading": "RETT TIL Å INNLEVERE INNSIGELSE",
+                  "para1": "Du har rett til å innsigelse mot vår bruk av din personlige informasjon, for eksempel når den juridiske grunnlaget for behandlingen er basert på en av våre legitime interesser (se avsnittet 'Juridiske grunnlag'). Hvis du informerer oss om at du ikke lenger ønsker at vi skal behandle din personlige informasjon eller kontakte deg, vil ZTFR flytte din personlige informasjon til en separat fil. Din personlige informasjon vil ikke lenger bli brukt til de ovennevnte formål, med mindre våre legitime interesser, for eksempel sikkerhet og beskyttelse, veier tyngre enn din innsigelse. Du kan be om dette via <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>. Vær tydelig med at din henvendelse gjelder personvernsspørsmål og mer spesifikt at du utøver din rett til å innsigelse.",
+                  "para2": "Hvis du mener at vi har krenket dine personvernrettigheter, kan du klage til den relevante tilsynsmyndigheten. Du kan spesielt klage i landet der du bor, på arbeidsstedet ditt eller på stedet der du mener vi har krenket dine rettigheter."
+                },
+                "heading2": {
+                  "sub_heading": "TILBAKETREKKING AV SAMTYKKE",
+                  "para": "Når du har gitt ditt samtykke for at vi skal behandle din personlige informasjon, kan du tilbakekalle ditt samtykke når som helst, uten at det påvirker lovligheten av behandlingsaktiviteter basert på samtykke før tilbaketrekkingen. Hvis du trekker tilbake samtykket ditt, vil vi ikke lenger behandle den personlige informasjonen som vi har mottatt basert på ditt samtykke."
+                },
+                "heading3": {
+                  "sub_heading": "CALIFORNIA-FORBRUKERE",
+                  "para": "Underlagt visse begrensninger i henhold til California Civil Code § 1798.83, hvis du er en innbygger i California, kan du be oss om å gi deg (i) en liste over visse kategorier av personlig informasjon som vi har delt med visse tredjeparter for deres direkte markedsføringsformål i løpet av det umiddelbart foregående kalenderåret, og (ii) identiteten til visse tredjeparter som mottok personlig informasjon fra oss for deres direkte markedsføringsformål i løpet av det kalenderåret. Vi deler imidlertid ikke din personlige informasjon med markedsførere, i samsvar med ovennevnte lov."
+                }
+              }
+            },
+            "accordian9": {
+              "heading": "HVORDAN KONTAKTE ZITRANSFER (ZTFR)",
+              "content": {
+                "para": "Vårt kundestøtteteam er tilgjengelig via <b><a href='mailto:support@zitransfer.com?subject= Support enquiry'>support@zitransfer.com</a></b>. Hvis du har spørsmål, vennligst send oss en e-post. Hvis du har spørsmål om hvordan ZITRANSFER (ZTFR) behandler din personlige informasjon eller den personlige informasjonen ZTFR lagrer om deg, vennligst kontakt ZTFR ved å sende en e-post med spørsmålet ditt til <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>. Hvis du trenger å kontakte vårt personvernteam, kan du gjøre det via <b><a href='mailto:dpt@zitransfer.com?subject= DPT enquiry'>dpt@zitransfer.com</a></b>."
+              }
+            },
+            "accordian10": {
+              "heading": "REVISJONER AV PERSONVERNUTTALELSEN",
+              "content": {
+                "para": "Merk at ZITRANSFER (ZTFR) kan revidere denne personvernerklæringen fra tid til annen. Hver revidert versjon vil bli datert og lagt ut på nettstedet. ZITRANSFER anbefaler at du jevnlig sjekker nettstedet og merker deg eventuelle endringer. Hvis du ikke er enig i personvernerklæringen, bør du ikke lenger få tilgang til eller bruke nettstedet og/eller tjenesten. Ved å fortsette å bruke nettstedet og/eller tjenesten godtar du eventuelle endringer som er gjort i personvernerklæringen."
+              }
+            }
+          }
+        }
+      },
+      "noticePolicy": {
+        "noticepolicy": "VARSLINGS-/NEDTAKINGSPOLICY",
+        "content": {
+          "para1": "ZTFR respekterer dine rettigheter og forventer at du respekterer andres rettigheter. I det uheldige tilfellet der ZTFR finner eller blir varslet om ulovlige filer eller innhold som blir distribuert gjennom tjenesten, vil vi følge prosedyrene beskrevet i denne Varslings-/Nedtakingspolicyen.",
+          "para2": "Ved å bruke vår nettside/plattform eller filoverføringstjeneste, godtar du å være bundet av vår Varslings-/Nedtakingspolicy nedenfor."
+        },
+        "information": {
+          "information_heading": "PERSONLIG INFORMASJON DU SENDER INN",
+          "information_para": "ZTFR følger den engelske Varslings-/Nedtakingsopptreden (\"Code of Conduct\") fra Plattformen for internettsikkerhet. Denne opptreden etablerer prosedyrer for internettformidlere som ZITRANSFER (ZTFR) for å håndtere rapporter om (angivelig) ulovlig innhold, med sikte på fjerning av omstridt innhold (\"Rapport\" eller \"Rapporter\"). Denne Varslings-/Nedtakingspolicyen (\"NTD-policy\") beskriver prosedyrene og tidsfristene ZITRANSFER (ZTFR) anvender for å håndtere slike rapporter."
+        },
+        "requirements": {
+          "requirements_heading": "RAPPORTKRAV",
+          "requirements_para1": "Enhver person eller organisasjon som lager en rapport (\"Varsler\") har plikt til å sikre at den er korrekt og fullstendig.",
+          "requrements_para2": "ZITRANSFER skal kunne verifisere rapportene etter en etterforskning knyttet til en straffbar handling som har sitt opphav i en inspeksjon eller etterforskningstjeneste, eller i tilfelle av en formell rettskjennelse fra påtalemyndigheten. En rapport av noen annen art enn det som er nevnt ovenfor, skal inkludere minst følgende informasjon:",
+          "requrements_points": {
+            "point1": "Varslers kontaktopplysninger, navn, stilling, organisasjon, adresse, e-postadresse",
+            "point2": "All informasjon ZITRANSFER trenger for å vurdere lovligheten av det omstridte innholdet, inkludert plasseringen (URL)",
+            "point3": "Gyldige grunner til ulovligheten av innholdet eller hvorfor det er i konflikt med ZITRANSFERs bruksvilkår, NTD eller personvernerklæring"
+          }
+        },
+        "indemnity": {
+          "heading": "FRASKRIVELSE",
+          "para": "Varsler vil gi ZITRANSFER en eksplisitt fraskrivelse mot 1) krav fra brukeren hvis innhold er omstridt (\"Innholdsleverandør\") knyttet til handlinger ZITRANSFER har tatt i forhold til håndteringen av rapporten, og 2) krav fra Varsler knyttet til innhold sendt gjennom vår tjeneste."
+        },
+        "urgency": {
+          "heading": "HAST",
+          "para": "Varsler kan be ZITRANSFER om å håndtere rapporten som en hasteoppgave. I så fall skal rapporten begrunne alle grunner til hastverk. ZITRANSFER avgjør etter eget skjønn om rapporten skal behandles som en hasteoppgave basert på den foregående forklaringen."
+        },
+        "evaluation": {
+          "evaluation_heading": "EVALUERING",
+          "evaluation_text": "ZITRANSFER skal evaluere rapporten og klassifisere den i en av tre kategorier:",
+          "evaluations_points": {
+            "point1": "Straffbart innhold rapportert av en inspeksjon eller etterforskningstjeneste, eller i tilfelle av en formell rettskjennelse fra påtalemyndigheten",
+            "point2": "Utvetydig ulovlig innhold og/eller straffbart innhold rapportert av andre kilder enn myndighetene nevnt under 1",
+            "point3": "Alt annet innhold som verken faller under kategori 1) eller 2)"
+          }
+        },
+        "measures": {
+          "measures_heading": "TILTAK",
+          "measures_text": "ZITRANSFERs klassifisering av rapporten bestemmer hvilke tiltak som tas for å håndtere rapporten.",
+          "measures_points": {
+            "point1": "Hvis ZITRANSFER fastslår at innholdet er utvetydig ulovlig eller straffbart, med andre ord faller inn under de nevnte kategoriene 1) og 2), sørger ZITRANSFER for at innholdet fjernes umiddelbart",
+            "point2": "Hvis ZITRANSFER fastslår at innholdet ikke er utvetydig ulovlig eller straffbart, med andre ord faller under den nevnte kategori 3), fjernes ikke innholdet. ZITRANSFER vil informere Varsler om dette",
+            "point3": "Hvis ZITRANSFER ikke er i stand til å vurdere om innholdet er utvetydig ulovlig eller straffbart, eller hvis vurderingen er utilstrekkelig, vil ZITRANSFER informere Innholdsleverandør om rapporten med anmodning om (i) å tillate ZITRANSFER å fjerne innholdet eller (ii) å kontakte Varsler. Hvis Varsler og Innholdsleverandør ikke kan komme til enighet, kan Varsler lage en offisiell rapport til politiet hvis det kan dreie seg om en straffbar handling. Hvis det gjelder innhold som angivelig er ulovlig etter sivil lov, kan Varsler bringe tvisten med Innholdsleverandør for en engelsk domstol. Hvis Innholdsleverandør ikke er villig til å identifisere seg tilstrekkelig for Varsler, har ZITRANSFER rett til (i) å gi Varsler Innholdsleverandørs navn, e-postadresse og IP-adresse eller (ii) å fjerne innholdet i spørsmål"
+          }
+        },
+        "period": {
+          "heading": "PERIODE",
+          "para": "Klassifisering og passende tiltak vil helst finne sted så snart som mulig, men senest 10 virkedager etter mottak av rapporten."
+        },
+        "caution": {
+          "heading": "Tilbørlig forsiktighet",
+          "para": "I tilfeller der innhold skal fjernes, skal ZITRANSFER utvise forsiktighet for å sikre at ikke mer enn nødvendig innhold i forhold til rapporten fjernes."
+        },
+        "questions": {
+          "heading": "SPØRSMÅL?",
+          "para": "Hvis du har spørsmål om denne Varslings-/Nedtakingspolicyen, vennligst kontakt ZITRANSFER ved å sende en e-post til "
+        }
+      },
+      "advertisementTerms": {
+        "advertisingterms": "REKLAMEVILKÅR",
+        "terms": {
+          "heading": "ZITRANSFER (ZTFR) VILKÅR",
+          "para": "Disse ZITRANSFER reklamevilkårene (\"ZITRANSFER vilkår\") supplerer, men erstatter ikke, eventuelle innsettingsordrer inngått mellom ZITRANSFER og Kunde (som definert nedenfor), sammen med IAB-standardvilkårene for internettannonsering for medieinnkjøp på ett år eller mindre, Versjon 3.0.",
+          "link": "https://www.iab.com/wp-content/uploads/2015/06/IAB_4As-tsandcs-FINAL.pdf",
+          "refered": "(referert til som \"IAB vilkår\")."
+        },
+        "definitionscope": {
+          "definitionscope_heading": "DEFINISJONER OG OMFANG",
+          "definitionscope_points": {
+            "point1": "Alle initialiserte begreper som brukes, men ikke er definert her, har samme betydning som definert i IAB-vilkårene, med unntak av følgende definisjoner, som er endret og nå leses i disse ZITRANSFER-vilkårene, IAB-vilkårene, innsettingsordren og vedlegg som følger: \"Annonse\" betyr enhver annonse (inkludert, men ikke begrenset til merkevareinnhold) opprettet av Medieselskapet, uavhengig av om den er basert på eller følger fra Annonsematerialene. \"Annonsematerialer\" betyr innhold for annonser, inkludert kunstverk, tekst, lyd- eller videomateriale eller aktive URL-er. \"Medieselskapets eiendommer\" betyr nettsteder, (online) nyhetsbrev, podcaster, videoer, webserier eller internettlyd- eller videokanaler som er spesifisert i en innsettingsordre og som eies, drives eller kontrolleres av Medieselskapet. \"Nettverkseiendommer\" betyr nettsteder, podcaster, webserier eller internettlyd- eller videokanaler eller plattformer som er spesifisert i en innsettingsordre og som ikke eies, drives eller kontrolleres av Medieselskapet, men der Medieselskapet har en kontraktsrett til å vise annonser. Følgende definisjoner er lagt til og har følgende betydning: \"Avtale\" betyr avtalen inngått mellom Medieselskapet og Kunde, som består av innsettingsordren, ZITRANSFER vilkårene, vedleggene (Studio og/eller Merkevareinnhold) og IAB-vilkårene. \"Kunde\" betyr motparten til Medieselskapet i denne avtalen, som beskrevet på og som har signert innsettingsordren. \"Effektiv dato\" er signaturdatoen for innsettingsordren. \"Immaterielle rettigheter\" betyr patenter, varemerker, tjenestemerker, handels- og forretningsnavn, opphavsrett, topografirettigheter, domenenavn, databaserettigheter og designrettigheter, uavhengig av om noen av dem er registrert, inkludert søknader for noen av dem, forretningshemmeligheter og tillitsrettigheter; alle rettigheter eller beskyttelsesformer av lignende art eller med tilsvarende effekt som kan eksistere hvor som helst i verden. \"Nyhetsbrevsleveranser\" betyr leveranser solgt på kostnad per sendt nyhetsbrev (via e-post) basis. \"Utsatt\" betyr den eksplisitte eller implisitte utsettelsen av levering av annonser av hvilken som helst årsak, til en dato senere enn innsettingsordrens startdato, forårsaket eller instruert av Kunde.",
+            "point2": "Til tross for introduksjonen av IAB-vilkårene, også i tilfelle Kunde er en annen part enn et byrå (for eksempel, men ikke begrenset til, en annonsør), vil alle rettigheter og forpliktelser som er fastsatt i IAB-vilkårene som gjelder for et byrå, gjelde mutatis mutandis for Kunde.",
+            "point3": "Uavhengig av avsnitt XIV.c. i IAB-vilkårene, består avtalen mellom Kunde og Medieselskapet av innsettingsordren, disse ZITRANSFER vilkårene, vedleggene og IAB-vilkårene. Ved konflikt mellom noen av kontraktelementene som utgjør avtalen, er rekkefølgen for prioritet: i) innsettingsordren, ii) ZITRANSFER-vilkårene, iii) vedleggene og iv) IAB-vilkårene. Medieselskapet aksepterer ikke Kunders eller tredjeparters vilkår og betingelser og/eller innsettingsordre, som derfor ikke utgjør en del av avtalen og er ikke bindende for Medieselskapet. Endringer i aksepterte innsettingsordrer må gjøres skriftlig og godkjennes av den andre parten skriftlig.",
+            "point4": "Med mindre annet er uttrykkelig avtalt skriftlig, er Medieselskapets forslag og tilbud gyldige i 30 (tretti) dager. Avtalen trer i kraft på Effektiv dato, forutsatt at ZITRANSFER har mottatt innsettingsordren signert av Kunde der Kunde godtar ZITRANSFER vilkårene, vedleggene og IAB-vilkårene. Lager kan ikke reserveres og/eller garanteres før Effektiv dato. Avtalen opphører ved fullføring av innsettingsordren (sluttdatoen som er angitt i innsettingsordren)."
+          }
+        },
+        "changeterms": {
+          "changeterms_heading": "ENDRINGER I IAB-VILKÅRENE",
+          "changeterms_points": {
+            "point1": "I motsetning til Seksjon I.a. og II.a. i IAB-vilkårene: Medieselskapet vil ikke opprette leveringsskjemaer.",
+            "point2": "Seksjon I.b. del (i) i IAB-vilkårene er endret og nå lyder som følger: skriftlig (som inkluderer e-postkommunikasjon eller signaturer via elektroniske kontraktsstyringssystemer) godkjennelse av IO av Medieselskapet og Byrået.",
+            "point3": "I henhold til Seksjon II.d. i IAB-vilkårene gir Medieselskapet ingen garanti med hensyn til konkurransedyktige nærliggende annonser for annonser som vises på Medieselskapets eiendommer. På kundens skriftlige forespørsel vil Medieselskapet imidlertid gjøre kommersielt rimelige forsøk på å imøtekomme kundens ønsker om konkurransedyktige nærliggende annonser.",
+            "point4": "I henhold til Seksjon III.b. i IAB-vilkårene, hvis Medieselskapet ikke har mottatt betaling innen den avtalte betalingsfristen, har Medieselskapet rett til (i) å avbryte alle nåværende og fremtidige IO-er fra kunden og (ii) umiddelbart fakturere alle påløpte, signerte IO-er og kostnader frem til avbestillingsdatoen.",
+            "point5": "Seksjon III.c. i IAB-vilkårene er endret og nå lyder som følger: Kunden er utelukkende ansvarlig for inndriving av gebyrene det har fakturert sine egne kunder. Kunden har ikke rett til å utsette noen betalingsforpliktelse overfor Medieselskapet basert på manglende mottak av gebyrer det har fakturert sine egne kunder. På sitt eksklusive skjønn kan Medieselskapet kreve betaling på forhånd.",
+            "point6": "Seksjon IV.c. i IAB-vilkårene er slettet i sin helhet og utgjør ikke en del av avtalen.",
+            "point7": "I henhold til Seksjon V. i IAB-vilkårene, i tilfelle avbestilling vil Medieselskapet ta den avbestilte (delen av) IO-en offline innen 48 timer etter mottak av kundens avbestillingsmelding. Medieselskapet vil sende kunden en bekreftelses-e-post for avbestillingen. Fakturaene vil være basert på datoen for Medieselskapets bekreftelses-e-post.",
+            "point8": "I henhold til Seksjon V. i IAB-vilkårene, i tilfelle av utsettelse har Medieselskapet rett til å fakturere kunden 10% (ti prosent) av kostnadene nevnt i IO-en som kompensasjon. Denne kompensasjonen kan ikke trekkes fra noen faktura fra Medieselskapet, og den påvirker eller frigjør ikke kundens ansvar for å betale alle andre fakturaer fra Medieselskapet i sin helhet. Hvis utsettelsen skjer mer enn en gang og/eller den nye planlagte datoen er i et nytt kalenderår, har Medieselskapet rett til å avbryte (delen av) IO-en og fakturere (delen av) IO-en i sin helhet.",
+            "point9": "Den siste setningen i seksjon VI.a. i IAB-vilkårene er endret og lyder nå som følger: Hvis underleveringen er større enn 10% i forhold til antall leveranselementer i den aktuelle IO-en, kan byrået og Medieselskapet avtale en makegood i samsvar med disse vilkårene. Hvis underleveringen er mindre enn 10% i forhold til antall leveranselementer i den aktuelle IO-en, er det ingen makegood tilgjengelig. Siden Medieselskapet kun fakturerer faktiske leveranselementer, vil underleveringen automatisk bli reflektert i fakturaen.",
+            "point10": "I motsetning til den andre setningen i seksjon VI.b. i IAB-vilkårene fakturerer Medieselskapet bare faktiske leveranselementer basert på sine egne poster, så byrået kan ikke utføre en kreditt lik verdien av den underleverte delen av IO-en for hvilken det ble fakturert.",
+            "point11": "Den siste setningen i Seksjon VIII.a. i IAB-vilkårene er slettet og utgjør ikke en del av avtalen.",
+            "point12": "Begrepet i Seksjonene VIII.a. og VIII.c. i IAB-vilkårene er endret til fjorten (14) dager.",
+            "point13": "Seksjon IX.e. i IAB-vilkårene er endret og lyder nå som følger: Medieselskapet har rett til å gjøre de nødvendige tekniske tilpasningene til annonsematerialet som er sendt av kunden (for eksempel skalering eller beskjæring). Når kunden ber Medieselskapet om å lage innhold for annonser (for eksempel kunstverk, tekst, lyd, video, oversettelser) eller gjøre vesentlige endringer i annonsematerialet som er sendt av kunden (for eksempel endre kunstverk, tekst, lyd, video eller oversette innhold), heretter kalt \"Tjenesten\", vil Medieselskapet levere tjenesten \"SOM DEN ER\", uten noen form for garanti. Medieselskapet fraskriver seg eksplisitt all ansvar med hensyn til tjenesten, og gir ingen garanti for at tjenesten er feilfri. Kundens aksept og bruk av tjenesten skjer på kundens eget ansvar. Kunden erkjenner og godtar at Medieselskapet ikke er ansvarlig og/eller erstatningspliktig for skader som følger av bruk av tjenesten.",
+            "point14": "Seksjon IX.f. i IAB-vilkårene er endret og lyder nå som følger: Medieselskapet tillater ikke tredjepartsannonsetjenerkoder, uavhengig av annonsetype.",
+            "point15": "Seksjon X.a. i IAB-vilkårene er endret og lyder nå som følger: Medieselskapet vil erstatte kunden, dets tilknyttede selskaper og representanter fra skader, ansvar, kostnader og utgifter (inkludert rimelige advokathonorarer) (samlet kalt \"Tap\") som følge av krav, dom eller rettsforfølgelse (samlet kalt \"Krav\"), som hevder at Medieselskapets tjenester krenker tredjeparters immaterielle rettigheter, med mindre kravene skyldes brudd på punkt 4.1 i disse ZITRANSFER-vilkårene.",
+            "point16": "Første setning i Seksjon XII.b. i IAB-vilkårene er endret og lyder nå som følger: Uavhengig av innholdet heri, vil begrepet \"Fortrolig informasjon\" ikke inkludere informasjon som: (i) var kjent for mottakeren tidligere; (ii) ble eller blir allment tilgjengelig for allmennheten uten at det er mottakerens feil; (iii) er relatert til en annonse som blir levert på Medieselskapets nettsted og som blir allment tilgjengelig gjennom den leveransen, som for eksempel annonsetypen, territoriet og identiteten til annonsøren; (iv) var i besittelse av mottakeren i henhold til avtalefrihet uten noen konfidensialitetsforpliktelse på, eller før, tidspunktet den ble kommunisert til mottakeren av avsløreren; (v) ble utviklet av ansatte eller agenter for mottakeren uavhengig av og uten henvisning til fortrolig informasjon; eller (vi) ble kommunisert av avsløreren til en uavhengig tredjepart uten noen konfidensialitetsforpliktelse.",
+            "point17": "Seksjon XII d (ii) i IAB-vilkårene er endret og lyder nå som følger: Medieselskapet kan utlede aggregerte data fra innsamlede data og kan bruke og offentliggjøre slike data for Medieselskapets generelle forretningsformål (slik som markedsføring og PR).",
+            "point18": "Seksjon XIII. i IAB-vilkårene er slettet i sin helhet og erstattet med følgende: Hvis en faktura er utstedt på bakgrunn av registre, og det er uoverensstemmelser mellom partenes registre (for eksempel når det gjelder leveranselementer eller leveringssteder for leveranselementer), kan partene dele registrene sine og diskutere en minnelig løsning i god tro. Hvis partene ikke lykkes i å oppnå en avtale, vil Medieselskapets registre ha fortrinnsrett og danne grunnlaget for fakturaen.",
+            "point19": "I henhold til Seksjon XIV.a. i IAB-vilkårene, representerer og garanterer annonsøren at annonsematerialet overholder gjeldende lover, regler og forskrifter, inkludert, men ikke begrenset til, lokale og sektorspesifikke reklamekoder og bransjeveiledninger for reklame- og kampanjeaktiviteter (samlet kalt \"Reklamelovene\"). Annonsøren forstår og godtar at det er utelukkende ansvarlig for å informere og gi Medieselskapet den nødvendige informasjonen og instruksjonene for å sikre at annonsen overholder Reklamelovene.",
+            "point20": "I henhold til Seksjon XIV.f. i IAB-vilkårene, vil også del 1, 2 og 3 av disse ZITRANSFER-vilkårene overleve avslutning eller opphør av avtalen."
+          }
+        },
+        "invoices": {
+          "invoices_heading": "FAKTURAER OG BETALING (TILLEGGSKLAUSER)",
+          "invoices_points": {
+            "point1": "Alle fakturaer fra Medieselskapet må betales uten noen rabatt, reduksjon, motregning eller kompensasjon, og fritt for noen fradrag for eller på grunn av noen skatt, og de vil bli betalt i euro (€), amerikanske dollar ($) eller britiske pund (£) (som angitt i IO) til bankkontoen spesifisert av Medieselskapet. Hver faktura vil spesifisere gebyrene uten merverdiavgift og gjeldende merverdiavgift. Til unngåelse av tvil: hvis kunden er underlagt merverdiavgift, vil dette bli vist på fakturaen, og kunden må betale fakturaen inkludert merverdiavgift.",
+            "point2": "Vi kan introdusere eller endre gebyrene for tjenestene fra tid til annen, for hvilket vi vil gi deg forhåndsvarsel. Hvis du har en fast pris og abonnement med fast pris, vil prisen forbli gjeldende for fast prisperiode. Hvis du ikke er enig i prisendringen, kan du si opp abonnementet og slutte å bruke tjenestene innen utløpet av gjeldende tjenesteperiode. Hvis du fortsetter å bruke tjenestene etter at prisendringen trer i kraft, samtykker du i å betale den endrede prisen. Innføring av gebyrer vil kreve ditt forhåndssamtykke og registrering.",
+            "point3": "Kunden har ikke rett til å tilbakeholde betaling eller motregning av noen som helst grunn.",
+            "point4": "Eventuelle tvister vedrørende en faktura må sendes til Medieselskapet skriftlig innen 8 (åtte) dager fra fakturadato. Eventuelle fakturaer som ikke er bestridt innen denne perioden, vil anses som akseptert.",
+            "point5": "Alle betalinger til Medieselskapet vil først bli tildelt inndrivingskostnader, deretter til renter og til slutt til de eldste ubetalte fakturaene med hensyn til enhver avtale. Ethvert forfalt beløp kan pådra seg en rente lik 1% (én prosent) per kalendermåned eller en del derav, uten at det kreves noen varsel om mislighold, inntil full betaling er gjort. Videre har Medieselskapet rett til å belaste fulle inndrivingskostnader, med et minimum på £ 250, per sak.",
+            "point6": "Hvis kunden ikke etterkommer bestemmelsene i Seksjon III. i IAB-vilkårene og/eller bestemmelsene 2.4, 2.5 og 3 i disse ZITRANSFER-vilkårene, har Medieselskapet rett til å suspendere tjenestene eller avslutte avtalen."
+          }
+        },
+        "adrestrictions": {
+          "adrestrictions_heading": "ANNONSERESTRIKSJONER",
+          "adrestrictions_points": {
+            "point1": "I henhold til Seksjon IX.c i IAB-vilkårene kan annonsemateriale og annonser ikke inneholde, annonsere, lenke til eller på annen måte relatere seg til innhold som, etter Medieselskapets ene og alene skjønn, i) er obskønt, ærekrenkende, injurierende, æreskrenkende, uanstendig eller ulovlig og/eller er voldelig, seksuelt eller av fornærmende karakter slik at det rimeligvis kan såre en hvilken som helst betydelig gruppe mennesker; ii) krenker eller misbruker tredjeparters immaterielle rettigheter og/eller personvernrettigheter eller noen annen type rettigheter; iii) utgjør 'hatprat', enten rettet mot enkeltpersoner eller en gruppe, og uavhengig av rase, kjønn, tro, nasjonal opprinnelse, religiøs tilknytning, seksuell legning eller språk til en slik enkeltperson eller gruppe; iv) er faktisk unøyaktig, villedende eller bedragende; v) skader omdømmet til Medieselskapet eller noen av dets varemerker eller er sannsynlig å bringe Medieselskapet eller noen av dets tilknyttede selskaper i vanry; vi) medfører at Medieselskapet og dets brukere blir eksponert for skadelig programvare (slik som, uten begrensning, datavirus, ormer, trojanske hester eller lignende eller andre skadelige komponenter), og/eller vii) krenker Medieselskapets Varslings-/Fjerningspolitikk <a href='https://zitransfer.com/legal/takedown' target='blank'>(https://zitransfer.com/legal/takedown)</a> eller Medieselskapets kreative og kommersielle retningslinjer.",
+            "point2": "Uavhengig av Seksjon IX.c i IAB-vilkårene forbeholder Medieselskapet seg retten til å nekte eller fjerne, med umiddelbar virkning og uten forhåndsvarsel, en annonse, inkludert, men ikke begrenset til, situasjoner der annonsen, etter Medieselskapets skjønn, ville være i strid med: i) gjeldende lov eller forskrift, eller ii) tidligere avtaler, retningslinjer, atferdskoder eller kreative eller kommersielle retningslinjer fra Medieselskapet, eller denne avtalen."
+          }
+        },
+        "valueandtakover": {
+          "valueandtakover_heading": "TILLEGG OG TAVERNE",
+          "valueandtakover_points": {
+            "point1": "Medieselskapet har rett til å gi kunden ekstra annonseplass gratis ('Tillegg'). Medieselskapet gir ingen garantier for om, hvor og når Tillegg vil bli levert.",
+            "point2": "Medieselskapet har rett til å gi kunden eksklusive plasseringer for angitt tidsperiode ('TaOver'). For å unngå tvil gir en TaOver kunden eksklusivitet i tid, ikke i leveranser. Medieselskapet kan gi en estimat av leveransene, men gir ingen garantier for mengden av det. Under ingen omstendigheter kan en TaOver føre til kompensasjon. Dette gjelder også for eventuelle avvik fra estimerte leveranser som er referert til i denne klausul 5.2."
+          }
+        },
+        "propertyrights": {
+          "propertyrights_heading": "IMMATERIELLE RETTIGHETER",
+          "propertyrights_points": {
+            "point1": "Immaterielle rettigheter av hvilken som helst art i annonsemateriale skal være og forbli eid av kunden eller dets lisensgivere. Kunden gir herved Medieselskapet en ikke-overførbar, ikke-eksklusiv, evigvarende, royaltyfri og sublicensierbar lisens til (i) å bruke annonsematerialet til å lage annonsen og publisere dem som en del av annonsen, i samsvar med IO, og til (ii) å bruke annonsen (inkludert eventuelle annonsematerialer brukt deri) til Medieselskapets og dets entreprenørers generelle forretningsformål (slik som markedsføring og PR).",
+            "point2": "Immaterielle rettigheter av hvilken som helst art i annonsen skal være og forbli eid av Medieselskapet eller dets lisensgivere. Unntatt som angitt i disse annonsevilkårene, er kunden ikke tillatt å kopiere, bruke, fjerne, endre, speile, distribuere, dekompilere eller reversere ingeniør noen av det på noen måte.",
+            "point3": "Denne avtalen innebærer ikke overføring av immaterielle rettigheter.",
+            "point4": "Denne klausulen 6 overlever avslutningen av denne avtalen."
+          }
+        },
+        "sanctions": {
+          "sanctions_heading": "SANKSJONER",
+          "sanctions_points": {
+            "point1": "Byrå og annonsør representerer og garanterer at de (eller noen av deres morselskaper og/eller datterselskaper) for øyeblikket ikke er underlagt sanksjoner administrert eller håndhevet av den amerikanske regjeringen, Den europeiske union eller noen annen relevant sanksjonsmyndighet (samlet kalt 'Sanksjoner'), inkludert ved å være oppført på, eller eies 50% eller mer eller på annen måte kontrolleres av personer oppført på, noen Sanksjonsrelaterte lister over utpekte parter og personer ('Sanksjonsliste') som Specially Designated Nationals and Blocked Persons List eller Foreign Sanctions Evaders List vedlikeholdt av Office of Foreign Assets Control i det amerikanske finansdepartementet og den konsoliderte listen over personer, grupper og enheter som er gjenstand for sanksjoner fra Den europeiske union.",
+            "point2": "Byrå og annonsør representerer og garanterer at de (eller noen av deres morselskaper og/eller datterselskaper) ikke er lokalisert, organisert eller bosatt i et land eller territorium som er gjenstand for sanksjoner, inkludert, uten begrensning, Cuba, Iran, Nord-Korea, Syria, Russland og Krim (hver for seg, et 'Sanksjonert land').",
+            "point3": "Byrå og annonsør skal umiddelbart informere Medieselskapet hvis de til enhver tid under utførelsen av avtalen blir klar over at de, eller deres datterselskaper blir gjenstand for sanksjoner eller oppført på noen Sanksjonsliste.",
+            "point4": "Byrå og annonsør erkjenner at Medieselskapet er begrenset i å levere leveranser i Sanksjonerte land. Byrå og annonsør har ansvaret for å holde seg informert om sanksjoner, Sanksjonslister og Sanksjonerte land som er relevante for den aktuelle IO.",
+            "point5": "Medieselskapet har rett til å avbryte og/eller avslutte ethvert annet kontraktsforhold med byrå og annonsør når som helst, uten straff og uten forhåndsvarsel, hvis det er klart at Medieselskapet er begrenset fra å drive forretninger med byrå eller annonsør i henhold til amerikanske eller EU-sanksjonslover."
+          }
+        },
+        "businessresponsibility": "UTFØRING AV VIRKSOMHET MED ANSVARLIGHET",
+        "businessresponsibility_points": {
+          "point1": "Medieselskapet opprettholder en skriftlig atferdskodeks, som inkluderer en annonsøratferdskodeks, en retningslinje for gaver og mot bestikk og en retningslinje for miljøanskaffelser. Medieselskapet ber byrået og annonsøren om å overholde den separate annonsøratferdskodeksen, som Medieselskapet skal levere i rett tid. Medieselskapet opprettholder en skriftlig atferdskodeks, som inkluderer en annonsøratferdskodeks, en retningslinje for gaver og mot bestikk og en retningslinje for miljøanskaffelser. Medieselskapet ber byrået og annonsøren om å overholde den separate annonsøratferdskodeksen, som Medieselskapet skal levere i rett tid.",
+          "point2": "Medieselskapet opprettholder en skriftlig atferdskodeks, som inkluderer en retningslinje for skadelig atferd, en retningslinje for gaver og mot bestikk og en retningslinje for miljøanskaffelser. Medieselskapet og dets personale overholder denne atferdskodeksen og ber byrået og annonsøren om å overholde den separate annonsøratferdskodeksen. Medieselskapet skal levere en kopi av denne annonsøratferdskodeksen i rett tid.",
+          "point3": "Byrået og annonsøren garanterer og erklærer at de overholder gjeldende lover og regler om arbeid og sysselsetting og forbyr enhver form for tvangsarbeid, barnearbeid eller annen utnyttelse av barn (en person yngre enn seksten (16) år) i produksjonen og leveringen av sine produkter og tjenester.",
+          "point4": "Byrået og annonsøren samtykker i å bruke kommersielt rimelige tiltak for å følge bærekraftspraksis med formålet å redusere utslipp av klimagasser og oppnå karbonnøytrale løsninger.",
+          "point5": "Byrået og annonsøren erkjenner viktigheten av mangfold på arbeidsplassen og vil bruke kommersielt rimelige tiltak for å oppnå en arbeidsmiljø som gjenspeiler interessene til en mangfoldig arbeidsstyrke."
+        }
+      }
+    },
+    "sidebarRight": {
+      "CLOSE": "LUKK",
+      "PORTAL": "PORTAL",
+      "CONTACTS": "KONTAKTER",
+      "BRANDING": "MERKEVARE",
+      "TRANSFERS": "OVERFØRINGER",
+      "searchByTitleFilenameOrEmail": "SØK ETTER TITTEL, FILNAVN ELLER E-POST",
+      "COPIED": "KOPIERT",
+      "copyLink": "KOPIER LENKEN",
+      "noMessage": "INGEN BESKJED",
+      "noTitle": "INGEN TITTEL",
+      "shareTransfer": {
+        "download": "Last ned",
+        "preview": "Forhåndsvisning",
+        "forward": "Videresend",
+        "delete": "Slett",
+        "expiresIn": "utløper om",
+        "password": "Passord",
+        "ASSIGN": "TILDEL",
+        "PAUSE": "PAUSE",
+        "CODE": "KODE",
+        "EMAIL": "E-POST",
+        "MESSAGE": "Melding",
+        "totalDownloads": "Totalt antall nedlastinger",
+        "NAME": "Navn",
+        "TYPE": "Type",
+        "SIZE": "Størrelse",
+        "folder": "mappe"
+      },
+      "transfers": {
+        "selections": {
+          "date": "Dato",
+          "size": "Størrelse",
+          "title": "Tittel",
+          "expirationDate": "Utløpsdato"
+        },
+        "noDataFound": "Ingen data funnet.",
+        "SENT": "SENDT",
+        "RECEIVED": "MOTTATT",
+        "sortBy": "SORTER ETTER :",
+        "Downloaded": "NEDLASTET",
+        "notYetDownloaded": "Ikke lastet ned ennå",
+        "file": "fil",
+        "files": "filer"
+      }
+    },
+    "sidemenu": {
+      "menu": "MENY",
+      "features": "FUNKSJONER",
+      "products": "PRODUKTER",
+      "howToZtfr": "HVORDAN ZTFR",
+      "pricing": "PRISER",
+      "advertising": "REKLAME",
+      "careersH": "KARRIERE",
+      "company": "SELSKAP",
+      "myAccount": "MIN KONTO",
+      "newsRoom/Press": "NYHETSROM/PRESSE",
+      "terms": "VILKÅR",
+      "privacy": "PERSONVERN",
+      "advertisingSection": {
+        "hero": {
+          "advertiseWithUsAndAttractTheAttentionOf": "ANNONSER HOS OSS OG TILTREKKE OPPMERKSOMHETEN TIL",
+          "creativeProfessionalsAcrossTheGlobe": "KREATIVE FAGFOLK OVER HELE VERDEN.",
+          "reachOurGlobalProfessionals": "NÅ VÅRE GLOBALE FAGFOLK",
+          "getStarted": "KOM I GANG"
+        },
+        "watchThis": {
+          "inspireAWorldOfCreativeProfessionals": "INSPIRER EN VERDEN AV KREATIVE FAGFOLK",
+          "watchThis": "SE DETTE"
+        },
+        "videos": {
+          "ourAdvertsAreJustMoreThan": "VÅRE ANNONSER ER MER ENN BARE 'ANNONSER' ",
+          "impressionsDontAlwaysInspires": "INSPIRERER IKKE ALLTID INSPIRERER. INSPIRER EN GANG, INSPIRERT FOR LIVET.",
+          "video": "VIDEO"
+        },
+        "images": {
+          "premiumPlatformThatPutsYourBrand": "PREMIUMPLATTFORM SOM SETTER MERKEVARET DITT",
+          "infront": "FORAN",
+          "ofTheLocalAndGlobalAudiences": "AV DET LOKALE OG GLOBALE PUBLIKUM",
+          "image": "BILDE"
+        },
+        "partners": {
+          "ourGlobalPartners": "VÅRE GLOBALE PARTNERE"
+        },
+        "form": {
+          "becomeAPartner": "BLI EN PARTNER",
+          "company/Organisation": "SELSKAP/ORGANISASJON",
+          "country": "COUNTRY",
+          "phoneNumber": "TELEFONNUMMER",
+          "customiseEveryAspectOfYourAd": "TILPASSE ALLE ASPEKTER AV ANNONSEN DIN",
+          "inYourOfficialPartnerPortal": "I DIN OFFISIELLE PARTNERPORTAL",
+          "thankyou": "TAKK for din interesse i å bli en partner, din forespørsel",
+          "thankyouSubmited": "er sendt inn, og vi kommer tilbake til deg så snart som mulig."
+        }
+      },
+      "pricingSection": {
+        "free": "GRATIS",
+        "pricingFreeText": "pricing_free_dutch"
+      },
+      "careers": {
+        "design": "DESIGN OG BYGG SYSTEMENE SOM FORANDRER VERDEN.",
+        "services": "Tjenester i over hundre og tjue land.",
+        "discover": "OPPDAG",
+        "world": "EN NY VERDEN",
+        "together": "Sammen skaper og bygger vi en bedre verden.",
+        "global": "GLOBAL VISJON",
+        "remote": "Med en fjernarbeidskultur er mangfoldighet naturlig en del av vår DNA.",
+        "globe": "Basert over HELE GLOBEN, representerer vi mer enn 23 ulike nasjonaliteter.",
+        "join": "BLI MED I VÅRT TEAM"
+      }
+    },
+    "cookies": {
+      "cookiesWrapper": {
+        "thisWebsite": "DENNE NETTSIDEN BRUKER TEKNISK NØDVENDIGE INFORMASJON.",
+        "withYourConsent": " MED DIN SAMTYKKE SKAL DETTE NETTSTEDET BRUKE YTTERLIGERE INFORMASJONSKAPER (INKLUDERT TREDJEPARTS INFORMASJON) ELLER LIGNENDE TEKNOLOGIER FOR Å FÅ NETTSTEDEN VÅR TIL Å FÅ NETTSTEDEN VÅR TIL Å VIRKE, FOR MARKEDSFØRINGSFORMÅL OG FOR Å FORBEDRE DIN ONLINE ERFARING.",
+        "ourWebsiteUses": "VÅR NETTSTED BRUKER INFORMASJONSKAPER FOR Å FORBEDRE YTELSE, SERVICE OG FOR BEDRE FORSTÅ DINE BEHOV. VED Å AKSEPTERE VÅRE TREDJEPARTSCOOKIES, KAN VI OG VÅRE PARTNERE TILBY DEG FLERE RELEVANTE ANNONSER (OG VÅRE RELEVANTE ANNONCER) ) OG APPER.",
+        "youWillHave": " DU VIL HA EN POSITIV PÅVIRKNING VED Å OPPLEVE VÅRE PRISVINNENDE ANNONSER OG TJENESTER (HVIS RIKTIG).",
+        "furtherInformation": "YTTERLIGERE INFORMASJON FINNER DU I VÅR",
+        "privacyStatement": "PERSONVERNERKLÆRING",
+        "andInTheCookiesSetting": "OG I INNSTILLINGENE FOR INFORMASJONSKAPSLER.",
+        "accept": "GODTA",
+        "reject": "AVVIS",
+        "manageCookies": "ADMINISTRER INFORMASJONSKAPSLER"
+      },
+      "manageCookies": {
+        "ourWebsiteUsesCookies": "NETTSIDEN VÅR BRUKER INFORMASJON SOM HJELPER DET FUNGERER, LAR OSS ANALYSE HVORDAN DU SAMhandler MED DET OG HJELPER OSS Å FORBEDRE YTELSEN. VED Å GODTEPTE VÅRE INFORMASJONSKAPER, LAT DU OSS VISE DEG EN PERSON",
+        "mostZimoGroupWebsites": "DE FLESTE ZIMO GROUP-NETTSTEDER BRUKER COOKIES. COOKIES ER SMÅ TEKSTFILER PLASSERT PÅ ENHETEN DIN FOR Å LAGRE DATA SÅ NETTJENERE KAN BRUKE DET SENERE. ZIMO GROUP OG VÅRE TREDJEPARTSPARTNERE BRUKER DINE PREFERENCIES, OG SERVERENCIES. DU LOGGER INN, VISER DEG PERSONLIGE ANNONSER OG ANALYSERER HVOR GODT NETTSTEDENE VÅRE FUNGERER. FOR MER INFO, SE AVSNITTET FOR INFORMASJONSKAPER OG LIGNENDE TEKNOLOGIER AV",
+        "required": "PÅKREVD",
+        "weUseRequiredCookies": " VI BRUKER OBLIGATORISKE INFORMASJONER FOR Å UTFØRE VIKTIGSTE NETTSTEDFUNKSJONER. FOR EKSEMPEL, DE ER BRUKT TIL Å LOGGE DEG INN, LAGRE DINE SPRÅKPREFERANSER, GI EN HANDLEKURV ERFARING (HVIS FORM), TRAFIKK MELLOM NETTSERVERE, OPPDATER STØRRELSEN PÅ SKJERMENE DIN, BESTEM LASTETIDER FOR SIDEN, FORBEDRE BRUKEROPPLEVELSEN OG FOR PUBLIKUMSMÅLING. DISSE INFORMASJONENE ER NØDVENDIGE FOR AT VÅRE NETTSTEDER SKAL FUNGERE.",
+        "analytics": "ANALYTIKK",
+        "weAllowThirdParties": "VI LATTER TREDJEPARTER BRUKE ANALYTIKK-COOKIES FOR Å FORSTÅ HVORDAN DU BRUKER VÅRE NETTSTEDER, SÅ VI KAN GJØRE DEM BEDRE OG TREDJEPARTENE KAN UTVIKLE OG FORBEDRE PRODUKTERNE SINE, SOM VI IKKE BRUKER DET. AV ZIMO-GRUPPEN. FOR EKSEMPEL DE ER BRUKT TIL Å SAMLE IN INFORMASJON OM SIDENE DU BESØKER OG HVOR MANGE KLIKK DU TRENGER FOR Å UTFØRE EN OPPGAVE. VI BRUKER NOEN ANALYTIKK-COOKIES FOR ANNONSERING.",
+        "socialMedia": "Sosiale medier",
+        "weAndThirdPartiesUseSocialMediaCookies": "VI OG TREDJEPARTER BRUKER SOSIALE MEDIECOOKIES FOR Å VISE DEG ANNONSER OG INNHOLD BASERT PÅ DINE SOSIALE MEDIEPROFILER OG AKTIVITET PÅ VÅRE NETTSIDER. DE ER BRUKT DEG TIL VÅRE MEDIER TIL DEN AKTIVE SIDEN DINE PROFILER SÅ ANNONSENE OG INNHOLDET DU SER PÅ VÅRE NETTSIDER OG PÅ SOSIALE MEDIER VIL BEDRE reflektere dine interesser.",
+        "advertising": "ANNONSERING",
+        "weAndThirdPartiesUseAdvertisingCookies": "VI OG TREDJEPARTER BRUKER ANNONSE-COOKIES FOR Å VISE DEG NYE ANNONSER VED Å REGISTRERE HVILKE ANNONSER DU HAR ALLEREDE SETT. DE BRUKER OGSÅ TIL Å SPORE HVILKE ANNONSER SOM KJØPER PÅ DEG ELLER. GJØR ETTER AT DU KLIKKER PÅ EN ANNONSE FOR BETALINGSFORMÅL OG FOR Å VISE DEG ANNONSER SOM ER MER RELEVANTE FOR DEG. FOR EKSEMPEL, DE ER BRUKT TIL Å OPPDATER NÅR DU KLIKKER PÅ EN ANNONSE OG VISE DEG ANNONSER BASERT PÅ DIN SOSIAL MEDIE INTERESSER OG NETTSIDEHISTORIE.",
+        "resetAll": "TILLBAKESTILL ALLE",
+        "saveChanges": "LAGRE ENDRINGER"
+      }
+    },
+    "user": {
+      "sentMail": {
+        "checkYourEmail": "SJEKK E-POSTEN DIN",
+        "youShouldNowRecieve": "DU BØR NÅ MOTTA EN E-POST MED EN LINK FOR Å LAGE ET NYTT PASSORD.",
+        "ifYouNotRecieved": "HVIS DU IKKE HAR MOTTAT E-POST, VENNLIGST KONTROLL",
+        "wasTheEmail": "var e-posten du brukte til å opprette bruker-IDen din"
+      }
+    },
+    "download": {
+      "downloadPassword": {
+        "incorrectPassword": "FEIL PASSORD"
+      },
+      "downloadPasswordAssign": {
+        "checking": "sjekker..."
+      }
+    },
+    "ztfrX": {
+      "contentCreator": "INNHOLDSKAPER.",
+      "music": "MUSIKK",
+      "getPaidForYourContent": "FÅ BETALT FOR INNHOLDET DITT",
+      "getPaidForYourTransfers": "FÅ BETALT FOR DINE OVERFØRINGER",
+      "sellWhatYouCreate": "SELG DET DU SKAPER",
+      "ztfrXIsAnEasyAndSecureWay": "ER EN ENKEL OG SIKKER MÅTE Å FÅ BETALT FOR ARBEIDET DITT. BEGYNN Å TJENE PENGER DIN KREATIVITET I DAG.",
+      "exploreAWorldOfOpportunities": "UTFORSK EN VERDEN AV MULIGHETER",
+      "gettingPaid": "FÅ BETALT",
+      "getPaidDirectly": "FÅ BETALT DIREKTE INN PÅ DIN",
+      "withdrawFunds": "KONTO. TA UT MIDLER 24/7.",
+      "payments": "BETALINGER",
+      "explore": "Utforsk",
+      "ztfrGetPaidTxt": "ztfrGetPaid_bulgarian",
+      "paidCard": {
+        "paid": "Betalt",
+        "paidTxtSize": "paid_card_danish"
+      },
+      "musicCard": {
+        "relax": "Avslappning"
+      },
+      "constants": {
+        "animation": "Animasjon",
+        "applications": "Applikasjoner",
+        "architecture": "Arkitektur",
+        "art": "Kunst",
+        "collaboration": "Samarbeid",
+        "collage": "Kollasj",
+        "comics": "Tegneserier",
+        "commissions": "Oppdrag",
+        "community": "Fellesskap",
+        "creativeAdvice": "Kreativ veiledning",
+        "design": "Design",
+        "education": "Utdanning",
+        "fashion": "Mote",
+        "fiction": "Fiksjon",
+        "film": "Film",
+        "gaming": "Spill",
+        "graphicDesign": "Grafisk design",
+        "graphicNovels": "Grafiske romaner",
+        "illustration": "Illustrasjon",
+        "installations": "Installeringer",
+        "music": "Musikk",
+        "nft": "NFT",
+        "opinion": "Mening",
+        "painting": "Maling",
+        "partnerships": "Partnerskap",
+        "performance": "Forestilling",
+        "photography": "Fotografi",
+        "podcasts": "Podkaster",
+        "print": "Trykk",
+        "sculpture": "Skulptur",
+        "software": "PROGRAMVARE",
+        "textile": "Tekstil",
+        "video": "VIDEO",
+        "writing": "Skriving",
+        "other": "ANNET"
+      },
+      "howZtfrXWorks": {
+        "how": "HVORDAN",
+        "works": "FUNGERER"
+      },
+      "sellDigitalContent": {
+        "sellDigitalContent": "SELG DIGITALT INNHOLD (PRODUKTER)",
+        "turningYourDigitalContent": "GJØR DITT DIGITALE INNHOLD OM TIL PROFITT",
+        "allowsYouTo": "GIR DEG MULIGHETEN TIL Å DISTRIBUERE, ANNONSERE OG FÅ BETALT FOR DITT DIGITALE INNHOLD (PRODUKTER)"
+      },
+      "recieveQuickPayments": {
+        "recieveQuickPayments": "MOTTAK RASKE BETALINGER FRA DINE KUNDER",
+        "revolutionise": "REVOLUSJONER DITT BEDRIFT. SIKRE LØSNINGER FOR Å FÅ BETALT AV KUNDER PÅ GLOBAL SKALA",
+        "usesAdvanced": "BRUKER AVANSERT KRYPTERINGSTANDARD (AES) MED 256-BIT BESKYTTELSE",
+        "whatContent": "HVILKET INNHOLD (PRODUKT) SKAL SELGES?",
+        "weHaveIdeas": "VI HAR IDEER SOM VIL HJELPE DEG Å UTFORSKE NYE MULIGHETER MED NYE INNTEKTSKILDER FRA"
+      },
+      "buyNow": "KJØP NÅ",
+      "getPaidFor": {
+        "getPaidFor": "få betalt for dine fotografier, musikk, digitale kunstverk, motesessions, personlige kurs, og mye mer...",
+        "itsSimple": "DET ER ENKELT. DU VET HVA DINE FANS/KUNDER VIL HA, PAKK INN DINE NYESTE VERK (FOTOSHOOT, FONT-PAKKER, MUSIKK, VIDEO, DIGITAL KUNST, KORTFILMER, ROMANER, PRESET-PAKKER, PLAKATDESIGN OG 1000-TALLS FLERE...)",
+        "activateYour": "AKTIVER DIN ",
+        "andStartToUpload": "OG BEGYNN Å LASTE OPP VED Å BRUKE ",
+        "decideOnAPrice": "BESTEM EN PRIS, OG DEL ENKELT DITT LENKE (URL), QR-KODE ELLER VED Å BRUKE VÅRE ANBEFALTE SAMARBEIDSPARTNERE"
+      },
+      "sellYourEducational": {
+        "sellYourEducational": "SELG DITT UTDANNINGSINNHOLD, DIGITALE PROGRAMMER, DIGITALE BØKER, TUTORIALS, STUDIEVEILEDNINGER OG MYE MER...",
+        "startGenerating": "START INNTEKTSGENERERING SAMMEN MED ANDRE KREATIVE SOM DEG. DEL DIN EKSPERTISE OG TALENT TIL ET GLOBALT PUBLIKUM. GJØR BLOGGARTIKLER ELLER INSTAGRAM-FEEDEN DIN OM TIL EN E-BOK ELLER EN PDF FOR Å GENERERE EKSTRA INNTEKT."
+      },
+      "sendFinalAssets": {
+        "sendFinalAssets": "SEND SLUTTVERDIEN TIL DINE KUNDER OG FÅ BETALT",
+        "itsThatEasy": "DET ER SÅ ENKELT. FÅ RASK BETALING FOR DEN SISTE FOTOSHOOTEN, KONSULENTJOBBEN, ELLER EN AV DE ANBEFALTE INNHOLDENE. LAST BARE OPP DINE SISTE FILER, TILPASS HVERT ASPEKT AV DITT TAPET, LEGG TIL EN PRIS DU VIL HA, OG SEND DET.",
+        "yourClientsCan": "DINE KUNDER KAN FÅ TILGANG TIL DIN PRIVATE LENKE OG BETALE FOR Å LASTE NED FILLENE SINE.",
+        "howToGetStarted": "HVORDAN KOMME I GANG"
+      },
+      "Xlogo": {
+        "tryNow": "PRØV NÅ"
+      },
+      "ztfrGetPaid": {
+        "getPaid": "FÅ BETALT",
+        "effortless": "Enkel overføring av kreative ressurser, store filer, komplette mapper og hele prosjekter med bare ett enkelt klikk.",
+        "learnMore": "Les mer"
+      },
+      "ztfrSecurity": {
+        "security": "SIKKERHET",
+        "withPassword": "Med passordbeskyttelse og 256-bit (aes) filkryptering, integrerer vi grunnleggende sikkerhetsfunksjoner for å beskytte innholdet/ditt arbeid."
+      },
+      "ztfrShowcase": {
+        "showcase": "VISE FREM",
+        "create": "Lag en minneverdig innvirkning ved å tilpasse hvert aspekt, fra din HJEMMESIDE til dine e-poster.",
+        "unleash": "Slipp løs fantasien din uten begrensninger.",
+        "transferring": "overfører..."
+      },
+      "getStartedVideos": {
+        "stepOne": "STEG EN",
+        "stepTwo": "TRINN TO",
+        "stepThree": "TRINN TRE"
+      }
+    },
+    "createNewPassword": {
+      "confirmPass": "BEKREFT DITT NYE PASSORD",
+      "instructions": "Vi sender deg instruksjoner for å tilbakestille passordet ditt og få deg LOGGET INN igjen.",
+      "newPass": "NYTT PASSORD",
+      "confirmNewPass": "BEKREFT NYTT PASSORD",
+      "reset": "BEKREFT TILBAKESTILLING AV PASSORD/DENNY INNLOGGING"
+    },
+    "transferExpired": {
+      "transferExpired": "OVERFØRINGEN UTLØPT",
+      "weRegret": "VI BEKLAGER Å MÅTTE",
+      "youThatThis": "INFORMERE",
+      "REACHED": "DEG OM AT DENNE OVERFØRINGEN HAR ",
+      "notAccessible": "UTLØPT OG IKKE LENGER ER TILGJENGELIG.",
+      "sendFiles": " SEND FILER",
+      "regretMessageGap": "regret_message_gap_italian",
+      "regretMessagePosition": "regret_message_position_italian",
+      "jumperMobPosition": "jumper_mob_position_norsk"
+    },
+    "scheduleDone": {
+      "time": "tid",
+      "emailFrom": "E-POST FRA",
+      "yourSchedule": "DITT PLANLAGTE ZTFR OPPLASTING VIL",
+      "initiate": "START INNEN 5 SEKUNDER.",
+      "dontClose": "IKKE LUKK NETTLESEREN DIN",
+      "during": "UNDER DENNE PROSESSEN"
+    },
+    "noInternet": {
+      "notConnected": "Det virker som om du ikke er koblet til internett",
+      "noConnection": "Ingen internettilkobling",
+      "checkConnection": "Sjekk tilkoblingen din eller prøv igjen",
+      "internetSettings": "Internettinnstillinger"
+    }
+  }
+}

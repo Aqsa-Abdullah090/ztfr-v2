@@ -1,4 +1,3 @@
-// components/primitives/ProtectedRoute.js
 'use client';
 
 import Cookies from "js-cookie";
@@ -11,6 +10,10 @@ const ProtectedRoute = ({ children }) => {
 
   useEffect(() => {
     const storedUser = Cookies.get("user");
+
+    // if (!storedUser && pathname !== "/login-or-createuser") {
+    //   router.push("/login-or-createuser");
+    // }
 
     if (storedUser && pathname === "/login-or-createuser") {
       router.push("/");

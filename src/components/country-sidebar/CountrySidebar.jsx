@@ -168,7 +168,11 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
       />
 
       {/* Sidebar Panel */}
-      <div className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[45px] w-full lg:w-[480px] bg-black/20 backdrop-blur-sm text-white flex flex-col transform transition-transform duration-900 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
+      <div className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[45px] w-full lg:w-[480px]  text-white flex flex-col transform transition-transform duration-900 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}
+        style={{
+                        backdropFilter: "blur(30px)",
+                        WebkitBackdropFilter: "blur(30px)",
+                    }}>
         
         <div className="pt-[30px] lg:pt-[45px] space-y-[10px] lg:space-y-[20px] flex-shrink-0">
           <h2 className="text-[12px] lg:text-[14px] tracking-[1px] uppercase font-arial">

@@ -1,0 +1,1375 @@
+{
+  "hero": {
+    "letsDo": "让我们做",
+    "this": "这个",
+    "upload": "通过在窗口的任何位置拖放来上传文件或文件夹",
+    "uploadSize": "upload_text_size_chinaNew",
+    "welcomeText": "欢迎"
+  },
+  "sidebar": {
+    "uploadText": "upload_text_china",
+    "advanceTextTop": "advance_text_top_chinaNew",
+    "upload": "通过拖放上传文件或文件夹",
+    "them": "到窗口的任何位置",
+    "advance": "高级加密标准（AES）256位",
+    "advanceTextSize": "sidebaradvancetext_china",
+    "sidebarAdvanceTextAlign": "sidebar_advanced_text_align_china"
+  },
+  "getlink": {
+    "sendEmail": "发送电子邮件",
+    "unlimitedTransfers": "无限次转账",
+    "geta": "获取链接",
+    "lgText": "lg:text-[14px]",
+    "text": "text-[10px]",
+    "lgUptoSize": "lg:text-[40px]",
+    "UptoSize": "text-[20px]",
+    "uploadFiles": "上传文件",
+    "or": "或",
+    "select": "选择一个文件夹",
+    "selectFolderRightAlign": "select_folder_align_right_chinese",
+    "upto": "最多",
+    "free": "免费",
+    "UptoTextRightAlign": "Upto_text_size_align_right_chinese",
+    "freeTextSize": "free_text_size",
+    "styles": {
+      "freeTextLg": "text-[24px]",
+      "freeTextMd": "text-[20px]"
+    },
+    "inputTextSize": "input_text_size_chinese"
+  },
+  "uploading": {
+    "uploadingFiles": "上传文件",
+    "uploaded": "已上传",
+    "uploading": "上传中",
+    "pending": "待处理",
+    "of_text": "的",
+    "about_text": "关于",
+    "remaining_text": "其余的",
+    "title_text": "标题",
+    "note_text": "笔记",
+    "cancel_text": "取消",
+    "almostDone": "差不多完成",
+    "textsizes": {
+      "textsize1": "assign_text_sizeChinaNew_Uploading",
+      "textsize2": "assign_text_sizeChinaNew_Uploading",
+      "textsize3": "assign_text_sizeChinaNew",
+      "statusSize": "status_size_chinese"
+    }
+  },
+  "uploaded": {
+    "filesUploaded": "文件已上传",
+    "completed": "完全的",
+    "youDidIt": "你做到了！",
+    "copyDownloadLink": "复制您下载的链接",
+    "seeWhatsInside": "查看里面有什么",
+    "code": "代码",
+    "styles": {
+      "filesUploaded_text_lg": "text-[14px]",
+      "filesUploaded_text_md": "text-[12px]",
+      "youDidIt_text_lg": "text-[30px]",
+      "youDidIt_text_md": "text-[20px]"
+    },
+    "textsizes": {
+      "textsize3": "text__14__only",
+      "textsize2": "assign_text_sizeChinaNew_Uploading"
+    }
+  },
+  "assignContent": {
+    "assignHeading": "分配",
+    "assign": "ASSIGN是一项独家功能，允许任务指派人上传文件/文件夹，并有选择和控制哪些文件/文件夹他们想让受托人访问。受托人获得一个独特的4位数PIN码以访问文件/文件夹。",
+    "one": "一个上传。",
+    "magnitude": "无限的可能性。",
+    "title": "标题",
+    "note": "笔记",
+    "Hi": "嗨，我想你可能希望手边有这些。祝你好运。很快见。杰西卡 x",
+    "Revsion": "修订文件",
+    "Expires": "到期时间",
+    "lets_get": "让我们得到",
+    "started": "开始",
+    "uploaded_Files": "上传的文件",
+    "or": "或者",
+    "folders": "文件夹",
+    "clear": "清除",
+    "assignee": "让我们得到"
+  },
+  "assign_SubContent": {
+    "assign_heading": "分配",
+    "assign_files": "分配文件",
+    "assignee_name": "受让人姓名",
+    "assign_pinCode": "分配密码",
+    "generate_pinCode": "生成引脚",
+    "custom_pinCode": "自定义引脚",
+    "Additional_Note": "附加说明",
+    "clear_text": "清除"
+  },
+  "fileDownloadedModal": {
+    "close": "关闭",
+    "youDidIt": "你做到了！",
+    "items_text": "此中的项目",
+    "files": "文件",
+    "folder": "文件夹",
+    "expiresIn": "过期日期在",
+    "days": "天",
+    "downloadOrShare": "下载或分享",
+    "copied": "复制的",
+    "copyLink": "复制链接",
+    "qrCode": "二维码",
+    "email": "电子邮件",
+    "whatsapp": "whatsapp",
+    "message": "信息",
+    "facebook": "facebook",
+    "x": "x",
+    "hours": "小时",
+    "textsizes": {
+      "textsize1": "text__20",
+      "textsize2": "text__14",
+      "textsize3": "text__12",
+      "textsize4": "text__10",
+      "textsize5": "text__16"
+    }
+  },
+  "FileDropZone": {
+    "drop": "将文件拖放到这里"
+  },
+  "footer": {
+    "footerRightReservedTextSize": "footer_right_reserved_text_size_arabic",
+    "zitransfer": "© ZITRANSFER 2023",
+    "rights": "保留所有权利",
+    "partof": "ZITRANSFER是ZIMO集团的一部分",
+    "zitransferUses": "ZITRANSFER使用高级加密标准（AES）256位保护您上传的数据的机密性。"
+  },
+  "countries": {
+    "choose": "选择您的国家或地区",
+    "language": "语言"
+  },
+  "MainShare": {
+    "email": "电子邮件",
+    "emailTo": "电子邮件收件人",
+    "yourEmail": "您的电子邮件",
+    "enterZVC": "输入 ZVC 代码",
+    "messages": "消息",
+    "typeYourCustomisedLink": "输入您的自定义链接",
+    "linkCopied": "链接已复制",
+    "logout": "注销",
+    "login": "登录",
+    "createUserId": "创建用户 ID",
+    "getLink": "获取链接",
+    "gitQRCode": " 获取二维码",
+    "title": "标题",
+    "Revsion": "修订文件",
+    "note": "笔记",
+    "assignHeading": "分配",
+    "Hi": "嗨，我想你可能希望手边有这些。祝你好运。很快见。杰西卡 x",
+    "Expires": "到期时间",
+    "days": "最多365天",
+    "schedule": "安排传输",
+    "advance": "高级加密标准AES 256位",
+    "assign": "ASSIGN是一项独家功能，允许任务指派人上传文件/文件夹，并有选择和控制哪些文件/文件夹他们想让受托人访问。受托人获得一个独特的4位数PIN码以访问文件/文件夹。",
+    "one": "一个上传。",
+    "magnitude": "无限的可能性。",
+    "exText": "expires_text_chinaNew",
+    "assignTextSize": "assign_text_sizeChinaNew",
+    "upTo365": "up_to_365_chinese",
+    "assignButton": {
+      "files": {
+        "text": "指派文件",
+        "css": "text__v2"
+      },
+      "folders": {
+        "text": "指派文件夹",
+        "css": "text__v2"
+      },
+      "filesFolder": {
+        "text": "指派文件/文件夹",
+        "css": "text__v22"
+      }
+    }
+  },
+  "Expires": {
+    "expires": "过期",
+    "minute": "分钟",
+    "hour": "小时",
+    "day": "天",
+    "week": "周",
+    "months": "个月",
+    "year": "年",
+    "optional": "可选",
+    "pick": "从日历中选择",
+    "password": "设置密码",
+    "invalidDate": "失效日期"
+  },
+  "Verit": {
+    "cEmail": "text-[14px]",
+    "vEmail": "text-[12px]",
+    "weText": "text-[10px]",
+    "verify": "验证您的电子邮件",
+    "confirm": "确认您的电子邮件",
+    "receive": "未收到电子邮件？",
+    "we": "我们已发送验证码（ZVC）",
+    "to": "至",
+    "sure": "确保您真的是您自己",
+    "remember": "记得检查您的垃圾邮件文件夹"
+  },
+  "Copy": {
+    "sendText": "text-[14px]",
+    "Revision": "修订文件",
+    "download": "复制您的下载链接",
+    "link": "复制链接",
+    "another": "发送另一个？"
+  },
+  "GetAQRCode": {
+    "linkCopied": "链接已复制",
+    "password": "text-[12px]",
+    "lgpassword": "text-[14px]",
+    "download": "下载"
+  },
+  "DateTimePicker": {
+    "meeting": "安排会议",
+    "pick": "从日历中选择"
+  },
+  "RenameFile": {
+    "rename": "重命名文件/文件夹"
+  },
+  "RenameTitle": {
+    "rename": "重命名标题"
+  },
+  "FirstPage": {
+    "drop": "将文件拖放到这里..."
+  },
+  "GetALink": {
+    "filename": "文件名"
+  },
+  "Download4": {
+    "revision": "修订",
+    "files": "文件"
+  },
+  "Download9": {
+    "complete": "完成"
+  },
+  "CustomiseALink": {
+    "passwordText": "text-[12px]",
+    "password": "设置密码",
+    "type": "输入自定义链接",
+    "CustomiseText": "text-[10px]",
+    "CustomiselgText": "lg:text-[10px]",
+    "copyText": "text-[10px]",
+    "Customise": "自定义链接",
+    "CustomiseLinkText": "customise_link_text_chinese",
+    "your": "复制您的下载链接",
+    "copyCustomised": "复制自定义链接"
+  },
+  "SetPassword": {
+    "protected": "受密码保护",
+    "notmatch": "密码不匹配。",
+    "Removepassword": "删除密码",
+    "enterPassword": "请先输入密码",
+    "Invalid": "无效",
+    "headerTextSize": "text__14__only"
+  },
+  "Assign": {
+    "PIN": "分配PIN码",
+    "generate": "生成PIN码",
+    "customPin": "自定义PIN码",
+    "clear": "清除"
+  },
+  "Preview": {
+    "prev": "预览",
+    "notSupported": "不支持预览",
+    "limitExceeded": "预览限制已超出",
+    "fileLimit": "文件超出预览限制",
+    "previewError": "预览错误"
+  },
+  "Remove": {
+    "rev": "删除",
+    "fileName": "文件名"
+  },
+  "ViewDetails": {
+    "viewD": "查看详细信息",
+    "fileD": "文件详情",
+    "type": "类型",
+    "size": "大小",
+    "created": "创建",
+    "description": "描述",
+    "max": "最大",
+    "addDescription": "添加描述"
+  },
+  "Hero2": {
+    "Close": "关闭",
+    "oxford": "牛津大学",
+    "transfers": "传输",
+    "send": "发送",
+    "recevice": "接收",
+    "byDate": "按日期排序",
+    "july2023": "2023年7月",
+    "urgent": "任务768 - 紧急",
+    "NoYet": "尚未下载",
+    "file": "文件",
+    "minuteAgo": "52分钟前发送",
+    "18july": "2023年7月18日",
+    "london": "伦敦学院",
+    "Downloaded": "已下载"
+  },
+  "CMail": {
+    "confirmEmail": "确认您的电子邮件",
+    "quickCheck": "仅快速检查，确保您是本人。",
+    "verificationLink": " 我们已向以下地址发送了验证链接",
+    "checkSpam": "（如果找不到，请检查垃圾邮件）。",
+    "didn'tReceive": "没有收到邮件？"
+  },
+  "ForgetPassword": {
+    "reset": "重置您的密码",
+    "sendInstructions": "我们将向您发送重置密码的说明，并让您重新登录。",
+    "textsizes": {
+      "textsize1": "text__11__10"
+    }
+  },
+  "LoginUser": {
+    "Login": "登录",
+    "CreateUser": "创建用户ID",
+    "withGoogle": "使用谷歌继续",
+    "or": "或",
+    "Forgotten": "忘记密码？",
+    "textsizes": {
+      "textsize1": "text__18__12__10",
+      "textsize2": "text__8__10__2xl",
+      "textsize3": "text__25__45__3xl",
+      "textsize4": "text__18__12__3xl"
+    }
+  },
+  "SignupUser": {
+    "creatingUserID": "创建用户ID即表示您同意我们的 ",
+    "Terms": "服务条款和隐私政策",
+    "firstName": "名字",
+    "lastName": "姓氏",
+    "organisationOptional": "组织（可选）",
+    "additionalNote": "附加说明",
+    "textsizes": {
+      "textsize1": "text__18__12__10",
+      "textsize2": "text__8__10__2xl"
+    }
+  },
+  "UserHeader": {
+    "sendFiles": "发送文件",
+    "sendFolders": "发送文件夹",
+    "shareIdeas": "共享创意",
+    "MultipleFormats": "以多种格式共享传输",
+    "unlimitedStorage": "无限存储空间",
+    "sendUnlimited": "无限制发送传输",
+    "ReceiveUnlimited": "无限制接收传输",
+    "StorageUpTo": "最长存储10年",
+    "portal": "门户",
+    "customExpiration": "自定义过期日期",
+    "AssignPIN": "分配PIN保护",
+    "PublicSharing": "公共分享",
+    "DynamicLinks": "动态链接",
+    "PasswordsProtect": "密码保护",
+    "TrackDownloads": "跟踪下载",
+    "advance": "高级AES 254位加密",
+    "creator": "内容创作者",
+    "userPortal": "用户门户",
+    "themes": "个性化主题",
+    "customisedProfiles": "自定义配置文件",
+    "militaryGrade": "军用级加密"
+  },
+  "Download": {
+    "ready": "准备好了。",
+    "set": "设置。",
+    "download": "下载。",
+    "ZTFRExpires": "ZTFR将在7天后过期",
+    "revision": "修订",
+    "files": "文件",
+    "seeYou": "嗨，只是觉得你可能想随手备份这些。祝你好运。很快再见。杰西卡 x",
+    "preview": "预览",
+    "unlocked": "已解锁",
+    "advanceTxt": "download_advance_text_top_chinaNew",
+    "advanceTxtSize": "sidebaradvancetext_china",
+    "advanceAssignTxt": "download_advance_text_top_chinaNew",
+
+    "setTextSize": "set_text_size",
+    "downloadTextSize": "download_text_size",
+    "previewText": "preview_text_chinese",
+    "ztfrExpiresIn": "ZTFR 过期",
+    "days": "天",
+    "ztfrExpired": "ZTFR 已过期",
+    "expireTextSize": "expire_text_size_chinese"
+  },
+  "DownloadAssign": {
+    "ready": "准备好了。",
+    "set": "设置。",
+    "download": "下载。",
+    "ZTFRExpires": "ZTFR将在30天后过期",
+    "university": "大学",
+    "hiAll": "大家好。",
+    "workAccess": "请使用您分配的ZTFR PIN获取您的工作访问权限。",
+    "assign": "分配"
+  },
+  "DownloadPassword": {
+    "enterPassword": "输入密码",
+    "enterPasswordTxtSize": "enterPasswordTxtSizeChinaNew",
+    "pinCode": "PIN码"
+  },
+  "DownloadPasswordC": {
+    "revision": "修订版文件"
+  },
+  "DownloadPreview": {
+    "close": "关闭",
+    "items": "此ZTFR中的项目",
+    "ZTFRExpires": "ZTFR将在7天后过期",
+    "filefolderTxtSize": "filefolderTxtSizeChinaNew",
+    "downloadAll": "全部下载",
+    "lookingInside": "查看文件夹内部。",
+    "WhatInside": "文件夹里有什么？让我们来看看。",
+    "preview": "预览",
+    "name": "名称",
+    "type": "类型",
+    "size": "大小",
+    "hide": "隐藏"
+  },
+  "EnterPinCode": {
+    "pinCode": "PIN码",
+    "hello": "你好",
+    "youNote": "你有一条备注：",
+    "DueDate": "截止日期为7月19日-09:00。",
+    "items": "此ZTFR中的项目",
+    "enterPin": "请输入您分配的PIN码",
+    "incorrectPin": "PIN码不正确",
+    "clear": "清除"
+  },
+  "ResendMail": {
+    "checkEmail": "检查您的电子邮件",
+    "getBottom": "让我们找到问题的根本。这是您在ZTFR上使用的电子邮件。",
+    "resend": "重新发送"
+  },
+  "Assignfiles": {
+    "assign": "分配",
+    "assignFiles": "分配文件",
+    "assignName": "被分配者姓名",
+    "assignPin": "被分配者PIN码",
+    "generatePin": "生成PIN码",
+    "CustomPin": "自定义PIN码",
+    "AdditionalNote": "附加备注",
+    "clear": "清除"
+  },
+  "AssignShare": {
+    "exclusiveFeature": "分配是一项独家功能，允许分配者（您）上传文件/文件夹，并有选择和控制的选项，指定要授予受让者（接收者）访问权限的文件/文件夹。为受让者（接收者）提供了唯一的4位PIN码，以获得对文件/文件夹的访问权限。",
+    "gainAccess": "获得访问权限。为获得对文件/文件夹的访问权限。为获得访问权限。为受让者（接收者）提供了唯一的4位PIN码，以获得对文件/文件夹的访问权限。",
+    "oneUpload": "一次上传。无限的可能性。",
+    "title": "标题",
+    "note": "备注",
+    "RevisionFiles": "修订版文件",
+    "justThought": "嗨，只是想让你可能需要这些备份。祝你好运。很快再见。杰西卡 x",
+    "assignee": "受让者"
+  },
+  "DownloadIndex": {
+    "DownloadIndexStyle": "revision_file_bulgarian",
+    "letsDoTextSize": "lets_do_text_size_bulgarian",
+    "ThisTextSize": "this_text_size_bulgarian",
+    "heroLeft": "hero_left_spanish",
+    "revision": "修订",
+    "files": "文件"
+  },
+  "ShareIndividual": {
+    "renameTitle": "重命名标题",
+    "renameFile": "重命名文件/文件夹",
+    "preview": "预览",
+    "view": "查看详细信息",
+    "expires": "在过期",
+    "getLink": "获取链接",
+    "QRCode": "获取二维码",
+    "setPassword": "设置密码",
+    "assign": "分配",
+    "remove": "移除",
+    "moreOption": "更多选项"
+  },
+  "Password": {
+    "password": "密码",
+    "confirmPassword": "确认密码"
+  },
+  "error": {
+    "required": "必填项",
+    "allFieldRequired": "所有字段都是必填项",
+    "invalidEmail": "无效的电子邮件",
+    "invalidPassword": "无效的密码",
+    "enterValidEmail": "请输入有效的电子邮件",
+    "enterValidPassword": "请输入有效的密码",
+    "enterValidFirstName": "请输入有效的名字",
+    "enterValidLastName": "请输入有效的姓氏",
+    "minimumLength3": "最小长度必须为3",
+    "shortLength": "长度太短",
+    "longLength": "长度太长",
+    "passwordMatch": "密码不匹配。",
+    "invalid": "无效",
+    "passwordReq": "密码是必需的",
+    "confirmPasswordReq": "确认密码是必需的",
+    "verfied": "已验证",
+    "invalidZVC": "无效的 ZVC",
+    "invalidCredentials": "无效的凭据",
+    "invalidPin": "无效的 别针",
+    "inputPassword": "请先输入密码",
+    "inputpasswordConfirm": "请输入确认密码"
+  },
+  "general": {
+    "language_tracking": "language_tracking_none",
+    "inputsize": "text__14__12__lg",
+    "shareCardHeaderTextSize": "text__14__only",
+    "footer": {
+      "textsize1": "text__8__only",
+      "mobileFooter": {
+        "textsize1": "text__7__only",
+        "textsize2": "text__7__only"
+      }
+    },
+    "welcomeTracking": "welcome_tracking_none"
+  },
+  "page": {
+    "404": {
+      "somethingWrong": "出现了问题。",
+      "oops": "哎呀",
+      "oopsTextSize": "oops_text_size_chinese",
+      "couldNotFound": "我们找不到您要查找的页面。",
+      "tryAgain": "您可以再试一次，或者如果愿意，可以告诉我们发生了什么事。",
+      "sendError": "将您的错误代码发送至 support@zitransfer.com，我们将尽力帮助您。",
+      "copyCode": "复制我的错误代码",
+      "codeCopied": "错误代码已复制"
+    },
+    "legalModal": {
+      "links": {
+        "termsOfServices": "服务条款",
+        "privacyStatement": "隐私声明",
+        "noticePolicy": "通知政策",
+        "advertisingTerms": "广告条款"
+      },
+      "legal": "合法的",
+      "legalInfo": "法律信息与通知",
+      "termsOfConditions": {
+        "termsOfServices": "服务条款",
+        "ownership": {
+          "ownership_heading": "网站所有权; 使用服务条款协议",
+          "ownership_para1": "这些服务条款（以下简称\"服务条款\"）适用于 ZTFR（ZITRANSFER）网站（平台），位于 <a href='https://zitransfer.com' target='_blank'>www.zitransfer.com</a>，<a href='https://zitransfer.com' target='_blank'>www.ztfr.org</a> 以及由 ZIMO（ZIMO GROUP）及其子公司和关联公司提供的所有与 <a href='https://www.zimogroup.org' target='_blank'>www.zimogroup.org</a> 链接的关联网站（\"以下统称\"网站\"）。 该网站归 ZIMO GROUP LIMITED（以下简称\"ZIMO\"）及其许可方所有。使用该网站即表示您同意遵守这些服务条款；如果您不同意，请勿使用该网站。",
+          "ownership_para2": "ZTFR 保留在其自行决定的情况下随时更改、修改、添加或删除这些服务条款的权利。您有责任定期检查这些服务条款是否有变更。您继续使用网站/平台将表示您接受并同意这些变更。只要您遵守这些服务条款，ZTFR 授予您个人的、非独占的、不可转让的有限权限，用于访问和使用网站/平台。"
+        },
+        "content": {
+          "content_heading": "内容",
+          "content_para1": "所有文字、图形、用户界面、视觉界面、照片、商标、标识、声音、音乐、艺术品和计算机代码（\"统称为\"内容\"），包括但不限于该内容的设计、结构、选择、协调、表达、外观和排列，均由 ZTFR（ZITRANSFER）和 ZIMO 拥有、控制或持有许可，并受到商业外观、版权、专利和商标法以及各种其他知识产权和不正当竞争法的保护。",
+          "content_para2": "除非在这些服务条款中明确规定，否则不得复制、重制、再发、上传、发布、公开展示、编码、翻译、传输或以任何方式分发网站/平台的任何部分和任何内容（\"包括\"镜像\"）到任何其他计算机、服务器、网站或其他媒体以用于发布或分发或任何商业企业，除非经过 ZIMO 的明确书面同意。",
+          "content_para3": "您可以使用 ZTFR 产品和服务的信息（如数据表、知识库文章和类似材料），这些信息是由 ZIMO 提供并可以从该网站下载，前提是您（1）不得删除任何此类文件的专有通知语言，（2）仅出于个人非商业信息用途使用此类信息，不得复制或发布此类信息到任何联网计算机或在任何媒体中广播，（3）不得对此类信息进行修改，（4）不得提供与此类文件有关的任何额外陈述或担保。"
+        },
+        "headlines": {
+          "headlines_heading": "头条新闻",
+          "headlines_point1": "您拥有您的内容 - 您对其负有责任。我们将仅执行使我们的服务正常运行所需的操作。",
+          "headlines_point2": "如果您从事非法活动，我们可以阻止和/或删除您的数据/上传/下载，并暂停您的帐户。",
+          "headlines_point3": "我们可能会不时对我们的条款、服务和/或费用进行更改。如果您有帐户并不喜欢我们所做的更改，您可以随时取消。",
+          "headlines_point4": "我们应该提到，您自行承担使用我们的服务的风险；如果出现问题，我们不承担任何损害赔偿责任。"
+        },
+        "termsOfServices_points": {
+          "termsOfServices_heading": "服务条款",
+          "termsOfServices_subheading": "ZTFR 提供以下工具:",
+          "termsOfServices_point1": "文件共享服务（\"ZTFR/ZITRANSFER文件共享\"）",
+          "termsOfServices_point2": "允许您存储、组织、分享和接收来自多个来源的内容的服务（\"Collect\"）",
+          "termsOfServices_point3": "允许您以多种格式/平台分享想法和数据/文件的服务",
+          "termsOfServices_point4": "通过 ZTFR X 进行销售的服务",
+          "termsOfServices_point5": "免费使用的服务，无限上传/下载使用（不包括高级服务）",
+          "termsOfServices_point6": "附加功能和功能",
+          "termsOfServices_para1": "您对我们的服务、软件、网站（包括浏览器扩展程序）和/或应用程序的使用和访问受这些服务条款（\"条款\"）的约束。",
+          "termsOfServices_para2": "服务可能以在线方式提供给您，以移动和/或桌面应用程序的形式提供给您，或者可能集成在第三方服务中。",
+          "termsOfServices_para3": "服务允许您上传、提交、存储、分享、接收、收集、捕捉和/或可视化您的想法、文本、图形、视频、数据、信息、文件、演示文稿或其他内容，包括您使用的第三方内容（\"统称为\"内容\"）。 您保留所有内容的权利、责任和责任。 ZTFR 不主张对您的内容拥有权。",
+          "termsOfServices_para4": "服务由 ZIMO GROUP LIMITED（\"ZITRANSFER\"，\"ZTFR\"）作为服务的用户提供给您，总部位于英格兰伦敦科文特花园 71-75 号，邮编 WC2H 9JQ，英国。",
+          "registered_location": "在英格兰和威尔士注册",
+          "registered_number": "注册公司号码：14383397。"
+        },
+        "applicability": {
+          "applicability_heading": "适用性",
+          "applicability_point1": "只有年满 16 岁或更大年龄的人（除非您在 ZTFR 教育计划下使用）被授权使用本服务。",
+          "applicability_point2": "请仔细阅读这些条款。通过使用服务（直接与我们使用或通过第三方应用程序、插件、扩展或集成使用），您同意并接受这些条款以及我们的 通知/下架政策 （\"NTD 政策\"）。关于个人数据和与服务相关的 cookie 使用，我们的 隐私声明 也适用。",
+          "applicability_point3": "如果服务包括在与第三方服务相关联、与第三方服务一起使用或集成在第三方服务中，则除了这些条款之外，还可能适用第三方的条款和条件、通知/下架政策和/或隐私声明。如果您代表雇主或其他组织使用服务，您同意该组织的条款，并声明并保证您具有代表该组织的授权。ZTFR 对任何第三方服务、条款和/或政策不承担责任。",
+          "applicability_point4": "如果您想要投诉或报告通过服务或 ZTFR API 存储或共享的非法内容，请阅读 NTD 政策。",
+          "applicability_point5": "如果您发现服务中存在漏洞，请阅读我们的负责任披露政策。",
+          "applicability_point6": "如果您想要使用 ZTFR API（如 API 使用条款中所述），我们的 API 使用条款将额外适用于这些条款。",
+          "applicability_point7": "ZTFR 可以不时修订这些条款。修订后的条款将在发布在 ZITRANSFER（ZTFR）网站和/或 ZITRANSFER 移动和/或桌面应用程序上的日期生效，或者根据修订的条款可能声明的较晚日期生效。因此，我们建议您定期查看这些条款并注意任何更改。通过继续使用服务，您接受修订后的条款。如果条款发生重大变更，您将在变更之前得到通知：（i）在使用服务时，或（ii）通过向我们提供的联系方式发送消息，或（iii）在 ZITRANSFER 网站和/或 ZITRANSFER 移动和/或桌面应用程序上发布变更通知。如果您不接受更改，您可以取消您的订阅。",
+          "applicability_point8": "这些条款取代您和 ZTFR（ZITRANSFER）之间的所有口头和书面报价、条款、通信、协议和了解。"
+        },
+        "fileSharing": {
+          "fileSharing_heading": "文件共享",
+          "fileSharing_point1": "ZTFR（ZITRANSFER）文件共享允许您与他人共享您的内容。",
+          "fileSharing_point2": "要共享您的内容，您需要上传内容并提供（有限数量的）收件人的电子邮件地址（\"电子邮件传输\"），选择自行分发下载链接（\"获取链接\"）。此外，您可以选择多种方式来分发/共享您的内容，可选择以下方法；获取 QR 码、WhatsApp、Facebook、Threads、X（之前是 Twitter）和消息。",
+          "fileSharing_point3": "ZTFR（ZITRANFSER）文件共享提供共享内容的可能性，最大总容量有限。上传的内容存储在 ZITRANFSER 的服务器上，经过一段有限时间后，下载的能力将过期。",
+          "fileSharing_point4": "在到期后，ZTFR 将永久删除上传的文件，使用军用级别的删除。这些文件将不再可用或可检索。",
+          "fileSharing_point5": "ZTFR 文件共享的基本功能（目前）免费注册和免费使用。",
+          "fileSharing_point6": "ZTFR 将内容视为机密，不控制下载链接的使用，无论它们是由我们原始分发还是由您分发。接收者可以转发链接并允许其他人使用。您对上传和共享的内容负有全部责任。",
+          "fileSharing_point7": "ZTFR Pro 和 ZTFR Premium 是付费订阅版本，与免费版本相比，提供一组高级服务和不同的订阅条款。",
+          "fileSharing_point8": "ZTFR 订阅（无论是免费、Pro 还是 Premium）包括对 ZTFR 和其服务的其他部分的订阅。",
+          "fileSharing_point9": "ZTFR 保留自动删除所有使用 ZTFR Pro 上传的内容的权利，此内容仍然存储在我们的服务器上，在您的 ZTFR Pro 或 ZTFR Premium 订阅结束后的 28 天后进行删除。",
+          "fileSharing_point10": "ZTFR Premium 为您提供（等等）无限的 ZITRANSFER 文件共享存储和无限的定制选项。您将拥有无限 TB 容量，可使用专属的定制工具。",
+          "fileSharing_point11": "ZTFR Teams（\"团队\"）是 ZTFR Pro 和 ZTFR Premium 的付费订阅版本，允许您将团队成员添加到您的 ZTFR Pro 或 ZTFR Premium 帐户。团队成员可以轻松添加和移除，每个订阅期间。",
+          "fileSharing_point12": "ZTFR Teams 付费订阅期的开始日期是您注册为 ZTFR 团队供应商（\"团队供应商\"）的 ZTFR Teams 帐户的日期。"
+        },
+        "payment": {
+          "payment_heading": "支付",
+          "payment_point1": "ZTFR 是免费的文件共享服务，除非您选择了付费服务（ZTFR Pro、ZTFR Premium、ZTFR X 等）。",
+          "payment_point2": "我们可能不时引入或更改服务的费用，届时我们将提前通知您。如果您有固定期限和价格的订阅，那个价格将在固定期限内有效。如果您不同意价格的更改，您可以在当前服务期结束前取消订阅并停止使用服务。如果在价格更改生效后继续使用服务，您同意支付更改后的价格。费用引入将需要您的事先同意和注册。",
+          "payment_point3": "根据您选择的支付方式，支付方式的发行方可能会向您收取与支付处理相关的费用。",
+          "payment_point4": "您可以在相关服务的帐户设置（门户）中更改您的付款方式。",
+          "payment_point5": "如果支付未成功结算（例如资金不足、信用卡过期、支付详细信息更改等情况），ZTFR 可能会暂停或取消向您提供服务。因未付款而暂停或取消服务可能导致您失去对帐户和内容的访问和使用。",
+          "payment_point6": "如果您通过苹果应用商店或谷歌 Play 商店向我们订阅并付款，苹果或谷歌的条款也可能适用。"
+        },
+        "subscription_cancelation": {
+          "subscription_cancelation_heading": "取消订阅",
+          "subscription_cancelation_point1": "初始订阅期限根据您的选择和/或适用于的服务而异。",
+          "subscription_cancelation_point2": "除了根据当地强制性消费者法律的取消权利外，您有权在前7天内取消订阅，除非您在此期间开始使用服务，从而放弃了您的取消权。",
+          "subscription_cancelation_point3": "订阅期将自动续订为所选的订阅期，除非您及时取消订阅（在您的订阅的最后一天之前）。",
+          "subscription_cancelation_point4": "在取消的情况下，您将继续在付费订阅期结束前访问服务。",
+          "subscription_cancelation_point5": "取消不赋予您对（部分）订阅费用的任何退款权利。",
+          "subscription_cancelation_point6": "如果您的订阅自动续订超过三（3）个月的期限，您将有权在此类续订后的任何时间取消订阅，取消期限为一个（1）个月。基于此条款的取消，您可以要求退还部分订阅费。这意味着您支付直到取消生效的期间，基于相应服务的标准月费。",
+          "subscription_cancelation_point7": "在取消或支付未成功结算（例如因到期或资金不足而导致）后，您的帐户将在订阅期结束后停用。您将无法访问您的个人数据、通讯录和使用服务（S）存储的任何内容。您可以在停用后的四周内随时在您的帐户设置（门户）中重新激活您的订阅，进行付款。您的订阅将从重新激活的那天开始续订。",
+          "subscription_cancelation_point8": "如果您不在上述规定的期限内重新激活您的订阅，使用服务（S）存储的任何内容和您的信息，包括个人内容、设置、通讯录和用于传输的任何文件可能已自动永久删除自我们的服务器。",
+          "subscription_cancelation_point9": "如果您通过苹果应用商店订阅，苹果的条款可能适用于您的订阅期限和取消，而不是本条款中的条款。"
+        },
+        "teams": {
+          "teams_heading": "团队（付款、条款和取消）",
+          "teams_point1": "ZTFR Teams 帐户是由其团队供应商代表注册的。团队供应商将为所有已订阅 ZTFR Teams 帐户的团队成员付费。",
+          "teams_point2": "团队供应商和个人团队成员可以向团队账户添加团队成员，随后这些新的团队成员将立即获得对帐户的访问权。如果团队成员在当前订阅期间添加，团队供应商将按剩余的订阅期间的日期按比例收费。之后，团队供应商将在下一个付费订阅期间全额收费新的团队成员。",
+          "teams_point3": "团队供应商和个人团队成员可以从 ZTFR Teams 帐户中删除团队成员，随后这些团队成员将立即失去对帐户的访问权。如果团队成员在当前订阅期间被移除，团队供应商将为该团队成员支付费用，直到付费订阅期结束。团队供应商将不会在下一个付费订阅期间为被移除的团队成员收费。",
+          "teams_point4": "由于移除团队成员而导致的付费订阅期内未使用的天数，可以在同一付费订阅期内用于新添加的团队成员。",
+          "teams_point5": "如果取消 ZTFR Teams 帐户，团队供应商和团队成员将继续访问 ZTFR Teams 帐户，直到付费订阅期结束。付费订阅期结束后，团队供应商和团队成员将自动获得个人免费的 ZTFR 帐户。",
+          "teams_point6": "如果您的订阅自动续订超过三（3）个月的期限，您将有权在此类续订后的任何时间取消订阅，取消期限为一个（1）个月。基于此条款的取消，您可以要求退还部分订阅费。这意味着您支付直到取消生效的期间，基于相应服务的标准月费。",
+          "teams_point7": "在取消或支付未成功结算（例如因到期或资金不足而导致）后，您的帐户将在订阅期结束后停用。您将无法访问您的个人数据、通讯录和使用服务（S）存储的任何内容。您可以在停用后的四周内随时在您的帐户设置（门户）中重新激活您的订阅，进行付款。您的订阅将从重新激活的那天开始续订。",
+          "teams_point8": "如果您不在上述规定的期限内重新激活您的订阅，使用服务（S）存储的任何内容和您的信息，包括个人内容、设置、通讯录和用于传输的任何文件可能已自动永久删除自我们的服务器。",
+          "teams_point9": "如果您通过苹果应用商店订阅，苹果的条款可能适用于您的订阅期限和取消，而不是本条款中的条款。"
+        },
+        "content_ownership": {
+          "content_ownership_heading": "内容所有权、权限和责任",
+          "content_ownership_point1": "ZITRANSFER（ZTFR）不主张对您通过服务创建、使用、存储或共享的内容拥有任何所有权，您将对此内容负全部责任。您需要确保将其与正确的收件人共享，与内容相关的任何损害赔偿责任均由在服务内创建、使用、存储和/或共享内容的个体承担。您需要明白下载和/或访问链接可以被转发，可以访问与之相关的内容。",
+          "content_ownership_point2": "某些服务允许您使用密码和 PIN 来保护内容或传输。用户独自负责密码的保密和/或分发。",
+          "content_ownership_point3": "通过使用服务，您保证对您使用服务创建、使用、存储或共享的任何内容拥有所需的权限（包括来自版权和其他知识产权所有者的权限），以在服务的一部分分发、许可、传输、存储和/或在线提供内容。",
+          "content_ownership_point4": "对于您在服务内创建、使用、存储或共享的内容（包括但不限于受版权保护的作品和/或商标），ZTFR对您或任何第三方因内容而产生的损害不负责。",
+          "content_ownership_point5": "ZITRANSFER（ZTFR）需要您的授权许可，用于唯一的操作、启用和改进服务的目的。仅仅为这一明确目的，直到您从服务中删除内容，您同意并承认通过使用服务，您授予我们无限、全球、免费的许可，用于（i）使用、托管、存储、扫描、搜索、分类、索引、创建预览和（ii）复制、传播、发布、公开展示、分发和编辑（包括但不限于缩放、裁剪、调整和翻译）内容。许可证部分（ii）不适用于 ZITRANSFER（ZTFR）文件共享，如这些条款第2款所规定的。为明确起见，ZITRANSFER（ZTFR）不会出售或宣传内容：ZITRANSFER（ZTFR）只需要许可，以唯一的目的操作、启用和改进服务。",
+          "content_ownership_point6": "ZTFR不提供任何公共搜索功能、目录或列表来查找内容。",
+          "content_ownership_point7": "在使用服务时，ZTFR可能会向您显示来自由 ZTFR 选择的广告商和艺术家的广告（例如全屏壁纸广告）"
+        },
+        "restrictions": {
+          "restrictions_heading": "限制",
+          "restrictions_point1": "ZTFR尊重您的权利，并期望您尊重他人的权利，包括ZITRANSFER（ZTFR）、其艺术家、广告商和第三方的权利。这包括尊重隐私权、企业情报、商业机密和知识产权，如商标、版权、商号和标识。您同意不使用服务来进行、宣传、促使或便利任何非法或犯罪行为，或违反这些条款，或鼓励或促使其他人这样做。",
+          "restrictions_point2": {
+            "point": {
+              "pointpart1": "作為您使用服務的條件",
+              "pointpart2": "同意不建立、使用、儲存或",
+              "pointpart3": "分享任何",
+              "pointpart4": "內容："
+            },
+            "subpoint1": "包含儿童性虐待图像（CSAI）",
+            "subpoint2": "淫秽、诽谤、诋毁、诽谤、亵渎、不雅、歧视、威胁、滥用、有害、淫秽、粗俗或非法",
+            "subpoint3": "宣扬种族主义、暴力或仇恨",
+            "subpoint4": "事实不准确、虚假、误导、虚假陈述或具有欺骗性",
+            "subpoint5": "您没有相关权利",
+            "subpoint6": "侵犯、违反或侵占知识产权、隐私权（包括数据保护权）或任何其他权利",
+            "subpoint7": "侵犯或违反任何适用法律或法规；和/或",
+            "subpoint8": "构成\"仇恨言论\"，无论是针对个人还是群体，无论是基于种族、性别、信仰、国籍、宗教、性取向、语言或其他个人或群体特征。"
+          },
+          "restrictions_point3": {
+            "point": "此外，您同意不得：",
+            "subpoint1": "滥用、骚扰、跟踪、恐吓、威胁、实施暴力或以其他非法方式行事，或鼓励他人这样做",
+            "subpoint2": "冒充或虚伪地声称与任何人或实体有关",
+            "subpoint3": "访问服务的非公共区域",
+            "subpoint4": "干扰任何访问或使用限制",
+            "subpoint5": "使用任何数据挖掘、数据收集或提取方法，或以其他方式收集有关服务用户的信息",
+            "subpoint6": "发送病毒、蠕虫、恶意软件、勒索软件、垃圾邮件、垃圾邮件、垃圾邮件、诈骗邮件、不受欢迎的消息、促销或广告，无论目的如何",
+            "subpoint7": "干扰、损害或破坏服务，或以可能引发这种行为的方式行事",
+            "subpoint8": "尝试探测、扫描、威胁或测试服务或任何相关服务、系统或网络的漏洞，或违反任何安全或身份验证，除非您按照我们的负责任披露这样做",
+            "subpoint9": "未经我们的许可使用自动手段访问或使用服务",
+            "subpoint10": "反向工程或反编译服务的任何（部分）",
+            "subpoint11": "未经我们的许可，再销售、转让、租赁、出租、提供或以其他方式商业化服务",
+            "subpoint12": "允许他人使用您的帐户"
+          }
+        },
+        "violation": {
+          "content_ownership_heading": "违反服务条款",
+          "content_ownership_point1": "ZITRANSFER（ZTFR）保留在没有事先通知或责任的情况下，调查、提供给第三方、（暂时）封锁和/或永久删除任何内容和/或帐户信息的权利，或封锁任何人访问服务的一部分，当ZTFR确定，根据其唯一的判断或在收到有根据的有效投诉后，您违反这些条款或违反任何适用法律或法规。更多信息请参阅我们的《通知/下架政策》。"
+        },
+        "intellectual": {
+          "intellectual_heading": "知识产权",
+          "intellectual_point1": "服务的一切知识产权权利和/或类似的权利（包括软件、壁纸、视频、内容、摄影、图形设计、字体、肖像、标志、商标、商号、域名、版权和专利）均归ZITRANSFER（ZTFR）和/或其许可方所有，您不得以任何方式使用、删除、修改、复制、镜像、分发、反编译或反向工程其中的任何部分。",
+          "intellectual_point2": "ZTFR对服务中发布的第三方内容、链接到外部网站的广告链接或外部网站上提供的内容、产品或服务不承担责任。您承认并接受在服务之外的所有使用风险自负。",
+          "intellectual_point3": "您将始终尊重和遵守ZITRANSFER（ZTFR）/ZIMO GROUP的良好声誉，确保您对服务的使用不会以任何方式损害ZITRANSFER/ZTFR及其许可方的任何权利和/或良好声誉。"
+        },
+        "disclaimer": {
+          "disclaimer_heading": "免责声明和帐户注册",
+          "disclaimer_point1": "ZTFR按\"原样\"提供服务，不提供任何形式的保证。在不限制前述内容的前提下，ZTFR明确否认对适销性、特定用途的适用性和不侵权的任何保证。ZTFR不保证服务连续、安全或无错误地提供。您使用服务需自担风险。您承认并同意，ZTFR不对您或任何第三方的计算机系统或移动设备因使用服务而导致的损害负责，也不对服务存储、传输或删除文件的失败或文件中包含的任何数据、信息或内容的损坏或丢失负责。",
+          "disclaimer_point2": "ZTFR可能会不时更改、终止或扩展其服务，并保留自行裁量限制对服务的访问或删除服务的任何功能或功能的权利。",
+          "disclaimer_point3": "一些服务要求您注册并提供数据，例如您的电子邮件地址、密码和/或付款信息。您必须确保这些信息准确，并在您的帐户设置（Portal）中保持其更新。您对您的帐户的任何活动负责，因此您不应共享您的密码，应小心保护它。如果注册或帐户数据被滥用，ZTFR保留删除帐户的权利。ZTFR不对未经授权使用您的帐户所导致的任何损失或损害负责。"
+        },
+        "indemnity": {
+          "indemnity_heading": "赔偿金",
+          "indemnity_point1": "您将为您访问或使用服务或违反这些条款而引起的与任何索赔、事件、责任、程序、损害、损失和费用（包括法律和会计费用）相连接的情况，进行辩护、赔偿并使ZITRANSFER/ZTFR（包括其员工和关联公司）免受责任，包括任何第三方声称由您或通过您的帐户使用服务创建、使用、存储或共享的内容侵犯或违反任何第三方权利。",
+          "indemnity_point2": "服务可能会与第三方服务集成。您承认：（i）ZTFR不对此类第三方服务的任何行为或不作为负责；（ii）ZTFR不是此类第三方服务的代理；（iii）您使用这些服务受到您与此类服务提供者之间适用的任何条款和条件约束。",
+          "indemnity_point3": "在当地法律允许的范围内，ZTFR对因使用服务而导致的任何损害或人身伤害不承担责任，包括（临时的）无法使用或（偶然的）删除您的内容或帐户。本条款所规定的责任限制不适用于ZTFR故意或重大过失造成的损害。如果根据强制法律，ZTFR应对因使用服务而导致的损害承担责任，那么在当地法律允许的范围内，ZTFR对您因使用服务而产生的所有索赔的总责任不会超过每次事件100美元（$100）。"
+        },
+        "wavier": {
+          "wavier_heading": "放弃、可分割性和转让",
+          "wavier_point1": "ZITRANSFER不执行某一条款并不表示放弃日后执行该条款的权利。",
+          "wavier_point2": "如果这些条款的任何部分被发现为非法、不可执行或无效，那么（i）其余条款将继续在法律允许或与相关法律一致的范围内完全有效；（ii）该部分将被视为已删除并替代为有效部分，其经济效果最接近无效部分。",
+          "wavier_point3": "您无权转让这些条款下的任何权利。ZTFR有权随时将其权利转让给其关联公司、子公司或与服务相关的任何业务的继承人，而无需征得您的同意或受到其他限制。"
+        },
+        "applicable_law": {
+          "applicable_law_heading": "适用法律和司法管辖权",
+          "applicable_law_point1": "这些条款以及与其相关的非合同义务将受英国法律的管辖并按照英国法律进行解释和解释，包括强制性的消费者法律。这些条款不会限制您根据您所居住国家/地区的强制性法律可能享有的任何消费者保护权利。",
+          "applicable_law_point2": "关于这些条款的任何争议将提交给英国联合王国的有管辖权的法院（除英国国际私法的例外情况）。"
+        },
+        "contact": {
+          "contact_heading": "联系",
+          "contact_point1": "您可以通过以下方式联系ZITRANSFER（ZTFR）法务部：",
+          "email": "legal@zimogroup.org"
+        }
+      },
+      "privacyStatement": {
+        "privacyStatement": "隐私声明",
+        "privacy": {
+          "privacy_heading": "隐私声明",
+          "privacy_para1": "保护用户数据对我们来说至关重要，我们竭尽全力确保数据的安全。",
+          "privacy_para2": "我们认真对待您的信任和隐私权，并不断努力使您的数字足迹保持在较小的范围内并处于您的控制之下。不过，为了让您能够参与流程并改进和保护我们的服务，我们需要处理一些个人信息。为了隐私相关问题，请通过 联系我们的数据保护团队。",
+          "privacy_para3": "本声明涵盖了ZITRANSFER（ZTFR）服务、软件、网站（包括浏览器扩展）和/或应用程序（\"统称为\"服务\"）的处理活动。 服务允许您创建、分享、收集、捕捉和/或可视化您的想法、文本、图形、视频、数据、信息、文件、幻灯片或其他内容（\"统称为\"内容\"）。 服务可以在线提供给您，以移动和/或桌面应用程序的形式提供给您，或者可以集成到第三方服务中。 使用任何服务即表示您已阅读并理解我们的下述隐私声明。",
+          "privacy_para4": "您可以通过以下标题了解我们的隐私做法。",
+          "accordians": {
+            "accordian1": {
+              "heading": "我们收集哪些信息？",
+              "content": {
+                "first_para": "我们存储一些个人信息，以使您能够使用我们的服务。我们可能以多种方式从您那里收集个人信息：您可以提交它，或者我们将通过我们的服务自动收集它。根据您使用我们的服务的方式以及使用哪些服务，可能会收集不同类型的个人信息。请查看\"作为用户的您有哪些权利\"部分，了解如何更改、访问或删除您的个人信息。",
+                "sub_heading1": {
+                  "heading": "您提交的个人信息",
+                  "text1": "ZITRANSFER（ZTFR）收集、处理或托管您提供的个人信息。",
+                  "text2": "上传者或创建者对内容的合法性负有责任，需要遵守我们的服务条款，ZTFR仅处理它以提供其服务。如果您通过我们的服务之一上传、发送或创建个人信息，您可以通过发送电子邮件至 legal@zimogroup.org 要求数据处理协议。",
+                  "points": {
+                    "point1": "联系信息：您的姓名和您的电子邮件地址或接收者的电子邮件地址。",
+                    "point2": "关于您自己的信息：年龄、性别、城市、国家。",
+                    "point3": "首选项：例如语言设置或兴趣。",
+                    "point4": "内容和元数据：您可以选择上传或创建包含有关您和其他人的各种个人信息的内容。此类内容还包括文件名、大小和文件类型。",
+                    "point5": "个人消息/备注：您与共享文件的同时发送给人们的消息。"
+                  }
+                },
+                "sub_heading2": {
+                  "heading": "通过自动手段收集的个人信息",
+                  "text1": "在您使用我们的服务时，ZTFR还会通过自动手段收集和使用个人信息。",
+                  "points": {
+                    "point1": "浏览器信息：浏览器类型、语言设置、国家和时区。",
+                    "point2": "Cookie或Web Beacon信息：通过Cookie、Web Beacon或像素标签接收的Cookie ID和设置以及其他个人信息。了解更多信息，请查看\"为什么以及如何使用Cookie\"部分。",
+                    "point3": "设备信息：设备类型、硬件型号和操作系统。",
+                    "point4": "识别详情：诸如IDFA（用于iOS）、MAC地址或用户ID之类的唯一标识符。",
+                    "point5": "网络信息：IP地址和移动网络信息。",
+                    "point6": "位置数据：关于您地理位置的数据。如果我们使用您的设备基于GPS的精确定位数据，我们将确保只在获得您的同意后才这样做。",
+                    "point7": "服务使用情况：关于您如何与我们的服务、网站和移动应用程序互动的信息。"
+                  }
+                },
+                "sub_heading3": {
+                  "heading": "我们从合作伙伴那里收到的个人信息",
+                  "text1": "我们可能会从第三方接收个人信息，例如：",
+                  "points": {
+                    "point1": "整合信息：您可以选择将我们的某些服务与您的（社交媒体或消息服务）帐户整合，以为您提供丰富的消息功能。",
+                    "point2": "营销信息：一些合作伙伴可能通过其软件开发工具包（SDK）提供额外的（汇总的）信息，例如人口统计信息或行为信息，以便我们个性化内容、广告和优惠，并找到广告的目标受众。",
+                    "point3": "法律信息：当执法机构或法院要求我们删除内容时，我们可能会最初收到关于您和您的行为的个人信息。"
+                  }
+                }
+              }
+            },
+            "accordian2": {
+              "heading": "我们与哪些方分享个人信息？",
+              "content": {
+                "first_para": "ZTFR有多个合作伙伴来运营和改进其服务。此外，作为一些服务的一部分，我们可能会分享或允许您分享您的信息。",
+                "second_para": "我们是一家全球平台/企业，是一家全球技术组织的一部分，这意味着我们可能会在欧洲经济区（\"EEA\"）以外的国家分享或存储个人信息。这些国家拥有不同的数据保护法律。然而，当我们全球传输和托管数据时，我们将确保采取适当的保障措施，以确保您的个人信息与在EEA内享有类似保护水平。",
+                "points": {
+                  "point1": "服务提供商：例如我们的托管提供商、用户支持提供商、IT和软件提供商、支付处理器、电子邮件处理器和会计师。",
+                  "point2": "您选择的人员和（社交）媒体：您可以选择与他人共享您的内容，例如团队成员，在我们的服务内或在（社交）媒体上，如Facebook、X等。",
+                  "point3": "执法机构或监管机构：在法律要求的情况下，我们有义务分享您的个人信息。如果我们遇到CSAI或在收到关于其他非法内容的通知时，我们还将与执法机构分享您的个人信息。",
+                  "point4": "商业合作伙伴：我们与广告合作伙伴、营销和传播机构合作。我们这样做是为了（基于兴趣的）广告、品牌推广和与您联系。我们的广告合作伙伴会实施自己的跟踪Cookie，这些Cookie受其服务条款和隐私声明约束。",
+                  "point5": "集成服务：如果您决定将（其中之一）我们的服务与另一个服务集成（例如您的社交媒体帐户），我们将将该服务与我们的服务连接起来。为了提供这样的服务，我们需要与该服务分享一些您的个人信息。这些第三方的条款和隐私声明适用，至少适用于连接的部分。",
+                  "point6": "ZTFR实体：为了提供我们的服务以及在\"我们为什么使用您的个人信息？\"下提到的所有目的，我们在ZITRANSFER和ZIMO GROUP的实体之间分享个人信息。"
+                }
+              }
+            },
+            "accordian3": {
+              "heading": "为什么以及如何使用Cookie？",
+              "content": {
+                "first_para": "我们放置Cookie的目的是让ZTFR变得更好。我们努力使我们的服务安全、美观和不显眼。请随意阻止Cookie，但这可能会影响我们的服务的性能。",
+                "second_para": "我们在您的设备上放置了几个Cookie（或类似的技术，如像素或网络信标），以便促进您使用服务的过程，并了解如何改进服务。我们或我们的广告合作伙伴还会在我们的网站上放置Cookie。作为全球服务，这些合作伙伴可能因国家而异。当我们的广告合作伙伴放置Cookie时，这些Cookie可以处理个人信息以衡量广告活动的效果。",
+                "third_para": "Cookie是存储在您计算机上的小文本文件，当您访问网站时，浏览器会将其存储。Cookie的用途示例包括：语言偏好、登录到帐户、记住登录详细信息、向您提供个性化广告以及接受服务条款和隐私声明。我们的网站可以出于以下目的放置这些Cookie：",
+                "points": {
+                  "point1": "功能性Cookie用于在使用我们的服务时提供功能，如设置首选项或记住以前的设置。",
+                  "point2": "分析Cookie用于优化我们的服务。例如，通过AB测试新功能来优化我们的网站的可用性，使网站更加用户友好，并分析您如何使用我们的服务。我们还使用分析Cookie来阻止机器人和恶意行为，如垃圾邮件。当我们使用分析Cookie时，可能包括第三方Cookie，如Cookie列表中所示。这些第三方分析Cookie会处理个人信息，详情请参阅Cookie列表。",
+                  "point3": "广告Cookie用于商业、编辑和促销目的。通过这些Cookie，可以跟踪您在不同域和网站上的互联网和浏览行为。ZTFR仅检查您在访问我们网站之前访问的（一个）网站。我们不会跟踪您离开我们网站后访问的网站。广告Cookie通常由第三方放置，以衡量其广告活动的效果，并跟踪您在其他域和网站上的互联网和浏览行为。ZTFR无法访问或控制通过这些Cookie或其他广告商和第三方可能使用的其他功能收集的个人信息。我们的隐私声明因此不适用于这些第三方Cookie，我们建议您查看第三方的隐私声明，了解他们如何处理个人信息。",
+                  "point4": "像素标签或网络信标是嵌入在网站上的代码片段，用于收集有关用户在该网页上的参与情况的个人信息。使用像素可以记录用户是否访问了特定网页或单击了特定广告。像素还可以让我们看到用户是从哪个先前的网站或渠道访问我们的网站的。"
+                }
+              }
+            },
+            "accordian4": {
+              "heading": "我们为什么使用您的个人信息？",
+              "content": {
+                "first_para": "我们使用您的个人信息是为了提供和改进我们的服务，履行法律义务，宣传我们的服务，以及确保我们的服务安全和可靠。请查看以下有关我们如何具体使用您的个人信息以及我们使用您的个人信息的法律依据。",
+                "sub_heading1": {
+                  "heading": "我们通过自动化方式收集的个人信息",
+                  "points": {
+                    "point1": "服务：使用您的个人信息的最重要原因是，当然，是为了向您提供我们在服务条款中提到的服务，例如创建或可视化您的内容、分享您的想法，以及让您在不同设备上访问和使用您的内容。",
+                    "point2": "支持：我们提供各种支持服务，以帮助您在需要时提供帮助，例如在您需要技术支持时。如果需要提供支持，支持团队可以在您的请求下访问您的内容，以帮助您。",
+                    "point3": "帐户和账单：创建和维护您的个人帐户，例如便于您的通讯录和使您能够在不同设备上访问您的内容，促进订阅费的支付，以及执行会计、审计和结算活动。",
+                    "point4": "安全、完整性和安全性：ZTFR跟进滥用报告、NTD/DMCA报告、欺诈调查，并可能调查您是否遵守我们的服务条款和/或API使用条款。此外，我们检测和阻止儿童性虐待图像（CSAI）。对CSAI的检测会导致自动决策，确定此类内容是否可能是CSAI。潜在的CSAI案件将直接报告给执法机构。此外，我们保护自己免受欺诈和其他非法活动的侵害。在所有这些情况下，我们保留保留您的内容并与执法机构分享的权利，以及与法律和您的安全、完整性和安全有关的内部控制使用您的个人信息。例如，在怀疑违反我们的服务条款或API使用条款的情况下。",
+                    "point5": "改进和发展：我们评估我们的服务的使用情况，以改进我们的服务、修复错误、开发新产品和服务。我们通过市场研究（例如通过发送调查问卷）或进行分析（例如通过跟踪和整合您在我们的服务或移动设备上的个人信息）来进行。我们这样做是为了了解我们的整体用户群体如何与我们的服务互动，但也为了审查我们广告的效果，以相应改进这些服务和广告。",
+                    "point6": "营销、广告和通讯：我们使用您的个人信息进行营销和（基于兴趣的）广告，例如通过使用SDK或Cookie，以及通讯。包括新服务的更新，以及我们或我们的合作伙伴的个性化广告，这些广告可以在我们的网站或第三方网站上提供。为了找到这些广告的正确受众，我们将查看特定的人群段。例如，使用与我们当前用户类似的服务的人、具有与我们当前用户相同特征的人，或位于特定地理位置（如伦敦地区）的人。为了与我们的目标受众联系，我们可能使用连续的消息，这基本上是一种叙述形式：每次您在不同设备上与我们的服务互动时，您可能会收到一个略有不同形式的广告，但这些广告都是同一个故事的一部分。此外，根据您通过设备与我们的服务互动的方式，我们可能会推广我们的（其他）服务或功能之一。此外，我们使您能够参与我们提供的任何（个性化的）行动、促销或活动。最后，我们使用电子邮件营销向您发送有关创意或ZTFR新闻的相关故事。在必要时，我们将始终在发送电子邮件营销之前征得您的同意。当然，您始终可以在接收的每封电子邮件中简单地选择退出。",
+                    "point7": "法律：在必要的范围内，我们可能使用您的个人信息来在与您使用我们的服务相关的法律诉讼中捍卫ZITRANSFER（ZTFR）/ZIMO GROUP，遵循法院命令，遵守任何法律、法规或政府请求，与执法机构合作，与第三方的欺诈调查合作，维护国家安全、国防、公共安全，以及维护我们的服务条款。"
+                  }
+                },
+                "sub_heading2": {
+                  "heading": "法律依据",
+                  "text1": "每项处理活动都有有效的法律依据，如下所述。",
+                  "points": {
+                    "point1": "与您的合同义务：涉及第1、2和3项下提到的活动和目的。我们需要处理个人信息以通过我们的网站和移动应用程序提供我们的服务，提供（技术）支持并为您计费。",
+                    "point2": "法律义务：涉及第3、4和7项下提到的活动和目的。我们有法律义务处理您的个人信息以用于会计目的，以回应法律请求和NTD或DMCA请求。",
+                    "point3": "同意：（部分）涉及第2项下提到的活动和目的（例如，访问您的内容以提供支持）和第6项，但不包括直接向您作为付费用户进行营销的情况。",
+                    "point4": "合法利益：（部分）涉及第1和3项下的活动和目的（例如，提供跨设备访问）。为了提供安全服务、预防欺诈和反对我们的服务的非法使用而使用您的个人信息，为了我们在第5项下提到的创新利益。最后，为了我们（直接）营销、品牌利益在第6项下和法律与合规利益如第7项下所述。当我们基于我们或第三方的合法利益使用您的个人信息时，我们将确保平衡您的权利和自由与该合法利益。如果在适用范围内，您希望反对基于我们的合法利益进行的活动，并且您的帐户设置或收到的通信中没有选择退出选项，请联系"
+                  }
+                }
+              }
+            },
+            "accordian5": {
+              "heading": "您可以将ZITRANSFER（ZTFR）用于私人和敏感文件吗？",
+              "content": {
+                "first_para": "我们尊重您的内容。我们不提供任何公共搜索功能、目录或列表来查找内容。我们相信您明白，为了履行我们的道德责任，减少儿童性虐待图像（CSAI）的传播，我们确实使用自动系统来检测此类内容。最后，当我们收到通知撤下/DMCA请求或法律请求时，我们有义务删除您的内容。",
+                "second_para": "在分发下载/访问链接时请谨慎 - 无论传递给谁或访问下载/访问链接的人都可以访问或下载内容。为了增强安全性和保密性，您可能希望使用我们的文件密码保护功能（如果可用）。"
+              }
+            },
+            "accordian6": {
+              "heading": "使用我们的加密服务有多安全？",
+              "content": {
+                "first_para": "ZITRANSFER（ZTFR）采取技术和组织措施来保护您的个人信息免受丢失或其他非法处理的影响。",
+                "second_para": "我们确保只有那些需要访问以履行其工作的人才能访问个人信息，并且他们得到适当的授权。这意味着我们会记录谁访问了个人信息，我们会限制能够访问的人数，并确保只有得到适当授权的员工才能阅读、复制、修改或删除个人信息。我们监控内部活动以确保个人信息的安全性和准确性。",
+                "third_para": "ZTFR员工必须遵守公司关于机密性、道德和个人信息的适当使用的准则。员工必须签署保密协议。",
+                "forth_para": "在上传期间、存储在我们的服务器上以及下载期间，内容都是加密的，并且只通过安全连接（https）发送。我们用于存储您的内容的服务器符合GDPR标准并具有安全性。"
+              },
+              "text": "ZTFR使用高级加密标准（AES）256位来保护上传数据的机密性。"
+            },
+            "accordian7": {
+              "heading": "有哪些保留程序？",
+              "content": {
+                "para": "个人信息的保留期限取决于您使用的服务以及我们正在讨论的个人信息类别。请始终查看服务的网站或应用程序，以获取有关保留期限的具体信息。",
+                "heading1": {
+                  "sub_heading": "个人信息",
+                  "para": "ZTFR保留您的个人信息，只要有必要为您提供我们的服务（例如维护您的用户帐户）、开展我们的业务活动和履行我们的合法利益，例如提供安全和可靠的服务、修复错误和与您联系，以遵守适用法律（例如出于税务目的保留财务信息7年）和法律请求，以解决（法律）争端。"
+                },
+                "heading2": {
+                  "sub_heading": "您传输的文件",
+                  "para": "使用ZTFR文件共享时，默认情况下您的内容将在7天后被删除，除非您选择了特定的持续时间。ZTFR Pro帐户的数据默认存储28天，或者您手动设置的到期日期。此期满后，文件将使用军事级别的擦除自动从我们的服务器上删除。随附您的传输的个人信息最多保留12个月。此类个人信息仅对ZTFR内部的极少数人员可访问，这些人员需要这些信息来履行其工作，例如为您提供支持。数据超过12个月后，我们会从数据库中删除、对其进行化名化或匿名化以进行分析。化名化您的个人信息意味着我们不会将您的电子邮件地址或IP地址用于分析目的，而是为两者创建随机化名，并使用该化名。这样，我们就无需处理直接可识别的个人信息，这有助于保护隐私。"
+                },
+                "heading3": {
+                  "sub_heading": "您通过服务创建、使用、存储或共享的内容（除文件共享之外）",
+                  "para": "您在我们的服务上创建、使用、存储或共享的内容，原则上将保留，直到您停止与我们的服务互动、从服务中删除您的内容、从设备中删除服务，或删除您的帐户。请始终查看您使用的服务的网站或应用程序以获取特定信息。"
+                }
+              }
+            },
+            "accordian8": {
+              "heading": "作为用户，您有哪些权利？",
+              "content": {
+                "para1": "如果您需要更多关于您的个人信息的信息，请告诉我们。我们可能会要求身份证明。如果您改变主意，不再希望我们处理您的个人信息，请告诉我们。",
+                "points": {
+                  "text": "您可以要求ZTFR：",
+                  "point1": "访问、接收副本或更正您的个人信息",
+                  "point2": "在某些情况下，删除（军事级别）您的个人信息或阻止或限制我们对其的使用",
+                  "point3": "在某些情况下将您的个人信息发送给其他第三方"
+                },
+                "para2": "您可以通过发送电子邮件至 <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b> 来实现这一点。请在主题中明确指出您的请求涉及隐私问题，更具体地说明是访问、更正还是删除请求。请记住，在某些情况下，ZTFR可能会要求额外信息以确定您的身份。",
+                "heading1": {
+                  "sub_heading": "反对权",
+                  "para1": "您有权反对我们对您的个人信息的使用，例如当处理的法律基础基于我们的合法利益之一时（请参阅\"法律依据\"小节）。如果您通知我们不再希望我们处理您的个人信息或与您联系，ZTFR将将您的个人信息移至单独的文件。您的个人信息将不再用于上述目的，除非我们的合法利益，例如安全和安全性，超过了您的反对权。您可以通过 <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b> 提出此请求。请明确指出您的请求涉及隐私问题，更具体地说明您行使了反对权。",
+                  "para2": "如果您认为我们侵犯了您的隐私权利，您可以向相关监管机构提出投诉。您可以特别在您居住的国家、工作地点或您认为我们侵犯了您的权利的地方提出投诉。"
+                },
+                "heading2": {
+                  "sub_heading": "撤回同意",
+                  "para": "当您已提供同意让我们处理您的个人信息时，您可以随时撤回您的同意，不会影响撤回前基于同意进行的处理活动的合法性。如果您撤回您的同意，我们将不再处理基于您的同意收到的个人信息。"
+                },
+                "heading3": {
+                  "sub_heading": "加利福尼亚消费者",
+                  "para": "根据加利福尼亚民法第1798.83号，如果您是加利福尼亚居民，您可以要求我们向您提供（i）在上一年度内向某些第三方披露的某些类别的个人信息的列表，用于其直接营销目的，以及（ii）在该年度内个人信息从我们那里接收的某些第三方的身份信息，用于其直接营销目的。但是，根据上述法规，我们不与营销人员分享您的个人信息。"
+                }
+              }
+            },
+            "accordian9": {
+              "heading": "如何联系ZITRANSFER（ZTFR）",
+              "content": {
+                "para": "我们的支持团队可通过 <b><a href='mailto:support@zitransfer.com?subject= Support enquiry'>support@zitransfer.com</a></b> 联系。如果您有任何问题，请给我们发送电子邮件。如果您对ZITRANSFER（ZTFR）处理您的个人信息的方式或ZTFR存储有关您的个人信息有疑问，请通过电子邮件向ZTFR发送您的问题，邮箱地址为 <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>。如果您需要联系我们的数据保护团队，请通过 <b><a href='mailto:dpt@zitransfer.com?subject= DPT enquiry'>dpt@zitransfer.com</a></b> 进行联系。"
+              }
+            },
+            "accordian10": {
+              "heading": "隐私声明的修订",
+              "content": {
+                "para": "请注意，ZITRANSFER（ZTFR）可能不时修订本隐私声明。每个修订版本都将有日期并发布在网站上。ZITRANSFER建议您不时查看网站并注意任何更改。如果您不同意隐私声明，您不应或不再访问或使用网站和/或服务。继续使用网站和/或服务表示您接受对隐私声明所做的任何更改。"
+              }
+            }
+          }
+        }
+      },
+      "noticePolicy": {
+        "noticepolicy": "注意/删除政策",
+        "content": {
+          "para1": "ZTFR尊重您的权利并期望您尊重他人的权利。在不幸的情况下，如果ZTFR发现或被通知有非法文件或内容通过其服务进行分发，我们将按照此通知/下架政策中描述的程序进行处理。",
+          "para2": "通过使用我们的网站/平台或文件传输服务，您同意受到以下通知/下架政策的约束。"
+        },
+        "information": {
+          "information_heading": "您提交的个人信息",
+          "information_para": "ZTFR订阅了平台互联网安全的英文通知/下架行为准则（\"准则\"）。这一准则为互联网中介机构（如ZITRANSFER（ZTFR））处理（涉嫌）非法内容的举报提供了程序，旨在删除有争议的内容（\"举报\"或\"报告\"）。本通知/下架政策（\"NTD政策\"）描述了ZITRANSFER（ZTFR）在处理此类举报时采用的程序和时限。"
+        },
+        "requirements": {
+          "requirements_heading": "举报要求",
+          "requirements_para1": "任何提出举报的个人或组织（\"举报者\"）都有责任确保举报是正确和完整的。",
+          "requrements_para2": "ZITRANSFER应能够验证涉及刑事犯罪的调查或调查服务，或在公共检察官办公室的正式法律命令的情况下，已经起源于报告的调查。与前述以外性质的举报应至少包括以下信息：",
+          "requrements_points": {
+            "point1": "举报者的联系信息，姓名，职务，组织，地址，电子邮件地址",
+            "point2": "ZITRANSFER评估有争议内容的合法性所需的所有信息，包括其位置（URL）",
+            "point3": "关于内容非法性或与ZITRANSFER的服务条款、NTD政策或隐私声明冲突的有效理由"
+          }
+        },
+        "indemnity": {
+          "heading": "赔款",
+          "para": "举报者将向ZITRANSFER提供明确的赔偿，涵盖了以下方面：1）与处理举报有关的涉及有争议内容的用户（\"内容提供者\"）的索赔，以及2）与通过我们的服务发送的内容有关的举报者提出的任何索赔。"
+        },
+        "urgency": {
+          "heading": "紧急性",
+          "para": "举报者可能要求ZITRANSFER紧急处理举报。在这种情况下，举报应证实所有紧急性原因。根据上述解释，ZITRANSFER自行决定是否应将报告视为紧急事宜。"
+        },
+        "evaluation": {
+          "evaluation_heading": "评估",
+          "evaluation_text": "ZITRANSFER将评估举报并将其分类为以下三类：",
+          "evaluations_points": {
+            "point1": "由检查或调查服务报告的可惩罚内容，或在公共检察官办公室的正式法律命令的情况下",
+            "point2": "其他来源报告的明显非法内容和/或可惩罚内容，而不是权威机构列在第1类下",
+            "point3": "所有其他内容，既不属于第1）或2）类别"
+          }
+        },
+        "measures": {
+          "measures_heading": "措施",
+          "measures_text": "ZITRANSFER对报告的分类决定了采取哪些措施来处理报告。",
+          "measures_points": {
+            "point1": "如果ZITRANSFER确定所涉内容明显非法或可惩罚，换句话说，属于上述第1）和2）类别，ZITRANSFER会确保立即删除相关内容",
+            "point2": "如果ZITRANSFER确定所涉内容不明显非法或可惩罚，换句话说，属于上述第3）类别，相关内容将不会被删除。ZITRANSFER将通知举报者",
+            "point3": "如果ZITRANSFER无法或无法充分判断所涉内容是否明显非法或可惩罚，ZITRANSFER将通知内容提供者有关该报告的请求，以允许ZITRANSFER删除相关内容或与举报者联系。如果举报者和内容提供者无法达成一致意见，如果可能涉及刑事犯罪，举报者可以向警察提出正式报告。如果涉及涉嫌违法的内容，举报者可以将与内容提供者的争议带到英国法院。如果内容提供者不愿意向举报者提供足够的身份信息，ZITRANSFER有权（i）向举报者提供内容提供者的姓名，电子邮件地址和IP地址，或（ii）删除相关内容。"
+          }
+        },
+        "period": {
+          "heading": "时期",
+          "para": "首选，对举报进行分类和采取适当措施应尽快进行，但最终在收到举报后的10个工作日内完成。"
+        },
+        "caution": {
+          "heading": "适当谨慎",
+          "para": "如果需要删除内容，ZITRANSFER将谨慎行事，确保仅删除与举报相关的必要内容。"
+        },
+        "questions": {
+          "heading": "问题",
+          "para": "如有关于此NTD政策的问题，请通过发送电子邮件至"
+        }
+      },
+      "advertisementTerms": {
+        "advertisingterms": "广告条款",
+        "terms": {
+          "heading": "ZITRANSFER (ZTFR) 条款",
+          "para": "这些ZITRANSFER广告条款（以下简称\"ZITRANSFER条款\"）是对ZITRANSFER与客户（如下定义），以及IAB互联网广告媒体购买一年或更短时间标准条款和条件，版本3.0（以下简称\"IAB条款\"）所订立的任何插入订单的补充，但不取代它们。",
+          "link": "https://www.iab.com/wp-content/uploads/2015/06/IAB_4As-tsandcs-FINAL.pdf",
+          "refered": "(称为\"IAB条款\")。"
+        },
+        "definitionscope": {
+          "definitionscope_heading": "定义和范围",
+          "definitionscope_points": {
+            "point1": "所有本文中使用但未在此处定义的大写字母词语与IAB条款中定义的含义相同，除了以下定义已修改并在这些ZITRANSFER条款，IAB条款，IO和附件中如下阅读：\"广告\"指媒体公司创建的任何广告（包括但不限于品牌内容），无论是否基于或遵循广告材料而产生。\"广告材料\"指广告的内容，包括艺术品、文本、音频或视频内容，或活动URL。\"媒体公司的资源\"指在IO上规定的由媒体公司拥有、运营或控制的网站、（在线）通讯、播客、视频、网络系列或互联网音频或视频频道。\"网络资源\"指在IO上规定的由媒体公司拥有合同权利用于提供广告但不拥有、运营或控制的网站、播客、网络系列或互联网音频或视频频道或平台。以下定义已添加并具有以下含义：\"协议\"指媒体公司和客户之间订立的协议，由IO、ZITRANSFER条款、附件（工作室和/或品牌内容）和IAB条款组成。\"客户\"指根据本协议媒体公司的交易对手，如IO中所描述并签署IO的一方。\"生效日期\"是IO的签署日期。\"知识产权\"指专利、商标、服务标志、商号和商业名称、版权、拓扑权、域名、数据库权和设计权，无论这些权利是否已注册，包括上述任何权利的申请、商业秘密和机密信息的权利；在全球任何地方可能存在的类似性质或具有类似或等效效力的任何权利或类似性质的保护形式。\"通讯邮件成果\"指按发送的通讯邮件成本卖出的成果。\"推迟\"是由客户引起或指示的明示或隐含的广告交付或交付的一部分的原定日期后，原定于IO开始日期后的日期，",
+            "point2": "与IAB条款的介绍相反，即使客户是与代理商不同的其他方（例如但不限于广告客户），在客户为代理商的所有权和义务适用于客户的情况下，这些权利和义务将相应适用于客户。",
+            "point3": "尽管IAB条款第XIV.c款的规定，但客户与媒体公司之间的协议由IO、这些ZITRANSFER条款、附件和IAB条款组成。在协议的各个组成部分之间发生冲突的情况下，其优先顺序是：i) IO、ii) ZITRANSFER条款、iii) 附件和iv) IAB条款。媒体公司不接受客户或任何第三方的条款和条件和/或插入订单，因此它们不构成协议的一部分，不对媒体公司具有约束力。接受的IO的修订必须书面进行并获得对方的书面接受。",
+            "point4": "除非另有书面协议，媒体公司的提案和报价有效期为30（三十）天。协议将于生效日期生效，前提是ZITRANSFER已经收到了由客户签署的IO，其中客户接受了ZITRANSFER条款、附件和IAB条款。在生效日期之前无法预订和/或保证库存。协议将在IO完成后终止（在IO上规定的结束日期）。"
+          }
+        },
+        "changeterms": {
+          "changeterms_heading": "IAB 条款变更",
+          "changeterms_points": {
+            "point1": "与IAB条款的I.a.和II.a.节相反：媒体公司将不创建交付计划。",
+            "point2": "IAB条款的I.b.部分(i)被修改如下：媒体公司和代理商通过书面（包括电子邮件通信或通过电子合同管理系统的签名）批准IO。",
+            "point3": "根据IAB条款的II.d.节，媒体公司不对出现在媒体公司资源上的广告的竞争对手邻接提供任何保证。根据客户的书面要求，媒体公司将努力履行客户关于竞争对手邻接的愿望。",
+            "point4": "根据IAB条款的III.b.节，在约定的付款期限内，媒体公司未收到付款时，媒体公司有权（i）取消客户的所有当前和未来IO，（ii）立即为所有未决签署的IO和取消日期之前发生的费用开具发票。",
+            "point5": "IAB条款的III.c.节被修改如下：客户是唯一负责收集其向自己的客户开具的费用。客户无权因未收到向自己的客户开具的费用而推迟向媒体公司的任何付款义务。媒体公司可能自行决定要求预付款。",
+            "point6": "IAB条款的IV.c.节被完全删除，不构成协议的一部分。",
+            "point7": "根据IAB条款的V.节，在取消通知收到后的48小时内，媒体公司将取消IO的（部分）线上。媒体公司将向客户发送取消确认电子邮件。发票将根据媒体公司确认电子邮件的日期制作。",
+            "point8": "根据IAB条款的V.节，在推迟的情况下，媒体公司有权向客户收取IO中提到的费用的10%（十分之一）作为补偿。客户无法从媒体公司的任何发票中扣除这笔补偿，它不影响或解除客户对支付媒体公司的所有其他发票的责任。如果推迟发生多次和/或重新安排的日期在新的日历年，媒体公司有权取消IO的（部分）并全额开具IO。",
+            "point9": "IAB条款的VI.a.节的最后一句被修改如下：如果与适用IO中的交付成果数量相比，不足10%，代理商和媒体公司可以安排与这些条款一致的弥补。如果与适用IO中的交付成果数量相比，不足10%，将不提供弥补。由于媒体公司仅开具实际的交付成果发票，不足将自动反映在发票中。",
+            "point10": "与IAB条款的VI.b.的第二句相反，媒体公司仅根据自己的记录开具实际交付成果的发票，因此代理商无法执行等于其被收费的IO的不足部分价值的信用。",
+            "point11": "IAB条款的VIII.a.的最后一句被删除，不构成协议的一部分。",
+            "point12": "IAB条款的VIII.a.和VIII.c.的条款被更改为十四（14）天。",
+            "point13": "IAB条款的IX.e.节被修改如下：媒体公司有权对客户提交的广告材料（如缩放或裁剪等）进行必要的技术调整。当客户要求媒体公司为广告创建内容（如艺术品、文本、音频、视频、翻译等）或对客户提交的广告材料进行实质性更改时，这就是所谓的\"服务\"。媒体公司将提供\"按原样交付\"的服务，不提供任何形式的担保。媒体公司明确放弃与该服务相关的所有责任，并不保证该服务无误。客户接受和使用该服务时自负风险。客户承认并同意，媒体公司对因使用该服务而导致的任何损害不承担责任。",
+            "point14": "IAB条款的IX.f.节被修改如下：媒体公司不允许第三方广告服务器标签，不论广告的类型如何。",
+            "point15": "IAB条款的X.a.节被修改如下：媒体公司将赔偿客户、其关联公司和代表因任何第三方知识产权侵权索赔、判决或诉讼（\"统称为\"损失\"），包括合理的律师费（\"合称为\"索赔\"），除非索赔是因客户违反这些ZITRANSFER条款第4.1款而产生。",
+            "point16": "IAB条款的XII.b.的第一句被修改如下：尽管这里包含与之相反的内容，但\"机密信息\"一词将不包括信息：(i)先前已知于接收方；(ii)未因接收方的过失而成为公众普遍可用的；(iii)与在媒体公司网站上交付的广告有关，且通过该交付变得普遍可用，如广告类型、领土和广告主的身份；(iv)是在披露方将其与接收方沟通之前，或在该时间之前，以不受机密保密义务的任何承诺的情况下，由接收方的员工或代理独立开发而形成；或(v)由披露方提供给未关联的第三方而无需承担保密义务。",
+            "point17": "IAB条款的XII d (ii)被修改如下：媒体公司可以从收集的数据中派生聚合数据，并可以为媒体公司的一般业务目的（如市场营销和公共关系）使用和披露此类数据。",
+            "point18": "IAB条款的XIII.被完全删除，并被以下内容替代：如果基于记录建立了发票，且双方的记录存在差异（例如在交付成果或交付成果的位置方面），双方可以分享他们的记录，并将以善意商讨解决方案。如果各方无法达成一致意见，媒体公司的记录将占主导地位，并成为发票的依据。",
+            "point19": "IAB条款的XIV.a.的后续部分被修改如下：广告主声明并保证广告材料符合所有适用法律、法规，包括但不限于与广告和促销活动有关的本地和行业特定广告准则和行业指南（统称为\"广告法\"）。广告主明白并同意，他应对通知媒体公司有关确保广告符合广告法所需的信息和指示负有独家责任。",
+            "point20": "IAB条款的XIV.f.的后续部分被修改如下：这些ZITRANSFER条款的第1、2和3节将在协议终止或到期后继续有效。"
+          }
+        },
+        "invoices": {
+          "invoices_heading": "发票和付款（附加条款）",
+          "invoices_points": {
+            "point1": "媒体公司的所有发票必须按照所指定的银行账户支付，不能打折、减免、冲销、抵销或补偿，不得扣除任何税款，且必须支付欧元（€）、美元（$）或英镑（£）（如IO中所规定）。每张发票将指定不包含增值税（VAT）的费用和适用的VAT。为了明确：如果客户受到VAT的影响，这将显示在发票上，客户必须支付包括VAT的发票。",
+            "point2": "我们可能会不时引入或更改服务的费用，届时我们将提前通知您。如果您有固定期限和价格的订阅，该价格将在固定期限内保持不变。如果您不同意价格更改，您可以在当期服务期限结束前取消您的订阅并停止使用服务。如果在价格更改生效后继续使用服务，即表示您同意支付更改后的价格。费用引入将需要您的事先同意和注册。",
+            "point3": "客户无权因任何理由扣留付款或抵销。",
+            "point4": "有关发票的任何争议必须在发票日期后的8（八）天内以书面形式提交给媒体公司。未在此期内提出争议的任何发票将被视为已接受。",
+            "point5": "向媒体公司的所有付款首先将分配给收款成本，然后分配给利息，最后分配给关于协议的最老的未付发票。任何逾期金额可能会累积1%（百分之一）的每月日历利息，或任何部分，无需发出违约通知，直到完全支付为止。此外，媒体公司有权收取全额收款成本，至少为250英镑每案。",
+            "point6": "如果客户未遵守IAB条款的第III节和这些ZITRANSFER条款的第2.4、2.5和3款的规定，媒体公司有权暂停其服务或终止协议。"
+          }
+        },
+        "adrestrictions": {
+          "adrestrictions_heading": "广告限制",
+          "adrestrictions_points": {
+            "point1": "根据IAB条款的IX.c节，广告材料和广告不得包含、广告、链接或与唯一酌情权由媒体公司确定的内容相关，即：i）淫秽、诽谤、毁谤、诽谤、亵渎或非法的，和/或是具有攻击性、性质不良或虐待性质，以致合理可能引起任何一群人的反感；ii）侵犯或盗用第三方的知识产权和/或隐私权或任何其他类型的权利；iii）构成\"仇恨言论\"，无论是针对个体还是群体，无论基于个人或群体的种族、性别、信仰、国籍、宗教信仰、性取向或语言；iv）事实不准确、误导、欺骗性；v）损害媒体公司或其品牌的声誉或可能使媒体公司或其关联公司声誉扫地；vi）使媒体公司及其用户暴露于恶意软件（如计算机病毒、蠕虫、特洛伊木马或任何类似的或其他有害组件）的情况，和/或vii）违反媒体公司的通知/撤下政策 <a href='https://zitransfer.com/legal/takedown' target='blank'>(https://zitransfer.com/legal/takedown)</a> 或媒体公司的创意和商业指南。",
+            "point2": "尽管IAB条款的IX.c节，媒体公司保留拒绝或立即移除广告的权利，包括但不限于，情况，即：媒体公司酌情认为，广告会违反以下情况：i）任何适用的法律或法规，或ii）任何先前的协议、政策、行为规范或媒体公司的创意或商业指南，或本协议。"
+          }
+        },
+        "valueandtakover": {
+          "valueandtakover_heading": "增值和接管",
+          "valueandtakover_points": {
+            "point1": "媒体公司有权向客户免费提供额外的库存（\"增值\"）。媒体公司不保证增值将在何时何地交付。",
+            "point2": "媒体公司有权为指定的时间段向客户提供独家展示位置（\"接管\"）。为了避免疑虑，接管提供了客户在时间上的排他性，而不是在可交付物上的排他性。媒体公司可以提供可交付物的估算，但不对其数量提供任何保证。在任何情况下，接管都不会导致返点。这也适用于本款5.2所述的任何可交付物的偏离。"
+          }
+        },
+        "propertyrights": {
+          "propertyrights_heading": "知识产权",
+          "propertyrights_points": {
+            "point1": "广告材料的知识产权，无论其性质如何，应归客户或其许可方所有。客户特此授予媒体公司一项不可转让、非独占、永久、免版税和可转让许可，用于（i）使用广告材料创建广告并将其作为广告的一部分按照订单执行，并（ii）将广告（包括其中使用的任何广告材料）用于媒体公司及其承包商的一般业务用途（如营销和公共关系）。",
+            "point2": "广告的知识产权，无论其性质如何，应归媒体公司或其许可方所有。除本广告条款规定外，客户不得以任何方式复制、使用、删除、修改、镜像、分发、反编译或反向工程任何内容。",
+            "point3": "本协议不涉及任何知识产权的转让。",
+            "point4": "本款第6款在本协议终止后仍然有效。"
+          }
+        },
+        "sanctions": {
+          "sanctions_heading": "制裁",
+          "sanctions_points": {
+            "point1": "代理机构和广告客户声明并保证，他们（或其控股公司和/或子公司之一）目前不受美国政府、欧洲联盟或任何其他相关制裁管理或执行的制裁（\"统称\"制裁\"）的影响，包括被列入或50%或更多地由被列入的人或人员（\"制裁名单\"）控制的人，例如美国财政部外国资产控制办公室维护的特别指定国民和被封锁人员名单或欧洲联盟金融制裁名单中列出的。",
+            "point2": "代理机构和广告客户声明并保证，他们（或其控股公司和/或子公司之一）不位于或组织在受制裁的国家或地区，包括但不限于古巴、伊朗、朝鲜、叙利亚、俄罗斯和克里米亚（每个都是\"受制裁国家\"）。",
+            "point3": "代理机构和广告客户应立即通知媒体公司，如果在履行协议期间，他们得知他们或其子公司成为制裁对象或被列入任何制裁名单。",
+            "point4": "代理机构和广告客户承认媒体公司受限制在受制裁国家提供可交付物。代理机构和广告客户自己负责了解与适用订单相关的制裁、制裁名单和受制裁国家。",
+            "point5": "如果明确媒体公司受制于美国或欧盟的制裁法规而无法与代理机构或广告客户开展业务，媒体公司有权随时取消和/或终止与代理机构和广告客户的任何其他合同关系，无需支付罚金，也无需提前通知。"
+          }
+        },
+        "businessresponsibility": "开展负责任的业务",
+        "businessresponsibility_points": {
+          "point1": "媒体公司保持一份书面行为准则，其中包括广告客户行为准则、礼品和反贿赂政策以及环保采购政策。媒体公司要求代理机构和广告客户遵守独立的广告客户行为准则，媒体公司将及时提供。媒体公司保持一份书面行为准则，其中包括广告客户行为准则、礼品和反贿赂政策以及环保采购政策。媒体公司要求代理机构和广告客户遵守独立的广告客户行为准则，媒体公司将及时提供。",
+          "point2": "媒体公司保持一份书面行为准则，其中包括有害行为政策、礼品和反贿赂政策以及环保采购政策。媒体公司及其人员遵守此行为准则，并要求代理机构和广告客户遵守独立的广告客户行为准则。媒体公司将及时提供此广告客户行为准则的副本。",
+          "point3": "代理机构和广告客户声明并保证，他们遵守适用的劳工和就业法律，禁止任何形式的强迫或童工或儿童（16岁以下）在其产品和服务的制造和交付中的其他剥削。",
+          "point4": "代理机构和广告客户同意采取商业上合理的措施，坚持可持续实践，以减少温室气体排放并实现碳中和解决方案。",
+          "point5": "代理机构和广告客户认识到工作场所多样性的重要性，并将采取商业上合理的措施，实现反映多样性劳动力利益的工作环境。"
+        }
+      }
+    },
+    "sidebarRight": {
+      "CLOSE": "关闭",
+      "PORTAL": "门户",
+      "CONTACTS": "联系人",
+      "BRANDING": "品牌",
+      "TRANSFERS": "传输",
+      "searchByTitleFilenameOrEmail": "按标题、文件名或电子邮件搜索",
+      "COPIED": "已复制",
+      "copyLink": "复制链接",
+      "noMessage": "无消息",
+      "noTitle": "无标题",
+      "shareTransfer": {
+        "download": "下载",
+        "preview": "预览",
+        "forward": "转发",
+        "delete": "删除",
+        "expiresIn": "有效期至",
+        "password": "密码",
+        "ASSIGN": "分配",
+        "PAUSE": "暂停",
+        "CODE": "代码",
+        "EMAIL": "电子邮件",
+        "MESSAGE": "消息",
+        "totalDownloads": "总下载次数",
+        "NAME": "名称",
+        "TYPE": "类型",
+        "SIZE": "大小",
+        "folder": "文件夹",
+        "typeAlignment": "share_transfers_type_alignment_chinese",
+        "sizeAlignment": "share_transfers_size_alignment_chinese"
+      },
+      "transfers": {
+        "selections": {
+          "date": "日期",
+          "size": "大小",
+          "title": "标题",
+          "expirationDate": "到期日期"
+        },
+        "SENT": "已发送",
+        "RECEIVED": "已接收",
+        "sortBy": "排序方式:",
+        "Downloaded": "已下载",
+        "notYetDownloaded": "尚未下载",
+        "file": "文件",
+        "files": "文件",
+        "noDataFound": "未找到数据"
+      }
+    },
+    "sidemenu": {
+      "menu": "菜单",
+      "features": "特征",
+      "products": "产品",
+      "howToZtfr": "如何以 ZTFR",
+      "pricing": "定价",
+      "advertising": "广告",
+      "careersH": "招贤纳士",
+      "company": "公司",
+      "myAccount": "我的帐户",
+      "newsRoom/Press": "新闻编辑室/新闻",
+      "terms": "术语",
+      "privacy": "隐私",
+      "advertisingSection": {
+        "hero": {
+          "advertiseWithUsAndAttractTheAttentionOf": "与我们一起做广告并吸引注意力",
+          "creativeProfessionalsAcrossTheGlobe": "全球各地的创意专业人士。",
+          "reachOurGlobalProfessionals": "联系我们的全球专业人士",
+          "getStarted": "开始使用"
+        },
+        "watchThis": {
+          "inspireAWorldOfCreativeProfessionals": "激发创意专业人士的世界",
+          "watchThis": "看这个"
+        },
+        "videos": {
+          "ourAdvertsAreJustMoreThan": "我们的广告不仅仅是'广告'",
+          "impressionsDontAlwaysInspires": "印象并不总是鼓舞人心。激励一次，激励一生。",
+          "video": "视频"
+        },
+        "images": {
+          "premiumPlatformThatPutsYourBrand": "放置您的品牌的优质平台",
+          "infront": "在前面",
+          "ofTheLocalAndGlobalAudiences": "本地和全球受众",
+          "image": "图像"
+        },
+        "partners": {
+          "ourGlobalPartners": "我们的全球合作伙伴"
+        },
+        "form": {
+          "becomeAPartner": "成为合作伙伴",
+          "company/Organisation": "公司/组织",
+          "country": "国家",
+          "phoneNumber": "电话号码",
+          "customiseEveryAspectOfYourAd": "自定义广告的方方面面",
+          "inYourOfficialPartnerPortal": "在您的官方合作伙伴门户中",
+          "thankyou": "感谢您有兴趣成为合作伙伴，您的请求",
+          "thankyouSubmited": "已提交，我们会尽快回复您。"
+        }
+      },
+      "pricingSection": {
+        "free": "自由的"
+      },
+      "careers": {
+        "design": "设计和构建正在改变世界的系统。",
+        "services": "在一百二十多个国家提供服务。",
+        "discover": "发现",
+        "world": "一个新世界",
+        "together": "一起，我们创造和建设一个更好的世界。",
+        "global": "全球视野",
+        "remote": "拥有遥远工作文化，多样性自然融入我们的DNA。",
+        "globe": "遍布全球，代表来自23个不同国籍的成员。",
+        "join": "加入我们的团队",
+        "normalText": "careers_normal_text_chinese",
+        "togetherText": "careers_together_text_chinese",
+        "globalText": "careers_global_text_chinese",
+        "worldText": "careers_world_text_chinese",
+        "discoverText": "careers_discover_text_chinese"
+      }
+    },
+    "cookies": {
+      "cookiesWrapper": {
+        "thisWebsite": "本网站使用技术上必要的 COOKIE。",
+        "withYourConsent": "经您同意，本网站将使用额外的 Cookie（包括第三方 Cookie）或类似技术来使我们的网站正常运行，以达到营销目的并改善您的在线体验。",
+        "ourWebsiteUses": "我们的网站使用 Cookie 来提高性能、服务并更好地了解您的需求。通过接受我们的第三方 Cookie，我们和我们的合作伙伴能够在我们的网站内外向您提供更多相关广告) 和应用程序。",
+        "youWillHave": "您将通过体验我们屡获殊荣的广告和服务（如果适用）产生积极影响。",
+        "furtherInformation": "更多信息可以在我们的",
+        "privacyStatement": "隐私声明",
+        "andInTheCookiesSetting": "并在 COOKIE 设置中",
+        "accept": "接受",
+        "reject": "拒绝",
+        "manageCookies": "管理 COOKIES"
+      },
+      "manageCookies": {
+        "ourWebsiteUsesCookies": "我们的网站使用 Cookie 来帮助其正常运行，让我们能够分析您与其互动的方式，并帮助我们提高性能。接受我们的 Cookie，即表示您允许我们向您展示个性化广告。",
+        "mostZimoGroupWebsites": "大多数 ZIMO GROUP 网站都使用 COOKIES。COOKIES 是放置在您设备上的小文本文件，用于存储数据，以便网络服务器稍后使用。ZIMO GROUP 和我们的第三方合作伙伴使用 COOKIES 来记住您的偏好和设置，帮助您登录后，向您展示个性化广告并分析我们网站的运行情况。有关更多信息，请参阅 Cookie 和类似技术 部分",
+        "required": "必需",
+        "weUseRequiredCookies": " 我们使用必需的 Cookie 来执行基本的网站功能。例如，它们用于让您登录、保存您的语言首选项、提供购物篮体验（如果适用）、提高性能、路由网络服务器之间的流量、检测屏幕大小、确定页面加载时间、改善用户体验和受众衡量。这些 Cookie 是我们网站正常运行所必需的。",
+        "analytics": "分析",
+        "weAllowThirdParties": "我们允许第三方使用分析 Cookie 来了解您如何使用我们的网站，以便我们改进它们，并且第三方可以开发和改进他们的产品，他们可以在不属于或运营的网站上使用这些产品ZIMO GROUP。例如，\"它们\"用于收集有关您访问的页面以及完成任务需要多少次点击的信息。我们使用一些分析 Cookie 来投放广告。",
+        "socialMedia": "社交媒体",
+        "weAndThirdPartiesUseSocialMediaCookies": "我们和第三方使用社交媒体 Cookie，根据您的社交媒体资料和我们网站上的活动向您展示广告和内容。他们用于将您在我们网站上的活动连接到您的社交媒体个人资料，以便您在我们的网站和社交媒体上看到的广告和内容将更好地反映您的兴趣。",
+        "advertising": "广告",
+        "weAndThirdPartiesUseAdvertisingCookies": "我们和第三方使用广告 Cookie 通过记录\"您已经看过\"的广告向您展示新广告。\"他们\"还用于跟踪您点击或购买的广告在点击广告后出于付款目的进行制作，并向您展示与您更相关的广告。例如，\"它们\"用于检测您何时点击广告并根据您的社交媒体向您展示广告兴趣和网站浏览历史记录。",
+        "resetAll": "重置全部",
+        "saveChanges": "保存更改"
+      }
+    },
+    "user": {
+      "sentMail": {
+        "checkYourEmail": "檢查您的電子郵件",
+        "youShouldNowRecieve": "您現在應該收到一封電子郵件，其中包含創建新密碼的連結。",
+        "ifYouNotRecieved": "如果您沒有收到電子郵件，請檢查",
+        "wasTheEmail": "是您用來建立使用者 ID 的電子郵件",
+        "textsizes": {
+          "textsize1": "text__18__12__3xl",
+          "textsize2": "text__14__10__3xl"
+        }
+      }
+    },
+    "download": {
+      "downloadPassword": {
+        "incorrectPassword": "密碼不正確"
+      },
+      "downloadPasswordAssign": {
+        "checking": "正在檢查..."
+      }
+    },
+    "ztfrX": {
+      "contentCreator": "内容创建者",
+      "music": "音乐",
+      "getPaidForYourContent": "为您的内容获得报酬",
+      "getPaidForYourTransfers": "为您的转账获得报酬",
+      "exploreTxtSize": "explore_text_chinaNew",
+      "sellWhatYouCreate": "出售你创造的东西",
+      "ztfrXIsAnEasyAndSecureWay": " 是一种简单安全的方式来获得工作报酬。今天就开始用你的创造力赚钱吧。",
+      "exploreAWorldOfOpportunities": "探索一个充满机遇的世界",
+      "gettingPaid": "获得报酬",
+      "getPaidDirectly": "直接收取您的薪酬到您的",
+      "withdrawFunds": "帐户。随时提取资金，全天候。",
+      "payments": "付款",
+      "explore": "探索",
+      "paidCard": {
+        "paid": "付费"
+      },
+      "musicCard": {
+        "relax": "放松"
+      },
+      "constants": {
+        "animation": "动画",
+        "applications": "应用程序",
+        "architecture": "建筑",
+        "art": "艺术",
+        "collaboration": "合作",
+        "collage": "拼贴",
+        "comics": "漫画",
+        "commissions": "委托",
+        "community": "社区",
+        "creativeAdvice": "创意建议",
+        "design": "设计",
+        "education": "教育",
+        "fashion": "时尚",
+        "fiction": "小说",
+        "film": "电影",
+        "gaming": "游戏",
+        "graphicDesign": "平面设计",
+        "graphicNovels": "图像小说",
+        "illustration": "插画",
+        "installations": "装置艺术",
+        "music": "音乐",
+        "nft": "NFT",
+        "opinion": "观点",
+        "painting": "绘画",
+        "partnerships": "合作伙伴关系",
+        "performance": "表演",
+        "photography": "摄影",
+        "podcasts": "播客",
+        "print": "印刷",
+        "sculpture": "雕塑",
+        "software": "软件",
+        "textile": "纺织品",
+        "video": "视频",
+        "writing": "写作",
+        "other": "其他"
+      },
+      "howZtfrXWorks": {
+        "how": "如何",
+        "works": "作品"
+      },
+      "sellDigitalContent": {
+        "sellDigitalContent": "销售数字内容（产品）",
+        "turningYourDigitalContent": "将您的数字内容转化为利润",
+        "allowsYouTo": "允许您分发、宣传您的数字内容（产品）并获得报酬"
+      },
+      "recieveQuickPayments": {
+        "recieveQuickPayments": "接收客户的快速付款",
+        "revolutionise": "彻底改变您的业务。在全球范围内获得客户付款的安全解决方案",
+        "usesAdvanced": "使用高级加密标准 （AES） 256 位保护",
+        "whatContent": "要卖什么内容（产品）？",
+        "weHaveIdeas": "我们的想法将帮助您探索新的可能性，并从中获得新的收入来源"
+      },
+      "buyNow": "立即购买",
+      "getPaidFor": {
+        "getPaidFor": "通过摄影、音乐、数字艺术作品、时尚拍摄、个性化课程等等获得报酬...",
+        "itsSimple": "很简单。您知道您的粉丝/客户想要什么，打包您的最新作品（照片拍摄、字体包、音乐、视频、数字艺术、短篇故事、小说、预设包、海报设计和 1,000 件作品 更多的...）",
+        "activateYour": "激活你的",
+        "andStartToUpload": "并开始使用",
+        "decideOnAPrice": "确定价格，然后分享您的链接 (url)、二维码或使用我们的特色合作伙伴"
+      },
+      "sellYourEducational": {
+        "sellYourEducational": "出售您的教育内容、数字程序、数字书籍、教程、学习指南等等...",
+        "startGenerating": "开始与像您一样的其他创意人士一起创造收入。向全球受众分享您的专业知识和才能。将您的博客文章或 Instagram 源转换为电子书或 PDF 以产生额外收入。"
+      },
+      "sendFinalAssets": {
+        "sendFinalAssets": "将最终资产发送给您的客户并获得付款",
+        "itsThatEasy": "就是这么简单。快速获得最新照片拍摄、咨询演出或任何推荐内容的报酬。只需上传您的最终文件，自定义壁纸的各个方面，添加您想要的价格并发送即可。",
+        "yourClientsCan": "您的客户可以访问您的私人链接并付费下载他们的文件。",
+        "howToGetStarted": "如何开始"
+      },
+
+      "Xlogo": {
+        "tryNow": "立即尝试"
+      },
+      "ztfrGetPaid": {
+        "getPaid": "获取报酬",
+        "effortless": "轻松传输创意资产、大型文件、完整文件夹和整个项目，只需简单一点击。",
+        "learnMore": "了解更多"
+      },
+      "ztfrSecurity": {
+        "security": "安全性",
+        "withPassword": "通过密码保护和256位（aes）文件加密，引入基本的安全功能来保护您的内容/工作。"
+      },
+      "ztfrShowcase": {
+        "showcase": "展示",
+        "create": "通过个性化处理每个方面，从您的首页到电子邮件，创造一个令人难忘的影响。",
+        "unleash": "释放您的无限想象力。",
+        "transferring": "传输..."
+      },
+      "getStartedVideos": {
+        "stepOne": "第一步",
+        "stepTwo": "第二步",
+        "stepThree": "第三步"
+      }
+    },
+    "createNewPassword": {
+      "confirmPass": "确认您的新密码",
+      "instructions": "我们将向您发送重置密码的说明，帮助您重新登录。",
+      "newPass": "新密码",
+      "confirmNewPass": "确认新密码",
+      "reset": "确认密码重置/登录"
+    },
+    "transferExpired": {
+      "transferExpired": "转让已过期",
+      "weRegret": "我们很遗憾地通知您，",
+      "youThatThis": "此转让已到",
+      "REACHED": "期且无法再访问",
+      "notAccessible": "",
+      "sendFiles": "发送文件",
+      "regretMessageGap": "regret_message_gap_chinese",
+      "regretMessagePosition": "regret_message_position_chinese",
+      "advanceTextSize": "advance_text_size_arabic",
+      "jumperMobPosition": "jumper_mob_position_chinese"
+    },
+    "scheduleDone": {
+      "time": "时间",
+      "emailFrom": "电子邮件来自",
+      "yourSchedule": "您计划的 ZTFR 上传将",
+      "initiate": "在 5 秒内启动。",
+      "dontClose": "不要关闭浏览器",
+      "during": "在此过程中"
+    },
+    "noInternet": {
+      "notConnected": "你似乎没有连接到互联网",
+      "noConnection": "没有网络连接",
+      "checkConnection": "请检查您的连接或重试",
+      "internetSettings": "互联网设置"
+    }
+  }
+}

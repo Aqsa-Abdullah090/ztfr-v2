@@ -1,0 +1,1335 @@
+{
+  "hero": {
+    "left": "hero_left_dutch",
+    "letsDo": "LATEN WE DIT DOEN",
+    "this": "DIT",
+    "upload": "BESTANDEN OF MAPPEN UPLOADEN DOOR ZE HIER TE LATEN VALLEN",
+    "welcomeText": "WELKOM"
+  },
+  "sidebar": {
+    "advanceTextTop": "advance_text_top_nlNew",
+    "uploadText": "uploadtextnlNew",
+    "upload": "BESTANDEN OF MAPPEN UPLOADEN DOOR ZE HIER TE",
+    "them": "LATEN VALLEN OVERAL IN DIT VENSTER",
+    "advance": "GEAVANCEERDE VERSLEUTELINGSSTANDAARD (AES) 256-BIT"
+  },
+  "getlink": {
+    "sendEmail": "E-MAIL VERZENDEN",
+    "unlimitedTransfers": "ONBEPERKTE OVERDRACHTEN",
+    "getALinkText": "get_a_link_text_french",
+    "geta": "krijg een link",
+    "uploadFileText": "upload_file_text_german",
+    "selectFolderText": "select_folder_text_italian",
+    "lgUptoSize": "lg:text-[40px]",
+    "UptoSize": "text-[20px]",
+    "uploadFiles": "BESTANDEN UPLOADEN",
+    "or": "OF",
+    "select": "EEN MAP SELECTEREN",
+    "upto": "TOT",
+    "free": "GRATIS",
+    "styles": {
+      "freeTextLg": "text-[20px]",
+      "freeTextMd": "text-[16px]"
+    },
+    "UptoTextRightAlign": "Upto_text_size_align_right_nLNew",
+    "selectFolderRightAlign": "select_folder_align_right_PT"
+  },
+  "uploading": {
+    "uploadingFiles": "Bestanden uploaden",
+    "uploaded": "geüpload",
+    "uploading": "Uploaden",
+    "pending": "In afwachting",
+    "of_text": "van",
+    "about_text": "over",
+    "remaining_text": "overig",
+    "title_text": "titel",
+    "note_text": "opmerking",
+    "cancel_text": "annuleren",
+    "almostDone": "bijna klaar",
+    "textsizes": {
+      "textsize3": "uploading_size_v2"
+    },
+    "styles": {
+      "uploadingFiles_text_lg": "text-[11px]",
+      "uploadingFiles_text_md": "text-[10px]"
+    }
+  },
+  "uploaded": {
+    "filesUploaded": "Bestanden geüpload",
+    "completed": "voltooid",
+    "youDidIt": "Je hebt het gedaan!",
+    "copyDownloadLink": "Kopieer uw gedownloade link",
+    "seeWhatsInside": "Kijk wat erin zit",
+    "code": "code",
+    "styles": {
+      "filesUploaded_text_lg": "text-[11px]",
+      "filesUploaded_text_md": "text-[10px]",
+      "youDidIt_text_lg": "text-[20px]",
+      "youDidIt_text_md": "text-[15px]"
+    }
+  },
+  "assignContent": {
+    "assignHeading": "TOEWIJZEN",
+    "assign": "toewijzen IS EEN EXCLUSIEVE FUNCTIE WAARMEE DE TOEWIJZER BESTANDEN/MAPPEN KAN UPLOADEN EN DE OPTIE HEEFT OM SPECIFIEER EN CONTROLEER WELKE BESTANDEN/MAPPEN DE TOEGEWEZENE TOEGANG KRIJGT. EEN UNIEKE 4-CIJFERIGE PINCODE wordt verstrekt aan de toegewezen persoon om toegang te krijgen tot de bestanden/mappen.",
+    "one": "ÉÉN UPLOAD.",
+    "magnitude": "GROOTSHEID VAN MOGELIJKHEDEN.",
+    "title": "TITEL",
+    "note": "NOTITIE",
+    "Hi": "Hallo, ik dacht dat je deze misschien bij de hand wilt hebben. Veel succes. Tot snel. Jessica x",
+    "Revsion": "Revisiebestand",
+    "lets_get": "Laten we halen",
+    "started": "Begonnen",
+    "uploaded_Files": "Geüploade bestanden",
+    "or": "OF",
+    "folders": "Mappen",
+    "clear": "duidelijk",
+    "assignee": "CESSIONARIS"
+  },
+  "assign_SubContent": {
+    "assign_heading": "toewijzen",
+    "assign_files": "bestanden toewijzen",
+    "assignee_name": "naam van de toegewezene",
+    "assign_pinCode": "pincode toewijzen",
+    "generate_pinCode": "Pin genereren",
+    "custom_pinCode": "aangepaste speld",
+    "Additional_Note": "aanvullende opmerking",
+    "clear_text": "duidelijk"
+  },
+  "fileDownloadedModal": {
+    "close": "dichtbij",
+    "youDidIt": "Je hebt het gedaan!",
+    "items_text": "Artikelen hierin",
+    "files": "bestanden",
+    "folder": "map",
+    "expiresIn": "Verloopt in",
+    "days": "dagen",
+    "downloadOrShare": "downloaden of delen",
+    "copied": "gekopieerd",
+    "copyLink": "Kopieer link",
+    "qrCode": "QR code",
+    "email": "e-mail",
+    "whatsapp": "whatsapp",
+    "message": "bericht",
+    "facebook": "facebook",
+    "x": "x",
+    "hours": "UREN",
+    "textsizes": {
+      "textsize1": "text__20__12",
+      "textsize4": "text__8__10",
+      "textsize2": "text__12__10__8"
+    }
+  },
+  "FileDropZone": {
+    "drop": "Zet uw bestanden hier neer"
+  },
+  "footer": {
+    "rightsReservedTextSize": "rights_reserved_text_german",
+    "partOfTextSize": "part_of_text_german",
+    "zitransferTextSize": "zitransfer_text_size_german",
+    "zitransfer": "© ZITRANSFER 2023",
+    "rights": "ALLE RECHTEN VOORBEHOUDEN",
+    "partof": "ZITRANSFER IS ONDERDEEL VAN DE ZIMO GROEP",
+    "zitransferUses": "ZITRANSFER GEBRUIKT GEAVANCEERDE VERSLEUTELINGSSTANDAARD (AES) 256-BIT OM DE VERTRouWELIJKHEID VAN DE DOOR U GEUPLOADE GEGEVENS TE BESCHERMEN."
+  },
+  "countries": {
+    "choose": "Kies uw land of regio",
+    "language": "TAAL"
+  },
+  "MainShare": {
+    "email": "EMAIL",
+    "emailTo": "E-MAIL NAAR",
+    "yourEmail": "UW E-MAIL",
+    "enterZVC": "VOER ZVC-CODE IN",
+    "messages": "BERICHTEN",
+    "typeYourCustomisedLink": "TYP UW AANGEPASTE LINK",
+    "linkCopied": "Link gekopieerd",
+    "logout": "UITLOGGEN",
+    "login": "INLOGGEN",
+    "createUserId": "GEBRUIKERS-ID MAKEN",
+    "codeTextSize": "link_text_size_german",
+    "getLink": "KRIJG EEN LINK",
+    "gitQRCode": "KRIJG EEN QR-CODE",
+    "uploadFileText": "upload_file_text_german_mainShare",
+    "ztfermt": "ztfer_margin_top_italian",
+    "exText": "expires_text_danish",
+    "title": "TITEL",
+    "Revsion": "Revisiebestand",
+    "note": "NOTITIE",
+    "assignHeading": "TOEWIJZEN",
+    "Hi": "Hallo, ik dacht dat je deze misschien bij de hand wilt hebben. Veel succes. Tot snel. Jessica x",
+    "Expires": "Verloopt over",
+    "days": "TOT 365 DAGEN",
+    "schedule": "PLANNING OVERDRACHT",
+    "advance": "Geavanceerde versleutelingsstandaard AES 256-bits",
+    "assign": "toewijzen IS EEN EXCLUSIEVE FUNCTIE WAARMEE DE TOEWIJZER BESTANDEN/MAPPEN KAN UPLOADEN EN DE OPTIE HEEFT OM SPECIFIEER EN CONTROLEER WELKE BESTANDEN/MAPPEN DE TOEGEWEZENE TOEGANG KRIJGT. EEN UNIEKE 4-CIJFERIGE PINCODE wordt verstrekt aan de toegewezen persoon om toegang te krijgen tot de bestanden/mappen.",
+    "one": "ÉÉN UPLOAD.",
+    "magnitude": "GROOTSHEID VAN MOGELIJKHEDEN.",
+    "assignButton": {
+      "files": {
+        "text": "bestanden toewijzen",
+        "css": "text__v3"
+      },
+      "folders": {
+        "text": "mappen toewijzen",
+        "css": "text__v3"
+      },
+      "filesFolder": {
+        "text": "bestanden/mappen toewijzen",
+        "css": "text__v23"
+      }
+    }
+  },
+  "Expires": {
+    "expires": "VERLOOPT",
+    "setPasswordTextSize": "set_password_size_expires_italian",
+    "minute": "minuut",
+    "hour": "uur",
+    "day": "dag",
+    "week": "week",
+    "months": "maanden",
+    "year": "jaar",
+    "optional": "optioneel",
+    "pick": "kiezen uit de kalender",
+    "password": "wachtwoord instellen",
+    "invalidDate": "ongeldige datum"
+  },
+  "Verit": {
+    "verify": "verifieer uw e-mailadres",
+    "confirm": "BEVESTIG UW E-MAIL",
+    "receive": "GEEN E-MAIL ONTVANGEN?",
+    "we": "WIJ HEBBEN EEN VERIFICATIECODE (ZVC) VERSTUURD",
+    "to": "NAAR",
+    "sure": "OM ER ZEKER VAN TE ZIJN DAT U HET BENT",
+    "remember": "VERGEET NIET OM UW SPAMMAP TE CONTROLEREN",
+    "verifyEmailTextsize": "verify_email_german_textsize",
+    "confirmEmailTextsize": "confirm_email_french_textsize",
+    "recieveTextsize": "didnot_recieve_italian_textsize"
+  },
+  "Copy": {
+    "setPasswordTextSize": "set_password_size_copy_french",
+    "Revision": "Revisiebestanden",
+    "download": "KOPIEER UW DOWNLOADLINK",
+    "link": "KOPIEER LINK",
+    "another": "NOG EEN STUREN?"
+  },
+  "GetAQRCode": {
+    "linkCopied": "Link gekopieerd",
+    "download": "DOWNLOADEN"
+  },
+  "DateTimePicker": {
+    "meeting": "PLANNEN VERGADERING",
+    "pick": "KIEZEN UIT DE KALENDER"
+  },
+  "RenameFile": {
+    "rename": "BESTAND/MAp HERNOEMEN",
+    "renameTextSize": "rename_text_size_renameFile_french"
+  },
+  "RenameTitle": {
+    "rename": "TITEL HERNOEMEN"
+  },
+  "FirstPage": {
+    "drop": "Zet de bestanden hier neer..."
+  },
+  "GetALink": {
+    "filename": "bestandsnaam"
+  },
+  "Download4": {
+    "revision": "revisie",
+    "files": "bestanden"
+  },
+  "Download9": {
+    "complete": "voltooid"
+  },
+  "CustomiseALink": {
+    "setPasswordTextSize": "set_password_size_copy_italian",
+    "password": "wachtwoord instellen",
+    "type": "typ uw aangepaste link",
+    "Customise": "Pas een link aan",
+    "your": "KOPIEER UW DOWNLOADLINK",
+    "copyCustomised": "Kopieer aangepaste link"
+  },
+  "SetPassword": {
+    "protected": "met wachtwoord beveiligd",
+    "notmatch": "Wachtwoorden komen niet overeen.",
+    "Removepassword": "Verwijder wachtwoord",
+    "enterPassword": "Voer eerst een wachtwoord in",
+    "Invalid": "Ongeldig"
+  },
+  "Assign": {
+    "PIN": "toewijzen-PIN-code",
+    "generate": "GENEREER PIN",
+    "customPin": "AANGEPASTE PIN",
+    "clear": "WISSEN"
+  },
+  "Preview": {
+    "prev": "Voorbeeld",
+    "notImg": "Dit is geen afbeelding- of videobestand",
+    "notSupported": "Voorbeeld NIET ONDERSTEUND",
+    "previewError": "VOORBEELDFOUT",
+    "fileLimit": "Het bestand overschrijdt de voorbeeldlimiet",
+    "limitExceeded": "  OVERSCHREDEN   VOORBEELDWEERGAVE LIMIET"
+  },
+  "Remove": {
+    "rev": "Verwijderen",
+    "fileName": "Bestandsnaam"
+  },
+  "ViewDetails": {
+    "viewD": "Details bekijken",
+    "fileD": "Bestandsdetails",
+    "type": "TYPE",
+    "size": "GROOTTE",
+    "created": "GEMAAKT",
+    "description": "BESCHRIJVING",
+    "max": "Max.",
+    "addDescription": "Beschrijving toevoegen"
+  },
+  "Hero2": {
+    "Close": "Sluiten",
+    "oxford": "UNIVERSITEIT VAN OXFORD",
+    "transfers": "OVERDRACHTEN",
+    "send": "VERZENDEN",
+    "recevice": "ONTVANGEN",
+    "byDate": "SORTEREN OP: DATUM",
+    "july2023": "juli 2023",
+    "urgent": "taak 768 - dringend",
+    "NoYet": "nog niet gedownload",
+    "file": "bestand",
+    "minuteAgo": "VERZONDEN 52 MINUTEN GELEDEN",
+    "18july": "18 JULI 2023",
+    "london": "London Institute",
+    "Downloaded": "Gedownload"
+  },
+  "CMail": {
+    "confirmEmail": "BEVESTIG UW E-MAILADRES",
+    "quickCheck": "Even snel controleren om er zeker van te zijn dat u het bent.",
+    "verificationLink": "We hebben een verificatielink naar u gestuurd op",
+    "checkSpam": "(Als u deze niet kunt vinden, controleer dan uw spam-map).",
+    "didn'tReceive": "Geen e-mail ontvangen?"
+  },
+  "ForgetPassword": {
+    "reset": "RESET UW WACHTWOORD",
+    "sendInstructions": "We sturen u instructies om uw wachtwoord te resetten en weer in te loggen."
+  },
+  "LoginUser": {
+    "logInTextSize": "login_text_size_german",
+    "CreateUserTextSize": "create_user_text_size_german",
+    "Login": "INLOGGEN",
+    "CreateUser": "GEBRUIKERSID AANMAKEN",
+    "withGoogle": "DOORGAAN MET GOOGLE",
+    "or": "OF",
+    "Forgotten": "Wachtwoord vergeten?"
+  },
+  "SignupUser": {
+    "creatingUserID": "DOOR EEN GEBRUIKERSID AAN TE MAKEN, GAAT U AKKOORD MET ONZE ",
+    "Terms": "ALGEMENE VOORWAARDEN EN HET PRIVACY- EN COOKIEBELEID",
+    "firstName": "VOORNAAM",
+    "lastName": "ACHTERNAAM",
+    "organisationOptional": "ORGANISATIE (OPTIONEEL)",
+    "additionalNote": "AANVULLENDE OPMERKING"
+  },
+  "UserHeader": {
+    "zftrImageML": "zftr_image_margin_left_dutch",
+    "sendFiles": "BESTANDEN VERZENDEN",
+    "sendFolders": "MAPPEN VERZENDEN",
+    "shareIdeas": "IDEEËN DELEN",
+    "MultipleFormats": "DELEN VAN OVERDRACHTEN IN MEERDERE INDELINGEN",
+    "unlimitedStorage": "ONBEPERKTE OPSLAG",
+    "sendUnlimited": "ONBEPERKT VERZENDEN VAN OVERDRACHTEN",
+    "ReceiveUnlimited": "ONBEPERKT ONTVANGEN VAN OVERDRACHTEN",
+    "StorageUpTo": "OPSLAG VOOR MAXIMAAL 10 JAAR",
+    "portal": "PORTAAL",
+    "customExpiration": "AANGEPASTE VERVALDATUMS",
+    "AssignPIN": "PIN BESCHERMING TOEWIJZEN",
+    "PublicSharing": "OPENBAAR DELEN",
+    "DynamicLinks": "DYNAMISCHE LINKS",
+    "PasswordsProtect": "WACHTWOORD BEVEILIGD",
+    "TrackDownloads": "DOWNLOADS VOLGEN",
+    "advance": "GEAVANCEERDE AES 254-BIT VERSLEUTELING",
+    "creator": "MAKER VAN INHOUD",
+    "userPortal": "GEBRUIKERSPORTAAL",
+    "themes": "GEPERSONALISEERDE THEMA'S",
+    "customisedProfiles": "AANGEPASTE PROFIELEN",
+    "militaryGrade": "VERSLEUTELING VAN MILITAIRE KWALITEIT"
+  },
+  "Download": {
+    "setTextSize": "set_text_size_dutch",
+    "downloadTextSize": "download_text_size_dutch",
+    "ready": "KLAAR.",
+    "set": "INSTELLEN.",
+    "download": "DOWNLOADEN.",
+    "ZTFRExpires": "ZTFR VERLOOPT OVER 7 DAGEN",
+    "revision": "HERZIENING",
+    "files": "BESTANDEN",
+    "seeYou": "Hoi, ik dacht dat je deze bij de hand zou willen hebben. Veel succes. Tot binnenkort. Jessica x",
+    "preview": "VOORBEELD",
+    "unlocked": "ONTGRENDELD",
+    "advanceTxt": "download_text_top_nlNew",
+    "advanceAssignTxt": "download_assign_text_top_nlNew",
+    "letsDoLeft": "lets_do_left_polish",
+    "ztfrExpiresIn": "ZTFR VERLOOPT OVER",
+    "days": "DAGEN",
+    "ztfrExpired": "ZTFR VERLOPEN"
+  },
+  "DownloadAssign": {
+    "ready": "KLAAR.",
+    "set": "INSTELLEN.",
+    "download": "DOWNLOADEN.",
+    "ZTFRExpires": "ZTFR VERLOOPT OVER 30 DAGEN",
+    "assignAdvanceTop": "assign_advance_txt_spanish",
+    "university": "UNIVERSITEIT",
+    "hiAll": "Hallo allemaal.",
+    "workAccess": "Gebruik alsjeblieft je toegewezen ZTFR PIN om toegang te krijgen tot je werk.",
+    "assign": "TOEWIJZEN"
+  },
+  "DownloadPassword": {
+    "enterPassword": "VOER WACHTWOORD IN",
+    "pinCode": "PINCODE"
+  },
+  "DownloadPasswordC": {
+    "revision": "HERZIENING BESTANDEN"
+  },
+  "DownloadPreview": {
+    "close": "SLUITEN",
+    "items": "ITEMS IN DEZE ZTFR",
+    "ZTFRExpires": "ZTFR VERLOOPT OVER 7 DAGEN",
+    "downloadAll": "ALLES DOWNLOADEN",
+    "lookingInside": "Binnenin de map kijken.",
+    "WhatInside": "Wat zit er in de map? Laten we eens kijken.",
+    "preview": "VOORBEELD",
+    "name": "NAAM",
+    "type": "TYPE",
+    "size": "GROOTTE",
+    "hide": "verbergen"
+  },
+  "EnterPinCode": {
+    "pinCode": "PINCODE",
+    "hello": "HALLO",
+    "youNote": "Je hebt een notitie:",
+    "DueDate": "De vervaldatum is 19 juli - 09:00 uur.",
+    "items": "ITEMS IN DEZE ZTFR",
+    "enterPin": "VOER JE TOEGEWEZEN PINCODE IN",
+    "incorrectPin": "ONJUISTE PINCODE",
+    "clear": "WISSEN"
+  },
+  "ResendMail": {
+    "checkEmail": "CONTROLEER JE E-MAIL",
+    "getBottom": "Laten we hier duidelijkheid over krijgen. Dit is het e-mailadres dat je op ZTFR gebruikt.",
+    "resend": "OPNIEUW VERSTUREN"
+  },
+  "Assignfiles": {
+    "assign": "TOEWIJZEN",
+    "assignFiles": "bestanden toewijzen",
+    "assignName": "toegewezen naam",
+    "assignPin": "toegewezen pincode",
+    "generatePin": "PINCODE GENEREREN",
+    "CustomPin": "AANGEPASTE PINCODE",
+    "AdditionalNote": "AANVULLENDE NOTITIE",
+    "clear": "WISSEN"
+  },
+  "AssignShare": {
+    "exclusiveFeature": "TOEWIJZEN IS EEN EXCLUSIEVE FUNCTIE WAARBIJ DE TOEWIJZER (JIJ) BESTANDEN/MAPPEN KAN UPLOADEN EN DE OPTIE HEEFT OM AAN TE GEVEN EN TE CONTROLEREN WELKE BESTANDEN/MAPPEN DE ONTVANGER TOEGANG TOT MAG HEBBEN. EEN UNIEKE 4-CIJFERIGE PINCODE wordt aan de ontvanger verstrekt om toegang te krijgen tot de bestanden/mappen.",
+    "gainAccess": "TOEWIJZEN IS EEN EXCLUSIEVE FUNCTIE WAARBIJ DE TOEWIJZER (JIJ) BESTANDEN/MAPPEN KAN UPLOADEN EN DE OPTIE HEEFT OM AAN TE GEVEN EN TE CONTROLEREN WELKE BESTANDEN/MAPPEN DE ONTVANGER TOEGANG TOT MAG HEBBEN. EEN UNIEKE 4-CIJFERIGE PINCODE wordt aan de ontvanger verstrekt om toegang te krijgen tot de bestanden/mappen.",
+    "oneUpload": "ÉÉN UPLOAD. EEN GROOT AANTAL MOGELIJKHEDEN.",
+    "title": "TITEL",
+    "note": "NOTITIE",
+    "RevisionFiles": "HERZIENING BESTANDEN",
+    "justThought": "Hoi, ik dacht dat je deze bij de hand zou willen hebben. Veel succes. Tot binnenkort. Jessica x",
+    "assignee": "ONTVANGER"
+  },
+  "DownloadIndex": {
+    "DownloadIndexStyle": "revision_file_dutch",
+    "heroLeft": "hero_left_dutch",
+    "revision": "HERZIENING",
+    "files": "BESTANDEN"
+  },
+  "ShareIndividual": {
+    "renameTitle": "TITEL HERNOEMEN",
+    "fileLgSIze": "lg:text-[11px]",
+    "fileSIze": "text-[9px]",
+    "renameFile": "BESTANDEN/MAPPEN HERNOEMEN",
+    "preview": "VOORBEELD",
+    "view": "DETAILS BEKIJKEN",
+    "expires": "VERLOOPT IN",
+    "getLink": "KRIJG EEN LINK",
+    "QRCode": "KRIJG EEN QR-CODE",
+    "setPassword": "WACHTWOORD INSTELLEN",
+    "assign": "WIJS TOE",
+    "remove": "VERWIJDEREN",
+    "moreOption": "MEER OPTIES"
+  },
+  "Password": {
+    "password": "WACHTWOORD",
+    "confirmPassword": "Bevestig wachtwoord"
+  },
+
+  "error": {
+    "required": "Vereist",
+    "allFieldRequired": "ALLE VELDEN ZIJN VEREIST",
+    "invalidEmail": "Ongeldig e-mailadres",
+    "invalidPassword": "Ongeldig wachtwoord",
+    "enterValidEmail": "Voer een geldig e-mailadres in",
+    "enterValidPassword": "Voer een geldig wachtwoord in",
+    "enterValidFirstName": "Voer een geldige voornaam in",
+    "enterValidLastName": "Voer een geldige achternaam in",
+    "minimumLength3": "De minimale lengte moet 3 zijn",
+    "shortLength": "De lengte is te kort",
+    "longLength": "De lengte is te lang",
+    "passwordMatch": "WACHTWOORDEN KOMEN NIET OVEREEN.",
+    "passwordMatchSize": "text__7__9",
+    "invalid": "Ongeldig",
+    "passwordReq": "Wachtwoord is vereist",
+    "confirmPasswordReq": "Bevestig wachtwoord is vereist",
+    "verfied": "Geverifieerd",
+    "invalidZVC": "ONGELDIGE ZVC",
+    "invalidCredentials": "Ongeldige inloggegevens",
+    "invalidPin": "Ongeldige pin",
+    "inputPassword": "Voer eerst het wachtwoord in",
+    "inputpasswordConfirm": "Voer het wachtwoord in om te bevestigen"
+  },
+  "page": {
+    "404": {
+      "somethingWrong": "Er is iets misgegaan.",
+      "oops": "Oeps",
+      "couldNotFound": "We konden de pagina die u zoekt niet vinden.",
+      "tryAgain": "U kunt het opnieuw proberen, of als u dat wilt, kunt u ons laten weten wat er is gebeurd.",
+      "sendError": "Stuur uw foutcode naar support@zitransfer.com en we zullen proberen te helpen.",
+      "copyCode": "kopieer mijn foutcode",
+      "codeCopied": "Foutcode gekopieerd"
+    },
+    "legalModal": {
+      "links": {
+        "termsOfServices": "algemene voorwaarden",
+        "privacyStatement": "privacy verklaring",
+        "noticePolicy": "Meldings-/Takedown-beleid",
+        "advertisingTerms": "Advertentievoorwaarden"
+      },
+      "legal": "JURIDISCH",
+      "legalInfo": "Juridische informatie & Mededelingen",
+      "termsOfConditions": {
+        "termsOfServices": "ALGEMENE VOORWAARDEN",
+        "ownership": {
+          "ownership_heading": "Eigendom van de Website; Overeenkomst met de Servicevoorwaarden",
+          "ownership_para1": "Deze Algemene Voorwaarden van de Service (de \"Servicevoorwaarden\") zijn van toepassing op de ZTFR (ZITRANSFER) website (platform) gevestigd op <a href='https://zitransfer.com' target='_blank'>www.zitransfer.com</a>, <a href='https://zitransfer.com' target='_blank'>www.ztfr.org</a> en alle geassocieerde sites gekoppeld aan <a href='https://www.zimogroup.org' target='_blank'>www.zimogroup.org</a> door ZIMO (ZIMO GROUP), haar dochterondernemingen en gelieerde ondernemingen, inclusief ZIMO-sites over de hele wereld (gezamenlijk, de \"Website\"). De Website is eigendom van ZIMO GROUP LIMITED (\"ZIMO\") en haar licentiegevers. DOOR DE WEBSITE TE GEBRUIKEN, GAAT U AKKOORD MET DEZE SERVICEVOORWAARDEN; INDIEN U NIET AKKOORD GAAT, GEBRUIK DE WEBSITE DAN NIET.",
+          "ownership_para2": "ZTFR behoudt zich het recht voor, naar eigen goeddunken, delen van deze Servicevoorwaarden op elk moment te wijzigen, aan te vullen of te verwijderen. Het is uw verantwoordelijkheid om deze Servicevoorwaarden periodiek te controleren op wijzigingen. Door het blijven gebruiken van de Website/Platform na het plaatsen van wijzigingen, geeft u aan dat u de wijzigingen accepteert en ermee akkoord gaat. Zolang u voldoet aan deze Servicevoorwaarden, verleent ZTFR u een persoonlijk, niet-exclusief, niet-overdraagbaar, beperkt voorrecht om de Website/Platform te betreden en te gebruiken."
+        },
+        "content": {
+          "content_heading": "INHOUD",
+          "content_para1": "Alle tekst, afbeeldingen, gebruikersinterfaces, visuele interfaces, foto's, handelsmerken, logo's, geluiden, muziek, kunstwerken en computercodes (gezamenlijk \"Inhoud\"), inclusief maar niet beperkt tot het ontwerp, de structuur, selectie, coördinatie, expressie, 'uitstraling' en rangschikking van dergelijke Inhoud, die op de Website staan, zijn eigendom van ZTFR (ZITRANSFER) en ZIMO, en worden beschermd door handelskleding, auteursrechten, octrooien en merkenwetten, en verschillende andere intellectuele eigendomsrechten en wetten inzake oneerlijke concurrentie.",
+          "content_para2": "Behalve zoals uitdrukkelijk bepaald in deze Servicevoorwaarden, mag geen enkel deel van de Website/Platform en geen enkele Inhoud worden gekopieerd, gereproduceerd, hergepubliceerd, geüpload, gepost, openbaar weergegeven, gecodeerd, vertaald, verzonden of op enigerlei wijze gedistribueerd (inclusief 'spiegelen') naar enige andere computer, server, website of ander medium voor publicatie of distributie of voor enige commerciële onderneming, zonder de uitdrukkelijke voorafgaande schriftelijke toestemming van ZIMO.",
+          "content_para3": "U mag informatie over ZTFR-producten en -diensten gebruiken (zoals datasheets, kennisbankartikelen en soortgelijk materiaal) dat door ZIMO doelbewust beschikbaar is gesteld voor downloaden vanaf de Website, op voorwaarde dat u (1) geen enkele eigenaarsaanduidingstaal verwijdert in alle kopieën van dergelijke documenten, (2) dergelijke informatie alleen voor uw persoonlijke, niet-commerciële informatieve doeleinden gebruikt en deze informatie niet kopieert of op enige genetwerkte computer plaatst of uitzendt in enig medium, (3) geen wijzigingen aanbrengt in dergelijke informatie, en (4) geen aanvullende verklaringen of garanties met betrekking tot dergelijke documenten aflegt."
+        },
+        "headlines": {
+          "headlines_heading": "KOPPEN",
+          "headlines_point1": "Uw inhoud is van u - u bezit het en u bent er verantwoordelijk voor. We zullen alleen doen wat nodig is voor onze diensten om correct te werken.",
+          "headlines_point2": "Als u iets onwettigs doet, kunnen we uw gegevens/uploads/downloads blokkeren en/of verwijderen, en uw accounts opschorten.",
+          "headlines_point3": "We kunnen van tijd tot tijd wijzigingen aanbrengen in onze voorwaarden, service en/of kosten. Als u een account heeft en iets dat we wijzigen niet bevalt, kunt u op elk moment annuleren.",
+          "headlines_point4": "We moeten vermelden dat u onze dienst op eigen risico gebruikt; wij zijn niet aansprakelijk voor enige schade als er iets misgaat."
+        },
+        "termsOfServices_points": {
+          "termsOfServices_heading": "SERVICEVOORWAARDEN",
+          "termsOfServices_subheading": "ZTFR BIEDT DE VOLGENDE HULPMIDDELEN:",
+          "termsOfServices_point1": "Een dienst om bestanden te delen (\"ZTFR/ZITRANSFER Bestandsdeling\")",
+          "termsOfServices_point2": "Een dienst waarmee u inhoud kunt opslaan, organiseren, delen en ontvangen vanuit meerdere bronnen (\"Collect\")",
+          "termsOfServices_point3": "Een dienst waarmee u ideeën en gegevens/bestanden in meerdere formaten/platforms kunt delen",
+          "termsOfServices_point4": "Een dienst waarmee u verkopen kunt doen via ZTFR X",
+          "termsOfServices_point5": "Een dienst die gratis is te gebruiken met onbeperkt uploaden/downloaden (exclusief premiumdiensten)",
+          "termsOfServices_point6": "Extra functies en functionaliteiten",
+          "termsOfServices_para1": "Uw gebruik van en toegang tot onze diensten, software, websites (inclusief browserextensies) en/of applicaties (gezamenlijk: \"Diensten\") worden beheerst door deze Servicevoorwaarden (\"Voorwaarden\").",
+          "termsOfServices_para2": "De Diensten kunnen aan u worden geleverd via internet, in de vorm van een mobiele en/of desktoptoepassing(en) en/of kunnen worden geïntegreerd in een dienst van derden.",
+          "termsOfServices_para3": "De Diensten stellen u in staat om uw ideeën, teksten, afbeeldingen, video's, gegevens, informatie, bestanden, presentatiedekken of andere inhoud, inclusief door u gebruikte inhoud van derden (gezamenlijk \"Inhoud\") te uploaden, indienen, opslaan, delen, ontvangen, verzamelen, vastleggen en/of visualiseren. U behoudt alle rechten, verantwoordelijkheid en aansprakelijkheid voor alle Inhoud. ZTFR maakt geen aanspraak op eigendom van uw Inhoud.",
+          "termsOfServices_para4": "De Diensten worden aan u verstrekt als gebruiker van de Diensten door ZIMO GROUP LIMITED (\"ZITRANSFER\", \"ZTFR\"), met hoofdkantoor op 71-75 Shelton Street, Covent Garden, Londen, WC2H 9JQ, Engeland, Verenigd Koninkrijk.",
+          "registered_location": "Geregistreerd in Engeland en Wales.",
+          "registered_number": "Geregistreerd bedrijfsnummer: 14383397."
+        },
+        "applicability": {
+          "applicability_heading": "TOEPASSELIJKHEID",
+          "applicability_point1": "U bent alleen gemachtigd om de Diensten te gebruiken als u 16 jaar of ouder bent (tenzij u deze gebruikt onder het ZTFR-onderwijsprogramma).",
+          "applicability_point2": "Lees de Voorwaarden zorgvuldig door. Door de Diensten te gebruiken (direct bij ons of via een toepassing van derden, plug-in, extensie of integratie) gaat u akkoord met deze Voorwaarden en ons Meldings-/Takedown-beleid ('MTD-beleid'). Voor het gebruik van persoonlijke gegevens en cookies met betrekking tot de Diensten is ons Privacy Statement van toepassing.",
+          "applicability_point3": "Als de Diensten zijn inbegrepen, worden gebruikt in verband met of geïntegreerd zijn in de diensten van derden, kunnen de voorwaarden, meldings-/takedown-beleid en/of privacyverklaringen van die derden van toepassing zijn naast deze Voorwaarden. Als u de Diensten namens uw werkgever of een andere organisatie gebruikt, gaat u akkoord met de voorwaarden van die organisatie en verklaart en garandeert u dat u daartoe bevoegd bent. ZTFR is niet verantwoordelijk voor diensten van derden, voorwaarden en/of beleid.",
+          "applicability_point4": "Als u een klacht of melding wilt indienen over onwettige Inhoud die wordt opgeslagen of gedeeld via de Diensten of de ZTFR API, lees dan ons MTD-beleid.",
+          "applicability_point5": "Als u zich bewust wordt van een kwetsbaarheid in een van de Diensten, lees dan onze Verantwoorde Openbaarmaking.",
+          "applicability_point6": "Als u de ZTFR API wilt gebruiken (zoals beschreven in de API Gebruiksvoorwaarden), zijn onze API Gebruiksvoorwaarden naast deze Voorwaarden van toepassing.",
+          "applicability_point7": "ZTFR kan de Voorwaarden van tijd tot tijd wijzigen. De gewijzigde Voorwaarden worden van kracht op het moment dat ze worden geplaatst op de website(s) van ZITRANSFER (ZTFR) en/of op de mobiele en/of desktoptoepassing(en) van ZITRANSFER, of op een later tijdstip zoals vermeld kan worden in de gewijzigde Voorwaarden. Daarom raden wij u aan de Voorwaarden van tijd tot tijd te bekijken en kennis te nemen van eventuele wijzigingen. Door het voortzetten van uw gebruik van de Diensten accepteert u de gewijzigde Voorwaarden. In geval van materiële wijzigingen in de Voorwaarden wordt u vooraf geïnformeerd: (i) op het moment dat u de Diensten gebruikt, of (ii) door een bericht naar de contactgegevens die u aan ons heeft verstrekt, of (iii) door een publicatie van de kennisgeving van de wijziging op de website(s) van ZITRANSFER en/of op de mobiele en/of desktoptoepassing(en) van ZITRANSFER. Als u een wijziging niet accepteert, kunt u uw abonnement annuleren.",
+          "applicability_point8": "Deze Voorwaarden vervangen alle eerdere mondelinge en schriftelijke offertes, voorwaarden, communicatie, overeenkomsten en afspraken tussen u en ZTFR (ZITRANSFER)."
+        },
+        "fileSharing": {
+          "fileSharing_heading": "BESTANDDELEN DELEN",
+          "fileSharing_point1": "ZTFR (ZITRANSFER) Bestandsdeling stelt u in staat om uw Inhoud te delen met anderen",
+          "fileSharing_point2": "Om uw Inhoud te delen, moet u deze uploaden en ons voorzien van (een beperkt aantal) e-mailadressen van ontvanger(s) (\"e-mailoverdracht\"), ervoor kiezen om zelf een downloadlink te verspreiden (\"Krijg een link\"). Bovendien heeft u meerdere opties voor hoe u uw inhoud wilt verspreiden/delen, kies uit de volgende methoden; Krijg een QR-code, WhatsApp, Facebook, Threads, X (voorheen Twitter) en Berichten.",
+          "fileSharing_point3": "ZTFR (ZITRANFSER) Bestandsdeling biedt de mogelijkheid om Inhoud te delen tot een maximale totale capaciteit. Geüploade Inhoud wordt voor een beperkte periode opgeslagen op de servers van ZITRANFSER, waarna het vermogen om te downloaden verloopt.",
+          "fileSharing_point4": "Na het verstrijken van de periode zal ZTFR de geüploade bestanden permanent verwijderen met militaire verwijdering van klasse. Deze bestanden zullen niet meer beschikbaar of herstelbaar zijn.",
+          "fileSharing_point5": "De basisfunctionaliteit van ZTFR Bestandsdeling is (momenteel) gratis en vereist geen registratie of kosten.",
+          "fileSharing_point6": "ZTFR behandelt Inhoud als vertrouwelijk en controleert het gebruik van downloadlinks niet, ongeacht of ze oorspronkelijk door ons of door u zijn verspreid. Ontvangers kunnen de links doorsturen en anderen toestaan ze te gebruiken. U bent als enige verantwoordelijk voor de Inhoud die u uploadt en deelt.",
+          "fileSharing_point7": "ZTFR Pro en ZTFR Premium zijn betaalde abonnementsversies die - in vergelijking met de gratis versie - een reeks premiumdiensten en verschillende abonnementsvoorwaarden bieden.",
+          "fileSharing_point8": "Een ZTFR-abonnement (of het nu Gratis, Pro of Premium is) omvat abonnementen op andere delen van ZTFR en zijn diensten.",
+          "fileSharing_point9": "ZTFR behoudt zich het recht voor om alle Inhoud die is geüpload met ZTFR Pro en nog steeds beschikbaar is op onze servers, 28 dagen na afloop van uw ZTFR Pro- of ZTFR Premium-abonnement, automatisch te verwijderen.",
+          "fileSharing_point10": "ZTFR Premium biedt u (onder andere) onbeperkte opslag voor ZITRANSFER Bestandsdeling met onbeperkte aanpassingsmogelijkheden. U krijgt de beschikking over een onbeperkte terabyte capaciteit met exclusieve aanpassingstools.",
+          "fileSharing_point11": "ZTFR Teams (\"Teams\") is een betaalde abonnementsversie van ZTFR Pro en ZTFR Premium, waarmee u teamleden kunt toevoegen aan uw ZTFR Pro- of ZTFR Premium-account. Teamleden kunnen eenvoudig worden toegevoegd en verwijderd per abonnementsperiode.",
+          "fileSharing_point12": "De startdatum van de betaalde abonnementsperiode van ZTFR Teams is wanneer u zich aanmeldt als ZTFR teamleverancier (\"Teamleverancier\") van het ZTFR Teams-account."
+        },
+        "payment": {
+          "payment_heading": "BETALING",
+          "payment_point1": "ZTFR is een gratis bestandsdeeldienst, tenzij u een betaalde dienst heeft gekozen (ZTFR Pro, ZTFR Premium, ZTFR X, en meer).",
+          "payment_point2": "We kunnen van tijd tot tijd vergoedingen introduceren of wijzigen voor de Diensten, waarvoor wij u van tevoren op de hoogte zullen stellen. Als u een abonnement heeft met een vaste termijn en prijs, blijft die prijs geldig gedurende de vaste termijn. Als u niet akkoord gaat met de prijswijziging, kunt u uw abonnement annuleren en stoppen met het gebruik van de Diensten aan het einde van de dan geldende Serviceperiode. Als u doorgaat met het gebruik van de Diensten nadat de prijswijziging van kracht is geworden, gaat u akkoord met het gewijzigde tarief. Voor de invoering van vergoedingen is uw voorafgaande toestemming en registratie vereist.",
+          "payment_point3": "Afhankelijk van de door u gekozen betaalmethode kan de uitgever van de betaalmethode u bepaalde kosten in rekening brengen met betrekking tot de verwerking van uw betaling.",
+          "payment_point4": "U kunt uw betaalmethode wijzigen in uw accountinstellingen (Portaal) van de betreffende Dienst.",
+          "payment_point5": "ZTFR kan de Diensten aan u opschorten of annuleren als een betaling niet succesvol wordt afgehandeld (bijvoorbeeld bij onvoldoende middelen, verloop van creditcards, een wijziging in betalingsgegevens of anderszins). Opschorting of annulering van de Diensten wegens niet-betaling kan leiden tot verlies van toegang tot uw account en uw Inhoud.",
+          "payment_point6": "Als u zich abonneert en ons betaalt via de Apple App Store of Google Play Store, zijn mogelijk ook de voorwaarden van Apple of Google van toepassing."
+        },
+        "subscription_cancelation": {
+          "subscription_cancelation_heading": "ANNULERING VAN EEN ABONNEMENT",
+          "subscription_cancelation_point1": "De initiële abonnementsperiode varieert afhankelijk van uw keuze en/of de Dienst waaraan het van toepassing is.",
+          "subscription_cancelation_point2": "Afgezien van uw annuleringsrechten onder lokale verplichte consumentenwetgeving, heeft u het recht om uw abonnement binnen de eerste 7 dagen te annuleren, tenzij u de Dienst tijdens deze periode begint te gebruiken, waarbij u uw recht op annuleren opgeeft.",
+          "subscription_cancelation_point3": "De abonnementsperiode wordt automatisch verlengd voor de geselecteerde abonnementsperiode, tenzij u uw abonnement op tijd heeft geannuleerd (vóór de laatste dag van uw abonnement).",
+          "subscription_cancelation_point4": "Bij annulering behoudt u toegang tot de Diensten tot het einde van uw betaalde abonnementsperiode.",
+          "subscription_cancelation_point5": "Annulering geeft u geen recht op teruggave van (een deel van) het abonnementsgeld.",
+          "subscription_cancelation_point6": "In het geval dat uw abonnement automatisch wordt verlengd voor een periode van meer dan drie (3) maanden, heeft u het recht om het abonnement op elk moment na dergelijke verlenging te annuleren met een opzegtermijn van één (1) maand. In geval van annulering op basis van deze clausule kunt u verzoek doen tot teruggave van een deel van het abonnementsgeld. Dit betekent dat u betaalt voor de periode tot de annulering van kracht wordt, op basis van de standaard maandelijkse vergoeding voor de betreffende Dienst.",
+          "subscription_cancelation_point7": "Bij annulering of als een betaling niet succesvol is verwerkt (bijvoorbeeld vanwege verloop of onvoldoende saldo), wordt uw account gedeactiveerd na afloop van uw abonnementsperiode. U zult dan geen toegang hebben tot uw persoonlijke gegevens, adresboek en enige Inhoud die is opgeslagen met behulp van de Dienst(en). U kunt uw abonnement op elk moment opnieuw activeren in uw accountinstellingen (Portal) door betaling te verrichten binnen vier weken na deactivering. Uw abonnement wordt dan vernieuwd vanaf de dag van heractivering.",
+          "subscription_cancelation_point8": "Als u uw abonnement niet binnen de hierboven gestelde termijn opnieuw activeert, kan een deel van uw Inhoud die is opgeslagen met behulp van de Dienst(en) en enige van uw informatie, inclusief uw persoonlijke inhoud, instellingen, adresboek en eventuele bestanden die zijn opgeslagen voor overdracht, automatisch en permanent zijn verwijderd van onze servers.",
+          "subscription_cancelation_point9": "Als u zich abonneert via de Apple App Store, kunnen de voorwaarden van Apple van toepassing zijn op de termijn en annulering van uw abonnement in plaats van de voorwaarden in deze clausule."
+        },
+        "teams": {
+          "teams_heading": "TEAMS (Betaling, voorwaarden en annulering)",
+          "teams_point1": "Een ZTFR Teams-account wordt namens de Teamverkoper geregistreerd. De Teamverkoper wordt in rekening gebracht voor alle teamleden die zijn geabonneerd op het ZTFR Teams-account.",
+          "teams_point2": "De Teamverkoper en individuele teamleden kunnen teamleden toevoegen aan het Teams-account, waarna nieuwe teamleden onmiddellijk toegang hebben tot het account. Als teamleden worden toegevoegd tijdens een lopende abonnementsperiode, wordt de Teamverkoper pro rata in rekening gebracht voor de resterende dagen tijdens die abonnementsperiode. Daarna wordt de Teamverkoper volledig in rekening gebracht voor het nieuwe teamlid in de volgende betaalde abonnementsperiode.",
+          "teams_point3": "De Teamverkoper en individuele teamleden kunnen teamleden verwijderen uit het ZTFR Teams-account, waarna dergelijke teamleden onmiddellijk de toegang tot het account verliezen. Als teamleden worden verwijderd tijdens een lopende abonnementsperiode, wordt de Teamverkoper in rekening gebracht voor dit teamlid tot het einde van die betaalde abonnementsperiode. De Teamverkoper wordt niet in rekening gebracht voor het verwijderde teamlid in de volgende betaalde abonnementsperiode.",
+          "teams_point4": "Eventuele ongebruikte dagen in een betaalde abonnementsperiode als gevolg van het verwijderen van een teamlid, kunnen worden gebruikt voor een nieuw toegevoegd teamlid tijdens dezelfde betaalde abonnementsperiode.",
+          "teams_point5": "Als een ZTFR Teams-account wordt geannuleerd, behouden de Teamverkoper en teamleden de toegang tot het ZTFR Teams-account tot het einde van de betaalde abonnementsperiode. Na de betaalde abonnementsperiode krijgt de Teamverkoper en de teamleden automatisch toegang tot een individueel, gratis ZTFR-account.",
+          "teams_point6": "In het geval dat uw abonnement automatisch wordt verlengd voor een periode van meer dan drie (3) maanden, heeft u het recht om het abonnement op elk moment na dergelijke verlenging te annuleren met een opzegtermijn van één (1) maand. In geval van annulering op basis van deze clausule kunt u verzoek doen tot teruggave van een deel van het abonnementsgeld. Dit betekent dat u betaalt voor de periode tot de annulering van kracht wordt, op basis van de standaard maandelijkse vergoeding voor de betreffende Dienst.",
+          "teams_point7": "Bij annulering of als een betaling niet succesvol is verwerkt (bijvoorbeeld vanwege verloop of onvoldoende saldo), wordt uw account gedeactiveerd na afloop van uw abonnementsperiode. U zult dan geen toegang hebben tot uw persoonlijke gegevens, adresboek en enige Inhoud die is opgeslagen met behulp van de Dienst(en). U kunt uw abonnement op elk moment opnieuw activeren in uw accountinstellingen (Portal) door betaling te verrichten binnen vier weken na deactivering. Uw abonnement wordt dan vernieuwd vanaf de dag van heractivering.",
+          "teams_point8": "Als u uw abonnement niet binnen de hierboven gestelde termijn opnieuw activeert, kan een deel van uw Inhoud die is opgeslagen met behulp van de Dienst(en) en enige van uw informatie, inclusief uw persoonlijke inhoud, instellingen, adresboek en eventuele bestanden die zijn opgeslagen voor overdracht, automatisch en permanent zijn verwijderd van onze servers.",
+          "teams_point9": "Als u zich abonneert via de Apple App Store, kunnen de voorwaarden van Apple van toepassing zijn op de termijn en annulering van uw abonnement in plaats van de voorwaarden in deze clausule."
+        },
+        "content_ownership": {
+          "content_ownership_heading": "Eigendom, toestemming en verantwoordelijkheid van inhoud",
+          "content_ownership_point1": "ZITRANSFER (ZTFR) claimt geen eigendom van de inhoud die u maakt, gebruikt, opslaat of deelt via de Diensten, en u bent daar volledig verantwoordelijk voor. U bent volledig verantwoordelijk voor het delen met de juiste ontvangers. Elke aansprakelijkheid voor schade met betrekking tot de inhoud ligt bij de persoon die deze maakt, gebruikt, opslaat en/of deelt binnen de Diensten. U erkent dat download- en/of toegangslinks kunnen worden doorgestuurd en dat ontvangers met toegang tot dergelijke links toegang kunnen krijgen tot de inhoud waarmee deze is verbonden.",
+          "content_ownership_point2": "Sommige van de Diensten stellen u in staat om inhoud of overdrachten te beveiligen met een wachtwoord en pincode. De gebruiker is volledig verantwoordelijk voor de vertrouwelijkheid en/of de distributie van wachtwoorden.",
+          "content_ownership_point3": "Door gebruik te maken van de Diensten garandeert u dat u voor alle inhoud die u maakt, gebruikt, opslaat of deelt via de Diensten, alle vereiste toestemmingen heeft (inclusief van auteursrechthebbenden en andere eigenaren van intellectuele eigendomsrechten) om de inhoud te distribueren, sublicentiëren, overdragen, opslaan en/of beschikbaar te maken via de Diensten.",
+          "content_ownership_point4": "ZTFR is niet aansprakelijk jegens u of enige derde partij voor enige schade die voortvloeit uit of verband houdt met de inhoud die u maakt, gebruikt, opslaat of deelt via de Diensten, inclusief, maar niet beperkt tot, auteursrechtelijk beschermde werken en/of handelsmerken.",
+          "content_ownership_point5": "ZITRANSFER (ZTFR) vereist een licentie van u met betrekking tot de inhoud ALLEEN VOOR HET DOEL VAN HET BEDRIJF, MOGELIJK MAKEN EN VERBETEREN VAN DE DIENSTEN. Alleen voor dit specifieke doel en totdat u de inhoud verwijdert uit de Diensten, gaat u akkoord en erkent u dat door het gebruik van de Diensten, u ons een onbeperkte, wereldwijde, royaltyvrije licentie verleent om (i) de inhoud te gebruiken, hosten, opslaan, scannen, zoeken, sorteren, indexeren, voorbeelden maken en (ii) reproduceren, communiceren, publiceren, openbaar weergeven, distribueren en bewerken (inclusief, maar niet beperkt tot schalen, bijsnijden, aanpassen en vertalen) van de inhoud. DE LICENTIE ONDER (ii) IS NIET VAN TOEPASSING OP ZITRANSFER (ZTFR) BESTANDSDELING zoals uiteengezet in clausule 2 van deze Voorwaarden. Voor de duidelijkheid zal ZITRANSFER (ZTFR) de inhoud niet verkopen of adverteren: ZITRANSFER (ZTFR) heeft de licentie ALLEEN NODIG VOOR HET DOEL VAN HET BEDRIJF, MOGELIJK MAKEN EN VERBETEREN VAN DE DIENSTEN.",
+          "content_ownership_point6": "ZTFR biedt geen openbare zoekfunctie, catalogus of lijst om inhoud te vinden.",
+          "content_ownership_point7": "ZTFR kan u advertenties tonen van adverteerders en artiesten die door ZTFR zijn geselecteerd (zoals full-page wallpaper-advertenties) wanneer u de Diensten gebruikt."
+        },
+        "restrictions": {
+          "restrictions_heading": "Beperkingen",
+          "restrictions_point1": "ZTFR respecteert uw rechten en verwacht dat u de rechten van anderen respecteert, inclusief ZITRANSFER (ZTFR), zijn artiesten, adverteerders en derde partijen. Hieronder valt ook het respecteren van het recht op privacy, bedrijfsinlichtingen, bedrijfsgeheimen en intellectuele eigendomsrechten, zoals handelsmerken, auteursrechten, handelsnamen en logo's. U stemt ermee in om de Diensten niet te gebruiken om enige onwettige of criminele handelingen te plegen, te bevorderen, mogelijk te maken of te vergemakkelijken, of in strijd met deze Voorwaarden, of anderen aan te moedigen om dit te doen.",
+          "restrictions_point2": {
+            "point": {
+              "pointpart1": "Als voorwaarde om gebruik te kunnen maken van de Diensten",
+              "pointpart2": "ga ermee akkoord om niet te creëren, gebruiken, opslaan of",
+              "pointpart3": "deel elk",
+              "pointpart4": "Inhoud die:"
+            },
+            "subpoint1": "CSAI (afbeeldingen van kindermisbruik) bevat",
+            "subpoint2": "Obsceen, lasterlijk, smadelijk, beledigend, indecent, discriminerend, bedreigend, beledigend, schadelijk, onfatsoenlijk, vulgair of onwettig is",
+            "subpoint3": "Racisme, geweld of haat promoot",
+            "subpoint4": "Feitelijk onjuist, vals, misleidend, verkeerd voorstellend of misleidend is",
+            "subpoint5": "U niet de rechten op heeft",
+            "subpoint6": "Inbreuk maakt, schendt of inbreuk maakt op intellectuele eigendomsrechten, privacyrechten, inclusief gegevensbeschermingsrechten, en/of enige andere soort rechten",
+            "subpoint7": "In strijd is met enige toepasselijke wet of regelgeving; en/of",
+            "subpoint8": "‘Hate speech’ vormt, gericht op een individu of een groep, en gebaseerd is op ras, geslacht, geloofsovertuiging, nationale afkomst, religieuze overtuiging, seksuele geaardheid, taal of een andere karakteristiek van een dergelijk individu of groep."
+          },
+          "restrictions_point3": {
+            "point": "Daarnaast stemt u ermee in om niet:",
+            "subpoint1": "Misbruik te maken, lastig te vallen, stalken, intimideren, bedreigen, geweld te plegen, of anderszins onwettig te handelen, of anderen aan te moedigen dit te doen",
+            "subpoint2": "U voor te doen of valse affiliatie met enige persoon of entiteit te pretenderen",
+            "subpoint3": "Toegang te verkrijgen tot niet-openbare delen van de Diensten",
+            "subpoint4": "Inmengen met enige toegangs- of gebruikbeperkingen",
+            "subpoint5": "Gebruik te maken van enige methoden voor het delven of verzamelen van gegevens of anderszins informatie te verzamelen over de gebruikers van de Diensten",
+            "subpoint6": "Virussen, wormen, malware, ransomware, ongewenste e-mail, spam, kettingbrieven, phishing-e-mails, ongevraagde berichten, promoties of advertenties van welke aard dan ook en voor welk doel dan ook te verzenden",
+            "subpoint7": "In te grijpen in, schade toe te brengen aan of de Diensten te verstoren of op een manier te handelen die dit kan doen",
+            "subpoint8": "Proberen te onderzoeken, scannen, compromitteren of de kwetsbaarheid van de Diensten of enige gerelateerde dienst, systeem of netwerk te testen of enige beveiliging of authenticatie te schenden, tenzij u dit doet in overeenstemming met onze Responsible Disclosure",
+            "subpoint9": "Geautomatiseerde middelen te gebruiken om toegang te krijgen tot of de Diensten te gebruiken zonder onze toestemming",
+            "subpoint10": "Het decompileren of reverse-engineeren van enig (deel) van de Diensten",
+            "subpoint11": "De Diensten te wederverkopen, sublicentiëren, verhuren, leasen, aanbieden of anderszins commercialiseren zonder onze toestemming",
+            "subpoint12": "Anderen toestemming geven om uw account te gebruiken"
+          }
+        },
+        "violation": {
+          "content_ownership_heading": "Schending van de Gebruiksvoorwaarden",
+          "content_ownership_point1": "ZITRANSFER (ZTFR) behoudt zich het recht voor om onderzoek te doen, informatie aan derden te verstrekken, (tijdelijk) te blokkeren en/of permanent te verwijderen van haar servers, zonder voorafgaande kennisgeving of aansprakelijkheid, enige inhoud en/of accountinformatie of om iedereen te blokkeren van toegang tot enig deel van de Diensten, wanneer ZTFR vaststelt, naar eigen goeddunken of na het ontvangen van gerechtvaardigde en geldige klachten, dat u deze Voorwaarden schendt of handelt in strijd met enige toepasselijke wet of regelgeving. Meer informatie is beschikbaar in ons Notice/Takedown-beleid."
+        },
+        "intellectual": {
+          "intellectual_heading": "Intellectueel eigendom",
+          "intellectual_point1": "Alle intellectuele eigendomsrechten en/of soortgelijke rechten op de Diensten (inclusief de software, wallpapers, video's, inhoud, fotografie, grafisch ontwerp, typografie, portretten, logo's, handelsmerken, handelsnamen, domeinnamen, auteursrechten en octrooien) berusten bij ZITRANSFER (ZTFR) en/of haar licentiegevers, en u bent niet gemachtigd om deze op enigerlei wijze te gebruiken, te verwijderen, te wijzigen, te kopiëren, te spiegelen, te distribueren, te decompileren of op enigerlei wijze te reverse-engineeren.",
+          "intellectual_point2": "ZTFR is niet verantwoordelijk of aansprakelijk voor content van derden die binnen de Diensten wordt gepubliceerd, voor in-ad links naar externe websites of voor de content, producten of diensten die op externe websites worden aangeboden. U erkent en aanvaardt dat elk gebruik buiten de Diensten voor uw eigen risico is.",
+          "intellectual_point3": "U zult te allen tijde de goede naam en reputatie van ZITRANSFER (ZTFR)/ZIMO GROUP respecteren en ervoor zorgen dat uw gebruik van de Diensten op geen enkele manier inbreuk maakt op de rechten en/of de goede naam en reputatie van ZITRANSFER/ZTFR en haar licentiegevers."
+        },
+        "disclaimer": {
+          "disclaimer_heading": "Disclaimer en accountregistratie",
+          "disclaimer_point1": "ZTFR biedt de Diensten 'AS-IS', zonder enige garantie van welke aard dan ook. ZTFR wijst uitdrukkelijk alle garanties van verkoopbaarheid, geschiktheid voor een bepaald doel en niet-inbreuk af. ZTFR geeft geen garantie dat de Diensten beschikbaar zijn op een ononderbroken, veilige of foutloze basis. Uw gebruik van de Diensten is op eigen risico. U erkent en gaat ermee akkoord dat ZTFR niet verantwoordelijk is voor enige schade aan het computersysteem of mobiele apparaat van u of een derde partij die het gevolg is van het gebruik van de Diensten en niet verantwoordelijk is voor enig falen van de Diensten om een bestand op te slaan, over te dragen of te verwijderen, of voor de corruptie of verlies van gegevens, informatie of inhoud in een bestand.",
+          "disclaimer_point2": "ZTFR kan van tijd tot tijd wijzigingen aanbrengen, de Diensten beëindigen of uitbreiden en behoudt zich het recht voor om de toegang tot of de verwijdering van bepaalde functies of functionaliteit van de Diensten naar eigen goeddunken te beperken.",
+          "disclaimer_point3": "Voor sommige Diensten moet u zich registreren en ons gegevens verstrekken zoals uw e-mailadres, wachtwoord en/of betalingsgegevens. U moet ervoor zorgen dat deze gegevens juist zijn en deze bijwerken in uw accountinstellingen (Portal). U bent verantwoordelijk voor alle activiteiten vanuit of door uw account, dus u moet uw wachtwoord niet delen en er zorgvuldig mee omgaan. Als registraties of accountgegevens misbruikt lijken te worden, behoudt ZTFR zich het recht voor om het account te verwijderen. ZTFR is niet aansprakelijk voor enig verlies of schade als gevolg van ongeautoriseerd gebruik van uw account."
+        },
+        "indemnity": {
+          "indemnity_heading": "Vrijwaring en aansprakelijkheid",
+          "indemnity_point1": "U zult ZITRANSFER/ZTFR (inclusief haar werknemers en partners) verdedigen, schadeloos stellen en vrijwaren tegen enige claims, incidenten, aansprakelijkheden, procedures, schade, verliezen en kosten (inclusief juridische en accountantskosten), voortvloeiend uit of op enigerlei wijze verband houdend met uw toegang tot of gebruik van de Diensten of uw schending van deze Voorwaarden, inclusief claims van derden dat inhoud die door u is gemaakt, gebruikt, opgeslagen of gedeeld via de Diensten, inbreuk maakt op of in strijd is met de rechten van derden.",
+          "indemnity_point2": "De Diensten kunnen integratie bieden met diensten van derden. U erkent dat: (i) ZTFR niet verantwoordelijk is voor de handelingen of nalatigheden van dergelijke diensten van derden; (ii) dat ZTFR geen agent is van dergelijke diensten van derden; en (iii) uw gebruik van die diensten onderhevig is aan eventuele toepasselijke voorwaarden tussen u en de aanbieders van dergelijke diensten.",
+          "indemnity_point3": "Voor zover toegestaan onder het toepasselijke verplichte recht, is ZTFR niet aansprakelijk voor enige schade of persoonlijk letsel als gevolg van het gebruik van de Diensten, inclusief enige (tijdelijke) niet-beschikbaarheid of (per ongeluk) verwijdering van uw inhoud of account. De aansprakelijkheidsbeperking zoals genoemd in deze clausule is niet van toepassing als de aansprakelijkheid het gevolg is van opzet of grove nalatigheid van ZTFR. In het geval ZTFR aansprakelijk is voor schade onder verplichte wetgeving, zal de totale aansprakelijkheid van ZTFR voor alle vorderingen voortvloeiend uit of verband houdend met het gebruik van de Diensten, voor zover toegestaan onder toepasselijk verplicht recht, in geen geval meer bedragen dan honderd USD ($100) per gebeurtenis."
+        },
+        "wavier": {
+          "wavier_heading": "Afstand, scheidbaarheid en overdracht",
+          "wavier_point1": "Het nalaten van ZITRANSFER om een bepaling af te dwingen, is geen afstand van haar recht om dit later te doen.",
+          "wavier_point2": "Indien een (deel van een) bepaling van deze Voorwaarden onwettig, niet-afdwingbaar of anderszins ongeldig wordt bevonden, blijven (i) de rest van de Voorwaarden van kracht voor zover toegestaan onder of in overeenstemming met de relevante wetgeving; en (ii) zal dat deel geacht worden te zijn verwijderd en vervangen door een geldige bepaling die qua economisch effect het dichtst in de buurt komt van het ongeldige deel.",
+          "wavier_point3": "U mag geen van uw rechten krachtens deze Voorwaarden overdragen. ZTFR is te allen tijde gerechtigd om haar rechten over te dragen aan een van haar dochterondernemingen of gelieerde ondernemingen, of aan een opvolger met betrekking tot een onderneming die verband houdt met de Diensten, zonder uw toestemming of enige andere beperking."
+        },
+        "applicable_law": {
+          "applicable_law_heading": "Toepasselijk recht en jurisdictie",
+          "applicable_law_point1": "Deze Voorwaarden en enige niet-contractuele verplichtingen die hieruit voortvloeien of hiermee verband houden, zullen worden beheerst door en uitgelegd in overeenstemming met het Engelse recht, inclusief verplicht consumentenrecht. Deze Voorwaarden zullen geen afbreuk doen aan eventuele consumentenbeschermingsrechten waarop u mogelijk recht hebt onder de verplichte wetten van uw woonland.",
+          "applicable_law_point2": "Geschillen met betrekking tot deze Voorwaarden zullen worden voorgelegd aan de exclusieve bevoegdheid van de bevoegde rechtbank in Engeland, Verenigd Koninkrijk (met uitzondering van het Engelse internationale privaatrecht)."
+        },
+        "contact": {
+          "contact_heading": "Contact",
+          "contact_point1": "U kunt contact opnemen met de juridische afdeling van ZITRANSFER (ZTFR) via ",
+          "email": "legal@zimogroup.org"
+        }
+      },
+      "privacyStatement": {
+        "privacyStatement": "PRIVACYVERKLARING",
+        "privacy": {
+          "privacy_heading": "De PRIVACYVERKLARING beschrijft hoe ZTFR uw persoonlijke gegevens verzamelt, gebruikt en deelt.",
+          "privacy_para1": "Het beschermen van de gegevens van onze gebruikers is voor ons van het grootste belang, en we doen er alles aan om ervoor te zorgen dat we deze veilig bewaren.",
+          "privacy_para2": "We nemen uw vertrouwen en recht op privacy serieus en werken er voortdurend aan om uw digitale voetafdruk klein en onder uw controle te houden. Om u in staat te stellen in uw flow te komen en onze service te verbeteren en te beveiligen, moeten we echter een aantal persoonsgegevens verwerken. Voor vragen over privacy kunt u contact opnemen met ons team voor gegevensbescherming via ",
+          "privacy_para3": "Deze verklaring heeft betrekking op de verwerkingsactiviteiten van de ZITRANSFER (ZTFR) diensten, software, websites (inclusief browserextensies) en/of applicaties (samen: 'Diensten'). De Diensten stellen u in staat om uw ideeën, teksten, afbeeldingen, video's, gegevens, informatie, bestanden, presentaties of andere inhoud (samen: \"Inhoud\") te creëren, delen, verzamelen, vastleggen en/of visualiseren. De Diensten kunnen online aan u worden geleverd, in de vorm van mobiele en/of desktoptoepassingen en/of kunnen worden geïntegreerd in een dienst van een derde partij. Door een van de Diensten te gebruiken, stemt u in met het feit dat u onze Privacyverklaring hieronder heeft gelezen en begrepen.",
+          "privacy_para4": "U kunt uzelf vertrouwd maken met onze privacypraktijken, toegankelijk via de onderstaande koppen.",
+          "accordians": {
+            "accordian1": {
+              "heading": "WELKE INFORMATIE VERZAMELEN WE?",
+              "content": {
+                "first_para": "We slaan enkele persoonlijke gegevens op om uw gebruik van onze Diensten mogelijk te maken. Er zijn verschillende manieren waarop we persoonlijke informatie van u kunnen verzamelen: u kunt deze indienen of we zullen deze automatisch verzamelen via onze Diensten. Verschillende soorten persoonlijke informatie kunnen worden verzameld, afhankelijk van de manier waarop u onze Diensten gebruikt en welke Diensten u gebruikt. Raadpleeg de sectie \"Wat zijn uw rechten als gebruiker\" om te ontdekken hoe u uw persoonlijke informatie kunt wijzigen, openen of verwijderen.",
+                "sub_heading1": {
+                  "heading": "Persoonlijke informatie die u indient",
+                  "text1": "ZITRANSFER (ZTFR) verzamelt, verwerkt of host persoonlijke informatie die u verstrekt.",
+                  "text2": "De uploader of maker(s) is verantwoordelijk voor de rechtmatigheid van de Inhoud en moet onze Gebruiksvoorwaarden volgen, ZTFR verwerkt het alleen om zijn Diensten te verlenen. Als u persoonlijke informatie uploadt, verzendt of maakt via een van onze Diensten, kunt u een Overeenkomst voor gegevensverwerking aanvragen door een e-mail te sturen naar ",
+                  "points": {
+                    "point1": "CONTACTINFORMATIE: uw naam en uw e-mailadres of het e-mailadres van de ontvanger(s).",
+                    "point2": "INFORMATIE OVER UZELF: leeftijd, geslacht, stad, land.",
+                    "point3": "VOORKEUREN: bijvoorbeeld taalinstellingen of interesses.",
+                    "point4": "INHOUD EN METAGEGEGEVENS: u kunt ervoor kiezen om Inhoud te uploaden of te maken die allerlei persoonlijke informatie over u en anderen bevat. Dergelijke Inhoud bevat ook een bestandsnaam, grootte en bestandstype.",
+                    "point5": "PERSOONLIJKE BERICHTEN/NOTITIES: degene die u naar mensen stuurt bij het delen van uw bestanden."
+                  }
+                },
+                "sub_heading2": {
+                  "heading": "Persoonlijke informatie die we automatisch verzamelen",
+                  "text1": "ZTFR verzamelt en gebruikt ook persoonlijke informatie op geautomatiseerde wijze terwijl u onze Diensten gebruikt.",
+                  "points": {
+                    "point1": "BROWSERINFORMATIE: type browser, taalinstellingen, land en tijdzone.",
+                    "point2": "COOKIE- OF WEBBEACON-INFORMATIE: cookie-ID's en instellingen en andere persoonlijke informatie die via cookies, webbeacons of pixeltags wordt ontvangen. Meer informatie vindt u in de sectie 'Waarom en hoe worden cookies gebruikt'.",
+                    "point3": "APPARAATINFORMATIE: het type apparaat, hardwaremodel en besturingssysteem.",
+                    "point4": "IDENTIFICATIEGEGEVENS: unieke identificatiemiddelen zoals een IDFA (voor iOS), MAC-adres of een gebruikers-ID.",
+                    "point5": "NETWERKINFORMATIE: IP-adressen en informatie over mobiele netwerken.",
+                    "point6": "LOCATIEGEGEVENS: gegevens over uw geografische locatie. Als we uw apparaatgebaseerde, nauwkeurige GPS-locatie gebruiken, zullen we ervoor zorgen dat we dit alleen doen na uw toestemming.",
+                    "point7": "SERVICEGEBRUIK: informatie over de manier waarop u met onze Diensten, websites en mobiele apps interageert."
+                  }
+                },
+                "sub_heading3": {
+                  "heading": "Persoonlijke informatie die we van partners ontvangen",
+                  "text1": "We kunnen persoonlijke informatie ontvangen van derde partijen, zoals:",
+                  "points": {
+                    "point1": "INTEGRATIE-INFORMATIE: u kunt ervoor kiezen om sommige van onze Diensten te integreren met uw (sociale media- of berichtendiensten) account, om u te voorzien van rijke berichtfunctionaliteit.",
+                    "point2": "MARKETINGINFORMATIE: sommige partners kunnen aanvullende (geaggregeerde) informatie verstrekken, bijvoorbeeld via hun Software Developer Kits (SDK's). Dit kan demografische of gedragsinformatie bevatten om inhoud, advertenties en aanbiedingen te personaliseren en het juiste publiek te vinden voor onze advertenties.",
+                    "point3": "JURIDISCHE INFORMATIE: wanneer rechtshandhavingsinstanties of rechtbanken ons opdragen Content te verwijderen, kunnen we aanvankelijk persoonlijke informatie over u en uw gedrag ontvangen."
+                  }
+                }
+              }
+            },
+            "accordian2": {
+              "heading": "MET WELKE PARTIJEN DELEN WE PERSOONLIJKE INFORMATIE?",
+              "content": {
+                "first_para": "ZTFR heeft verschillende partners om zijn Diensten te exploiteren en te verbeteren. Bovendien kunnen we uw informatie delen of toestaan dat u deze deelt als onderdeel van sommige van de Diensten.",
+                "second_para": "We zijn een wereldwijd platform/bedrijf en onderdeel van een wereldwijde technologische organisatie, wat betekent dat we persoonlijke informatie kunnen delen of opslaan in landen buiten de Europese Economische Ruimte ('EER'). Die landen hebben verschillende wetten inzake gegevensbescherming. Wanneer we gegevens wereldwijd overdragen en hosten, zorgen we ervoor dat er passende waarborgen zijn om ervoor te zorgen dat uw persoonlijke informatie een vergelijkbaar beschermingsniveau geniet als binnen de EER.",
+                "points": {
+                  "point1": "DIENSTVERLENERS: zoals onze hostingprovider, aanbieder van gebruikerondersteuning, IT- en softwareaanbieders, onze betalingsverwerkers, e-mailverwerkers en de accountant(s).",
+                  "point2": "MENSEN EN (SOCIALE) MEDIA NAAR KEUZE: u kunt ervoor kiezen om uw Inhoud te delen met anderen, zoals teamleden, binnen onze Diensten of op (sociale) media zoals Facebook, X, enz.",
+                  "point3": "RECHTSHANDHAVING EN TOEZICHTHOUDERS: we zijn verplicht uw persoonlijke informatie te delen in geval van een juridisch verzoek. In geval van CSAI of wanneer we op de hoogte worden gebracht van andere illegale Inhoud, delen we ook uw persoonlijke informatie met rechtshandhavingsinstanties.",
+                  "point4": "ZAKELIJKE PARTNERS: we werken samen met advertentiepartners, marketing- en communicatiebureaus. We doen dit voor (op interesse gebaseerde) advertenties, branding en het bereiken van u. Onze advertentiepartners implementeren hun eigen trackingcookies, die vallen onder hun gebruiksvoorwaarden en privacyverklaring.",
+                  "point5": "GEÏNTEGREERDE DIENSTEN: als u besluit (een van) onze Diensten te integreren met een andere dienst (zoals uw socialemedia-account), zullen we die dienst met de onze verbinden. Om zo'n service te kunnen bieden, moeten we wat van uw persoonlijke informatie delen met die dienst. De voorwaarden en privacyverklaring van deze derde partijen zijn van toepassing, in ieder geval voor hun deel van de verbinding.",
+                  "point6": "ZTFR-ENTITEITEN: we delen persoonlijke informatie tussen entiteiten die deel uitmaken van ZITRANSFER en ZIMO GROUP om onze Diensten te verlenen en voor alle doeleinden die worden genoemd onder \"Waarom gebruiken we uw persoonlijke informatie?\"."
+                }
+              }
+            },
+            "accordian3": {
+              "heading": "WAAROM EN HOE WORDEN COOKIES GEBRUIKT?",
+              "content": {
+                "first_para": "We plaatsen cookies met de bedoeling ZTFR nog beter te maken. We werken hard om onze Diensten veilig, mooi en niet opdringerig te maken. U bent vrij om cookies te blokkeren, maar dit kan van invloed zijn op hoe goed onze Diensten werken.",
+                "second_para": "We plaatsen verschillende cookies (of vergelijkbare technologieën, zoals pixels of webbeacons) op uw apparaat met als doel uw gebruik van de Dienst te vergemakkelijken en te ontdekken hoe de Dienst kan worden verbeterd. Wij of onze advertentiepartners plaatsen ook cookies op onze website(s). Als wereldwijde dienst kunnen deze partners per land variëren. Wanneer onze advertentiepartners cookies plaatsen, kunnen deze cookies persoonlijke informatie verwerken om de effectiviteit van de campagne te meten.",
+                "third_para": "Cookies zijn kleine tekstbestanden die door uw browser op uw computer worden opgeslagen wanneer u een website bezoekt. Voorbeelden van cookie-doeleinden zijn: uw taalvoorkeuren, inloggen op een account, het onthouden van inloggegevens, het tonen van gepersonaliseerde advertenties en het accepteren van de Gebruiksvoorwaarden en Privacyverklaring. Onze website kan deze cookies plaatsen voor de volgende doeleinden:",
+                "points": {
+                  "point1": "FUNCTIONELE COOKIES worden gebruikt om functionaliteiten te bieden bij het gebruik van onze Dienst, zoals de mogelijkheid om voorkeuren in te stellen of uw eerdere instellingen te onthouden.",
+                  "point2": "ANALYTISCHE COOKIES worden gebruikt om onze Dienst te optimaliseren. Bijvoorbeeld om de bruikbaarheid van onze website te optimaliseren door AB-tests uit te voeren voor een nieuwe functie, de website gebruiksvriendelijker te maken en te analyseren hoe u onze Dienst gebruikt. We gebruiken ook analytische cookies om bots en schadelijk gedrag zoals spam te stoppen. Wanneer we analytische cookies gebruiken, kunnen deze ook derdencookies bevatten, zoals te vinden in de cookielijst. Deze analytische cookies van derden verwerken persoonlijke informatie, die ook wordt beschreven in de cookielijst.",
+                  "point3": "ADVERTENTIECOOKIES worden gebruikt voor commerciële, redactionele en promotionele doeleinden. Met deze cookies kan uw internet- en surfgedrag worden gevolgd over verschillende domeinen en websites. ZTFR controleert alleen de (ene) website die u hebt bezocht voordat u een van onze websites hebt bezocht. We volgen de website niet die u bezoekt nadat u onze website hebt verlaten. Advertentiecookies worden vaak ook geplaatst door derden om de effectiviteit van hun advertentiecampagnes te meten en uw internet- en surfgedrag op andere domeinen en websites waar ze een cookie hebben geplaatst, te volgen. ZTFR heeft geen toegang tot of controle over persoonlijke informatie die via deze cookies of andere functies wordt verzameld die adverteerders en derden kunnen gebruiken. Onze Privacyverklaring is daarom niet van toepassing op deze cookies van derden, en we verwijzen u naar de Privacyverklaringen van derden om te lezen hoe zij met persoonlijke informatie omgaan.",
+                  "point4": "PIXELTAGS OF WEBBEACONS zijn stukjes code die zijn ingebed op de website en persoonlijke informatie verzamelen over de betrokkenheid van gebruikers op die webpagina. Het gebruik van een pixel stelt ons bijvoorbeeld in staat om te registreren dat een gebruiker een bepaalde webpagina heeft bezocht of op een bepaalde advertentie heeft geklikt. De pixel stelt ons ook in staat om te zien vanaf welke vorige website of kanaal een gebruiker op onze website is aangekomen."
+                }
+              }
+            },
+            "accordian4": {
+              "heading": "WAAROM GEBRUIKEN WIJ UW PERSOONLIJKE INFORMATIE?",
+              "content": {
+                "first_para": "We gebruiken uw persoonlijke informatie om onze Diensten te leveren en te verbeteren, te voldoen aan wettelijke verplichtingen, onze Diensten te adverteren en ze veilig en beveiligd te houden. Hieronder vindt u hoe we uw persoonlijke informatie specifiek gebruiken en op welke juridische grondslagen we het gebruik van uw persoonlijke informatie baseren.",
+                "sub_heading1": {
+                  "heading": "Persoonlijke informatie die we automatisch verzamelen",
+                  "points": {
+                    "point1": "DIENST: de belangrijkste reden voor het gebruik van uw persoonlijke informatie is natuurlijk om u onze Diensten aan te bieden, zoals vermeld in onze Gebruiksvoorwaarden, bijvoorbeeld om uw Inhoud te maken of visualiseren, uw ideeën te delen en u toegang te geven tot en gebruik te maken van uw Inhoud op verschillende apparaten.",
+                    "point2": "ONDERSTEUNING: we bieden een breed scala aan ondersteunende diensten om u te helpen wanneer u dat nodig heeft, bijvoorbeeld wanneer u technische ondersteuning nodig heeft. Als het nodig is om ondersteuning te bieden, kan het Support-team op uw verzoek toegang krijgen tot uw Inhoud om u te helpen.",
+                    "point3": "ACCOUNT & FACTURERING: het creëren en handhaven van uw persoonlijke account, bijvoorbeeld om uw adresboek te vergemakkelijken en u in staat te stellen toegang te krijgen tot uw Inhoud op verschillende apparaten, het vergemakkelijken van de betaling van uw abonnementskosten en het uitvoeren van boekhoudkundige, controle- en factureringsactiviteiten.",
+                    "point4": "VEILIGHEID, INTEGRITEIT & BEVEILIGING: ZTFR volgt meldingen van misbruik, NTD/DMCA-meldingen, fraudeonderzoeken en kan uw naleving van onze Gebruiksvoorwaarden en/of API Gebruiksvoorwaarden onderzoeken. Bovendien detecteren en blokkeren we kinderpornografie (CSAI). Detectie van CSAI leidt tot geautomatiseerde beslissingen of dergelijke Inhoud mogelijk CSAI is. Gevallen van mogelijke CSAI worden rechtstreeks gemeld aan rechtshandhavingsinstanties. Verder beschermen we onszelf tegen fraude en andere illegale activiteiten. In al deze gevallen behouden we het recht om uw Inhoud te bewaren en te delen, samen met andere identificerende informatie, met rechtshandhavingsinstanties. Tot slot kunnen we uw persoonlijke informatie gebruiken voor interne controle om onze veiligheid, integriteit en beveiliging en uw veiligheid te waarborgen. Bijvoorbeeld, in geval van verdenking van schendingen van onze Gebruiksvoorwaarden of de API Gebruiksvoorwaarden.",
+                    "point5": "VERBETERING & ONTWIKKELING: we evalueren het gebruik van onze Diensten om ze te verbeteren, bugs op te lossen, nieuwe producten en diensten te ontwikkelen. We doen dit door marktonderzoek (bijvoorbeeld door enquêtes te versturen) of door analyses uit te voeren (bijvoorbeeld door uw persoonlijke informatie over onze Diensten of uw mobiele apparaten bij elkaar te brengen). We doen dit om te begrijpen hoe onze gebruikersgroep als geheel interacteert met onze Diensten, maar ook om het effect van onze advertenties te beoordelen en die Diensten en advertenties dienovereenkomstig te verbeteren.",
+                    "point6": "MARKETING, ADVERTENTIE & COMMUNICATIE: we gebruiken uw persoonlijke informatie voor marketing en (op interesse gebaseerde) advertenties, bijvoorbeeld door gebruik te maken van SDK's of cookies, evenals communicatie. Denk aan updates over nieuwe Diensten, maar ook aan gepersonaliseerde advertenties van ZTFR of onze partners, die we kunnen tonen op onze eigen website of op websites van derden. Om het juiste publiek voor deze advertenties te vinden, zullen we kijken naar bepaalde segmenten van mensen. Bijvoorbeeld, mensen die soortgelijke Diensten als de onze gebruiken, mensen die dezelfde kenmerken hebben als onze huidige gebruikers of mensen in een bepaalde geolocatie, zoals het gebied Londen. Om contact te maken met ons doelpubliek kunnen we gebruikmaken van sequentiële berichtgeving, wat in feite een vorm van storytelling is: telkens wanneer u op een ander apparaat met onze Diensten interacteert, kunt u een iets andere advertentie in een andere vorm ontvangen, maar de advertenties maken deel uit van hetzelfde verhaal. Bovendien, op basis van de manier waarop u met onze Diensten via uw apparaten interacteert, kunnen we een van onze (andere) Diensten of functies promoten. Verder stellen we u in staat deel te nemen aan eventuele (gepersonaliseerde) acties, promoties of evenementen die we aanbieden. Tot slot maken we gebruik van e-mailmarketing om u relevante verhalen over creativiteit of ZTFR-nieuws te sturen. Indien nodig zullen we altijd om uw toestemming vragen voordat we u e-mailmarketing sturen. U kunt zich natuurlijk altijd eenvoudig afmelden in elke e-mail die u ontvangt.",
+                    "point7": "JURIDISCH: voor zover nodig, kunnen we uw persoonlijke informatie gebruiken om ZITRANSFER (ZTFR) / ZIMO GROUP te verdedigen in juridische procedures met betrekking tot of als gevolg van uw gebruik van onze Diensten, in overeenstemming met een gerechtelijk bevel, in overeenstemming met enige wet, regelgeving of overheidsverzoek, samenwerken met wetshandhavingsinstanties, samenwerken in fraudeonderzoeken van derden, nationale veiligheid waarborgen, verdediging, openbare veiligheid en handhaving van onze Gebruiksvoorwaarden."
+                  }
+                },
+                "sub_heading2": {
+                  "heading": "Juridische grondslagen",
+                  "text1": "Elke verwerkingsactiviteit heeft een geldige juridische grondslag, die hieronder wordt beschreven.",
+                  "points": {
+                    "point1": "CONTRACTUELE VERPLICHTINGEN MET U: met betrekking tot de activiteiten en doeleinden zoals vermeld onder 1, 2 en 3. We moeten persoonlijke informatie verwerken om onze Diensten aan te bieden via onze websites en mobiele apps, technische ondersteuning te bieden en uw abonnementskosten in rekening te brengen.",
+                    "point2": "WETTELIJKE VERPLICHTINGEN: met betrekking tot de activiteiten en doeleinden onder 3, 4 en 7. We zijn wettelijk verplicht om uw persoonlijke informatie te verwerken voor boekhoudkundige doeleinden, om te reageren op juridische verzoeken en NTD- of DMCA-verzoeken.",
+                    "point3": "TOESTEMMING: (gedeeltelijk) met betrekking tot activiteiten en doeleinden zoals vermeld onder 2 (bijvoorbeeld toegang tot uw Inhoud voor ondersteuning) en 6, behalve wanneer we directe marketingcommunicatie in verband met onze eigen en soortgelijke Diensten aan u als betaalde gebruiker communiceren.",
+                    "point4": "LEGITIEME BELANGEN: (gedeeltelijk) met betrekking tot activiteiten en doeleinden onder 1 & 3 (bijvoorbeeld om toegang op meerdere apparaten te bieden). Voor de doeleinden zoals vermeld onder 4 om veilige Diensten te bieden, fraude te voorkomen en op te treden tegen het illegale gebruik van onze Diensten. Voor onze innovatieve belangen zoals vermeld onder 5. En tot slot voor onze (directe) marketing, merkbelangen onder 6 en juridische en nalevingsbelangen zoals vermeld onder 7. Wanneer we uw persoonlijke informatie gebruiken op basis van ons of een legitiem belang van derden, zorgen we ervoor dat we uw rechten en vrijheden in evenwicht brengen tegenover dat legitieme belang. Als, voor zover van toepassing, u bezwaar wilt maken tegen de activiteiten op basis van ons legitieme belang en er geen opt-out beschikbaar is in uw accountinstellingen of ontvangen communicatie, neem dan contact op."
+                  }
+                }
+              }
+            },
+            "accordian5": {
+              "heading": "KUNT U ZITRANSFER (ZTFR) GEBRUIKEN VOOR PRIVÉ- EN GEVOELIGE BESTANDEN?",
+              "content": {
+                "first_para": "We behandelen uw Inhoud met respect. We bieden geen openbare zoekfunctie, catalogus of lijst om Inhoud te vinden. We vertrouwen erop dat u begrijpt dat we geautomatiseerde systemen gebruiken om dergelijke Inhoud op kinderpornografie (CSAI) te detecteren en te verminderen. Tot slot zijn we verplicht uw Inhoud te verwijderen wanneer we een kennisgeving van verwijdering/DMCA-verzoek ontvangen of wanneer we een wettelijk verzoek ontvangen.",
+                "second_para": "Wees voorzichtig bij het verspreiden van download-/toegangslinks - wie deze links ontvangt of toegang heeft tot een download-/toegangslink, kan toegang krijgen tot of de Inhoud downloaden. Voor extra beveiliging en vertrouwelijkheid kunt u onze functie gebruiken om uw bestanden te beveiligen met een wachtwoord (indien beschikbaar)."
+              }
+            },
+            "accordian6": {
+              "heading": "HOE VEILIG IS HET GEBRUIK VAN ONZE VERSLEUTELDE DIENSTEN?",
+              "content": {
+                "first_para": "ZITRANSFER (ZTFR) neemt technische en organisatorische maatregelen om uw persoonlijke informatie te beschermen tegen verlies of andere vormen van onwettige verwerking.",
+                "second_para": "We zorgen ervoor dat persoonlijke informatie alleen toegankelijk is voor degenen die toegang nodig hebben om hun werk uit te voeren en dat ze juist gemachtigd zijn. Dat betekent dat we logs bijhouden van wie toegang heeft tot persoonlijke informatie, we beperken het aantal mensen dat toegang heeft en zorgen ervoor dat persoonlijke informatie alleen kan worden gelezen, gekopieerd, gewijzigd of verwijderd door juist gemachtigd personeel. We monitoren interne activiteiten om de veiligheid en nauwkeurigheid van persoonlijke informatie te waarborgen.",
+                "third_para": "Het personeel van ZTFR moet zich gedragen in overeenstemming met de richtlijnen van het bedrijf met betrekking tot vertrouwelijkheid, ethiek en passend gebruik van persoonlijke informatie. Het personeel is verplicht een geheimhoudingsovereenkomst te ondertekenen.",
+                "forth_para": "Tijdens het uploaden, terwijl het op onze servers staat en tijdens het downloaden, wordt de inhoud versleuteld en alleen verzonden via een beveiligde verbinding (https). De servers die we gebruiken om uw inhoud voor u op te slaan, voldoen aan de GDPR en zijn beveiligd."
+              },
+              "text": "ZTFR GEBRUIKT ADVANCED ENCRYPTION STANDARD (AES) 256-BIT OM DE VERTROUWELIJKHEID VAN DE GEGEVENS DIE U UPLOADT TE BESCHERMEN."
+            },
+            "accordian7": {
+              "heading": "WELKE BEWARINGSPROCEDURES ZIJN VAN TOEPASSING?",
+              "content": {
+                "para": "De bewaartermijn van uw persoonlijke informatie is afhankelijk van de dienst die u gebruikt en de categorie van persoonlijke informatie waarover we spreken. Raadpleeg altijd de website(s) of app(s) van de dienst(en) voor specifieke informatie over bewaartermijnen.",
+                "heading1": {
+                  "sub_heading": "PERSOONLIJKE INFORMATIE",
+                  "para": "ZTFR bewaart uw persoonlijke informatie zo lang als nodig is om onze diensten aan u te leveren (bijv. het handhaven van uw gebruikersaccount), om onze zakelijke activiteiten uit te voeren en onze legitieme belangen na te leven, zoals het bieden van veilige en beveiligde diensten, het oplossen van bugs en om contact met u op te nemen, om te voldoen aan de toepasselijke wetten (bijv. het bewaren van financiële informatie gedurende 7 jaar voor belastingdoeleinden) en juridische verzoeken en om (juridische) geschillen op te lossen."
+                },
+                "heading2": {
+                  "sub_heading": "BESTANDEN DIE U OVERBRENGT",
+                  "para": "Bij gebruik van ZTFR File Sharing wordt uw inhoud na 7 dagen (standaard) verwijderd, tenzij u een specifieke duur heeft gekozen. Data van een ZTFR Pro-account wordt standaard 28 dagen bewaard of tot de handmatig ingestelde vervaldatum. Na deze periode wordt een bestand automatisch van onze servers verwijderd met militair-grade verwijdering. De persoonlijke informatie die bij uw overdracht hoort, wordt maximaal 12 maanden bewaard. Dergelijke persoonlijke informatie is slechts toegankelijk voor zeer weinig mensen binnen ZTFR, degenen die het nodig hebben om hun werk uit te voeren, bijvoorbeeld om u ondersteuning te bieden. Wanneer gegevens ouder zijn dan 12 maanden, verwijderen we deze uit de database, pseudonimiseren we deze of anonimiseren we deze voor analyse. Pseudonimisering van uw persoonlijke informatie betekent dat we uw e-mailadres of IP-adres niet gebruiken voor analytische doeleinden, maar een willekeurige pseudoniem maken voor beide en dat pseudoniem in plaats daarvan gebruiken. Op die manier hoeven we geen direct identificeerbare persoonlijke informatie te verwerken, wat privacyvriendelijk is."
+                },
+                "heading3": {
+                  "sub_heading": "INHOUD DIE U CREEERT, GEBRUIKT, OPSLAAT OF DEELT VIA DE DIENSTEN ANDERS DAN BESTANDSDELING",
+                  "para": "De inhoud die u creëert, gebruikt, opslaat of deelt op onze diensten, anders dan onze File Sharing Service, wordt in principe bewaard totdat u stopt met interactie met onze dienst(en), wanneer u uw inhoud van de dienst(en) verwijdert, wanneer u de dienst(en) van uw apparaat(en) verwijdert of wanneer u uw account verwijdert. Raadpleeg altijd de website(s) of app(s) van de dienst(en) die u gebruikt voor specifieke informatie."
+                }
+              }
+            },
+            "accordian8": {
+              "heading": "WAT ZIJN UW RECHTEN ALS GEBRUIKER?",
+              "content": {
+                "para1": "Als u meer informatie nodig heeft over uw persoonlijke informatie, laat het ons weten. We kunnen vragen om bewijs van identiteit. Als u van gedachten verandert en niet langer wilt dat wij uw persoonlijke informatie verwerken, laat het ons weten.",
+                "points": {
+                  "text": "U kunt ZTFR vragen om:",
+                  "point1": "Toegang te krijgen tot, een kopie te ontvangen of uw persoonlijke informatie te corrigeren",
+                  "point2": "In bepaalde gevallen uw persoonlijke informatie (met militaire kwaliteit) te wissen of te blokkeren of beperken",
+                  "point3": "In bepaalde gevallen uw persoonlijke informatie naar andere derden te sturen"
+                },
+                "para2": "Dit kunt u doen door een e-mail te sturen naar <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>. Geef duidelijk aan in het onderwerp dat uw verzoek betrekking heeft op een privacykwestie en specifieker of het een verzoek om toegang, correctie of verwijdering is. Houd er rekening mee dat ZTFR onder bepaalde omstandigheden om aanvullende informatie kan vragen om uw identiteit vast te stellen.",
+                "heading1": {
+                  "sub_heading": "RECHT OM TE WEIGEREN",
+                  "para1": "U heeft het recht om bezwaar te maken tegen ons gebruik van uw persoonlijke informatie, bijvoorbeeld wanneer de juridische basis voor verwerking is gebaseerd op een van onze legitieme belangen (zie de subsectie \"Juridische gronden\"). Als u ons informeert dat u niet langer wilt dat wij uw persoonlijke informatie verwerken of benaderen, zal ZTFR uw persoonlijke informatie verplaatsen naar een apart bestand. Uw persoonlijke informatie zal niet langer worden gebruikt voor de hierboven genoemde doeleinden, tenzij ons legitieme belang, bijvoorbeeld veiligheid en beveiliging, zwaarder weegt dan uw recht om bezwaar te maken. U kunt dit aanvragen via <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>. Geef duidelijk aan dat uw verzoek betrekking heeft op een privacykwestie en specificeer dat u uw recht om bezwaar te maken uitoefent.",
+                  "para2": "Als u van mening bent dat we inbreuk hebben gemaakt op uw privacyrechten, kunt u een klacht indienen bij de relevante toezichthoudende autoriteit. U kunt uw klacht met name indienen in het land waar u woont, uw werkplek of de plaats waar u denkt dat we uw recht(en) hebben geschonden."
+                },
+                "heading2": {
+                  "sub_heading": "INTREKKEN VAN TOESTEMMING",
+                  "para": "Als u toestemming heeft gegeven voor de verwerking van uw persoonlijke informatie, kunt u uw toestemming op elk moment intrekken, zonder dat dit invloed heeft op de rechtmatigheid van verwerkingsactiviteiten die zijn gebaseerd op toestemming vóór de intrekking. Als u uw toestemming intrekt, zullen we de persoonlijke informatie niet langer verwerken die we hebben ontvangen op basis van uw toestemming."
+                },
+                "heading3": {
+                  "sub_heading": "CALIFORNISCHE CONSUMENTEN",
+                  "para": "Onderworpen aan bepaalde beperkingen onder California Civil Code § 1798.83, als u een inwoner van Californië bent, kunt u ons vragen om (i) een lijst van bepaalde categorieën persoonlijke informatie die we hebben bekendgemaakt aan bepaalde derden voor hun direct-marketingdoeleinden gedurende het onmiddellijk voorafgaande kalenderjaar en (ii) de identiteit van bepaalde derden die persoonlijke informatie van ons hebben ontvangen voor hun direct-marketingdoeleinden tijdens dat kalenderjaar. Wij delen echter uw persoonlijke informatie niet met marketeers, onderworpen aan de bovengenoemde wettelijke bepaling."
+                }
+              }
+            },
+            "accordian9": {
+              "heading": "HOE CONTACT OPNEMEN MET ZITRANSFER (ZTFR)",
+              "content": {
+                "para": "Ons ondersteuningsteam is beschikbaar via <b><a href='mailto:support@zitransfer.com?subject= Support enquiry'>support@zitransfer.com</a></b>. Als u vragen heeft, stuur ons dan een e-mail. Als u vragen heeft over de manier waarop ZITRANSFER (ZTFR) uw persoonlijke informatie verwerkt of de persoonlijke informatie die ZTFR over u opslaat, neem dan contact op met ZTFR door een e-mail te sturen met uw vraag naar <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>. Als u contact moet opnemen met ons Data Protection Team, doe dit dan via <b><a href='mailto:dpt@zitransfer.com?subject= DPT enquiry'>dpt@zitransfer.com</a></b>."
+              }
+            },
+            "accordian10": {
+              "heading": "WIJZIGINGEN IN DE PRIVACYVERKLARING",
+              "content": {
+                "para": "Merk op dat ZITRANSFER (ZTFR) deze Privacyverklaring van tijd tot tijd kan herzien. Elke herziene versie zal worden gedateerd en gepost op de website. ZITRANSFER raadt aan dat u de website van tijd tot tijd bekijkt en let op eventuele wijzigingen. Als u niet akkoord gaat met de Privacyverklaring, dient u de website en/of de dienst niet langer te gebruiken. Door te blijven gebruikmaken van de website en/of dienst accepteert u eventuele wijzigingen in de Privacyverklaring."
+              }
+            }
+          }
+        }
+      },
+      "noticePolicy": {
+        "noticepolicy": "MEDEDELING/VERWIJDERINGSBELEID",
+        "content": {
+          "para1": "ZTFR respecteert uw rechten en verwacht dat u de rechten van anderen respecteert. In het geval dat ZTFR onwettige bestanden of inhoud vindt of hiervan op de hoogte wordt gesteld via haar dienst, volgen we de procedures zoals beschreven in dit Mededeling/Verwijderingsbeleid.",
+          "para2": "Door gebruik te maken van onze website/platform of bestandsoverdrachtdienst gaat u akkoord met ons Mededeling/Verwijderingsbeleid hieronder."
+        },
+        "information": {
+          "information_heading": "PERSOONLIJKE INFORMATIE DIE U INDIENT",
+          "information_para": "ZTFR onderschrijft de Engelse Gedragscode inzake Mededeling/Verwijdering (\"Code\") van het Platform Internetbeveiliging. Deze Gedragscode stelt procedures vast voor internetintermediairs zoals ZITRANSFER (ZTFR) om te reageren op meldingen van (vermeende) onwettige inhoud, gericht op het verwijderen van betwiste inhoud (\"Melding\" of \"Meldingen\"). Dit Mededeling/Verwijderingsbeleid (\"NTD-beleid\") beschrijft de procedures en tijdsbeperkingen die ZITRANSFER (ZTFR) hanteert bij de behandeling van dergelijke Meldingen."
+        },
+        "requirements": {
+          "requirements_heading": "EISEN VOOR MELDINGEN",
+          "requirements_para1": "Elke persoon of organisatie die een Melding (\"Melder\") doet, heeft de plicht ervoor te zorgen dat deze correct en volledig is.",
+          "requrements_para2": "ZITRANSFER moet in staat zijn om de Meldingen te verifiëren na een onderzoek naar een strafbaar feit dat afkomstig is van een inspectie- of onderzoeksdienst, of in het geval van een formeel juridisch bevel van het Openbaar Ministerie. Een Melding van een andere aard dan de voorgaande moet ten minste de volgende informatie bevatten:",
+          "requrements_points": {
+            "point1": "Contactgegevens van de Melder, naam, functie, organisatie, adres, e-mailadres",
+            "point2": "Alle informatie die ZITRANSFER nodig heeft om de wettigheid van de betwiste inhoud te beoordelen, inclusief de locatie (URL)",
+            "point3": "Geldige redenen voor de onwettigheid van de inhoud, of waarom deze in strijd is met de Algemene Voorwaarden, NTD of Privacyverklaring van ZITRANSFER"
+          }
+        },
+        "indemnity": {
+          "heading": "vrijwaring",
+          "para": "De Melder zal ZITRANSFER een uitdrukkelijke vrijwaring verschaffen tegen 1) vorderingen van de gebruiker wiens inhoud in geschil is (\"Inhoudsaanbieder\") met betrekking tot enige acties die ZITRANSFER heeft ondernomen met betrekking tot de Melding, en 2) vorderingen van de Melder met betrekking tot inhoud die via onze dienst is verzonden."
+        },
+        "urgency": {
+          "heading": "urgentie",
+          "para": "De Melder kan ZITRANSFER verzoeken om de Melding met spoed af te handelen. In dat geval moet de Melding alle redenen voor urgentie onderbouwen. ZITRANSFER bepaalt naar eigen goeddunken of de Melding met spoed moet worden behandeld op basis van de voorgaande uitleg."
+        },
+        "evaluation": {
+          "evaluation_heading": "evaluatie",
+          "evaluation_text": "ZITRANSFER zal de Melding evalueren en classificeren in een van de drie categorieën:",
+          "evaluations_points": {
+            "point1": "Strafbare inhoud gemeld door een inspectie- of onderzoeksdienst, of in het geval van een formeel juridisch bevel van het Openbaar Ministerie",
+            "point2": "Ondubbelzinnig onwettige inhoud en/of strafbare inhoud gemeld door andere bronnen dan de autoriteiten vermeld onder 1)",
+            "point3": "Alle andere inhoud die noch onder categorie 1) noch onder categorie 2) valt"
+          }
+        },
+        "measures": {
+          "measures_heading": "maatregelen",
+          "measures_text": "De classificatie van de Melding door ZITRANSFER bepaalt welke maatregelen worden genomen om de Melding aan te pakken.",
+          "measures_points": {
+            "point1": "In het geval dat ZITRANSFER vaststelt dat de betreffende inhoud ondubbelzinnig onwettig of strafbaar is, in andere woorden, onder de bovengenoemde categorieën 1) en 2) valt, zorgt ZITRANSFER ervoor dat de betreffende inhoud onmiddellijk wordt verwijderd",
+            "point2": "In het geval dat ZITRANSFER vaststelt dat de betreffende inhoud niet ondubbelzinnig onwettig of strafbaar is, met andere woorden, onder de bovengenoemde categorie 3) valt, wordt de betreffende inhoud niet verwijderd. ZITRANSFER informeert de Melder dienovereenkomstig",
+            "point3": "In het geval dat ZITRANSFER niet of onvoldoende kan beoordelen of de betreffende inhoud ondubbelzinnig onwettig of strafbaar is, informeert ZITRANSFER de Inhoudsaanbieder over de Melding met het verzoek om (i) ZITRANSFER toe te staan de inhoud te verwijderen of (ii) contact op te nemen met de Melder. Als de Melder en de Inhoudsaanbieder geen overeenkomst kunnen bereiken, kan de Melder officieel aangifte doen bij de politie als er mogelijk sprake is van een strafbaar feit. Als het inhoud betreft die vermeend onwettig is onder het burgerlijk recht, kan de Melder het geschil met de Inhoudsaanbieder voorleggen aan een Engelse rechtbank. Als de Inhoudsaanbieder weigert zich voldoende te identificeren voor de Melder, heeft ZITRANSFER het recht om (i) de naam, het e-mailadres en het IP-adres van de Inhoudsaanbieder aan de Melder te verstrekken of (ii) de betreffende inhoud te verwijderen"
+          }
+        },
+        "period": {
+          "heading": "periode",
+          "para": "Classificatie en passende maatregelen zullen bij voorkeur zo snel mogelijk plaatsvinden, maar uiterlijk 10 werkdagen na ontvangst van de Melding."
+        },
+        "caution": {
+          "heading": "gepaste voorzichtigheid",
+          "para": "In geval van verwijdering van inhoud zal ZITRANSFER de nodige voorzichtigheid betrachten om ervoor te zorgen dat niet meer dan de noodzakelijke inhoud, met betrekking tot de Melding, wordt verwijderd."
+        },
+        "questions": {
+          "heading": "vragen?",
+          "para": "Voor vragen over dit NTD-beleid kunt u contact opnemen met ZITRANSFER door een e-mail te sturen naar "
+        }
+      },
+      "advertisementTerms": {
+        "advertisingterms": "ADVERTENTIEVOORWAARDEN",
+        "terms": {
+          "heading": "ZITRANSFER (ZTFR) VOORWAARDEN",
+          "para": "Deze ZITRANSFER advertentievoorwaarden (\"ZITRANSFER Voorwaarden\") vullen aan, maar vervangen niet, enige Invoegingsopdracht die is gesloten tussen ZITRANSFER en Klant (zoals hieronder gedefinieerd), samen met de IAB Standaardvoorwaarden voor Internetadvertenties voor Media-aankopen van een jaar of minder, Versie 3.0.",
+          "link": "https://www.iab.com/wp-content/uploads/2015/06/IAB_4As-tsandcs-FINAL.pdf",
+          "refered": "(aangeduid als \"IAB Voorwaarden\")."
+        },
+        "definitionscope": {
+          "definitionscope_heading": "DEFINITIES EN SCOPE",
+          "definitionscope_points": {
+            "point1": "Alle met hoofdletters geschreven termen die hierin worden gebruikt maar niet gedefinieerd zijn, hebben dezelfde betekenis als gedefinieerd in de IAB Voorwaarden, met uitzondering van de volgende definities, die zijn gewijzigd en nu als volgt worden gelezen in deze ZITRANSFER Voorwaarden, de IAB Voorwaarden, de Invoegingsopdracht en de Bijlagen: \"Ad\" betekent elke advertentie (inclusief maar niet beperkt tot merkinhoud) gemaakt door Mediabedrijf, al dan niet gebaseerd op of voortkomend uit de Advertentiematerialen. \"Advertentiematerialen\" betekent inhoud voor Advertenties, waaronder kunstwerk, kopie, audio- of videomateriaal, of actieve URL's. \"Mediabedrijfeigenschappen\" betekent websites, (online) nieuwsbrieven, podcasts, video's, webseries, of internetaudio- of videokanalen die zijn gespecificeerd in een Invoegingsopdracht en eigendom zijn van, worden geëxploiteerd of worden beheerd door het Mediabedrijf. \"Netwerkeigenschappen\" betekent websites, podcasts, webseries of internetaudio- of videokanalen of platforms gespecificeerd in een Invoegingsopdracht die niet eigendom zijn van, worden geëxploiteerd of worden beheerd door het Mediabedrijf, maar waarop het Mediabedrijf contractueel het recht heeft om Advertenties te serveren. De volgende definities zijn toegevoegd en hebben de volgende betekenis: \"Overeenkomst\" betekent de overeenkomst gesloten tussen het Mediabedrijf en de Klant, bestaande uit de Invoegingsopdracht, de ZITRANSFER Voorwaarden, de Bijlagen (Studio en/of Merkinhoud) en de IAB Voorwaarden. \"Klant\" betekent de tegenpartij van het Mediabedrijf onder deze Overeenkomst, zoals beschreven in en die de Invoegingsopdracht heeft ondertekend. \"Effectieve Datum\" is de ondertekeningsdatum van de Invoegingsopdracht. \"Intellectuele Eigendomsrechten\" betekent octrooien, handelsmerken, dienstmerken, handels- en bedrijfsnamen, auteursrechten, topografische rechten, domeinnamen, databaserechten en ontwerprechten, al dan niet geregistreerd en inclusief aanvragen voor een van deze rechten, bedrijfsgeheimen en vertrouwensrechten; alle rechten of vormen van bescherming van een soortgelijke aard of met een vergelijkbaar of equivalent effect als een van deze rechten die ergens ter wereld kunnen bestaan. \"Nieuwsbrief Leveringsitems\" betekent Leveringsitems die op basis van kosten per verzonden nieuwsbrief (via e-mail) worden verkocht. \"Uitstel\" betekent de expliciete of impliciete herschikking van (een deel van) de levering van de Advertentie om welke reden dan ook, naar een datum na de startdatum van de Invoegingsopdracht, veroorzaakt of geïnstrueerd door de Klant",
+            "point2": "In tegenstelling tot de introductie van de IAB Voorwaarden, zullen ook in het geval dat de Klant een andere partij is dan een Agentschap (bijvoorbeeld maar niet beperkt tot een Adverteerder), alle rechten en verplichtingen zoals uiteengezet in de IAB Voorwaarden die van toepassing zijn op een Agentschap, mutatis mutandis van toepassing zijn op de Klant.",
+            "point3": "Niettegenstaande Artikel XIV.c. van de IAB Voorwaarden, bestaat de Overeenkomst tussen de Klant en het Mediabedrijf uit de Invoegingsopdracht, deze ZITRANSFER Voorwaarden, de Bijlagen en de IAB Voorwaarden. In geval van een conflict tussen een van de contractelementen die deel uitmaken van de Overeenkomst, is de volgorde van prioriteit: i) Invoegingsopdracht, ii) ZITRANSFER Voorwaarden, iii) Bijlagen en iv) IAB Voorwaarden. Het Mediabedrijf aanvaardt de algemene voorwaarden en/of de invoegingsopdracht van de Klant of een derde partij niet, die daarom geen deel uitmaken van de Overeenkomst en niet bindend zijn voor het Mediabedrijf. Revisies van geaccepteerde Invoegingsopdrachten moeten schriftelijk worden gedaan en schriftelijk worden aanvaard door de andere partij.",
+            "point4": "Tenzij anders uitdrukkelijk schriftelijk overeengekomen, zijn de voorstellen en aanbiedingen van het Mediabedrijf geldig gedurende 30 (dertig) dagen. De Overeenkomst treedt in werking op de Effectieve Datum, mits ZITRANSFER de door de Klant ondertekende Invoegingsopdracht heeft ontvangen waarin de Klant de ZITRANSFER Voorwaarden, de Bijlage(s) en de IAB Voorwaarden accepteert. Voorraad kan niet worden gereserveerd en/of gegarandeerd vóór de Effectieve Datum. De Overeenkomst eindigt bij voltooiing van de Invoegingsopdracht (de Einddatum zoals vermeld in de Invoegingsopdracht)."
+          }
+        },
+        "changeterms": {
+          "changeterms_heading": "WIJZIGINGEN IN DE IAB VOORWAARDEN",
+          "changeterms_points": {
+            "point1": "In tegenstelling tot Secties I.a. en II.a. van de IAB Voorwaarden: Het Mediabedrijf zal geen leveringsschema's opstellen.",
+            "point2": "Deel I.b. onderdeel (i) van de IAB Voorwaarden is gewijzigd en leest nu als volgt: schriftelijke (wat e-mailcommunicatie of handtekeningen via elektronische contractbeheersystemen omvat) goedkeuring van de Invoegingsopdracht door het Mediabedrijf en het Agentschap.",
+            "point3": "Verder dan Sectie II.d. van de IAB Voorwaarden, geeft het Mediabedrijf geen garantie met betrekking tot concurrentie-omgevingen voor Advertenties die verschijnen op Mediabedrijfeigenschappen. Op schriftelijk verzoek van de Klant zal het Mediabedrijf echter redelijke commerciële inspanningen leveren om te voldoen aan de wensen van de Klant met betrekking tot concurrentie-omgevingen.",
+            "point4": "Verder dan Sectie III.b. van de IAB Voorwaarden, indien het Mediabedrijf de betaling niet heeft ontvangen binnen de overeengekomen betalingstermijn, is het Mediabedrijf gerechtigd (i) alle huidige en toekomstige Invoegingsopdrachten van de Klant te annuleren en (ii) onmiddellijk alle openstaande, ondertekende Invoegingsopdrachten en kosten in rekening te brengen tot de datum van annulering",
+            "point5": "Deel III.c. van de IAB Voorwaarden is gewijzigd en leest nu als volgt: De Klant is uitsluitend verantwoordelijk voor de inning van de vergoedingen die hij aan zijn eigen klanten heeft gefactureerd. De Klant is niet gerechtigd enige betalingsverplichting jegens het Mediabedrijf uit te stellen op basis van het niet hebben ontvangen van de vergoedingen die hij aan zijn eigen klanten heeft gefactureerd. Naar eigen goeddunken kan het Mediabedrijf voorafgaande betaling eisen.",
+            "point6": "Deel IV.c. van de IAB Voorwaarden is volledig verwijderd en maakt geen deel uit van de Overeenkomst.",
+            "point7": "Verder dan Sectie V. van de IAB Voorwaarden, in geval van annulering zal het Mediabedrijf de geannuleerde (deel van) de Invoegingsopdracht binnen 48 uur na ontvangst van de annuleringskennisgeving van de Klant offline halen. Het Mediabedrijf stuurt de Klant een bevestigingse-mail van de annulering. De facturen worden gebaseerd op de datum van de bevestigingse-mail van het Mediabedrijf.",
+            "point8": "Verder dan Sectie V. van de IAB Voorwaarden, in geval van uitstel is het Mediabedrijf gerechtigd de Klant 10% (tien procent) van de kosten genoemd in de Invoegingsopdracht in rekening te brengen als vergoeding. Deze vergoeding kan niet door de Klant worden afgetrokken van enige factuur van het Mediabedrijf en heeft geen invloed op of ontslaat de Klant niet van de verplichting om alle andere facturen van het Mediabedrijf volledig te betalen. In het geval het uitstel meer dan eens plaatsvindt en/of de nieuwe datum in een nieuw kalenderjaar valt, is het Mediabedrijf gerechtigd de (deel van de) Invoegingsopdracht te annuleren en de (deel van de) Invoegingsopdracht volledig in rekening te brengen.",
+            "point9": "De laatste zin van sectie VI.a. van de IAB Voorwaarden is gewijzigd en leest nu als volgt: Als de onderlevering groter is dan 10% in verhouding tot het aantal Leveringsitems in de toepasselijke Invoegingsopdracht, kunnen het Agentschap en het Mediabedrijf een correctie afspreken in overeenstemming met deze Voorwaarden. Als de onderlevering minder is dan 10% in verhouding tot het aantal Leveringsitems in de toepasselijke Invoegingsopdracht, is er geen correctie beschikbaar. Omdat het Mediabedrijf alleen daadwerkelijke Leveringsitems in rekening brengt, wordt de onderlevering automatisch weergegeven op de factuur.",
+            "point10": "In tegenstelling tot de tweede zin van Sectie VI.b. van de IAB Voorwaarden, factureert het Mediabedrijf alleen daadwerkelijke Leveringsitems op basis van zijn eigen gegevens, zodat het Agentschap geen krediet kan verrekenen ter waarde van het ondergeleverde deel van de Invoegingsopdracht waarvoor het in rekening is gebracht.",
+            "point11": "De laatste zin van Sectie VIII.a. van de IAB Voorwaarden is verwijderd en maakt geen deel uit van de Overeenkomst.",
+            "point12": "De termijn in Secties VIII.a. en VIII.c. van de IAB Voorwaarden is gewijzigd naar veertien (14) dagen.",
+            "point13": "Sectie IX.e. van de IAB Voorwaarden is gewijzigd en leest nu als volgt: Het Mediabedrijf is gerechtigd de noodzakelijke technische aanpassingen aan Advertentiemateriaal dat door de Klant is ingediend (zoals schalen of bijsnijden) uit te voeren. Wanneer de Klant het Mediabedrijf verzoekt content te maken voor Advertenties (zoals kunstwerken, kopieën, audio, video, vertalingen) of inhoudelijke wijzigingen aan te brengen in het door de Klant ingediende Advertentiemateriaal (zoals het veranderen van kunstwerken, kopie, audio, video of het vertalen van inhoud), hierna de \"Dienst\", zal het Mediabedrijf de Dienst \"ZOALS DEZE IS\" leveren, zonder enige garantie van welke aard dan ook. Het Mediabedrijf wijst uitdrukkelijk alle aansprakelijkheden met betrekking tot de Dienst af en geeft geen garantie dat de Dienst op een foutloze basis is. Het gebruik en de acceptatie van de Dienst door de Klant is voor risico van de Klant. De Klant erkent en stemt ermee in dat het Mediabedrijf niet verantwoordelijk en/of aansprakelijk is voor enige schade die voortvloeit uit het gebruik van de Dienst.",
+            "point14": "Sectie IX.f. van de IAB Voorwaarden is gewijzigd en leest nu als volgt: Het Mediabedrijf staat geen tags van derde partijen toe, ongeacht het type Advertentie.",
+            "point15": "Deel X.a. van de IAB Voorwaarden is gewijzigd en leest nu als volgt: Het Mediabedrijf zal de Klant, zijn Gelieerde ondernemingen en Vertegenwoordigers vrijwaren voor schade, aansprakelijkheden, kosten en uitgaven (inclusief redelijke advocatenkosten) (gezamenlijk \"Verliezen\") als gevolg van enige claim, uitspraak of procedure (gezamenlijk \"Claims\"), waarbij wordt beweerd dat de diensten van het Mediabedrijf inbreuk maken op de intellectuele eigendomsrechten van een Derde, tenzij de Claims voortvloeien uit de schending door de Klant van artikel 4.1 van deze ZITRANSFER Voorwaarden.",
+            "point16": "De eerste zin van Sectie XII.b. van de IAB Voorwaarden is gewijzigd en leest nu als volgt: Niettegenstaande hetgeen hierin in tegenspraak is, zal de term \"Vertrouwelijke Informatie\" geen informatie bevatten die: (i) eerder bekend was bij de Ontvanger; (ii) openbaar beschikbaar wordt voor het publiek zonder enige fout van de Ontvanger; (iii) betrekking heeft op een Advertentie die wordt geleverd op de Site van het Mediabedrijf en die algemeen beschikbaar wordt via die levering, zoals het Advertentietype, het gebied en de identiteit van de Adverteerder; (iv) rechtmatig in het bezit was van de Ontvanger zonder enige verplichting tot vertrouwelijkheid op het moment dat het door de Openbaarder aan de Ontvanger werd meegedeeld; (v) onafhankelijk van en zonder verwijzing naar Vertrouwelijke Informatie is ontwikkeld door werknemers of agenten van de Ontvanger; of (vi) door de Openbaarder aan een niet-verbonden derde partij is meegedeeld zonder enige verplichting tot vertrouwelijkheid.",
+            "point17": "Sectie XII d (ii) van de IAB Voorwaarden is gewijzigd en leest nu als volgt: Het Mediabedrijf kan Geaggregeerde gegevens afleiden uit Verzamelde gegevens en dergelijke gegevens gebruiken en bekendmaken voor algemene zakelijke doeleinden van het Mediabedrijf (zoals marketing en public relations).",
+            "point18": "Sectie XIII. van de IAB Voorwaarden is volledig verwijderd en vervangen door het volgende: In het geval dat een factuur wordt opgesteld op basis van gegevens en er verschillen zijn tussen de gegevens van beide partijen (bijvoorbeeld met betrekking tot Leveringsitems of locaties van Leveringsitems), kunnen de partijen hun gegevens delen en zullen ze te goeder trouw overleggen over een vriendschappelijke oplossing. Als de partijen er niet in slagen om overeenstemming te bereiken, zullen de gegevens van het Mediabedrijf prevaleren en de basis vormen van de factuur.",
+            "point19": "Verder dan Sectie XIV.a. van de IAB Voorwaarden, verklaart en garandeert de Adverteerder dat het Advertentiemateriaal voldoet aan alle toepasselijke wetten, regels en voorschriften, waaronder maar niet beperkt tot lokale en sectorspecifieke reclamecodes en brancherichtlijnen met betrekking tot reclame- en promotiecampagnes (gezamenlijk \"Reclamewetten\"). De Adverteerder begrijpt en stemt ermee in dat hij als enige verantwoordelijk is voor het informeren en verschaffen van de vereiste informatie en instructies aan het Mediabedrijf om ervoor te zorgen dat de Advertentie voldoet aan de Reclamewetten.",
+            "point20": "Verder dan Sectie XIV.f. van de IAB Voorwaarden, zullen ook de secties 1, 2 en 3 van deze ZITRANSFER Voorwaarden overleven na beëindiging of vervaldatum van de Overeenkomst."
+          }
+        },
+        "invoices": {
+          "invoices_heading": "FACTUREN EN BETALING (AANVULLENDE BEPALINGEN)",
+          "invoices_points": {
+            "point1": "Alle facturen van het Mediabedrijf moeten zonder enige korting, vermindering, verrekening, tegenclaim of compensatie en vrij van enige inhouding voor of namens enige belasting worden betaald en ze worden betaald in euro (€), Amerikaanse dollar ($) of Britse pond (£) (zoals vermeld in de Invoegingsopdracht) naar de door het Mediabedrijf gespecificeerde bankrekening. Elke factuur vermeldt de kosten exclusief btw en de van toepassing zijnde btw. Voor alle duidelijkheid: als de Klant btw moet betalen, wordt dit getoond op de factuur en moet de Klant de factuur inclusief btw betalen.",
+            "point2": "Wij kunnen van tijd tot tijd de kosten voor de Diensten introduceren of wijzigen, waarvoor wij u van tevoren op de hoogte stellen. Als u een abonnement heeft voor een bepaalde periode en prijs, blijft die prijs geldig voor de vastgestelde periode. Als u het niet eens bent met de prijswijziging, kunt u uw abonnement annuleren en stoppen met het gebruik van de Diensten aan het einde van de dan geldende servicetermijn. Als u doorgaat met het gebruik van de Diensten nadat de prijswijziging van kracht is geworden, stemt u in met het betalen van de gewijzigde prijs. Introduceren van kosten vereist uw voorafgaande toestemming en registratie.",
+            "point3": "De Klant is niet gerechtigd tot opschorting van betaling of verrekening op welke grond dan ook.",
+            "point4": "Elk geschil met betrekking tot een factuur moet schriftelijk aan het Mediabedrijf worden voorgelegd binnen 8 (acht) dagen na de datum van de factuur. Elke factuur die binnen deze periode niet is betwist, wordt als aanvaard beschouwd.",
+            "point5": "Alle betalingen aan het Mediabedrijf worden eerst toegewezen aan incassokosten, vervolgens aan rente en ten slotte aan de oudste onbetaalde factuur(s) met betrekking tot enige Overeenkomst. Eventuele achterstallige bedragen kunnen een rente opleveren van 1% (één procent) per kalendermaand of een deel daarvan, zonder dat enige ingebrekestelling vereist is, totdat volledige betaling is ontvangen. Bovendien is het Mediabedrijf gerechtigd volledige incassokosten in rekening te brengen, met een minimum van £ 250, per geval.",
+            "point6": "In geval de Klant niet voldoet aan de bepalingen van Sectie III. van de IAB Voorwaarden en/of de bepalingen 2.4, 2.5 en 3 van deze ZITRANSFER Voorwaarden, is het Mediabedrijf gerechtigd zijn diensten op te schorten of de Overeenkomst te beëindigen."
+          }
+        },
+        "adrestrictions": {
+          "adrestrictions_heading": "ADVERTENTIEBEPERKINGEN",
+          "adrestrictions_points": {
+            "point1": "In navolging van Sectie IX.c van de IAB-voorwaarden mogen Advertentiematerialen en Advertenties geen inhoud bevatten, adverteren, linken of anderszins gerelateerd zijn aan inhoud die, naar het uitsluitende oordeel van het Mediabedrijf i) obsceen, lasterlijk, smadelijk, godslasterend, schandelijk of onwettig is en/of gewelddadig, seksueel of misbruik in de aard is, zodat het redelijkerwijs waarschijnlijk beledigend is voor een wezenlijke groep mensen; ii) inbreuk maakt op of misbruik maakt van de intellectuele eigendomsrechten van derden en/of privacyrechten of enige andere soort rechten; iii) \"haatspraak\" vormt, gericht op een individu of een groep, en ongeacht of het gebaseerd is op ras, geslacht, geloof, nationale afkomst, religieuze overtuiging, seksuele geaardheid of taal van dat individu of die groep; iv) feitelijk onjuist, misleidend, bedrieglijk is; v) de reputatie van het Mediabedrijf of een van zijn merken schaadt of waarschijnlijk het Mediabedrijf of een van zijn gelieerde ondernemingen in diskrediet brengt; vi) het Mediabedrijf en zijn gebruikers blootstelt aan malware (zoals computer virussen, wormen, Trojaanse paarden of andere soortgelijke schadelijke componenten), en/of vii) in strijd is met het Notice/Takedown-beleid van het Mediabedrijf <a href='https://zitransfer.com/legal/takedown' target='blank'>(https://zitransfer.com/legal/takedown)</a> of de creatieve en commerciële richtlijnen van het Mediabedrijf.",
+            "point2": "Onverminderd Sectie IX.c van de IAB-voorwaarden behoudt het Mediabedrijf het recht om, met onmiddellijke ingang en zonder voorafgaande kennisgeving, een Advertentie te weigeren of te verwijderen, inclusief, maar niet beperkt tot situaties waarin de Advertentie, naar het oordeel van het Mediabedrijf, in strijd zou zijn met: i) enige toepasselijke wet of regelgeving, of ii) enige eerdere overeenkomsten, beleidsregels, gedragscodes of creatieve of commerciële richtlijnen van het Mediabedrijf of deze Overeenkomst."
+          }
+        },
+        "valueandtakover": {
+          "valueandtakover_heading": "TOEGEVOEGDE WAARDE EN OVERNAME",
+          "valueandtakover_points": {
+            "point1": "Het Mediabedrijf heeft het recht om de Klant extra voorraad gratis te geven (\"Toegevoegde Waarde\"). Het Mediabedrijf garandeert niet of, waar en wanneer Toegevoegde Waarde zal worden geleverd.",
+            "point2": "Het Mediabedrijf heeft het recht om de Klant exclusieve plaatsingen te bieden voor een gespecificeerde periode (\"Overname\"). Voor alle duidelijkheid, een Overname biedt de Klant exclusiviteit in tijd, niet in Leveringsitems. Het Mediabedrijf kan een schatting geven van de Leveringsitems, maar geeft geen garanties voor de hoeveelheid ervan. Onder geen enkele omstandigheid kan een Overname leiden tot Makegoods. Dit geldt ook voor enige derogatie van geschatte Leveringsitems zoals bedoeld in deze clausule 5.2."
+          }
+        },
+        "propertyrights": {
+          "propertyrights_heading": "INTELLECTUELE EIGENDOMSRECHTEN",
+          "propertyrights_points": {
+            "point1": "De intellectuele eigendomsrechten van welke aard dan ook in het Advertentiemateriaal blijven eigendom van de Klant of zijn licentiegevers. De Klant verleent hierbij aan het Mediabedrijf een niet-overdraagbare, niet-exclusieve, eeuwigdurende, royaltyvrije en sublicentieerbare licentie om (i) het Advertentiemateriaal te gebruiken voor de creatie van de Advertentie en om ze te publiceren als onderdeel van de Advertentie, in overeenstemming met de Invoegingsopdracht en om (ii) de Advertentie (inclusief eventuele Advertentiematerialen die daarin worden gebruikt) te gebruiken voor algemene zakelijke doeleinden van het Mediabedrijf en zijn aannemers (zoals marketing en public relations).",
+            "point2": "De intellectuele eigendomsrechten van welke aard dan ook in de Advertentie blijven eigendom van het Mediabedrijf of zijn licentiegevers. Behalve zoals uiteengezet in deze Advertentievoorwaarden, is de Klant niet gerechtigd om het op enigerlei wijze te kopiëren, gebruiken, verwijderen, wijzigen, spiegelen, verspreiden, decompileren of reverse-engineeren.",
+            "point3": "Deze Overeenkomst houdt geen overdracht van enige intellectuele eigendomsrechten in.",
+            "point4": "Deze clausule 6 blijft van kracht na beëindiging van deze Overeenkomst."
+          }
+        },
+        "sanctions": {
+          "sanctions_heading": "SANCTIES",
+          "sanctions_points": {
+            "point1": "Het Bureau en de Adverteerder verklaren en garanderen dat zij (of een van hun holdingmaatschappijen en/of dochterondernemingen) momenteel niet onderhevig zijn aan enige sancties die worden beheerd of gehandhaafd door de Amerikaanse regering, de Europese Unie of enige andere relevante sanctieautoriteit (gezamenlijk \"Sancties\"), inclusief door vermeld te staan op, of voor 50% of meer eigendom te zijn of anderszins te worden gecontroleerd door personen die vermeld zijn op een lijst met aangewezen partijen en personen die verband houden met Sancties (de \"Sanctieslijst\"), zoals de Lijst van speciaal aangewezen nationale en geblokkeerde personen of de Lijst van personen die onderhevig zijn aan financiële sancties van de Europese Unie, onderhouden door het Bureau voor de beheersing van de activa in het buitenland van het Amerikaanse ministerie van Financiën en de Geconsolideerde Lijst van personen, groepen en entiteiten die onderhevig zijn aan financiële sancties van de Europese Unie.",
+            "point2": "Het Bureau en de Adverteerder verklaren en garanderen dat zij (of een van hun holdingmaatschappijen en/of dochterondernemingen) niet gevestigd zijn, georganiseerd of resident zijn in een land of grondgebied dat het onderwerp is van Sancties, inclusief, maar niet beperkt tot, Cuba, Iran, Noord-Korea, Syrië, Rusland en de Krim (ieder een \"Gesanctioneerd Land\").",
+            "point3": "Het Bureau en de Adverteerder moeten het Mediabedrijf onmiddellijk informeren als zij op enig moment tijdens de uitvoering van de Overeenkomst op de hoogte worden gebracht van het feit dat zij, of hun dochterondernemingen, onderhevig worden aan Sancties of op enige Sanctieslijst worden vermeld.",
+            "point4": "Het Bureau en de Adverteerder erkennen dat het Mediabedrijf beperkt is in het leveren van Leveringsitems in Gesanctioneerde Landen. Het Bureau en de Adverteerder zijn zelf verantwoordelijk voor het op de hoogte blijven van de Sancties, Sanctieslijsten en Gesanctioneerde Landen die relevant zijn voor de toepasselijke Invoegingsopdracht.",
+            "point5": "Het Mediabedrijf heeft het recht om op elk moment, zonder boete en zonder voorafgaande kennisgeving, enige andere contractuele relatie met het Bureau en de Adverteerder te annuleren en/of te beëindigen, indien duidelijk is geworden dat het Mediabedrijf beperkt is om zaken te doen met het Bureau of de Adverteerder krachtens Amerikaanse of EU-sanctiewetten."
+          }
+        },
+        "businessresponsibility": "HET BEDRIJF VERANTWOORDELIJK UITVOEREN",
+        "businessresponsibility_points": {
+          "point1": "Het Mediabedrijf handhaaft een schriftelijke Gedragscode, met inbegrip van een Gedragscode voor Adverteerders, een Beleid inzake Geschenken en Tegen Omkoping en een Milieuaankoopbeleid. Het Mediabedrijf verzoekt het Bureau en de Adverteerder om zich te houden aan de afzonderlijke Gedragscode voor Adverteerders, die het Mediabedrijf tijdig zal verstrekken.",
+          "point2": "Het Mediabedrijf handhaaft een schriftelijke Gedragscode, met inbegrip van een Beleid inzake Schadelijk Gedrag, een Beleid inzake Geschenken en Tegen Omkoping en een Milieuaankoopbeleid. Het Mediabedrijf en haar personeel houden zich aan deze Gedragscode en verzoeken het Bureau en de Adverteerder om zich te houden aan de afzonderlijke Gedragscode voor Adverteerders. Het Mediabedrijf zal een kopie van deze Gedragscode voor Adverteerders tijdig verstrekken.",
+          "point3": "Het Bureau en de Adverteerder verklaren en waarborgen dat zij voldoen aan de toepasselijke arbeids- en arbeidswetten en verbieden elke vorm van gedwongen of kinderarbeid of andere exploitatie van kinderen (een persoon jonger dan zestien (16) jaar) bij de vervaardiging en levering van hun producten en diensten.",
+          "point4": "Het Bureau en de Adverteerder stemmen ermee in redelijke inspanningen te leveren om duurzame praktijken te volgen met als doel de uitstoot van broeikasgassen te verminderen en koolstofneutrale oplossingen te bereiken.",
+          "point5": "Het Bureau en de Adverteerder erkennen het belang van diversiteit op de werkvloer en zullen redelijke inspanningen leveren om een werkomgeving te creëren die de belangen weerspiegelt van een diverse beroepsbevolking."
+        }
+      }
+    },
+    "sidebarRight": {
+      "CLOSE": "SLUITEN",
+      "PORTAL": "PORTAAL",
+      "CONTACTS": "CONTACTEN",
+      "BRANDING": "MERKIDENTITEIT",
+      "TRANSFERS": "OVERDRACHTEN",
+      "searchByTitleFilenameOrEmail": "ZOEKEN OP TITEL, BESTANDSNAAM OF E-MAIL",
+      "COPIED": "GEKOPIEERD",
+      "copyLink": "KOPIEER LINK",
+      "noMessage": "GEEN BERICHT",
+      "noTitle": "GEEN TITEL",
+      "shareTransfer": {
+        "download": "Downloaden",
+        "preview": "Voorbeeld",
+        "forward": "Doorsturen",
+        "delete": "Verwijderen",
+        "expiresIn": "verloopt in",
+        "password": "Wachtwoord",
+        "ASSIGN": "TOEWIJZEN",
+        "PAUSE": "Pauzeren",
+        "CODE": "CODE",
+        "EMAIL": "E-MAIL",
+        "MESSAGE": "Bericht",
+        "totalDownloads": "Totaal aantal downloads",
+        "NAME": "Naam",
+        "TYPE": "Type",
+        "SIZE": "Grootte",
+        "folder": "map",
+        "textsizes": {
+          "textsize2": "text__9__7",
+          "textsize5": "text__13__only"
+        },
+        "typeAlignment": "share_transfers_type_alignment_NL",
+        "sizeAlignment": "share_transfers_size_alignment_NL"
+      },
+      "transfers": {
+        "selections": {
+          "date": "Datum",
+          "size": "Grootte",
+          "title": "Titel",
+          "expirationDate": "Vervaldatum"
+        },
+        "noDataFound": "Geen gegevens gevonden.",
+        "SENT": "VERZONDEN",
+        "RECEIVED": "ONTVANGEN",
+        "sortBy": "SORTEREN OP :",
+        "Downloaded": "GEDOWNLOAD",
+        "notYetDownloaded": "Nog niet gedownload",
+        "file": "bestand",
+        "files": "bestanden"
+      }
+    },
+    "sidemenu": {
+      "menu": "MENU",
+      "features": "KENMERKEN",
+      "producten": "PRODUCTEN",
+      "howToZtfr": "HOE ZTFR TE GEBRUIKEN",
+      "pricing": "PRIJZEN",
+      "advertising": "RECLAME",
+      "careersH": "CARRIÈRES",
+      "company": "BEDRIJF",
+      "myAccount": "MIJN ACCOUNT",
+      "newsRoom/Press": "nieuwskamer/pers",
+      "terms": "VOORWAARDEN",
+      "privacy": "PRIVACY",
+      "advertisingSection": {
+        "hero": {
+          "advertiseWithUsAndAttractTheAttentionOf": "ADVERTEER BIJ ONS EN TREK DE AANDACHT VAN",
+          "creativeProfessionalsAcrossTheGlobe": "CREATIEVE PROFESSIONALS OVER DE HELE WERELD.",
+          "reachOurGlobalProfessionals": "BEREIK ONZE WERELDWIJDE PROFESSIONALS",
+          "getStarted": "AAN DE SLAG"
+        },
+        "watchThis": {
+          "inspireAWorldOfCreativeProfessionals": "INSPIREER EEN WERELD VAN CREATIEVE PROFESSIONALS",
+          "watchThis": "KIJK DIT"
+        },
+        "videos": {
+          "ourAdvertsAreJustMoreThan": "ONZE ADVERTENTIES ZIJN MEER DAN ALLEEN 'ADVERTENTIES' ",
+          "impressionsDontAlwaysInspires": "IMPRESSIES INSPIREREN NIET ALTIJD. EENS INSPIREREN, GEÏNSPIREERD VOOR HET LEVEN.",
+          "video": "VIDEO"
+        },
+        "images": {
+          "premiumPlatformThatPutsYourBrand": "PREMIUM PLATFORM DAT UW MERK PLAATST",
+          "infront": "VOOR",
+          "ofTheLocalAndGlobalAudiences": "VAN HET LOKALE EN WERELDWIJDE PUBLIEK",
+          "image": "AFBEELDING"
+        },
+        "partners": {
+          "ourGlobalPartners": "ONZE WERELDWIJDE PARTNERS"
+        },
+        "form": {
+          "becomeAPartner": "WORD PARTNER",
+          "company/Organisation": "BEDRIJF/ORGANISATIE",
+          "country": "LAND",
+          "phoneNumber": "TELEFOONNUMMER",
+          "customiseEveryAspectOfYourAd": "PAS ELK ASPECT VAN UW ADVERTENTIE AAN",
+          "inYourOfficialPartnerPortal": "IN UW OFFICIËLE PARTNERPORTAAL",
+          "thankyou": "DANK U VOOR UW INTERESSE OM PARTNER TE WORDEN, UW VERZOEK",
+          "thankyouSubmited": "is ingediend en we nemen zo snel mogelijk contact met je op."
+        }
+      },
+      "pricingSection": {
+        "free": "GRATIS",
+        "pricingFreeText": "pricing_free_dutch"
+      },
+      "careers": {
+        "design": "ONTWERP EN BOUW DE SYSTEMEN DIE DE WERELD VERANDEREN.",
+        "services": "Diensten in meer dan honderdtwintig landen.",
+        "discover": "ONTDEKKEN",
+        "world": "EEN NIEUWE WERELD",
+        "together": "Samen creëren en bouwen we een betere wereld.",
+        "global": "WERELDWIJDE VISIE",
+        "remote": "Met een cultuur van op afstand werken, is diversiteit van nature in ons DNA.",
+        "globe": "Verspreid over DE WERELD, vertegenwoordigen we meer dan 23 verschillende nationaliteiten.",
+        "join": "SLUIT JE AAN BIJ ONS TEAM"
+      }
+    },
+    "cookies": {
+      "cookiesWrapper": {
+        "thisWebsite": "DEZE WEBSITE GEBRUIKT TECHNISCH NOODZAKELIJKE COOKIES.",
+        "withYourConsent": "MET UW TOESTEMMING ZAL DEZE WEBSITE AANVULLENDE COOKIES GEBRUIKEN (WAARONDER COOKIES VAN DERDEN) OF SOORTGELIJKE TECHNOLOGIEËN OM ONZE SITE TE LATEN WERKEN, VOOR MARKETINGDOELEINDEN EN OM UW ONLINE ERVARING TE VERBETEREN.",
+        "ourWebsiteUses": "ONZE WEBSITE GEBRUIKT COOKIES OM DE PRESTATIES EN DE SERVICE TE VERBETEREN EN UW BEHOEFTEN BETER TE BEGRIJPEN. DOOR ONZE COOKIES VAN DERDEN TE ACCEPTEREN, KUNNEN WIJ EN ONZE PARTNERS U MEER RELEVANTE ADVERTENTIES AANBIEDEN OP EN BUITEN ONZE WEBSITE(S). ) EN APPS.",
+        "youWillHave": " U ZULT HEBT EEN POSITIEVE IMPACT DOOR ONZE BEKROONDE ADVERTENTIES EN DIENSTEN TE ERVAREN (INDIEN VAN TOEPASSING).",
+        "furtherInformation": "VERDERE INFORMATIE VINDT U IN ONZE",
+        "privacyStatement": "PRIVACYVERKLARING",
+        "andInTheCookiesSetting": "EN IN DE COOKIE-INSTELLINGEN.",
+        "accept": "ACCEPTEREN",
+        "reject": "AFWIJZEN",
+        "manageCookies": "COOKIES BEHEREN"
+      },
+      "manageCookies": {
+        "ourWebsiteUsesCookies": "ONZE WEBSITE MAAKT GEBRUIK VAN COOKIES DIE HELPEN FUNCTIONEREN, ONS TOESTAAN OM TE ANALYSEREN HOE U ERMEE INTERACTIE HEEFT EN ONS HELPEN DE PRESTATIES TE VERBETEREN. DOOR ONZE COOKIES TE ACCEPTEREN, STAAT U ONS TOE OM U GEPERSONALISEERDE ADVERTENTIES TE TONEN.",
+        "mostZimoGroupWebsites": "DE MEESTE WEBSITES VAN DE ZIMO GROEP GEBRUIKEN COOKIES. COOKIES ZIJN KLEINE TEKSTBESTANDEN DIE OP UW APPARAAT WORDEN GEPLAATST OM GEGEVENS OP TE SLAAN, ZODAT WEBSERVERS DEZE LATER KUNNEN GEBRUIKEN. ZIMO GROUP EN ONZE DERDE PARTNERS GEBRUIKEN COOKIES OM UW VOORKEUREN EN INSTELLINGEN TE ONTHOUDEN, HELPEN U logt in, laat uw gepersonaliseerde advertenties zien en analyseert hoe goed onze websites werken. ZIE VOOR MEER INFO DE SECTIE COOKIES EN SOORTGELIJKE TECHNOLOGIEËN VAN DE ",
+        "required": "VEREIST",
+        "weUseRequiredCookies": " WIJ GEBRUIKEN DE NODIGE COOKIES OM ESSENTIËLE WEBSITEFUNCTIES UIT TE VOEREN. ZE WORDEN BIJVOORBEELD GEBRUIKT OM U IN TE LOGGEN, UW TAALVOORKEUREN OP TE SLAAN, EEN WINKELMANDJE-ERVARING TE BIEDEN (INDIEN VAN TOEPASSING), DE PRESTATIES TE VERBETEREN, ROUTE VERKEER TUSSEN WEBSERVERS, DETECTEER DE GROOTTE VAN UW SCHERM, BEPAAL DE LAADTIJDEN VAN PAGINA'S, VERBETER DE GEBRUIKERSERVARING EN VOOR PUBLIEKMETING. DEZE COOKIES ZIJN NODIG OM ONZE WEBSITES TE WERKEN.",
+        "analytics": "ANALYTICS",
+        "weAllowThirdParties": "WIJ STAAN DERDEN TOE ANALYTICS-COOKIES TE GEBRUIKEN OM TE BEGRIJPEN HOE U ONZE WEBSITES GEBRUIKT, ZODAT WE ZE BETER KUNNEN MAKEN EN DE DERDE PARTIJEN HUN PRODUCTEN KUNNEN ONTWIKKELEN EN VERBETEREN, DIE ZIJ KUNNEN GEBRUIKEN OP WEBSITES DIE GEEN EIGENDOM OF UITGEWERKT ZIJN VAN ZIMO GROUP. VOORBEELD WORDEN ZE GEBRUIKT OM INFORMATIE TE VERZAMELEN OVER DE PAGINA'S DIE U BEZOEKT EN HOEVEEL KLIKKEN U NODIG HEBT OM EEN TAAK TE VOLTOOIEN. WIJ GEBRUIKEN SOMMIGE ANALYTICS-COOKIES VOOR ADVERTEREN.",
+        "socialMedia": "Sociale media",
+        "weAndThirdPartiesUseSocialMediaCookies": "WIJ EN DERDEN GEBRUIKEN SOCIAL MEDIA COOKIES OM U ADVERTENTIES EN INHOUD TE TONEN OP BASIS VAN UW SOCIAL MEDIA PROFIELEN EN ACTIVITEIT OP ONZE WEBSITES. ZE WORDEN GEBRUIKT OM UW ACTIVITEIT OP ONZE WEBSITES TE VERBINDEN MET UW SOCIALE MEDIA PROFIELEN ZODAT DE ADVERTENTIES EN INHOUD DIE U OP ONZE WEBSITES EN OP SOCIALE MEDIA ZIET, UW INTERESSES BETER WEERSPIEZEN.",
+        "advertising": "RECLAME",
+        "weAndThirdPartiesUseAdvertisingCookies": "WIJ EN DERDEN GEBRUIKEN RECLAMECOOKIES OM U NIEUWE ADVERTENTIES TE TONEN DOOR TE REGELEN WELKE ADVERTENTIES U REEDS HEBT GEZIEN. ZE WORDEN OOK GEBRUIKT OM BIJ TE HOUDEN OP WELKE ADVERTENTIES U KLIKT OF AANKOPEN DIE U DOET NA HET KLIKKEN OP EEN ADVERTENTIE VOOR BETALINGSDOELEINDEN, EN OM U ADVERTENTIES TE TONEN DIE RELEVANTER VOOR U ZIJN. VOORBEELD: ZE WORDEN GEBRUIKT OM TE DETECTEREN WANNEER U OP EEN ADVERTENTIE KLIKT EN U ADVERTENTIES TE TONEN OP BASIS VAN UW SOCIALE MEDIA-INTERESSES EN WEBSITE-BROWGESCHIEDENIS.",
+        "resetAll": "ALLES RESETTEN",
+        "saveChanges": "WIJZIGINGEN OPSLAAN"
+      }
+    },
+    "user": {
+      "sentMail": {
+        "checkYourEmail": "BEKIJK UW E-MAIL",
+        "youShouldNowRecieve": "U MOET NU EEN E-MAIL ONTVANGEN MET EEN LINK OM EEN NIEUW WACHTWOORD AAN TE MAKEN.",
+        "ifYouNotRecieved": "ALS U GEEN E-MAIL HEBT ONTVANGEN, CONTROLEER DAN",
+        "wasTheEmail": "was het e-mailadres dat u gebruikte om uw gebruikers-ID aan te maken"
+      }
+    },
+    "download": {
+      "downloadPassword": {
+        "incorrectPassword": "ONJUISTE WACHTWOORD"
+      },
+      "downloadPasswordAssign": {
+        "checking": "controleer..."
+      }
+    },
+    "ztfrX": {
+      "contentCreator": "MAKER VAN INHOUD.",
+      "music": "MUZIEK",
+      "getPaidForYourContent": "KRIJG BETAALD VOOR JE CONTENT",
+      "getPaidForYourTransfers": "KRIJG BETAALD VOOR JE OVERSCHRIJVINGEN",
+      "sellWhatYouCreate": "VERKOOP WAT JE MAAKT",
+      "ztfrXIsAnEasyAndSecureWay": "IS EEN GEMAKKELIJKE EN VEILIGE MANIER OM BETAALD TE KRIJGEN VOOR UW WERK. BEGIN VANDAAG MET HET GELDEREN VAN UW CREATIVITEIT.",
+      "exploreAWorldOfOpportunities": "VERKEN EEN WERELD VOL KANSEN",
+      "gettingPaid": "BETAALD WORDEN",
+      "getPaidDirectly": "KRIJG DIRECT BETAALD IN UW",
+      "withdrawFunds": "ACCOUNT. DRAAI FONDSEN 24/7 OP.",
+      "payments": "BETALINGEN",
+      "explore": "Verkennen",
+      "ztfrGetPaidTxt": "ztfrGetPaid_bulgarian",
+      "paidCard": {
+        "paid": "Betaald",
+        "paidTxtSize": "paid_card_german"
+      },
+      "musicCard": {
+        "relax": "Ontspannen"
+      },
+      "constants": {
+        "animation": "Animatie",
+        "applications": "Toepassingen",
+        "architecture": "Architectuur",
+        "art": "Kunst",
+        "collaboration": "Samenwerking",
+        "collage": "Collage",
+        "comics": "Strips",
+        "commissions": "Opdrachten",
+        "community": "Gemeenschap",
+        "creativeAdvice": "Creatief advies",
+        "design": "Ontwerp",
+        "education": "Onderwijs",
+        "fashion": "Mode",
+        "fiction": "Fictie",
+        "film": "Film",
+        "gaming": "Gaming",
+        "graphicDesign": "Grafisch ontwerp",
+        "graphicNovels": "Grafische romans",
+        "illustration": "Illustratie",
+        "installations": "Installaties",
+        "music": "Muziek",
+        "nft": "NFT",
+        "opinion": "Mening",
+        "painting": "Schilderen",
+        "partnerships": "Samenwerkingen",
+        "performance": "Optreden",
+        "photography": "Fotografie",
+        "podcasts": "Podcasts",
+        "print": "Afdrukken",
+        "sculpture": "Beeldhouwwerk",
+        "software": "SOFTWARE",
+        "textile": "Textiel",
+        "video": "VIDEO",
+        "writing": "Schrijven",
+        "other": "ANDER"
+      },
+      "howZtfrXWorks": {
+        "how": "HOE",
+        "works": "WERKT"
+      },
+      "sellDigitalContent": {
+        "sellDigitalContent": "VERKOOP DIGITALE INHOUD (PRODUCTEN)",
+        "turningYourDigitalContent": "ZET JE DIGITALE INHOUD OM IN WINST",
+        "allowsYouTo": "STAAT JE TOE OM JE DIGITALE INHOUD (PRODUCTEN) TE VERSPREIDEN, TE ADVERTEREN EN ERVOOR BETAALD TE KRIJGEN"
+      },
+      "recieveQuickPayments": {
+        "recieveQuickPayments": "ONTVANG SNELLE BETALINGEN VAN JE KLANTEN",
+        "revolutionise": "REVOLUTIONEER JE BEDRIJF. VEILIGE OPLOSSINGEN OM WERELDWIJD BETAALD TE WORDEN DOOR KLANTEN",
+        "usesAdvanced": "GEBRUIKT GEAVANCEERDE ENCRYPTIESTANDAARD (AES) 256-BITS BESCHERMING",
+        "whatContent": "WELKE INHOUD (PRODUCT) TE VERKOPEN?",
+        "weHaveIdeas": "WIJ HEBBEN IDEEËN DIE JE ZULLEN HELPEN NIEUWE MOGELIJKHEDEN TE ONDERZOEKEN MET NIEUWE INKOMSTENBRONNEN UIT"
+      },
+      "buyNow": "KOOP NU",
+      "getPaidFor": {
+        "getPaidFor": "word betaald voor je fotografie, muziek, digitale kunstwerken, modellenshoots, gepersonaliseerde cursussen, en nog veel meer...",
+        "itsSimple": "HET IS EENVOUDIG. JE WEET WAT JE FANS/ KLANTEN WILLEN, PAK JE LAATSTE WERKEN IN (FOTOSHOOT, LETTERTYPES, MUZIEK, VIDEO, DIGITALE KUNST, KORTE VERHALEN, ROMANS, PRESET-PAKKETTEN, POSTERONTWERPEN EN 1.000'EN MEER...)",
+        "activateYour": "ACTIVEER JE ",
+        "andStartToUpload": "EN BEGIN MET UPLOADEN MET ",
+        "decideOnAPrice": "BESLIS OVER EEN PRIJS, EN DEEL EENVOUDIG JE LINK (url), QR-CODE OF DOOR ONZE AANBEVOLEN PARTNERS TE GEBRUIKEN"
+      },
+      "sellYourEducational": {
+        "sellYourEducational": "VERKOOP JE EDUCATIEVE INHOUD, DIGITALE PROGRAMMA'S, DIGITALE BOEKEN, TUTORIALS, STUDIEGIDSEN EN NOG VEEL MEER...",
+        "startGenerating": "BEGIN INKOMSTEN TE GENEREREN SAMEN MET ANDERE CREATIEVE MENSEN ZOALS JIJ. DEEL JE EXPERTISE EN TALENT MET EEN MONDIAAL PUBLIEK. ZET JE BLOGARTIKELEN OF INSTAGRAM-FEED OM IN EEN E-BOEK OF EEN PDF OM EXTRA INKOMSTEN TE GENEREREN."
+      },
+      "sendFinalAssets": {
+        "sendFinalAssets": "STUUR DE LAATSTE BESTANDEN NAAR JE KLANTEN EN WORD BETAALD",
+        "itsThatEasy": "HET IS ZO EENVOUDIG. WORD SNEL BETAALD VOOR DIE LAATSTE FOTOSHOOT, ADVIESKLUS, OF ENIG AANBEVOLEN INHOUD. UPLOAD EENVOUDIG JE LAATSTE BESTANDEN, PAS ELK ASPECT VAN JE ACHTERGROND AAN, VOEG EEN PRIJS TOE EN STUUR HET OP.",
+        "yourClientsCan": "JE KLANTEN KUNNEN TOEGANG KRIJGEN TOT JE PRIVÉLINK EN BETALEN OM HUN BESTANDEN TE DOWNLOADEN.",
+        "howToGetStarted": "HOE TE BEGINNEN"
+      },
+      "Xlogo": {
+        "tryNow": "PROBEER NU"
+      },
+      "ztfrGetPaid": {
+        "getPaid": "BETAALD WORDEN",
+        "effortless": "Moeiteloos overzetten van creatieve middelen, omvangrijke bestanden, complete mappen en hele projecten met slechts een simpele klik.",
+        "learnMore": "Kom meer te weten"
+      },
+      "ztfrSecurity": {
+        "security": "BEVEILIGING",
+        "withPassword": "Met wachtwoordbeveiliging en 256 bit (aes) bestandsversleuteling, met essentiële beveiligingsfunctionaliteiten om uw inhoud/werk te beschermen."
+      },
+      "ztfrShowcase": {
+        "showcase": "VITRINE",
+        "create": "Creëer een gedenkwaardige impact door elk aspect te personaliseren, van uw LANDINGSPAGINA tot uw e-mails.",
+        "unleash": "laat uw verbeelding grenzeloos de vrije loop.",
+        "transferring": "overdracht..."
+      },
+      "getStartedVideos": {
+        "stepOne": "STAP ÉÉN",
+        "stepTwo": "STAP TWEE",
+        "stepThree": "STAP DRIE"
+      }
+    },
+    "createNewPassword": {
+      "confirmPass": "BEVESTIG UW NIEUWE WACHTWOORD",
+      "instructions": "We sturen u instructies om uw wachtwoord opnieuw in te stellen en u OPNIEUW AAN TE MELDEN.",
+      "newPass": "NIEUW WACHTWOORD",
+      "confirmNewPass": "BEVESTIG NIEUW WACHTWOORD",
+      "reset": "BEVESTIG UW WACHTWOORDRESET/AANMELDEN"
+    },
+    "transferExpired": {
+      "transferExpired": "OVERDRACHT VERLOPEN",
+      "weRegret": "TOT ONZE SPIJT MOETEN",
+      "youThatThis": "WIJ U MEDEDELEN",
+      "REACHED": " DAT DEZE OVERBOEKING IS VERLOPEN",
+      "notAccessible": "N EN NIET LANGER TOEGANKELIJK IS.",
+      "sendFiles": "STUUR BESTANDEN",
+
+      "jumperMobPosition": "jumper_mob_position_netherland",
+      "regretMessageGap": "regret_message_gap_italian",
+      "regretMessagePosition": "regret_message_position_italian"
+    },
+    "scheduleDone": {
+      "time": "tijd",
+      "emailFrom": "E-MAIL VAN",
+      "yourSchedule": "UW GEPLANDE ZTFR UPLOAD ZAL",
+      "initiate": "START BINNEN 5 SECONDEN.",
+      "dontClose": "SLUIT UW BROWSER NIET",
+      "during": "TIJDENS DIT PROCES"
+    },
+    "noInternet": {
+      "notConnected": "Het lijkt erop dat je niet verbonden bent met internet",
+      "noConnection": "Geen internetverbinding",
+      "checkConnection": "Controleer je verbinding of probeer het opnieuw",
+      "internetSettings": "Internetinstellingen"
+    }
+  }
+}

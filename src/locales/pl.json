@@ -1,0 +1,1318 @@
+{
+  "hero": {
+    "left": "hero_left_polish",
+    "letsDo": "POZWÓL ZROBIĆ",
+    "this": "TEN    ",
+    "upload": "PRZEŚLIJ PLIKI LUB FOLDERY, PRZECIĄGAJĄC JE GDZIEKOLWIEK W TYM OKNIE",
+    "welcomeText": "WITAJ"
+  },
+  "sidebar": {
+    "advanceTextSize": "advanceTextSizePLNEW",
+    "uploadText": "upload__text__polish",
+    "advanceTextTop": "advance_text_top_polish_new",
+    "upload": "PRZEŚLIJ PLIKI LUB FOLDERY, PRZECIĄGAJĄC",
+    "them": "JE GDZIEKOLWIEK W TYM OKNIE",
+    "advance": "ZAAWANSOWANY STANDARD SZYFROWANIA (AES) 256-BIT"
+  },
+  "getlink": {
+    "sendEmail": "WYŚLIJ E-MAIL",
+    "unlimitedTransfers": "NIEOGRANICZONE TRANSFERY",
+    "getALinkText": "get_a_link_text_french",
+    "geta": "dostać link",
+    "lgText": "lg:text-[14px]",
+    "text": "text-[10px]",
+    "lgUptoSize": "lg:text-[40px]",
+    "selectFolderRightAlign": "select_folder_align_right_polish",
+    "UptoTextRightAlign": "Upto_text_size_align_right_polish",
+    "UptoSize": "text-[20px]",
+    "uploadFiles": "PRZEŚLIJ PLIKI",
+    "or": "LUB",
+    "select": "WYBIERZ FOLDER",
+    "upto": "DO",
+    "free": "DARMO",
+    "styles": {
+      "freeTextLg": "text-[20px]",
+      "freeTextMd": "text-[16px]"
+    }
+  },
+  "uploading": {
+    "uploadingFiles": "Przesyłanie plików",
+    "uploaded": "załadowany",
+    "uploading": "przesyłanie",
+    "pending": "oczekujące",
+    "of_text": "z",
+    "about_text": "o",
+    "remaining_text": "pozostały",
+    "title_text": "tytuł",
+    "note_text": "notatka",
+    "cancel_text": "anulować",
+    "almostDone": "Prawie gotowe",
+    "textsizes": {
+      "textsize3": "uploading_size_v2"
+    },
+    "styles": {
+      "uploadingFiles_text_lg": "text-[12px]",
+      "uploadingFiles_text_md": "text-[10px]"
+    }
+  },
+  "uploaded": {
+    "filesUploaded": "Przesłane pliki",
+    "completed": "zakończony",
+    "youDidIt": "Zrobiłeś to!",
+    "copyDownloadLink": "Skopiuj pobrany link",
+    "seeWhatsInside": "Zobacz, co jest w środku",
+    "code": "kod",
+    "styles": {
+      "filesUploaded_text_lg": "text-[14px]",
+      "filesUploaded_text_md": "text-[12px]",
+      "youDidIt_text_lg": "text-[30px]",
+      "youDidIt_text_md": "text-[20px]"
+    }
+  },
+  "assignContent": {
+    "assignHeading": "przypisz",
+    "assign": "przypisz TO EKSKLUZYWNA FUNKCJA, KTÓRA POZWALA PRZYPISAĆ PLIKI/FOLDERY I OKREŚLIĆ ORAZ KONTROLOWAĆ, DO KTÓRYCH PLIKÓW/FOLDERÓW CHCESZ, ABY PRZYPISANY MIAŁ DOSTĘP. PRZYPISANY OTRZYMUJE UNIKALNY 4-CYFROWY KOD PIN, KTÓRY UMOŻLIWIA MU/MIEJSCU DOSTĘP DO PLIKÓW/FOLDERÓW.",
+    "one": "JEDNO PRZENIESIENIE.",
+    "magnitude": "NIESKOŃCZONE MOŻLIWOŚCI.",
+    "title": "TYTUŁ",
+    "note": "NOTATKA",
+    "Hi": "Cześć, pomyślałem, że mogą ci się przydać te informacje. Powodzenia. Do zobaczenia wkrótce. Jessica x",
+    "Revsion": "Plik wersji",
+    "lets_get": "Chodźmy",
+    "started": "Rozpoczęty",
+    "uploaded_Files": "Przesłane pliki",
+    "or": "LUB",
+    "folders": "Lornetka składana",
+    "clear": "jasne",
+    "assignee": "MANDATARIUSZ"
+  },
+  "assign_SubContent": {
+    "assign_heading": "przypisz",
+    "assign_files": "przypisz pliki",
+    "assignee_name": "nazwisko cesjonariusza",
+    "assign_pinCode": "przypisz kod PIN",
+    "generate_pinCode": "wygeneruj pin",
+    "custom_pinCode": "niestandardowy pin",
+    "Additional_Note": "uwaga dodatkowa",
+    "clear_text": "jasne"
+  },
+  "fileDownloadedModal": {
+    "close": "zamknąć",
+    "youDidIt": "Zrobiłeś to!",
+    "items_text": "Przedmioty w tym",
+    "files": "akta",
+    "folder": "teczka",
+    "expiresIn": "Termin upływa",
+    "days": "dni",
+    "downloadOrShare": "pobierz lub udostępnij",
+    "copied": "skopiowane",
+    "copyLink": "Skopiuj link",
+    "qrCode": "Kod QR",
+    "email": "email",
+    "whatsapp": "whatsapp",
+    "message": "wiadomość",
+    "facebook": "facebook",
+    "x": "x",
+    "hours": "GODZINY",
+    "textsizes": {
+      "textsize1": "text__20__12",
+      "textsize4": "text__8__10",
+      "textsize2": "text__12__10__8"
+    }
+  },
+  "FileDropZone": {
+    "drop": "Upuść pliki tutaj"
+  },
+  "footer": {
+    "rightsReservedTextSize": "rights_reserved_text_german",
+    "partOfTextSize": "part_of_text_german",
+    "zitransferTextSize": "zitransfer_text_size_german",
+    "zitransfer": "© ZITRANSFER 2023",
+    "rights": "WSZELKIE PRAWA ZASTRZEŻONE",
+    "partof": "ZITRANSFER JEST CZĘŚCIĄ GRUPY ZIMO",
+    "zitransferUses": "ZITRANSFER UŻYWA ZAAWANSOWANEGO STANDARDU SZYFROWANIA (AES) 256-BIT DO OCHRONY KONFIDENCJALNOŚCI DANYCH, KTÓRE PRZEKAZUJESZ."
+  },
+  "countries": {
+    "choose": "Wybierz swój kraj lub region",
+    "language": "JĘZYK"
+  },
+  "MainShare": {
+    "email": "E-MAIL",
+    "emailTo": "E-MAIL DO",
+    "yourEmail": "TWÓJ ADRES E-MAIL",
+    "enterZVC": "WPROWADŹ KOD ZVC",
+    "messages": "WIADOMOŚCI",
+    "typeYourCustomisedLink": "WPROWADŹ SWÓJ DOSTOSOWANY LINK",
+    "linkCopied": "Skopiowano Link",
+    "logout": "WYLOGUJ SIĘ",
+    "login": "ZALOGUJ SIĘ",
+    "createUserId": "UTWÓRZ IDENTYFIKATOR UŻYTKOWNIKA",
+    "getLink": "POBIERZ LINK",
+    "gitQRCode": " POBIERZ KOD QR",
+    "exText": "expires_text_bulgarian",
+    "title": "TYTUŁ",
+    "Revsion": "Plik wersji",
+    "note": "NOTATKA",
+    "assignHeading": "przypisz",
+    "Hi": "Cześć, pomyślałem, że mogą ci się przydać te informacje. Powodzenia. Do zobaczenia wkrótce. Jessica x",
+    "Expires": "Wygasa za",
+    "days": "DO 365 DNI",
+    "schedule": "ZAPLANUJ PRZENIESIENIE",
+    "advance": "ZAŚWIADCZENIE O ZAAWANSOWANYM SZYFROWANIU (AES) 256-BIT",
+    "assign": "przypisz TO EKSKLUZYWNA FUNKCJA, KTÓRA POZWALA PRZYPISAĆ PLIKI/FOLDERY I OKREŚLIĆ ORAZ KONTROLOWAĆ, DO KTÓRYCH PLIKÓW/FOLDERÓW CHCESZ, ABY PRZYPISANY MIAŁ DOSTĘP. PRZYPISANY OTRZYMUJE UNIKALNY 4-CYFROWY KOD PIN, KTÓRY UMOŻLIWIA MU/MIEJSCU DOSTĘP DO PLIKÓW/FOLDERÓW.",
+    "one": "JEDNO PRZENIESIENIE.",
+    "magnitude": "NIESKOŃCZONE MOŻLIWOŚCI.",
+    "assignButton": {
+      "files": {
+        "text": "przypisz pliki",
+        "css": "text__v1"
+      },
+      "folders": {
+        "text": "przypisz foldery",
+        "css": "text__v1"
+      },
+      "filesFolder": {
+        "text": "przypisz pliki/foldery",
+        "css": "text__v21"
+      }
+    }
+  },
+  "Expires": {
+    "expires": "WYGAŚNIE",
+    "setPasswordTextSize": "set_password_size_expires_bulgarian",
+    "minute": "minuta",
+    "hour": "godzina",
+    "day": "dzień",
+    "week": "tydzień",
+    "months": "miesiące",
+    "year": "rok",
+    "optional": "opcjonalne",
+    "pick": "wybierz z kalendarza",
+    "password": "ustaw hasło",
+    "invalidDate": "nieprawidłowa data"
+  },
+  "Verit": {
+    "verify": "zweryfikuj swój adres e-mail",
+    "confirm": "POTWIERDŹ SWÓJ ADRES E-MAIL",
+    "receive": "NIE OTRZYMAŁEŚ E-MAILA?",
+    "we": "WYSŁALIŚMY KOD WERYFIKACYJNY (ZVC)",
+    "to": "DO",
+    "sure": "Aby upewnić się, że to naprawdę ty",
+    "remember": "PAMIĘTAJ, ABY SPRAWDZIĆ SWÓJ FOLDER SPAMU",
+    "verifyEmailTextsize": "verify_email_spanish_textsize"
+  },
+  "Copy": {
+    "Revision": "Pliki wersji",
+    "download": "KOPIUJ SWÓJ LINK DO POBRANIA",
+    "link": "KOPIUJ LINK",
+    "another": "WYŚLIJ INNY?"
+  },
+  "GetAQRCode": {
+    "linkCopied": "Skopiowano link",
+    "download": "POBIERZ"
+  },
+  "DateTimePicker": {
+    "meeting": "ZAPLANUJ SPOTKANIE",
+    "pick": "WYBIERZ Z KALENDARZA"
+  },
+  "RenameFile": {
+    "rename": "ZMIEŃ NAZWĘ PLIKU/FOLDERU",
+    "renameTextSize": "rename_text_size_renameFile_french"
+  },
+  "RenameTitle": {
+    "rename": "ZMIEŃ NAZWĘ TYTUŁU"
+  },
+  "FirstPage": {
+    "drop": "Upuść pliki tutaj..."
+  },
+  "GetALink": {
+    "filename": "nazwa pliku"
+  },
+  "Download4": {
+    "revision": "wersje",
+    "files": "pliki"
+  },
+  "Download9": {
+    "complete": "zakończone"
+  },
+  "CustomiseALink": {
+    "password": "ustaw hasło",
+    "type": "wpisz niestandardowy link",
+    "Customise": "Dostosuj link",
+    "your": "KOPIUJ SWÓJ LINK DO POBRANIA",
+    "copyCustomised": "Kopiuj niestandardowy link"
+  },
+  "SetPassword": {
+    "protected": "chronione hasłem",
+    "notmatch": "Hasła nie są zgodne.",
+    "Removepassword": "Usuń hasło",
+    "enterPassword": "Proszę wprowadzić hasło.",
+    "Invalid": "Nieprawidłowe"
+  },
+  "Assign": {
+    "PIN": "przypisz kod PIN",
+    "generate": "GENERUJ KOD PIN",
+    "customPin": "WŁASNY KOD PIN",
+    "clear": "WYCZYŚĆ"
+  },
+  "Preview": {
+    "prev": "PODGLĄD",
+    "notImg": "To nie jest plik graficzny ani wideo",
+    "notSupported": "PODGLĄD NIEOBSŁUGIWANY",
+    "previewError": "BŁĄD PODGLĄDU",
+    "fileLimit": "Plik przekracza limit podglądu",
+    "limitExceeded": "PRZEKROCZONO LIMIT PODGLĄDU"
+  },
+  "Remove": {
+    "rev": "USUŃ",
+    "fileName": "Nazwa pliku"
+  },
+  "ViewDetails": {
+    "viewD": "POKAŻ SZCZEGÓŁY",
+    "fileD": "SZCZEGÓŁY PLIKU",
+    "type": "TYP",
+    "size": "ROZMIAR",
+    "created": "stworzony",
+    "description": "OPIS",
+    "max": "MAKS.",
+    "addDescription": "Dodaj opis"
+  },
+  "Hero2": {
+    "Close": "Zamknij",
+    "oxford": "UNIWERSYTET OXFORDZKI",
+    "transfers": "TRANSFEROWANIE",
+    "send": "WYŚLIJ",
+    "recevice": "ODBIERZ",
+    "byDate": "SORTUJ WEDŁUG DATY",
+    "july2023": "lipiec 2023",
+    "urgent": "zadanie 768 - pilne",
+    "NoYet": "jeszcze nie pobrano",
+    "file": "plik",
+    "minuteAgo": "WYSŁANO 52 MINUTY TEMU",
+    "18july": "18 LIPCA 2023",
+    "london": "Instytut Londyński",
+    "Downloaded": "Pobrano"
+  },
+  "CMail": {
+    "confirmEmail": "POTWIERDŹ SWÓJ ADRES E-MAIL",
+    "quickCheck": "Szybkie sprawdzenie, aby upewnić się, że jesteś tym, za kogo się podajesz.",
+    "verificationLink": "Wysłaliśmy link weryfikacyjny na",
+    "checkSpam": "(jeśli nie widzisz wiadomości, sprawdź folder ze spamem).",
+    "didn'tReceive": "Nie otrzymałeś wiadomości?"
+  },
+  "ForgetPassword": {
+    "reset": "ZRESETUJ HASŁO",
+    "sendInstructions": "Wyślemy Ci instrukcje do zresetowania hasła i ponownego zalogowania się."
+  },
+  "LoginUser": {
+    "logInTextSize": "login_text_size_german",
+    "CreateUserTextSize": "create_user_text_size_german",
+    "Login": "ZALOGUJ SIĘ",
+    "CreateUser": "UTWÓRZ ID UŻYTKOWNIKA",
+    "withGoogle": "KONTYNUUJ Z GOOGLE",
+    "or": "LUB",
+    "Forgotten": "Zapomniałeś hasła?"
+  },
+  "SignupUser": {
+    "creatingUserID": "TWORZĄC IDENTYFIKACJĘ UŻYTKOWNIKA, AKCEPTUJESZ NASZE W",
+    "Terms": "ARUNKI ŚWIADCZENIA USŁUG ORAZ OŚWIADCZENIE O OCHRONIE DANYCH I PLIKÓW COOKIE",
+    "firstName": "IMIĘ",
+    "lastName": "NAZWISKO",
+    "organisationOptional": "ORGANIZACJA (OPCJONALNIE)",
+    "additionalNote": "UWAGA DODATKOWA"
+  },
+  "UserHeader": {
+    "sendFiles": "WYŚLIJ PLIKI",
+    "sendFolders": "WYŚLIJ FOLDERY",
+    "shareIdeas": "PODZIEL SIĘ POMYSŁAMI",
+    "MultipleFormats": "PODZIEL TRANSFEROWANIE W WIELU FORMATACH",
+    "unlimitedStorage": "NIEOGRANICZONE PRZECHOWYWANIE",
+    "sendUnlimited": "WYŚLIJ NIEOGRANICZONE TRANSFEROWANIE",
+    "ReceiveUnlimited": "ODBIERZ NIEOGRANICZONE TRANSFEROWANIE",
+    "StorageUpTo": "PRZECHOWYWANIE DO 10 LAT",
+    "portal": "PORTAL",
+    "customExpiration": "DOSTOSOWANE DATY WYGASANIA",
+    "AssignPIN": "PRZYPISZ ZABEZPIECZENIE PIN",
+    "PublicSharing": "PUBLICZNE UDOSTĘPNIANIE",
+    "DynamicLinks": "DYNAMICZNE LINKI",
+    "PasswordsProtect": "ZABEZPIECZENIE HASŁEM",
+    "TrackDownloads": "ŚLEDŹ POBIERANIE",
+    "advance": "ZAWSZEJSZA SZYFROWANIE AES 254-BITY",
+    "creator": "TWÓRCA TREŚCI",
+    "userPortal": "PORTAL UŻYTKOWNIKA",
+    "themes": "SPERSONALIZOWANE MOTYWY",
+    "customisedProfiles": "NIESTANDARDOWE PROFILE",
+    "militaryGrade": "SZYFROWANIE KLASY WOJSKOWEJ"
+  },
+  "Download": {
+    "ready": "GOTOWE.",
+    "set": "USTAW.",
+    "download": "POBIERZ.",
+    "ZTFRExpires": "ZTFR WYGAŚNIE W CIĄGU 7 DNI",
+    "revision": "REWIZJA",
+    "files": "PLIKI",
+    "seeYou": "Cześć, pomyślałem, że mogą Ci się przydać. Powodzenia. Do zobaczenia niedługo. Jessica x",
+    "preview": "PODPGLĄD",
+    "unlocked": "ODBLOKOWANO",
+    "advanceTxt": "download_advance_txt_polish_new",
+    "advanceAssignTxt": "download_advance_txt_polish_new",
+    "letsDoLeft": "lets_do_left_polish",
+    "ztfrExpiresIn": "ZTFR WYGASA ZA",
+    "days": "DNI",
+    "ztfrExpired": "ZTFR WYGAŚNIONY"
+  },
+  "DownloadAssign": {
+    "ready": "GOTOWE.",
+    "set": "USTAW.",
+    "download": "POBIERZ.",
+    "ZTFRExpires": "ZTFR WYGAŚNIE W CIĄGU 30 DNI",
+    "university": "UCZELNIA",
+    "hiAll": "Cześć wszystkim.",
+    "assignAdvanceTop": "assign_advance_txt_russian",
+    "workAccess": "Proszę użyć przypisanego kodu PIN ZTFR, aby uzyskać dostęp do swojej pracy.",
+    "assign": "PRZYPISZ"
+  },
+  "DownloadPassword": {
+    "enterPassword": "WPISZ HASŁO",
+    "pinCode": "KOD PIN"
+  },
+  "DownloadPasswordC": {
+    "revision": "PLIKI REWIZJI"
+  },
+  "DownloadPreview": {
+    "close": "ZAMKNIJ",
+    "items": "ELEMENTY W TYM ZTFR",
+    "ZTFRExpires": "ZTFR WYGAŚNIE W CIĄGU 7 DNI",
+    "downloadAll": "POBIERZ WSZYSTKO",
+    "lookingInside": "Spoglądając do środka folderu.",
+    "WhatInside": "Co jest w środku folderu? Spójrzmy.",
+    "preview": "PODPGLĄD",
+    "name": "NAZWA",
+    "type": "TYP",
+    "size": "ROZMIAR",
+    "hide": "UKRYWAĆ"
+  },
+  "EnterPinCode": {
+    "pinCode": "KOD PIN",
+    "hello": "WITAJ",
+    "youNote": "Masz notatkę:",
+    "DueDate": "Termin ważności to 19 lipca - 09:00.",
+    "items": "ELEMENTY W TYM ZTFR",
+    "enterPin": "WPROWADŹ SWÓJ PRZYPISANY KOD PIN",
+    "incorrectPin": "NIEPRAWIDŁOWY KOD PIN",
+    "clear": "WYCZYŚĆ"
+  },
+  "ResendMail": {
+    "checkEmail": "SPRAWDŹ SWÓJ E-MAIL",
+    "getBottom": "Przyjrzyjmy się temu. To jest e-mail, który używasz w ZTFR.",
+    "resend": "PONOWNIE WYŚLIJ"
+  },
+  "Assignfiles": {
+    "assign": "PRZYPISZ",
+    "assignFiles": "przypisz pliki",
+    "assignName": "imię przypisanego",
+    "assignPin": "przypisz kod PIN",
+    "generatePin": "GENERUJ KOD PIN",
+    "CustomPin": "Niestandardowy kod PIN",
+    "AdditionalNote": "DODATKOWA NOTATKA",
+    "clear": "WYCZYŚĆ"
+  },
+  "AssignShare": {
+    "exclusiveFeature": "PRZYPISYWANIE TO EKSKLUZYWNA FUNKCJA, KTÓRA POZWALA PRZYDZIELAJĄCEMU (TOBIE) NA WYSYŁANIE PLIKÓW/FOLDERÓW I MIEĆ MOŻLIWOŚĆ OKREŚLENIA I KONTROLI TEGO, DO KTÓRYCH PLIKÓW/FOLDERÓW CHCESZ, ABY ODBIORCA MIAŁ DOSTĘP. PRZYPISANEMU (ODBIORCY) DOSTARCZONY JEST UNIKALNY 4-CYFROWY KOD PIN, ABY MÓGŁ ON MIEĆ DOSTĘP DO PLIKÓW/FOLDERÓW.",
+    "gainAccess": "PRZYPISYWANIE TO EKSKLUZYWNA FUNKCJA, KTÓRA POZWALA PRZYDZIELAJĄCEMU (TOBIE) NA WYSYŁANIE PLIKÓW/FOLDERÓW I MIEĆ MOŻLIWOŚĆ OKREŚLENIA I KONTROLI TEGO, DO KTÓRYCH PLIKÓW/FOLDERÓW CHCESZ, ABY ODBIORCA MIAŁ DOSTĘP. PRZYPISANEMU (ODBIORCY) DOSTARCZONY JEST UNIKALNY 4-CYFROWY KOD PIN, ABY MÓGŁ ON MIEĆ DOSTĘP DO PLIKÓW/FOLDERÓW.",
+    "oneUpload": "JEDNO PRZESYŁANIE. WSZELKIE MOŻLIWOŚCI.",
+    "title": "TYTUŁ",
+    "note": "NOTATKA",
+    "RevisionFiles": "PLIKI REWIZJI",
+    "justThought": "Cześć, pomyślałem, że mogą Ci się przydać. Powodzenia. Do zobaczenia niedługo. Jessica x",
+    "assignee": "ODBIORCA"
+  },
+  "DownloadIndex": {
+    "heroLeft": "hero_left_polish",
+    "revision": "REWIZJA",
+    "files": "PLIKI"
+  },
+  "ShareIndividual": {
+    "renameTitle": "ZMIANA NAZWY TYTUŁU",
+    "fileLgSIze": "lg:text-[11px]",
+    "fileSIze": "text-[8px]",
+    "renameFile": "ZMIANA NAZWY PLIKÓW/FOLDERÓW",
+    "preview": "PODGLĄD",
+    "view": "POKAŻ SZCZEGÓŁY",
+    "expires": "WYGASA W CIĄGU",
+    "getLink": "POBIERZ LINK",
+    "QRCode": "POBIERZ KOD QR",
+    "setPassword": "USTAW HASŁO",
+    "assign": "PRZYDZIEL",
+    "remove": "USUŃ",
+    "moreOption": "WIĘCEJ OPCJI"
+  },
+  "Password": {
+    "password": "HASŁO",
+    "confirmPassword": "Potwierdź hasło"
+  },
+  "error": {
+    "required": "Wymagane",
+    "allFieldRequired": "WSZYSTKIE POLA SĄ WYMAGANE",
+    "invalidEmail": "Nieprawidłowy adres email",
+    "invalidPassword": "Nieprawidłowe hasło",
+    "enterValidEmail": "Wprowadź prawidłowy adres email",
+    "enterValidPassword": "Wprowadź prawidłowe hasło",
+    "enterValidFirstName": "Wprowadź prawidłowe imię",
+    "enterValidLastName": "Wprowadź prawidłowe nazwisko",
+    "minimumLength3": "Minimalna długość to 3 znaki",
+    "shortLength": "Za krótkie",
+    "longLength": "Za długie",
+    "passwordMatch": "HASŁA NIE PASUJĄ.",
+    "invalid": "Nieprawidłowe",
+    "passwordReq": "Wymagane hasło",
+    "confirmPasswordReq": "Wymagane potwierdzenie hasła",
+    "verfied": "Zweryfikowane",
+    "invalidZVC": "NIEPRAWIDŁOWY ZVC",
+    "invalidCredentials": "Nieprawidłowe dane logowania",
+    "invalidPin": "Nieprawidłowy PIN",
+    "inputPassword": "Wprowadź najpierw hasło",
+    "inputpasswordConfirm": "Wprowadź hasło w celu potwierdzenia"
+  },
+  "page": {
+    "404": {
+      "somethingWrong": "Coś poszło nie tak.",
+      "oops": "Ups",
+      "couldNotFound": "Nie mogliśmy znaleźć strony, którą szukasz.",
+      "tryAgain": "Możesz spróbować ponownie lub, jeśli wolisz, możesz nam powiedzieć, co się stało.",
+      "sendError": "Wyślij swój kod błędu na support@zitransfer.com, a postaramy się pomóc.",
+      "copyCode": "skopiuj mój kod błędu",
+      "codeCopied": "Skopiowano kod błędu"
+    },
+    "legalModal": {
+      "textsizes": {
+        "textsize3": "text__12__8__2xl"
+      },
+      "links": {
+        "termsOfServices": "regulamin usług",
+        "privacyStatement": "polityka prywatności",
+        "noticePolicy": "Polityka zawiadomień/Usuwanie treści",
+        "advertisingTerms": "warunki reklamowe"
+      },
+      "legal": "PRAWO",
+      "legalInfo": "Informacje prawne i ogłoszenia",
+      "termsOfConditions": {
+        "termsOfServices": "REGULAMIN USŁUGI",
+        "ownership": {
+          "ownership_heading": "Własność Strony; Zgoda na Warunki Korzystania z Usługi",
+          "ownership_para1": "Niniejsze Warunki i Regulamin Usługi (\"Regulamin Usługi\") dotyczą witryny internetowej ZTFR (ZITRANSFER) znajdującej się pod adresem <a href='https://zitransfer.com' target='_blank'>www.zitransfer.com</a>, <a href='https://zitransfer.com' target='_blank'>www.ztfr.org</a> oraz wszystkich związanych stron internetowych pod adresem <a href='https://www.zimogroup.org' target='_blank'>www.zimogroup.org</a>, prowadzonych przez ZIMO (ZIMO GROUP), jej filie i spółki zależne, w tym strony internetowe ZIMO na całym świecie (zwane łącznie \"Stroną\"). Strona jest własnością ZIMO GROUP LIMITED (\"ZIMO\") i jej licencjobiorców. KORZYSTAJĄC ZE STRONY, AKCEPTUJESZ NINIEJSZE WARUNKI KORZYSTANIA Z USŁUGI; JEŚLI NIE ZGADZASZ SIĘ, NIE KORZYSTAJ ZE STRONY.",
+          "ownership_para2": "ZTFR zastrzega sobie prawo, według własnego uznania, do zmiany, modyfikowania, dodawania lub usuwania części niniejszych Warunków Korzystania z Usługi w dowolnym momencie. To Twoja odpowiedzialność regularne sprawdzanie tych Warunków Korzystania z Usługi pod kątem zmian. Kontynuując korzystanie ze Strony/Platformy po opublikowaniu zmian, oznacza to, że akceptujesz i zgadzasz się z nimi. O ile przestrzegasz tych Warunków Korzystania, ZTFR udziela Ci osobistego, nieekskluzywnego, nieprzenoszalnego, ograniczonego uprawnienia do korzystania ze Strony/Platformy."
+        },
+        "content": {
+          "content_heading": "ZAWARTOŚĆ",
+          "content_para1": "Wszystkie teksty, grafiki, interfejsy użytkownika, interfejsy wizualne, fotografie, znaki towarowe, logotypy, dźwięki, muzyka, sztuka oraz kod komputerowy (zwane łącznie \"Zawartością\"), w tym między innymi projekt, struktura, wybór, koordynacja, wyrażenie, \"wygląd\" i układ takiej Zawartości, zawarte na Stronie są własnością, kontrolowane lub posiadają licencję ZTFR (ZITRANSFER) i ZIMO, i są chronione prawem dotyczącym znaków towarowych, prawem autorskim, patentami, prawami patentowymi oraz przepisami dotyczącymi innych praw własności intelektualnej oraz przepisami dotyczącymi nieuczciwej konkurencji.",
+          "content_para2": "O ile nie jest to wyraźnie określone w niniejszych Warunkach Korzystania z Usługi, żadna część Strony/Platformy i żadna Zawartość nie może być kopiowana, reprodukowana, publikowana ponownie, przesyłana, wyświetlana publicznie, kodowana, tłumaczona, przesyłana lub dystrybuowana w żaden sposób (włączając \"odbicie\") na inny komputer, serwer, stronę internetową lub inne medium w celu publikacji lub dystrybucji lub w celu prowadzenia działalności gospodarczej, bez wyraźnej uprzedniej pisemnej zgody ZIMO.",
+          "content_para3": "Możesz korzystać z informacji o produktach i usługach ZTFR (takich jak karty katalogowe, artykuły w bazie wiedzy i podobne materiały) udostępnionych specjalnie przez ZIMO do pobrania ze Strony, pod warunkiem, że (1) nie usuwasz żadnych oznaczeń własności na wszystkich kopiach tych dokumentów, (2) używasz takich informacji tylko w celu osobistym i niekomercyjnym do celów informacyjnych, i nie kopiujesz ani nie publikujesz takich informacji na żadnym komputerze sieciowym ani nie rozpowszechniasz ich w żadnym medium, (3) nie dokonujesz żadnych modyfikacji do takich informacji, oraz (4) nie składasz żadnych dodatkowych oświadczeń ani gwarancji dotyczących tych dokumentów."
+        },
+        "headlines": {
+          "headlines_heading": "NAGŁÓWKI",
+          "headlines_point1": "Twoja zawartość należy do Ciebie - jesteś jej właścicielem i ponosisz za nią odpowiedzialność. My robimy tylko to, co jest niezbędne do prawidłowego funkcjonowania naszych usług.",
+          "headlines_point2": "Jeśli podejmujesz nielegalne działania, możemy zablokować i/lub usunąć Twoje dane/pobrania/wysyłki oraz zawiesić Twoje konto.",
+          "headlines_point3": "Mamy prawo dokonywać zmian w naszych warunkach, usługach i/lub opłatach od czasu do czasu. Jeśli masz konto i czegoś nie lubisz w naszych zmianach, zawsze możesz je w dowolnym momencie anulować.",
+          "headlines_point4": "Należy dodać, że korzystasz z naszej usługi na własne ryzyko; nie ponosimy odpowiedzialności za jakiekolwiek szkody, jeśli coś pójdzie nie tak."
+        },
+        "termsOfServices_points": {
+          "termsOfServices_heading": "REGULAMIN USŁUGI",
+          "termsOfServices_subheading": "ZTFR OFERUJE NASTĘPUJĄCE NARZĘDZIA:",
+          "termsOfServices_point1": "Usługę udostępniania plików (\"Udostępnianie plików ZTFR/ZITRANSFER\")",
+          "termsOfServices_point2": "Usługę, która umożliwia przechowywanie, organizowanie, udostępnianie i odbieranie treści z wielu źródeł (\"Kolekcja\")",
+          "termsOfServices_point3": "Usługę umożliwiającą udostępnianie pomysłów i danych/plików w wielu formatach/platformach",
+          "termsOfServices_point4": "Usługę umożliwiającą dokonywanie sprzedaży za pośrednictwem ZTFR X",
+          "termsOfServices_point5": "Usługę, która jest bezpłatna i umożliwia nieograniczone przesyłanie/pobieranie (wyklucza usługi premium)",
+          "termsOfServices_point6": "Dodatkowe funkcje i możliwości",
+          "termsOfServices_para1": "Twoje korzystanie z naszych usług, oprogramowania, stron internetowych (włączając rozszerzenia przeglądarek) i/lub aplikacji (zwanych łącznie \"Usługami\") jest regulowane przez te Warunki Korzystania (\"Warunki\").",
+          "termsOfServices_para2": "Usługi mogą być udostępniane online w formie aplikacji mobilnych i/lub desktopowych i/lub mogą być integrowane w usługę stron trzecich.",
+          "termsOfServices_para3": "Usługi pozwalają Ci przesyłać, przekazywać, przechowywać, udostępniać, odbierać, gromadzić, rejestrować i/lub wizualizować swoje pomysły, teksty, grafiki, filmy, dane, informacje, pliki, prezentacje lub inne treści, w tym treści stron trzecich używanych przez Ciebie (zwane łącznie \"Treściami\"). Zachowujesz wszelkie prawa, odpowiedzialność i obowiązek za wszystkie Treści. ZTFR nie rości sobie praw do Twoich Treści.",
+          "termsOfServices_para4": "Usługi są świadczone Tobie jako użytkownikowi Usług przez ZIMO GROUP LIMITED (\"ZITRANSFER\", \"ZTFR\"), z siedzibą główną pod adresem 71-75 Shelton Street, Covent Garden, Londyn, WC2H 9JQ, Anglia, Wielka Brytania.",
+          "registered_location": "Zarejestrowane w Anglii i Walii.",
+          "registered_number": "Numer Rejestrowy Spółki: 14383397."
+        },
+        "applicability": {
+          "applicability_heading": "ZASTOSOWANIE",
+          "applicability_point1": "Jesteś uprawniony do korzystania z Usług tylko, jeśli masz ukończone 16 lat (chyba że korzystasz w ramach programu edukacyjnego ZTFR).",
+          "applicability_point2": "Prosimy uważnie zapoznaj się z Warunkami. Korzystając z Usług (bezpośrednio z nami lub za pośrednictwem aplikacji, wtyczek, rozszerzeń lub integracji stron trzecich), zgadzasz się i akceptujesz te Warunki oraz naszą Politykę Zawiadamiania/Odbierania (\"Polityka Z/O Policy\"). W przypadku wykorzystywania danych osobowych i plików cookie w związku z Usługami, stosuje się nasza Polityka Prywatności.",
+          "applicability_point3": "Jeśli Usługi są zawarte, używane w związku z, lub zintegrowane z usługami stron trzecich, obowiązywać mogą dodatkowe warunki i przepisy, polityki zawiadamiania/odbierania oraz/lub oświadczenia o prywatności tych stron trzecich, obok niniejszych Warunków. Jeśli korzystasz z Usług w imieniu swojego pracodawcy lub innej organizacji, zgadzasz się z warunkami tej organizacji i oświadczasz i gwarantujesz, że masz do tego upoważnienie. ZTFR nie ponosi odpowiedzialności za usługi stron trzecich, warunki i/lub polityki.",
+          "applicability_point4": "Jeśli chcesz zgłosić reklamację lub zawiadomienie o nielegalnej zawartości przechowywanej lub udostępnianej za pośrednictwem Usług lub API ZTFR, przeczytaj Politykę Zawiadamiania/Odbierania.",
+          "applicability_point5": "Jeśli dowiesz się o podatności w którymkolwiek z Usług, przeczytaj nasze Zasady Odpowiedzialnego Ujawniania.",
+          "applicability_point6": "Jeśli chcesz korzystać z API ZTFR (zgodnie z Warunkami Użycia API), obowiązują nasze Warunki Użycia API obok niniejszych Warunków.",
+          "applicability_point7": "ZTFR ma prawo do zmiany Warunków od czasu do czasu. Zmienione Warunki stają się skuteczne w chwili opublikowania na stronie internetowej ZITRANSFER (ZTFR) i/lub w aplikacji mobilnej i/lub na pulpicie ZITRANSFER (ZTFR), lub w późniejszym terminie, który może być podany w zmienionych Warunkach. Dlatego zalecamy regularne sprawdzanie Warunków i zwracanie uwagi na ewentualne zmiany. Kontynuując korzystanie z Usług, akceptujesz zmienione Warunki. W przypadku istotnych zmian Warunków zostaniesz o tym poinformowany wcześniej: (i) w chwili korzystania z Usług, lub (ii) za pośrednictwem wiadomości na podane przez Ciebie dane kontaktowe, lub (iii) poprzez opublikowanie informacji o zmianie na stronie internetowej ZITRANSFER (ZTFR) i/lub w aplikacji mobilnej i/lub na pulpicie ZITRANSFER (ZTFR). W przypadku nieakceptowania zmiany możesz anulować swoje subskrypcje.",
+          "applicability_point8": "Niniejsze Warunki zastępują wszelkie wcześniejsze ustne i pisemne cytaty, warunki, komunikaty, umowy i porozumienia między Tobą a ZTFR (ZITRANSFER)."
+        },
+        "fileSharing": {
+          "fileSharing_heading": "UDOSTĘPNIANIE PLIKÓW",
+          "fileSharing_point1": "Udostępnianie plików ZTFR (ZITRANSFER) pozwala na udostępnianie Treści z innymi osobami.",
+          "fileSharing_point2": "Aby udostępnić Treść, musisz ją przesłać i podać nam (ograniczoną liczbę) adresów e-mail odbiorców (\"transfer e-mailowy\"), lub wybrać samodzielnie, jak chcesz rozpowszechniać link do pobrania (\"Pobierz link\"). Ponadto masz wiele opcji, jak chcesz dystrybuować/dzielić się swoją zawartością, wybierając spośród następujących metod; Pobierz kod QR, WhatsApp, Facebook, Threads, X (dawniej Twitter) i Messages.",
+          "fileSharing_point3": "Udostępnianie plików ZTFR (ZITRANSFER) umożliwia udostępnianie Treści do maksymalnej pojemności. Przesłane Treści są przechowywane na serwerach ZITRANSFER przez ograniczony okres czasu, po którym wygasa możliwość pobrania.",
+          "fileSharing_point4": "Po upływie okresu wygaśnięcia ZTFR trwale usuwa przesłane pliki za pomocą procesu usuwania na poziomie wojskowym. Te pliki nie będą już dostępne ani możliwe do odzyskania.",
+          "fileSharing_point5": "Podstawowa funkcjonalność Udostępniania plików ZTFR jest (obecnie) bezpłatna i nie wymaga rejestracji ani opłat.",
+          "fileSharing_point6": "ZTFR traktuje Treści jako poufne i nie kontroluje wykorzystania linków do pobrania, niezależnie od tego, czy były one początkowo dystrybuowane przez nas, czy przez Ciebie. Jesteś wyłącznie odpowiedzialny za Treści, które przesyłasz i udostępniasz.",
+          "fileSharing_point7": "ZTFR Pro i ZTFR Premium to płatne wersje subskrypcji, które - w porównaniu do wersji darmowej - oferują zestaw usług premium i inne warunki subskrypcji.",
+          "fileSharing_point8": "Subskrypcja ZTFR (bez względu na to, czy jest to wersja darmowa, Pro czy Premium) obejmuje subskrypcje innych części ZTFR i jego usług.",
+          "fileSharing_point9": "ZTFR zastrzega sobie prawo do automatycznego usunięcia wszystkich Treści przesłanych za pomocą ZTFR Pro i wciąż dostępnych na naszych serwerach, 28 dni po zakończeniu subskrypcji ZTFR Pro lub ZTFR Premium.",
+          "fileSharing_point10": "ZTFR Premium oferuje nieograniczone możliwości przechowywania plików ZITRANSFER File Sharing z nieograniczoną dostosowalnością. Będziesz miał do dyspozycji nieograniczoną pojemność w terabajtach z ekskluzywnymi narzędziami dostosowawczymi.",
+          "fileSharing_point11": "ZTFR Teams (\"Zespoły\") to płatna wersja subskrypcji ZTFR Pro i ZTFR Premium, która pozwala na dodawanie członków zespołu do swojego konta ZTFR Pro lub ZTFR Premium. Członkowie zespołu mogą być łatwo dodawani i usuwani w okresie subskrypcji.",
+          "fileSharing_point12": "Data rozpoczęcia płatnego okresu subskrypcji ZTFR Teams to moment zapisania się jako dostawca zespołu ZTFR (\"Dostawca Zespołu\") konta ZTFR Teams."
+        },
+        "payment": {
+          "payment_heading": "PŁATNOŚCI",
+          "payment_point1": "ZTFR to bezpłatna usługa udostępniania plików, chyba że wybrałeś płatną usługę (ZTFR Pro, ZTFR Premium, ZTFR X i inne).",
+          "payment_point2": "Możemy wprowadzać lub zmieniać opłaty za Usługi od czasu do czasu, o czym powiadomimy Cię z wyprzedzeniem. Jeśli masz subskrypcję na stały okres i cenę, ta cena pozostaje w mocy przez okres stały. Jeśli nie zgadzasz się z zmianą ceny, możesz anulować subskrypcję i przestać korzystać z Usług na koniec bieżącego okresu usługi. Jeśli nadal korzystasz z Usług po wejściu w życie zmiany ceny, zgadzasz się opłacić zmienioną cenę. Wprowadzenie opłat będzie wymagać Twojej wcześniejszej zgody i rejestracji.",
+          "payment_point3": "W zależności od wybranej metody płatności, wystawca metody płatności może nałożyć na Ciebie pewne opłaty związane z przetwarzaniem płatności.",
+          "payment_point4": "Możesz zmienić metodę płatności w ustawieniach swojego konta (Portal) odpowiedniej Usługi.",
+          "payment_point5": "ZTFR może zawiesić lub anulować Usługi w przypadku nieudanej płatności (na przykład w przypadku niewystarczających środków, wygaśnięcia kart kredytowych, zmiany danych płatności lub innych przyczyn). Zawieszenie lub anulowanie Usług z powodu braku płatności może spowodować utratę dostępu do konta i Treści.",
+          "payment_point6": "Jeśli subskrybujesz i płacisz nam za pośrednictwem Apple App Store lub Google Play Store, mogą również obowiązywać warunki Apple'a lub Google."
+        },
+        "subscription_cancelation": {
+          "subscription_cancelation_heading": "ANULOWANIE SUBSKRYPCJI",
+          "subscription_cancelation_point1": "Początkowy okres subskrypcji zależy od Twojego wyboru i/lub Usługi, do której się odnosi.",
+          "subscription_cancelation_point2": "Oprócz Twoich praw do anulowania wynikających z lokalnych obowiązujących przepisów konsumenckich, masz prawo do anulowania subskrypcji w ciągu pierwszych 7 dni, chyba że rozpoczniesz korzystanie z Usługi w tym okresie, rezygnując wówczas z prawa do anulowania.",
+          "subscription_cancelation_point3": "Okres subskrypcji będzie automatycznie odnawiany na wybrany okres subskrypcji, chyba że anulujesz subskrypcję na czas (przed ostatnim dniem subskrypcji).",
+          "subscription_cancelation_point4": "W przypadku anulowania będziesz miał nadal dostęp do Usług do końca okresu płatnej subskrypcji.",
+          "subscription_cancelation_point5": "Anulowanie nie daje Ci prawa do zwrotu (części) opłaty za subskrypcję.",
+          "subscription_cancelation_point6": "W przypadku automatycznego odnowienia subskrypcji na okres dłuższy niż trzy (3) miesiące, masz prawo do anulowania subskrypcji w dowolnym momencie po takiej odnowie, z okresem anulowania wynoszącym jeden (1) miesiąc. W przypadku anulowania na podstawie tej klauzuli możesz ubiegać się o zwrot części opłaty za subskrypcję. Oznacza to, że płacisz za okres do momentu wejścia w życie anulowania, na podstawie standardowej miesięcznej opłaty za daną Usługę.",
+          "subscription_cancelation_point7": "Po anulowaniu lub jeśli płatność nie zostanie pomyślnie zakończona (na przykład z powodu wygaśnięcia lub braku środków), Twoje konto zostanie dezaktywowane po zakończeniu okresu subskrypcji. Nie będziesz miał wówczas dostępu do swoich danych osobowych, książki adresowej i treści przechowywanych za pomocą Usług. Możesz ponownie aktywować swoją subskrypcję w dowolnym momencie w ustawieniach konta (Portal), dokonując płatności w ciągu czterech tygodni po dezaktywacji. Twoja subskrypcja zostanie wówczas odnowiona od dnia reaktywacji.",
+          "subscription_cancelation_point8": "Jeśli nie reaktywujesz swojej subskrypcji w wyznaczonym powyżej terminie, Twoje treści przechowywane za pomocą Usług i Twoje informacje, w tym treści osobiste, ustawienia, książka adresowa i pliki przechowywane do transferu, mogły zostać automatycznie i trwale usunięte z naszych serwerów.",
+          "subscription_cancelation_point9": "Jeśli subskrybujesz za pośrednictwem Apple App Store, warunki Apple mogą obowiązywać w zakresie okresu i anulowania subskrypcji, zamiast warunków określonych w tej klauzuli."
+        },
+        "teams": {
+          "teams_heading": "ZESPOŁY (Płatności, warunki i anulowanie)",
+          "teams_point1": "Konto ZTFR Teams jest zarejestrowane w imieniu Dostawcy Zespołu. Dostawca Zespołu zostanie obciążony za wszystkich członków zespołu subskrybujących konto ZTFR Teams.",
+          "teams_point2": "Dostawca Zespołu i indywidualni członkowie zespołu mogą dodawać członków zespołu do konta Zespołów, po czym nowi członkowie zespołu uzyskują natychmiastowy dostęp do konta. Jeśli członkowie zespołu są dodawani podczas bieżącego okresu subskrypcji, Dostawca Zespołu jest obciążony proporcjonalnie za dni pozostałe w tym okresie subskrypcji. Po tym okresie Dostawca Zespołu zostanie obciążony pełną opłatą za nowego członka zespołu w następnym okresie płatnej subskrypcji.",
+          "teams_point3": "Dostawca Zespołu i indywidualni członkowie zespołu mogą usuwać członków zespołu z konta ZTFR Teams, po czym tacy członkowie zespołu tracą natychmiastowy dostęp do konta. Jeśli członkowie zespołu są usuwani podczas bieżącego okresu subskrypcji, Dostawca Zespołu zostanie obciążony za tego członka zespołu do końca płatnego okresu subskrypcji. Dostawca Zespołu nie zostanie obciążony za usuniętego członka zespołu w następnym płatnym okresie subskrypcji.",
+          "teams_point4": "Niewykorzystane dni w płatnym okresie subskrypcji z powodu usunięcia członka zespołu mogą być wykorzystane na nowo dodanego członka zespołu w tym samym płatnym okresie subskrypcji.",
+          "teams_point5": "Jeśli konto ZTFR Teams zostanie anulowane, Dostawca Zespołu i członkowie zespołu nadal będą mieli dostęp do konta ZTFR Teams do końca płatnego okresu subskrypcji. Po zakończeniu płatnego okresu subskrypcji Dostawca Zespołu i członkowie zespołu automatycznie uzyskają dostęp do indywidualnego, darmowego konta ZTFR.",
+          "teams_point6": "W przypadku automatycznego odnowienia subskrypcji na okres dłuższy niż trzy (3) miesiące, masz prawo do anulowania subskrypcji w dowolnym momencie po takiej odnowie, z okresem anulowania wynoszącym jeden (1) miesiąc. W przypadku anulowania na podstawie tej klauzuli możesz ubiegać się o zwrot części opłaty za subskrypcję. Oznacza to, że płacisz za okres do momentu wejścia w życie anulowania, na podstawie standardowej miesięcznej opłaty za daną Usługę.",
+          "teams_point7": "Po anulowaniu lub jeśli płatność nie zostanie pomyślnie zakończona (na przykład z powodu wygaśnięcia lub braku środków), Twoje konto zostanie dezaktywowane po zakończeniu okresu subskrypcji. Nie będziesz miał wówczas dostępu do swoich danych osobowych, książki adresowej i treści przechowywanych za pomocą Usług. Możesz ponownie aktywować swoją subskrypcję w dowolnym momencie w ustawieniach konta (Portal), dokonując płatności w ciągu czterech tygodni po dezaktywacji. Twoja subskrypcja zostanie wówczas odnowiona od dnia reaktywacji.",
+          "teams_point8": "Jeśli nie reaktywujesz swojej subskrypcji w wyznaczonym powyżej terminie, Twoje treści przechowywane za pomocą Usług i Twoje informacje, w tym treści osobiste, ustawienia, książka adresowa i pliki przechowywane do transferu, mogły zostać automatycznie i trwale usunięte z naszych serwerów.",
+          "teams_point9": "Jeśli subskrybujesz za pośrednictwem Apple App Store, warunki Apple mogą obowiązywać w zakresie okresu i anulowania subskrypcji, zamiast warunków określonych w tej klauzuli."
+        },
+        "content_ownership": {
+          "content_ownership_heading": "Własność treści, uprawnienia i odpowiedzialność",
+          "content_ownership_point1": "ZITRANSFER (ZTFR) nie twierdzi o żadne prawa własności do Treści, które tworzysz, używasz, przechowujesz lub udostępniasz za pomocą Usług, i jesteś za nią wyłącznie odpowiedzialny. Jesteś wyłącznie odpowiedzialny za udostępnianie jej odpowiednim odbiorcom. Jakiekolwiek roszczenia o odszkodowanie z tytułu szkód związanych z Treścią spoczywają na osobie, która tworzy, używa, przechowuje i/lub udostępnia ją za pomocą Usług. Akceptujesz, że linki do pobrania i/lub dostępu mogą być przesyłane dalej, a osoby, które mają dostęp do takich linków, mogą uzyskać dostęp do związanej z nimi Treści.",
+          "content_ownership_point2": "Niektóre z Usług pozwalają na zabezpieczenie Treści lub transferów hasłem i PIN-em. Użytkownik jest wyłącznie odpowiedzialny za zachowanie poufności i/lub rozpowszechnianie haseł.",
+          "content_ownership_point3": "Korzystając z Usług, gwarantujesz, że masz wszelkie wymagane uprawnienia (w tym od właścicieli praw autorskich i innych praw własności intelektualnej) do rozpowszechniania, sublicencjonowania, transferu, przechowywania i/lub udostępniania Treści w ramach Usług.",
+          "content_ownership_point4": "ZTFR nie ponosi odpowiedzialności przed Tobą ani przed osobami trzecimi za jakiekolwiek szkody wynikające z Treści utworzonej, używanej, przechowywanej lub udostępnianej przez Ciebie za pomocą Usług, w tym, lecz nie wyłącznie, chronionych prawem autorskim utworów i/lub znaków towarowych.",
+          "content_ownership_point5": "ZITRANSFER (ZTFR) wymaga licencji od Ciebie w odniesieniu do Treści WYŁĄCZNIE W CELU OBSŁUGI, UMIESZCZANIA I DOSKONALENIA USŁUG. Wyłącznie w tym wyraźnym celu i do momentu usunięcia Treści z Usług zgadzasz się i akceptujesz, że korzystając z Usług, udzielasz nam nieograniczonej, światowej, bezpłatnej licencji na (i) używanie, hostowanie, przechowywanie, skanowanie, wyszukiwanie, sortowanie, indeksowanie, tworzenie podglądów oraz (ii) reprodukcję, komunikację, publikowanie, publiczne wyświetlanie, dystrybucję i edycję (w tym, lecz nie wyłącznie, skalowanie, przycinanie, dostosowywanie i tłumaczenie) Treści. LICENCJA CZĘŚĆ DOTYCZĄCA (ii) NIE OBEJMUJE UDOSTĘPNIANIA PLIKÓW ZITRANSFER (ZTFR), JAK OKREŚLONO W KLAUZULI 2 niniejszych Warunków. Dla jasności, ZITRANSFER (ZTFR) nie będzie sprzedawać ani reklamować Treści: ZITRANSFER (ZTFR) wymaga licencji WYŁĄCZNIE W CELU OBSŁUGI, UMIESZCZANIA I DOSKONALENIA USŁUG.",
+          "content_ownership_point6": "ZTFR nie udostępnia funkcji publicznego wyszukiwania, katalogowania ani wykazu Treści.",
+          "content_ownership_point7": "ZTFR może pokazywać Ci reklamy od reklamodawców i artystów wybranych przez ZTFR (takie jak reklamy na cały ekran) podczas korzystania z Usług."
+        },
+        "restrictions": {
+          "restrictions_heading": "Ograniczenia",
+          "restrictions_point1": "ZTFR szanuje Twoje prawa i oczekuje, że będziesz szanował prawa innych, w tym ZITRANSFER (ZTFR), jego artystów, reklamodawców i osób trzecich. Obejmuje to szanowanie prawa do prywatności, poufnych informacji korporacyjnych, tajemnic przedsiębiorstwa i praw własności intelektualnej, takich jak znaki towarowe, prawa autorskie, nazwy handlowe i logotypy. Zgadzasz się nie używać Usług do popełniania, promowania, ułatwiania lub umożliwiania jakichkolwiek działań nielegalnych lub przestępczych lub naruszania tych Warunków lub ułatwiania lub promowania tego rodzaju działań przez innych.",
+          "restrictions_point2": {
+            "point": {
+              "pointpart1": "Jako warunek korzystania z Usług przez Ciebie ",
+              "pointpart2": "zgadzam się nie tworzyć, nie używać, nie przechowywać ani",
+              "pointpart3": "udostępnij dowolne",
+              "pointpart4": "Zawartość tego, że:"
+            },
+            "subpoint1": "Zawiera treści związane z nadużyciem seksualnym nieletnich (dzieci).",
+            "subpoint2": "Jest obsceniczna, zniesławiająca, oszczercza, sprośna, niestosowna, dyskryminująca, groźna, obraźliwa, szkodliwa, sprośna, wulgarna lub nielegalna.",
+            "subpoint3": "Promuje rasizm, przemoc lub nienawiść.",
+            "subpoint4": "Jest faktualnie niepoprawna, fałszywa, wprowadzająca w błąd, wprowadzająca w błąd lub wprowadzająca w błąd.",
+            "subpoint5": "Nie posiadasz do niej praw.",
+            "subpoint6": "Narusza, łamie lub przyswaja prawa własności intelektualnej, prawa prywatności, w tym prawa ochrony danych, oraz/lub jakiekolwiek inne prawa.",
+            "subpoint7": "Narusza lub łamie obowiązujące prawo lub regulacje; i/lub",
+            "subpoint8": "Stanowi 'mowę nienawiści', niezależnie czy kierowana jest do jednej osoby czy grupy, i niezależnie od tego, czy opiera się na rasie, płci, wyznaniu, pochodzeniu narodowym, przekonaniach religijnych, orientacji seksualnej, języku lub innej cezurze takiej osoby lub grupy."
+          },
+          "restrictions_point3": {
+            "point": "Ponadto zgadzasz się nie:",
+            "subpoint1": "Molestować, nękać, śledzić, zastraszać, grozić, dopuszczać się przemocy lub innych działań nielegalnych ani zachęcać innych do tego.",
+            "subpoint2": "Podawać się za inną osobę lub podmiot lub fałszywie udawać przynależność do jakiejkolwiek osoby lub jednostki.",
+            "subpoint3": "Dostępować do obszarów niepublicznych Usług.",
+            "subpoint4": "Interferować z ograniczeniami dostępu lub użytkowania.",
+            "subpoint5": "Używać jakichkolwiek metod pozyskiwania danych lub wydobywania danych lub w inny sposób zbierać informacje o użytkownikach Usług.",
+            "subpoint6": "Wysyłać wirusy, robaki, złośliwe oprogramowanie, ransomware, spam, listy łańcuszkowe, phishingowe e-maile, niechciane wiadomości, promocje lub reklamy jakiegokolwiek rodzaju i w jakimkolwiek celu.",
+            "subpoint7": "Interferować, uszkadzać lub zakłócać Usługi lub zachowywać się w sposób, który może to uczynić.",
+            "subpoint8": "Próbować badać, skanować, kompromitować lub testować podatność Usług lub jakiejkolwiek powiązanej usługi, systemu lub sieci lub naruszać bezpieczeństwo lub uwierzytelnianie, chyba że robisz to zgodnie z naszą Odpowiedzialną Dyskrecją.",
+            "subpoint9": "Korzystać z automatycznych środków dostępu lub używać Usług bez naszej zgody.",
+            "subpoint10": "Rozkładać na części pierwsze lub dekompilować jakąkolwiek (część) Usług.",
+            "subpoint11": "Odsprzedawać, sublicencjonować, wynajmować, dzierżawić, oferować lub w inny sposób komercjalizować Usługi bez naszej zgody.",
+            "subpoint12": "Pozwalać innym osobom na korzystanie z Twojego konta."
+          }
+        },
+        "violation": {
+          "content_ownership_heading": "Naruszenie Regulaminu",
+          "content_ownership_point1": "ZITRANSFER (ZTFR) zastrzega sobie prawo do zbadania, dostarczenia stronom trzecim, (tymczasowego) zablokowania i/lub trwałego usunięcia z serwerów, bez wcześniejszego powiadomienia lub odpowiedzialności, jakiejkolwiek Treści i/lub informacji o koncie lub zablokowania dostępu do jakiejkolwiek części Usług, kiedy ZTFR ustala, według własnego uznania lub po otrzymaniu uzasadnionych i ważnych skarg, że naruszasz te Warunki lub działasz w sposób sprzeczny z obowiązującym prawem lub regulacją. Więcej informacji dostępnych jest w naszej Polityce Powiadamiania/Usuwania."
+        },
+        "intellectual": {
+          "intellectual_heading": "Własność Intelektualna",
+          "intellectual_point1": "Wszystkie prawa własności intelektualnej i/lub podobne prawa do Usług (w tym oprogramowanie, tapety, filmy, treści, fotografia, projektowanie graficzne, typografia, portrety, logotypy, znaki towarowe, nazwy handlowe, nazwy domen, prawa autorskie i patenty) są udzielane ZITRANSFER (ZTFR) i/lub jego licencjodawcom i nie masz prawa do używania, usuwania, modyfikowania, kopiowania, lustrzanego odbicia, rozpowszechniania, dekompilowania ani reverse engineering w jakikolwiek sposób.",
+          "intellectual_point2": "ZTFR nie ponosi odpowiedzialności za treści osób trzecich opublikowane w ramach Usług, odnośniki do zewnętrznych stron internetowych lub treści, produkty lub usługi oferowane na zewnętrznych stronach internetowych. Akceptujesz i przyjmujesz, że korzystanie poza Usługami odbywa się na Twoje własne ryzyko.",
+          "intellectual_point3": "Zawsze będziesz szanować i przestrzegać dobrej nazwy i reputacji ZITRANSFER (ZTFR)/ZIMO GROUP oraz upewnisz się, że Twoje korzystanie z Usług nie narusza w żaden sposób praw ani dobrej nazwy i reputacji ZITRANSFER/ZTFR i jego licencjodawców."
+        },
+        "disclaimer": {
+          "disclaimer_heading": "Oświadczenie i rejestracja konta",
+          "disclaimer_point1": "ZTFR dostarcza Usługi \"TAK, JAK SĄ\", bez jakiejkolwiek gwarancji jakiejkolwiek natury. Bez uszczerbku dla powyższego, ZTFR wyraźnie wyłącza jakiekolwiek gwarancje przydatności handlowej, przydatności do określonego celu i braku naruszenia praw innych. ZTFR nie gwarantuje, że Usługi są dostępne w sposób nieprzerwany, bezpieczny lub wolny od błędów. Korzystanie z Usług odbywa się na własne ryzyko. Uznałeś i zgadzasz się, że ZTFR nie ponosi odpowiedzialności za żadne szkody w systemie komputerowym lub urządzeniu mobilnym ciebie lub jakiejkolwiek strony trzeciej wynikające z korzystania z Usług i nie ponosi odpowiedzialności za brak możliwości przechowywania, przesyłania lub usuwania pliku ani za uszkodzenie lub utratę jakichkolwiek danych, informacji lub treści zawartych w pliku.",
+          "disclaimer_point2": "ZTFR może zmieniać, zakończać lub rozszerzać swoje Usługi od czasu do czasu i zastrzega sobie prawo do ograniczenia dostępu lub wyeliminowania dowolnych funkcji lub funkcjonalności Usług według własnego uznania.",
+          "disclaimer_point3": "Niektóre z Usług wymagają od ciebie rejestracji i podania nam danych, takich jak twój adres e-mail, hasło i/lub dane płatnicze. Musisz upewnić się, że są one dokładne i aktualizować je w ustawieniach swojego konta (Portal). Jesteś odpowiedzialny za jakąkolwiek aktywność związaną z twoim kontem, więc nie powinieneś udostępniać swojego hasła i powinieneś chronić je starannie. Jeśli rejestracje lub dane konta wydadzą się być wykorzystywane w nieodpowiedni sposób, ZTFR zastrzega sobie prawo do usunięcia konta. ZTFR nie ponosi odpowiedzialności za żadne straty lub szkody wynikłe z nieautoryzowanego użytkowania twojego konta."
+        },
+        "indemnity": {
+          "indemnity_heading": "Odszkodowanie i Odpowiedzialność",
+          "indemnity_point1": "Będziesz bronić, rekompensować i zwolnić od odpowiedzialności ZITRANSFER/ZTFR (włączając w to jego pracowników i stowarzyszeń) od wszelkich roszczeń, incydentów, zobowiązań, postępowań, szkód, strat i wydatków (włączając opłaty prawne i rachunkowe), wynikających z lub w jakikolwiek sposób związanych z twoim dostępem do lub korzystaniem z Usług lub naruszeniem tych Warunków, w tym roszczeń osób trzecich, że Treść stworzona, używana, przechowywana lub udostępniana za pomocą Usług przez ciebie lub za pośrednictwem twojego konta narusza lub łamie prawa osób trzecich.",
+          "indemnity_point2": "Usługi mogą zapewniać integrację z usługami osób trzecich. Uznałeś, że: (i) ZTFR nie ponosi odpowiedzialności za czyny lub zaniechania takich usług osób trzecich; (ii) ZTFR nie jest agentem takich usług osób trzecich; i (iii) twoje korzystanie z tych usług podlega obowiązującym warunkom i postanowieniom między tobą a dostawcami tych usług.",
+          "indemnity_point3": "Na tyle, na ile jest to dopuszczalne na mocy obowiązującego lokalnego prawa, ZTFR nie ponosi odpowiedzialności za jakiekolwiek szkody ani obrażenia ciebie wynikłe z korzystania z Usług, w tym (tymczasowego) niedostępności lub (przypadkowego) usunięcia twojej Treści lub konta. Ograniczenie odpowiedzialności o którym mowa w tej klauzuli nie będzie miało zastosowania, jeśli odpowiedzialność za szkody spowodowane umyślnie lub rażącą nieostrożnością ze strony ZTFR. W przypadku odpowiedzialności ZTFR za szkody wynikające z obowiązującego prawa, łączna odpowiedzialność ZTFR wobec ciebie - na tyle, na ile jest to dopuszczalne na mocy obowiązującego lokalnego prawa - za wszelkie roszczenia wynikające z korzystania z Usług nie przekroczy w żadnym przypadku kwoty stu dolarów amerykańskich (100 USD) na incydent."
+        },
+        "wavier": {
+          "wavier_heading": "Zrzeczenie się, Dopuszczalność i Przypisanie",
+          "wavier_point1": "Niewdrożenie postanowienia przez ZITRANSFER nie jest zrzeczeniem się prawa do jego późniejszego wdrożenia.",
+          "wavier_point2": "Jeśli jakieś (część) postanowienia tych Warunków jest uznane za nielegalne, niewykonalne lub w inny sposób nieważne, to (i) pozostałe postanowienia Warunków pozostaną w pełnej mocy i skutku, na ile jest to dopuszczalne na mocy lub zgodnie z obowiązującym prawem; i (ii) ta część będzie uważana za usuniętą i zastąpioną taką, która w swoim skutku ekonomicznym jest najbliższa nieważnej części.",
+          "wavier_point3": "Nie możesz przenosić swoich praw wynikających z tych Warunków. ZTFR ma w każdej chwili prawo przekazania swoich praw któremukolwiek ze swoich stowarzyszeń lub spółek zależnych lub następcy prawnemu jakiejkolwiek działalności związanej z Usługami bez twojej zgody ani innych ograniczeń."
+        },
+        "applicable_law": {
+          "applicable_law_heading": "Prawo właściwe i Jurysdykcja",
+          "applicable_law_point1": "Te Warunki oraz wszelkie zobowiązania nienależące do umowy wynikające z nich będą podlegać i będą interpretowane zgodnie z prawem angielskim, w tym obowiązującym prawem konsumenckim. Te Warunki nie ograniczą żadnych praw ochrony konsumenta, do których możesz być uprawniony na mocy obowiązującego prawa twojego kraju zamieszkania.",
+          "applicable_law_point2": "Wszelkie spory dotyczące tych Warunków będą podlegać wyłącznej jurysdykcji właściwego sądu w Anglii, Zjednoczone Królestwo (z wyjątkiem angielskiego prawa prywatnego międzynarodowego)."
+        },
+        "contact": {
+          "contact_heading": "Kontakt",
+          "contact_point1": "Możesz skontaktować się z ZITRANSFER (ZTFR) Legal pod adresem ",
+          "email": "legal@zimogroup.org"
+        }
+      },
+      "privacyStatement": {
+        "privacyStatement": "DEKLARACJA OCHRONY PRYWATNOŚCI",
+        "privacy": {
+          "privacy_heading": "Deklaracja ochrony prywatności opisuje, jak ZTFR zbiera, używa i udostępnia Twoje dane osobowe.",
+          "privacy_para1": "Ochrona danych naszych użytkowników ma dla nas najwyższe znaczenie, i dokładamy wszelkich starań, aby zapewnić ich bezpieczeństwo.",
+          "privacy_para2": "Poważnie traktujemy Twoje zaufanie i prawo do prywatności i nieustannie pracujemy nad tym, aby Twój cyfrowy ślad był niewielki i pod Twoją kontrolą. Niemniej jednak, aby umożliwić Ci przepływ pracy oraz ulepszyć i zabezpieczyć nasze usługi, musimy przetwarzać niektóre dane osobowe. W przypadku pytań związanych z prywatnością prosimy o kontakt z naszym zespołem ds. ochrony danych pod numerem ",
+          "privacy_para3": "Niniejsza deklaracja dotyczy działań związanych z przetwarzaniem usług ZITRANSFER (ZTFR), oprogramowania, witryn internetowych (włączając rozszerzenia przeglądarek) i/lub aplikacji (razem: \"Usługi\"). Usługi pozwalają Ci tworzyć, udostępniać, zbierać, rejestrować i/lub wizualizować Twoje pomysły, teksty, grafiki, filmy, dane, informacje, pliki, prezentacje lub inne treści (razem: \"Treść\"). Usługi mogą być udostępniane online, w formie aplikacji mobilnych i/lub desktopowych i/lub mogą być zintegrowane z usługami stron trzecich. Korzystając z dowolnych z Usług, zgadzasz się, że przeczytałeś i zrozumiałeś naszą Deklarację ochrony prywatności, jak opisano poniżej.",
+          "privacy_para4": "Możesz zapoznać się z naszymi praktykami związanymi z ochroną prywatności, dostępnymi za pośrednictwem nagłówków poniżej.",
+          "accordians": {
+            "accordian1": {
+              "heading": "JAKIE INFORMACJE ZBIERAMY?",
+              "content": {
+                "first_para": "Przechowujemy pewne informacje osobiste, aby umożliwić korzystanie z naszych Usług. Istnieje kilka sposobów, w jakie możemy zbierać informacje osobiste od Ciebie: możesz je przesłać lub zbierzemy je automatycznie za pomocą naszych Usług. Rodzaj zbieranych informacji osobistych może się różnić w zależności od sposobu korzystania z naszych Usług i rodzaju używanych Usług. Aby dowiedzieć się, jakie masz prawa jako użytkownik, sprawdź sekcję \"Jakie masz prawa jako użytkownik\" w celu uzyskania informacji na temat zmiany, dostępu lub usunięcia swoich informacji osobistych.",
+                "sub_heading1": {
+                  "heading": "Informacje osobiste przekazywane przez Ciebie",
+                  "text1": "ZITRANSFER (ZTFR) zbiera, przetwarza lub przechowuje informacje osobiste dostarczone przez Ciebie.",
+                  "text2": "Uploader lub twórca(-cy) ponoszą odpowiedzialność za legalność Treści i muszą przestrzegać naszego Regulaminu. ZTFR przetwarza je jedynie w celu świadczenia swoich Usług. Jeśli przesyłasz, wysyłasz lub tworzysz informacje osobiste za pośrednictwem jednej z naszych Usług, możesz poprosić o Umowę przetwarzania danych, wysyłając e-mail na adres legal@zimogroup.org.",
+                  "points": {
+                    "point1": "INFORMACJE KONTAKTOWE: Twoje imię i Twój adres e-mail lub adres e-mail odbiorcy(-ów).",
+                    "point2": "INFORMACJE O TOBIE SAMYM: wiek, płeć, miasto, kraj.",
+                    "point3": "PREFERENCJE: na przykład ustawienia językowe lub zainteresowania.",
+                    "point4": "TREŚĆ I METADANE: możesz wybrać się na przesłanie lub stworzenie Treści, która zawiera wszelkiego rodzaju informacje osobiste o Tobie i innych osobach. Taka Treść zawiera również nazwę pliku, rozmiar i typ pliku.",
+                    "point5": "WIADOMOŚCI OSOBISTE/NOTATKI: te, które wysyłasz do innych osób wraz z udostępnianiem swoich plików."
+                  }
+                },
+                "sub_heading2": {
+                  "heading": "Informacje osobiste zbierane automatycznie",
+                  "text1": "ZTFR zbiera i wykorzystuje również informacje osobiste w sposób automatyczny podczas korzystania z naszych Usług.",
+                  "points": {
+                    "point1": "INFORMACJE O PRZEGLĄDARCE: rodzaj przeglądarki, ustawienia językowe, kraj i strefa czasowa.",
+                    "point2": "INFORMACJE O PLIKACH COOKIE LUB ZNAKACH WEBOWYCH: identyfikatory plików cookie i ustawienia oraz inne informacje osobiste otrzymane za pośrednictwem plików cookie, znaków webowych lub znaczników pikselowych. Więcej informacji znajdziesz w sekcji \"Dlaczego i jak są używane pliki cookie\".",
+                    "point3": "INFORMACJE O URZĄDZENIU: rodzaj urządzenia, model sprzętu i system operacyjny.",
+                    "point4": "SZCZEGÓŁY IDENTYFIKACYJNE: unikalne identyfikatory, takie jak IDFA (dla systemu iOS), adres MAC lub identyfikator użytkownika.",
+                    "point5": "INFORMACJE O SIECI: adresy IP i informacje o sieci komórkowej.",
+                    "point6": "DANE O LOKALIZACJI: dane o Twojej lokalizacji geograficznej. Jeśli używamy Twojej lokalizacji GPS na podstawie urządzenia, upewniamy się, że robimy to tylko po uzyskaniu Twojej zgody.",
+                    "point7": "KORZYSTANIE ZE USŁUGI: informacje dotyczące sposobu interakcji z naszymi Usługami, witrynami internetowymi i aplikacjami mobilnymi."
+                  }
+                },
+                "sub_heading3": {
+                  "heading": "Informacje osobiste otrzymane od partnerów",
+                  "text1": "Możemy otrzymywać informacje osobiste od osób trzecich, takie jak:",
+                  "points": {
+                    "point1": "INFORMACJE O INTEGRACJI: możesz wybrać się na zintegrowanie niektórych naszych Usług z kontem na (serwisach społecznościowych lub usługach do przesyłania wiadomości), aby zapewnić Ci bogate funkcje przesyłania wiadomości.",
+                    "point2": "INFORMACJE MARKETINGOWE: niektórzy partnerzy mogą dostarczać dodatkowe (zagregowane) informacje, na przykład za pośrednictwem ich zestawów deweloperskich oprogramowania (SDK). Mogą one zawierać informacje demograficzne lub behawioralne w celu personalizacji treści, reklam i ofert oraz znalezienia odpowiedniej publiczności dla naszych reklam.",
+                    "point3": "INFORMACJE PRAWNE: gdy organy ścigania lub sądy zlecają nam usunięcie Treści, początkowo możemy otrzymać informacje osobiste na Twój temat i Twoim zachowaniu."
+                  }
+                }
+              }
+            },
+            "accordian2": {
+              "heading": "Z KIM DZIELIMY INFORMACJE OSOBISTE?",
+              "content": {
+                "first_para": "ZTFR współpracuje z wieloma partnerami w celu działania i doskonalenia swoich Usług. Ponadto możemy udostępniać lub umożliwiać Ci udostępnianie informacji jako część niektórych Usług.",
+                "second_para": "Jesteśmy globalną platformą/przedsiębiorstwem i częścią globalnej organizacji technologicznej, co oznacza, że możemy udostępniać lub przechowywać informacje osobiste w krajach spoza Europejskiego Obszaru Gospodarczego (\"EOG\"). Te kraje mają różne przepisy dotyczące ochrony danych. Niemniej jednak, gdy przesyłamy i przechowujemy dane na skalę globalną, zapewnimy, że zostaną wprowadzone odpowiednie zabezpieczenia, aby zapewnić, że Twoje informacje osobiste cieszą się podobnym poziomem ochrony, co w przypadku EOG.",
+                "points": {
+                  "point1": "DOSTAWCY USŁUG: tacy jak nasz dostawca hostingu, dostawca wsparcia użytkownika, dostawcy IT i oprogramowania, procesorzy płatności, procesory e-maili i księgowi.",
+                  "point2": "OSOBY I (SPOŁECZNE) MEDIA TWOJEGO WYBORU: możesz wybrać się na udostępnienie Treści innym osobom, takim jak koledzy z zespołu, w ramach naszych Usług lub na (społecznych) mediach, takich jak Facebook, X, itp.",
+                  "point3": "AGENCJE ŚCIŚNIENIA PRAWA LUB ORGANIZACJE NADZORCZE: jesteśmy zobowiązani do udostępnienia Twoich informacji osobistych na podstawie żądania prawnego. W przypadku natrafienia na CSAI lub otrzymania zgłoszenia o innej nielegalnej Treści udostępnimy również Twoje informacje osobiste organom ścigania.",
+                  "point4": "PARTNERZY BIZNESOWI: współpracujemy z partnerami ds. reklam, agencjami marketingu i komunikacji. Robimy to w celu reklam (opartych na zainteresowaniach), brandingu i dotarcia do Ciebie. Nasi partnerzy reklamowi wdrażają swoje własne pliki cookie śledzące, które podlegają ich warunkom usług i oświadczeniu o ochronie prywatności.",
+                  "point5": "USŁUGI ZINTEGROWANE: jeśli zdecydujesz się zintegrować (jedną z) naszych Usług z inną usługą (na przykład swoim kontem w serwisie społecznościowym), połączymy tę usługę z naszą. Aby dostarczyć taką usługę, będziemy musieli udostępnić niektóre z Twoich informacji osobistych tej usłudze. Warunki i oświadczenie o ochronie prywatności tych stron trzecich obowiązują, przynajmniej w części dotyczącej połączenia.",
+                  "point6": "ENTYTY ZTFR: dzielimy się informacjami osobistymi między jednostkami wchodzącymi w skład ZITRANSFER i ZIMO GROUP w celu świadczenia naszych Usług i dla wszystkich celów wymienionych w sekcji \"Dlaczego używamy Twoich informacji osobistych?\"."
+                }
+              }
+            },
+            "accordian3": {
+              "heading": "DLACZEGO I JAK SĄ WYKORZYSTYWANE PLIKI COOKIE?",
+              "content": {
+                "first_para": "Umieszczamy pliki cookie w celu usprawnienia ZTFR. Pracujemy ciężko, aby nasze Usługi były bezpieczne, piękne i nieuciążliwe. Możesz zablokować pliki cookie, ale może to wpłynąć na wydajność naszych Usług.",
+                "second_para": "Umieszczamy kilka plików cookie (lub podobnych technologii, takich jak piksele lub znaczniki webowe) na Twoim urządzeniu w celu ułatwienia korzystania z Usługi i poprawy jej jakości. My lub nasi partnerzy reklamowi również umieszczamy pliki cookie na naszych witrynach internetowych. Jako globalna usługa, partnerzy ci mogą różnić się w zależności od kraju. Gdy nasi partnerzy reklamowi umieszczają pliki cookie, te pliki mogą przetwarzać informacje osobiste w celu pomiaru skuteczności kampanii reklamowej.",
+                "third_para": "Pliki cookie to małe pliki tekstowe, które są przechowywane na Twoim komputerze przez przeglądarkę, gdy odwiedzasz witrynę internetową. Przykładowe cele plików cookie to: preferencje językowe, logowanie do konta, zapamiętywanie danych logowania, wyświetlanie spersonalizowanych reklam i akceptacja Regulaminu i Oświadczenia o Ochronie Prywatności. Nasza witryna może umieszczać te pliki cookie w celu osiągnięcia następujących celów:",
+                "points": {
+                  "point1": "PLIKI COOKIE FUNKCJONALNE służą do dostarczania funkcji podczas korzystania z naszych Usług, takich jak możliwość ustawienia preferencji lub zapamiętania poprzednich ustawień.",
+                  "point2": "PLIKI COOKIE ANALITYCZNE służą do optymalizacji naszych Usług. Na przykład do optymalizacji użyteczności naszej witryny poprzez testowanie A/B nowej funkcji, usprawnienia witryny pod kątem użytkowników oraz analizy sposobu korzystania z naszych Usług. Używamy również plików cookie analitycznych do zatrzymywania botów i szkodliwego zachowania, takiego jak spam. Gdy używamy plików cookie analitycznych, mogą one obejmować pliki cookie stron trzecich, jakie znajdziesz na liście plików cookie. Te pliki cookie analityczne stron trzecich przetwarzają informacje osobiste, które są szczegółowo opisane na liście plików cookie.",
+                  "point3": "PLIKI COOKIE REKLAMOWE są wykorzystywane w celach komercyjnych, edytorskich i promocyjnych. Dzięki tym plikom cookie można śledzić zachowanie w internecie i na różnych domenach i witrynach. ZTFR sprawdza tylko (jedną) witrynę, którą odwiedziłeś przed odwiedzeniem jednej z naszych witryn. Nie śledzimy witryny, którą odwiedzasz po opuszczeniu naszej witryny. Pliki cookie reklamowe są często umieszczane również przez strony trzecie w celu pomiaru skuteczności ich kampanii reklamowych i śledzenia zachowań w internecie na innych domenach i witrynach, gdzie umieszczają plik cookie. ZTFR nie ma dostępu do ani kontroli nad informacjami osobistymi gromadzonymi za pomocą tych plików cookie ani innych funkcji, które reklamodawcy i strony trzecie mogą wykorzystywać. Nasze Oświadczenie o Ochronie Prywatności nie ma zastosowania do tych plików cookie stron trzecich, i odsyłamy Cię do Oświadczeń o Ochronie Prywatności stron trzecich, aby dowiedzieć się, jak obchodzą się z danymi osobowymi.",
+                  "point4": "ZNAKOWNIKI PIKSELI LUB ZNAKOWNIKI WEBOWE to kody osadzone na stronie internetowej, które zbierają informacje osobiste na temat interakcji użytkowników z tą stroną internetową. Wykorzystanie znacznika pikselowego pozwala nam na zapisanie informacji, na przykład o tym, że użytkownik odwiedził daną stronę internetową lub kliknął na określoną reklamę. Znak pikselowy pozwala nam także sprawdzić, z jakiej poprzedniej witryny lub kanału użytkownik dotarł na naszą witrynę."
+                }
+              }
+            },
+            "accordian4": {
+              "heading": "DLACZEGO UŻYWAMY TWOICH INFORMACJI OSOBISTYCH?",
+              "content": {
+                "first_para": "Używamy Twoich informacji osobistych w celu świadczenia i ulepszania naszych Usług, w celu spełnienia obowiązków prawnych i reklamowania naszych Usług oraz zapewnienia bezpieczeństwa naszych Usług. Poniżej znajdziesz informacje na temat konkretnego wykorzystania Twoich informacji osobistych i na jakich podstawach prawnych opieramy się przy wykorzystywaniu Twoich informacji osobistych.",
+                "sub_heading1": {
+                  "heading": "Informacje osobiste zbierane w sposób zautomatyzowany",
+                  "points": {
+                    "point1": "USŁUGA: najważniejszym powodem wykorzystania Twoich informacji osobistych jest oczywiście oferowanie naszych Usług, o których mowa w naszym Regulaminie, na przykład w celu tworzenia lub wizualizacji Twojej Treści lub dzielenia się pomysłami i umożliwienia dostępu i korzystania z Treści na różnych urządzeniach.",
+                    "point2": "WSPIERANIE: świadczymy wiele usług wsparcia, aby pomóc Ci w razie potrzeby, na przykład gdy potrzebujesz pomocy technicznej. Jeśli jest to konieczne do udzielenia wsparcia, zespół wsparcia może na Twoją prośbę uzyskać dostęp do Twojej Treści, aby Ci pomóc.",
+                    "point3": "KONTO I FAKTURACJA: tworzenie i utrzymywanie Twojego osobistego konta, na przykład w celu ułatwienia zarządzania książką adresową i umożliwienia dostępu do Treści na różnych urządzeniach, ułatwianie płatności za subskrypcję oraz prowadzenie działań księgowych, audytowych i rozliczeniowych.",
+                    "point4": "BEZPIECZEŃSTWO, INTEGRACJA I OCHRONA: ZTFR reaguje na zgłoszenia nadużyć, zgłoszenia NTD/DMCA, śledzi dochodzenia w sprawach oszustw i może prowadzić dochodzenie w sprawie przestrzegania naszego Regulaminu i Regulaminu Korzystania z API. Ponadto wykrywamy i blokujemy treści związane z przemocą seksualną wobec dzieci (CSAI). Wykrywanie CSAI prowadzi do automatycznych decyzji, czy taka Treść jest potencjalnie CSAI. Przypadki potencjalnej CSAI zostaną zgłoszone bezpośrednio organom ścigania. Ponadto chronimy się przed oszustwami i innymi nielegalnymi działaniami. W tych przypadkach zastrzegamy sobie prawo do przechowywania Twojej Treści i udostępniania jej wraz z innymi informacjami identyfikacyjnymi organom ścigania. Wreszcie możemy wykorzystywać Twoje informacje osobiste w celu wewnętrznej kontroli w celu zabezpieczenia naszego i Twojego bezpieczeństwa, integralności i ochrony. Na przykład w przypadku jakiejkolwiek podejrzanej naruszenia naszego Regulaminu lub Regulaminu Korzystania z API.",
+                    "point5": "USPRAWNIANIE I ROZWÓJ: oceniamy korzystanie z naszych Usług, aby je ulepszać, usuwać błędy, opracowywać nowe produkty i usługi. Robimy to zarówno poprzez badania rynku (na przykład wysyłając ankiety) jak i analizy (na przykład śledząc i łącząc Twoje informacje osobiste na przestrzeni naszych Usług lub urządzeń mobilnych). Robimy to, aby zrozumieć, jak jako całość reaguje nasza baza użytkowników na nasze Usługi, ale także, aby ocenić efektywność naszych reklam i dostosować te Usługi i reklamy odpowiednio.",
+                    "point6": "MARKETING, REKLAMA I KOMUNIKACJA: wykorzystujemy Twoje informacje osobiste do celów marketingowych i reklamowych (opartych na zainteresowaniach), na przykład za pomocą SDK lub plików cookie, a także do komunikacji. Chodzi o aktualizacje dotyczące nowych Usług, ale także spersonalizowane reklamy ZTFR lub naszych partnerów, które możemy serwować na naszych lub witrynach stron trzecich. Aby znaleźć odpowiednią grupę docelową dla tych reklam, przyjrzymy się pewnym segmentom ludzi. Na przykład osobom korzystającym z podobnych Usług do naszych, osobom o podobnych cechach do naszych obecnych użytkowników lub osobom w określonym obszarze geograficznym, takim jak obszar Londynu. Aby skontaktować się z naszą grupą docelową, możemy używać komunikatów sekwencyjnych, które są w zasadzie formą opowiadania: za każdym razem, gdy wchodzisz w interakcje z naszymi Usługami na innym urządzeniu, możesz otrzymać nieco inną reklamę w innej formie, ale te reklamy są częścią tej samej historii. Ponadto, na podstawie sposobu, w jaki wchodzisz w interakcje z naszymi Usługami za pośrednictwem swoich urządzeń, możemy promować jedną z naszych (innych) Usług lub funkcji. Ponadto umożliwiamy Ci uczestnictwo w dowolnych (spersonalizowanych) działaniach, promocjach lub wydarzeniach, które oferujemy. Wreszcie korzystamy z marketingu e-mailowego, aby przesyłać Ci istotne historie dotyczące kreatywności lub wiadomości ZTFR. Gdzie to konieczne, zawsze zapytamy o Twoją zgodę przed wysłaniem Ci marketingu e-mailowego. Oczywiście zawsze możesz się wycofać w każdym otrzymanym e-mailu.",
+                    "point7": "PRAWNE: o ile to konieczne, możemy wykorzystać Twoje informacje osobiste do obrony ZITRANSFER (ZTFR) / ZIMO GROUP w postępowaniach sądowych związanych z lub wynikających z korzystania z naszych Usług, w odpowiedzi na nakazy sądowe, przestrzeganiu prawa, regulacji lub żądań rządowych, współpracy z organami ścigania, współpracy w dochodzeniach w sprawach oszustw stron trzecich, ochrony bezpieczeństwa narodowego, obrony, bezpieczeństwa publicznego i przestrzegania naszego Regulaminu."
+                  }
+                },
+                "sub_heading2": {
+                  "heading": "Podstawy prawne",
+                  "text1": "Każda czynność przetwarzania ma ważną podstawę prawną, która jest opisana poniżej.",
+                  "points": {
+                    "point1": "ZOBOWIĄZANIA UMOWNE WOBEC CIEBIE: dotyczy działań i celów wymienionych w punktach 1, 2 i 3. Musimy przetwarzać informacje osobiste, aby oferować nasze Usługi za pośrednictwem naszych witryn i aplikacji mobilnych, zapewnić wsparcie techniczne i rozliczyć opłatę za subskrypcję.",
+                    "point2": "ZOBOWIĄZANIA PRAWNE: dotyczy działań i celów wymienionych w punktach 3, 4 i 7. Jesteśmy zobowiązani prawem do przetwarzania Twoich informacji osobistych w celach księgowych, reagowania na żądania prawne i żądania NTD lub DMCA.",
+                    "point3": "ZGODA: (częściowo) dotyczy działań i celów wymienionych w punkcie 2 (na przykład dostępu do Twojej Treści w celu wsparcia) i 6, z wyjątkiem sytuacji, gdy komunikujemy marketing bezpośredni w związku z naszymi własnymi i podobnymi Usługami do płatnych użytkowników.",
+                    "point4": "LEGITYMOWANE INTERESY: (częściowo) dotyczy działań i celów wymienionych w punktach 1 i 3 (na przykład w celu zapewnienia dostępu do Treści na różnych urządzeniach). Dla celów wymienionych w punkcie 4 w celu zapewnienia bezpiecznych Usług, zapobiegania oszustwom i reagowania na nielegalne użycie naszych Usług. Dla naszych interesów innowacyjnych, o których mowa w punkcie 5. I wreszcie dla naszego (bezpośredniego) marketingu, interesów marki, o których mowa w punkcie 6 oraz interesów związanych z przestrzeganiem prawa, o których mówi punkt 7. Gdy korzystamy z Twoich informacji osobistych na podstawie naszych lub stron trzecich legitymowanych interesów, zawsze dbamy o zachowanie równowagi między Twoimi prawami i wolnościami a tymi legitymowanymi interesami. Jeśli to ma zastosowanie, i chciałbyś się sprzeciwić działaniom opartym na naszych legitymowanych interesach, a w ustawieniach konta lub otrzymanej komunikacji nie ma opcji wyłączenia, prosimy o kontakt "
+                  }
+                }
+              }
+            },
+            "accordian5": {
+              "heading": "CZY MOŻESZ UŻYWAĆ ZITRANSFER (ZTFR) DO PRYWATNYCH I CZUŁYCH PLIKÓW?",
+              "content": {
+                "first_para": "Traktujemy Twoją Treść z szacunkiem. Nie udostępniamy żadnej publicznej funkcji wyszukiwania, katalogu lub listy, aby znaleźć Treść. Wierzymy, że rozumiesz, że w celu spełnienia naszego moralnego obowiązku polegającego na ograniczeniu rozprzestrzeniania treści z przemocą seksualną wobec dzieci (CSAI), stosujemy systemy automatyczne do wykrywania takiej Treści. Wreszcie jesteśmy zobowiązani do usunięcia Twojej Treści, gdy otrzymamy żądanie usunięcia lub żądanie prawne.",
+                "second_para": "Proszę zachowaj ostrożność przy udostępnianiu linków do pobierania/dostępu - osoba, która otrzyma lub uzyska dostęp do linku do pobierania/dostępu, może uzyskać dostęp lub pobrać Treść. Dla dodatkowego bezpieczeństwa i poufności możesz użyć funkcji zabezpieczania plików hasłem (jeśli jest dostępna)."
+              }
+            },
+            "accordian6": {
+              "heading": "Jak bezpieczne jest korzystanie z naszych zaszyfrowanych usług?",
+              "content": {
+                "first_para": "ZITRANSFER (ZTFR) podejmuje środki techniczne i organizacyjne w celu ochrony Twoich danych osobowych przed utratą lub innymi nielegalnymi formami przetwarzania.",
+                "second_para": "Dbamy o to, aby dane osobowe były dostępne tylko dla tych, którzy potrzebują dostępu do nich w celu wykonywania swojej pracy i są odpowiednio autoryzowani. Dostęp do danych osobowych jest rejestrowany, ograniczamy liczbę osób mających do nich dostęp i zapewniamy, że dane osobowe mogą być odczytywane, kopiowane, modyfikowane lub usuwane tylko przez odpowiednio autoryzowany personel. Monitorujemy wewnętrzną aktywność w celu zapewnienia bezpieczeństwa i dokładności danych osobowych.",
+                "third_para": "Personel ZTFR jest zobowiązany do postępowania zgodnie z wytycznymi firmy dotyczącymi poufności, etyki i odpowiedniego wykorzystywania danych osobowych. Personel jest zobowiązany do podpisania umowy o poufności.",
+                "forth_para": "Podczas przesyłania, przechowywania na naszych serwerach i pobierania, zawartość jest szyfrowana i przesyłana wyłącznie poprzez bezpieczne połączenie (https). Serwery, których używamy do przechowywania Twoich danych, są zgodne z RODO i są bezpieczne.",
+                "text": "ZTFR WYKORZYSTUJE ZAAWANSOWANY STANDARD SZYFROWANIA AES 256-BIT, ABY ZABEZPIECZYĆ POUFNOŚĆ DANYCH, KTÓRE PRZEKAZUJESZ."
+              }
+            },
+            "accordian7": {
+              "heading": "JAKIE PROCEDURY ZWIĄZANE Z RETENCJĄ DANYCH SĄ W MIEJSCU?",
+              "content": {
+                "para": "Okres retencji Twoich danych osobowych zależy od korzystanej usługi oraz od kategorii danych osobowych. Zawsze sprawdź witrynę lub aplikację danej usługi w celu uzyskania szczegółowych informacji na temat okresu retencji.",
+                "heading1": {
+                  "sub_heading": "DANE OSOBOWE",
+                  "para": "ZTFR przechowuje Twoje dane osobowe tak długo, jak jest to konieczne do świadczenia usług (np. utrzymanie Twojego konta użytkownika), prowadzenia działań biznesowych i realizacji naszych uzasadnionych interesów, takich jak zapewnienie bezpiecznych i pewnych usług, rozwiązywanie problemów i kontakt z Tobą, oraz zgodnie z obowiązującymi przepisami prawa (np. przechowywanie informacji finansowych przez 7 lat w celach podatkowych) oraz zgodnie z żądaniami prawowitymi oraz rozstrzyganie sporów (prawnych)."
+                },
+                "heading2": {
+                  "sub_heading": "PLIKI, KTÓRE PRZENOSISZ",
+                  "para": "Korzystając z usługi ZTFR File Sharing, Twoje treści zostaną usunięte po 7 dniach (domyślnie), chyba że wybrałeś określony okres. Dane dotyczące przesyłania konta ZTFR Pro są przechowywane domyślnie przez 28 dni lub do daty wygaśnięcia, którą ustawiasz ręcznie. Po tym okresie plik jest automatycznie usuwany z naszych serwerów za pomocą niszczenia na poziomie wojskowym. Informacje osobiste towarzyszące Twojemu przesyłowi są przechowywane maksymalnie przez 12 miesięcy. Takie dane są dostępne tylko dla nielicznych osób w ZTFR, tych, którzy potrzebują ich do wykonywania swojej pracy, na przykład w celu świadczenia pomocy. Gdy dane mają ponad 12 miesięcy, czyszczimy je z bazy danych, nadajemy im pseudonim lub anonimizujemy w celach analitycznych. Pseudonimizacja Twoich danych osobowych oznacza, że nie używamy Twojego adresu e-mail ani adresu IP do celów analitycznych, ale tworzymy losowy pseudonim dla obu i używamy tego pseudonimu. W ten sposób nie musimy zajmować się bezpośrednio identyfikowalnymi danymi osobowymi, co jest przyjazne dla prywatności."
+                },
+                "heading3": {
+                  "sub_heading": "ZAWARTOŚĆ, KTÓRĄ TWORZYSZ, UŻYWASZ, PRZECHOWUJESZ LUB UDOSTĘPNIASZ PRZEZ USŁUGI INNE NIŻ UDOSTĘPNIANIE PLIKÓW",
+                  "para": "Zawartość, którą tworzysz, używasz, przechowujesz lub udostępniasz za pośrednictwem naszych usług, z wyjątkiem usługi udostępniania plików, w zasadzie jest przechowywana do momentu zaprzestania interakcji z naszymi usługami, usunięcia swoich treści z naszych usług, usunięcia naszych usług z Twoich urządzeń lub usunięcia konta. Zawsze sprawdź witrynę lub aplikację danej usługi w celu uzyskania szczegółowych informacji."
+                }
+              }
+            },
+            "accordian8": {
+              "heading": "JAKIE MASZ PRAWA JAKO UŻYTKOWNIK?",
+              "content": {
+                "para1": "Jeśli potrzebujesz więcej informacji na temat swoich danych osobowych, daj nam znać. Możemy poprosić o potwierdzenie tożsamości. Jeśli zmienisz zdanie i nie chcesz już, abyśmy przetwarzali Twoje dane osobowe, daj nam znać.",
+                "points": {
+                  "text": "Możesz poprosić ZTFR o:",
+                  "point1": "Dostęp, otrzymanie kopii lub poprawienie swoich danych osobowych",
+                  "point2": "W określonych przypadkach usunięcie (na poziomie wojskowym) swoich danych osobowych lub zablokowanie lub ograniczenie ich wykorzystania",
+                  "point3": "W określonych przypadkach przekazanie Twoich danych osobowych innym podmiotom trzecim"
+                },
+                "para2": "Możesz to zrobić, wysyłając e-mail na adres <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>. Proszę wyraźnie podać w temacie, że Twoje żądanie dotyczy kwestii prywatności i bardziej szczegółowo, czy jest to prośba o dostęp, korektę czy usunięcie. Należy pamiętać, że w pewnych okolicznościach ZTFR może poprosić o dodatkowe informacje w celu potwierdzenia Twojej tożsamości.",
+                "heading1": {
+                  "sub_heading": "PRAWO DO SPRZECIWU",
+                  "para1": "Masz prawo sprzeciwić się naszemu przetwarzaniu Twoich danych osobowych, na przykład gdy podstawa prawna przetwarzania opiera się na jednym z naszych uzasadnionych interesów (patrz sekcja \"Podstawy prawne\"). Jeśli poinformujesz nas, że nie chcesz już, abyśmy przetwarzali Twoje dane osobowe lub aby się z Tobą kontaktowano, ZTFR przeniesie Twoje dane osobowe do osobnego pliku. Twoje dane osobowe nie będą już wykorzystywane do wyżej wymienionych celów, chyba że nasz uzasadniony interes, na przykład bezpieczeństwo, przeważy nad Twoim prawem do sprzeciwu. Możesz to żądać poprzez <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>. Proszę wyraźnie podać w temacie, że Twoje żądanie dotyczy kwestii prywatności i bardziej szczegółowo, że korzystasz z prawa do sprzeciwu.",
+                  "para2": "Jeśli uważasz, że naruszyliśmy Twoje prawa prywatności, możesz złożyć skargę do odpowiedniego organu nadzorczego. Możesz złożyć skargę w szczególności w kraju, w którym mieszkasz, w miejscu pracy lub w miejscu, gdzie uważasz, że naruszyliśmy Twoje prawa."
+                },
+                "heading2": {
+                  "sub_heading": "WYCOFANIE ZGODY",
+                  "para": "Jeśli udzieliłeś nam zgody na przetwarzanie swoich danych osobowych, możesz ją wycofać w dowolnym momencie, bez wpływu na zgodność z prawem działań przetwarzania opartego na zgodzie przed jej wycofaniem. Jeśli wycofasz swoją zgodę, nie będziemy dłużej przetwarzać danych osobowych, które otrzymaliśmy na podstawie Twojej zgody."
+                },
+                "heading3": {
+                  "sub_heading": "KONSUMENCI Z KALIFORNII",
+                  "para": "Z zastrzeżeniem pewnych ograniczeń wynikających z Kalifornijskiego Kodeksu Cywilnego § 1798.83, jeśli jesteś mieszkańcem Kalifornii, możesz poprosić nas o udostępnienie Ci (i) listy pewnych kategorii danych osobowych, które ujawniliśmy pewnym podmiotom trzecim w celach ich bezpośrednich działań marketingowych w okresie ostatniego roku kalendarzowego oraz (ii) tożsamości pewnych podmiotów trzecich, które otrzymały od nas dane osobowe w celach ich bezpośrednich działań marketingowych w danym roku kalendarzowym. Niemniej jednak nie udostępniamy Twoich danych osobowych firmom marketingowym, zgodnie z powyższą ustawą."
+                }
+              }
+            },
+            "accordian9": {
+              "heading": "JAK SKONTAKTOWAĆ SIĘ Z ZITRANSFER (ZTFR)",
+              "content": {
+                "para": "Nasz zespół wsparcia jest dostępny pod adresem <b><a href='mailto:support@zitransfer.com?subject= Support enquiry'>support@zitransfer.com</a></b>. Jeśli masz jakiekolwiek pytania, prosimy o kontakt drogą mailową. Jeśli masz pytania dotyczące sposobu przetwarzania Twoich danych osobowych przez ZITRANSFER (ZTFR) lub danych osobowych przechowywanych o Tobie przez ZTFR, prosimy o kontakt z ZTFR, wysyłając e-mail z Twoim pytaniem na adres <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>. Jeśli potrzebujesz skontaktować się z naszym Zespołem Ochrony Danych, prosimy o kontakt pod adresem <b><a href='mailto:dpt@zitransfer.com?subject= DPT enquiry'>dpt@zitransfer.com</a></b>."
+              }
+            },
+            "accordian10": {
+              "heading": "ZMIANY W OŚWIADCZENIU O OCHRONIE DANYCH",
+              "content": {
+                "para": "Zauważ, że ZITRANSFER (ZTFR) może od czasu do czasu dokonywać zmian w tym Oświadczeniu o Ochronie Danych. Każda zaktualizowana wersja zostanie oznaczona datą i opublikowana na stronie internetowej. ZITRANSFER zaleca, abyś regularnie sprawdzał stronę internetową i zwracał uwagę na wszelkie zmiany. Jeśli nie zgadzasz się z Oświadczeniem o Ochronie Danych, nie powinieneś już korzystać z witryny i/lub usługi lub przestać korzystać z nich. Kontynuując korzystanie z witryny i/lub usługi, akceptujesz wszelkie zmiany dokonane w Oświadczeniu o Ochronie Danych."
+              }
+            }
+          }
+        }
+      },
+      "noticePolicy": {
+        "noticepolicy": "POLITYKA ZGŁOSZEŃ I USUWANIA",
+        "content": {
+          "para1": "ZTFR szanuje Twoje prawa i oczekuje, że będziesz szanował prawa innych. W niefortunnym przypadku, gdy ZTFR znajduje lub zostaje powiadomiony o nielegalnych plikach lub treściach rozpowszechnianych za pośrednictwem swoich usług, będziemy postępować zgodnie z procedurami opisanymi w tej Polityce Zgłoszeń i Usuwania.",
+          "para2": "Korzystając z naszej witryny/platformy lub usługi transferu plików, zgadzasz się być związany naszą Polityką Zgłoszeń i Usuwania, jak opisano poniżej."
+        },
+        "information": {
+          "information_heading": "DANE OSOBOWE, KTÓRE PRZESYŁASZ",
+          "information_para": "ZTFR przestrzega angielskiego Kodeksu Postępowania dotyczącego Zgłoszeń i Usuwania (\"Code\") Platformy Bezpieczeństwa Internetu. Ten Kodeks Postępowania ustala procedury dla pośredników internetowych, takich jak ZITRANSFER (ZTFR), w zakresie rozpatrywania zgłoszeń (rzekomych) nielegalnych treści, których celem jest usunięcie spornych treści (\"Zgłoszenie\" lub \"Zgłoszenia\"). Niniejsza Polityka Zgłoszeń i Usuwania (\"Polityka NTD\") opisuje procedury i terminy, jakie stosuje ZITRANSFER (ZTFR) w przypadku takich Zgłoszeń."
+        },
+        "requirements": {
+          "requirements_heading": "WYMAGANIA DOTYCZĄCE ZGŁOSZEŃ",
+          "requirements_para1": "Każda osoba lub organizacja składająca Zgłoszenie (\"Zgłaszający\") ma obowiązek upewnić się, że jest ono poprawne i kompletne.",
+          "requrements_para2": "ZITRANSFER powinien być w stanie zweryfikować Zgłoszenia po przeprowadzeniu dochodzenia w sprawie przestępstwa pochodzenia od służby inspekcji lub dochodzenia lub w przypadku formalnego nakazu organu prokuratury. Zgłoszenie o innej naturze niż powyższe powinno zawierać co najmniej następujące informacje:",
+          "requrements_points": {
+            "point1": "Dane kontaktowe Zgłaszającego, nazwa, stanowisko, organizacja, adres, adres e-mail",
+            "point2": "Wszystkie informacje, których ZITRANSFER potrzebuje do oceny zgodności spornej treści z prawem, w tym jej lokalizacja (URL)",
+            "point3": "Ważne powody niezgodności treści z prawem lub uzasadnienie, dlaczego jest w sprzeczności z Warunkami korzystania, Polityką Zgłoszeń i Usuwania lub Oświadczeniem o Prywatności ZITRANSFER"
+          }
+        },
+        "indemnity": {
+          "heading": "ZADOŚĆUCZYNIENIE",
+          "para": "Zgłaszający udzieli ZITRANSFERowi wyraźnego zadośćuczynienia w związku z 1) roszczeniami użytkownika, którego treść jest sporna (\"Dostawca Treści\") dotyczącymi działań ZITRANSFER w związku z rozpatrywaniem Zgłoszenia oraz 2) roszczeniami Zgłaszającego w związku z treścią przesyłaną za pośrednictwem naszej usługi."
+        },
+        "urgency": {
+          "heading": "PILNOŚĆ",
+          "para": "Zgłaszający może poprosić ZITRANSFER o rozpatrzenie Zgłoszenia w trybie pilnym. W takim przypadku Zgłoszenie powinno uzasadniać wszystkie powody pilności. ZITRANSFER podejmuje decyzję według własnego uznania, czy Zgłoszenie powinno być rozpatrywane jako pilne na podstawie powyższego wyjaśnienia."
+        },
+        "evaluation": {
+          "evaluation_heading": "OCENA",
+          "evaluation_text": "ZITRANSFER oceni Zgłoszenie i zaklasyfikuje je do jednej z trzech kategorii:",
+          "evaluations_points": {
+            "point1": "Treść podlegająca karze zgłoszona przez służbę inspekcji lub dochodzenia lub w przypadku formalnego nakazu organu prokuratury",
+            "point2": "Treść jednoznacznie nielegalna i/lub treść podlegająca karze zgłoszona przez inne źródła niż władze wymienione w punkcie 1",
+            "point3": "Wszelkie inne treści, niepodlegające kategorii 1) ani 2)"
+          }
+        },
+        "measures": {
+          "measures_heading": "Środki",
+          "measures_text": "Kategoryzacja Raportu ZITRANSFER określa, jakie środki zostaną podjęte w związku z Raportem.",
+          "measures_points": {
+            "point1": "Jeśli ZITRANSFER stwierdzi, że treść jest jednoznacznie nielegalna lub karalna, tj. należy do powyższych kategorii 1) i 2), ZITRANSFER zapewnia natychmiastowe usunięcie treści.",
+            "point2": "Jeśli ZITRANSFER stwierdzi, że treść nie jest jednoznacznie nielegalna lub karalna, tj. należy do powyższej kategorii 3), treść nie zostanie usunięta. ZITRANSFER poinformuje zgłaszającego odpowiednio.",
+            "point3": "Jeśli ZITRANSFER nie jest w stanie lub nie jest w stanie wystarczająco ocenić, czy treść jest jednoznacznie nielegalna lub karalna, ZITRANSFER poinformuje Dostawcę Treści o Raporcie wraz z prośbą o (i) zgodę na usunięcie treści lub (ii) skontaktowanie się z zgłaszającym. Jeśli zgłaszający i Dostawca Treści nie mogą osiągnąć porozumienia, zgłaszający może złożyć oficjalne zgłoszenie na policję, jeśli może być to przestępstwem. Jeśli chodzi o treść, która jest rzekomo niezgodna z prawem cywilnym, zgłaszający może przekazać spór z Dostawcą Treści przed angielskim sądem. Jeśli Dostawca Treści nie jest skłonny dostatecznie się zidentyfikować przed zgłaszającym, ZITRANSFER ma prawo (i) udostępnić zgłaszającemu nazwisko Dostawcy Treści, adres e-mail i adres IP lub (ii) usunąć treść w kwestii."
+          }
+        },
+        "period": {
+          "heading": "Okres",
+          "para": "Kategoryzacja i odpowiednie środki zostaną podjęte najpóźniej w ciągu 10 dni roboczych od otrzymania Raportu."
+        },
+        "caution": {
+          "heading": "należyta Ostrożność",
+          "para": "W przypadku konieczności usunięcia treści ZITRANSFER będzie ostrożnie dbał o to, aby usunięto nie więcej niż to konieczne w związku z Raportem."
+        },
+        "questions": {
+          "heading": "Pytania?",
+          "para": "W przypadku pytań dotyczących tej Polityki NTD, prosimy o kontakt z ZITRANSFER, wysyłając e-mail na adres "
+        }
+      },
+      "advertisementTerms": {
+        "advertisingterms": "WARUNKI REKLAMY",
+        "terms": {
+          "heading": "WARUNKI ZITRANSFER (ZTFR)",
+          "para": "Te Warunki reklamy ZITRANSFER (\"Warunki ZITRANSFER\") uzupełniają, ale nie zastępują, każdego Zamówienia Wstawienia zawartego między ZITRANSFER a Klientem (jak zdefiniowano poniżej), wraz z Ogólnymi Warunkami i Warunkami Standardowymi IAB dotyczącymi Reklamy internetowej na Media Buys na okres do jednego roku, Wersja 3.0.",
+          "link": "https://www.iab.com/wp-content/uploads/2015/06/IAB_4As-tsandcs-FINAL.pdf",
+          "refered": "(określane jako \"Warunki IAB\")."
+        },
+        "definitionscope": {
+          "definitionscope_heading": "DEFINICJE I ZAKRES",
+          "definitionscope_points": {
+            "point1": "Wszystkie zdefiniowane wielkimi literami terminy używane, ale nie zdefiniowane w niniejszym dokumencie, mają takie samo znaczenie, jak zdefiniowane w Warunkach IAB, z wyjątkiem następujących definicji, które zostały zmienione i obecnie brzmią w Warunkach ZITRANSFER, Warunkach IAB, Zamówieniu Wstawienia (IO) i Załącznikach w następujący sposób: \"Reklama\" oznacza jakąkolwiek reklamę (w tym, lecz nie ograniczając się do treści marki) stworzoną przez Przedsiębiorstwo Medialne, niezależnie od tego, czy opiera się na materiałach reklamowych. \"Materiały Reklamowe\" oznaczają treści do Reklam, w tym grafikę, tekst, treści audio lub wideo lub aktywne adresy URL. \"Właściwości Przedsiębiorstwa Medialnego\" oznaczają strony internetowe, (online) biuletyny, podcasty, wideo, serie internetowe lub kanały audio lub wideo w Internecie, określone w IO, które są własnością, obsługiwane lub kontrolowane przez Przedsiębiorstwo Medialne. \"Właściwości Sieci\" oznaczają strony internetowe, podcasty, serie internetowe lub kanały audio lub wideo lub platformy określone w IO, które nie są własnością, nie są obsługiwane ani nie są kontrolowane przez Przedsiębiorstwo Medialne, ale na których Przedsiębiorstwo Medialne ma umowę o prawie do wyświetlania Reklam. Dodane są następujące definicje i mają one następujące znaczenie: \"Umowa\" oznacza umowę zawartą między Przedsiębiorstwem Medialnym a Klientem, składającą się z IO, Warunków ZITRANSFER, Załączników (Studio i/lub Treści Marki) oraz Warunków IAB. \"Klient\" oznacza kontrahenta Przedsiębiorstwa Medialnego na mocy niniejszej Umowy, jak opisano na IO i który podpisał IO. \"Data Wykonania\" to data podpisania IO. \"Prawa Własności Intelektualnej\" oznaczają patenty, znaki towarowe, znaki usługowe, nazwy handlowe i firmy, prawa autorskie, prawa do topografii, nazwy domen, prawa baz danych i prawa projektowe, niezależnie od tego, czy są zarejestrowane, w tym ich wnioski, tajemnice handlowe i prawa zaufania; wszystkie prawa lub formy ochrony o podobnym charakterze lub o podobnym lub równoważnym działaniu do którychkolwiek z nich, które mogą istnieć gdziekolwiek na świecie. \"Realizowalne Newslettery\" oznaczają Realizowalne dostarczane na podstawie kosztów za wysłany biuletyn (za pośrednictwem poczty elektronicznej). \"Przełożenie\" oznacza jawną lub niejawną zmianę (części) dostawy Reklamy z przyczyn jakiejkolwiek, na datę późniejszą niż data rozpoczęcia IO, spowodowaną lub zleconą przez Klienta.",
+            "point2": "W przeciwieństwie do wprowadzenia Warunków IAB, w przypadku gdy Klientem jest inna strona niż Agencja (np. ale nie ograniczając się do Reklamodawcy), wszystkie prawa i obowiązki określone w Warunkach IAB, które stosują się do Agencji, będą stosować się mutatis mutandis do Klienta.",
+            "point3": "Mimo postanowień Section XIV.c. Warunków IAB, Umowa między Klientem a Przedsiębiorstwem Medialnym składa się z IO, Warunków ZITRANSFER, Załączników i Warunków IAB. W przypadku konfliktu między dowolnymi elementami umowy stanowiącymi część Umowy, kolejność ważności jest następująca: i) IO, ii) Warunki ZITRANSFER, iii) Załączniki i iv) Warunki IAB. Przedsiębiorstwo Medialne nie akceptuje warunków i zastrzeżeń Klienta ani jakiejkolwiek strony trzeciej, które z tego powodu nie stanowią części Umowy i nie są wiążące dla Przedsiębiorstwa Medialnego. Zmiany w akceptowanych IO muszą być dokonane na piśmie i zaakceptowane przez drugą stronę na piśmie.",
+            "point4": "Chyba że pisemnie ustalono inaczej, propozycje i oferty Przedsiębiorstwa Medialnego są ważne przez 30 (trzydzieści) dni. Umowa wchodzi w życie w dniu Wykonania, pod warunkiem, że ZITRANSFER otrzymało podpisane przez Klienta IO, w którym Klient akceptuje Warunki ZITRANSFER, Załączniki oraz Warunki IAB. Wydawnictwo nie może rezerwować i/lub gwarantować dostępności przed dniem Wykonania. Umowa wygasa po wykonaniu IO (Data Zakończenia określona na IO)."
+          }
+        },
+        "changeterms": {
+          "changeterms_heading": "ZMIANY W WARUNKACH IAB",
+          "changeterms_points": {
+            "point1": "W przeciwieństwie do Sections I.a. i II.a. Warunków IAB: Przedsiębiorstwo Medialne nie będzie tworzyć harmonogramów dostaw.",
+            "point2": "Section I.b. part (i) Warunków IAB jest zmieniona i teraz brzmi następująco: pisemne (co obejmuje komunikację e-mailową lub podpisy za pośrednictwem systemów elektronicznego zarządzania umowami) zatwierdzenie IO przez Przedsiębiorstwo Medialne i Agencję.",
+            "point3": "Dodatkowo do Section II.d. Warunków IAB, Przedsiębiorstwo Medialne nie udziela żadnej gwarancji dotyczącej sąsiedztwa konkurencyjnego w przypadku Reklam, które pojawiają się na Właściwościach Przedsiębiorstwa Medialnego. Na pisemną prośbę Klienta Przedsiębiorstwo Medialne podejmie jednak komercyjnie uzasadnione wysiłki, aby zastosować się do życzeń Klienta dotyczących sąsiedztwa konkurencyjnego.",
+            "point4": "Dodatkowo do Section III.b. Warunków IAB, w przypadku braku otrzymania płatności w określonym terminie płatności, Przedsiębiorstwo Medialne ma prawo (i) anulować wszystkie bieżące i przyszłe IO Klienta oraz (ii) natychmiast wystawić faktury za wszystkie oczekujące, podpisane IO oraz koszty poniesione do daty anulowania.",
+            "point5": "Section III.c. Warunków IAB jest zmieniona i teraz brzmi następująco: Klient jest wyłącznie odpowiedzialny za zbieranie opłat, które wystawił swoim własnym klientom. Klient nie ma prawa zwlekać z żadnym zobowiązaniem płatniczym wobec Przedsiębiorstwa Medialnego na podstawie nieotrzymania opłat wystawionych swoim własnym klientom. Na własne wyłączne uznania Przedsiębiorstwo Medialne może wymagać płatności z góry.",
+            "point6": "Section IV.c. Warunków IAB jest usunięta w całości i nie stanowi części Umowy.",
+            "point7": "Dodatkowo do Section V. Warunków IAB, w przypadku anulowania Przedsiębiorstwo Medialne usunie anulowane (część) IO z sieci w ciągu 48 godzin od otrzymania powiadomienia o anulowaniu od Klienta. Przedsiębiorstwo Medialne wyśle Klientowi e-mail z potwierdzeniem anulowania. Faktury będą oparte na dacie e-maila z potwierdzeniem Przedsiębiorstwa Medialnego.",
+            "point8": "Dodatkowo do Section V. Warunków IAB, w przypadku Przełożenia Przedsiębiorstwo Medialne ma prawo do wystawienia Klientowi faktury w wysokości 10% (dziesięć procent) kosztów wymienionych w IO jako rekompensata. Tę rekompensatę Klient nie może odejść od faktury wystawionej przez Przedsiębiorstwo Medialne, i nie ma wpływu ani nie zwalnia Klienta z obowiązku zapłacenia wszystkich pozostałych faktur Przedsiębiorstwa Medialnego w pełnej wysokości. W przypadku, gdy Przełożenie występuje więcej niż raz i/lub przewidziana data przełożenia przypada na nowy rok kalendarzowy, Przedsiębiorstwo Medialne ma prawo do anulowania (części) IO i do wystawienia faktury (części) IO w pełnej wysokości.",
+            "point9": "Ostatnie zdanie Section VI.a. Warunków IAB jest zmienione i teraz brzmi następująco: Jeśli niewykonanie wynosi więcej niż 10% w stosunku do liczby Realizowalnych w odpowiednim IO, Agencja i Przedsiębiorstwo Medialne mogą uzgodnić rekompensatę zgodną z tymi Warunkami. Jeśli niewykonanie wynosi mniej niż 10% w stosunku do liczby Realizowalnych w odpowiednim IO, rekompensata nie jest dostępna. Ponieważ Przedsiębiorstwo Medialne fakturuje tylko faktyczne Realizowalne, niewykonanie zostanie automatycznie odzwierciedlone na fakturze.",
+            "point10": "W przeciwieństwie do zdania drugiego Section VI.b. Warunków IAB, Przedsiębiorstwo Medialne fakturuje tylko faktyczne Realizowalne na podstawie własnych zapisów, więc Agencja nie może dokonać kredytu równego wartości niewykonanej części IO, za którą została obciążona.",
+            "point11": "Ostatnie zdanie Section VIII.a. Warunków IAB jest usunięte i nie stanowi części Umowy.",
+            "point12": "Termin w Sections VIII.a. i VIII.c. Warunków IAB został zmieniony na czternaście (14) dni.",
+            "point13": "Section IX.e. Warunków IAB jest zmieniona i teraz brzmi następująco: Przedsiębiorstwo Medialne ma prawo dokonywać niezbędnych dostosowań technicznych do Materiałów Reklamowych dostarczonych przez Klienta (takich jak skalowanie lub kadrowanie). Kiedy Klient prosi Przedsiębiorstwo Medialne o stworzenie treści dla Reklam (takie jak grafika, tekst, treści audio, wideo, tłumaczenia) lub dokonanie istotnych zmian w Materiałach Reklamowych dostarczonych przez Klienta (takich jak zmiana grafiki, tekstu, treści audio, wideo lub tłumaczenie treści), zwane dalej \"Usługą\", Przedsiębiorstwo Medialne dostarczy Usługę \"TAK JAK JEST\", bez żadnych gwarancji jakiejkolwiek natury. Przedsiębiorstwo Medialne wyraźnie odrzuca wszelkie odpowiedzialności związane z Usługą i nie daje gwarancji, że Usługa działa na zasadzie braku błędów. Akceptacja i korzystanie z Usługi przez Klienta odbywa się na własne ryzyko Klienta. Klient przyjmuje do wiadomości i zgadza się, że Przedsiębiorstwo Medialne nie ponosi odpowiedzialności i/lub nie jest zobowiązane do żadnych szkód wynikłych z korzystania z Usługi.",
+            "point14": "Section IX.f. Warunków IAB jest zmieniona i teraz brzmi następująco: Przedsiębiorstwo Medialne nie zezwala na znaczniki Third Party Ad Server, niezależnie od rodzaju Reklamy.",
+            "point15": "Section X.a. Warunków IAB jest zmieniona i teraz brzmi następująco: Przedsiębiorstwo Medialne będzie rekompensować Klienta, jego Filie i Przedstawicieli od odszkodowań, odpowiedzialności, kosztów i wydatków (w tym rozsądnych opłat adwokackich) (zbiorczo \"Straty\") wynikających z jakiegokolwiek roszczenia, orzeczenia lub postępowania (zbiorczo \"Rozszczenia\"), które twierdzą, że usługi Przedsiębiorstwa Medialnego naruszają prawa własności intelektualnej jakiejkolwiek strony trzeciej, chyba że Rozszczenia wynikają z naruszenia przez Klienta punktu 4.1 tych Warunków ZITRANSFER.",
+            "point16": "Pierwsze zdanie Section XII.b. Warunków IAB jest zmienione i teraz brzmi następująco: Niemniej jednak, termin \"Informacje Poufne\" nie będzie obejmować informacji, które: (i) były wcześniej znane Odbiorcy; (ii) były lub stawały się ogólnie dostępne dla publiczności bez winy Odbiorcy; (iii) dotyczą Reklamy, która jest dostarczana na stronie internetowej Przedsiębiorstwa Medialnego i staje się ogólnie dostępna w ramach tej dostawy, takie jak typ Reklamy, obszar i tożsamość Reklamodawcy; (iv) były w posiadaniu Odbiorcy lub jego agentów niezależnie i bez odniesienia do Informacji Poufnych dostarczonych Odbiorcy przez Udostępniającego; (v) były przekazywane przez Udostępniającego osobie trzeciej niepowiązanej z żadnym obowiązkiem zachowania poufności.",
+            "point17": "Section XII d (ii) Warunków IAB jest zmieniona i teraz brzmi następująco: Przedsiębiorstwo Medialne może wyodrębnić dane Zgromadzone z danych Zgromadzonych i może korzystać i ujawniać takie dane do celów ogólnego prowadzenia działalności Przedsiębiorstwa Medialnego (takie jak marketing i public relations).",
+            "point18": "Section XIII. Warunków IAB jest usunięta w całości i zastąpiona następującym postanowieniem: W przypadku, gdy faktura jest ustalana na podstawie zapisów, a istnieją rozbieżności między zapisami obu stron (np. w zakresie Realizowalnych lub lokalizacji Realizowalnych), strony mogą udostępnić swoje zapisy i będą rozmawiać o rozwiązaniu w dobrej wierze. W przypadku, gdy stronom nie uda się osiągnąć porozumienia, zapisy Przedsiębiorstwa Medialnego przeważają i stanowią podstawę faktury.",
+            "point19": "Dodatkowo do Section XIV.a. Warunków IAB, Reklamodawca oświadcza i gwarantuje, że Materiały Reklamowe są zgodne ze wszystkimi obowiązującymi prawami, przepisami i regulacjami, w tym, ale nie ograniczając się do miejscowych i branżowych kodeksów reklamowych i wytycznych dotyczących kampanii reklamowych i promocyjnych (zbiorczo \"Prawo Reklamowe\"). Reklamodawca rozumie i zgadza się, że samodzielnie ponosi odpowiedzialność za informowanie i dostarczanie Przedsiębiorstwu Medialnemu wymaganych informacji i instrukcji w celu zapewnienia zgodności Reklamy z Prawem Reklamowym.",
+            "point20": "Dodatkowo do Section XIV.f. Warunków IAB, również sekcje 1, 2 i 3 tych Warunków ZITRANSFER przetrwają zakończenie lub wygaśnięcie Umowy."
+          }
+        },
+        "invoices": {
+          "invoices_heading": "FAKTURY I PŁATNOŚCI (DODATKOWE POSTANOWIENIA)",
+          "invoices_points": {
+            "point1": "Wszystkie faktury od Media Company muszą być opłacone bez żadnych zniżek, obniżek, potrąceń, wzajemnych roszczeń lub odszkodowań oraz wolne od potrąceń z tytułu podatku i będą opłacane w Euro (€), dolarach amerykańskich ($) lub funtach brytyjskich (£) (zgodnie z IO) na konto bankowe określone przez Media Company. Każda faktura będzie określać opłaty bez VAT oraz stosowny VAT. Dla jasności: jeśli Klient jest podatnikiem VAT, zostanie to pokazane na fakturze, a Klient będzie musiał zapłacić fakturę wraz z VAT.",
+            "point2": "Możemy wprowadzać lub zmieniać opłaty za Usługi od czasu do czasu, o czym powiadomimy Cię z wyprzedzeniem. Jeśli masz subskrypcję na czas określony i cenę, ta cena będzie obowiązywać przez okres obowiązywania subskrypcji. Jeśli nie zgadzasz się z zmianą ceny, możesz anulować subskrypcję i przestać korzystać z Usług na koniec obowiązującego okresu usługi. Jeśli nadal korzystasz z Usług po wejściu w życie zmiany ceny, zgadzasz się zapłacić zmienioną cenę. Wprowadzenie opłat będzie wymagać Twojej wcześniejszej zgody i rejestracji.",
+            "point3": "Klient nie ma prawa wstrzymywać płatności ani dokonywać potrąceń z jakiegokolwiek powodu.",
+            "point4": "Wszelkie spory dotyczące faktury muszą być zgłoszone do Media Company na piśmie w ciągu 8 (ośmiu) dni od daty faktury. Każda faktura, która nie została zakwestionowana w tym okresie, będzie uważana za zaakceptowaną.",
+            "point5": "Wszelkie płatności na rzecz Media Company będą najpierw przeznaczone na koszty windykacji, następnie na odsetki, a następnie na najstarsze niezapłacone faktury w ramach dowolnej Umowy. W przypadku zaległych kwot mogą narosnąć odsetki w wysokości 1% (jeden procent) na każdy miesiąc kalendarzowy lub jego część, bez konieczności wzywania do zapłaty, aż do pełnej zapłaty. Ponadto Media Company ma prawo naliczyć pełne koszty windykacji, co najmniej w wysokości £ 250 za każdy przypadek.",
+            "point6": "W przypadku niewykonania przez Klienta postanowień sekcji III. Regulaminu IAB oraz postanowień 2.4, 2.5 i 3 niniejszego Regulaminu ZITRANSFER, Media Company ma prawo zawiesić swoje usługi lub wypowiedzieć Umowę."
+          }
+        },
+        "adrestrictions": {
+          "adrestrictions_heading": "OGRANICZENIA REKLAM",
+          "adrestrictions_points": {
+            "point1": "Zgodnie z sekcją IX.c Regulaminu IAB, Materiały Reklamowe i Reklamy nie mogą zawierać, reklamować, linkować ani w inny sposób odnosić się do treści, które według wyłącznego uznania Media Company i) są obsceniczne, zniesławiające, oszczercze, bluźniercze, niestosowne lub nielegalne i/lub są przemocą, treściami seksualnymi lub agresywnymi w stopniu prawdopodobnie obraźliwym dla jakiejkolwiek grupy ludzi; ii) naruszają lub przyswajają prawa własności intelektualnej osób trzecich i/lub prawa prywatności lub jakiekolwiek inne prawa; iii) stanowią \"mowę nienawiści\", skierowaną zarówno do jednej osoby, jak i grupy, bez względu na rasę, płeć, wyznanie, pochodzenie narodowe, przynależność religijną, orientację seksualną lub język tej osoby lub grupy; iv) są faktograficznie nieprawdziwe, mylące lub wprowadzające w błąd; v) szkodzą reputacji Media Company lub którejkolwiek z jej marek lub prawdopodobnie wprowadzają w błąd Media Company lub któreś z jej spółek zależnych; vi) narażają Media Company i jego użytkowników na działanie złośliwego oprogramowania (takiego jak wirusy komputerowe, robaki, konie trojańskie lub jakiekolwiek podobne lub inne szkodliwe komponenty), i/lub vii) naruszają politykę usuwania ogłoszeń Media Company <a href='https://zitransfer.com/legal/takedown' target='blank'>(https://zitransfer.com/legal/takedown)</a> lub wytyczne kreatywne i handlowe Media Company.",
+            "point2": "Mimo sekcji IX.c Regulaminu IAB, Media Company zastrzega sobie prawo do odmowy lub natychmiastowego usunięcia Reklamy, w tym, lecz nie tylko, w sytuacjach, gdzie Reklama, według uznania Media Company, byłaby w naruszeniu: i) jakiegokolwiek obowiązującego prawa lub przepisów, lub ii) jakichkolwiek wcześniejszych umów, zasad, kodeksów postępowania lub wytycznych kreatywnych lub handlowych Media Company lub niniejszej Umowy."
+          }
+        },
+        "valueandtakover": {
+          "valueandtakover_heading": "DODANA WARTOŚĆ I PRZEJĘCIE",
+          "valueandtakover_points": {
+            "point1": "Media Company ma prawo dostarczyć Klientowi dodatkowe zasoby za darmo (\"Dodana Wartość\"). Media Company nie gwarantuje, czy, gdzie i kiedy zostanie dostarczona Dodana Wartość.",
+            "point2": "Media Company ma prawo udzielić Klientowi wyłącznych miejsc na określony okres czasu (\"Przejęcie\"). Dla jasności, Przejęcie zapewnia Klientowi wyłączność w czasie, a nie w Odbiornikach. Media Company może podać szacunkową ilość Odbiorników, ale nie udzieli żadnych gwarancji co do ilości. W żadnym przypadku Przejęcie nie może skutkować Reklamacjami. Dotyczy to także odstąpień od szacunkowych Odbiorników, o których mowa w tym punkcie 5.2."
+          }
+        },
+        "propertyrights": {
+          "propertyrights_heading": "PRAWA WŁASNOŚCI INTELEKTUALNEJ",
+          "propertyrights_points": {
+            "point1": "Prawa własności intelektualnej o jakiejkolwiek naturze w Materiałach Reklamowych pozostaną w posiadaniu Klienta lub jego licencjodawców. Klient udziela niniejszym Media Company niewłaścicielskiej, nieekskluzywnej, nieograniczonej czasowo, nieodpłatnej i sublicencyjnej licencji na (i) używanie Materiałów Reklamowych do tworzenia Reklamy i publikowania ich jako części Reklamy, zgodnie z IO, oraz (ii) używanie Reklamy (w tym wszelkich Materiałów Reklamowych używanych w niej) w celach ogólnych działalności gospodarczej Media Company i jego wykonawców (takich jak marketing i public relations).",
+            "point2": "Prawa własności intelektualnej o jakiejkolwiek naturze w Reklamie pozostaną w posiadaniu Media Company lub jego licencjodawców. Z wyjątkiem postanowień niniejszych Warunków Reklamowych Klient nie ma prawa kopiować, używać, usuwać, modyfikować, odbijać lub dekompilować w jakikolwiek sposób.",
+            "point3": "Niniejsza Umowa nie obejmuje przeniesienia żadnych praw własności intelektualnej.",
+            "point4": "Niniejszy punkt 6 przetrwa wypowiedzenie niniejszej Umowy."
+          }
+        },
+        "sanctions": {
+          "sanctions_heading": "SANKCJE",
+          "sanctions_points": {
+            "point1": "Agencja i Reklamodawca oświadczają i gwarantują, że nie są obecnie podlegli żadnym sankcjom administrowanym lub egzekwowanym przez rząd Stanów Zjednoczonych, Unii Europejskiej ani inną właściwą instytucję ds. sankcji (łącznie \"Sankcje\"), w tym przez umieszczenie na liście sankcji lub kontrolowane w 50% lub więcej przez osoby umieszczone na jakiejkolwiek liście związanej z sankcjami i osobami wyznaczonymi (\"Lista Sankcji\"), takiej jak Lista Specjalnie Wyznaczonych Narodów i Zablokowanych Osób lub Lista Unikaczy Sankcji Zagranicznych utrzymywane przez Biuro ds. Kontroli Aktywów Zagranicznych Departamentu Skarbu Stanów Zjednoczonych oraz Skonsolidowana Lista Osób, Grup i Podmiotów Podlegających Sankcjom Finansowym Unii Europejskiej.",
+            "point2": "Agencja i Reklamodawca oświadczają i gwarantują, że nie są zlokalizowani, zorganizowani ani zamieszkują w kraju lub terytorium, które jest przedmiotem lub celem sankcji, w tym, między innymi, Kuba, Iran, Korea Północna, Syria, Rosja i Krym (każdy z nich to \"Kraj objęty sankcjami\").",
+            "point3": "Agencja i Reklamodawca natychmiast informują Media Company, jeśli w trakcie wykonywania Umowy dowiedzą się, że oni sami lub ich filie podlegają sankcjom lub zostają umieszczeni na jakiejkolwiek Liście Sankcji.",
+            "point4": "Agencja i Reklamodawca uznają, że Media Company jest ograniczone w dostarczaniu Odbiorcom w Krajach objętych sankcjami. Agencja i Reklamodawca samodzielnie odpowiadają za śledzenie informacji na temat sankcji, List Sankcji i Krajów objętych sankcjami, które są istotne dla stosownej IO.",
+            "point5": "Media Company ma prawo anulować i/lub wypowiedzieć jakąkolwiek inną umowę z Agencją i Reklamodawcą w dowolnym momencie, bez kary i bez uprzedniego powiadomienia, jeśli stanie się jasne, że Media Company jest ograniczone w prowadzeniu działalności gospodarczej z Agencją lub Reklamodawcą zgodnie z przepisami prawa dotyczącymi sankcji Stanów Zjednoczonych lub Unii Europejskiej."
+          }
+        },
+        "businessresponsibility": "PROWADZENIE DZIAŁALNOŚCI Z ODPOWIEDZIALNOŚCIĄ",
+        "businessresponsibility_points": {
+          "point1": "Media Company utrzymuje pisany Kodeks Postępowania, który obejmuje Kodeks Postępowania Reklamodawcy, Politykę Danych i Antyprzekupstwa oraz Politykę Zakupów Środowiskowych. Media Company prosi Agencję i Reklamodawcę o przestrzeganie oddzielnego Kodeksu Postępowania Reklamodawcy, który zostanie dostarczony w odpowiednim czasie.",
+          "point2": "Media Company utrzymuje pisany Kodeks Postępowania, który obejmuje Politykę Przeszkadzającego Zachowania, Politykę Danych i Antyprzekupstwa oraz Politykę Zakupów Środowiskowych. Media Company i jej personel przestrzegają tego Kodeksu Postępowania i proszą Agencję i Reklamodawcę o przestrzeganie oddzielnego Kodeksu Postępowania Reklamodawcy. Media Company dostarczy kopię tego Kodeksu Postępowania Reklamodawcy w odpowiednim czasie.",
+          "point3": "Agencja i Reklamodawca oświadczają i gwarantują, że przestrzegają obowiązujących przepisów dotyczących prawa pracy i zatrudnienia oraz zabraniają jakiejkolwiek formy przymusowej pracy lub pracy dzieci (osoby młodsze niż szesnaście (16) lat) w produkcji i dostawie swoich produktów i usług.",
+          "point4": "Agencja i Reklamodawca zgadzają się podejmować komercyjnie uzasadnione wysiłki w celu przestrzegania praktyk zrównoważonych, które mają na celu ograniczenie emisji gazów cieplarnianych i osiągnięcie rozwiązań o zerowym bilansie emisji węgla.",
+          "point5": "Agencja i Reklamodawca uznają znaczenie różnorodności w miejscu pracy i podejmą komercyjnie uzasadnione wysiłki w celu stworzenia środowiska pracy odzwierciedlającego interesy różnorodnej siły roboczej."
+        }
+      }
+    },
+    "sidebarRight": {
+      "CLOSE": "ZAMKNIJ",
+      "PORTAL": "PORTAL",
+      "CONTACTS": "KONTAKTY",
+      "BRANDING": "MARKA",
+      "TRANSFERS": "PRZENIESIENIA",
+      "searchByTitleFilenameOrEmail": "SZUKAJ WEDŁUG TYTUŁU, NAZWY PLIKU LUB ADRESU E-MAIL",
+      "COPIED": "SKOPIOWANE",
+      "copyLink": "KOPIUJ LINK",
+      "noMessage": "BRAK WIADOMOŚCI",
+      "noTitle": "BRAK TYTUŁU",
+      "shareTransfer": {
+        "download": "Pobierz",
+        "preview": "Podgląd",
+        "forward": "Prześlij dalej",
+        "delete": "Usuń",
+        "expiresIn": "wygasa za",
+        "password": "Hasło",
+        "ASSIGN": "PRZYDZIEL",
+        "PAUSE": "WSTRZYMAJ",
+        "CODE": "KOD",
+        "EMAIL": "E-MAIL",
+        "MESSAGE": "WIADOMOŚĆ",
+        "totalDownloads": "Łączna liczba pobrań",
+        "NAME": "Nazwa",
+        "TYPE": "Typ",
+        "SIZE": "Rozmiar",
+        "folder": "folder"
+      },
+      "transfers": {
+        "selections": {
+          "date": "Data",
+          "size": "Rozmiar",
+          "title": "Tytuł",
+          "expirationDate": "Data wygaśnięcia"
+        },
+        "noDataFound": "Nie znaleziono danych.",
+        "SENT": "WYSŁANE",
+        "RECEIVED": "ODBIERZ",
+        "sortBy": "SORTUJ WEDŁUG:",
+        "Downloaded": "POBRANE",
+        "notYetDownloaded": "Jeszcze nie pobrane",
+        "file": "plik",
+        "files": "pliki"
+      }
+    },
+    "sidemenu": {
+      "menu": "MENU",
+      "features": "CECHY",
+      "products": "PRODUKTY",
+      "howToZtfr": "JAK UŻYWAĆ ZTFR",
+      "pricing": "CENY",
+      "advertising": "REKLAMA",
+      "careersH": "KARIERA",
+      "company": "FIRMA",
+      "myAccount": "MOJE KONTO",
+      "newsRoom/Press": "SALA INFORMACYJNA/PRASA",
+      "terms": "WARUNKI",
+      "privacy": "PRYWATNOŚĆ",
+      "advertisingSection": {
+        "hero": {
+          "advertiseWithUsAndAttractTheAttentionOf": "REKLAMUJ SIĘ U NAS I PRZYCIĄGAJ UWAGĘ",
+          "creativeProfessionalsAcrossTheGlobe": "KREATYWNI PROFESJONALIŚCI NA CAŁYM ŚWIECIE.",
+          "reachOurGlobalProfessionals": "DOTRZYMAJ NASZYCH GLOBALNYCH PROFESJONALISTÓW",
+          "getStarted": "ZACZYNAJ"
+        },
+        "watchThis": {
+          "inspireAWorldOfCreativeProfessionals": "INSPIRUJ ŚWIAT KREATYWNYCH PROFESJONALISTÓW",
+          "watchThis": "PATRZ NA TO"
+        },
+        "videos": {
+          "ourAdvertsAreJustMoreThan": "NASZE REKLAMY TO WIĘCEJ NIŻ TYLKO REKLAMA",
+          "impressionsDontAlwaysInspires": "WRAŻENIA NIE ZAWSZE INSPIRUJĄ. INSPIRUJ RAZ, INSPIRUJ NA ŻYCIE.",
+          "video": "WIDEO"
+        },
+        "images": {
+          "premiumPlatformThatPutsYourBrand": "PLATFORMA PREMIUM, KTÓRA WYSTAWIA TWOJĄ MARKĘ",
+          "infront": "Z PRZODU",
+          "ofTheLocalAndGlobalAudiences": "PUBLIC LOCAL ET MONDIAL",
+          "image": "OBRAZ"
+        },
+        "partners": {
+          "ourGlobalPartners": "NASZY GLOBALNI PARTNERZY"
+        },
+        "form": {
+          "becomeAPartner": "STAĆ SIĘ PARTNEREM",
+          "company/Organisation": "FIRMA/ORGANIZACJA",
+          "country": "KRAJ",
+          "phoneNumber": "NUMER TELEFONU",
+          "customiseEveryAspectOfYourAd": "DOSTOSOWAJ KAŻDY ASPEKT SWOJEJ REKLAM",
+          "inYourOfficialPartnerPortal": "W TWOIM OFICJALNYM PORTALU PARTNERSKIM",
+          "thankyou": "DZIĘKUJEMY ZA zainteresowanie zostaniem partnerem, Twoją prośbę",
+          "thankyouSubmited": "został przesłany i skontaktujemy się z Tobą tak szybko, jak to możliwe."
+        }
+      },
+      "pricingSection": {
+        "free": "Bezpłatna",
+        "pricingFreeText": "pricing_free_german"
+      },
+      "careers": {
+        "design": "PROJEKTUJ I BUDUJ SYSTEMY, KTÓRE ZMIENIAJĄ ŚWIAT.",
+        "services": "Usługi w ponad stu dwudziestu krajach.",
+        "discover": "ODKRYJ",
+        "world": "NOWY ŚWIAT",
+        "together": "Razem tworzymy i budujemy lepszy świat.",
+        "global": "WIZJA GLOBALNA",
+        "remote": "Z kulturą pracy zdalnej różnorodność jest w naszym DNA.",
+        "globe": "Rozsiani po CAŁYM GLOBIE, reprezentujemy ponad 23 różne narodowości.",
+        "join": "DOŁĄCZ DO NASZEGO ZESPOŁU"
+      }
+    },
+    "cookies": {
+      "cookiesWrapper": {
+        "thisWebsite": "TA STRONA WYKORZYSTUJE TECHNICZNIE NIEZBĘDNE PLIKI COOKIE.",
+        "withYourConsent": "ZA TWOJĄ ZGODĄ TA STRONA BĘDZIE KORZYSTAĆ Z DODATKOWYCH PLIKÓW COOKIES (W TYM PLIKÓW COOKIES STRON TRZECICH) LUB PODOBNYCH TECHNOLOGII, ABY NASZA STRONA DZIAŁAŁA, W CELACH MARKETINGOWYCH ORAZ POPRAWIAĆ TWOJE DOŚWIADCZENIA W INTERNECIE.",
+        "ourWebsiteUses": "NASZA STRONA KORZYSTA Z PLIKÓW COOKIES W CELU POPRAWY WYDAJNOŚCI, OBSŁUGI I LEPSZEGO ZROZUMIENIA TWOICH POTRZEB. AKCEPTUJĄC NASZYCH PLIKÓW COOKIES STRON TRZECICH, MY I NASI PARTNERZY MOŻEMY OFEROWAĆ PAŃSTWU BARDZIEJ ODPOWIEDNIE REKLAMĘ NA NASZEJ WITRYNIE INTERNETOWEJ I POZA NAMI ) I APLIKACJE.",
+        "youWillHave": "BĘDZIESZ MAŁ POZYTYWNY WPŁYW, KORZYSTAJĄC Z NASZYCH NAGRADZANYCH REKLAM I USŁUG (JEŚLI DOTYCZY).",
+        "furtherInformation": "WIĘCEJ INFORMACJI ZNAJDZIESZ W NASZEJ",
+        "privacyStatement": "POŚWIADCZENIE O PRYWATNOŚCI",
+        "andInTheCookiesSetting": "ORAZ W USTAWIENIACH COOKIES.",
+        "accept": "AKCEPTUJĘ",
+        "reject": "ODRZUT",
+        "manageCookies": "ZARZĄDZAJ COOKIES"
+      },
+      "manageCookies": {
+        "ourWebsiteUsesCookies": "NASZA STRONA KORZYSTA Z PLIKÓW COOKIES, KTÓRE POMAGAJĄ JEJ FUNKCJONOWAĆ, POZWALAJĄ NAM ANALIZOWAĆ Sposób, w jaki z nią współdziałasz, ORAZ POMÓŻ NAM POPRAWIAĆ WYDAJNOŚĆ. AKCEPTUJĄC NASZE PLIKI COOKIES, POZWALASZ NAM POKAZAĆ CI SPERSONALIZOWANE REKLAM.",
+        "mostZimoGroupWebsites": "WIĘKSZOŚĆ STRON INTERNETOWYCH GRUPY ZIMO KORZYSTA Z PLIKÓW COOKIES. PLIKI COOKIES SĄ MAŁYMI PLIKAMI TEKSTOWYMI ZAKŁADANYMI NA TWOIM URZĄDZENIU W CELU PRZECHOWYWANIA DANYCH, ABY SERWERY INTERNETOWE MOGŁY Z NICH PÓŹNIEJ WYKORZYSTAĆ. GRUPA ZIMO I NASI PARTNERZY ZEWNĘTRZNI KORZYSTAJĄ Z PLIKÓW COOKIES, ABY ZAPAMIĘTAĆ TWOJE PREFERENCJE I USTAWIENIA, POMÓŻ LOGUJESZ SIĘ, POKAZUJESZ SPERSONALIZOWANE REKLAMY I ANALIZUJESZ JAK DOBRZE DZIAŁAJĄ NASZE STRONY INTERNETOWE. WIĘCEJ INFORMACJI ZNAJDZIESZ W SEKCJI PLIKI COOKIES I PODOBNE TECHNOLOGIE W STRONIE",
+        "required": "WYMAGANE",
+        "weUseRequiredCookies": "UŻYWAMY WYMAGANYCH PLIKÓW COOKIES DO WYKONYWANIA PODSTAWOWYCH FUNKCJI STRONY INTERNETOWEJ. PRZYKŁADU SĄ UŻYWANE DO ZALOGOWANIA SIĘ, ZAPISANIA TWOICH PREFERENCJI JĘZYKOWYCH, ZAPEWNIENIA KOSZYKA ZAKUPÓW (JEŚLI DOTYCZY), POPRAWY WYDAJNOŚCI, TRASY RUCH MIĘDZY SERWERAMI INTERNETOWYMI, WYKRYJ ROZMIAR TWOJEGO EKRANU, OKREŚL CZAS WŁADOWANIA STRONY, POPRAW DOŚWIADCZENIA UŻYTKOWNIKA I POMIAR ODBIORCY. TE PLIKI COOKIES SĄ NIEZBĘDNE DO DZIAŁANIA NASZYCH STRON INTERNETOWYCH..",
+        "analytics": "ANALIZA",
+        "weAllowThirdParties": "ZEZWALAMY OSOBOM TRZECIM NA KORZYSTANIE Z ANALITYCZNYCH PLIKÓW COOKIES, ABY ZROZUMIEĆ, W JAKI SPOSÓB KORZYSTASZ Z NASZYCH STRON INTERNETOWYCH, ABY MOŻEMY JE ULEPSZAĆ, A OSOBY TRZECIE MOGĄ ROZWIJAĆ I ULEPSZAĆ SWOJE PRODUKTY, KTÓRE MOGĄ WYKORZYSTAĆ W STRONACH INTERNETOWYCH, KTÓRE NIE NALEŻĄ DO WŁAŚCIWOŚCI ANI NIE OBSŁUGIWANE GRUPA ZIMO. NA PRZYKŁAD SŁUŻĄ SŁUŻĄ DO ZBIERANIA INFORMACJI O ODWIEDZANYCH STRONACH I ILU KLIKNIĘCIACH POTRZEBNYCH, ABY WYKONAĆ ZADANIE. KORZYSTAMY Z NIEKTÓRYCH ANALITYCZNYCH PLIKÓW COOKIES DO REKLAM.",
+        "socialMedia": "MEDIA SPOŁECZNOŚCIOWE",
+        "weAndThirdPartiesUseSocialMediaCookies": "MY ORAZ PODMIOTY TRZECIE KORZYSTAMY Z PLIKÓW COOKIES MEDIÓW SPOŁECZNOŚCIOWYCH, ABY POKAZAĆ UŻYTKOWNIKOWI REKLAM I TREŚCI W OPARCIU O TWOJE PROFILE W MEDIACH SPOŁECZNOŚCIOWYCH ORAZ AKTYWNOŚĆ NA NASZYCH STRONACH INTERNETOWYCH. SŁUŻĄ DO POŁĄCZENIA TWOJEJ AKTYWNOŚCI W NASZYCH STRONACH INTERNETOWYCH Z TWOIMI MEDIAMI SPOŁECZNOŚCIOWYMI PROFILE, ABY REKLAMY I TREŚCI, KTÓRE WIDZISZ NA NASZYCH STRONACH INTERNETOWYCH I W MEDIACH SPOŁECZNOŚCIOWYCH, BĘDĄ LEPIEJ ODZWIERCIEDLAJĄCE TWOJE ZAINTERESOWANIA.",
+        "advertising": "REKLAMA",
+        "weAndThirdPartiesUseAdvertisingCookies": "MY ORAZ PODMIOTY TRZECIE KORZYSTAMY Z REKLAMOWYCH PLIKÓW COOKIES, ABY POKAZAĆ CI NOWE REKLAMY POPRZEZ ZAPISYWANIE, KTÓRE REKLAMĘ TY JUŻ WIDZIAŁEŚ. SĄ SŁUŻĄ TEŻ DO ŚLEDZENIA, KTÓRE REKLAMY KLIKASZ LUB KUPUJESZ PO KLIKNIĘCIU REKLAMY W CELU PŁATNOŚCI ORAZ POKAZANIA REKLAM, KTÓRE SĄ DLA CIEBIE BARDZIEJ ISTOTNE, NA PRZYKŁAD SŁUŻĄ DO WYKRYCIA, KIEDY KLIKNIESZ REKLAMĘ I POKAZANIA REKLAM NA PODSTAWIE TWOICH MEDIÓW SPOŁECZNOŚCIOWYCH ZAINTERESOWANIA I HISTORIA PRZEGLĄDANIA STRONY INTERNETOWEJ.",
+        "resetAll": "RESETUJ WSZYSTKO",
+        "saveChanges": "ZAPISZ ZMIANY"
+      }
+    },
+    "user": {
+      "sentMail": {
+        "checkYourEmail": "SPRAWDŹ SWOJĄ E-MAIL",
+        "youShouldNowRecieve": "Powinieneś TERAZ OTRZYMAĆ E-MAIL Z LINKEM DO UTWORZENIA NOWEGO HASŁA.",
+        "ifYouNotRecieved": "JEŚLI NIE OTRZYMASZ E-MAIL, PROSZĘ SPRAWDZIĆ",
+        "wasTheEmail": "był adres e-mail użyty do utworzenia identyfikatora użytkownika"
+      }
+    },
+    "download": {
+      "downloadPassword": {
+        "incorrectPassword": "NIEPRAWIDŁOWE HASŁO"
+      },
+      "downloadPasswordAssign": {
+        "checking": "sprawdzanie..."
+      }
+    },
+    "ztfrX": {
+      "contentCreator": "KREATOR TREŚCI.",
+      "music": "MUZYKA",
+      "getPaidForYourContent": "ZABIERZ ZAPŁATĘ ZA SWOJĄ TREŚĆ",
+      "getPaidForYourTransfers": "OTRZYMAJ ZAPŁATĘ ZA SWOJE TRANSFERY",
+      "sellWhatYouCreate": "SPRZEDAJ TO, CO UTWORZYSZ",
+      "ztfrXIsAnEasyAndSecureWay": "TO ŁATWY I BEZPIECZNY SPOSÓB NA ZARABIANIE ZA SWOJĄ PRACĘ. ZACZNIJ MONETYSTYKOWAĆ SWOJĄ KREATYWNOŚĆ DZIŚ.",
+      "exploreAWorldOfOpportunities": "ZBADAJ ŚWIAT PEŁEN MOŻLIWOŚCI",
+      "gettingPaid": "OTRZYMAM ZAPŁATĘ",
+      "getPaidDirectly": "ODBIERAJ PŁATNOŚCI BEZPOŚREDNIO NA SWOJE",
+      "withdrawFunds": "KONTO. WYCOFAJ ŚRODKI 24/7.",
+      "payments": "PŁATNOŚCI",
+      "explore": "Eksploruj",
+      "getPaidTextSize": "get_paid_directly_spanish",
+      "ztfrGetPaidTxt": "ztfrGetPaid_polish",
+      "paidCard": {
+        "paid": "Płatne",
+        "paidTxtSize": "paid_card_danish"
+      },
+      "musicCard": {
+        "relax": "Relaks"
+      },
+      "constants": {
+        "animation": "Animacja",
+        "applications": "Aplikacje",
+        "architecture": "Architektura",
+        "art": "Sztuka",
+        "collaboration": "Współpraca",
+        "collage": "Kolaż",
+        "comics": "Komiksy",
+        "commissions": "Zlecenia",
+        "community": "Społeczność",
+        "creativeAdvice": "Porady twórcze",
+        "design": "Projektowanie",
+        "education": "Edukacja",
+        "fashion": "Moda",
+        "fiction": "Fikcja",
+        "film": "Film",
+        "gaming": "Gry",
+        "graphicDesign": "Projektowanie graficzne",
+        "graphicNovels": "Powieści graficzne",
+        "illustration": "Ilustracja",
+        "installations": "Instalacje",
+        "music": "Muzyka",
+        "nft": "NFT",
+        "opinion": "Opinia",
+        "painting": "Malarstwo",
+        "partnerships": "Partnerstwa",
+        "performance": "Występ",
+        "photography": "Fotografia",
+        "podcasts": "Podkasty",
+        "print": "Druk",
+        "sculpture": "Rzeźba",
+        "software": "Oprogramowanie",
+        "textile": "Tekstylia",
+        "video": "Wideo",
+        "writing": "Pisanie",
+        "other": "Inne"
+      },
+      "howZtfrXWorks": {
+        "how": "JAK",
+        "works": "DZIAŁA"
+      },
+      "sellDigitalContent": {
+        "sellDigitalContent": "SPRZEDAJ TREŚCI CYFROWE (PRODUKTY)",
+        "turningYourDigitalContent": "ZMIEŃ SWOJĄ TREŚĆ CYFROWĄ NA ZYSK",
+        "allowsYouTo": "POZWALA NA DYSTRYBUCJĘ, REKLAMĘ I OTRZYMANIE PŁATNOŚCI ZA TWOJĄ TREŚĆ CYFROWĄ (PRODUKTY)"
+      },
+      "recieveQuickPayments": {
+        "recieveQuickPayments": "OTRZYMUJ SZYBKIE PŁATNOŚCI OD SWOICH KLIENTÓW",
+        "revolutionise": "ZREWOLUCJONIZUJ SWÓJ BIZNES. BEZPIECZNE ROZWIĄZANIA W ZAKRESIE OTRZYMYWANIA PŁATNOŚCI OD KLIENTÓW W SKALI GLOBALNEJ",
+        "usesAdvanced": "WYKORZYSTUJE 256-BITOWĄ OCHRONĘ ADVANCED ENCRYPTION STANDARD (AES)",
+        "whatContent": "JAKIE TREŚCI (PRODUKTY) SPRZEDAWAĆ?",
+        "weHaveIdeas": "MAMY POMYSŁY, KTÓRE POMOGĄ CI ODKRYĆ NOWE MOŻLIWOŚCI DZIĘKI NOWYM ŹRÓDŁOM DOCHODU Z "
+      },
+      "buyNow": "KUP TERAZ",
+      "getPaidFor": {
+        "getPaidFor": "otrzymuj pieniądze za swoje zdjęcia, muzykę, dzieła sztuki cyfrowej, sesje modowe, spersonalizowane kursy i wiele więcej...",
+        "itsSimple": "TO PROSTE. WIESZ, CZEGO OCZEKUJĄ TWOI FANÓW/KLIENTÓW, PAKUJ SWOJE NAJNOWSZE PRACE (SESJA ZDJĘCIOWA, PAKIETY CZCIONEK, MUZYKA, WIDEO, SZTUKA CYFROWA, KRÓTKIE HISTORIE, POWIEŚCI, WSTĘPNE PAKIETY, PROJEKTY PLAKATÓW I 1000 SZTUK) WIĘCEJ...)",
+        "activateYour": "AKTYWUJ SWOJĄ",
+        "andStartToUpload": "I ROZPOCZNIJ PRZESYŁANIE PRZY UŻYCIU ",
+        "decideOnAPrice": "Zdecyduj o cenie i po prostu udostępnij swój LINK (url), kod QR LUB KORZYSTAJĄC Z NASZYCH WYRÓŻNIONYCH PARTNERÓW"
+      },
+      "sellYourEducational": {
+        "sellYourEducational": "SPRZEDAWAJ SWOJE TREŚCI EDUKACYJNE, PROGRAMY CYFROWE, KSIĄŻKI CYFROWE, SAMOUCZKI, PRZEWODNIKI DO NAUKI I WIELE WIĘCEJ...",
+        "startGenerating": "ZACZNIJ GENEROWAĆ PRZYCHODY RAZEM Z INNYMI TWÓRCAMI, TAKIMI JAK TY. PODZIEL SIĘ SWOJĄ WIEDZĄ I TALENTEM Z GLOBALNĄ PUBLICZNOŚCIĄ. ZAMIEŃ SWOJE ARTYKUŁY NA BLOGU LUB KANAŁ NA INSTAGRAMIE W EBOOKA LUB PLIK PDF, ABY WYGENEROWAĆ DODATKOWY DOCHÓD.  "
+      },
+      "sendFinalAssets": {
+        "sendFinalAssets": "WYŚLIJ KOŃCOWE AKTYWA SWOIM KLIENTOM I OTRZYMAJ ZAPŁATĘ",
+        "itsThatEasy": "TO TAKIE PROSTE. SZYBKO ZARABIAJ ZA NAJNOWSZĄ SESJĘ ZDJĘCIOWĄ, WYSTĘP KONSULTACYJNY LUB DOWOLNĄ Z REKOMENDOWANYCH TREŚCI. PO PROSTU PRZEŚLIJ SWOJE KOŃCOWE PLIKI, DOSTOSUJ KAŻDY ASPEKTY SWOJEJ TAPETY, DODAJ CENĘ, JAKĄ CHCESZ, I WYŚLIJ.",
+        "yourClientsCan": "TWOI KLIENCI MOGĄ UZYSKAĆ ​​DOSTĘP DO TWOJEGO PRYWATNEGO LINKU I PŁACIĆ ZA POBRANIE SWOICH PLIKÓW.",
+        "howToGetStarted": "JAK ZACZĄĆ"
+      },
+      "Xlogo": {
+        "tryNow": "SPRÓBUJ TERAZ"
+      },
+      "ztfrGetPaid": {
+        "getPaid": "OTRZYMAJ ZAPŁATĘ",
+        "effortless": "bezproblemowe przesyłanie zasobów kreatywnych, dużych plików, całych folderów i całych projektów jednym kliknięciem.",
+        "learnMore": "dowiedz się więcej"
+      },
+      "ztfrSecurity": {
+        "security": "BEZPIECZEŃSTWO",
+        "withPassword": "Z ochroną hasłem i 256-bitowym (aes) szyfrowaniem plików, zawierającymi niezbędne funkcje bezpieczeństwa w celu ochrony Twoich treści/pracy."
+      },
+      "ztfrShowcase": {
+        "showcase": "GABLOTA",
+        "create": "Wytwórz niezapomniany efekt, personalizując każdy aspekt, od strony docelowej po e-maile.",
+        "unleash": "uwolnij swoją wyobraźnię bez ograniczeń.",
+        "transferring": "przenoszenie..."
+      },
+      "getStartedVideos": {
+        "stepOne": "KROK JEDEN",
+        "stepTwo": "KROK DWA",
+        "stepThree": "KROK TRZY"
+      }
+    },
+    "createNewPassword": {
+      "confirmPass": "POTWIERDŹ NOWE HASŁO",
+      "instructions": "Wyślemy ci instrukcje dotyczące zresetowania hasła i ponownego ZALOGOWANIA.",
+      "newPass": "NOWE HASŁO",
+      "confirmNewPass": "POTWIERDŹ NOWE HASŁO",
+      "reset": "POTWIERDŹ RESET HASŁA/ZALOGUJ SIĘ"
+    },
+    "transferExpired": {
+      "transferExpired": "TRANSFER WYGASŁ",
+      "weRegret": "Z PRZYKROŚCIĄ",
+      "youThatThis": "INFORMUJEMY, ŻE TEN ",
+      "REACHED": "TRANSFER WYGASŁ I NIE JEST JUŻ",
+      "notAccessible": " DOSTĘPNY.",
+      "sendFiles": " WYŚLIJ PLIKI",
+      "regretMessageGap": "regret_message_gap_none"
+    },
+    "scheduleDone": {
+      "time": "czas",
+      "emailFrom": "EMAIL OD",
+      "yourSchedule": "TWÓJ ZAPLANOWANY UPLOAD ZTFR BĘDZIE",
+      "initiate": "ZAINICJUJ W CIĄGU 5 SEKUND.",
+      "dontClose": "NIE ZAMYKAJ PRZEGLĄDARKI",
+      "during": "W TRAKCIE TEGO PROCESU"
+    },
+    "noInternet": {
+      "notConnected": "Wygląda na to, że nie jesteś połączony z internetem",
+      "noConnection": "Brak połączenia z internetem",
+      "checkConnection": "Sprawdź swoje połączenie lub spróbuj ponownie",
+      "internetSettings": "Ustawienia internetowe"
+    }
+  }
+}

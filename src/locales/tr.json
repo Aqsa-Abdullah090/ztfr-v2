@@ -1,0 +1,1329 @@
+{
+  "hero": {
+    "left": "hero_left_swedish",
+    "letsDo": "YAPALIM",
+    "this": "BU",
+    "upload": "DOSYALARINIZI VE KLASÖRLERİNİZİ BU PENCEREYE BIRAKARAK YÜKLEYİN",
+    "welcomeText": "HOŞ GELDİNİZ"
+  },
+  "sidebar": {
+    "uploadText": "upload__text__turkish",
+    "advanceTextTop": "advance_text_top_turkish_new",
+    "upload": "DOSYALARI VE KLASÖRLERİ BIRAKARAK YÜKLEYİN ONLARI",
+    "them": "BU PENCERENİN HERHANGİ BİR YERİNE BIRAKARAK",
+    "advance": "GELİŞMİŞ ŞİFRELEME STANDARDI (AES) 256-BİT"
+  },
+  "getlink": {
+    "sendEmail": "E-POSTA GÖNDER",
+    "unlimitedTransfers": "SINIRSIZ TRANSFERLER",
+    "geta": "bağlantı al",
+    "getALinkText": "get_a_link_text_czech",
+    "uploadFiles": "DOSYALAR YÜKLE",
+    "selectFolderRightAlign": "select_folder_align_right_turkish",
+    "UptoTextRightAlign": "Upto_text_size_align_right_italian",
+    "or": "VEYA",
+    "select": "BİR KLASÖR SEÇİN",
+    "upto": "KADAR",
+    "free": "ÜCRETSİZ",
+    "styles": {
+      "freeTextLg": "text-[18px]",
+      "freeTextMd": "text-[14px]"
+    }
+  },
+  "FileDropZone": {
+    "drop": "Dosyalarınızı buraya bırakın"
+  },
+  "uploading": {
+    "uploadingFiles": "Dosyaları Yükleme",
+    "uploaded": "yüklendi",
+    "uploading": "Yükleniyor",
+    "pending": "Beklemede",
+    "of_text": "ile ilgili",
+    "about_text": "hakkında",
+    "remaining_text": "geriye kalan",
+    "title_text": "başlık",
+    "note_text": "Not",
+    "cancel_text": "iptal etmek",
+    "almostDone": "neredeyse tamamlandı",
+    "textsizes": {
+      "textsize3": "uploading_size_v2"
+    },
+    "styles": {
+      "uploadingFiles_text_lg": "text-[12px]",
+      "uploadingFiles_text_md": "text-[11px]"
+    }
+  },
+  "uploaded": {
+    "filesUploaded": "Yüklenen Dosyalar",
+    "completed": "tamamlanmış",
+    "youDidIt": "Sen yaptın!",
+    "copyDownloadLink": "İndirdiğiniz Bağlantıyı Kopyalayın",
+    "seeWhatsInside": "İçeride Ne Olduğunu Görün",
+    "code": "kod",
+    "styles": {
+      "filesUploaded_text_lg": "text-[12px]",
+      "filesUploaded_text_md": "text-[10px]",
+      "youDidIt_text_lg": "text-[30px]",
+      "youDidIt_text_md": "text-[20px]"
+    }
+  },
+  "assignContent": {
+    "assignHeading": "ATAMAK",
+    "assign": "atamak, ATAYANA DOSYALAR/KLASÖRLER YÜKLEME VE HANGİ DOSYALAR/KLASÖRLERE ERİŞİM SAĞLANACAĞINI BELİRTME VE KONTROL ETME SEÇENEĞİ SAĞLAYAN ÖZEL BİR ÖZELLİKTİR. ATANANA, DOSYALAR/KLASÖRLERE ERİŞİM İÇİN BENZERSİZ 4 HANELİ BİR PIN KODU VERİLİR.",
+    "one": "BİR YÜKLEME.",
+    "magnitude": "OLASILIKLARIN BÜYÜKLÜĞÜ.",
+    "title": "BAŞLIK",
+    "note": "NOT",
+    "Hi": "Merhaba, sadece bunları elinizin altında bulundurmak isteyebileceğinizi düşündüm. İyi şanslar. Yakında görüşmek üzere. Jessica x",
+    "Revsion": "Revizyon dosyası",
+    "lets_get": "Haydi Alalım",
+    "started": "Başladı",
+    "uploaded_Files": "Yüklenmiş dosyalar",
+    "or": "VEYA",
+    "folders": "Klasörler",
+    "clear": "temizlemek",
+    "assignee": "ATANAN"
+  },
+  "assign_SubContent": {
+    "assign_heading": "atamak",
+    "assign_files": "dosya ata",
+    "assignee_name": "atanan kişinin adı",
+    "assign_pinCode": "pin kodu ata",
+    "generate_pinCode": "pin oluştur",
+    "custom_pinCode": "özel pin",
+    "Additional_Note": "ek Not",
+    "clear_text": "temizle"
+  },
+  "fileDownloadedModal": {
+    "close": "kapalı",
+    "youDidIt": "Sen yaptın!",
+    "items_text": "Bundaki öğeler",
+    "files": "Dosyalar",
+    "folder": "dosya",
+    "expiresIn": "İçinde sona eriyor",
+    "days": "günler",
+    "downloadOrShare": "indirin veya paylaşın",
+    "copied": "kopyalandı",
+    "copyLink": "Bağlantıyı kopyala",
+    "qrCode": "QR kod",
+    "email": "e-posta",
+    "whatsapp": "Naber",
+    "message": "İleti",
+    "facebook": "facebook",
+    "x": "x",
+    "hours": "SAAT",
+    "textsizes": {
+      "textsize4": "text__6__8",
+      "textsize1": "text__20__12",
+      "textsize2": "text__12__10__8"
+    }
+  },
+  "footer": {
+    "zitransfer": "© ZITRANSFER 2023",
+    "rights": "TÜM HAKLARI SAKLIDIR",
+    "partof": "ZITRANSFER, ZIMO GROUP'UN BİR PARÇASIDIR",
+    "zitransferUses": "ZITRANSFER, YÜKLEDİĞİNİZ VERİLERİN GİZLİLİĞİNİ KORUMAK İÇİN GELİŞMİŞ ŞİFRELEME STANDARDI (AES) 256-BİT KULLANIR."
+  },
+  "countries": {
+    "choose": "Ülkenizi veya Bölgenizi Seçin",
+    "language": "DİL"
+  },
+  "MainShare": {
+    "email": "E-POSTA",
+    "emailTo": "E-POSTA GÖNDER",
+    "yourEmail": "E-POSTA ADRESİNİZ",
+    "enterZVC": "ZVC KODUNU GİRİN",
+    "messages": "MESAJLAR",
+    "typeYourCustomisedLink": "ÖZEL BAĞLANTINIZI YAZIN",
+    "linkCopied": "Bağlantı Kopyalandı",
+    "logout": "ÇIKIŞ",
+    "login": "GİRİŞ",
+    "createUserId": "KULLANICI KİMİLİĞİ OLUŞTUR",
+    "getLink": "BAĞLANTI ALIN",
+    "gitQRCode": " QR KODU ALIN",
+    "uploadFileText": "upload_file_text_german_mainShare",
+    "exText": "rename_text_turkish",
+    "title": "BAŞLIK",
+    "Revsion": "Revizyon dosyası",
+    "note": "NOT",
+    "assignHeading": "ATAMAK",
+    "Hi": "Merhaba, sadece bunları elinizin altında bulundurmak isteyebileceğinizi düşündüm. İyi şanslar. Yakında görüşmek üzere. Jessica x",
+    "Expires": "Süresi dolacak",
+    "days": "365 GÜNE KADAR",
+    "schedule": "AKTARIMI ZAMANLAYIN",
+    "advance": "Gelişmiş şifreleme standardı AES 256 bit",
+    "assign": "atamak, ATAYANA DOSYALAR/KLASÖRLER YÜKLEME VE HANGİ DOSYALAR/KLASÖRLERE ERİŞİM SAĞLANACAĞINI BELİRTME VE KONTROL ETME SEÇENEĞİ SAĞLAYAN ÖZEL BİR ÖZELLİKTİR. ATANANA, DOSYALAR/KLASÖRLERE ERİŞİM İÇİN BENZERSİZ 4 HANELİ BİR PIN KODU VERİLİR.",
+    "one": "BİR YÜKLEME.",
+    "magnitude": "OLASILIKLARIN BÜYÜKLÜĞÜ.",
+    "styles": {
+      "setPassword_text_lg": "text-[9px]",
+      "setPassword_text_md": "text-[9px]",
+      "setPasswordAfterShare_text_lg": "text-[9px]",
+      "setPasswordAfterShare_text_md": "text-[8px]"
+    },
+    "assignButton": {
+      "files": {
+        "text": "dosyaları atamak",
+        "css": "text__v1"
+      },
+      "folders": {
+        "text": "klasörleri atamak",
+        "css": "text__v1"
+      },
+      "filesFolder": {
+        "text": "dosyaları/klasörleri atamak",
+        "css": "text__v23"
+      }
+    }
+  },
+  "Expires": {
+    "expires": "SONA ERER",
+    "setPasswordTextSize": "set_password_size_expires_italian",
+    "minute": "dakika",
+    "hour": "saat",
+    "day": "gün",
+    "week": "hafta",
+    "months": "ay",
+    "year": "yıl",
+    "optional": "isteğe bağlı",
+    "pick": "takvimden seçin",
+    "password": "parola belirleyin",
+    "invalidDate": "geçersiz tarih"
+  },
+  "Verit": {
+    "verify": "e-postanızı doğrulayın",
+    "confirm": "E-POSTANIZI ONAYLAYIN",
+    "receive": "E-POSTA ALMADINIZ MI?",
+    "we": "DOĞRULAMA KODU (ZVC) GÖNDERDİK",
+    "to": "ALICI:",
+    "sure": "KESİNLİKLE SİZ OLDUĞUNUZU DOĞRULAMAK İÇİN",
+    "remember": "SPAM KLASÖRÜNÜZÜ KONTROL ETMEYİ UNUTMAYIN",
+    "verifyEmailTextsize": "verify_email_german_textsize"
+  },
+  "Copy": {
+    "sendAnotherText": "send_another_text_copy_german",
+    "setPasswordTextSize": "set_password_size_copy_italian",
+    "Revision": "Revizyon Dosyaları",
+    "download": "İNDİRME BAĞLANTINIZI KOPYALAYIN",
+    "link": "BAĞLANTIYI KOPYALA",
+    "another": "BAŞKA BİR TANE GÖNDERECEK MİSİNİZ?"
+  },
+  "GetAQRCode": {
+    "linkCopied": "Bağlantı Kopyalandı",
+    "download": "İNDİR"
+  },
+  "DateTimePicker": {
+    "meeting": "TOPLANTIYI PLANLA",
+    "pick": "TAKVİMDEN SEÇ"
+  },
+  "RenameFile": {
+    "rename": "DOSYA/KLASÖR ADINI DEĞİŞTİR",
+    "renameTextSize": "rename_text_size_renameFile_turkish"
+  },
+  "RenameTitle": {
+    "rename": "BAŞLIĞI DEĞİŞTİR"
+  },
+  "FirstPage": {
+    "drop": "Dosyaları buraya bırakın..."
+  },
+  "GetALink": {
+    "filename": "dosya adı"
+  },
+  "Download4": {
+    "revision": "revizyon",
+    "files": "dosyalar"
+  },
+  "Download9": {
+    "complete": "tamamlandı"
+  },
+  "CustomiseALink": {
+    "setPasswordTextSize": "set_password_size_copy_italian",
+    "password": "parola belirleyin",
+    "SendText": "text-[8px]",
+    "type": "özelleştirilmiş bağlantıyı yazın",
+    "Customise": "Bağlantıyı Özelleştir",
+    "your": "İNDİRME BAĞLANTINIZI KOPYALAYIN",
+    "copyCustomised": "Özelleştirilmiş Bağlantıyı Kopyala"
+  },
+  "SetPassword": {
+    "protected": "parolayla korunuyor",
+    "notmatch": "Parolalar eşleşmiyor.",
+    "Removepassword": "Parolayı kaldır",
+    "enterPassword": "Lütfen önce bir parola girin",
+    "Invalid": "Geçersiz"
+  },
+  "Assign": {
+    "PIN": "atamak PIN kodu",
+    "generate": "PIN OLUŞTUR",
+    "customPin": "ÖZEL PIN",
+    "clear": "TEMİZLE"
+  },
+  "Preview": {
+    "prev": "ÖNİZLEME",
+    "notImg": "Bu bir resim veya video dosyası değil",
+    "notSupported": "ÖNİZLEME DESTEKLENMİYOR",
+    "limitExceeded": "ÖNİZLEME SINIRI AŞILDI",
+    "previewError": "ÖNİZLEME HATASI",
+    "fileLimit": "Dosya önizleme sınırını aşıyor"
+  },
+  "Remove": {
+    "rev": "KALDIR",
+    "fileName": "Dosya Adı"
+  },
+  "ViewDetails": {
+    "viewD": "DETAYLARI GÖRÜNTÜLE",
+    "fileD": "DOSYA DETAYLARI",
+    "type": "TÜR",
+    "size": "BOYUT",
+    "created": "oluşturulan",
+    "description": "AÇIKLAMA",
+    "max": "MAKS.",
+    "addDescription": "Açıklama Ekle"
+  },
+  "Hero2": {
+    "Close": "Kapat",
+    "oxford": "OXFORD ÜNİVERSİTESİ",
+    "transfers": "TRANSFERLER",
+    "send": "GÖNDER",
+    "recevice": "AL",
+    "byDate": "TARİHE GÖRE SIRALA",
+    "july2023": "Temmuz 2023",
+    "urgent": "Görev 768 - acil",
+    "NoYet": "Henüz indirilmedi",
+    "file": "dosya",
+    "minuteAgo": "52 DAKİKA ÖNCE GÖNDERİLDİ",
+    "18july": "18 Temmuz 2023",
+    "london": "Londra Enstitüsü",
+    "Downloaded": "İndirildi"
+  },
+  "CMail": {
+    "confirmEmail": "E-POSTANIZI DOĞRULAYIN",
+    "quickCheck": "Gerçekten siz olduğunuzu doğrulamak için hızlı bir kontrol.",
+    "verificationLink": "Doğrulama bağlantısı gönderdik:",
+    "checkSpam": "(Bulamazsanız spam klasörünüze bakın).",
+    "didn'tReceive": "E-posta almadınız mı?"
+  },
+  "ForgetPassword": {
+    "reset": "ŞİFRENİZİ SIFIRLAYIN",
+    "sendInstructions": "Şifrenizi sıfırlamak ve tekrar GİRİŞ YAPMANIZ için size talimatlar göndereceğiz."
+  },
+  "LoginUser": {
+    "logInTextSize": "login_text_size_german",
+    "CreateUserTextSize": "create_user_text_size_german",
+    "Login": "GİRİŞ YAP",
+    "CreateUser": "KULLANICI HESABI OLUŞTUR",
+    "withGoogle": "GOOGLE İLE DEVAM ET",
+    "or": "VEYA",
+    "Forgotten": "Şifrenizi mi unuttunuz?"
+  },
+  "SignupUser": {
+    "creatingUserID": "BİR KULLANICI KİMLİĞİ OLUŞTURARAK ŞU ŞARTLARIMIZI KABUL ETMİŞ OLURSUNUZ",
+    "Terms": "HİZMET ŞARTLARI VE GİZLİLİK & Çerez Bildirimi",
+    "firstName": "AD",
+    "lastName": "SOYADI",
+    "organizationOptional": "ORGANIZASYON (İSTEĞE BAĞLI)",
+    "additionalNote": "EK NOT"
+  },
+  "UserHeader": {
+    "sendFiles": "DOSYA GÖNDER",
+    "sendFolders": "KLASÖR GÖNDER",
+    "shareIdeas": "FİKİRLERİ PAYLAŞ",
+    "MultipleFormats": "FARKLI FORMATLARDA TRANSFERLER PAYLAŞIN",
+    "unlimitedStorage": "SINIRSIZ DEP OLAMA",
+    "sendUnlimited": "SINIRSIZ TRANSFERLER GÖNDERİN",
+    "ReceiveUnlimited": "SINIRSIZ TRANSFERLER ALIN",
+    "StorageUpTo": "10 YILA KADAR DEPOLAMA ALANI",
+    "portal": "PORTAL",
+    "customExpiration": "ÖZEL SON KULLANMA TARİHLERİ",
+    "AssignPIN": "PIN KODU atamak",
+    "PublicSharing": "HERKESE AÇIK PAYLAŞIM",
+    "DynamicLinks": "DİNAMİK BAĞLANTILAR",
+    "PasswordsProtect": "ŞİFRE KORUMALI",
+    "TrackDownloads": "İNDİRME TAKİBİ",
+    "advance": "GELİŞMİŞ AES 254-BİT ŞİFRELEME",
+    "creator": "İÇERİK YARATICI",
+    "userPortal": "KULLANICI PORTALI",
+    "themes": "KİŞİSELLEŞTİRİLMİŞ TEMALAR",
+    "customisedProfiles": "ÖZELLEŞTİRİLMİŞ PROFİLLER",
+    "militaryGrade": "ASKERİ SINIF ŞİFRELEME"
+  },
+  "Download": {
+    "ready": "HAZIR.",
+    "set": "AYARLA.",
+    "download": "İNDİR.",
+    "ZTFRExpires": "ZTFR 7 GÜN İÇİNDE SÜRESİ DOLACAK",
+    "revision": "REVİZYON",
+    "files": "DOSYALAR",
+    "seeYou": "Merhaba, sadece bunları yanınızda bulundurmak isteyebileceğinizi düşündüm. İyi şanslar. Yakında görüşmek üzere. Jessica x",
+    "preview": "ÖNİZLEME",
+    "unlocked": "KİLİDİ AÇILDI",
+    "advanceTxt": "download_advance_txt_turkish_new",
+    "advanceAssignTxt": "assign_advance_txt_turkish_new",
+    "letsDoLeft": "lets_do_left_turkish",
+    "ztfrExpiresIn": "ZTFR'nin Sona Erme Tarihi",
+    "days": "günler",
+    "ztfrExpired": "ZTFR SÜRESİ DOLDU"
+  },
+  "DownloadAssign": {
+    "ready": "HAZIR.",
+    "set": "AYARLA.",
+    "download": "İNDİR.",
+    "ZTFRExpires": "ZTFR 30 GÜN İÇİNDE SÜRESİ DOLACAK",
+    "university": "ÜNİVERSİTE",
+    "hiAll": "Merhaba herkese.",
+    "assignAdvanceTop": "assign_advance_txt_turkish",
+    "workAccess": "Lütfen işinizde erişim sağlamak için atanan ZTFR PIN'inizi kullanın.",
+    "assign": "atamak"
+  },
+  "DownloadPassword": {
+    "enterPassword": "ŞİFREYİ GİRİN",
+    "pinCode": "PIN KODU"
+  },
+  "DownloadPasswordC": {
+    "revision": "REVİZYON DOSYALARI"
+  },
+  "DownloadPreview": {
+    "close": "KAPAT",
+    "items": "BU ZTFR İÇİN ÖĞELER",
+    "ZTFRExpires": "ZTFR 7 GÜN İÇİNDE SÜRESİ DOLACAK",
+    "downloadAll": "HEPSİNİ İNDİR",
+    "lookingInside": "Klasöre bakılıyor.",
+    "WhatInside": "Klasörün içinde neler var? Bir göz atalım.",
+    "preview": "ÖNİZLEME",
+    "name": "AD",
+    "type": "TÜR",
+    "size": "BOYUT",
+    "hide": "saklamak"
+  },
+  "EnterPinCode": {
+    "pinCode": "PIN KODU",
+    "hello": "MERHABA",
+    "youNote": "Bir notunuz var:",
+    "DueDate": "Son teslim tarihi 19 Temmuz - 09:00.",
+    "items": "BU ZTFR İÇİN ÖĞELER",
+    "enterPin": "ATANAN PIN KODUNUZU GİRİN",
+    "incorrectPin": "YANLIŞ PIN KODU",
+    "clear": "TEMİZLE"
+  },
+  "ResendMail": {
+    "checkEmail": "E-POSTANIZI KONTROL EDİN",
+    "getBottom": "Bunu en altına kadar getirelim. Bu, ZTFR'de kullandığınız e-postadır.",
+    "resend": "YENİDEN GÖNDER"
+  },
+  "Assignfiles": {
+    "assign": "atamak",
+    "assignFiles": "dosyaları atamak",
+    "assignName": "atamak alıcısı adı",
+    "assignPin": "atamak pin kodu",
+    "generatePin": "PIN KODU OLUŞTUR",
+    "CustomPin": "ÖZEL PIN KODU",
+    "AdditionalNote": "EK NOT",
+    "clear": "TEMİZLE"
+  },
+  "AssignShare": {
+    "exclusiveFeature": "atamak, ATAYICI (siz) TARAFINDAN DOSYA/FOLDER YÜKLEME VE ATANANIN (ALICI) HANGİ DOSYA/FOLDER'LARA ERİŞİM SAHİBİ OLMAK İSTEDİĞİNİ BELİRLEME VE KONTROL ETME SEÇENEĞİ SUNAN BİR EK ÖZELLİKTİR. DOSYA/FOLDER'LARA ERİŞİM İÇİN ALICIYA EŞSİZ 4 HANELİ BİR PIN KODU SAĞLANIR.",
+    "gainAccess": "TEK BİR YÜKLEME. SONSUZ OLASILIKLAR.",
+    "oneUpload": "atamak, ATAYICI (siz) TARAFINDAN DOSYA/FOLDER YÜKLEME VE ATANANIN (ALICI) HANGİ DOSYA/FOLDER'LARA ERİŞİM SAHİBİ OLMAK İSTEDİĞİNİ BELİRLEME VE KONTROL ETME SEÇENEĞİ SUNAN BİR EK ÖZELLİKTİR. DOSYA/FOLDER'LARA ERİŞİM İÇİN ALICIYA EŞSİZ 4 HANELİ BİR PIN KODU SAĞLANIR.",
+    "title": "BAŞLIK",
+    "note": "NOT",
+    "RevisionFiles": "DÜZELTME DOSYALARI",
+    "justThought": "Merhaba, sadece bunları yanınızda bulundurmak isteyebileceğinizi düşündüm. İyi şanslar. Yakında görüşmek üzere. Jessica x",
+    "assignee": "ATAMA ALICISI"
+  },
+  "DownloadIndex": {
+    "DownloadIndexStyle": "revision_file_turkish",
+    "heroLeft": "hero_left_turkish",
+    "revision": "REVİZYON",
+    "files": "DOSYALAR"
+  },
+  "ShareIndividual": {
+    "renameTitle": "BAŞLIĞI YENİDEN ADLANDIR",
+    "fileLgSIze": "lg:text-[11px]",
+    "fileSIze": "text-[8px]",
+    "titleLgSIze": "lg:text-[11px]",
+    "titleSIze": "text-[6px]",
+    "renameFile": "DOSYALARI/KLASÖRLERİ YENİDEN ADLANDIR",
+    "preview": "ÖNİZLEME",
+    "view": "DETAYLARI GÖSTER",
+    "expires": "SÜRESİ DOLUYOR",
+    "getLink": "BİR BAĞLANTI AL",
+    "QRCode": "BİR QR KODU AL",
+    "setPassword": "ŞİFRE AYARLA",
+    "assign": "ATAYIN",
+    "remove": "KALDIR",
+    "optionLgSIze": "lg:text-[8px]",
+    "optionSIze": "text-[6px]",
+    "moreOption": "DAHA FAZLA SEÇENEK"
+  },
+  "Password": {
+    "password": "şifre",
+    "confirmPassword": "Şifreyi Onayla"
+  },
+
+  "error": {
+    "required": "Zorunlu",
+    "allFieldRequired": "TÜM ALANLAR ZORUNLUDUR",
+    "invalidEmail": "Geçersiz E-posta",
+    "invalidPassword": "Geçersiz Şifre",
+    "enterValidEmail": "Geçerli bir e-posta girin",
+    "enterValidPassword": "Geçerli bir şifre girin",
+    "enterValidFirstName": "Geçerli bir ad girin",
+    "enterValidLastName": "Geçerli bir soyad girin",
+    "minimumLength3": "Minimum uzunluk 3 olmalıdır",
+    "shortLength": "Uzunluk çok kısa",
+    "longLength": "Uzunluk çok uzun",
+    "passwordMatch": "PAROLALAR UYUŞMUYOR.",
+    "invalid": "Geçersiz",
+    "passwordReq": "Şifre gerekli",
+    "confirmPasswordReq": "Şifre onayı gerekli",
+    "verfied": "Doğrulandı",
+    "invalidZVC": "Geçersiz ZVC",
+    "invalidCredentials": "Geçersiz kimlik bilgileri",
+    "invalidPin": "Geçersiz Pin",
+    "inputPassword": "Lütfen önce şifreyi girin",
+    "inputpasswordConfirm": "Onaylamak için şifreyi girin"
+  },
+
+  "page": {
+    "404": {
+      "somethingWrong": "Bir şeyler yanlış gitti.",
+      "oops": "Hata!",
+      "couldNotFound": "Aranan sayfayı bulamadık.",
+      "tryAgain": "Tekrar deneyebilir veya isterseniz bize ne olduğunu söyleyebilirsiniz.",
+      "sendError": "Hata kodunuzu support@zitransfer.com adresine gönderin, size yardımcı olmaya çalışırız.",
+      "copyCode": "hata kodumu kopyala",
+      "codeCopied": "Hata kodu kopyalandı"
+    },
+    "legalModal": {
+      "textsizes": {
+        "textsize3": "text__14__10__3xl"
+      },
+      "links": {
+        "termsOfServices": "Hizmet Şartları",
+        "privacyStatement": "Gizlilik Bildirimi",
+        "noticePolicy": "Bildirim/Takedown Politikası",
+        "advertisingTerms": "Reklam Şartları"
+      },
+      "legal": "YASAL",
+      "legalInfo": "Hukuki Bilgi ve Bildirimler",
+      "termsOfConditions": {
+        "termsOfServices": "HİZMET ŞARTLARI",
+        "ownership": {
+          "ownership_heading": "Site Sahipliği; Hizmet Şartlarına Kabul",
+          "ownership_para1": "Bu Hizmet Şartları ve Koşulları (\"Hizmet Şartları\"), adresinde bulunan ZTFR (ZITRANSFER) web sitesi (platform) için geçerlidir. <a href='https://zitransfer.com' target='_blank'> www.zitransfer.com</a> , <a href='https://zitransfer.com' target='_blank'>www.ztfr.org</a> ve  ile bağlantılı tüm ilişkili siteler <a href='https://www.zimogroup.org' target='_blank'>www.zimogroup.org</a> ZIMO (ZIMO GROUP), bağlı ortaklıkları ve bağlı kuruluşları tarafından, dünya çapındaki ZIMO siteleri de dahil olmak üzere (toplu olarak \"Site\"). Site, ZIMO GROUP LIMITED (\"ZIMO\") ve onun lisans verenlerinin mülkiyetindedir. SİTEYİ KULLANARAK BU HİZMET KOŞULLARINI KABUL ETMİŞ OLURSUNUZ; KABUL ETMİYORSANIZ, SİTEYİ KULLANMAYIN.",
+          "ownership_para2": "ZTFR, isteğine bağlı olarak bu Hizmet Şartlarının belirli bölümlerini değiştirme, düzenleme, ekleyebilme veya kaldırma hakkını saklı tutar. Değişiklikleri takip etmek sizin sorumluluğunuzdadır. Değişikliklerin yayınlanmasını takiben Site/Platform kullanımınız, değişiklikleri kabul ettiğiniz anlamına gelecektir. Bu Hizmet Şartlarına uyduğunuz sürece, ZTFR size kişisel, devredilemez ve sınırlı bir hak verir, Site/Platform'a giriş yapma ayrıcalığı tanır."
+        },
+        "content": {
+          "content_heading": "İÇERİK",
+          "content_para1": "Tüm metin, grafikler, kullanıcı arayüzleri, görsel arayüzler, fotoğraflar, ticari markalar, logolar, sesler, müzik, sanat eserleri ve bilgisayar kodları (topluca \"İçerik\"), tasarım, yapı, seçim, koordinasyon, ifade, \"görünüm ve his\" ve bu tür İçeriklerin düzeni dahil, Site üzerinde yer alan İçerik, ZTFR (ZITRANSFER) ve ZIMO tarafından sahip olunan, kontrol edilen veya lisanslanan ve ticari görünüm, telif hakkı, patent ve ticari marka yasaları, diğer fikri mülkiyet hakları ve haksız rekabet yasaları ile korunur.",
+          "content_para2": "Bu Hizmet Şartlarındaki açık hükümler dışında, Site/Platform veya İçerik herhangi bir şekilde (\"yansıtma\" dahil) kopyalanamaz, çoğaltılamaz, yeniden yayımlanamaz, yüklenemez, yayınlanamaz, kamuya açık olarak görüntülenemez, kodlanamaz, çevrilemez, iletilmez veya başka bir şekilde başka bir bilgisayara, sunucuya, web sitesine veya başka bir yayın veya dağıtım ortamına ticari amaçlarla kullanılmadan veya ZIMO’nun önceden yazılı izni olmaksızın dağıtılamaz.",
+          "content_para3": "ZIMO tarafından indirilmeye sunulan ZTFR ürünleri ve hizmetleri hakkında bilgileri (veri sayfaları, bilgi tabanı makaleleri ve benzeri materyaller) ZIMO tarafından özellikle sunulan bilgilendirme amaçlı olarak kullanabilirsiniz. Bu materyallerin tüm kopyalarından herhangi bir telif hakkı uyarısı dilini kaldırmamalısınız ve bu bilgileri kişisel, ticari olmayan bilgilendirme amacıyla kullanmalı ve bu bilgileri ağa bağlı bir bilgisayarda kopyalamamalı veya yayınlamamalı ve bu bilgileri başka bir medyada yayınlamamalısınız, bu tür belgelerle ilgili herhangi bir değişiklik yapmamalısınız ve bu belgelere ilişkin herhangi bir ek temsil veya garanti vermemelisiniz."
+        },
+        "headlines": {
+          "headlines_heading": "MANŞETLER",
+          "headlines_point1": "İçeriğiniz sizindir - sizin mülkiyetinizdir ve ondan sorumlusunuz. Servislerimizin düzgün çalışmasını sağlamak için gerekenleri yapacağız.",
+          "headlines_point2": "Hukuka aykırı bir şey yapıyorsanız, verilerinizi/yüklemelerinizi/indirmelerinizi engelleyebilir ve/veya silebilir ve hesaplarınızı askıya alabiliriz.",
+          "headlines_point3": "Hizmetlerimizle ilgili şartları, hizmeti ve/veya ücretleri zaman zaman değiştirebiliriz. Hesabınız varsa ve değiştirdiğimiz bir şeyi beğenmezseniz, istediğiniz zaman iptal edebilirsiniz.",
+          "headlines_point4": "Kullandığınız servisi kendi sorumluluğunuzla kullanmanız gerektiğini belirtmeliyiz; işler ters giderse, herhangi bir zarardan sorumlu değiliz."
+        },
+        "termsOfServices_points": {
+          "termsOfServices_heading": "HİZMET ŞARTLARI",
+          "termsOfServices_subheading": "ZTFR AŞAĞIDAKİ ARAÇLARI SUNAR:",
+          "termsOfServices_point1": "Dosyaları paylaşmak için bir servis (\"ZTFR/ZITRANSFER Dosya Paylaşımı\")",
+          "termsOfServices_point2": "Birden fazla kaynaktan içerik saklamaya, düzenlemeye, paylaşmaya ve alınmasına izin veren bir servis (\"Collect\")",
+          "termsOfServices_point3": "Fikirleri ve verileri/ dosyaları çoklu formatlarda ve platformlarda paylaşmaya izin veren bir servis",
+          "termsOfServices_point4": "ZTFR X aracılığıyla satış yapmanıza olanak tanıyan bir servis",
+          "termsOfServices_point5": "Sınırsız yükleme/indirme kullanımıyla ücretsiz bir servis (premium servisler hariç)",
+          "termsOfServices_point6": "Ek özellikler ve işlevselliği içeren servisler",
+          "termsOfServices_para1": "Hizmetlerimize, yazılımlarımıza, web sitelerimize (tarayıcı uzantıları dahil) ve/veya uygulamalarımıza (bir arada: \"Hizmetler\") erişiminiz ve kullanımınız bu Hizmet Şartları (\"Şartlar\") tarafından düzenlenir.",
+          "termsOfServices_para2": "Hizmetler size çevrimiçi olarak, mobil ve/veya masaüstü uygulama(aları) şeklinde sağlanabilir ve/veya üçüncü taraf bir servise entegre edilebilir.",
+          "termsOfServices_para3": "Hizmetler, fikirlerinizi, metinleri, grafikleri, videoları, verileri, bilgileri, dosyaları, sunumları veya diğer içerikleri, sizin tarafınızdan kullanılan üçüncü taraf içeriği dahil (bir arada: \"İçerik\"), yüklemenize, sunmanıza, saklamanıza, paylaşmanıza, almanıza, toplamanıza, yakalamanıza ve/veya görselleştirmenize izin verir. Tüm İçeriklere sahip olma hakkınızı, sorumluluğunuzu ve yükümlülüğünüzü sürdürürsünüz. ZTFR, İçeriklerinizi sahiplendiğini iddia etmez.",
+          "termsOfServices_para4": "Hizmetler, size ZIMO GROUP LIMITED (\"ZITRANSFER\", \"ZTFR\") tarafından kullanıcı olarak sunulur ve İngiltere, Londra, Covent Garden, Shelton Street 71-75 adresindeki merkezi ile ilişkilendirilir.",
+          "registered_location": "İngiltere ve Galler'de kayıtlıdır.",
+          "registered_number": "Kayıtlı Şirket Numarası: 14383397."
+        },
+        "applicability": {
+          "applicability_heading": "UYGULANABİLİRLİK",
+          "applicability_point1": "Hizmetleri yalnızca 16 yaşından büyük kullanma yetkiniz vardır (ZTFR Eğitim programı altında kullanmıyorsanız).",
+          "applicability_point2": "Şartları dikkatlice okuyun. Hizmetleri kullanarak (doğrudan bizimle veya üçüncü taraf bir uygulama, eklenti, uzantı veya entegrasyon aracılığıyla) bu Şartları ve Bildirim/Kaldırma Politikamız (\"BK Politika\") kabul edersiniz. Kişisel veri ve çerezlerin Hizmetlerle ilgili kullanımına ilişkin olarak Gizlilik Bildirimi geçerlidir.",
+          "applicability_point3": "Hizmetler, üçüncü tarafların hizmetleriyle bağlantılı olarak kullanılıyorsa veya bunlarla entegre ediliyorsa, bu Şartlar'a ilaveten bu üçüncü tarafların şartları, bildirim/kaldırma politikaları ve/veya gizlilik bildirimleri de geçerli olabilir. Hizmetleri işvereniniz veya başka bir kuruluş adına kullanıyorsanız, bu kuruluşun şartlarını kabul ediyorsunuz ve bunu temsil ettiğinizi ve bu yetkiye sahip olduğunuzu beyan ve temin ediyorsunuz. ZTFR, üçüncü taraf hizmetleri, şartları ve/veya politikaları için sorumlu değildir.",
+          "applicability_point4": "Hizmetler üzerinden depolanan veya paylaşılan hukuka aykırı İçerikle ilgili bir şikayet veya bildirimde bulunmak isterseniz, lütfen BK Politikası'nı okuyun.",
+          "applicability_point5": "Hizmetlerin herhangi birinde bir güvenlik açığı fark ederseniz, lütfen Sorumlu Bildirimimize bakın.",
+          "applicability_point6": "ZTFR API'yı kullanmak isterseniz (API Kullanım Şartları'nda açıklandığı gibi), bu Şartlar'a ilaveten API Kullanım Şartları geçerlidir.",
+          "applicability_point7": "ZTFR, Şartları zaman zaman değiştirebilir. Değiştirilen Şartlar, ZITRANSFER’in (ZTFR) web sitesi ve/veya mobil ve/veya masaüstü uygulama(ları) üzerinde yayınlandığı anda veya değiştirilen Şartlarda belirtilen daha sonraki bir tarihte yürürlüğe girer. Bu nedenle Şartları zaman zaman gözden geçirmenizi ve herhangi bir değişikliği not etmenizi öneririz. Hizmetleri kullanmaya devam ederek değiştirilen Şartları kabul edersiniz. Şartlarda önemli değişiklikler olduğunda sizi önceden bilgilendirileceksiniz: (i) Hizmetleri kullandığınızda, veya (ii) bize verdiğiniz iletişim bilgilerine bir mesajla, veya (iii) değişiklik bildirimini ZITRANSFER’in web sitesi ve/veya mobil ve/veya masaüstü uygulama(ları) üzerinde yayımlayarak. Değişikliği kabul etmezseniz aboneliğinizi iptal edebilirsiniz.",
+          "applicability_point8": "Bu Şartlar, siz ve ZTFR (ZITRANSFER) arasındaki tüm önceki sözlü ve yazılı teklifleri, şartları, iletişimleri, anlaşmaları ve anlayışları geçersiz kılar."
+        },
+        "fileSharing": {
+          "fileSharing_heading": "DOSYA PAYLAŞIMI",
+          "fileSharing_point1": "ZTFR (ZITRANSFER) Dosya Paylaşımı, İçeriğinizi başkalarıyla paylaşmanıza olanak tanır.",
+          "fileSharing_point2": "İçeriğinizi paylaşmak için, onu yüklemeniz ve alıcı(lar)ın (sınırlı sayıda) e-posta adresini vermeniz gerekmektedir (\"e-posta ile aktarım\"), indirme bağlantısını kendiniz dağıtmayı seçmelisiniz (\"Bir Bağlantı Al\"). Ayrıca, içeriğinizi nasıl dağıtmak/paylaşmak istediğinize dair birden fazla seçeneğiniz vardır; Bir QR Kod Al, WhatsApp, Facebook, Threads, X (eski adıyla Twitter) ve Mesajlar arasından seçim yapabilirsiniz.",
+          "fileSharing_point3": "ZTFR (ZITRANFSER) Dosya Paylaşımı, belirli bir süre boyunca ZITRANFSER’in sunucularında saklanan toplam kapasiteye kadar İçeriği paylaşma olanağı sağlar. Yüklenen İçerik, indirme yeteneğinin sona erdiği sınırlı bir süre boyunca ZITRANFSER’in sunucularında saklanır.",
+          "fileSharing_point4": "Süre sona erdikten sonra ZTFR, yüklenen dosyaları kalıcı olarak siler. Bu dosyalara artık erişilemez veya geri alınamaz.",
+          "fileSharing_point5": "ZTFR Dosya Paylaşımı temel işlevi (şu an) ücretsizdir ve kayıt veya ücret gerektirmez.",
+          "fileSharing_point6": "ZTFR, İçeriği gizli olarak ele alır ve indirme bağlantılarının kullanımını denetlemez, bu bağlantıların başlangıçta bizim tarafımızdan mı yoksa sizin tarafınızdan mı dağıtıldığına bakılmaksızın. Alıcılar bağlantıları iletebilir ve başkalarının bunları kullanmasına izin verebilir. Yüklediğiniz İçerikten tamamen siz sorumlusunuz.",
+          "fileSharing_point7": "ZTFR Pro ve ZTFR Premium, ücretsiz sürümden farklı ücretli abonelik sürümleri sunar ve farklı abonelik şartları sunar.",
+          "fileSharing_point8": "Bir ZTFR aboneliği (Ücretsiz, Pro veya Premium olsun) ZTFR'nin diğer bölümlerine ve hizmetlerine abonelik içerir.",
+          "fileSharing_point9": "ZTFR Pro veya ZTFR Premium aboneliğiniz sona erdikten sonra, 28 gün boyunca hala sunucularımızda bulunan tüm İçeriği otomatik olarak silme hakkını saklar.",
+          "fileSharing_point10": "ZTFR Premium, size sınırsız ZITRANSFER Dosya Paylaşımı depolama kapasitesi ve sınırsız özelleştirme gibi özellikler sunar. Özel özelleştirme araçları ile kullanımınıza hazır Terabayt kapasiteniz olacak.",
+          "fileSharing_point11": "ZTFR Teams (\"Takımlar\"), ZTFR Pro veya ZTFR Premium hesabınıza takım üyeleri eklemenizi sağlayan bir ücretli abonelik sürümüdür. Takım üyeleri kolayca eklenebilir ve her abonelik dönemi sonunda ayrılabilir.",
+          "fileSharing_point12": "ZTFR Teams’in ücretli abonelik dönemi, ZTFR takım satıcısı (\"Takım Satıcısı\") olarak kaydolduğunuzda başlar."
+        },
+        "payment": {
+          "payment_heading": "ÖDEME",
+          "payment_point1": "ZTFR, ücretli bir hizmet seçmediyseniz ücretsiz bir dosya paylaşım hizmetidir (ZTFR Pro, ZTFR Premium, ZTFR X ve daha fazla seçenek sunuyoruz).",
+          "payment_point2": "Hizmetler için zaman zaman ücretler getirebilir veya değiştirebiliriz, bu durumda size önceden bildirimde bulunuruz. Sabit süreli ve fiyatlı bir aboneliğiniz varsa, fiyat sabit süre boyunca geçerli olacaktır. Fiyat değişikliği konusunda anlaşmazlık yaşarsanız, mevcut hizmet döneminin sonuna kadar aboneliğinizi iptal edebilir ve Hizmetleri kullanmayı bırakabilirsiniz. Fiyat değişikliği yürürlüğe girdikten sonra Hizmetleri kullanmaya devam ederseniz, değişen fiyatı ödemeyi kabul edersiniz. Ücret tanıtımları önceden onayınızı ve kaydınızı gerektirecektir.",
+          "payment_point3": "Seçtiğiniz ödeme yöntemine bağlı olarak, ödeme yönteminin çözümleyicisi ödemenizin işlenmesiyle ilgili belirli ücretler talep edebilir.",
+          "payment_point4": "Ödeme yönteminizi ilgili Hizmetin hesap ayarlarında (Portal) değiştirebilirsiniz.",
+          "payment_point5": "Ödeme başarılı bir şekilde gerçekleştirilmediğinde ZTFR, Hizmetleri size askıya alabilir veya iptal edebilir (örneğin yetersiz bakiye, kredi kartı süresinin dolması, ödeme bilgilerinin değişmesi veya başka nedenlerle). Ödeme yapmama nedeniyle Hizmetlerin askıya alınması veya iptali, hesabınıza ve İçeriğinize erişiminizi ve kullanımınızın kaybına neden olabilir.",
+          "payment_point6": "Apple App Store veya Google Play Store aracılığıyla bize abone olup ödeme yaparsanız, Apple veya Google'ın şartları da geçerli olabilir."
+        },
+        "subscription_cancelation": {
+          "subscription_cancelation_heading": "ABONELİK İPTALİ",
+          "subscription_cancelation_point1": "Başlangıç abonelik süresi seçiminize ve/veya uygulanan Hizmete bağlı olarak değişir.",
+          "subscription_cancelation_point2": "Yerel zorunlu tüketici hukuku kapsamındaki iptal haklarınızın dışında, Hizmeti kullanmaya başlamadığınız sürece, ilk 7 gün boyunca aboneliğinizi iptal etme hakkına sahipsiniz.",
+          "subscription_cancelation_point3": "Abonelik dönemi, seçilen abonelik dönemi için otomatik olarak yenilenecektir, aboneliğinizi süresi dolmadan önce iptal etmediğiniz sürece (aboneliğinizin son gününden önce iptal ettiğiniz sürece).",
+          "subscription_cancelation_point4": "İptal durumunda, ödenen abonelik döneminin sonuna kadar Hizmetlere hala erişiminiz olacaktır.",
+          "subscription_cancelation_point5": "İptal, (kısmi) abonelik ücretinin geri ödenmesi hakkını vermez.",
+          "subscription_cancelation_point6": "Aboneliğiniz otomatik olarak üç (3) aydan fazla bir süre için yenilendiyse, böyle bir yeniden abonelik sonrasında herhangi bir zamanda bir (1) aylık iptal süresi ile iptal hakkına sahip olacaksınız. Bu maddeye dayalı iptal durumunda abonelik ücretinin bir kısmının geri ödenmesini talep edebilirsiniz. Bu, iptal yürürlüğe girene kadar standart aylık ücret üzerinden ödeme anlamına gelir.",
+          "subscription_cancelation_point7": "İptal veya ödemenin başarılı bir şekilde gerçekleştirilmediği durumda, hesabınız abonelik döneminin sonunda devre dışı bırakılacaktır. Ardından kişisel verilerinize, adres defterinize ve Hizmet(ler) kullanılarak depolanan İçeriğe erişiminiz olmayacaktır. Hesabınızı dört hafta içinde devre dışı bırakmadan ödeme yaparak herhangi bir zamanda yeniden etkinleştirebilirsiniz. Aboneliğiniz bu durumda etkinleştirildiğiniz tarihten itibaren yeniden başlayacaktır.",
+          "subscription_cancelation_point8": "Yukarıdaki süre içinde aboneliğinizi yeniden etkinleştirmezseniz, Hizmet(ler) kullanılarak depolanan İçeriğiniz ve kişisel içeriğiniz, ayarlarınız, adres defteriniz ve transfer için depolanan dosyalarınızın sunucularımızdan otomatik olarak ve kalıcı olarak silinmiş olabileceğini unutmayın.",
+          "subscription_cancelation_point9": "Apple App Store aracılığıyla abone olursanız, bu madde yerine Apple'ın şartları geçerli olabilir."
+        },
+        "teams": {
+          "teams_heading": "TAKIMLAR (Ödeme, şartlar ve iptal)",
+          "teams_point1": "Bir ZTFR Teams hesabı, Takım Satıcısı adına kaydedilir. Takım Satıcısı, ZTFR Teams hesabına abone olan tüm takım üyeleri için fatura kesilir.",
+          "teams_point2": "Takım Satıcısı ve bireysel takım üyeleri, yeni takım üyelerini Takım Hesaplarına ekleyebilir, bu yeni takım üyelerine derhal erişim sağlar. Takım üyeleri, mevcut abonelik dönemi boyunca eklenen takım üyeleri için pro rata ücretlendirilir. Bundan sonra Takım Satıcısı, yeni takım üyesi için bir sonraki ödenen abonelik döneminde tam ücretlendirilir.",
+          "teams_point3": "Takım Satıcısı ve bireysel takım üyeleri, ZTFR Teams hesabındaki takım üyelerini kaldırabilir, böylece bu takım üyeleri hemen erişimlerini kaybeder. Takım üyeleri mevcut abonelik dönemi boyunca kaldırılırlarsa, Takım Satıcısı bu takım üyesi için o abonelik dönemi sonuna kadar ücretlendirilir. Takım Satıcısı, bir sonraki ödenen abonelik döneminde kaldırılan takım üyesi için ücretlendirilmez.",
+          "teams_point4": "Bir takım üyesinin kaldırılmasından kaynaklanan ödenmiş abonelik döneminde kullanılmayan günler, aynı ödenen abonelik dönemi içinde takım üyesi eklenmediği sürece iade edilmez.",
+          "teams_point5": "Takım üyeleri tarafından gerçekleştirilen işlemler, hesabın sahibi olan Takım Satıcısının iznine tabidir.",
+          "teams_point6": "Takım Satıcısı ve takım üyeleri, kendi ZTFR Teams aboneliklerini iptal edebilir. İptal işlemi yürürlüğe girdiğinde, bir sonraki ödenen abonelik dönemi için ücretlendirilmeyeceklerdir.",
+          "teams_point7": "Takım Satıcısı, mevcut bir ödenen abonelik dönemi sona erdikten sonra Takım Hesabını iptal edebilir. Bu durumda, artık abonelik ödemesi yapılmayacak ve Takım Hesabı ZTFR Teams dönemi sonunda kapatılacaktır. Hesap kapatıldığında, ZTFR Teams'e erişim kapatılır ve tüm depolanan İçerik silinir.",
+          "teams_point8": "Takım Hesabı veya bireysel takım üyelerinin kapatılmasından kaynaklanan ödenmiş abonelik dönemlerinin iadesi yapılmaz.",
+          "teams_point9": "Ödeme ve iptal ile ilgili olarak, Apple App Store veya Google Play Store aracılığıyla abone olunursa, bu maddeler yerine Apple'ın veya Google'ın şartları geçerli olabilir."
+        },
+        "content_ownership": {
+          "content_ownership_heading": "İçerik sahipliği, izinler ve sorumluluk",
+          "content_ownership_point1": "ZITRANSFER (ZTFR), Hizmetler aracılığıyla oluşturduğunuz, kullandığınız, depoladığınız veya paylaştığınız İçeriğin mülkiyetini talep etmez ve bundan yalnızca siz sorumlusunuz. İçeriği doğru alıcılarla paylaşmaktan yalnızca siz sorumlusunuz. İçerikle ilgili zararlar için sorumluluk, İçeriği Hizmetler dahilinde oluşturan, kullanan, depolayan ve/veya paylaşan kişiye aittir. İndirme ve/veya erişim bağlantılarının iletilebileceğini ve bu bağlantılara erişimi olan alıcıların ilgili İçeriğe erişebileceğini kabul ediyorsunuz.",
+          "content_ownership_point2": "Bazı Hizmetler, İçeriği veya transferleri bir şifre ve pin ile korumanıza olanak tanır. Kullanıcı, şifrelerin gizliliğinden ve/veya dağıtımından yalnızca kendisi sorumludur.",
+          "content_ownership_point3": "Hizmetleri kullanarak, Hizmetler aracılığıyla oluşturduğunuz, kullandığınız, depoladığınız veya paylaştığınız herhangi bir İçerik için, İçeriği dağıtmak, alt lisans vermek, devretmek, depolamak ve/veya Hizmetler kapsamında çevrimiçi olarak kullanılabilir hale getirmek için gerekli tüm izinlere (telif hakkı ve diğer fikri mülkiyet hakları sahiplerinden dahil) sahip olduğunuzu garanti edersiniz.",
+          "content_ownership_point4": "ZTFR, Hizmetler dahilinde sizin tarafınızdan oluşturulan, kullanılan, depolanan veya paylaşılan İçerikle ilgili olarak size veya üçüncü bir tarafa karşı oluşabilecek herhangi bir zarardan sorumlu değildir, bunlar arasında, telif hakkıyla korunan eserler ve/veya ticari markalar dahil ancak bunlarla sınırlı olmamak üzere.",
+          "content_ownership_point5": "ZITRANSFER (ZTFR), İçeriğin işletilmesi, etkinleştirilmesi ve Hizmetlerin iyileştirilmesi amacıyla bir lisansa ihtiyaç duyar. Sadece bu belirli amaç için ve İçeriği Hizmetlerden silene kadar, Hizmetleri kullanarak, İçeriği kullanmamız, barındırmamız, depolamamız, taramamamız, aramamamız, sıralamamamız, indekslememiz, önizlemeler oluşturmamız ve (ii) çoğaltmamız, iletmemiz, yayınlamamız, halka açık olarak göstermemiz, dağıtmamız ve düzenlememiz (ölçeklendirme, kırpma, uyarlama ve çeviri dahil ancak bunlarla sınırlı olmamak üzere) için bize sınırsız, dünya çapında, telifsiz bir lisans verdiğinizi kabul ve beyan edersiniz. (ii) altındaki LİSANS BÖLÜMÜ, bu Şartların 2. maddesinde belirtilen ZITRANSFER (ZTFR) DOSYA PAYLAŞIMI için geçerli değildir. Herhangi bir karışıklığı önlemek için, ZITRANSFER (ZTFR), İçeriği satmayacak veya reklam yapmayacaktır: ZITRANSFER (ZTFR), yalnızca Hizmetlerin işletilmesi, etkinleştirilmesi ve iyileştirilmesi amacıyla lisansa ihtiyaç duyar.",
+          "content_ownership_point6": "ZTFR, İçeriği bulmak için herhangi bir genel arama işlevi, katalog veya liste sağlamaz.",
+          "content_ownership_point7": "ZTFR, Hizmetleri kullandığınızda size reklamverenler ve ZTFR tarafından seçilen sanatçılardan (tam sayfa duvar kağıdı reklamları gibi) reklamlar gösterebilir."
+        },
+
+        "restrictions": {
+          "restrictions_heading": "Kısıtlamalar",
+          "restrictions_point1": "ZTFR, sizin haklarınıza saygı göstermenizi ve ZITRANSFER (ZTFR) dahil olmak üzere diğerlerinin haklarına saygı göstermenizi bekler ve bekler. Bu, gizlilik hakkı, ticari bilgi, iş sırları ve ticari marka, telif hakkı, ticaret adı ve logo gibi entelektüel mülkiyet hakları dahil olmak üzere, diğerlerinin haklarına saygı göstermek anlamına gelir. Hizmetleri kullanarak yasa dışı veya suç işlememeyi, bu Şartları ihlal etmemeyi veya diğerlerini böyle yapmaya teşvik etmemeyi kabul edersiniz.",
+          "restrictions_point2": {
+            "point": {
+              "pointpart1": "Size sunulan Hizmetlerden yararlanmanın bir koşulu olarak",
+              "pointpart2": "oluşturmamayı, kullanmamayı, saklamamayı veya saklamamayı kabul ediyorum",
+              "pointpart3": "herhangi birini paylaş",
+              "pointpart4": "İçerik şu şekilde:"
+            },
+            "subpoint1": "Çocuk cinsel istismarı görselleri içerir",
+            "subpoint2": "Müstehcen, hakaret, iftira, iftira, ahlaki olmayan, ayırımcı, tehdit edici, saldırgan, zararlı, açık saçık, müstehcen veya yasa dışı",
+            "subpoint3": "Rasizmi, şiddeti veya nefreti teşvik eder",
+            "subpoint4": "Gerçek dışı, yanıltıcı, yanıltıcı veya aldatıcıdır",
+            "subpoint5": "Haklarına sahip değilseniz",
+            "subpoint6": "Fikri mülkiyet haklarını, gizlilik haklarını (veri koruma hakları dahil), ve/veya diğer her türlü hakları ihlal eder, ihlal eder veya kötüye kullanır",
+            "subpoint7": "Geçerli bir yasayı veya düzenlemeyi ihlal eder veya ihlal eder; ve/veya",
+            "subpoint8": "Bir kişi veya bir grup üzerine yönlendirilen 'nefret söylemi' oluşturur, ırk, cinsiyet, mezhep, ulusal köken, dini bağlantı, cinsel yönelim, dil veya başka bir kişi veya grup özelliğine dayalı olsun."
+          },
+          "restrictions_point3": {
+            "point": "Ayrıca, aşağıdaki konularda anlaşmayı kabul edersiniz:",
+            "subpoint1": "Kötüye kullanmak, taciz etmek, takip etmek, tehdit etmek, şiddet uygulamak veya başkalarını böyle yapmaya teşvik etmek",
+            "subpoint2": "Herhangi bir kişiyi veya kurumla sahte bir ilişki kurma veya sahte bir şekilde taklit etme",
+            "subpoint3": "Hizmetlerin herkesin erişemeyeceği alanlarına erişim sağlamama",
+            "subpoint4": "Erişim veya kullanım kısıtlamalarını ihlal etmeme",
+            "subpoint5": "Veri madenciliği veya veri toplama veya çıkarma yöntemlerini kullanmama veya başka şekilde Hizmetlerin kullanıcıları hakkında bilgi toplamama",
+            "subpoint6": "Virüsler, solucanlar, kötü amaçlı yazılım, fidye yazılımı, istenmeyen e-posta, spam, zincir mektuplar, dolandırıcılık e-postaları, istenmeyen mesajlar, tanıtımlar veya reklamlar göndermeme",
+            "subpoint7": "Hizmetlere müdahale etmeme, zarar vermeme veya bozmama veya bunu yapabilecek şekilde davranmam",
+            "subpoint8": "Hizmetlerin veya ilgili hizmetin, sistem veya ağın güvenliğini sınamaya, taramaya, ihlal etmeye veya test etmeye çalışmama veya kimlik doğrulamasını ihlal etmeme, bunu Yayın Sorumluluğumuza uygun şekilde yapmıyorsanız",
+            "subpoint9": "İzinsiz olarak Hizmetlere erişmek veya kullanmak için otomatik yöntemler kullanmama",
+            "subpoint10": "Hizmetlerin herhangi bir (bölümünü) ters mühendislik yapmama veya çözümlememe",
+            "subpoint11": "Hizmetleri iznimiz olmadan yeniden satmama, alt lisans vermem, kiralamam, teklif etmememe veya başka şekilde ticarileştirmememe",
+            "subpoint12": "Diğerlerinin hesabını kullanmalarına izin vermeme"
+          }
+        },
+        "violation": {
+          "content_ownership_heading": "Kullanım Şartları İhlali",
+          "content_ownership_point1": "ZITRANSFER (ZTFR), yalnızca kendi takdirine bağlı olarak veya makul şikayetler aldıktan sonra, bu Şartları ihlal ettiğinizi veya geçerli bir yasa veya düzenlemeyi ihlal ettiğinizi belirlediğinde, herhangi bir İçerik ve/veya hesap bilgisini araştırma, üçüncü taraflara sağlama, (geçici olarak) engelleme ve/veya kalıcı olarak sunuculardan silme veya Hizmetin herhangi bir kısmına erişimi herhangi bir bildirim veya sorumluluk olmaksızın engelleme veya kimseyi engelleme hakkını saklı tutar. Daha fazla bilgi, Bildirim/Kaldırma Politikamızda mevcuttur."
+        },
+        "intellectual": {
+          "intellectual_heading": "Fikri Mülkiyet",
+          "intellectual_point1": "Hizmetler üzerindeki tüm fikri mülkiyet hakları ve/veya benzer haklar (yazılım, duvar kağıtları, videolar, içerik, fotoğrafçılık, grafik tasarım, tipografi, portreler, logolar, ticari markalar, ticaret adları, alan adları, telif hakları ve patentler dahil) ZITRANSFER (ZTFR) ve/veya lisans verenlerine aittir ve bunların hiçbirini herhangi bir şekilde kullanma, kaldırma, değiştirme, kopyalama, ayna, dağıtma, çözümleme veya tersine mühendislik yapma hakkınız yoktur.",
+          "intellectual_point2": "ZTFR, Hizmetler içinde yayınlanan üçüncü taraf içeriğinden, harici web sitelerine yönlendiren reklamlardan veya harici web sitelerinde sunulan içerik, ürünler veya hizmetlerden sorumlu veya mükellef değildir. Hizmetler dışında kullanmanızın kendi riskinizde olduğunu kabul eder ve kabul edersiniz.",
+          "intellectual_point3": "Her zaman ZITRANSFER/ZTFR ve lisans verenlerinin iyi adını ve itibarını saygı gösterecek ve gözetmelisiniz ve Hizmetlerin kullanımınızın ZITRANSFER/ZTFR ve lisans verenlerinin haklarını ve/veya iyi adını ve itibarını hiçbir şekilde zarar vermemesi gerektiğini sağlamalısınız."
+        },
+        "disclaimer": {
+          "disclaimer_heading": "Açıklama ve Hesap Kaydı",
+          "disclaimer_point1": "ZTFR, Hizmetleri \"OLDUĞU GİBİ\" sunar, herhangi bir türde garanti vermez. Yukarıda belirtilenleri sınırlamaksızın, ZTFR özellikle ticari uygunluk, belirli bir amaca uygunluk ve ihlal etmeme garantilerini reddeder. ZTFR, Hizmetlerin kesintisiz, güvenli veya hatasız bir şekilde kullanılabilir olduğu konusunda herhangi bir garanti vermez. Hizmetlerin kullanımı kendi riskinizdedir. ZTFR, bilgisayar sistemi veya mobil cihazınızın veya Hizmetlerin depolama, transfer veya dosya silme hizmetlerinin bir dosyayı saklama, transfer etme veya silme başarısızlığının veya saklanan herhangi bir verinin veya bilginin veya içeriğin bozulması veya kaybından sorumlu değildir.",
+          "disclaimer_point2": "ZTFR, zaman zaman Hizmetlerini değiştirme, sona erdirme veya genişletme hakkını saklı tutar ve Hizmetlerin özelliklerini veya işlevselliğini sınırlama veya kaldırma hakkını saklar.",
+          "disclaimer_point3": "Bazı Hizmetlerin, e-posta adresiniz, şifreniz ve/veya ödeme bilgileriniz gibi verileri kaydettirmenizi gerektirdiğini unutmayın. Bunların doğru olduğundan ve hesap ayarlarınızda (Portal) güncel tuttuğunuzdan emin olmalısınız. Hesabınızdan veya hesabınız tarafından yanlış kullanıldığı görünürse, ZTFR hesabı silme hakkını saklar. ZTFR, hesabınızın izinsiz kullanımından kaynaklanan herhangi bir kayıp veya hasardan sorumlu değildir."
+        },
+        "indemnity": {
+          "indemnity_heading": "Tazminat ve Sorumluluk",
+          "indemnity_point1": "Siz, ZITRANSFER/ZTFR (çalışanları ve bağlı kuruluşlarını içeren) tarafından yürütülen veya hesabınız aracılığıyla kullanılan veya paylaşılan İçerik ile ilgili olarak, bu Şartları ihlal etmeniz veya üçüncü taraf haklarını ihlal ettiği veya ihlal ettiği herhangi bir talep, olay, sorumluluk, işlem, hasar, kayıp ve giderler (hukuk ve muhasebe ücretleri dahil) karşısında ZITRANSFER/ZTFR'yi savunacak, tazmin edecek ve zararsız tutacaksınız.",
+          "indemnity_point2": "Hizmetler, üçüncü taraf hizmetleriyle entegrasyon sağlayabilir. Siz, (i) ZTFR'ün böyle üçüncü taraf hizmetlerinin herhangi bir eylem veya ihmalinden sorumlu olmadığını; (ii) ZTFR'ün böyle üçüncü taraf hizmetlerinin acentesi olmadığını; ve (iii) bu hizmetlerin sağlayıcıları ile siz arasındaki herhangi bir geçerli hüküm ve koşullara tabi olduğunu kabul edersiniz.",
+          "indemnity_point3": "Yerel zorunlu hukukun izin verdiği ölçüde, ZTFR'nin Hizmetlerin kullanımı nedeniyle herhangi bir hasardan veya kişisel yaralanmadan sorumlu olmadığını, dahil (geçici) kullanılamama veya (kazara) içeriğinizin veya hesabınızın kaldırılmasından veya zarar görmesinden sorumlu olmadığını kabul edersiniz. Bu maddeye atıfta bulunulan sınırlama, ZTFR'nin kasıt veya ağır ihmali nedeniyle meydana gelen hasar için sorumluluğu olmadığı takdirde uygulanmaz. ZTFR, zorunlu yerel hukuka göre hasara karşı sorumlu olduğu durumlarda, ZTFR'nin Hizmetlerin kullanımı ile ilgili olarak tüm talepler için toplam sorumluluğu, yerel zorunlu hukukun izin verdiği ölçüde - her bir olay başına yüz Amerikan Doları (100 $) miktarını aşmayacaktır."
+        },
+        "wavier": {
+          "wavier_heading": "Feragatname, Ayırma ve Devir",
+          "wavier_point1": "ZITRANSFER'ın bir hükmü uygulamaması, daha sonra bu hükmü uygulama hakkından feragat etmediği anlamına gelmez.",
+          "wavier_point2": "Bu Şartların herhangi bir (bölümü) hükmünün yasa dışı, uygulanamaz veya başka şekilde geçersiz bulunması durumunda, (i) Şartların geri kalanı, ilgili yasalarla uyumlu veya uyumlu olacak şekilde tam kuvvet ve etkisinde kalacaktır; ve (ii) o kısım, geçersiz kısma en yakın ekonomik etkisi olan biri tarafından silinmiş sayılacaktır.",
+          "wavier_point3": "Haklarınızı bu Şartlar altında devredemezsiniz. ZTFR, bu Şartlarla ilgili herhangi bir işle ilişkilendirilen işleme veya Hizmetlerle ilişkili herhangi bir işin halefi veya bağlı bir işle ilişkilendiren haklarını herhangi bir kısıtlama veya başka bir izin olmaksızın, herhangi bir zaman devretme hakkını saklı tutar."
+        },
+        "applicable_law": {
+          "applicable_law_heading": "Uygulanabilir Hukuk ve Yargı Yetkisi",
+          "applicable_law_point1": "Bu Şartlar ve onunla ilgili veya bağlantılı olarak doğmayan sözleşmeye dayalı yükümlülükler, İngiliz hukuku uyarınca yürürlükte olan, yorumlanan ve uygulanan hükümlere tabi olacaktır, zorunlu tüketici hukuku dahil. Bu Şartlar, ikamet ettiğiniz ülkenin zorunlu yasaları uyarınca hak sahibi olabileceğiniz tüketici koruma haklarını sınırlamaz.",
+          "applicable_law_point2": "Bu Şartlar hakkındaki anlaşmazlıklar, İngiltere, Birleşik Krallık'ta yetkili mahkemeye sunulacaktır (İngiliz özel uluslararası hukuk hariç)."
+        },
+        "contact": {
+          "contact_heading": "İletişim",
+          "contact_point1": "ZITRANSFER (ZTFR) Legal ile iletişime geçebilirsiniz, ",
+          "email": "legal@zimogroup.org"
+        }
+      },
+      "privacyStatement": {
+        "privacyStatement": "GİZLİLİK BEYANI",
+        "privacy": {
+          "privacy_heading": "Gizlilik BEYANI, ZTFR'ın kişisel verilerinizi nasıl topladığını, kullanıdığını ve paylaştığını açıklar.",
+          "privacy_para1": "Kullanıcılarımızın verilerini korumak, bizim için en büyük önem taşır ve onu güvende tutmak için büyük çaba sarf ederiz.",
+          "privacy_para2": "Güveninizi ve gizlilik hakkınızı ciddiye alıyoruz ve dijital ayak izinizi küçük ve kontrolünüz altında tutmak için sürekli çalışıyoruz. Bununla birlikte, akışınızda sizi etkinleştirmek ve hizmetimizi iyileştirmek ve güvence altına almak için bazı kişisel bilgileri işlememiz gerekir. Gizlilikle ilgili sorularınız için lütfen aracılığıyla Veri Koruma Ekibimize ulaşın ",
+          "privacy_para3": "Bu beyan, ZITRANSFER (ZTFR) hizmetlerinin, yazılımının, web sitelerinin (tarayıcı uzantıları dahil) ve/veya uygulamalarının işleme faaliyetlerini kapsar (birlikte: \"Hizmetler\"). Hizmetler, fikirlerinizi, metinlerinizi, grafiklerinizi, videolarınızı, verilerinizi, bilgilerinizi, dosyalarınızı, destelerinizi veya diğer içerikleri oluşturmanıza, paylaşmanıza, toplamanıza, yakalamanıza ve/veya görselleştirmenize olanak tanır (birlikte: \"İçerik\"). Hizmetler size çevrimiçi olarak, bir mobil ve/veya masaüstü uygulama(s) şeklinde sunulabilir ve/veya üçüncü taraf bir hizmetin içine entegre edilebilir. Hizmetlerden herhangi birini kullanarak, aşağıdaki gibi Gizlilik Beyanımızı okuduğunuzu ve anladığınızı kabul edersiniz.",
+          "privacy_para4": "Gizlilik uygulamalarımızı aşağıdaki başlıklar aracılığıyla öğrenebilirsiniz.",
+          "accordians": {
+            "accordian1": {
+              "heading": "NE HANGİ BİLGİLERİ TOPLUYORUZ?",
+              "content": {
+                "first_para": "Hizmetlerimizi kullanmanızı mümkün kılmak için bazı kişisel bilgileri saklarız. Sizden kişisel bilgi toplamanın birkaç yolu vardır: Bunu gönderebilirsiniz veya Hizmetlerimiz aracılığıyla otomatik olarak toplarız. Hizmetlerimizi nasıl kullandığınıza ve hangi Hizmetleri kullandığınıza bağlı olarak farklı türde kişisel bilgiler toplanabilir. Kişisel bilgilerinizi nasıl değiştirebileceğiniz, erişebileceğiniz veya silebileceğiniz hakkında bilgi almak için lütfen \"Kullanıcı olarak hangi haklara sahipsiniz\" bölümünü kontrol edin.",
+                "sub_heading1": {
+                  "heading": "Sunduğunuz kişisel bilgiler",
+                  "text1": "ZITRANSFER (ZTFR), sağladığınız kişisel bilgileri toplar, işler veya barındırır.",
+                  "text2": "Yükleyici veya yaratıcı(lar), İçeriğin meşruiyetinden sorumludur ve Hizmetlerimizi sunmak için yalnızca işler. Hizmetlerimizden biri aracılığıyla kişisel bilgi yüklüyor, gönderiyorsanız veya oluşturuyorsanız, dpt@zitransfer.com adresine e-posta göndererek Veri İşleme Anlaşması talep edebilirsiniz.",
+                  "points": {
+                    "point1": "İLETİŞİM BİLGİLERİ: adınız ve e-posta adresiniz veya alıcı(ların) e-posta adresi.",
+                    "point2": "KENDİNİZ HAKKINDA BİLGİ: yaş, cinsiyet, şehir, ülke gibi.",
+                    "point3": "Tercihler: örneğin dil ayarları veya ilgi alanları.",
+                    "point4": "İÇERİK VE META VERİ: kendiniz ve diğerleri hakkında çeşitli kişisel bilgiler içeren İçerik yüklemeyi veya oluşturmayı seçebilirsiniz. Bu tür İçerik aynı zamanda bir dosya adı, boyut ve dosya türü içerir.",
+                    "point5": "Kişisel MESAJLAR/NOTLAR: dosyalarınızı paylaşırken insanlara gönderdiğinizler."
+                  }
+                },
+                "sub_heading2": {
+                  "heading": "Otomatik Yollarla Topladığımız Kişisel Bilgiler",
+                  "text1": "ZTFR, Hizmetlerimizi kullanırken otomatik olarak kişisel bilgi toplar ve kullanır.",
+                  "points": {
+                    "point1": "TARAYICI BİLGİLERİ: tarayıcı türü, dil ayarları, ülke ve saat dilimi.",
+                    "point2": "ÇEREZ VE WEB BEYAZ BİLGİLERİ: çerez kimlikleri ve ayarlar ve çerezler, web işaretçileri veya piksel etiketleri aracılığıyla alınan diğer kişisel bilgiler. \"Neden ve nasıl çerez kullanılır\" bölümü altında daha fazla bilgi edinin.",
+                    "point3": "CİHAZ BİLGİLERİ: cihaz türü, donanım modeli ve işletim sistemi.",
+                    "point4": "KİMLİKLE İLGİLİ BİLGİLER: benzersiz tanımlayıcılar, örneğin bir iOS için IDFA, MAC adresi veya Bir Kullanıcı Kimliği.",
+                    "point5": "AĞ BİLGİLERİ: IP adresleri ve mobil ağ bilgileri.",
+                    "point6": "KONUM VERİSİ: coğrafi konumunuzla ilgili veriler. Cihazınıza dayalı kesin GPS konumunuzu kullanıyorsak, bunu yalnızca onayınızı aldıktan sonra yapacağımızdan emin oluruz.",
+                    "point7": "HİZMET KULLANIMI: Hizmetlerimiz, web siteleri ve mobil uygulamalarla nasıl etkileşimde bulunduğunuza dair bilgiler."
+                  }
+                },
+                "sub_heading3": {
+                  "heading": "Ortaklardan Aldığımız Kişisel Bilgiler",
+                  "text1": "Üçüncü taraflardan kişisel bilgi alabiliriz, örneğin:",
+                  "points": {
+                    "point1": "ENTİGRASYON BİLGİLERİ: Bazı Hizmetlerimizi (sosyal medya veya mesajlaşma hizmetleri) hesabınızla entegre etmeyi seçebilirsiniz, size zengin bir iletişim işlevi sunmak için.",
+                    "point2": "PAZARLAMA BİLGİLERİ: bazı ortaklar, yazılım geliştirme kitapları (SDK'ları) aracılığıyla ek (toplamsal) bilgiler sağlayabilirler. Bu, içeriği, reklamları ve teklifleri kişiselleştirmek, reklamcılık ve sizinle iletişime geçmek için doğru izleyiciyi bulmak için demografik veya davranışsal bilgiler içerebilir.",
+                    "point3": "YASAL BİLGİLER: yasal bir talep durumunda kişisel bilgilerinizi paylaşma zorunluluğumuz vardır. CSAI ile karşılaşırsak veya diğer yasadışı İçerik hakkında bilgilendirilirsek, davranışınızla ilgili kişisel bilgileri de paylaşırız."
+                  }
+                }
+              }
+            },
+            "accordian2": {
+              "heading": "KİŞİSEL BİLGİLERİMİZİ KİMLE PAYLAŞIYORUZ?",
+              "content": {
+                "first_para": "ZTFR'ın Hizmetlerini işletmek ve geliştirmek için çeşitli ortakları vardır. Ayrıca, bazı Hizmetlerin bir parçası olarak bilgilerinizi paylaşmamıza veya paylaşmanıza izin verebiliriz.",
+                "second_para": "Küresel bir platform/şirketiz ve küresel bir Teknoloji organizasyonunun bir parçasıyız, bu nedenle Avrupa Ekonomik Alanı (\"EEA\") dışındaki ülkelerde kişisel bilgilerinizi paylaşabilir veya saklayabiliriz. Bu ülkelerde farklı veri koruma yasaları vardır. Bununla birlikte, verileri küresel olarak aktardığımızda, kişisel bilgilerinizin EEA'daki gibi benzer bir koruma seviyesini sağlamak için uygun güvencelerin sağlandığından emin oluruz.",
+                "points": {
+                  "point1": "HİZMET SAĞLAYICILAR: barındırma sağlayıcımız, kullanıcı destek sağlayıcımız, IT ve yazılım sağlayıcılarımız, ödeme işlemcilerimiz, e-posta işlemcilerimiz ve muhasebeci(ler).",
+                  "point2": "SİZİN VE (SOSYAL) MEDYA SEÇİMLERİNİZ: takım arkadaşları gibi diğer kişilerle Hizmetlerimiz içinde veya (sosyal) medya gibi (sosyal) medya aracılığıyla İçeriğinizi paylaşmayı seçebilirsiniz.",
+                  "point3": "YASAL İŞLEYEN AJANSLAR VE DÜZENLEYİCİLER: yasal bir talep durumunda kişisel bilgilerinizi paylaşma yükümlülüğümüz vardır. CSAI ile karşılaşırsak veya diğer yasadışı İçerik hakkında bilgilendirilirsek, davranışınızla ilgili kişisel bilgileri de paylaşırız.",
+                  "point4": "İŞ ORTAKLARI: reklam ortakları, pazarlama ve iletişim ajansları ile işbirliği yaparız. Bu, (ilgi temelli) reklamcılık, markalama ve size ulaşmak için yapılır. Reklam ortaklarımız kendi hizmet koşulları ve gizlilik bildirimleri altına düşen izleme çerezlerini uygularlar.",
+                  "point5": "ENTEGRE HİZMETLER: (bir) Hizmetimizi başka bir hizmetle (örneğin sosyal medya hesabınızla) entegre etmeye karar verirseniz, bu hizmeti kendi hizmetimizle bağlantılandırmamız gerekecektir. Böyle bir hizmeti sunmak için bazı kişisel bilgilerinizi o hizmetle paylaşmamız gerekecektir. Bu üçüncü tarafların bağlantılarının en azından kendi kısmı için geçerli olan terimleri ve gizlilik beyanları geçerlidir.",
+                  "point6": "ZTFR ŞİRKETLER ARASI BİLGİLERİ PAYLAŞIR: Hizmetlerimizi sunmak ve \"Neden kişisel bilgilerinizi kullanıyoruz?\" bölümünde belirtilen tüm amaçlar için ZITRANSFER ve ZIMO GROUP'un bir parçası olan şirketler arasında kişisel bilgi paylaşırız."
+                }
+              }
+            },
+            "accordian3": {
+              "heading": "ÇEREZLER NEDEN VE NASIL KULLANILIR?",
+              "content": {
+                "first_para": "ZTFR'ı daha iyi hale getirme amacıyla çerezler yerleştiriyoruz. Hizmetlerimizi güvenli, güzel ve rahatsız edici olmayacak şekilde yapmak için çalışıyoruz. Çerezleri engellemekte özgürsünüz, ancak bu Hizmetlerimizin ne kadar iyi çalıştığını etkileyebilir.",
+                "second_para": "Hizmetimizin kullanımınızı kolaylaştırmak ve Hizmetin nasıl iyileştirilebileceğini öğrenmek amacıyla cihazınıza çeşitli çerezler (veya pikseller veya web işaretçileri gibi benzer teknolojiler) yerleştiriyoruz. Biz veya reklam ortaklarımız aynı zamanda web sitemize çerezler yerleştirir. Küresel bir hizmet olduğumuz için bu ortaklar ülkeye göre değişebilir. Reklam ortaklarımız çerez yerleştirdiğinde, bu çerezler kampanyanın etkililiğini ölçmek için kişisel bilgileri işleyebilir.",
+                "third_para": "Çerezler, bir web sitesini ziyaret ettiğinizde tarayıcınız tarafından bilgisayarınızda depolanan küçük metin dosyalarıdır. Çerez amaçlarının örnekleri: dil tercihleriniz, bir hesaba giriş yapma, oturum açma bilgilerini hatırlama, size kişiselleştirilmiş reklamlar sunma ve Hizmet Şartları ve Gizlilik Beyanı'nı kabul etme. Web sitemiz, bu çerezleri aşağıdaki amaçlarla yerleştirebilir:",
+                "points": {
+                  "point1": "FONKSİYONEL ÇEREZLER, hizmetimizi kullanırken işlevler sağlamak için kullanılır, tercihleri ayarlama veya önceki ayarlarınızı hatırlama olasılığınızı sağlar.",
+                  "point2": "ANALİTİK ÇEREZLER, hizmetimizi optimize etmek için kullanılır. Örneğin, yeni bir özelliği AB testi yaparak web sitemizin kullanılabilirliğini optimize etmek, web sitesini daha kullanıcı dostu hale getirmek ve hizmetimizi nasıl kullandığınızı analiz etmek. Ayrıca analitik çerezleri botları ve istenmeyen davranışları engellemek için kullanırız. Analitik çerezler kullanıldığında bu, çerez listesinde bulunan üçüncü taraf çerezleri de içerebilir. Bu üçüncü taraf analitik çerezler kişisel bilgileri işler, bu bilgi çerez listesinde detaylandırılmıştır.",
+                  "point3": "REKLAM ÇEREZLERİ, ticari, editoryal ve tanıtıcı amaçlar için kullanılır. Bu çerezlerle internet ve sörf davranışınız farklı alanlar ve web siteleri üzerinde takip edilebilir. ZTFR, sizi ziyaret ettiğiniz web sitesinden önce ziyaret ettiğiniz (tek) web sitesini kontrol eder. Sitemizden ayrıldıktan sonra ziyaret ettiğiniz web sitesini takip etmiyoruz. Reklam çerezleri genellikle reklam kampanyalarının etkililiğini ölçmek ve reklamcılık kampanyaları ve reklamlarınızın etkililiğini izlemek için üçüncü taraflar tarafından yerleştirilir. ZTFR, bu çerezler veya diğer özellikler aracılığıyla toplanan kişisel bilgilere erişimi veya denetimi olmadığını ve reklamverenlerin ve üçüncü tarafların nasıl kişisel bilgileri işlediğini okumak için üçüncü tarafların Gizlilik Beyanlarına yönlendirmektedir.",
+                  "point4": "PİKSEL ETİKETLERİ VE WEB İŞARETLERİ, kullanıcıların o web sayfasında ne kadar etkileşimde bulunduğu hakkında kişisel bilgi toplayan web sayfasına gömülü bir kod parçasıdır. Bir pikselin kullanımı, örneğin bir kullanıcının belirli bir web sayfasını ziyaret ettiğini veya belirli bir reklama tıkladığını kaydetmemize olanak tanır. Piksel aynı zamanda bir kullanıcının web sitemize geldiği önceki web sitesi veya kanaldan geldiğimizi görmemizi sağlar."
+                }
+              }
+            },
+            "accordian4": {
+              "heading": "Neden Kişisel Bilgilerinizi Kullanıyoruz?",
+              "content": {
+                "first_para": "Hizmetlerimizi sunmak ve geliştirmek, yasal yükümlülüklere uymak, Hizmetlerimizi tanıtmak ve Hizmetlerimizi güvenli ve güvende tutmak için kişisel bilgilerinizi kullanıyoruz. Kişisel bilgilerinizi nasıl kullandığımızı ve kişisel bilgilerinizin kullanımını hangi yasal temellere dayandırdığımızı aşağıda bulabilirsiniz.",
+                "sub_heading1": {
+                  "heading": "Otomatik Yollarla Topladığımız Kişisel Bilgiler",
+                  "points": {
+                    "point1": "HİZMET: Kişisel bilgilerinizi kullanmanın en önemli nedenlerinden biri, tabii ki, Hizmetlerimizi sunmaktır. Örneğin, içerik oluşturmak veya görselleştirmek, fikirlerinizi paylaşmak ve içeriğinizi farklı cihazlarda erişilebilir kılmak için.",
+                    "point2": "DESTEK: İhtiyaç duyulduğunda size yardımcı olmak için geniş bir destek hizmetleri yelpazesi sunuyoruz, örneğin teknik destek gerektiğinde. Destek ekibi, sizi yardımcı olmak için içeriğinize erişebilir.",
+                    "point3": "HESAP VE FATURA: Kişisel hesabınızı oluşturmak ve sürdürmek, adres defterinizi kolaylaştırmak ve içeriğinize farklı cihazlarda erişimi sağlamak, abonelik ücretinizi tahsil etmek ve muhasebe, denetim ve fatura faaliyetleri gerçekleştirmek.",
+                    "point4": "GÜVENLİK, BÜTÜNLÜK VE GÜVENLİK: ZTFR, kötüye kullanım raporlarını takip eder, NTD/DMCA raporlarını takip eder, dolandırıcılık soruşturmalarını yapar ve sizin Hizmetlerimiz kullanımınıza uygunluğunuzu inceleyebilir ve bizimle ilgili hizmet şartlarımızın veya API Kullanım Şartlarımızın ihlalini soruşturabilir. Ayrıca, Çocuk Cinsel İstismar Görüntüsü (CSAI) tespiti yaparız ve bu tür İçeriğin potansiyel CSAI olup olmadığına dair otomatik kararlar alırız. Potansiyel CSAI vakaları doğrudan güvenlik kuvvetlerine bildirilecektir. Ayrıca, kendimizi dolandırıcılığa ve diğer yasa dışı faaliyetlere karşı koruruz. Tüm bu durumlarda, içeriğinizi saklama ve kimlik bilgileri ile birlikte güvenlik kuvvetleriyle paylaşma hakkını saklı tutarız. Son olarak, güvenliğimizi ve sizin güvenliğinizi, bütünlüğünüzü ve güvenliğinizi sağlamak için iç kontrol amacıyla kişisel bilgilerinizi kullanabiliriz. Örneğin, Hizmet Şartlarımızın ihlali şüphesi durumunda.",
+                    "point5": "GELİŞİM VE GELİŞTİRME: Hizmetlerimizin kullanımını değerlendiriyoruz, hataları düzeltiyor, yeni ürünler ve hizmetler geliştiriyoruz. Bunu ya pazar araştırması yoluyla yaparız (örneğin anketler göndererek) ya da analizler yaparız (örneğin kişisel bilgilerinizi Hizmetlerimiz veya mobil cihazlarınız arasında takip ederek ve bir araya getirerek). Bunu hem genel olarak kullanıcı kitlenizin Hizmetlerimizle nasıl etkileşimde bulunduğunu anlamak için hem de reklamlarımızın etkisini incelemek ve bu Hizmetleri ve reklamları buna göre iyileştirmek için yaparız.",
+                    "point6": "PAZARLAMA, REKLAM VE İLETİŞİM: Kişisel bilgilerinizi pazarlama ve (ilgi tabanlı) reklamcılık için kullanırız. Örneğin SDK'ları veya çerezleri kullanarak güncellemeleri düşünün, aynı zamanda ZTFR veya ortaklarımızın kişiselleştirilmiş reklamlarını sunabiliriz, bu reklamları kendi web sitemizde veya üçüncü taraf web sitelerinde sunabiliriz. Bu reklamlar için doğru kitleyi bulmak için belirli insan gruplarını inceleyeceğiz. Örneğin, benzer Hizmetleri kullanan insanlar, mevcut kullanıcılarımızla aynı özelliklere sahip insanlar veya belirli bir coğrafi konumda bulunan insanlar gibi. Bu reklamlar için hedef kitlemizle bağlantı kurmak için temelde bir hikaye anlatma şekli olan sıralı iletişim kullanabiliriz: Hizmetlerimizle farklı cihazlarda etkileşimde bulunduğunuzda, her seferinde farklı bir cihazda biraz farklı bir reklam alabilirsiniz, ancak reklamlar aynı hikayenin bir parçasıdır. Ayrıca, cihazlarınız aracılığıyla Hizmetlerimize nasıl etkileşimde bulunduğunuza bağlı olarak, (diğer) Hizmetlerimizden veya özelliklerimizden birini tanıtabiliriz. Ayrıca, sunduğumuz (kişiselleştirilmiş) eylemlere, promosyonlara veya etkinliklere katılmanıza olanak tanırız. Son olarak, yaratıcılık veya ZTFR haberleri hakkında size ilgili hikayeler göndermek için e-posta pazarlama kullanırız. Gerekirse, size e-posta pazarlama göndermeden önce her zaman izninizin olup olmadığını soracağız. Elbette, her aldığınız e-postada basitçe iptal edebilirsiniz.",
+                    "point7": "YASAL: Gerektiğinde, kişisel bilgilerinizi ZITRANSFER (ZTFR) / ZIMO GROUP'u Hizmetlerimizi kullanmanızın sonucu olarak veya ile ilgili yasal işlemlerde savunmak için kullanabiliriz, mahkeme kararlarını takip etmek, herhangi bir yasa, düzenleme veya hükümet isteğine uymak, güvenlik kuvvetleri ile işbirliği yapmak, üçüncü tarafların dolandırıcılık soruşturmalarına işbirliği yapmak, ulusal güvenliği korumak, savunmak, kamu güvenliğini sağlamak ve Hizmet Şartlarımızı sürdürmek."
+                  }
+                },
+                "sub_heading2": {
+                  "heading": "Yasal Temeller",
+                  "text1": "Her işlemin geçerli bir yasal temeli vardır ve aşağıda açıklanmıştır.",
+                  "points": {
+                    "point1": "SİZİNLE SÖZLEŞMELİ YÜKÜMLÜLÜKLER: 1, 2 ve 3 altındaki faaliyetler ve amaçlar hakkında bahsedilenlerle ilgili. Hizmetlerimizi web sitelerimiz ve mobil uygulamalarımız aracılığıyla sunmak, (teknik) destek sağlamak ve abonelik ücretinizi faturalandırmak için kişisel bilgileri işlememiz gerekiyor.",
+                    "point2": "YASAL YÜKÜMLÜLÜKLER: 3, 4 ve 7 altındaki faaliyetler ve amaçlar için. Muhasebe amaçları için kişisel bilgilerinizi işlemek, yasal taleplere ve NTD veya DMCA taleplerine yanıt vermek için yasal olarak zorunluyuz.",
+                    "point3": "ONAY: Kısmen, 2 altındaki faaliyetler ve amaçlar hakkında bahsedilenler ve özellikle siz bir ücretli kullanıcı olarak doğrudan pazarlama ile iletişim kurmadığımız durumlar dışında, 6 altındaki aktiviteler ve amaçlar hakkında. ",
+                    "point4": "MEŞRU ÇIKARLAR: Kısmen, 1 ve 3 altındaki faaliyetler ve amaçlar için (örneğin, cihaz erişimi sağlamak için). 4 altındaki amaçlar için güvenli Hizmetler sunmak, dolandırıcılığı önlemek ve Hizmetlerimizin yasa dışı kullanımına karşı hareket etmek için. 5 altındaki yenilikçi çıkarlarımız için. Ve son olarak 6 ve 7 altındaki meşru çıkarlarımız için (doğrudan) pazarlama, marka çıkarları ve 7 altındaki yasal ve uyum çıkarları için. Kişisel bilgilerinizi meşru çıkarımıza dayanarak kullanıyorsak, haklarınızı ve özgürlüklerinizi bu meşru çıkarlarla dengelemekten emin olacağız. Uygulanabilirse, meşru çıkarımıza dayalı faaliyetlere itiraz etmek istiyorsanız ve hesap ayarlarınızda veya alınan iletişimde bir iptal seçeneği yoksa, lütfen iletişime geçin."
+                  }
+                }
+              }
+            },
+            "accordian5": {
+              "heading": "ZITRANSFER (ZTFR) GİZLİ VE HASSAS DOSYALAR İÇİN KULLANILABİLİR Mİ?",
+              "content": {
+                "first_para": "İçeriğinizi saygıyla işliyoruz. Herhangi bir kamu arama işlevi, katalog veya içerik listesi sağlamıyoruz. Çocuk Cinsel İstismar Görüntüsü (CSAI) yayılmasını azaltma ahlaki sorumluluğumuzu yerine getirmek için bu tür İçeriği tespit etmek için otomatik sistemler kullanıyoruz. Son olarak, bir Dikkate Alma / DMCA talebi veya yasal bir talep aldığımızda içeriğinizi silme yükümlülüğümüz vardır.",
+                "second_para": "İndirme / erişim bağlantılarını dağıtırken dikkatli olmanız gerekebilir - bağlantıyı kimin aldığı veya erişimi olduğu, içeriğe erişebilir veya indirebilir. Daha fazla güvenlik ve gizlilik için dosyalarınızı bir şifre ile koruma özelliğimizi kullanmak isteyebilirsiniz (müsaitse)."
+              }
+            },
+            "accordian6": {
+              "heading": "ŞİFRELENMİŞ HİZMETLERİMİZİ KULLANMAK NE KADAR GÜVENLİ?",
+              "content": {
+                "first_para": "ZITRANSFER (ZTFR), kişisel bilgilerinizi kayıp veya yasa dışı işlemler gibi diğer türden işlemlere karşı korumak için teknik ve organizasyonel önlemler alır.",
+                "second_para": "Kişisel bilgilere sadece işlerini yapmak için erişim gereksinimi olan kişilerin erişebilmesini sağlarız ve bunların uygun şekilde yetkilendirildiğinden emin oluruz. Bu, kişisel bilgilere kimin erişiminin olduğunu kaydediyoruz, erişimi olan kişi sayısını sınırlıyoruz ve kişisel bilgilere sadece uygun şekilde yetkilendirilmiş personelin okuyabilmesini, kopyalayabilmesini, değiştirebilmesini veya silebilmesini sağlarız. Kişisel bilgilerin güvenliği ve doğruluğunu sağlamak için iç aktiviteyi izleriz.",
+                "third_para": "ZTFR çalışanları, kişisel bilgilerin kullanımıyla ilgili şirketin gizlilik, etik ve kişisel bilgilerin uygun kullanımı konusundaki yönergeleri ile uyumlu bir şekilde davranmak zorundadır. Çalışanlar, bir gizlilik anlaşması imzalamak zorundadır.",
+                "forth_para": "Yükleme sırasında, sunucularımızda depolandığı sırada ve indirme sırasında İçerik şifrelenir ve yalnızca güvenli bir bağlantı üzerinden (https) gönderilir. İçeriğinizi sizin için saklamak için kullandığımız sunucular GDPR uyumlu ve güvenlidir."
+              },
+              "text": "ZTFR, yüklediğiniz verilerin gizliliğini korumak için Gelişmiş Şifreleme Standardı (AES) 256-bit kullanır."
+            },
+            "accordian7": {
+              "heading": "NE TÜR SAKLAMA İŞLEMLERİ MEVCUT?",
+              "content": {
+                "para": "Kişisel bilgilerinizin saklama süresi kullandığınız Hizmete ve hangi kişisel bilgi kategorisine bağlıdır. Saklama süreleri hakkında özel bilgilere ulaşmak için her zaman Hizmetlerin belirli web sitelerine veya uygulamalarına bakın.",
+                "heading1": {
+                  "sub_heading": "Kişisel Bilgiler",
+                  "para": "ZTFR, size Hizmetlerimizi sunmak, iş faaliyetlerimizi yürütmek ve meşru çıkarlarımızı yerine getirmek için gerekli olduğu sürece kişisel bilgilerinizi saklarız. Örneğin, kullanıcı hesabınızı sürdürmek, güvenli ve güvenilir hizmetler sunmak, hataları düzeltmek ve sizinle iletişim kurmak için."
+                },
+                "heading2": {
+                  "sub_heading": "Aktardığınız Dosyalar",
+                  "para": "ZTFR Dosya Paylaşımı kullanırken içeriğiniz varsayılan olarak 7 gün boyunca silinir, belirli bir süre seçmedikçe. Bir ZTFR Pro hesap verileri varsayılan olarak 28 gün veya manuel olarak belirlediğiniz son kullanma tarihine kadar saklanır. Bu süreden sonra bir dosya otomatik olarak askeri derecede silinerek sunucularımızdan silinir. Aktarımınızı takip eden kişisel bilgilere en fazla 12 ay boyunca erişilebilir. Bu tür kişisel bilgilere sadece ZTFR içindeki çok az sayıda kişi erişebilir, işlerini yapmak için ihtiyaçları olanlar, örneğin size destek sağlamak için. Veri 12 aydan eski olduğunda, veritabanından silinir, analiz için yanılsama veya anonimleştirme yaparız. Kişisel bilgilerinizi yanılsamak, analiz için e-posta adresinizi veya IP adresinizi kullanmadığımız anlamına gelir, ancak her ikisi için rastgele bir takma ad oluştururuz ve bu takma adı kullanırız. Bu şekilde doğrudan tanımlanabilir kişisel bilgileri işlememiz gerekmez ve bu gizlilik dostu bir yaklaşımdır."
+                },
+                "heading3": {
+                  "sub_heading": "Hizmetlerimiz Dışında Dosyaları Oluşturduğunuz, Kullandığınız, Sakladığınız veya Paylaştığınız İçerik",
+                  "para": "Hizmetlerimiz dışında oluşturduğunuz, kullandığınız, sakladığınız veya paylaştığınız İçeriği, ilkesel olarak Hizmetlerimizle etkileşime girmeyi bıraktığınızda, İçeriği Hizmetlerimizden silmeyi bıraktığınızda, Hizmetlerimizi cihazlarınızdan sildiğinizde veya hesabınızı sildiğinizde saklarız. Özel bilgilere özgü bilgiler için kullanılan Hizmetleri belirleyen web sitelerinin veya uygulamalarının belirli bilgilere ulaşmak için daima kontrol edin."
+                }
+              }
+            },
+            "accordian8": {
+              "heading": "KULLANICI OLARAK SAHİP OLDUĞUNUZ HAKLAR NELERDİR?",
+              "content": {
+                "para1": "Kişisel bilgilerinizle ilgili daha fazla bilgiye ihtiyacınız varsa, lütfen bize bildirin. Kimlik kanıtı isteyebiliriz. Fikrinizi değiştirirseniz ve artık kişisel bilgilerinizi işlememizi istemiyorsanız, bize bildirin.",
+                "points": {
+                  "text": "ZTFR'ye şunları isteyebilirsiniz:",
+                  "point1": "Kişisel bilgilerinize erişim, bir kopyasını alabilir veya düzeltebilirsiniz",
+                  "point2": "Belirli durumlarda kişisel bilgilerinizi (askeri derecede) silebilir veya kullanımını engelleyebiliriz",
+                  "point3": "Belirli durumlarda kişisel bilgilerinizi diğer üçüncü taraflara gönderebiliriz"
+                },
+                "para2": "Bunu <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b> adresine bir e-posta göndererek yapabilirsiniz. Lütfen konunun gizlilikle ilgili bir konuyu içerdiğini ve daha spesifik olarak erişim, düzeltme veya silme talebi olup olmadığını açıkça belirtin. Unutmayın ki bazı durumlarda ZTFR, kimliğinizi belirlemek için ek bilgi isteyebilir.",
+                "heading1": {
+                  "sub_heading": "İTİRAZ HAKKI",
+                  "para1": "Kişisel bilgilerinizin işlenmesinin hukuki temeli, meşru çıkarlarımızdan birine dayanıyorsa (bkz. \"Hukuki Temeller\" bölümü), kişisel bilgilerinizin işlenmesine itiraz etme hakkınız bulunmaktadır. Bize artık kişisel bilgilerinizi işlememizi veya size yaklaşmamamızı istediğinizi bildirirseniz, ZTFR kişisel bilgilerinizi ayrı bir dosyaya taşıyacaktır. Kişisel bilgileriniz artık yukarıda belirtilen amaçlar için kullanılmayacaktır, ancak meşru çıkarımız, örneğin güvenlik ve güvenlik, itiraz hakkınızı aşarsa. Bunu <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b> adresine bir e-posta göndererek talep edebilirsiniz. Lütfen talebinizin bir gizlilik konusu olduğunu ve daha spesifik olarak itiraz hakkınızı kullandığınızı açıkça belirtin.",
+                  "para2": "Eğer kişisel gizlilik haklarınıza ihlal edildiğini düşünüyorsanız, ilgili denetim makamına bir şikayette bulunabilirsiniz. Şikayetinizi özellikle yaşadığınız ülkede, çalıştığınız yerde veya haklarınızı ihlal ettiğinize inandığınız yerde yapabilirsiniz."
+                },
+                "heading2": {
+                  "sub_heading": "ONAYIN GERİ ÇEKİLMESİ",
+                  "para": "Kişisel bilgilerinizi işlememiz için onay verdiyseniz, bu onayı herhangi bir zamanda çekebilirsiniz, ancak çekilmeden önce onaya dayalı işlemlerin yasallığını etkilemez. Onayınızı çekerseniz, onayınıza dayalı olarak aldığımız kişisel bilgileri artık işlemeyeceğiz."
+                },
+                "heading3": {
+                  "sub_heading": "CALIFORNIA TÜKETİCİLERİ",
+                  "para": "California Civil Code § 1798.83 altındaki belirli sınırlamalara tabi olarak, California bir sakiniyseniz, bize (i) hemen önceki takvim yılı içinde doğrudan pazarlama amaçları için belirli üçüncü taraflara açıkladığımız belirli kişisel bilgi kategorilerinin bir listesini talep edebilir ve (ii) o takvim yılı içinde doğrudan pazarlama amaçları için bizden kişisel bilgi alan belirli üçüncü tarafların kimliğini talep edebilirsiniz. Bununla birlikte yukarıdaki yasaya tabi olarak kişisel bilgilerinizi pazarlamacılarla paylaşmıyoruz."
+                }
+              }
+            },
+            "accordian9": {
+              "heading": "ZITRANSFER (ZTFR) İLE İLETİŞİME NASIL GEÇİLİR?",
+              "content": {
+                "para": "Destek ekibimiz <b><a href='mailto:support@zitransfer.com?subject= Support enquiry'>support@zitransfer.com</a></b> adresi üzerinden ulaşılabilir. Herhangi bir sorunuz varsa lütfen bize e-posta gönderin. ZITRANSFER (ZTFR) tarafından kişisel bilgilerinizin nasıl işlendiği veya ZTFR tarafından sizin hakkınızda saklanan kişisel bilgiler hakkında sorularınız varsa, lütfen sorularınızı içeren bir e-posta ile ZTFR ile iletişime geçin <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>. Veri Koruma Ekibimiz ile iletişime geçmeniz gerekiyorsa, lütfen bunu <b><a href='mailto:dpt@zitransfer.com?subject= DPT enquiry'>dpt@zitransfer.com</a></b> adresi üzerinden yapın."
+              }
+            },
+            "accordian10": {
+              "heading": "GİZLİLİK BEYANININ REVİZYONLARI",
+              "content": {
+                "para": "Unutmayın ki ZITRANSFER (ZTFR), zaman zaman bu Gizlilik Beyanını gözden geçirebilir. Her revize edilmiş sürüm tarihli olarak belirlenecek ve web sitesine yayınlanacaktır. ZITRANSFER, web sitesini zaman zaman incelemenizi ve herhangi bir değişikliği not almanızı önerir. Gizlilik Beyanı'yla aynı fikirde değilseniz, web sitesine ve/veya hizmete erişmeyi veya kullanmayı bırakmalısınız. Web sitesini ve/veya hizmeti kullanmaya devam ederek Gizlilik Beyanı'nda yapılan herhangi bir değişikliği kabul edersiniz."
+              }
+            }
+          }
+        }
+      },
+      "noticePolicy": {
+        "noticepolicy": "BİLDİRİ / KALDIRMA POLİTİKASI",
+        "content": {
+          "para1": "ZTFR, haklarınıza saygı duyar ve sizin de diğerlerinin haklarına saygı göstermenizi bekler. ZTFR'nin, ne yazık ki yasadışı dosyaların veya içeriklerin dağıtıldığını bulması veya bu konuda bilgilendirilmesi durumunda, bu Bildiri/Kaldırma Politikası'nda tanımlanan prosedürleri takip edeceğiz.",
+          "para2": "Web sitemizi/platformumuzu veya dosya transfer hizmetimizi kullanarak, aşağıda yer alan Bildiri/Kaldırma Politikamıza bağlı olduğunuzu kabul edersiniz."
+        },
+        "information": {
+          "information_heading": "SUNDUĞUNUZ KİŞİSEL BİLGİLER",
+          "information_para": "ZTFR, Platform İnternet Güvenliği'nin İngilizce Bildiri/Kaldırma Davranış Kuralları'na (\"Kurallar\") abone olmuştur. Bu Davranış Kuralları, ZITRANSFER (ZTFR) gibi internet aracıları için (iddia edilen) yasadışı içerikle ilgili raporların (\"Rapor\" veya \"Raporlar\") kaldırılmasına yönelik raporları işleme prosedürlerini belirler. Bu Bildiri/Kaldırma Politikası (\"BKP Politikası\"), bu tür Raporlarla başa çıkmak için ZITRANSFER (ZTFR) tarafından uygulanan prosedürleri ve zaman sınırlarını açıklar."
+        },
+        "requirements": {
+          "requirements_heading": "RAPOR GEREKSİNİMLERİ",
+          "requirements_para1": "Bir Rapor (\"Bildirici\") sunan herhangi bir kişi veya kuruluşun, bu raporun doğru ve eksiksiz olduğundan emin olma görevi vardır.",
+          "requrements_para2": "ZITRANSFER, suç teşkil eden bir eyleme ilişkin bir soruşturmadan sonra veya bir kamu savcısının resmi hukuki emrinin bir sonucu olarak köken aldığını doğrulayabilmelidir. İlki dışındaki diğer doğaların bir Rapor, en az aşağıdaki bilgileri içermelidir:",
+          "requrements_points": {
+            "point1": "Bildirici'nin iletişim bilgileri, adı, görevi, kuruluşu, adresi, e-posta adresi",
+            "point2": "İddia edilen içeriğin yasallığını değerlendirmek için ZITRANSFER'ın ihtiyaç duyduğu tüm bilgiler, içeriğin yeri (URL) dahil",
+            "point3": "İçeriğin yasadışılığı veya ZITRANSFER'ın Hizmet Şartları, BKP veya Gizlilik Bildirimi ile çeliştiğine dair geçerli nedenler"
+          }
+        },
+        "indemnity": {
+          "heading": "tazminat",
+          "para": "Bildirici, ZITRANSFER'ı, 1) Raporun işlenmesiyle ilgili olarak hareket etmişse İçerik Sağlayıcı'nın talepleri (\"İçerik Sağlayıcı\") veya 2) Hizmetimiz aracılığıyla gönderilen içerikle ilgili Bildirici'den gelen talepler (\"Talep\") konusunda açıkça tazmin edecektir."
+        },
+        "urgency": {
+          "heading": "aciliyet",
+          "para": "Bildirici, ZITRANSFER'dan Raporu aciliyet konusu olarak ele almasını isteyebilir. Bu durumda, Raporun aciliyet nedenlerini tümüyle açıklamalıdır. ZITRANSFER, Raporun yukarıdaki açıklamaya dayalı olarak aciliyet durumu olarak ele alınıp alınmayacağını kendi takdirine bağlı olarak belirler."
+        },
+        "evaluation": {
+          "evaluation_heading": "değerlendirme",
+          "evaluation_text": "ZITRANSFER, Raporu değerlendirecek ve üç kategoriye sınıflandıracaktır:",
+          "evaluations_points": {
+            "point1": "Bir inceleme veya soruşturma servisi tarafından bildirilen cezai nitelikteki içerik veya resmi bir hukuki emir ile ilgili olan içerik",
+            "point2": "Başka kaynaklar tarafından bildirilen açıkça yasa dışı içerik ve/veya cezai içerik",
+            "point3": "Yukarıdaki kategori 1) veya 2) altına girmeyen diğer içerikler"
+          }
+        },
+        "measures": {
+          "measures_heading": "önlemler",
+          "measures_text": "ZITRANSFER'ın Raporu sınıflandırması, Raporu ele almak için alınan önlemleri belirler.",
+          "measures_points": {
+            "point1": "ZITRANSFER, ilgili içeriğin açıkça yasa dışı veya cezai nitelikte olduğunu, yani yukarıda belirtilen kategori 1) ve 2) altına girdiğini belirlediğinde, ilgili içeriğin derhal kaldırılmasını sağlar",
+            "point2": "ZITRANSFER, ilgili içeriğin açıkça yasa dışı veya cezai nitelikte olmadığını, yani yukarıda belirtilen kategori 3) altına girdiğini belirlediğinde, ilgili içeriğin kaldırılmayacağını Notifier'a bildirecektir",
+            "point3": "ZITRANSFER, ilgili içeriğin açıkça yasa dışı veya cezai nitelikte olduğunu veya olmadığını yeterince değerlendiremiyorsa, ZITRANSFER, Raporu İçerik Sağlayıcı'ya iletmek ve içeriği kaldırmasına izin vermek (i) veya Bildirici ile iletişim kurmasını istemek amacıyla Rapor hakkında İçerik Sağlayıcı'yı bilgilendirecektir. Bildirici ve İçerik Sağlayıcı anlaşmaya varamazlarsa, Bildirici bir suç teşkil ediyorsa resmi bir bildirimde bulunabilir. Eğer sivil hukuka aykırı olduğu iddia edilen içerik söz konusu ise, Bildirici, İçerik Sağlayıcı ile İngiliz mahkemesi önünde bir anlaşmazlığı getirebilir. İçerik Sağlayıcı'nın kendisini Bildirici'ye yeterince tanımlamak istememesi durumunda, ZITRANSFER'ın (i) Bildirici'ye İçerik Sağlayıcı'nın adını, e-posta adresini ve IP adresini sağlama veya (ii) ilgili içeriği kaldırma hakkı vardır."
+          }
+        },
+        "period": {
+          "heading": "dönem",
+          "para": "Sınıflandırma ve uygun önlemler mümkün olan en kısa sürede, en geç Raporun alınmasından itibaren 10 iş günü sonra yapılacaktır."
+        },
+        "caution": {
+          "heading": "gerekli özen",
+          "para": "İçeriğin kaldırılması gereken durumlarda, ZITRANSFER, Raporun gerektirdiği içeriğin fazlasının kaldırılmamasını sağlamak için gerekli dikkati gösterecektir."
+        },
+        "questions": {
+          "heading": "sorular?",
+          "para": "Bu BKP Politikası hakkında sorularınız varsa, lütfen bir e-posta göndererek ZITRANSFER ile iletişime geçin"
+        }
+      },
+      "advertisementTerms": {
+        "advertisingterms": "REKLAM ŞARTLARI",
+        "terms": {
+          "heading": "ZITRANSFER (ZTFR) ŞARTLARI",
+          "para": "Bu ZITRANSFER reklam şartları (\"ZITRANSFER Şartları\"), ZITRANSFER ve Müşteri (aşağıda tanımlandığı gibi) arasında yapılan herhangi bir Ekleme Siparişi'ni (IO) tamamlar, ancak değiştirmez. Bununla birlikte, IAB Standart İnternet Reklamcılığı Şartları'na Ek, Bir Yıl veya Daha Kısa Süreli Medya Alımları için Sürüm 3.0 olarak da adlandırılan IAB Standart Şartları için Internet Reklamcılığı Standart Şartları (\"IAB Şartları\") ile değiştirmez.",
+          "link": "https://www.iab.com/wp-content/uploads/2015/06/IAB_4As-tsandcs-FINAL.pdf",
+          "refered": "(\"IAB Şartları\" olarak adlandırılır)."
+        },
+        "definitionscope": {
+          "definitionscope_heading": "TANIMLAR VE KAPSAM",
+          "definitionscope_points": {
+            "point1": "Burada tanımlanmamış ancak burada tanımlanan IAB Şartları ile aynı anlama sahip tüm büyük harfli terimler, aşağıdaki ZITRANSFER Şartlarında, IAB Şartlarında, IO ve Eklerde şimdi aşağıdaki gibi okunan aşağıdaki tanımlar dışındaki terimler olarak değiştirilmiştir: \"Reklam\" Medya Şirketi tarafından oluşturulan (ancak bunlarla sınırlı olmamak üzere) reklamın, Reklam Materyalleri'ne dayalı veya bu materyalleri takip eden, olup olmadığına bakılmaksızın. \"Reklam Materyalleri\", reklamlar için içerik, sanat eseri, metin, ses veya video içerik veya etkin URL'leri içeren içeriktir. \"Medya Şirketi Mülkleri\", bir IO üzerinde belirtilen, Medya Şirketi tarafından sahip olunan, işletilen veya kontrol edilen web siteleri, (çevrimiçi) bültenler, podcast'ler, videolar, web dizileri veya Medya Şirketi tarafından reklam hizmeti sunma sözleşmesine sahip olduğu İnternet sesi veya video kanallarıdır. \"Ağ Mülkleri\", bir IO üzerinde belirtilen, Medya Şirketi tarafından sahip olunmayan, işletilmeyen veya kontrol edilmeyen, ancak Medya Şirketi'nin reklam sunma hakkına sahip olduğu web siteleri, podcast'ler, web dizileri veya İnternet sesi veya video kanalları veya platformlarıdır. Aşağıdaki tanımlamalar eklenmiş ve aşağıdaki anlamları taşımaktadır: \"Anlaşma\", Medya Şirketi ile Müşteri arasında imzalanan IO, ZITRANSFER Şartları, Ekler (Stüdyo ve/veya Markalı İçerik) ve IAB Şartları olmak üzere birlikte oluşturulan anlaşma. \"Müşteri\", bu Anlaşma kapsamında Medya Şirketi'nin karşı tarafı olarak, IO'yu imzalayan ve IO'yu imzalayan ve kabul eden Müşteri olarak tanımlanır. \"Etkin Tarih\", IO'nun imza tarihi. \"Fikri Mülkiyet Hakları\", patentler, ticaret markaları, hizmet markaları, ticaret ve iş isimleri, telif hakları, topoğrafya hakları, alan adları, veritabanı hakları ve tasarım hakları dahil ancak bunlarla sınırlı olmamak üzere, herhangi birinin kayıtlı olup olmadığına bakılmaksızın ve bunların herhangi biri için yapılmış başvurular dahil olmak üzere tüm haklar veya bunlar arasında benzer bir doğaya veya bunlar arasında benzer veya eşit etkiye sahip olan herhangi birinin yer aldığı veya dünya genelinde herhangi bir yerde var olabilecek her türlü koruma türü veya benzer etkiye sahip olan haklar; iş sırları ve güvenlik hakları dahil olmak üzere. \"Bülten Teslimatları\" e-posta yoluyla gönderilen bültenler (üzerinden) satılan Teslimatlar anlamına gelir. \"Ertelenme\", Müşteri tarafından sebep veya talimatla neden olunan herhangi bir nedenle, IO başlangıç tarihinden sonra bir tarihe kadar, reklamın (bir kısmının) teslimatının ertelenmesi anlamına gelir",
+            "point2": "IAB Şartlarına girişin aksine, Müşteri bir Ajans'tan başka bir taraf ise (örneğin ancak bununla sınırlı olmamak üzere bir Reklamveren de dahil olmak üzere), IAB Şartları'na dahil edilen bir Ajans'a uygulanan tüm haklar ve yükümlülükler Müşteri'ye mutatis mutandis uygulanır.",
+            "point3": "IAB Şartları'nın XIV.c. Bölümüne rağmen, Müşteri ve Medya Şirketi arasındaki Anlaşma, IO, bu ZITRANSFER Şartları, Ekler ve IAB Şartları'ndan oluşur. Anlaşmanın bir parçası olan herhangi bir sözleşme unsurunun çatışması durumunda öncelik sırası şöyledir: i) IO, ii) ZITRANSFER Şartları, iii) Ekler ve iv) IAB Şartları. Medya Şirketi, Müşteri veya üçüncü tarafların kabul ettiği koşulları ve/veya ek sözleşmeyi kabul etmez ve bu nedenle Anlaşmanın bir parçası değildir ve Medya Şirketi üzerinde bağlayıcı değildir. Kabul edilen IO'ların revizyonları yazılı olarak yapılmalı ve diğer tarafça yazılı olarak kabul edilmelidir.",
+            "point4": "Aksi yazılı olarak anlaşmadıkça, Medya Şirketi'nin teklifleri ve teklifleri 30 (otuz) gün boyunca geçerlidir. Anlaşma, Efektif Tarih'te ZITRANSFER'ın Müşteri tarafından imzalanmış IO'yu almasını takiben yürürlüğe girecektir ve Müşteri'nin ZITRANSFER Şartları'nı, Ek(leri) ve IAB Şartları'nı kabul ettiğini belirten IO'yu aldı. Envanter, Efektif Tarih'ten önce rezerve edilemez ve/veya garanti edilemez. Anlaşma, IO'nun tamamlanmasıyla sona erer (IO'da belirtildiği gibi Bitiş Tarihi)."
+          }
+        },
+        "changeterms": {
+          "changeterms_heading": "DEĞİŞİKLİKLER İAB ŞARTLARINA",
+          "changeterms_points": {
+            "point1": "IAB Şartları'nın I.a. ve II.a. Bölümlerine aykırı olarak: Medya Şirketi teslimat programları oluşturmayacak.",
+            "point2": "IAB Şartları'nın I.b. bölümünün (i) kısmı değiştirildi ve şimdi aşağıdaki gibi okunuyor: Medya Şirketi ve Ajans tarafından IO'nun yazılı onayı (ki bunun içine e-posta ile iletişim veya elektronik sözleşme yönetim sistemleri üzerinden imzalar da dahil) ile yapılır.",
+            "point3": "IAB Şartları'nın II.d. Bölümüne ek olarak, Medya Şirketi, Medya Şirketi Mülkleri'nde görünen Reklamlar için rakip yan yana gelmeleri konusunda herhangi bir garanti sağlamaz. Müşteri'nin yazılı talebi üzerine, Medya Şirketi, Müşteri'nin rakip yan yana gelmeleri konusundaki isteklerine uyum sağlamak için ticari olarak makul çaba sarf eder.",
+            "point4": "IAB Şartları'nın III.b. Bölümüne ek olarak, Medya Şirketi, anlaşmış ödeme süresi içinde ödeme almadıysa, Medya Şirketi müşterinin tüm mevcut ve gelecekteki IO'larını iptal etme hakkına sahiptir ve (i) müşterinin iptal bildirim tarihine kadar olan tüm bekleyen, imzalı IO'ları ve maliyetleri hemen faturalandırma hakkına sahiptir",
+            "point5": "IAB Şartları'nın III.c. Bölümü değiştirilmiş ve şimdi aşağıdaki gibi okunuyor: Müşteri, kendi müşterilerine faturaladığı ücretlerin tahsilinden yalnızca kendisi sorumludur. Müşteri, kendi müşterilerine faturaladığı ücretleri almadığı gerekçesiyle Medya Şirketi'ne karşı herhangi bir ödeme yükümlülüğünü ertelemeye hakkı yoktur. Kendi takdirine bağlı olarak, Medya Şirketi önceden ödeme talep edebilir.",
+            "point6": "IAB Şartları'nın IV.c. Bölümü tamamen silinmiş ve Anlaşmanın bir parçası değildir.",
+            "point7": "IAB Şartları'nın V. Bölümüne ek olarak, iptal durumunda Medya Şirketi, Müşteri iptal bildirimini aldıktan sonra IO'nun (bir kısmının) çevrimdışı alınmasına en geç 48 saat içinde geçecektir. Medya Şirketi, iptalin onayını Müşteri'ye gönderir. Faturalar, Medya Şirketi'nin onay e-postasının tarihine dayanmaktadır.",
+            "point8": "IAB Şartları'nın V. Bölümüne ek olarak, Ertelenme durumunda Medya Şirketi, müşteriden alınan IO'da belirtilen maliyetlerin %10'unu (on yüzde) tazminat olarak faturalandırma hakkına sahiptir. Bu tazminat, Müşteri tarafından Medya Şirketi'nden herhangi bir faturadan düşülemez ve Müşteri'nin tüm diğer Medya Şirketi faturalarını tam olarak ödeme yükümlülüğünü etkilemez veya serbest bırakmaz. Ertelenme birden fazla kez gerçekleşirse ve/veya ertelenen tarih yeni bir takvim yılında ise, Medya Şirketi, IO'nun (bir kısmının) iptal etme hakkına sahiptir ve IO'yu (bir kısmını) tamamen faturalandırma hakkına sahiptir.",
+            "point9": "IAB Şartları'nın VI.a. Bölümünün son cümlesi değiştirilmiş ve şimdi aşağıdaki gibi okunuyor: Eksiklik, ilgili IO'daki Teslimatlar sayısına göre %10'dan fazla ise, Ajans ve Medya Şirketi, bu Şartlarla uyumlu bir şekilde düzeltme yapmak üzere bir araya gelebilir. Teslimatta %10'dan az eksiklik varsa, herhangi bir düzeltme yapılmaz. Medya Şirketi yalnızca gerçek Teslimatları faturalandırdığı için eksiklik otomatik olarak faturada yansıtılır.",
+            "point10": "IAB Şartları'nın VI.b. ikinci cümlesine aykırı olarak, Medya Şirketi yalnızca kendi kayıtlarına dayanarak gerçek Teslimatları faturalandırır, bu nedenle Ajans, kendisine fatura edilen eksik kısmının değerine eşit bir kredi gerçekleştiremez.",
+            "point11": "IAB Şartları'nın VIII.a. Bölümünün son cümlesi silinmiş ve Anlaşmanın bir parçası değildir.",
+            "point12": "IAB Şartları'nın VIII.a. ve VIII.c. Bölümlerindeki terim, on dört (14) gün olarak değiştirilmiştir.",
+            "point13": "IAB Şartları'nın IX.e. Bölümü değiştirilmiş ve aşağıdaki gibi okunuyor: Medya Şirketi, Müşteri tarafından sunulan Reklam Materyali üzerinde gerekli teknik ayarlamaları yapmaya yetkilidir (örneğin ölçekleme veya kırpma). Müşteri, Medya Şirketi'nden Reklam Materyali için içerik oluşturmasını (örneğin sanat eseri, metin, ses, video, çeviriler gibi) veya Müşteri tarafından sunulan Reklam Materyali'nde madde değişiklikleri yapmasını (örneğin sanat eseri, metin, ses, video veya çeviri içeriğini değiştirmek gibi) talep ettiğinde, bundan sonra \"Hizmet\" olarak adlandırılır, Medya Şirketi Hizmet'i \"OLDUĞU GİBİ\" sunar ve herhangi bir türde garanti vermez. Medya Şirketi, Hizmet ile ilgili herhangi bir sorumluluğu açıkça reddeder ve Hizmet'in hatasız bir temelde olduğu konusunda herhangi bir garanti vermez. Müşterinin Hizmet'i kabul etmesi ve kullanması kendi riskindedir. Müşteri, Medya Şirketi'nin Hizmet'in kullanımından kaynaklanan herhangi bir hasardan sorumlu olmadığını ve/veya sorumlu olmadığını kabul eder.",
+            "point14": "IAB Şartları'nın IX.f. Bölümü değiştirilmiş ve aşağıdaki gibi okunuyor: Medya Şirketi, Üçüncü Taraf Reklam Sunucusu etiketlerine izin vermez, reklam türünden bağımsız olarak.",
+            "point15": "IAB Şartları'nın X.a. Bölümü değiştirilmiş ve aşağıdaki gibi okunuyor: Medya Şirketi, Müşteri, iştirakleri ve Temsilcilerini, herhangi bir Üçüncü Tarafın fikri mülkiyet haklarını ihlal ettiğini iddia eden herhangi bir zarar, sorumluluk, maliyet ve giderlerden (makul avukat ücretleri dahil) (topluca \"Zararlar\") koruyacaktır. , başvuruyu veya işlemi (topluca \"İddialar\"), Medya Şirketi'nin bu ZITRANSFER Şartları'nın 4.1 maddesinin ihlalinden kaynaklanmadıkça.",
+            "point16": "IAB Şartları'nın XII.b. Bölümünün ilk cümlesi değiştirilmiş ve aşağıdaki gibi okunuyor: Herhangi biri tarafından burada aksi belirtilmeyen herhangi bir şeyin aksine, \"Gizli Bilgi\" terimi (i) Dışarı Veren tarafından Ücretli, ilanın yapılmasından veya medya Şirketi'nin Sitesi'nde teslim ediliyor ve bu teslimat yoluyla genel olarak mevcut hale gelir, böylece ilan türü, bölge ve Reklam Veren kimliği gibi, ve (iv) Ücretli tarafından Gizli Bilgi tarafından iletilen, Gizli Bilgi üzerinde hiçbir gizlilik yükümlülüğü olmadan üçüncü bir tarafa iletilen (v) Ücretli tarafından ahlaki olmayan bir gizlilik yükümlülüğü olmaksızın serbest bir üçüncü tarafa iletilen. tarafından iletilmiştir.",
+            "point17": "IAB Şartları'nın XII d (ii) bölümü değiştirilmiş ve aşağıdaki gibi okunuyor: Medya Şirketi, Toplanan Verilerden Derlenen verileri türetebilir ve böyle verileri pazarlama ve halkla ilişkiler gibi genel iş amaçları (örneğin pazarlama ve halkla ilişkiler) için kullanabilir ve açıklayabilir.",
+            "point18": "IAB Şartları'nın XIII. Bölümü tamamen silinmiş ve aşağıdaki ile değiştirilmiştir: Fatura kayıtları temelinde bir fatura oluşturulduğunda ve tarafların kayıtları arasında (örneğin Teslimatlar veya Teslimatların konumları gibi) farklılıklar bulunduğunda, taraflar kayıtlarını paylaşabilir ve iyi niyetle anlaşmak üzere bir araya geleceklerdir. Taraflar anlaşmaya varamazlarsa, Medya Şirketi'nin kayıtları geçerli olacak ve faturanın temelini oluşturacaktır.",
+            "point19": "IAB Şartları'nın XIV.a. Bölümüne ek olarak, Reklam Veren, Reklam Materyalinin ilgili tüm yasalar, kurallar ve düzenlemelere uygun olduğunu temsil ve taahhüt eder, bunlarla sınırlı olmamak üzere yerel ve sektöre özgü reklamcılık kuralları ve reklamcılık ve tanıtım kampanyaları hakkında endüstri yönergeleri dahil, (\"Reklamcılık Kanunları\") . Reklam Veren, Reklamcılık Kanunlarına uygun olan bir Reklamın ihlal edilmediğini ve ihlal edilmediğini sağlamak için gerekli bilgi ve talimatları sağlama ve Medya Şirketi'ni bilgilendirme sorumluluğuna yalnızca kendisinin sahip olduğunu ve tek başına yükümlü olduğunu anlar ve kabul eder. Medya Şirketi'ne, Reklamın Reklamcılık Kanunlarına uygun olduğundan emin olmak için gerekli bilgi ve talimatları verme sorumluluğu sadece Müşteri'ye aittir.",
+            "point20": "IAB Şartları'nın XIV.f. Bölümüne ek olarak, bu ZITRANSFER Şartları'nın 1, 2 ve 3 bölümleri de Anlaşmanın sona ermesini veya sona ermesini sağlayan bir şekilde hayatta kalacaktır."
+          }
+        },
+        "invoices": {
+          "invoices_heading": "FATURALAR VE ÖDEME (EK ŞARTLAR)",
+          "invoices_points": {
+            "point1": "Tüm faturalar Media Şirketi tarafından, herhangi bir indirim, azaltma, mahsup, karşı iddia veya tazminat olmaksızın ve herhangi bir vergi kesintisi veya düşülme olmaksızın Euro (€), Amerikan Doları ($) veya İngiliz Sterlini (£) (IO'da belirtildiği gibi) belirtilen banka hesabına ödenmelidir. Her fatura, KDV olmadan ve uygulanabilir KDV ile belirtilen ücretleri içerecektir. Şüphesiz ki: Eğer Müşteri KDV'ye tabi ise, bu faturada gösterilecek ve Müşteri faturayı KDV dahil olarak ödemelidir.",
+            "point2": "Hizmetler için ücretleri zaman zaman tanıtabilir veya değiştirebiliriz, bu konuda size önceden bilgi vereceğiz. Eğer sabit bir süre ve fiyat aboneliğiniz varsa, bu fiyat sabit süre boyunca geçerli olacaktır. Fiyat değişikliği konusunda anlaşmazsanız, mevcut hizmet süresinin sonuna kadar aboneliğinizi iptal edebilir ve hizmetleri kullanmayı bırakabilirsiniz. Fiyat değişikliği yürürlüğe girdikten sonra hizmetleri kullanmaya devam ederseniz, değişen fiyatı ödemeyi kabul etmiş olursunuz. Ücret tanıtımları önceden onayınızı ve kaydınızı gerektirecektir.",
+            "point3": "Müşteri herhangi bir gerekçeye dayanarak ödemeyi tutma veya mahsup yapma hakkına sahip değildir.",
+            "point4": "Bir fatura ile ilgili herhangi bir anlaşmazlık, fatura tarihinden itibaren 8 (sekiz) gün içinde yazılı olarak Media Şirketi'ne bildirilmelidir. Bu süre içinde itiraz edilmemiş herhangi bir fatura kabul edilmiş sayılacaktır.",
+            "point5": "Media Şirketi'ne olan tüm ödemeler, öncelikle tahsilat maliyetlerine, ardından faize ve son olarak anlaşma ile ilgili olan en eski ödenmemiş faturalara tahsis edilecektir. Gecikmiş miktarlar herhangi bir ihtar gerektirmeksizin, herhangi bir takvim ayı veya kısmı için %1 (bir yüzde) oranında faize sahip olabilir. Ayrıca Media Şirketi, her bir vaka için minimum £ 250 olmak üzere tam tahsilat maliyetleri talep etme hakkına sahiptir.",
+            "point6": "Müşteri, IAB Şartları'nın III. Bölümü'nün hükümlerini ve bu ZITRANSFER Şartları'nın 2.4, 2.5 ve 3 maddelerini yerine getirmezse, Media Şirketi hizmetlerini askıya alma veya Anlaşmayı sona erdirme hakkına sahiptir."
+          }
+        },
+        "adrestrictions": {
+          "adrestrictions_heading": "REKLAM SINIRLAMALARI",
+          "adrestrictions_points": {
+            "point1": "IAB Şartları'nın IX.c maddesine ek olarak, Reklam Materyalleri ve Reklamlar, Media Şirketi'nin tek takdirine bağlı olarak aşağıdaki şekillerde içerik içeremez, reklam yapamaz, bağlantı kuramaz veya ilişkilendiremez: i) uygunsuz, hakaret edici, iftira, iftira, iftira, edebe aykırı veya yasa dışı ve/veya şiddetli, cinsel veya saldırgan bir şekilde veya herhangi bir malzeme grubuna hakaret etmeye uygun bir şekilde olduğu şekilde şiddetli, cinsel veya saldırgan bir şekilde; ii) üçüncü taraf Fikri Mülkiyet Haklarını ve/veya gizlilik haklarını ve/veya diğer herhangi bir tür hakları ihlal eder veya kötüye kullanır; iii) \"nefret söylemi\" oluşturur, bu, bireysel veya gruplara yönlendirilen ve bu bireyin veya grubun ırk, cinsiyet, inanç, ulusal köken, dini bağlantı, cinsel yönelim veya diline dayalı olarak olup olmamasına dayanan nefret söylemi anlamına gelir; iv) gerçek dışı, yanıltıcı, aldatıcı; v) Media Şirketi'nin veya markalarının itibarına zarar verir veya Media Şirketi'ni veya iştiraklerinden herhangi birini itibarsız hale getirme olasılığına sahiptir; vi) Media Şirketi ve kullanıcılarının zarar görmesine neden olacak şekilde herhangi bir kötü amaçlı yazılım (bilgisayar virüsleri, solucanlar, Truva atları veya herhangi benzeri veya başka zararlı bileşenler) içerir ve/veya vii) Media Şirketi'nin Bildirim/Kaldırma Politikası'na aykırıdır <a href='https://zitransfer.com/legal/takedown' target='blank'>(https://zitransfer.com/legal/takedown)</a> veya Media Şirketi'nin yaratıcı ve ticari kurallarına aykırıdır.",
+            "point2": "IAB Şartları'nın IX.c maddesine rağmen, Media Şirketi, herhangi bir uygulanabilir yasa veya düzenlemeye aykırı olacak şekilde görüleceği durumlar da dahil olmak üzere, herhangi bir uygunsuz reklamı hemen ve önceden bildirim yapmaksızın reddetme veya kaldırma hakkını saklı tutar, bu da Media Şirketi'nin takdirine bağlıdır: i) herhangi bir uygulanabilir yasa veya düzenlemeye veya ii) herhangi önceki anlaşmalar, politikalar, Davranış Kuralları veya yaratıcı veya ticari kurallar veya bu Anlaşma ile ilgili."
+          }
+        },
+        "valueandtakover": {
+          "valueandtakover_heading": "EK DEĞER VE İSTİLA",
+          "valueandtakover_points": {
+            "point1": "Media Şirketi, Müşteriye ücretsiz ek envanter verme hakkına sahiptir (\"Ek Değer\"). Media Şirketi, Ek Değer'in nerede ve ne zaman teslim edileceğini garanti etmez.",
+            "point2": "Media Şirketi, Müşteriye belirli bir süre için özel yerleşimler sağlama hakkına sahiptir (\"İstila\"). Şüphesiz, İstila Müşteriye sadece süre açısından eksklüzyon sağlar, Teslimatlar açısından değil. Media Şirketi, Teslimatların miktarı hakkında herhangi bir garanti vermez, ancak tahmini Teslimatlarla ilgili herhangi bir sapmayı düzeltme hakkını saklı tutar. Bu aynı şekilde bu madde 5.2'de belirtilen tahmini Teslimatlara aykırı olmamak üzere uygulanır."
+          }
+        },
+        "propertyrights": {
+          "propertyrights_heading": "FİKRİ MÜLKİYET HAKLARI",
+          "propertyrights_points": {
+            "point1": "Reklam Materyallerinin türüne bakılmaksızın Fikri Mülkiyet Hakları Müşteri veya lisans verenlerine aittir ve ait kalmaya devam eder. Müşteri, Media Şirketi'ne (i) Reklamın oluşturulması ve reklamın bir parçası olarak yayınlanması amacıyla Reklam Materyallerini kullanma hakkı verir, IO'ya uygun olarak ve (ii) Reklamı (içerdikleri Reklam Materyalleri dahil) Media Şirketi'nin ve yüklenicilerinin genel iş amaçları için kullanma hakkı verir (pazarlama ve halkla ilişkiler gibi).",
+            "point2": "Reklamın türüne bakılmaksızın Fikri Mülkiyet Hakları Media Şirketi veya lisans verenlerine aittir ve bu Anlaşma'da belirtilenler dışında, Müşteriye hiçbir şekilde kopyalama, kullanma, kaldırma, değiştirme, ayna yapma, dağıtma, dekompilasyon veya tersine mühendislik yapma hakkı verilmez.",
+            "point3": "Bu Anlaşma, herhangi bir Fikri Mülkiyet Hakkının devrini içermez.",
+            "point4": "Bu madde 6, bu Anlaşma'nın sona ermesini sürdürür."
+          }
+        },
+        "sanctions": {
+          "sanctions_heading": "YAPTIRIMLAR",
+          "sanctions_points": {
+            "point1": "Ajans ve Reklamveren, şu anda ABD hükümeti, Avrupa Birliği veya diğer ilgili yaptırım otoriteleri tarafından uygulanan veya yürürlükte olan yaptırımlara tabi olmadıklarını (topluca \"Yaptırımlar\") veya Specially Designated Nationals and Blocked Persons List veya U.S. Hazine Departmanı Dış Varlık Kontrol Ofisi tarafından tutulan yaptırım listelerinde yer alan kişiler tarafından kontrol edilmediklerini veya yüzde 50'den fazlasına sahip olmadıklarını temsil ve temin ederler. veya diğer Avrupa Birliği Finansal Yaptırımlara Tabi Olanlar Listesi gibi herhangi bir Yaptırımlarla ilgili tasarlanmış taraflar ve kişilerin (topluca 'Yaptırımlar Listesi') listesine alınmış kişiler olmadıklarını temsil ve temin ederler.",
+            "point2": "Ajans ve Reklamveren, Yaptırımların hedefi veya konusu olan herhangi bir ülke veya bölgede (örneğin, Küba, İran, Kuzey Kore, Suriye, Rusya ve Kırım da dahil olmak üzere) bulunmadıklarını temsil ve temin ederler (\"Yaptırılmış Ülke\" olarak bilinir).",
+            "point3": "Ajans ve Reklamveren, Anlaşmanın yürütülmesi sırasında, kendilerinin veya iştiraklerinin Yaptırımlara tabi hale geldiklerini veya Yaptırımlar Listesi'nde listelendiklerini fark ettiklerinde, bu durumu hemen Media Şirketi'ne bildirmelidirler.",
+            "point4": "Ajans ve Reklamveren, Media Şirketi'nin Yaptırılmış Ülkelerde Teslimat yapma konusunda kısıtlandığını kabul ederler. Ajans ve Reklamveren, söz konusu IO için geçerli olan Yaptırımlar, Yaptırımlar Listesi ve Yaptırılmış Ülkeler hakkında bilgi sahibi olma sorumluluğuna sahiptirler.",
+            "point5": "Media Şirketi, ABD veya AB yaptırım yasalarına göre Ajans veya Reklamveren ile iş yapmanın sınırlı olduğu açık hale geldiğinde, herhangi bir ceza veya önceden bildirim olmaksızın herhangi bir zamanda Ajans veya Reklamveren ile başka bir sözleşme ilişkisini iptal etme veya sona erdirme hakkına sahiptir."
+          }
+        },
+        "businessresponsibility": "İŞİ DÜRÜST BİR ŞEKİLDE YÜRÜTME",
+        "businessresponsibility_points": {
+          "point1": "Media Şirketi, bir Davranış Kuralları, Hediye ve Rüşvet Karşıtı Politika ve Çevresel Satın Alma Politikası içeren yazılı bir İş Kuralları sürdürür. Media Şirketi, Ajans ve Reklamverenin, ayrı olarak sağlayacaktır. Media Şirketi'ne uygun Advertiser Code of Conduct'u uygulamasını talep eder.",
+          "point2": "Media Şirketi, zararlı davranış politikası, hediye ve rüşvet karşıtı politika ve çevresel satın alma politikası içeren yazılı bir İş Kuralları sürdürür. Media Şirketi ve personeli bu İş Kurallarına uyar ve Ajans ve Reklamverenin ayrı olarak Advertiser Code of Conduct'a uymasını talep eder. Media Şirketi, Advertiser Code of Conduct'un bir kopyasını zamanında sağlayacaktır.",
+          "point3": "Ajans ve Reklamveren, uygulanabilir iş ve istihdam yasalarına uyduklarını ve ürün ve hizmetlerinin üretimi ve teslimatında zorla veya çocuk işçiliği veya diğer çocukların (on altı yaşından küçük bir kişi) sömürülmesi şeklindeki herhangi bir iş istismarını yasakladıklarını temsil ve taahhüt ederler.",
+          "point4": "Ajans ve Reklamveren, sera gazı emisyonlarını azaltma ve karbon nötr çözümler elde etme amacıyla sürdürülebilir uygulamalara uymak için ticari olarak makul çaba sarf edeceklerini kabul ederler.",
+          "point5": "Ajans ve Reklamveren, işyerinde çeşitliliğin önemini tanır ve ticari olarak makul çaba sarf ederek çeşitli bir iş gücünün çıkarlarını yansıtan bir iş ortamı oluşturmaya çalışacaklardır."
+        }
+      }
+    },
+    "sidebarRight": {
+      "CLOSE": "KAPAT",
+      "PORTAL": "PORTAL",
+      "CONTACTS": "İLETİŞİM",
+      "BRANDING": "MARKALAŞTIRMA",
+      "TRANSFERS": "AKTARMALAR",
+      "searchByTitleFilenameOrEmail": "BAŞLIK, DOSYA ADI VEYA E-POSTA İLE ARAMA",
+      "COPIED": "KOPYALANDI",
+      "copyLink": "BAĞLANTILARI KOPYALA",
+      "noMessage": "MESAJ YOK",
+      "noTitle": "BAŞLIK YOK",
+      "shareTransfer": {
+        "download": "İndir",
+        "preview": "Önizleme",
+        "forward": "İlet",
+        "delete": "Sil",
+        "expiresIn": "bitiş tarihi",
+        "password": "Parola",
+        "ASSIGN": "atamak",
+        "PAUSE": "DURAKLAT",
+        "CODE": "KOD",
+        "EMAIL": "E-POSTA",
+        "MESSAGE": "MESAJ",
+        "totalDownloads": "Toplam İndirmeler",
+        "NAME": "Ad",
+        "TYPE": "Tür",
+        "SIZE": "Boyut",
+        "folder": "klasör"
+      },
+      "transfers": {
+        "selections": {
+          "date": "Tarih",
+          "size": "Boyut",
+          "title": "Başlık",
+          "expirationDate": "Son Kullanma Tarihi"
+        },
+        "noDataFound": "Veri bulunamadı.",
+        "SENT": "GÖNDERİLDİ",
+        "RECEIVED": "ALINDI",
+        "sortBy": "SIRALA:",
+        "Downloaded": "İNDİRİLDİ",
+        "notYetDownloaded": "Henüz indirilmedi",
+        "file": "dosya",
+        "files": "dosyalar"
+      }
+    },
+    "sidemenu": {
+      "menu": "MENÜ",
+      "features": "ÖZELLİKLER",
+      "products": "ÜRÜNLER",
+      "howToZtfr": "ZTFR NASIL KULLANILIR",
+      "pricing": "FİYATLANDIRMA",
+      "advertising": "REKLAM",
+      "careersH": "KARİYER",
+      "company": "ŞİRKET",
+      "myAccount": "HESABIM",
+      "newsRoom/Press": "HABER ODASI/BASIN",
+      "terms": "ŞARTLAR",
+      "privacy": "GİZLİLİK",
+      "advertisingSection": {
+        "hero": {
+          "advertiseWithUsAndAttractTheAttentionOf": "BİZİMLE REKLAM VERIN VE DİKKATİNİZİ ÇEKİN",
+          "creativeProfessionalsAcrossTheGlobe": "DÜNYANIN DÖRT BIR YANINDA YARATICI PROFESYONELLER.",
+          "reachOurGlobalProfessionals": "GLOBAL PROFESYONELLERIMIZE ULAŞIN",
+          "getStarted": "BAŞLAYIN"
+        },
+        "watchThis": {
+          "inspireAWorldOfCreativeProfessionals": "YARATICI PROFESYONELLERDEN OLUŞAN BIR DÜNYAYA İLHAM VERİN",
+          "watchThis": "BUNU İZLE"
+        },
+        "videos": {
+          "ourAdvertsAreJustMoreThan": "REKLAMLARIMIZ SADECE 'REKLAMLARDAN' DAHA FAZLASIDIR",
+          "impressionsDontAlwaysInspires": "İZLENİMLER HER ZAMAN İLHAM VERMEZ. BIR KEZ ILHAM VERIN, YAŞAM IÇIN ILHAM VERIN.",
+          "video": "VİDEO"
+        },
+        "images": {
+          "premiumPlatformThatPutsYourBrand": "MARKANIZI ORTAYA KOYAN PREMIUM PLATFORM",
+          "infront": "ÖNDE",
+          "ofTheLocalAndGlobalAudiences": "YEREL VE KÜRESEL İZLEYİCİLER",
+          "image": "GÖRÜNTÜ"
+        },
+        "partners": {
+          "ourGlobalPartners": "GLOBAL ORTAKLARIMIZ"
+        },
+        "form": {
+          "becomeAPartner": "ORTAK OLUN",
+          "company/Organisation": "ŞİRKET/KURULUŞ",
+          "country": "ÜLKE",
+          "phoneNumber": "TELEFON NUMARASI",
+          "customiseEveryAspectOfYourAd": "REKLAMINIZIN HER YÖNÜNÜ ÖZELLEŞTİRİN",
+          "inYourOfficialPartnerPortal": "RESMİ ORTAK PORTALINIZDA",
+          "thankyou": "Ortak olmaya gösterdiğiniz ilgi için TEŞEKKÜR EDERİZ, isteğiniz",
+          "thankyouSubmited": "gönderildi ve en kısa sürede size geri döneceğiz."
+        }
+      },
+      "pricingSection": {
+        "free": "ÜCRETSIZ",
+        "pricingFreeText": "pricing_free_italian"
+      },
+      "careers": {
+        "design": "DÜNYAYI DEĞİŞTİREN SİSTEMLERİ TASARLAYIN VE İNŞA EDİN.",
+        "services": "Yüz yirmi'den fazla ülkede hizmetler.",
+        "discover": "KEŞFET",
+        "world": "YENİ BİR DÜNYA",
+        "together": "Birlikte daha iyi bir dünya oluşturuyoruz.",
+        "global": "KÜRESEL VİZYON",
+        "remote": "Uzaktan çalışma kültürü ile çeşitlilik doğal olarak DNA'mızda bulunuyor.",
+        "globe": "Dünya genelinde 23'ten fazla farklı milleti temsil ediyoruz.",
+        "join": "EKİBİMİZE KATILIN"
+      }
+    },
+    "cookies": {
+      "cookiesWrapper": {
+        "thisWebsite": "BU WEB SİTESİ TEKNİK OLARAK GEREKLİ ÇEREZLERİ KULLANIR.",
+        "withYourConsent": "BU WEB SİTESİ, İZNİNİZ İLE SİTEMİZİN ÇALIŞMASINI SAĞLAMAK, PAZARLAMA AMAÇLI VE ÇEVRİMİÇİ DENEYİMİNİZİ GELİŞTİRMEK İÇİN EK ÇEREZLER (ÜÇÜNCÜ TARAF ÇEREZLERİ DAHİL) VEYA BENZER TEKNOLOJİLER KULLANACAKTIR.",
+        "ourWebsiteUses": "WEB SİTEMİZ PERFORMANSI, HİZMETİ GELİŞTİRMEK VE İHTİYAÇLARINIZI DAHA İYİ ANLAMAK İÇİN ÇEREZLER KULLANIR. ÜÇÜNCÜ TARAF ÇEREZLERİMİZİ KABUL EDEREK, BİZ VE ORTAKLARIMIZ SİZE WEB SİTEMİZİN (SİTEMİZİN) İÇİNDE VE DIŞINDA DAHA ALAKALI REKLAM SUNABİLİRİZ. ) VE UYGULAMALAR.",
+        "youWillHave": " ÖDÜLLÜ REKLAMLARIMIZI VE HİZMETLERİMİZİ (GEÇERLİYSE) DENEYİMLEYEREK OLUMLU BİR ETKİ ELDE EDECEKSİNİZ.",
+        "furtherInformation": "DAHA FAZLA BILGI BİZİM ADRESİMİZDE BULUNABİLİR",
+        "privacyStatement": "GİZLİLİK BİLDİRİMİ",
+        "andInTheCookiesSetting": "VE ÇEREZ AYARLARINDA.",
+        "accept": "KABUL ET",
+        "reject": "REDDET",
+        "manageCookies": "ÇEREZLERİ YÖNET"
+      },
+      "manageCookies": {
+        "ourWebsiteUsesCookies": "WEBSİTEMİZ ÇALIŞMASINA YARDIMCI OLAN ÇEREZLER KULLANIR, İLE NASIL ETKİLEŞİM KURDUĞUNUZU ANALİZ ETMEMİZE VE PERFORMANSI ARTIRMAMIZA YARDIMCI OLUR. ÇEREZLERİMİZİ KABUL EDEREK SİZE KİŞİSELLEŞTİRİLMİŞ REKLAMLAR GÖSTERMEMİZE İZİN VERİRSİNİZ.",
+        "mostZimoGroupWebsites": "ZIMO GRUBU WEB SİTELERİNİN ÇOĞU ÇEREZLER KULLANIR. ÇEREZLER, WEB SUNUCULARININ DAHA SONRA KULLANABİLMESİ İÇİN VERİLERİ DEPOLAMAK İÇİN CİHAZINIZA YERLEŞTİRİLEN KÜÇÜK METİN DOSYALARIDIR. ZIMO GRUBU VE ÜÇÜNCÜ TARAF ORTAKLARIMIZ, TERCİHLERİNİZİ VE AYARLARINIZI HATIRLAMAK İÇİN ÇEREZLERİ KULLANIR, YARDIMCI OLUN GİRİŞ YAPAR, SİZE KİŞİSELLEŞTİRİLMİŞ REKLAMLAR GÖSTERİR VE WEB SİTELERİMİZİN NE KADAR İYİ ÇALIŞTIĞINI ANALİZ EDERSİNİZ. DAHA FAZLA BİLGİ İÇİN ÇEREZLER VE BENZER TEKNOLOJİLER BÖLÜMÜNE BAKIN",
+        "required": "GEREKLİ",
+        "weUseRequiredCookies": " GEREKLİ WEB SİTESİ İŞLEVLERİNİ GERÇEKLEŞTİRMEK İÇİN GEREKLİ ÇEREZLERİ KULLANIYORUZ. ÖRNEĞİN, ONLAR OTURUM AÇMANIZDA, DİL TERCİHLERİNİZİ KAYDETMEDE, ALIŞVERİŞ SEPETİ DENEYİMİ SAĞLAMADA (GEÇERLİYSE), PERFORMANSI ARTIRMADA, YÖNLENDİRMEDE KULLANILIR. WEB SUNUCULARI ARASINDAKİ TRAFİĞİ, EKRANINIZIN BOYUTUNU TESPİT EDİN, SAYFA YÜKLEME SÜRELERİNİ BELİRLEYİN, KULLANICI DENEYİMİNİ İYİLEŞTİRİN VE KİTLE ÖLÇÜMÜ İÇİN. BU ÇEREZLER WEB SİTELERİMİZİN ÇALIŞMASI İÇİN GEREKLİDİR.",
+        "analytics": "ANALİTİK",
+        "weAllowThirdParties": "ÜÇÜNCÜ ŞAHISLARIN WEB SİTELERİMİZİ NASIL KULLANDIĞINIZI ANLAMAK İÇİN ANALİZ ÇEREZLERİ KULLANMALARINA İZİN VERİYORUZ, BÖYLECE ONLARI DAHA İYİ HALE GETİREBİLİRİZ VE ÜÇÜNCÜ ŞAHISLAR KENDİLERİNİN SAHİP OLMADIĞI VEYA İŞLETMEDİĞİ WEB SİTELERİNDE KULLANABİLECEK ÜRÜNLERİNİ GELİŞTİREBİLİR VE İYİLEŞTİREBİLİRLER ZIMO GRUBU. ÖRNEĞİN, ONLAR ZİYARET ETTİĞİNİZ SAYFALAR VE BİR GÖREVİ GERÇEKLEŞTİRMEK İÇİN KAÇ TIKLAMAYA İHTİYACINIZ Olduğu HAKKINDA BİLGİ TOPLAMAK İÇİN KULLANILIR. REKLAM İÇİN BAZI ANALİZ ÇEREZLERİ KULLANIYORUZ.",
+        "socialMedia": "SOSYAL MEDYA",
+        "weAndThirdPartiesUseSocialMediaCookies": "BİZ VE ÜÇÜNCÜ ŞAHISLAR, SOSYAL MEDYA PROFİLLERİNİZE VE WEB SİTELERİMİZDEKİ AKTİVİTELERİNİZE GÖRE REKLAM VE İÇERİK GÖSTERMEK İÇİN SOSYAL MEDYA ÇEREZLERİ KULLANIYORUZ. ONLAR WEB SİTELERİMİZDEKİ ETKİNLİKLERİNİZİ SOSYAL MEDYALARINIZA BAĞLAMAK İÇİN KULLANILIR. PROFİLLER BÖYLECE WEB SİTELERİMİZDE VE SOSYAL MEDYADA GÖRDÜĞÜNÜZ REKLAMLAR VE İÇERİKLER İLGİ ALANLARINIZI DAHA İYİ YANSITACAKTIR.",
+        "advertising": "REKLAM",
+        "weAndThirdPartiesUse Advertisecookies": "BİZ VE ÜÇÜNCÜ ŞAHISLAR, DAHA ÖNCE GÖRDÜĞÜNÜZ REKLAMLARI KAYDEDEREK SİZE YENİ REKLAMLAR GÖSTERMEK İÇİN REKLAM ÇEREZLERİ KULLANIYORUZ. ONLAR AYRICA HANGİ REKLAMLARI TIKLADIĞINIZI VEYA SATIN ALDIĞINIZI TAKİP ETMEK İÇİN KULLANILIR BİR REKLAM TIKLANDIKTAN SONRA ÖDEME AMAÇLI VE SİZE DAHA İLGİLİ REKLAMLARI GÖSTERMEK İÇİN YAPILIR. ÖRNEĞİN, ONLAR BİR REKLAM'A TIKLADIĞINIZI ALGILAMAK VE SOSYAL MEDYALARINIZA GÖRE SİZE REKLAM GÖSTERMEK İÇİN KULLANILIR. İLGİ ALANLARI VE WEB SİTESİNDE GÖZATMA GEÇMİŞİ.",
+        "resetAll": "TÜMÜNÜ SIFIRLA",
+        "saveChanges": "DEĞİŞİKLİKLERİ KAYDET"
+      }
+    },
+    "user": {
+      "sentMail": {
+        "checkYourEmail": "EMAILİNİZİ KONTROL EDİN",
+        "youShouldNowRecieve": "ARTIK YENİ BİR ŞİFRE OLUŞTURMAK İÇİN BAĞLANTIYI İÇEREN BİR E-POSTA ALMANIZ GEREKİR.",
+        "ifYouNotRecieved": "BİR E-POSTA ALMADIYSANIZ LÜTFEN KONTROL EDİN",
+        "wasTheEmail": "kullanıcı kimliğinizi oluşturmak için kullandığınız e-posta adresiydi"
+      }
+    },
+    "download": {
+      "downloadPassword": {
+        "incorrectPassword": "YANLIŞ ŞİFRE"
+      },
+      "downloadPasswordAssign": {
+        "checking": "kontrol ediliyor..."
+      }
+    },
+    "ztfrX": {
+      "contentCreator": "İÇERİK YARATICI.",
+      "music": "MÜZİK",
+      "getPaidForYourContent": "İÇERİĞİNİZ İÇİN ÖDEME ALIN",
+      "getPaidForYourTransfers": "TRANSFERLERİNİZ İÇİN ÖDEME ALIN",
+      "sellWhatYouCreate": "YARATTIĞINIZI SATIN",
+      "ztfrXIsAnEasyAndSecureWay": "IŞINIZ IÇIN ÖDEME ALMANIN KOLAY VE GÜVENLI BIR YOLUDUR. YARATICILIĞINIZDAN PARA KAZANMAYA BUGÜN BAŞLAYIN.",
+      "exploreAWorldOfOpportunities": "FIRSATLAR DÜNYASINI KEŞFET",
+      "gettingPaid": "ÖDEME ALINIYOR",
+      "getPaidDirectly": "ÖDEMENİZİ DİREKT OLARAK ALIN",
+      "withdrawFunds": "HESAPTAN 7/24 PARA ÇEKİN.",
+      "payments": "ÖDEMELER",
+      "explore": "Keşfet",
+      "paidCard": {
+        "paid": "Ücretli",
+        "paidTxtSize": "paid_card_turkish"
+      },
+      "musicCard": {
+        "relax": "Rahatla"
+      },
+      "constants": {
+        "animation": "Animasyon",
+        "applications": "Uygulamalar",
+        "architecture": "Mimarlık",
+        "art": "Sanat",
+        "collaboration": "İşbirliği",
+        "collage": "Kolaj",
+        "comics": "Çizgi Romanlar",
+        "commissions": "Komisyonlar",
+        "community": "Topluluk",
+        "creativeAdvice": "Yaratıcı Tavsiye",
+        "design": "Tasarım",
+        "education": "Eğitim",
+        "fashion": "Moda",
+        "fiction": "Kurgu",
+        "film": "Film",
+        "gaming": "Oyun",
+        "graphicDesign": "Grafik Tasarım",
+        "graphicNovels": "Grafik Romanlar",
+        "illustration": "İllüstrasyon",
+        "installations": "Yüklemeler",
+        "music": "Müzik",
+        "nft": "NFT",
+        "opinion": "Görüş",
+        "painting": "Resim",
+        "partnerships": "Ortaklıklar",
+        "performance": "Performans",
+        "photography": "Fotografi",
+        "podcasts": "Podcast'ler",
+        "print": "Baskı",
+        "sculpture": "Heykel",
+        "software": "YAZILIM",
+        "textile": "Tekstil",
+        "video": "VİDEO",
+        "writing": "Yazı",
+        "other": "DİĞER"
+      },
+      "howZtfrXWorks": {
+        "how": "NASIL",
+        "works": "İŞLER"
+      },
+      "sellDigitalContent": {
+        "sellDigitalContent": "DİJİTAL İÇERİK (ÜRÜNLER) SATIN",
+        "turningYourDigitalContent": "DİJİTAL İÇERİĞİNİZİ KAZANCA ÇEVİRMEK",
+        "allowsYouTo": "DİJİTAL İÇERİĞİNİZİ (ÜRÜNLERİNİZİ) DAĞITMANIZA, REKLAMINI YAPMANIZA VE ÖDEME ALMANIZA OLANAK TANIR"
+      },
+      "recieveQuickPayments": {
+        "recieveQuickPayments": "MÜŞTERİLERİNİZDEN HIZLI ÖDEME ALIN",
+        "revolutionise": "İŞİNİZDE DEVRİM YAPIN. KÜRESEL ÖLÇEKTE MÜŞTERILER TARAFINDAN ÖDEME ALMAK IÇIN GÜVENLI ÇÖZÜMLER",
+        "usesAdvanced": "GELİŞMİŞ ŞİFRELEME STANDARDI (AES) 256 BIT KORUMA KULLANIR",
+        "whatContent": "HANGİ İÇERİK (ÜRÜN) SATILACAK?",
+        "weHaveIdeas": "YENİ GELİR KAYNAKLARI İLE YENİ OLASILIKLARI KEŞFETMENİZE YARDIMCI OLACAK FİKİRLERİMİZ VAR"
+      },
+      "buyNow": "ŞİMDİ SATIN ALIN",
+      "buyText": "buy_text_turkish",
+      "getPaidFor": {
+        "getPaidFor": "fotoğrafçılık, müzik, dijital sanat eserleri, moda çekimleri, kişiselleştirilmiş kurslarınız ve çok daha fazlası için ödeme alın...",
+        "itsSimple": "BASİT. HAYRANLARINIZIN/MÜŞTERİLERİNİZİN NE İSTEDİĞİNİ BİLİYORSUNUZ, SON ÇALIŞMALARINIZI PAKETLEYİN (FOTOĞRAF ÇEKİMLERİ, YAZI TASARIMLARI, MÜZİK, VİDEO, DİJİTAL SANAT, KISA HİKAYELER, ROMANLAR, ÖNCEDEN AYARLANMIŞ PAKETLER, AFİŞ TASARIMLARI VE 1.000'LER) DAHA FAZLA...)",
+        "activateYour": "KENDİNİZİ ETKİNLEŞTİRİN",
+        "andStartToUpload": "VE KULLANARAK YÜKLEMEYE BAŞLAYIN",
+        "decideOnAPrice": "Bir fiyata karar verin ve BAĞLANTINIZI (url), QR KODUNUZU VEYA ÖNE ÇIKAN ORTAKLARIMIZI KULLANARAK PAYLAŞIN"
+      },
+      "sellYourEducational": {
+        "sellYourEducational": "EĞİTİM İÇERİĞİNİZİ, DİJİTAL PROGRAMLARINIZI, DİJİTAL KİTAPLARINIZI, EĞİTİMLERINIZI, ÇALIŞMA KILAVUZLARINIZI VE ÇOK DAHA FAZLASINI SATIN...",
+        "startGenerating": "SİZİN GİBİ DİĞER YARATICILARLA BİRLİKTE GELİR ELDE ETMEYE BAŞLAYIN. UZMANLIĞINIZI VE YETENEĞINIZI KÜRESEL BIR KITLEYLE PAYLAŞIN. EK GELIR ELDE ETMEK IÇIN BLOG MAKALELERINIZI VEYA INSTAGRAM AKIŞINIZI BIR E-KITABA VEYA PDF'YE DÖNÜŞTÜRÜN.  "
+      },
+      "sendFinalAssets": {
+        "sendFinalAssets": "MÜŞTERİLERİNİZE NİHAİ VARLIKLARI GÖNDERİN VE ÖDEME ALIN",
+        "itsThatEasy": "BU KADAR KOLAY. EN SON FOTOĞRAF ÇEKİMİ, DANIŞMANLIK İŞİ VEYA ÖNERİLEN İÇERİKLERDEN HERHANGİ BİRİ İÇİN HIZLI BİR ŞEKİLDE ÖDEME ALIN. SADECE SON DOSYALARINIZI YÜKLEYİN, DUVAR KAĞIDINIZIN HER YÖNÜNÜ ÖZELLEŞTİRİN, İSTEDİĞİNİZ FİYATI EKLEYİN VE GÖNDERİN.",
+        "yourClientsCan": "MÜŞTERİLERİNİZ ÖZEL BAĞLANTINIZA ERİŞEBİLİR VE DOSYALARINI İNDİRMEK İÇİN ÖDEME YAPABİLİR.",
+        "howToGetStarted": "NASIL BAŞLAMALI"
+      },
+      "Xlogo": {
+        "tryNow": "ŞİMDİ DENEYİN"
+      },
+      "ztfrGetPaid": {
+        "getPaid": "ÜCRET ALIN",
+        "effortless": "Yaratıcı varlıkların, büyük dosyaların, tam klasörlerin ve tüm projelerin sadece basit bir tıklamayla kolayca transferi.",
+        "learnMore": "Daha Fazla Bilgi Alın"
+      },
+      "ztfrSecurity": {
+        "security": "GÜVENLİK",
+        "withPassword": "Şifre koruması ve 256 bit (aes) dosya şifreleme ile, içeriğinizi/çalışmanızı korumak için temel güvenlik işlevselliği eklenmiştir."
+      },
+      "ztfrShowcase": {
+        "showcase": "VİTRİN",
+        "create": "Landing sayfanızdan e-postalarınıza kadar her yönü kişiselleştirerek unutulmaz bir etki yaratın.",
+        "unleash": "Sınırlar olmadan hayal gücünüzü serbest bırakın.",
+        "transferring": "aktarılıyor..."
+      },
+      "getStartedVideos": {
+        "stepOne": "ADIM BİR",
+        "stepTwo": "ADIM İKİ",
+        "stepThree": "ADIM ÜÇ"
+      }
+    },
+    "createNewPassword": {
+      "confirmPass": "YENİ ŞİFRENİZİ ONAYLAYIN",
+      "instructions": "Size şifrenizi sıfırlamak ve tekrar GİRİŞ YAPMANIZ için talimatlar göndereceğiz.",
+      "newPass": "YENİ ŞİFRE",
+      "confirmNewPass": "YENİ ŞİFREYİ ONAYLAYIN",
+      "reset": "ŞİFRE SIFIRLAMA/GİRİŞ ONAYI"
+    },
+    "transferExpired": {
+      "transferExpired": "AKTARIM SÜRESİ DOLDU",
+      "jumperMobPosition": "jumper_mob_position",
+      "regretMessageGap": "regret_message_gap_none",
+      "weRegret": "BU AKTARIMIN SÜRESİNİN",
+      "youThatThis": "DOLDUĞUNU",
+      "REACHED": "VE ARTIK ERİŞİLEBİLİR OLMADIĞINI",
+      "notAccessible": "ÜZÜLEREK BİLDİRİYORUZ",
+      "sendFiles": "DOSYALARI GÖNDER"
+    },
+    "scheduleDone": {
+      "time": "zaman",
+      "emailFrom": "KİMDEN GELEN E-POSTA",
+      "yourSchedule": "PLANLANMIŞ ZTFR YÜKÜNÜZ",
+      "initiate": "5 SANIYE IÇINDE BAŞLAT.",
+      "dontClose": "TARAYICINIZI KAPATMAYIN",
+      "during": "BU İŞLEM SIRASINDA"
+    },
+    "noInternet": {
+      "notConnected": "İnternete bağlı görünmüyorsunuz",
+      "noConnection": "İnternet bağlantısı yok",
+      "checkConnection": "Bağlantınızı kontrol edin veya tekrar deneyin",
+      "internetSettings": "İnternet Ayarları"
+    }
+  }
+}

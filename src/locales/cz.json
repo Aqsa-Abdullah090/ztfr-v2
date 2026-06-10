@@ -1,0 +1,1322 @@
+{
+  "hero": {
+    "letsDo": "UDĚLEJME",
+    "letsDoSize": "this_size_cezch",
+    "this": "TOHLE",
+    "upload": "Nahrávejte soubory nebo složky přetažením kamkoli do tohoto okna",
+    "welcomeText": "VÍTEJTE"
+  },
+  "sidebar": {
+    "uploadText": "upload__text__czech",
+    "advanceTextTop": "advance_text_top_czech_new",
+    "upload": "NAHRÁVEJTE SOUBORY NEBO SLOŽKY PŘETAŽENÍM",
+    "them": "KAMKOLI DO TOHOTO OKNA",
+    "advance": "POKROČILÝ ŠIFROVACÍ STANDARD (AES) 256-BIT"
+  },
+  "getlink": {
+    "sendEmail": "ODESLAT E-MAIL",
+    "unlimitedTransfers": "NEOMEZENÉ PŘEVODY",
+    "getALinkText": "get_a_link_text_czech",
+    "geta": "získat odkaz",
+    "uploadFileText": "upload_file_text_german",
+    "lgText": "lg:text-[14px]",
+    "text": "text-[10px]",
+    "selectFolderRightAlign": "select_folder_align_right_czech",
+    "UptoTextRightAlign": "Upto_text_size_align_right_czech",
+    "lgUptoSize": "lg:text-[40px]",
+    "UptoSize": "text-[20px]",
+    "uploadFiles": "NAHRÁVEJTE SOUBORY",
+    "or": "NEBO",
+    "select": "VYBERTE SLOŽKU",
+    "upto": "AŽ",
+    "free": "ZDARMA",
+    "styles": {
+      "freeTextLg": "text-[20px]",
+      "freeTextMd": "text-[16px]"
+    }
+  },
+  "uploading": {
+    "uploadingFiles": "Nahrávání souborů",
+    "uploaded": "nahráno",
+    "uploading": "Nahrávání",
+    "pending": "Nevyřízené",
+    "of_text": "z",
+    "about_text": "o",
+    "remaining_text": "zbývající",
+    "title_text": "titul",
+    "note_text": "Poznámka",
+    "cancel_text": "zrušení",
+    "almostDone": "téměř hotovo",
+    "styles": {
+      "uploadingFiles_text_lg": "text-[12px]",
+      "uploadingFiles_text_md": "text-[10px]"
+    }
+  },
+  "uploaded": {
+    "filesUploaded": "Soubory nahrány",
+    "completed": "dokončeno",
+    "youDidIt": "Udělal jsi to!",
+    "copyDownloadLink": "Zkopírujte svůj stažený odkaz",
+    "seeWhatsInside": "Podívejte se, co je uvnitř",
+    "code": "kód",
+    "styles": {
+      "filesUploaded_text_lg": "text-[13px]",
+      "filesUploaded_text_md": "text-[11px]",
+      "youDidIt_text_lg": "text-[30px]",
+      "youDidIt_text_md": "text-[20px]"
+    }
+  },
+  "assignContent": {
+    "assignHeading": "PŘIŘADIT",
+    "assign": "přiřadit JE EXKLUZIVNÍ FUNKCE, KTERÁ UMÍSTŇOVATELI UMÍSTĚNÍ SOUBORŮ/ADRESÁŘŮ A UMÍSTĚNÍ OVLÁDAT SPECIFIKACI A KONTROLOVAT, KTERÉ SOUBORY/ADRESÁŘE CHCE, ABY MĚL PŘÍJEMCE PŘÍSTUP. PŘÍJEMCI JE POSKYTNUT JEDINEČNÝ 4MÍSTNÝ KÓD PIN PRO PŘÍSTUP KE SLOŽKÁM/SOUBORŮM.",
+    "one": "JEDNO NAHRÁNÍ.",
+    "magnitude": "ROZSAH MOZŽNOSTÍ.",
+    "title": "TITUL",
+    "note": "POZNÁMKA",
+    "Hi": "Ahoj, myslel jsem si, že byste je možná mohli mít po ruce. Hodně štěstí. Uvidíme se brzy. Jessica x",
+    "Revsion": "Revizní soubor",
+    "lets_get": "Pojďme",
+    "started": "Zahájeno",
+    "uploaded_Files": "Nahrané soubory",
+    "or": "NEBO",
+    "folders": "Složky",
+    "clear": "Průhledná",
+    "assignee": "PŘIDĚLENÝ"
+  },
+  "assign_SubContent": {
+    "assign_heading": "přiřadit",
+    "assign_files": "přiřadit soubory",
+    "assignee_name": "jméno příjemce",
+    "assign_pinCode": "přiřadit PIN kód",
+    "generate_pinCode": "generovat pin",
+    "custom_pinCode": "vlastní pin",
+    "Additional_Note": "doplňující poznámka",
+    "clear_text": "Průhledná"
+  },
+  "fileDownloadedModal": {
+    "close": "zavřít",
+    "youDidIt": "Udělal jsi to!",
+    "items_text": "Položky v tomto",
+    "files": "soubory",
+    "folder": "složku",
+    "expiresIn": "Vyprší v",
+    "days": "dní",
+    "downloadOrShare": "stáhnout nebo sdílet",
+    "copied": "zkopírován",
+    "copyLink": "kopírovat odkaz",
+    "qrCode": "QR kód",
+    "email": "e-mailem",
+    "whatsapp": "whatsapp",
+    "message": "zpráva",
+    "facebook": "facebook",
+    "x": "x",
+    "hours": "HODINY",
+    "textsizes": {
+      "textsize1": "text__20__12",
+      "textsize2": "text__12__10__8",
+      "textsize4": "text__6__8"
+    }
+  },
+  "FileDropZone": {
+    "drop": "Přetáhněte soubory sem"
+  },
+  "footer": {
+    "zitransfer": "© ZITRANSFER 2023",
+    "rights": "VŠECHNA PRÁVA VYHRAZENA",
+    "partof": "ZITRANSFER JE ČÁSTÍ SKUPINY ZIMO",
+    "zitransferUses": "ZITRANSFER POUŽÍVÁ POKROČILÝ ŠIFROVACÍ STANDARD (AES) 256-BIT PRO OCHRANU DŮVĚRNOSTI VAŠICH NAHRANÝCH DAT."
+  },
+  "countries": {
+    "choose": "Vyberte svou zemi nebo region",
+    "language": "JAZYK"
+  },
+  "MainShare": {
+    "email": "EMAIL",
+    "emailTo": "POSLAT E-MAIL KOMU",
+    "yourEmail": "VÁŠ E-MAIL",
+    "ENTERZVC": "ZADEJTE ZVC KÓD",
+    "messages": "ZPRÁVY",
+    "typeYourCustomisedLink": "ZADEJTE SVŮJ PŘIZPŮSOBENÝ ODKAZ",
+    "linkCopied": "Odkaz zkopírován",
+    "logout": "ODHLÁŠENÍ",
+    "login": "PŘIHLÁSIT",
+    "createUserId": "VYTVOŘIT ID UŽIVATELE",
+    "getLink": "ZÍSKEJTE ODKAZ",
+    "gitQRCode": "ZÍSKEJTE QR KÓD",
+    "uploadFileText": "upload_file_text_german_mainShare",
+    "title": "TITUL",
+    "Revsion": "Revizní soubor",
+    "note": "POZNÁMKA",
+    "assignHeading": "PŘIŘADIT",
+    "Hi": "Ahoj, myslel jsem si, že byste je možná mohli mít po ruce. Hodně štěstí. Uvidíme se brzy. Jessica x",
+    "Expires": "Platnost do",
+    "days": "AŽ 365 DNÍ",
+    "schedule": "PLÁNOVAT PŘENOS",
+    "advance": "Pokročilý šifrovací standard AES 256 bitů",
+    "assign": "přiřadit JE EXKLUZIVNÍ FUNKCE, KTERÁ UMÍSTŇOVATELI UMÍSTĚNÍ SOUBORŮ/ADRESÁŘŮ A UMÍSTĚNÍ OVLÁDAT SPECIFIKACI A KONTROLOVAT, KTERÉ SOUBORY/ADRESÁŘE CHCE, ABY MĚL PŘÍJEMCE PŘÍSTUP. PŘÍJEMCI JE POSKYTNUT JEDINEČNÝ 4MÍSTNÝ KÓD PIN PRO PŘÍSTUP KE SLOŽKÁM/SOUBORŮM.",
+    "one": "JEDNO NAHRÁNÍ.",
+    "magnitude": "ROZSAH MOZŽNOSTÍ.",
+    "styles": {
+      "setPassword_text_lg": "text-[9px]",
+      "setPassword_text_md": "text-[9px]",
+      "setPasswordAfterShare_text_lg": "text-[9px]",
+      "setPasswordAfterShare_text_md": "text-[8px]"
+    },
+    "assignButton": {
+      "files": {
+        "text": "přiřadit soubory",
+        "css": "text__v1"
+      },
+      "folders": {
+        "text": "přiřadit složky",
+        "css": "text__v1"
+      },
+      "filesFolder": {
+        "text": "přiřadit soubory/složky",
+        "css": "text__v21"
+      }
+    }
+  },
+  "Expires": {
+    "setPasswordTextSize": "set_password_size_expires_bulgarian",
+    "minute": "minuta",
+    "hour": "hodina",
+    "day": "den",
+    "week": "týden",
+    "months": "měsíce",
+    "year": "rok",
+    "optional": "volitelné",
+    "pick": "vybrat z kalendáře",
+    "password": "nastavit heslo",
+    "invalidDate": "neplatné datum"
+  },
+  "Verit": {
+    "verify": "ověřte svůj e-mail",
+    "confirm": "POTVRĎTE SVŮJ E-MAIL",
+    "receive": "NEOBDRŽELI JSTE E-MAIL?",
+    "we": "ODESLALI JSME VÁM VERIFIKAČNÍ KÓD (ZVC)",
+    "to": "NA",
+    "sure": "ABYCHOM SE UJISTILI, ŽE JSTE SKUTEČNĚ VY",
+    "remember": "PAMATUJTE SI ZKONTROLOVAT SVŮJ SPAM SOUBOR",
+    "recieveTextsize": "didnot_recieve_italian_textsize"
+  },
+  "Copy": {
+    "Revision": "Revizní soubory",
+    "download": "KOPIROVAT VÁŠ STAHOVACÍ ODKAZ",
+    "link": "KOPIROVAT odkaz",
+    "another": "ODESLAT DALŠÍ?"
+  },
+  "GetAQRCode": {
+    "linkCopied": "Odkaz zkopírován",
+    "lgpassword": "text-[14px]",
+    "download": "STÁHNOUT"
+  },
+  "DateTimePicker": {
+    "meeting": "PLÁNOVAT SCHŮZKU",
+    "pick": "VYBRAT Z KALENDÁŘE"
+  },
+  "RenameFile": {
+    "rename": "PŘEJMENOVAT SOUBOR/ADRESÁŘ"
+  },
+  "RenameTitle": {
+    "rename": "PŘEJMENOVAT NÁZEV"
+  },
+  "FirstPage": {
+    "drop": "Přetáhněte soubory sem..."
+  },
+  "GetALink": {
+    "filename": "název souboru"
+  },
+  "Download4": {
+    "revision": "revize",
+    "files": "soubory"
+  },
+  "Download9": {
+    "complete": "hotovo"
+  },
+  "CustomiseALink": {
+    "password": "nastavit heslo",
+    "type": "Zadejte vlastní odkaz",
+    "Customise": "Přizpůsobit odkaz",
+    "your": "KOPIROVAT VÁŠ STAHOVACÍ ODKAZ",
+    "copyCustomised": "Kopírovat přizpůsobený odkaz"
+  },
+  "SetPassword": {
+    "protected": "chráněno heslem",
+    "notmatch": "Hesla se neshodují.",
+    "Removepassword": "Odstranit heslo",
+    "enterPassword": "Prosím, zadejte heslo",
+    "Invalid": "Neplatné"
+  },
+  "Assign": {
+    "PIN": "nastavit kód PIN",
+    "generate": "VYTVOŘIT PIN",
+    "customPin": "Vlastní PIN",
+    "clear": "VYČISTIT"
+  },
+  "Preview": {
+    "prev": "NÁHLED",
+    "notSupported": "NÁHLED NENÍ PODPOROVÁN",
+    "limitExceeded": "PŘEKROČEN LIMIT NÁHLEDŮ",
+    "fileLimit": "Soubor překračuje limit náhledu",
+    "previewError": "CHYBA PŘI NÁHLEDU"
+  },
+  "Remove": {
+    "rev": "ODSTRANIT",
+    "fileName": "Název souboru"
+  },
+  "ViewDetails": {
+    "viewD": "ZOBRAZIT PODROBNOSTI",
+    "fileD": "PODROBNOSTI SOUBORU",
+    "type": "TYP",
+    "size": "VELIKOST",
+    "created": "vytvořen",
+    "description": "POPIS",
+    "max": "MAX",
+    "addDescription": "Přidat popis"
+  },
+  "Hero2": {
+    "Close": "Zavřít",
+    "oxford": "UNIVERZITA OXFORD",
+    "transfers": "PŘENOSY",
+    "send": "ODESLAT",
+    "recevice": "PŘIJMOUT",
+    "byDate": "ŘADIT PODLE DATUMU",
+    "july2023": "červenec 2023",
+    "urgent": "úkol 768 - naléhavý",
+    "NoYet": "dosud nebylo staženo",
+    "file": "soubor",
+    "minuteAgo": "ODESLÁNO PŘED 52 MINUTAMI",
+    "18july": "18. ČERVENCE 2023",
+    "london": "Londýnský institut",
+    "Downloaded": "Staženo"
+  },
+  "CMail": {
+    "confirmEmail": "POTVRĎTE SVŮJ EMAIL",
+    "quickCheck": "Jen rychlá kontrola, abychom si byli jisti, že jste to opravdu vy.",
+    "verificationLink": " Na následující adresu jsme vám poslali ověřovací odkaz",
+    "checkSpam": "(pokud ho nenajdete, zkontrolujte složku spamu).",
+    "didn'tReceive": "Nepřišel vám email?"
+  },
+  "ForgetPassword": {
+    "reset": "RESETUJTE SVÉ HESLO",
+    "sendInstructions": "Pošleme vám pokyny, jak obnovit vaše heslo a znovu se přihlásit."
+  },
+  "LoginUser": {
+    "logInTextSize": "login_text_size_german",
+    "CreateUserTextSize": "create_user_text_size_bulgarian",
+    "Login": "PŘIHLÁSIT SE",
+    "CreateUser": "VYTVOŘIT UŽIVATELE",
+    "withGoogle": "POKRAČOVAT S GOOGLE",
+    "or": "NEBO",
+    "Forgotten": "Zapomněli jste heslo?"
+  },
+  "SignupUser": {
+    "creatingUserID": "VYTVOŘENÍM UŽIVATELSKÉHO JMÉNA SOUHLASÍTE S NAŠIMI ",
+    "Terms": "PODMÍNKAMI SLUŽBY A PROHLÁŠENÍM O OCHRANĚ OSOBNÍCH ÚDAJŮ A SPOLEČNOSTI S OGRANIČENOU ODPOVĚDNOSTÍ",
+    "firstName": "KŘESTNÍ JMÉNO",
+    "lastName": "PŘÍJMENÍ",
+    "organisationOptional": "ORGANIZACE (VOLITELNÉ)",
+    "additionalNote": "DODATEČNÁ POZNÁMKA"
+  },
+  "UserHeader": {
+    "sendFiles": "ODESLAT SOUBORY",
+    "sendFolders": "ODESLAT SLOŽKY",
+    "shareIdeas": "SDÍLET NÁPADY",
+    "MultipleFormats": "SDÍLEJTE PŘENOSY V RŮZNÝCH FORMÁTECH",
+    "unlimitedStorage": "NEOMEZENÉ ÚLOŽIŠTĚ",
+    "sendUnlimited": "ODESÍLEJTE NEOMEZENĚ PŘENOSY",
+    "ReceiveUnlimited": "PŘIJÍMEJTE NEOMEZENĚ PŘENOSY",
+    "StorageUpTo": "ÚLOŽIŠTĚ AŽ NA 10 ROKY",
+    "portal": "PORTÁL",
+    "customExpiration": "VLASTNÍ ZRUŠENÍ PLATNOSTI",
+    "AssignPIN": "PŘIŘADIT PIN",
+    "PublicSharing": "VEŘEJNÉ SDÍLENÍ",
+    "DynamicLinks": "DYNAMICKÉ ODKAZY",
+    "PasswordsProtect": "CHRÁNĚNÉ HESLEM",
+    "TrackDownloads": "SLEDOVAT STAHOVÁNÍ",
+    "advance": "POKROČILÁ ŠIFROVÁNÍ AES 254 BITŮ",
+    "creator": "TVŮRCE OBSAHU",
+    "userPortal": "PORTÁL UŽIVATELE",
+    "themes": "PERSONALIZOVANÉ MOTIVY",
+    "customisedProfiles": "PROFILY NA MÍRU",
+    "militaryGrade": "ŠIFROVÁNÍ NA VOJENSKÉ ÚROVNI"
+  },
+  "Download": {
+    "ready": "PŘIPRAVENO.",
+    "setTextSize": "set_text_size_german",
+    "set": "NASTAVENO.",
+    "download": "STÁHNOUT.",
+    "ZTFRExpires": "ZTFR VYPRŠELO ZA 7 DNÍ",
+    "revision": "REVIZE",
+    "files": "SOUBORY",
+    "seeYou": "Ahoj, jen jsem si myslel, že bys mohl mít tyto rychle po ruce. Hodně štěstí. Uvidíme se brzy. Jessica x",
+    "preview": "NÁHLED",
+    "unlocked": "ODEMKNUTO",
+    "advanceTxt": "download_advance_txt_czech_new",
+    "advanceAssignTxt": "download_advance_txt_czech_new",
+    "letsDoLeft": "lets_do_left_czech",
+    "ztfrExpiresIn": "ZTFR PLATÍ ZA",
+    "days": "DNY",
+    "ztfrExpired": "ZTFR EXPIROVÁNO"
+  },
+  "DownloadAssign": {
+    "ready": "PŘIPRAVENO.",
+    "set": "NASTAVENO.",
+    "download": "STÁHNOUT.",
+    "ZTFRExpires": "ZTFR VYPRŠELO ZA 30 DNÍ",
+    "university": "UNIVERZITA",
+    "assignAdvanceTop": "assign_advance_txt_nowergian",
+    "hiAll": "Ahoj všichni.",
+    "workAccess": "Použijte svůj přidělený ZTFR PIN pro získání přístupu k vaší práci.",
+    "assign": "PŘIŘADIT"
+  },
+  "DownloadPassword": {
+    "enterPassword": "ZADEJTE HESLO",
+    "pinCode": "PIN KÓD"
+  },
+  "DownloadPasswordC": {
+    "revision": "REVIZNÍ SOUBORY"
+  },
+  "DownloadPreview": {
+    "close": "ZAVŘÍT",
+    "items": "POLOŽKY V TOMTO ZTFR",
+    "ZTFRExpires": "ZTFR VYPRŠELO ZA 7 DNÍ",
+    "downloadAll": "STÁHNOUT VŠE",
+    "lookingInside": "Hledání uvnitř složky.",
+    "WhatInside": "Co je uvnitř složky? Podívejme se.",
+    "preview": "NÁHLED",
+    "name": "NÁZEV",
+    "type": "TYP",
+    "size": "VELIKOST",
+    "hide": "skrýt"
+  },
+  "EnterPinCode": {
+    "pinCode": "PIN KÓD",
+    "hello": "Ahoj",
+    "youNote": "Máte poznámku:",
+    "DueDate": "Termín je do 19. července - 09:00.",
+    "items": "POLOŽKY V TOMTO ZTFR",
+    "enterPin": "ZADEJTE VÁŠ PŘIDĚLENÝ PIN KÓD",
+    "incorrectPin": "NESPRÁVNÝ PIN KÓD",
+    "clear": "VYMAZAT"
+  },
+  "ResendMail": {
+    "checkEmail": "ZKONTROLUJTE SVŮJ E-MAIL",
+    "getBottom": "Pojďme to důkladně prověřit. Toto je e-mail, který používáte na ZTFR.",
+    "resend": "ZNNOVU ODESLAT"
+  },
+  "Assignfiles": {
+    "assign": "PŘIŘADIT",
+    "assignFiles": "přiřadit soubory",
+    "assignName": "jméno příjemce",
+    "assignPin": "přidělený PIN kód",
+    "generatePin": "VYTVOŘIT PIN KÓD",
+    "CustomPin": "VLASTNÍ PIN KÓD",
+    "AdditionalNote": "DALŠÍ POZNÁMKA",
+    "clear": "VYMAZAT"
+  },
+  "AssignShare": {
+    "exclusiveFeature": "přiřadit je exkluzivní funkce, která umožňuje přidělovateli (vám) nahrávat soubory/složky a mít možnost specifikovat a kontrolovat, ke kterým souborům/složkám chcete umožnit přístup příjemci. Příjemci (příjemci) je poskytnut jedinečný 4místný PIN kód, kterým získá přístup k souborům/složkám.",
+    "gainAccess": "získat přístup. Příjemci (příjemci) je poskytnut jedinečný 4místný PIN kód, kterým získá přístup k souborům/složkám.",
+    "oneUpload": "Jeden nahrávací soubor. Rozsah možností.",
+    "title": "NÁZEV",
+    "note": "POZNÁMKA",
+    "RevisionFiles": "REVIZNÍ SOUBORY",
+    "justThought": "Ahoj, jen jsem si myslel, že bys mohl mít tyto rychle po ruce. Hodně štěstí. Uvidíme se brzy. Jessica x",
+    "assignee": "PŘÍJEMCE"
+  },
+  "DownloadIndex": {
+    "DownloadIndexStyle": "revision_file_czech",
+    "heroLeft": "hero_left_bulgarian",
+    "revision": "REVIZE",
+    "files": "SOUBORY"
+  },
+  "ShareIndividual": {
+    "renameTitle": "Přejmenovat název",
+    "renameFile": "Přejmenovat soubory/složky",
+    "fileLgSIze": "lg:text-[11px]",
+    "fileSIze": "text-[8px]",
+    "preview": "Náhled",
+    "view": "Zobrazit detaily",
+    "expires": "Vyprší za",
+    "getLink": "Získat odkaz",
+    "QRCode": "Získat QR kód",
+    "setPassword": "Nastavit heslo",
+    "assign": "Přiřadit",
+    "remove": "Odebrat",
+    "moreOption": "Více možností"
+  },
+  "Password": {
+    "password": "HESLO",
+    "confirmPassword": "Potvrdit heslo"
+  },
+  "error": {
+    "required": "Povinné",
+    "allFieldRequired": "VŠECHNY POLE JSOU POVINNÉ",
+    "invalidEmail": "Neplatný email",
+    "invalidPassword": "Neplatné heslo",
+    "enterValidEmail": "Zadejte platný email",
+    "enterValidPassword": "Zadejte platné heslo",
+    "enterValidFirstName": "Zadejte platné jméno",
+    "enterValidLastName": "Zadejte platné příjmení",
+    "minimumLength3": "Minimální délka musí být 3 znaky",
+    "shortLength": "Délka je příliš krátká",
+    "longLength": "Délka je příliš dlouhá",
+    "passwordMatch": "HESLA SE NESHODUJÍ.",
+    "invalid": "Neplatné",
+    "passwordReq": "Vyžadováno heslo",
+    "confirmPasswordReq": "Potvrzení hesla je vyžadováno",
+    "verfied": "Ověřeno",
+    "invalidZVC": "Neplatný ZVC",
+    "invalidCredentials": "Neplatné přihlašovací údaje",
+    "invalidPin": "Neplatný PIN",
+    "inputPassword": "Prosím zadejte heslo nejprve",
+    "inputpasswordConfirm": "Zadejte heslo pro potvrzení"
+  },
+  "page": {
+    "404": {
+      "somethingWrong": "něco špatně.",
+      "oops": "ups",
+      "couldNotFound": "Nemohli jsme najít stránku, kterou hledáte.",
+      "tryAgain": "Můžete to zkusit znovu, nebo nám můžete říct, co se stalo.",
+      "sendError": "Pošlete nám váš chybový kód na support@zitransfer.com a my se pokusíme pomoci.",
+      "copyCode": "zkopírujte můj chybový kód",
+      "codeCopied": "chybový kód byl zkopírován"
+    },
+    "legalModal": {
+      "textsizes": {
+        "textsize3": "text__14__10__3xl"
+      },
+      "links": {
+        "termsOfServices": "podmínky služby",
+        "privacyStatement": "prohlášení o ochraně soukromí",
+        "noticePolicy": "Zásady upozornění/odstranění",
+        "advertisingTerms": "Reklamní podmínky"
+      },
+      "legal": "PRÁVNÍ",
+      "legalInfo": "Právní informace a oznámení",
+      "termsOfConditions": {
+        "termsOfServices": "PODJMÍNKY SLUŽBY",
+        "ownership": {
+          "ownership_heading": "Vlastnictví webu; Souhlas s podmínkami SLUŽBY",
+          "ownership_para1": "Tyto Podmínky a ujednání služby (dále jen \"Podmínky služby\") se vztahují k webu (platformě) ZTFR (ZITRANSFER) umístěnému na <a href='https://zitransfer.com' target='_blank'>www.zitransfer.com</a>, <a href='https://zitransfer.com' target='_blank'>www.ztfr.org</a> a ke všem přidruženým stránkám propojeným s <a href='https://www.zimogroup.org' target='_blank'>www.zimogroup.org</a> společností ZIMO (ZIMO GROUP), jejími dceřinými společnostmi a přidruženými subjekty, včetně stránek ZIMO po celém světě (dále jen \"Web\"). Web je majetkem společnosti ZIMO GROUP LIMITED (\"ZIMO\") a jejích licencovaných subjektů. POUŽÍVÁNÍM WEBU SOUHLASÍTE S TĚMITO PODMÍNKAMI SLUŽBY; JESTLIŽE S NIMI NESOUMÍTEJTE, NEPOUŽÍVEJTE WEB.",
+          "ownership_para2": "ZTFR si vyhrazuje právo změnit, upravit, přidat nebo odstranit části těchto Podmínek služby kdykoli podle svého uvážení. Je na vás, abyste pravidelně kontrolovali tyto Podmínky služby kvůli změnám. Vaše další používání Webu/Platformy po zveřejnění změn znamená, že s nimi souhlasíte. Pokud budete dodržovat tyto Podmínky služby, ZTFR vám uděluje osobní, neexkluzivní, nezaměnitelné a omezené oprávnění k vstupu a používání Webu/Platformy."
+        },
+        "content": {
+          "content_heading": "OBSAH",
+          "content_para1": "Veškerý text, grafika, uživatelská rozhraní, vizuální rozhraní, fotografie, ochranné známky, loga, zvuky, hudba, umění a počítačový kód (dále jen \"Obsah\"), včetně, ale neomezeně na designu, struktury, výběru, koordinace, vyjádření, 'vzhledu a uspořádání' takového Obsahu, obsaženého na Webu, je vlastnictvím, ovládáním nebo licencováním společností ZTFR (ZITRANSFER) a ZIMO a je chráněn autorským právem, patentem a ochrannými známkami a různými dalšími právy duševního vlastnictví a zákonem o nespravedlivé soutěži.",
+          "content_para2": "Kromě výslovného ustanovení v těchto Podmínkách služby nesmí být žádná část Webu/Platformy a žádný Obsah kopírován, reprodukován, znovu publikován, nahrán, zveřejněn, veřejně zobrazen, zakódován, přeložen, přenášen nebo šířen žádným způsobem (včetně \"zrcadlení\") na jakýkoli jiný počítač, server, webovou stránku nebo jiný mediální nosič za účelem publikace nebo šíření nebo za účelem jakéhokoli komerčního podnikání, bez předchozího písemného souhlasu ZIMO.",
+          "content_para3": "Můžete používat informace o produktech a službách ZTFR (jako jsou datové listy, články z databáze znalostí a podobné materiály), které jsou účelně dostupné k stažení ze stránek ZIMO, za předpokladu, že (1) neodstraníte žádný vlastnický označující text ve všech kopiích těchto dokumentů, (2) budete tyto informace používat pouze pro osobní, nekomerční informační účely a nebudete tyto informace kopírovat nebo zveřejňovat na žádný síťový počítač nebo je vysílat v jakémkoli médiu, (3) neprovádějte žádné změny v těchto informacích a (4) neposkytujte žádná další prohlášení nebo záruky týkající se těchto dokumentů."
+        },
+        "headlines": {
+          "headlines_heading": "NADPISY",
+          "headlines_point1": "Váš obsah je váš - patří vám a jste za něj odpovědní. Budeme dělat pouze to, co je nutné pro správnou funkci našich služeb.",
+          "headlines_point2": "Pokud děláte něco nelegálního, můžeme zablokovat a/nebo smazat vaše data/nahrávky/stahování a pozastavit vaše účty.",
+          "headlines_point3": "Můžeme čas od času provádět změny ve svých podmínkách, službách a/nebo poplatcích. Pokud máte účet a nelíbí se vám něco, co změníme, můžete kdykoli zrušit.",
+          "headlines_point4": "Měli bychom zmínit, že používáte naše služby na vlastní riziko; nejsme zodpovědní za žádné škody, pokud něco selže."
+        },
+        "termsOfServices_points": {
+          "termsOfServices_heading": "PODJMÍNKY SLUŽBY",
+          "termsOfServices_subheading": "ZTFR NABÍZÍ NÁSLEDUJÍCÍ NÁSTROJE:",
+          "termsOfServices_point1": "Službu pro sdílení souborů (\"ZTFR/ZITRANSFER Sdílení souborů\")",
+          "termsOfServices_point2": "Službu, která vám umožňuje ukládat, organizovat, sdílet a přijímat obsah z různých zdrojů (\"Kolekce\")",
+          "termsOfServices_point3": "Službu, která vám umožňuje sdílet nápady a data/soubory v různých formátech/platformách",
+          "termsOfServices_point4": "Službu, která vám umožňuje provádět prodej prostřednictvím ZTFR X",
+          "termsOfServices_point5": "Službu, kterou můžete používat zdarma s neomezeným nahráváním/stahováním (prémiové služby jsou vyloučeny)",
+          "termsOfServices_point6": "Dodatečné funkce a možnosti",
+          "termsOfServices_para1": "Vaše používání našich služeb, softwaru, webových stránek (včetně rozšíření pro prohlížeč) a/nebo aplikací (společně: \"Služby\") je řízeno těmito Podmínkami služby (\"Podmínky\").",
+          "termsOfServices_para2": "Služby vám mohou být poskytnuty online, ve formě mobilní a/nebo desktopové aplikace a/nebo mohou být integrovány do služby třetí strany.",
+          "termsOfServices_para3": "Služby vám umožňují nahrávat, odesílat, ukládat, sdílet, přijímat, sbírat, zachytávat a/nebo vizualizovat vaše nápady, texty, grafiku, videa, data, informace, soubory, prezentační balíčky nebo jiný obsah, včetně obsahu třetí strany používaného vami (společně: \"Obsah\"). Zůstáváte majiteli všech práv, zodpovědnosti a odpovědnosti za veškerý Obsah. ZTFR si nepretenduje na vlastnictví vašeho Obsahu.",
+          "termsOfServices_para4": "Služby vám jsou poskytovány jako uživateli Služeb společností ZIMO GROUP LIMITED (\"ZITRANSFER\", \"ZTFR\") se sídlem na adrese 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, Anglie, Spojené království.",
+          "registered_location": "Zapsaná v Anglii a Walesu.",
+          "registered_number": "IČO společnosti: 14383397."
+        },
+        "applicability": {
+          "applicability_heading": "POUŽITELNOST",
+          "applicability_point1": "Můžete používat služby pouze, pokud jste starší 16 let (pokud je nepoužíváte v rámci programu ZTFR Education).",
+          "applicability_point2": "Přečtěte si Podmínky pečlivě. Používáním Služeb (přímo s námi nebo prostřednictvím aplikace třetí strany, plug-inu, rozšíření nebo integrace) souhlasíte s těmito Podmínkami a s naší Zásadou pro upozornění/odstranění (\"ZPO Politika\"). Pokud jde o použití osobních údajů a souborů cookie v souvislosti se Službami, platí naše Prohlášení o ochraně soukromí.",
+          "applicability_point3": "Pokud jsou Služby začleněny, použity v souvislosti nebo integrovány do služeb třetích stran, mohou se na tyto Podmínky vztahovat i obchodní podmínky, zásady upozornění/odstranění a/nebo prohlášení o ochraně soukromí těchto třetích stran. Pokud Služby používáte jménem svého zaměstnavatele nebo jiné organizace, souhlasíte s podmínkami této organizace a potvrzujete, že máte k tomu oprávnění. ZTFR nenese odpovědnost za služby, podmínky a/nebo politiky třetích stran.",
+          "applicability_point4": "Pokud chcete podat stížnost nebo oznámení o nezákonném obsahu uloženém nebo sdíleném prostřednictvím Služeb nebo API ZTFR, přečtěte si ZPO Politika.",
+          "applicability_point5": "Pokud zjistíte zranitelnost v některé ze Služeb, přečtěte si naši Zodpovědnou zveřejnění.",
+          "applicability_point6": "Pokud chcete používat API ZTFR (jak je popsáno v Podmínkách pro použití API), naše Podmínky pro použití API se vztahují k těmto Podmínkám navíc.",
+          "applicability_point7": "ZTFR si vyhrazuje právo na občasné změny Podmínek. Změněné Podmínky nabývají účinnosti jejich zveřejněním na webových stránkách ZITRANSFER (ZTFR) a/nebo na mobilních a/nebo desktopových aplikacích ZITRANSFER nebo v pozdějším termínu, jak může být uvedeno v změněných Podmínkách. Proto doporučujeme, abyste Podmínky pravidelně zkontrolovali a věnovali pozornost jakýmkoli změnám. Pokračováním v používání Služeb souhlasíte s novými Podmínkami. V případě podstatných změn Podmínek budete informováni před změnou: (i) v okamžiku, kdy použijete Služby, nebo (ii) zprávou na kontaktní údaje, které nám poskytnete, nebo (iii) zveřejněním oznámení o změně na webových stránkách ZITRANSFER a/nebo na mobilních a/nebo desktopových aplikacích ZITRANSFER. Pokud změnu nepřijmete, můžete zrušit svůj předplatný.",
+          "applicability_point8": "Tyto Podmínky nahrazují veškeré předchozí ústní a písemné nabídky, podmínky, komunikaci, dohody a porozumění mezi vámi a ZTFR (ZITRANSFER)."
+        },
+        "fileSharing": {
+          "fileSharing_heading": "SDÍLENÍ SOUBORŮ",
+          "fileSharing_point1": "Sdílení souborů ZTFR (ZITRANSFER) vám umožňuje sdílet svůj obsah s ostatními.",
+          "fileSharing_point2": "Chcete-li sdílet svůj obsah, musíte jej nahrát a poskytnout nám (omezený počet) e-mailových adres příjemců (\"e-mailový přenos\"), nebo si vybrat možnost sami distribuovat odkaz ke stažení (\"Získat odkaz\"). Navíc máte několik možností, jak chcete svůj obsah distribuovat/sdílet, můžete vybrat z následujících metod; Získat QR kód, WhatsApp, Facebook, Threads, X (dříve Twitter) a Messages.",
+          "fileSharing_point3": "Sdílení souborů ZTFR (ZITRANSFER) umožňuje sdílení obsahu do maximální celkové kapacity. Nahraný obsah je na serverech ZITRANSFER uložen po omezenou dobu, po které vyprší možnost stahování.",
+          "fileSharing_point4": "Po uplynutí této doby ZTFR trvale smaže nahrané soubory za použití mazání vojenského stupně. Tyto soubory nebudou již k dispozici ani obnovitelné.",
+          "fileSharing_point5": "Základní funkcionalita Sdílení souborů ZTFR (v současné době) je bez registrace a zdarma.",
+          "fileSharing_point6": "ZTFR zachází s obsahem jako s důvěrným a neprovádí kontrolu nad použitím odkazů ke stažení, ať už jsou původně distribuovány námi nebo vámi. Příjemci mohou sdílené odkazy přeposílat a umožnit jejich použití jiným. Za nahraný a sdílený obsah jste plně odpovědni vy sami.",
+          "fileSharing_point7": "ZTFR Pro a ZTFR Premium jsou placené verze předplatného, které vám oproti bezplatné verzi nabízí sadu prémiových služeb a odlišné podmínky předplatného.",
+          "fileSharing_point8": "Předplatné ZTFR (ať už zdarma, Pro nebo Premium) zahrnuje předplatby na další části ZTFR a jeho služeb.",
+          "fileSharing_point9": "ZTFR si vyhrazuje právo automaticky smazat všechny nahrané soubory, které byly nahrané s ZTFR Pro a jsou stále dostupné na našich serverech, 28 dnů poté, co skončí vaše předplatné ZTFR Pro nebo ZTFR Premium.",
+          "fileSharing_point10": "ZTFR Premium vám nabízí (mimo jiné) neomezené úložiště pro sdílení souborů ZITRANSFER s neomezenou možností přizpůsobení. Budete mít k dispozici neomezený terabajt kapacity s exkluzivními nástroji pro přizpůsobení.",
+          "fileSharing_point11": "ZTFR Teams (\"Týmy\") je placená verze předplatného ZTFR Pro a ZTFR Premium, která vám umožňuje přidávat členy týmu do vašeho účtu ZTFR Pro nebo ZTFR Premium. Členy týmu lze snadno přidávat a odebírat v průběhu předplatného.",
+          "fileSharing_point12": "Datum zahájení placeného předplatného ZTFR Teams je stanoveno tehdy, když se přihlásíte jako týmový prodejce ZTFR (\"Týmový prodejce\") účtu ZTFR Teams."
+        },
+        "payment": {
+          "payment_heading": "PLATBA",
+          "payment_point1": "ZTFR je bezplatná služba pro sdílení souborů, pokud jste si nevybrali placenou službu (ZTFR Pro, ZTFR Premium, ZTFR X a další).",
+          "payment_point2": "Můžeme zavést nebo změnit poplatky za Služby občas, o čemž vás budeme včas informovat. Pokud máte předplatné na pevnou dobu a cenu, tato cena zůstane v platnosti po dobu pevného termínu. Pokud nesouhlasíte s cenovou změnou, můžete zrušit své předplatné a přestat používat Služby ke dni ukončení aktuálního období Služby. Pokud budete pokračovat v používání Služeb poté, co cena změny vstoupí v platnost, souhlasíte s placením změněné ceny. Zavedení poplatků vyžaduje váš předchozí souhlas a registraci.",
+          "payment_point3": "V závislosti na platební metodě, kterou si zvolíte, vám vydavatel platební metody může účtovat určité poplatky spojené s vyřizováním platby.",
+          "payment_point4": "Můžete změnit svou platební metodu v nastavení svého účtu (Portál) příslušné Služby.",
+          "payment_point5": "ZTFR může pozastavit nebo zrušit Služby, pokud platba není úspěšně uhrazena (například v případě nedostatečných prostředků, vypršení platnosti kreditních karet, změny platebních údajů nebo jinak). Pozastavení nebo zrušení Služeb z důvodu neplacení může vést ke ztrátě přístupu k vašemu účtu a vašemu obsahu.",
+          "payment_point6": "Pokud se přihlásíte a platíte nám prostřednictvím Apple App Store nebo Google Play Store, mohou se vztahovat i podmínky Apple nebo Google."
+        },
+        "subscription_cancelation": {
+          "subscription_cancelation_heading": "ZRUŠENÍ PŘEDPLATNÉHO",
+          "subscription_cancelation_point1": "Počáteční doba platnosti předplatného se liší v závislosti na vašem výběru a/nebo službě, na kterou se vztahuje.",
+          "subscription_cancelation_point2": "Kromě vašich práv na zrušení podle místní povinné spotřebitelské legislativy máte právo zrušit své předplatné během prvních 7 dnů, pokud během tohoto období začnete používat službu, čímž ztrácíte právo na zrušení.",
+          "subscription_cancelation_point3": "Doba platnosti předplatného bude automaticky obnovena pro zvolené období předplatného, pokud jste nepředplatné zrušili včas (před posledním dnem vašeho předplatného).",
+          "subscription_cancelation_point4": "V případě zrušení budete mít nadále přístup k službám až do konce doby platnosti vašeho placeného předplatného.",
+          "subscription_cancelation_point5": "Zrušení neposkytuje právo na vrácení (části) částky za předplatné.",
+          "subscription_cancelation_point6": "V případě automatického obnovení vašeho předplatného na dobu delší než tři (3) měsíce máte právo zrušit předplatné kdykoli po takovém obnovení s výpovědní lhůtou jednoho (1) měsíce. V případě zrušení na základě tohoto ustanovení můžete požádat o vrácení části částky za předplatné. To znamená, že platíte za období až do nabytí účinnosti zrušení na základě standardní měsíční sazby pro příslušnou službu.",
+          "subscription_cancelation_point7": "Po zrušení nebo pokud platba nebyla úspěšně provedena (například kvůli vypršení platnosti nebo nedostatečným finančním prostředkům), bude váš účet deaktivován po skončení doby platnosti vašeho předplatného. Poté nebudete mít přístup k osobním údajům, adresáři a obsahu uloženému pomocí služeb. Můžete znovu aktivovat své předplatné kdykoli v nastavení účtu (Portal) tím, že provedete platbu do čtyř týdnů po deaktivaci. Vaše předplatné bude pak obnoveno ode dne znovuaktivace.",
+          "subscription_cancelation_point8": "Pokud neznovuaktivujete své předplatné do stanovené doby výše, může být jakýkoli obsah uložený pomocí služeb a jakékoli vaše informace, včetně osobního obsahu, nastavení, adresáře a jakýchkoli souborů uložených pro přenos, automaticky a trvale smazány z našich serverů.",
+          "subscription_cancelation_point9": "Pokud se předplatíte prostřednictvím Apple App Store, uplatňují se podmínky Apple pro dobu platnosti a zrušení vašeho předplatného místo ustanovení v této klauzuli."
+        },
+        "teams": {
+          "teams_heading": "TÝMY (Platba, podmínky a zrušení)",
+          "teams_point1": "Účet ZTFR týmů je registrován jménem jeho poskytovatele týmu. Poskytovatel týmu bude účtován za všechny členy týmu, kteří jsou předplatitelé účtu ZTFR týmů.",
+          "teams_point2": "Poskytovatel týmu a jednotliví členové týmu mohou přidávat členy týmu do účtu ZTFR týmů, po čemž noví členové týmu mají okamžitý přístup k účtu. Pokud jsou členové týmu přidáváni během platného období předplatného, je poskytovatel týmu účtován poměrně za dny, které zbyly v tomto období předplatného. Poté bude poskytovatel týmu účtován plně za nového člena týmu v následujícím placeném období předplatného.",
+          "teams_point3": "Poskytovatel týmu a jednotliví členové týmu mohou odebrat členy týmu z účtu ZTFR týmů, po čemž tito členové týmu okamžitě ztratí přístup k účtu. Pokud jsou členové týmu odebráni během platného období předplatného, bude poskytovatel týmu účtován za tohoto člena týmu až do konce placeného období předplatného. Poskytovatel týmu nebude účtován za odebraného člena týmu v následujícím placeném období předplatného.",
+          "teams_point4": "Jakékoli nevyužité dny v platném období předplatného v důsledku odebrání člena týmu mohou být použity pro nově přidaného člena týmu během tohoto samého placeného období předplatného.",
+          "teams_point5": "Pokud je účet ZTFR týmů zrušen, poskytovatel týmu a členové týmu nadále mají přístup k účtu ZTFR týmů až do konce placeného období předplatného. Po skončení placeného období budou poskytovatel týmu a členové týmu automaticky získat přístup k individuálnímu, bezplatnému účtu ZTFR.",
+          "teams_point6": "V případě automatického obnovení vašeho předplatného na dobu delší než tři (3) měsíce máte právo zrušit předplatné kdykoli po takovém obnovení s výpovědní lhůtou jednoho (1) měsíce. V případě zrušení na základě tohoto ustanovení můžete požádat o vrácení části částky za předplatné. To znamená, že platíte za období až do nabytí účinnosti zrušení na základě standardní měsíční sazby pro příslušnou službu.",
+          "teams_point7": "Po zrušení nebo pokud platba nebyla úspěšně provedena (například kvůli vypršení platnosti nebo nedostatečným finančním prostředkům), bude váš účet deaktivován po skončení doby platnosti vašeho předplatného. Poté nebudete mít přístup k osobním údajům, adresáři a obsahu uloženému pomocí služeb. Můžete znovu aktivovat své předplatné kdykoli v nastavení účtu (Portal) tím, že provedete platbu do čtyř týdnů po deaktivaci. Vaše předplatné bude pak obnoveno ode dne znovuaktivace.",
+          "teams_point8": "Pokud neznovuaktivujete své předplatné do stanovené doby výše, může být jakýkoli obsah uložený pomocí služeb a jakékoli vaše informace, včetně osobního obsahu, nastavení, adresáře a jakýchkoli souborů uložených pro přenos, automaticky a trvale smazány z našich serverů.",
+          "teams_point9": "Pokud se předplatíte prostřednictvím Apple App Store, uplatňují se podmínky Apple pro dobu platnosti a zrušení vašeho předplatného místo ustanovení v této klauzuli."
+        },
+        "content_ownership": {
+          "content_ownership_heading": "Vlastnictví obsahu, oprávnění a odpovědnost",
+          "content_ownership_point1": "ZITRANSFER (ZTFR) nepretenduje na žádné vlastnictví obsahu, který vytvoříte, použijete, uložíte nebo sdílíte prostřednictvím služeb, a jste za něj plně odpovědní. Jste zodpovědní za sdílení s příslušnými příjemci. Jakákoliv odpovědnost za škody související s obsahem nese jednotlivec, který ho vytvoří, použije, uloží nebo sdílí prostřednictvím služeb. Uznáváte, že odkazy ke stažení a/nebo přístup mohou být přeposílány a příjemci s přístupem k těmto odkazům mohou získat přístup k obsahu, ke kterému jsou připojeni.",
+          "content_ownership_point2": "Některé služby vám umožňují chránit obsah nebo přenosy heslem a PINem. Uživatel je plně zodpovědný za zachování důvěrnosti a/nebo distribuci hesel.",
+          "content_ownership_point3": "Používáním služeb zaručujete, že máte veškerá potřebná oprávnění (včetně od vlastníků autorských práv a dalších práv duševního vlastnictví) pro distribuci, sub-licencování, přenos, ukládání a/nebo zpřístupňování obsahu online jako součást služeb.",
+          "content_ownership_point4": "ZTFR neodpovídá vám ani třetím stranám za jakékoli škody vzniklé v souvislosti s obsahem, který jste vytvořili, použili, uložili nebo sdíleli prostřednictvím služeb, včetně, ale neomezeně na autorské díla chráněná autorským právem a/nebo ochrannými známkami.",
+          "content_ownership_point5": "ZITRANSFER (ZTFR) vyžaduje od vás licenci týkající se obsahu VÝHRADNĚ ZA ÚČELEM PROVOZOVÁNÍ, UMŮNĚNÍ A ZLEPŠOVÁNÍ SLUŽEB. Pouze za tímto zcela určitým účelem a dokud neodstraníte obsah ze služeb, souhlasíte a uznáváte, že používáním služeb nám udělujete neomezenou, celosvětovou, bezplatnou licenci k (i) používání, hostování, ukládání, skenování, vyhledávání, třídění, indexaci, vytváření náhledů a (ii) reprodukci, sdělování, publikování, veřejnému zobrazování, distribuci a úpravě (včetně, ale neomezeně na měřítko, oříznutí, adaptaci a překlad) obsahu. ČÁST LICENCE V BODĚ (ii) SE NEPOUŽÍVÁ NA SDÍLENÍ SOUBORŮ ZITRANSFER (ZTFR), jak je stanoveno v článku 2 těchto Podmínek. Pro jistotu, ZITRANSFER (ZTFR) nebude prodávat ani reklamovat obsah: ZITRANSFER (ZTFR) vyžaduje licenci VÝHRADNĚ ZA ÚČELEM PROVOZOVÁNÍ, UMŮNĚNÍ A ZLEPŠOVÁNÍ SLUŽEB.",
+          "content_ownership_point6": "ZTFR neposkytuje žádnou veřejnou funkci vyhledávání, katalogu nebo seznamu pro nalezení obsahu.",
+          "content_ownership_point7": "ZTFR vám může zobrazovat reklamy od reklamních klientů a umělců vybraných ZTFR (například celostránkové tapetové reklamy), když používáte služby."
+        },
+        "restrictions": {
+          "restrictions_heading": "Omezení",
+          "restrictions_point1": "ZTFR respektuje vaše práva a očekává, že budete respektovat práva ostatních, včetně ZITRANSFER (ZTFR), jeho umělců, inzerentů a třetích stran. To zahrnuje respektování práva na soukromí, obchodní zpravodajství, obchodní tajemství a práva duševního vlastnictví, jako jsou ochranné známky, autorská práva, obchodní názvy a loga. Souhlasíte s tím, že nebudete používat služby k provádění, propagaci, umožnění nebo usnadňování jakýchkoli nezákonných nebo trestných činů nebo porušení těchto podmínek nebo k usnadňování nebo propagaci jiných, aby to udělali.",
+          "restrictions_point2": {
+            "point": {
+              "pointpart1": "Jako podmínku pro využívání Služeb, které jste ",
+              "pointpart2": "souhlasíte s tím, že nebudete vytvářet, používat, ukládat ani",
+              "pointpart3": " sdílet jakýkoli",
+              "pointpart4": "Obsah, který:"
+            },
+            "subpoint1": "Obsahuje CSAI (obrázky sexuálního zneužívání dětí)",
+            "subpoint2": "Je sprosté, pomlouvačné, hanlivé, urážlivé, nepristojné, diskriminační, hrozivé, škodlivé, sprosté, vulgární nebo nezákonné",
+            "subpoint3": "Podporuje rasismus, násilí nebo nenávist",
+            "subpoint4": "Je fakticky nepřesný, falešný, klamný, zavádějící nebo zavádějící",
+            "subpoint5": "Nemáte na ně práva",
+            "subpoint6": "Porušuje, narušuje nebo zneužívá práva duševního vlastnictví, práva na ochranu soukromí, včetně práv na ochranu osobních údajů, a/nebo jakékoli jiné druhy práv",
+            "subpoint7": "Porušuje nebo narušuje jakýkoli platný zákon nebo předpis; a/nebo",
+            "subpoint8": "Představuje \"nenávistný projev\", ať už směřovaný na jednotlivce nebo skupinu, ať už na základě rasy, pohlaví, vyznání, národního původu, náboženského vyznání, sexuální orientace, jazyka nebo jiné charakteristiky takového jednotlivce nebo skupiny."
+          },
+          "restrictions_point3": {
+            "point": "Kromě toho souhlasíte s tím, že nebudete:",
+            "subpoint1": "Zneužívat, obtěžovat, pronásledovat, vyhrožovat, páchát násilí nebo jinak jednat nezákonně nebo povzbuzovat k tomu kohokoli jiného",
+            "subpoint2": "Předstírat nebo falešně tvrdit příslušnost k jakékoli osobě nebo entitě",
+            "subpoint3": "Přistupovat k neveřejným částem služeb",
+            "subpoint4": "Narušovat omezení přístupu nebo použití",
+            "subpoint5": "Používat metody těžby dat nebo shromažďování dat nebo jinak sbírat informace o uživatelích služeb",
+            "subpoint6": "Posílat viry, červy, malwaru, ransomware, nevyžádanou poštu, spam, řetězové e-maily, podvodné e-maily, nesolicitované zprávy, reklamy jakéhokoli druhu a za jakýmkoli účelem",
+            "subpoint7": "Narušovat, poškozovat nebo rušit služby nebo jednat tak, že by tak mohl činit",
+            "subpoint8": "Pokusit se sondovat, skenovat, ohrozit nebo testovat zranitelnost služeb nebo jakékoli související služby, systém nebo síť nebo porušit zabezpečení nebo ověřování, pokud tak činíte v souladu s naší politikou odpovědného hlášení",
+            "subpoint9": "Používat automatizované prostředky k přístupu nebo používání služeb bez našeho souhlasu",
+            "subpoint10": "Zpětně inženýrské nebo dekompilovat jakoukoliv (část) služeb",
+            "subpoint11": "Přeprodávat, sublicencovat, pronajímat, nabízet nebo jinak komercializovat služby bez našeho souhlasu",
+            "subpoint12": "Povolit ostatním používat váš účet"
+          }
+        },
+        "violation": {
+          "content_ownership_heading": "Porušení podmínek služby",
+          "content_ownership_point1": "ZITRANSFER (ZTFR) si vyhrazuje právo prověřovat, poskytovat třetím stranám, (dočasně) blokovat a/nebo trvale mazat z jeho serverů bez předchozího upozornění nebo odpovědnosti jakýkoli obsah a/nebo informace o účtu nebo blokovat každého od přístupu k jakékoli části služeb, když ZTFR zjistí, v jeho výlučné pravomoci nebo po obdržení podložených a platných stížností, že porušujete tyto podmínky nebo jednáte v rozporu s jakýmkoli platným zákonem nebo předpisem. Více informací naleznete v naší politice oznámení/odstranění."
+        },
+        "intellectual": {
+          "intellectual_heading": "Duševní vlastnictví",
+          "intellectual_point1": "Všechna práva duševního vlastnictví a/nebo podobná práva na služby (včetně softwaru, tapet, videí, obsahu, fotografie, grafického designu, typografie, portrétů, loga, ochranných známek, obchodních názvů, doménových jmen, autorských práv a patentů) jsou uložena v ZITRANSFER (ZTFR) a/nebo jeho licenciantech a není vám dovoleno je v žádném případě používat, odstranit, modifikovat, kopírovat, zrcadlit, distribuovat, dekompilovat nebo zpětně inženýrovat.",
+          "intellectual_point2": "ZTFR nenese odpovědnost nebo záruku za obsah třetích stran publikovaný v rámci služeb, reklamy na externí webové stránky nebo obsah, produkty nebo služby nabízené na externích webových stránkách. Uznáváte a akceptujete, že veškeré použití mimo služby je na vaše vlastní riziko.",
+          "intellectual_point3": "Vždy budete respektovat a dodržovat dobré jméno a pověst ZITRANSFER/ZTFR a zajistíte, že vaše použití služeb v žádném případě nepoškodí práva a/nebo dobré jméno a pověst ZITRANSFER/ZTFR a jeho licenciantů."
+        },
+        "disclaimer": {
+          "disclaimer_heading": "Odmítnutí odpovědnosti a registrace účtu",
+          "disclaimer_point1": "ZTFR poskytuje služby \"JAKO JSOU\", bez jakýchkoli záruk jakéhokoli druhu. Bez omezení výše uvedeného ZTFR výslovně odmítá jakékoliv záruky obchodovatelnosti, vhodnosti pro konkrétní účely a nezneužití. ZTFR neposkytuje žádnou záruku, že služby budou k dispozici bez přerušení, zabezpečeně a bezchybně. Vaše používání služeb je na vaše vlastní riziko. Souhlasíte a souhlasíte s tím, že ZTFR nenese odpovědnost za žádné poškození počítačového systému nebo mobilního zařízení vás nebo jakékoli třetí strany vzniklé použitím služeb a nenese odpovědnost za selhání služeb při ukládání, přenosu nebo mazání souboru nebo za poškození nebo ztrátu jakýchkoli dat, informací nebo obsahu obsaženého v souboru.",
+          "disclaimer_point2": "ZTFR si vyhrazuje právo měnit, ukončovat nebo rozšiřovat své služby čas od času a si vyhrazuje právo omezit přístup k nebo odstranit jakékoliv funkce nebo funkčnost služeb ve svém vlastním uvážení.",
+          "disclaimer_point3": "Některé z služeb vyžadují registraci a poskytnutí dat, jako jsou váš e-mail, heslo a/nebo platební údaje. Musíte zajistit, že jsou přesné a udržujete je aktualizované ve svých nastaveních účtu (Portal). Jste zodpovědní za jakoukoli činnost z vašeho účtu, takže své heslo neměli sdílet a pečlivě ho chránit. Pokud se zdá, že jsou registrace nebo údaje o účtu zneužívány, ZTFR si vyhrazuje právo smazat účet. ZTFR nenese odpovědnost za žádnou ztrátu nebo škodu vzniklou v důsledku neoprávněného použití vašeho účtu."
+        },
+        "indemnity": {
+          "indemnity_heading": "Ochrana a odpovědnost",
+          "indemnity_point1": "Obráníte, odškodníte a uchráníte ZITRANSFER/ZTFR (včetně jeho zaměstnanců a dceřiných společností) před jakýmkoli nároky, incidenty, závazky, řízení, škody, ztráty a náklady (včetně právních a účetních poplatků), vzniklé v souvislosti s vaším přístupem k nebo používáním služeb nebo vaším porušením těchto podmínek, včetně nároků třetích stran, že obsah vytvořený, použitý, uložený nebo sdílený pomocí služeb, které jste vytvořili, používali nebo sdíleli, porušuje nebo narušuje práva třetích stran.",
+          "indemnity_point2": "Služby mohou poskytovat integraci s službami třetích stran. Uznáváte, že: (i) ZTFR nenese odpovědnost za jednání nebo opomenutí takových služeb třetích stran; (ii) že ZTFR není zástupcem takových služeb třetích stran; a (iii) vaše používání těchto služeb podléhá příslušným podmínkám a ujednáním mezi vámi a poskytovateli těchto služeb.",
+          "indemnity_point3": "Pokud to místní závazný zákon dovolí, ZTFR nenese odpovědnost za žádné škody nebo osobní újmu vzniklou jakýmkoli použitím služeb, včetně (dočasně) nedostupnosti nebo (náhodného) odstranění vašeho obsahu nebo účtu. Omezení odpovědnosti uvedené v této klauzuli se nepoužije, pokud odpovědnost za škodu způsobenou záměrem nebo hrubou nedbalostí ze strany ZTFR. Pokud je ZTFR odpovědný za škodu podle závazných zákonů, celková odpovědnost ZTFR vůči vám - pokud to dovoluje místní závazný zákon - za všechny nároky vzniklé v souvislosti s použitím služeb nepřekročí částku sto dolarů (100 USD) na jednotlivý incident."
+        },
+        "wavier": {
+          "wavier_heading": "Odmítnutí, zrušitelnost a převod",
+          "wavier_point1": "Nesplnění některé ustanovení není zárukou, že později nebude odmítnuto.",
+          "wavier_point2": "Pokud je nějaká (část) ustanovení těchto podmínek shledána za nezákonnou, nevymahatelnou nebo jinak neplatnou, pak (i) zbytek podmínek zůstane v plném rozsahu v platnosti a účinnosti v souladu s příslušnými zákony; a (ii) tato část bude považována za smazána a nahrazena platnou, která má v ekonomickém efektu nejbližší k neplatné části.",
+          "wavier_point3": "Nemáte právo převádět žádná svá práva podle těchto podmínek. ZTFR má v každý okamžik právo převést svá práva na kteroukoli ze svých dceřiných společností nebo na nástupce zájmu spojeného s poskytováním služeb bez vašeho souhlasu nebo jakýchkoli jiných omezení."
+        },
+        "applicable_law": {
+          "applicable_law_heading": "Použitelný zákon a pravomoc",
+          "applicable_law_point1": "Tyto podmínky a jakékoli nepříkazové závazky vznikající z nich budou řízeny a vykládány v souladu s anglickým právem, včetně nepříkazového práva ochrany spotřebitele. Tyto podmínky neomezují žádná práva ochrany spotřebitele, na která můžete mít nárok podle nepříkazových zákonů vaší země trvalého pobytu.",
+          "applicable_law_point2": "Jakékoli spory týkající se těchto podmínek budou předloženy výlučné pravomoci příslušného soudu v Anglii, Spojené království (s výjimkou anglického soukromého mezinárodního práva)."
+        },
+        "contact": {
+          "contact_heading": "Kontakt",
+          "contact_point1": "Můžete kontaktovat ZITRANSFER (ZTFR) na adrese ",
+          "email": "legal@zimogroup.org"
+        }
+      },
+      "privacyStatement": {
+        "privacyStatement": "OCHRANA OSOBNÍCH ÚDAJŮ",
+        "privacy": {
+          "privacy_heading": "OCHRANA OSOBNÍCH ÚDAJŮ popisuje, jak ZTFR sbírá, používá a sdílí vaše osobní údaje.",
+          "privacy_para1": "Ochrana dat našich uživatelů má pro nás nejvyšší důležitost, a jdeme velkými kroky, abychom zajistili, že jsme je udrželi v bezpečí.",
+          "privacy_para2": "Vaši důvěru a právo na soukromí bereme vážně a neustále pracujeme na tom, abychom udrželi vaši digitální stopu malou a pod vaší kontrolou. Abychom vám umožnili tok a zlepšili a zabezpečili naši službu, potřebujeme zpracovávat některé osobní údaje. Kvůli ochraně osobních údajů - s dotazy souvisejícími se obraťte na náš tým pro ochranu údajů na adrese ",
+          "privacy_para3": "Toto prohlášení se týká zpracovávacích činností služeb ZITRANSFER (ZTFR), softwaru, webových stránek (včetně rozšíření pro prohlížeče) a/nebo aplikací (dále jen \"Služby\"). Služby vám umožňují vytvářet, sdílet, sbírat, zachytit a/nebo vizualizovat své nápady, texty, grafiku, videa, data, informace, soubory, prezentace nebo jiný obsah (dále jen \"Obsah\"). Služby vám mohou být poskytovány online ve formě mobilních a/nebo desktopových aplikací a/nebo mohou být integrovány do služby třetí strany. Použitím kterékoliv ze služeb souhlasíte s tím, že jste přečetli a pochopili naše prohlášení o ochraně osobních údajů uvedené níže.",
+          "privacy_para4": "Můžete se seznámit s našimi postupy týkajícími se ochrany soukromí, které jsou přístupné prostřednictvím následujících nadpisů.",
+          "accordians": {
+            "accordian1": {
+              "heading": "JAKÉ INFORMACE SBÍRÁME?",
+              "content": {
+                "first_para": "Skladujeme některé osobní informace, abychom vám umožnili používat naše služby. Existuje několik způsobů, jak můžeme od vás sbírat osobní informace: můžete je odeslat, nebo je budeme sbírat automaticky prostřednictvím našich služeb. Různé druhy osobních informací mohou být sbírány v závislosti na způsobu, jakým používáte naše služby a které služby používáte. Informace o tom, jak můžete měnit, přistupovat k nim nebo mazat své osobní informace, naleznete v sekci „Jaká jsou vaše práva jako uživatele“.",
+                "sub_heading1": {
+                  "heading": "Osobní informace, které poskytujete",
+                  "text1": "ZITRANSFER (ZTFR) sbírá, zpracovává nebo hostuje osobní informace, které poskytujete.",
+                  "text2": "Za legitimitu obsahu a dodržování našich Podmínek služby nese odpovědnost odesílatel nebo tvůrce, a musí dodržovat naše Podmínky služby. ZTFR je zpracovává pouze za účelem poskytování svých služeb. Pokud nahráváte, odesíláte nebo vytváříte osobní informace prostřednictvím jedné z našich služeb, můžete požádat o Dohodu o zpracování dat tím, že nám zašlete e-mail na .",
+                  "points": {
+                    "point1": "KONTAKTNÍ INFORMACE: vaše jméno a vaše e-mailová adresa nebo e-mailová adresa příjemců.",
+                    "point2": "INFORMACE O SOBĚ SAMÝCH: věk, pohlaví, město, země.",
+                    "point3": "PŘEDVOLBY: například nastavení jazyka nebo zájmy.",
+                    "point4": "OBSAH A METADATA: můžete si vybrat, zda nahráváte nebo vytváříte obsah, který obsahuje různé osobní informace o vás a ostatních. Takový obsah obsahuje také název souboru, velikost a typ souboru.",
+                    "point5": "OSOBNÍ ZPRÁVY/POZNÁMKY: ty, které posíláte lidem spolu se sdílením svých souborů."
+                  }
+                },
+                "sub_heading2": {
+                  "heading": "Osobní informace, které sbíráme automaticky",
+                  "text1": "ZTFR také sbírá a používá osobní informace automaticky během vašeho používání našich služeb.",
+                  "points": {
+                    "point1": "INFORMACE O PROHLÍŽEČI: typ prohlížeče, nastavení jazyka, země a časové pásmo.",
+                    "point2": "INFORMACE O COOKIES NEBO WEB BEACON: identifikátory souborů cookie a nastavení a další osobní informace obdržené prostřednictvím souborů cookie, web beaconů nebo pixelových značek. Více informací naleznete v sekci \"Proč a jak jsou používány cookies\".",
+                    "point3": "INFORMACE O ZAŘÍZENÍ: typ zařízení, hardwarový model a operační systém.",
+                    "point4": "IDENTIFIKAČNÍ ÚDAJE: jedinečné identifikátory, jako je IDFA (pro iOS), MAC adresa nebo uživatelské ID.",
+                    "point5": "INFORMACE O SÍTI: IP adresy a informace o mobilní síti.",
+                    "point6": "DATA O UMÍSTĚNÍ: údaje o vaší geografické poloze. Pokud používáme vaši zařízením založenou přesnou GPS polohu, ujistíme se, že tak učiníme pouze po obdržení vašeho souhlasu.",
+                    "point7": "POUŽITÍ SLUŽBY: informace o způsobu, jakým komunikujete s našimi službami, webovými stránkami a mobilními aplikacemi."
+                  }
+                },
+                "sub_heading3": {
+                  "heading": "Osobní informace, které obdržíme od partnerů",
+                  "text1": "Můžeme obdržet osobní informace od třetích stran, jako jsou:",
+                  "points": {
+                    "point1": "INFORMACE O INTEGRACI: můžete si vybrat, zda chcete integrovat některé z našich služeb se svým účtem (sociální média nebo služby pro zasílání zpráv), aby vám poskytly bohatou funkci zasílání zpráv.",
+                    "point2": "MARKETINGOVÉ INFORMACE: někteří partneři mohou poskytovat dodatečné (agregované) informace, například prostřednictvím svých Souborů rozvojářských sady (SDK). To může obsahovat demografické nebo behaviorální informace, abychom mohli personalizovat obsah, reklamy a nabídky a najít správné publikum pro naše reklamy.",
+                    "point3": "PRÁVNÍ INFORMACE: pokud nás orgány činné v trestním řízení nebo soudy vyzvou k odstranění obsahu, můžeme nejprve obdržet osobní informace o vás a vašem chování."
+                  }
+                }
+              }
+            },
+            "accordian2": {
+              "heading": "SE KTERÝMI STRANAMI SDÍLÍME OSOBNÍ INFORMACE?",
+              "content": {
+                "first_para": "ZTFR má několik partnerů pro provozování a zlepšování svých služeb. Navíc můžeme sdílet nebo vám umožnit sdílet vaše informace jako součást některých služeb.",
+                "second_para": "Jsme globální platforma/firma a součástí globální technologické organizace, což znamená, že můžeme sdílet nebo ukládat osobní informace v zemích mimo Evropský hospodářský prostor („EHP“). Tyto země mají odlišné zákony o ochraně dat. Nicméně, když přenášíme a hostujeme data globálně, zajistíme, že jsou vytvořena vhodná opatření, aby byla zaručena podobná úroveň ochrany vašich osobních informací, jaká by byla v rámci EHP.",
+                "points": {
+                  "point1": "POSKYTOVATELÉ SLUŽEB: jako je našeho hostingový poskytovatel, poskytovatel podpory uživatelů, IT a softwaroví poskytovatelé, naši zpracovatelé plateb, zpracovatelé e-mailů a účetní.",
+                  "point2": "LIDÉ A (SOCIÁLNÍ) MÉDIA VAŠEHO VÝBĚRU: můžete si vybrat, zda chcete sdílet svůj obsah s ostatními, jako jsou spolupracovníci, v rámci našich služeb nebo na (sociálních) médiích jako Facebook, X atd.",
+                  "point3": "ORGÁNY ČINNÉ V TRESTNÍM ŘÍZENÍ NEBO REGULÁTOŘI: jsme povinni sdílet vaše osobní informace v případě právního požadavku. V případě, že narazíme na CSAI nebo když nás informují o jiném nelegálním obsahu, také budeme sdílet vaše osobní informace s orgány činnými v trestním řízení.",
+                  "point4": "OBCHODNÍ PARTNEŘI: spolupracujeme s reklamními partnery, marketingovými a komunikačními agenturami. To děláme pro (založenou na zájmech) reklamu, značkování a oslovování vás. Naši reklamní partneři implementují své vlastní sledovací soubory cookie, které podléhají jejich podmínkám služby a prohlášení o ochraně soukromí",
+                  "point5": "INTEGROVANÉ SLUŽBY: pokud se rozhodnete integrovat (jednu z) našich služeb s jinou službou (například s vaším účtem na sociálních médiích), připojíme tuto službu ke svým službám. Abychom mohli tuto službu poskytovat, budeme muset sdílet některé z vašich osobních informací s touto službou. Platí podmínky a prohlášení o ochraně soukromí třetích stran, alespoň pro jejich část připojení.",
+                  "point6": "ENTITY ZTFR: sdílíme osobní informace mezi entitami, které jsou součástí ZITRANSFER a ZIMO GROUP, abychom poskytovali naše služby a pro všechny účely uvedené v části \"Proč používáme vaše osobní informace?\"."
+                }
+              }
+            },
+            "accordian3": {
+              "heading": "PROČ A JAK JSOU POUŽÍVÁNY SUŠENKY?",
+              "content": {
+                "first_para": "Sušenky umisťujeme s úmyslem zlepšit ZTFR. Tvrdě pracujeme na tom, abychom naše služby udělali bezpečnější, krásnější a nenápadnější. Můžete sušenky zablokovat, ale to může ovlivnit funkci našich služeb.",
+                "second_para": "Na vaše zařízení umisťujeme několik sušenek (nebo podobných technologií, jako jsou pixely nebo webové bannery) za účelem usnadnění vašeho použití služby a zjistění, jak lze službu zlepšit. My nebo naši reklamní partneři také umisťujeme sušenky na našich webových stránkách. Jelikož jsme globální službou, mohou se tito partneři lišit podle země. Když naši reklamní partneři umístí sušenky, mohou tyto sušenky zpracovávat osobní informace k měření účinnosti kampaně.",
+                "third_para": "Sušenky jsou malé textové soubory, které jsou uloženy ve vašem počítači vaším prohlížečem, když navštívíte webovou stránku. Příklady účelů sušenek jsou: vaše jazykové preference, přihlášení do účtu, pamatování přihlašovacích údajů, poskytování vám personalizované reklamy a souhlas s podmínkami služby a ochrany osobních údajů. Naše webové stránky mohou umístit tyto sušenky pro následující účely:",
+                "points": {
+                  "point1": "FUNKČNÍ SUŠENKY se používají k poskytování funkcí při používání naší služby, jako je možnost nastavení preferencí nebo pamatování vašich předchozích nastavení.",
+                  "point2": "ANALYTICKÉ SUŠENKY se používají k optimalizaci naší služby. Například k optimalizaci použitelnosti našeho webu pomocí A/B testování nové funkce, k zpříjemnění používání webu a k analýze vašeho používání naší služby. Analýtické sušenky mohou také zahrnovat sušenky třetích stran, jak je uvedeno v seznamu sušenek. Tyto analytické sušenky zpracovávají osobní informace, což je podrobně popsáno v seznamu sušenek.",
+                  "point3": "REKLAMNÍ SUŠENKY se používají pro komerční, redakční a propagační účely. Tyto sušenky umožňují sledovat váš internetový a procházkový způsob chování na různých doménách a webových stránkách. ZTFR kontroluje pouze (jednu) webovou stránku, kterou jste navštívili před návštěvou našich webových stránek. Nezaznamenáváme webovou stránku, kterou navštívíte poté, co opustíte naši webovou stránku. Reklamní sušenky jsou často umisťovány také třetími stranami k měření účinnosti jejich reklamních kampaní a k sledování vašeho internetového a procházkového chování na jiných doménách a webových stránkách, kde umístili sušenku. ZTFR nemá přístup k osobním informacím, které byly shromážděny prostřednictvím těchto sušenek nebo jiných prvků, které mohou reklamodárci a třetí strany používat. Naše zásady ochrany osobních údajů se proto nevztahují na tyto sušenky třetích stran a odkazujeme vás na zásady ochrany osobních údajů třetích stran, abyste zjistili, jak s osobními informacemi nakládají.",
+                  "point4": "PIXEL TAGY NEBO WEBOVÉ BANNERY jsou kódové části vložené na webu, které shromažďují osobní informace o angažovanosti uživatelů na této webové stránce. Použití pixelu nám umožňuje například zaznamenat, že uživatel navštívil konkrétní webovou stránku nebo klikl na konkrétní reklamu. Pixel nám také umožňuje vidět, odkud přišel uživatel na naši webovou stránku z předchozí webové stránky nebo kanálu."
+                }
+              }
+            },
+            "accordian4": {
+              "heading": "PROČ POUŽÍVÁME VAŠE OSOBNÍ INFORMACE?",
+              "content": {
+                "first_para": "Vaše osobní informace používáme k poskytování a zlepšování našich služeb, k plnění právních povinností a k propagaci našich služeb a k zajištění bezpečnosti našich služeb. Níže najdete, jak používáme vaše osobní informace konkrétně a na jakých právních základech stavíme použití vašich osobních informací.",
+                "sub_heading1": {
+                  "heading": "Osobní informace, které shromažďujeme automatizovaným způsobem",
+                  "points": {
+                    "point1": "SLUŽBA: Nejdůležitějším důvodem pro používání vašich osobních informací je samozřejmě nabídka našich služeb, jak je uvedeno v našich podmínkách služby, například vytvoření nebo vizualizace vašeho obsahu nebo sdílení vašich nápadů a umožnění vám přístupu a používání vašeho obsahu na rězných zařízeních.",
+                    "point2": "PODPOŘA: Poskytujeme širokou škálu podpůrných služeb, abychom vám pomohli, když budete potřebovat, například když budete potřebovat technickou pomoc. Pokud je třeba poskytovat podporu, může tým podpory na vaši žádost přistupovat k vašemu obsahu, aby vám pomohl.",
+                    "point3": "ÚČET A FAKTURACE: Vytváření a udržování vašeho osobního účtu, například k usnadnění vaší adresářové knihy a umožnění vám přístupu k vašemu obsahu na různých zařízeních, usnadňování platby za předplatné a provádění účetních, auditních a fakturačních činností.",
+                    "point4": "BEZPEČNOST, INTEGRITA A ZÁRUČNÍ SERVIS: ZTFR prověřuje zprávy o zneužití, zprávy NTD/DMCA, vyšetřování podvodů a může prověřovat váš soulad s našimi podmínkami služby a/nebo s podmínkami použití rozhraní API. Navíc detekujeme a blokujeme materiál obsahující sexuální zneužívání dětí (CSAI). Detekce CSAI vede k automatizovaným rozhodnutím, zda je takový obsah potenciální CSAI. Případy potenciální CSAI budou přímo nahlášeny orgánům činným v trestním řízení. Navíc se chráníme před podvody a jinou nezákonnou činností. Ve všech těchto případech si ponecháváme právo uchovávat váš obsah a sdílet ho spolu s dalšími identifikačními informacemi s orgány činnými v trestním řízení. Nakonec můžeme použít vaše osobní informace pro interní kontrolu, abychom zajistili naši a vaši bezpečnost, integritu a zabezpečení. Například v případě podezření z porušení našich podmínek služby nebo podmínek použití rozhraní API.",
+                    "point5": "ZLEPŠENÍ A VÝVOJ: Hodnotíme použití našich služeb a zlepšujeme je, opravujeme chyby, vyvíjíme nové produkty a služby. To děláme buď prostřednictvím výzkumu na trhu (například zasíláním průzkumů) nebo prováděním analýz (například sledováním a shromažďováním vašich osobních informací napříč našimi službami nebo na vašich mobilních zařízeních). To děláme proto, abychom porozuměli tomu, jak naše uživatelská základna jako celek interaguje s našimi službami, ale také abychom zkontrolovali účinek našich reklam a přizpůsobili tyto služby a reklamy odpovídajícím způsobem.",
+                    "point6": "MARKETING, REKLAMA A KOMUNIKACE: Používáme vaše osobní informace pro marketing a (založenou na zájmech) reklamu například prostřednictvím SDK nebo sušenek, stejně jako komunikaci. Myslete na aktualizace nových služeb, ale také personalizované reklamy ZTFR nebo našich partnerů, které můžeme zobrazit na našich webových stránkách nebo na stránkách třetích stran. Abychom našli správnou cílovou skupinu pro tyto reklamy, budeme se dívat na určité segmenty lidí. Například na lěnky, kteří používají podobné služby jako my, na lidi, kteří mají stejné charakteristiky jako naši stávající uživatelé, nebo na lidi v určité geografické oblasti, jako je londýnský region. Abychom se spojili s naším cílovým obecenstvem, můžeme použít sekvenční zprávy, což je v podstatě forma vyprávění: pokaždé, když interagujete s našimi službami na jiném zařízení, můžete obdržet trochu jinou reklamu v jiné formě, ale reklamy jsou součástí stejného příběhu. Navíc na základě způsobu, jakým interagujete s našimi službami na svých zařízeních, můžeme propagovat jednu z našich (dalších) služeb nebo funkcí. Navíc vám umožňujeme zapojit se do jakýchkoli (personalizovaných) akcí, akcí nebo událostí, které nabízíme. Nakonec používáme emailový marketing k odesílání relevantních příběhů o tvůrčnosti nebo novinkách ZTFR. Kde je to nutné, vždy vás budeme nejprve požádat o souhlas před odesláním vám emailového marketingu. Samozřejmě se můžete kdykoli odhlásit z každého emailu, který obdržíte.",
+                    "point7": "PRÁVNÍ: Pokud je to nutné, můžeme použít vaše osobní informace k obraně ZITRANSFER (ZTFR) / ZIMO GROUP v právních řízeních v souvislosti s vaším používáním našich služeb, na základě soudního rozhodnutí, dodržování jakéhokoli zákona, předpisu nebo žádosti vládního orgánu, spolupráci s orgány činnými v trestním řízení, spolupráci na vyšetřování podvodů třetích stran, zajišťování národní bezpečnosti, obrany, veřejné bezpečnosti a plnění našich podmínek služby."
+                  }
+                },
+                "sub_heading2": {
+                  "heading": "Právní základy",
+                  "text1": "Každá činnost zpracování má platný právní základ, který je popsán níže.",
+                  "points": {
+                    "point1": "SMLOUVNÍ ODPADOVÁNÍ S VÁMI: Pokud jde o činnosti a účely uvedené pod bodem 1, 2 a 3, potřebujeme zpracovávat osobní informace k nabízení našich služeb prostřednictvím našich webových stránek a mobilních aplikací, poskytování (technické) podpory a fakturaci vašeho předplatného.",
+                    "point2": "PRÁVNÍ ODPADOVÁNÍ: Pokud jde o činnosti a účely uvedené pod bodem 3, 4 a 7, jsme právně povinni zpracovávat vaše osobní informace pro účely účetnictví, reagování na právní žádosti a žádosti o NTD nebo DMCA.",
+                    "point3": "SOUHLAS: (částečně) ohledně činností a účelů uvedených pod bodem 2 (například přístup k vašemu obsahu pro podporu) a 6, s výjimkou případu, kdy vám komunikujeme přímý marketing v souvislosti s našimi vlastními a podobnými službami pro vás jako placeného uživatele.",
+                    "point4": "OPRÁVNĚNÉ ZÁJMY: (částečně) ohledně činností a účelů pod bodem 1 a 3 (například poskytování přístupu přes různá zařízení). Pro účely uvedené pod bodem 4, abychom poskytovali bezpečné služby, předcházeli podvodům a reagovali na nezákonné užití našich služeb. Pro naše inovační zájmy, jak je uvedeno pod bodem 5. A nakonec pro naše (přímý) marketing, značkové zájmy pod bodem 6 a právní a smluvní zájmy, jak je uvedeno pod bodem 7. Pokud používáme vaše osobní informace na základě našeho oprávněného zájmu nebo zájmu třetích stran, ujistíme se, že vyvážíme vaše práva a svobody proti tomuto oprávněnému zájmu. Pokud to, pokud je to použitelné, budete chtít námít proti činnostem na základě našeho oprávněného zájmu a ve vašich nastaveních účtu nebo přijaté komunikaci neexistuje možnost odhlášení, kontaktujte "
+                  }
+                }
+              }
+            },
+            "accordian5": {
+              "heading": "MŮŽETE POUŽÍVAT ZITRANSFER (ZTFR) PRO SOUKNÉ A CITLIVÉ SOUBORY?",
+              "content": {
+                "first_para": "Váš obsah zacházíme s respektem. Nenabízíme žádnou veřejnou vyhledávací funkci, katalog nebo seznam pro nalezení obsahu. Věříme, že pochopíte, že abychom splnili naši morální povinnost snížit šíření materiálu obsahujícího sexuální zneužívání dětí (CSAI), používáme automatizované systémy k detekci takového obsahu. Nakonec jsme povinni smazat váš obsah, pokud obdržíme žádost o stažení oznámení (NTD/DMCA) nebo pokud obdržíme právní žádost.",
+                "second_para": "Buďte opatrní při distribuci odkazů na stahování/přístupu - kdokoli, komu jsou předány nebo má přístup k odkazu na stahování/přístupu, může mít přístup k obsahu. Pro další bezpečnost a důvěrnost můžete použít naši funkci ochrany vašich souborů heslem (pokud je k dispozici)."
+              }
+            },
+            "accordian6": {
+              "heading": "JAK BEZPEČNÉ JE POUŽITÍ NAŠICH ZAKRYPTOVANÝCH SLUŽEB?",
+              "content": {
+                "first_para": "ZITRANSFER (ZTFR) přijímá technická a organizační opatření k ochraně vašich osobních informací před ztrátou nebo jinými formami nezákonného zpracování.",
+                "second_para": "Ujistíme se, že osobní informace jsou přístupné pouze těm, kteří potřebují přístup k výkonu své práce, a že jsou řádně autorizováni. To znamená, že ukládáme záznamy o tom, kdo má přístup k osobním informacím, omezujeme počet osob, které mají přístup, a ujistíme se, že osobní informace mohou být čteny, kopírovány, upravovány nebo odstraňovány pouze řádně autorizovaným zaměstnancem. Monitorujeme interní činnost, abychom zajistili bezpečnost a přesnost osobních informací.",
+                "third_para": "Zaměstnanci ZTFR jsou povinni chovat se v souladu s pokyny společnosti týkajícími se důvěrnosti, etiky a vhodného používání osobních informací. Zaměstnanci jsou povinni podepsat dohodu o důvěrnosti.",
+                "forth_para": "Během nahrávání, kdy je obsah uložen na našich serverech, a během stahování je obsah šifrován a přenášen pouze přes zabezpečené připojení (https). Servery, které používáme k ukládání vašeho obsahu, jsou v souladu s GDPR a jsou zabezpečeny."
+              },
+              "text": "ZTFR POUŽÍVÁ POKROČILÝ ŠIFROVACÍ STANDARD (AES) 256 BITŮ K OCHRANĚ DŮVĚRNOSTI DAT, KTERÁ NAHRÁVÁTE."
+            },
+            "accordian7": {
+              "heading": "JAKÉ POSTUPY PRO UCHOVÁNÍ JSOU V MÍSTĚ?",
+              "content": {
+                "para": "Doba uchovávání vašich osobních informací závisí na tom, kterou službu používáte, a na tom, o jakou kategorii osobních informací jde. Vždy se podívejte na webové stránky nebo aplikace služeb pro konkrétní informace o době uchovávání.",
+                "heading1": {
+                  "sub_heading": "OSOBNÍ INFORMACE",
+                  "para": "ZTFR uchovává vaše osobní informace tak dlouho, jak je to nutné pro poskytování našich služeb (např. udržování vašeho uživatelského účtu), pro provádění našich podnikatelských aktivit a plnění našich oprávněných zájmů, jako je poskytování bezpečných a zabezpečených služeb, oprava chyb a kontaktování vás, pro dodržování příslušných zákonů (např. uchovávání finančních informací po dobu 7 let pro účely daně) a právních žádostí a pro řešení (právních) sporů."
+                },
+                "heading2": {
+                  "sub_heading": "SOUBORY, KTERÉ PŘENÁŠÍTE",
+                  "para": "Používáte-li službu ZTFR File Sharing, obsah bude po 7 dnech (výchozí nastavení) odstraněn, pokud nevyberete konkrétní dobu. Přenos dat účtu ZTFR Pro se výchozím nastavením uchovává po dobu 28 dní nebo do data vypršení, které nastavíte ručně. Po uplynutí této doby je soubor automaticky odstraněn z našich serverů pomocí vojenského mazání. Osobní informace, které doprovází váš přenos, se uchovávají maximálně po dobu 12 měsíců. Takové osobní informace jsou přístupné pouze velmi malému počtu lidí uvnitř ZTFR, těm, kteří je potřebují k výkonu své práce, například k poskytování podpory. Když jsou údaje starší než 12 měsíců, jsou z databáze odstraněny, pseudonymizovány nebo anonymizovány pro analýzu. Pseudonymizace vašich osobních informací znamená, že nepoužíváme váš e-mailový adresu nebo IP adresu pro analytické účely, ale vytváříme náhodný pseudonym pro oba a tento pseudonym používáme místo toho. Takto nemusíme zacházet s přímo identifikovatelnými osobními informacemi, což je šetrné k ochraně soukromí."
+                },
+                "heading3": {
+                  "sub_heading": "OBSAH, KTERÝ VYTVOŘÍTE, POUŽIJETE, ULOŽÍTE NEBO SDÍLÍTE POMOCÍ SLUŽEB KROMĚ SDÍLENÍ SOUBORŮ",
+                  "para": "Obsah, který vytváříte, používáte, ukládáte nebo sdílíte na našich službách, mimo naši službu sdílení souborů, je v zásadě uchováván, dokud nepřestanete interagovat s našimi službami, smažete svůj obsah ze služeb, odstraníte služby ze svých zařízení nebo smažete svůj účet. Vždy se podívejte na webové stránky nebo aplikace služeb, které používáte, pro konkrétní informace."
+                }
+              }
+            },
+            "accordian8": {
+              "heading": "KTERÁ PRÁVA MÁTE JAKO UŽIVATEL?",
+              "content": {
+                "para1": "Pokud potřebujete více informací o svých osobních údajích, dejte nám vědět. Můžeme požadovat důkaz totožnosti. Pokud změníte svůj názor a již nechcete, abychom zpracovávali vaše osobní údaje, dejte nám vědět.",
+                "points": {
+                  "text": "Můžete požádat ZTFR o:",
+                  "point1": "Přístup, obdržení kopie nebo opravu svých osobních údajů",
+                  "point2": "V určitých případech vymazání (vojenského stupně) vašich osobních údajů nebo jejich blokování nebo omezení našeho použití",
+                  "point3": "V určitých případech odeslání svých osobních údajů jiným třetím stranám"
+                },
+                "para2": "Můžete to udělat tím, že zašlete e-mail na adresu <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>. V předmětu uveďte jasně, že váš požadavek se týká záležitostí soukromí a konkrétně, zda jde o požadavek na přístup, opravu nebo smazání. Mějte na paměti, že v určitých případech ZTFR požádá o další informace k určení vaší totožnosti.",
+                "heading1": {
+                  "sub_heading": "PRÁVO NA NÁMITKU",
+                  "para1": "Máte právo námitky proti našemu používání vašich osobních údajů, například pokud je právní základ pro zpracování založen na jednom z našich oprávněných zájmů (viz podsekci \"Právní důvody\"). Pokud nás informujete, že již nechcete, abychom zpracovávali vaše osobní údaje nebo abychom vás oslovili, ZTFR přesune vaše osobní údaje do samostatného souboru. Vaše osobní údaje již nebudou použity pro výše uvedené účely, pokud naše oprávněný zájem, například bezpečnost a ochrana, nepřevažuje nad vaším právem na námitku. Můžete o to požádat prostřednictvím <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>. V předmětu uveďte jasně, že váš požadavek se týká záležitostí soukromí a konkrétně, že uplatňujete své právo na námitku.",
+                  "para2": "Pokud máte pocit, že jsme porušili vaše práva soukromí, můžete podat stížnost příslušnému dozorčímu orgánu. Stížnost můžete podat zejména v zemi, kde bydlíte, na místě vaší práce nebo na místě, kde se domníváte, že jsme porušili vaše právo (práva)."
+                },
+                "heading2": {
+                  "sub_heading": "ODVOLÁNÍ SOUHLASU",
+                  "para": "Když jste nám poskytli souhlas k zpracování vašich osobních údajů, můžete svůj souhlas kdykoli odvolat, aniž by to ovlivnilo zákonnost zpracovatelských činností založených na souhlasu před jeho odvoláním. Pokud odvoláte svůj souhlas, nebudeme nadále zpracovávat osobní údaje, které jsme obdrželi na základě vašeho souhlasu."
+                },
+                "heading3": {
+                  "sub_heading": "KONZUMENTI Z KALIFORNIE",
+                  "para": "S výjimkou určitých omezení podle kalifornského občanského zákoníku § 1798.83, pokud jste rezidentem Kalifornie, můžete nás požádat o poskytnutí (i) seznamu určitých kategorií osobních informací, které jsme v průběhu předchozího kalendářního roku zveřejnili určitým třetím stranám pro jejich přímý marketing a (ii) totožnosti určitých třetích stran, které obdržely osobní informace od nás pro jejich přímý marketing v tom kalendářním roce. Nezveřejňujeme však vaše osobní informace marketingovým firmám, s výjimkou výše uvedeného zákona."
+                }
+              }
+            },
+            "accordian9": {
+              "heading": "JAK KONTAKTOVAT ZITRANSFER (ZTFR)",
+              "content": {
+                "para": "Naše podpůrný tým je k dispozici na adrese <b><a href='mailto:support@zitransfer.com?subject= Support enquiry'>support@zitransfer.com</a></b>. Pokud máte jakékoliv dotazy, kontaktujte nás e-mailem. Pokud máte dotazy ohledně způsobu, jakým ZITRANSFER (ZTFR) zpracovává vaše osobní údaje nebo osobních údajů, které o vás ZTFR uchovává, kontaktujte ZTFR zasláním e-mailu s vaším dotazem na adresu <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>. Pokud potřebujete kontaktovat naši tým pro ochranu osobních údajů, učiňte tak prostřednictvím <b><a href='mailto:dpt@zitransfer.com?subject= DPT enquiry'>dpt@zitransfer.com</a></b>."
+              }
+            },
+            "accordian10": {
+              "heading": "REVIZE ZPRÁVY O OCHRANĚ SOUKROMÍ",
+              "content": {
+                "para": "Upozorňujeme, že ZITRANSFER (ZTFR) může občas revidovat tuto Zprávu o ochraně soukromí. Každá revidovaná verze bude datována a zveřejněna na webové stránce. ZITRANSFER doporučuje, abyste pravidelně prověřovali webovou stránku a dávali si pozor na případné změny. Pokud nesouhlasíte s Zprávou o ochraně soukromí, neměli byste již přistupovat nebo nepoužívat webovou stránku a/nebo službu. Pokračováním v používání webové stránky a/nebo služby souhlasíte s jakýmikoliv změnami provedenými v Zprávě o ochraně soukromí."
+              }
+            }
+          }
+        }
+      },
+      "noticePolicy": {
+        "noticepolicy": "POUČENÍ/OBJEDNÁNÍ POLITIKY",
+        "content": {
+          "para1": "ZTFR respektuje vaše práva a očekává, že budete respektovat práva ostatních. V nešťastném případě, že ZTFR zjistí nebo bude informován o nezákonných souborech nebo obsahu, který je distribuován prostřednictvím jeho služeb, budeme dodržovat postupy popsané v této Politice poučení/objednání.",
+          "para2": "Používáním našich webových stránek/platformy nebo služby pro přenos souborů souhlasíte s naší Politikou poučení/objednání uvedenou níže."
+        },
+        "information": {
+          "information_heading": "OSOBNÍ INFORMACE, KTERÉ POSKYTNETE",
+          "information_para": "ZTFR se přihlásil k anglickému Kodeku chování ohledně poučení/objednání (dále jen \"Kodeks\") Platformy pro internetovou bezpečnost. Tento Kodeks chování stanoví postupy pro internetové prostředníky, jako je ZITRANSFER (ZTFR), k řešení zpráv o (domněle) nezákonném obsahu, zaměřených na odstranění sporného obsahu (dále jen \"Zpráva\" nebo \"Zprávy\"). Tato Politika poučení/objednání (\"Politika poučení/objednání\") popisuje postupy a termíny, které ZITRANSFER (ZTFR) používá při řešení těchto Zpráv."
+        },
+        "requirements": {
+          "requirements_heading": "POŽADAVKY NA ZPRÁVU",
+          "requirements_para1": "Každá osoba nebo organizace, která podá Zprávu (\"Oznamovatel\"), má povinnost zajistit, že je správná a úplná.",
+          "requrements_para2": "ZITRANSFER by měl být schopen ověřit Zprávy v rámci vyšetřování týkajícího se trestného činu, který pochází z kontrolního nebo vyšetřovacího úřadu nebo v případě formálního právního nařízení od státního zastupitelství. Zpráva jiné povahy než výše uvedená by měla obsahovat alespoň následující informace:",
+          "requrements_points": {
+            "point1": "Kontaktní údaje Oznamovatele, jméno, funkci, organizaci, adresu, e-mailovou adresu",
+            "point2": "Všechny informace, které ZITRANSFER potřebuje k vyhodnocení zákonnosti sporného obsahu, včetně jeho umístění (URL)",
+            "point3": "Platné důvody pro nezákonnost obsahu nebo důvody, proč je v rozporu s Všeobecnými podmínkami služby ZITRANSFER, Politikou poučení/objednání nebo Zásadou ochrany soukromí ZITRANSFER"
+          }
+        },
+        "indemnity": {
+          "heading": "odškodnění",
+          "para": "Oznamovatel poskytne ZITRANSFER explicitní odškodnění za 1) nároky uživatele, jehož obsah je sporný (\"Poskytovatel obsahu\"), týkající se jakýchkoliv opatření, která ZITRANSFER přijme v souvislosti s řešením Zprávy, a 2) jakékoli nároky Oznamovatele v souvislosti s obsahem odeslaným naší službou."
+        },
+        "urgency": {
+          "heading": "naléhavost",
+          "para": "Oznamovatel může požádat ZITRANSFER, aby se zabýval Zprávou jako naléhavou záležitostí. V tomto případě by Zpráva měla podložit všechny důvody naléhavosti. ZITRANSFER na základě výše uvedeného vysvětlení rozhodne na základě své vlastní diskréce, zda se má Zpráva řešit jako naléhavá záležitost."
+        },
+        "evaluation": {
+          "evaluation_heading": "hodnocení",
+          "evaluation_text": "ZITRANSFER bude vyhodnocovat Zprávu a zařadí ji do jedné z tří kategorií:",
+          "evaluations_points": {
+            "point1": "Trestný obsah nahlášený kontrolním nebo vyšetřovacím úřadem nebo v případě formálního právního nařízení od státního zastupitelství",
+            "point2": "Nesporně nezákonný obsah a/nebo trestný obsah nahlášený jinými zdroji než úřady uvedenými v bodě 1",
+            "point3": "Všechny ostatní obsah, nespadající ani do kategorie 1) ani do kategorie 2)"
+          }
+        },
+        "measures": {
+          "measures_heading": "opatření",
+          "measures_text": "Kategorizace Zprávy ZITRANSFER určuje, která opatření budou přijata ke zpracování Zprávy.",
+          "measures_points": {
+            "point1": "V případě, že ZITRANSFER zjistí, že daný obsah je nesporně nezákonný nebo trestný, tedy spadá do výše uvedených kategorií 1) a 2), ZITRANSFER zajistí, že daný obsah bude okamžitě odstraněn",
+            "point2": "V případě, že ZITRANSFER zjistí, že daný obsah není nesporně nezákonný nebo trestný, tedy spadá do výše uvedené kategorie 3), daný obsah nebude odstraněn. ZITRANSFER o tom informuje Oznamovatele",
+            "point3": "V případě, že ZITRANSFER není schopen nebo nesprávně hodnotí, zda daný obsah je nesporně nezákonný nebo trestný, ZITRANSFER informuje Poskytovatele obsahu o Zprávě s žádostí o (i) umožnění ZITRANSFERU odstranit daný obsah nebo (ii) kontaktovat Oznamovatele. Pokud se Oznamovatel a Poskytovatel obsahu nedohodnou, může Oznamovatel podat oficiální oznámení na policii, pokud by mohl být v ohrožení trestný čin. Pokud jde o obsah, který má údajně nezákonný charakter podle civilního práva, může Oznamovatel předložit spor s Poskytovatelem obsahu před anglickým soudem. Pokud Poskytovatel obsahu odmítne dostatečně identifikovat se Oznamovateli, má ZITRANSFER právo (i) poskytnout Oznamovateli jméno, e-mailovou adresu a IP adresu Poskytovatele obsahu nebo (ii) odstranit daný obsah"
+          }
+        },
+        "period": {
+          "heading": "období",
+          "para": "Kategorizace a příslušná opatření budou nejlépe probíhat co nejdříve, ale nejpozději do 10 pracovních dní po obdržení Zprávy."
+        },
+        "caution": {
+          "heading": "Náležitá opatrnost",
+          "para": "Pokud má být obsah odstraněn, ZITRANSFER zajistí, aby bylo odstraněno pouze nezbytné množství obsahu v souvislosti se Zprávou."
+        },
+        "questions": {
+          "heading": "otázky",
+          "para": "Pokud máte dotazy ohledně této Politiky poučení/objednání, kontaktujte ZITRANSFER tím, že zašlete e-mail na "
+        }
+      },
+      "advertisementTerms": {
+        "advertisingterms": "POJMY REKLAMY",
+        "terms": {
+          "heading": "POJMY ZITRANSFER (ZTFR)",
+          "para": "Tyto pojmy reklamy ZITRANSFER (\"Pojmy ZITRANSFER\") doplňují, ale nenahrazují, jakýkoli vkládací objednávka uzavřená mezi ZITRANSFER a zákazníkem (jak je definováno níže), spolu s IAB Standardními obchodními podmínkami pro internetovou reklamu pro média na dobu jednoho roku nebo kratší, verze 3.0.",
+          "link": "https://www.iab.com/wp-content/uploads/2015/06/IAB_4As-tsandcs-FINAL.pdf",
+          "refered": "(označovány jako \"IAB Podmínky\")."
+        },
+        "definitionscope": {
+          "definitionscope_heading": "DEFINICE A ROZSAH",
+          "definitionscope_points": {
+            "point1": "Všechny kapitalizované pojmy použité, ale zde nedefinované, mají stejný význam, jak je definováno v IAB Podmínkách, s výjimkou následujících definic, které jsou upraveny a nyní zní v těchto Pojmech ZITRANSFER, IAB Podmínkách, vkládací objednávce a přílohách následovně: \"Reklama\" znamená jakoukoliv reklamu (včetně, ale neomezeně, značkového obsahu) vytvořenou mediální společností, ať už vychází nebo nevychází z reklamního materiálu. \"Reklamní materiály\" znamenají obsah pro reklamy, včetně uměleckých prací, textu, zvukového nebo video obsahu nebo aktivních URL. \"Majetek mediální společnosti\" znamená webové stránky, (online) bulletinové zprávy, podcasty, videa, webové série nebo internetové zvukové nebo video kanály uvedené v IO, které jsou vlastněny, provozovány nebo ovládány mediální společností. \"Síťový majetek\" znamená webové stránky, podcasty, webové série nebo internetové zvukové nebo video kanály nebo platformy uvedené v IO, které nejsou vlastněny, provozovány nebo ovládány mediální společností, ale na kterých mediální společnost má smluvní právo na servírování reklam. Následující definice jsou přidány a mají následující význam: \"Smlouva\" znamená dohodu uzavřenou mezi mediální společností a zákazníkem, kterou tvoří IO, Pojmy ZITRANSFER, přílohy (Studio a/nebo značkový obsah) a IAB Podmínky. \"Zákazník\" znamená protistranu mediální společnosti pod tímto smluvním vztahem, jak je popsáno a jakou IO podepsal. \"Účinné datum\" je datum podpisu IO. \"Práva duševního vlastnictví\" znamenají patenty, ochranné známky, služební značky, obchodní názvy, autorská práva, práva k topografiím, doménová jména, databázová práva a práva k designu, ať už jsou či nejsou registrovány, včetně jejich žádostí, obchodní tajemství a práva důvěrnosti; všechna práva nebo formy ochrany podobného charakteru nebo mající podobný nebo rovnocenný účinek, které mohou existovat kdekoli na světě. \"Newsletter Deliverables\" znamenají plnění prodané na základě nákladu za odeslání newsletteru (e-mailem). \"Odklad\" znamená explicitní nebo implicitní přesun (části) dodávky reklamy z jakéhokoli důvodu na datum pozdější než datum zahájení IO, kterého způsobil nebo nařídil zákazník.",
+            "point2": "Na rozdíl od úvodu IAB Podmínek, i v případě, že je zákazník jinou stranou než agentura (např. ale neomezeně reklamník), všechna práva a povinnosti uvedená v IAB Podmínkách, která platí pro agenturu, se budou přiměřeně vztahovat na zákazníka.",
+            "point3": "Naproti článku XIV.c. IAB Podmínek smlouva mezi zákazníkem a mediální společností sestává z IO, těchto Pojmů ZITRANSFER, příloh a IAB Podmínek. V případě konfliktu mezi kterýmkoli smluvním prvkem tvořícím části smlouvy, pořadí priorit je následující: i) IO, ii) Pojmy ZITRANSFER, iii) Přílohy a iv) IAB Podmínky. Mediální společnost nepřijímá obchodní podmínky a/nebo vkládací objednávku zákazníka nebo jakékoli třetí strany, které proto nejsou součástí smlouvy a nejsou pro mediální společnost závazné. Revize akceptovaných IO musí být provedena písemně a písemně akceptována druhou stranou.",
+            "point4": "Pokud není jinak písemně dohodnuto, návrhy a nabídky mediální společnosti platí po dobu 30 (třiceti) dnů. Smlouva vstoupí v platnost dnem účinnosti, pokud ZITRANSFER obdrží od zákazníka podepsaný IO, ve kterém zákazník akceptuje Pojmy ZITRANSFER, Přílohy a IAB Podmínky. Inventář nemůže být rezervován a/nebo zaručen před dnem účinnosti. Smlouva zanikne po splnění IO (datum ukončení uvedené v IO)."
+          }
+        },
+        "changeterms": {
+          "changeterms_heading": "ZMĚNY V IAB PODMÍNKÁCH",
+          "changeterms_points": {
+            "point1": "Na rozdíl od částí I.a. a II.a. IAB Podmínek: Mediální společnost nebude vytvářet dodací plány.",
+            "point2": "Část I.b. bod (i) IAB Podmínek je upravena a nyní zní následovně: písemné (což zahrnuje komunikaci e-mailem nebo podpisy prostřednictvím elektronických systémů pro správu smluv) schválení IO ze strany Mediální společnosti a agentury.",
+            "point3": "Dále k části II.d IAB Podmínek: Mediální společnost neposkytuje žádnou záruku ohledně konkurenčních sousedství pro reklamy, které se objevují na majetku mediální společnosti. Na písemnou žádost zákazníka bude Mediální společnost však vynakládat komerčně rozumné úsilí, aby vyhověla přáním zákazníka ohledně konkurenčních sousedství.",
+            "point4": "Dále k části III.b. IAB Podmínek: V případě, že Mediální společnost neobdržela platbu v rámci dohodnuté platební lhůty, je oprávněna (i) zrušit všechny současné a budoucí IO zákazníka a (ii) okamžitě fakturovat všechny odeslané IO a náklady vzniklé do data zrušení.",
+            "point5": "Část III.c. IAB Podmínek je upravena a nyní zní následovně: Zákazník je plně zodpovědný za inkaso poplatků, které vydal svým vlastním zákazníkům. Zákazník není oprávněn odkládat žádnou platební povinnost vůči Mediální společnosti na základě nepřijetí poplatků, které vydal svým vlastním zákazníkům. Mediální společnost může podle svého výhradního uvážení požadovat platbu předem.",
+            "point6": "Část IV.c. IAB Podmínek je vymazána v celém rozsahu a nepatří do Smlouvy.",
+            "point7": "Dále k části V. IAB Podmínek: V případě zrušení vezme Mediální společnost zrušené (části) IO offline do 48 hodin ode dne obdržení oznámení o zrušení od zákazníka. Mediální společnost zašle zákazníkovi potvrzující e-mail o zrušení. Faktury budou založeny na datu potvrzujícího e-mailu od Mediální společnosti.",
+            "point8": "Dále k části V. IAB Podmínek: V případě odkladu je Mediální společnost oprávněna fakturovat zákazníka 10% (deset procent) nákladů uvedených v IO jako kompenzaci. Tato kompenzace nemůže být odečítána z jakékoli faktury od Mediální společnosti a neovlivní nebo neprolomí závazek zákazníka platit všechny ostatní faktury Mediální společnosti v plné výši. V případě, že odklad nastane více než jednou a/nebo nový termín je v novém kalendářním roce, je Mediální společnost oprávněna zrušit (část) IO a fakturovat (část) IO v plné výši.",
+            "point9": "Poslední věta části VI.a. IAB Podmínek je upravena a nyní zní následovně: Pokud poddodání přesahuje 10% ve vztahu k počtu plnění v příslušném IO, agentura a Mediální společnost mohou dohodnout odškodnění v souladu s těmito podmínkami. Pokud poddodání nepřesahuje 10% ve vztahu k počtu plnění v příslušném IO, není k dispozici žádné odškodnění. Vzhledem k tomu, že Mediální společnost fakturuje pouze skutečná plnění, poddodání bude automaticky promítnuto do faktury.",
+            "point10": "Na rozdíl od druhé věty části VI.b. IAB Podmínek: Mediální společnost fakturuje pouze skutečná plnění na základě svých vlastních záznamů, takže agentura nemůže provádět vrácení ve stejné hodnotě, jako poddodaná část IO, za kterou byla účtována.",
+            "point11": "Poslední věta části VIII.a. IAB Podmínek je vymazána a nepatří do Smlouvy.",
+            "point12": "Termín v částech VIII.a. a VIII.c. IAB Podmínek je změněn na čtrnáct (14) dní.",
+            "point13": "Část IX.e. IAB Podmínek je upravena a nyní zní následovně: Mediální společnost je oprávněna provádět potřebné technické úpravy reklamního materiálu, který zákazník předložil (např. změna velikosti nebo ořezání). Když zákazník požádá Mediální společnost, aby vytvořila obsah pro reklamy (např. práci s obrázky, text, audio, video, překlady) nebo prováděla podstatné změny v reklamním materiálu, který zákazník předložil (např. změna obrázku, textu, audio, videa nebo překladu), dále „Služba“, Mediální společnost poskytne Službu \"JAKO JE\", bez jakékoli záruky jakéhokoli druhu. Mediální společnost výslovně odmítá všechny závazky týkající se Služby a neposkytuje žádnou záruku, že Služba je založena na bezchybném základě. Přijetí a používání Služby zákazníkem je na vlastní riziko zákazníka. Zákazník uznává a souhlasí s tím, že Mediální společnost nenese odpovědnost a/nebo nenesou odpovědnost za žádné škody, které vzniknou v důsledku použití Služby.",
+            "point14": "Část IX.f. IAB Podmínek je upravena a nyní zní následovně: Mediální společnost nepovoluje štítky třetích stran pro server reklamního obsahu, bez ohledu na typ reklamy.",
+            "point15": "Část X.a. IAB Podmínek je upravena a nyní zní následovně: Mediální společnost bude zaručit zákazníka, jeho afiliová a zástupce před škodami, odpovědností, náklady a výdaji (včetně přiměřených nákladů na advokáty) (dále jen „Ztráty“) vzniklými v důsledku jakéhokoli tvrzení, rozsudku nebo řízení (dále jen \"Žaloby\"), která tvrdí, že služby Mediální společnosti porušují duševní vlastnictví třetí strany, pokud Žaloba není výsledkem porušení ustanovení 4.1 těchto ZITRANSFER Podmínek.",
+            "point16": "První věta části XII.b. IAB Podmínek je upravena a nyní zní následovně: Bez ohledu na jakékoli ustanovení obsažené v této smlouvě nebude termín „Důvěrné informace“ zahrnovat informace, které: (i) byly dříve známy příjemci; (ii) jsou nebo se staly obecně dostupnými veřejnosti bez viny příjemce; (iii) souvisejí s reklamou, která je nebo byla doručena na stránkách Mediální společnosti a která se stala obecně dostupnou prostřednictvím této dodávky, jako je typ reklamy, území a totožnost inzerenta; (iv) byly spravedlivě v držení příjemce bez jakéhokoli závazku důvěrnosti v době, kdy byly předány příjemci od odhalovatele; (v) byly vyvinuty zaměstnanci nebo zástupci příjemce nezávisle na Důvěrných informacích a bez odkazování na ně; nebo (vi) byly odhaleny odhalovatelem třetí straně bez jakéhokoli závazku důvěrnosti.",
+            "point17": "Část XII d (ii) IAB Podmínek je upravena a nyní zní následovně: Mediální společnost může odvozovat shromážděná data z shromážděných dat a může tato data použít a zveřejnit pro všeobecné obchodní účely Mediální společnosti (např. marketing a public relations).",
+            "point18": "Část XIII. IAB Podmínek je vymazána v celém rozsahu a nahrazena následujícím: V případě, že je faktura založena na záznamech a existují rozpory mezi záznamy obou stran (např. v počtu dodávek nebo místech dodávek), strany mohou sdílet své záznamy a budou diskutovat o dohodě v dobré víře. V případě, že strany nedosáhnou dohody, budou záznamy Mediální společnosti převažovat a budou základem faktury.",
+            "point19": "Dále k části XIV.a. IAB Podmínek: Inzerent zastupuje a zaručuje, že reklamní materiály splňují všechny platné zákony, pravidla a nařízení, včetně, ale neomezeně na místní a odvětvové specifické reklamní kódy a průmyslové směrnice týkající se reklamy a reklamních kampaní (dále jen \"Reklamní zákony\"). Inzerent rozumí a souhlasí s tím, že je plně zodpovědný za informování Mediální společnosti a poskytování potřebných informací a pokynů k zajištění dodržení Reklamních zákonů.",
+            "point20": "Dále k části XIV.f. IAB Podmínek: Také články 1, 2 a 3 těchto ZITRANSFER Podmínek budou přežívat ukončení nebo vypršení Smlouvy."
+          }
+        },
+        "invoices": {
+          "invoices_heading": "Faktury a platby (Dodatečná ustanovení)",
+          "invoices_points": {
+            "point1": "Všechny faktury od mediální společnosti musí být placeny bez jakékoli slevy, snížení, odúčtování, protiúčtu nebo kompenzace a bez jakékoli odpočitatelné částky za daň, a budou placeny v eurech (€), amerických dolarech ($) nebo britských librách (£) (jak je uvedeno v IO) na bankovní účet stanovený mediální společností. Každá faktura bude specifikovat poplatky bez DPH a příslušné DPH. Pro jistotu: pokud je zákazník podléhá DPH, bude to uvedeno na faktuře a zákazník musí zaplatit fakturu včetně DPH.",
+            "point2": "Můžeme zavést nebo změnit poplatky za služby z času na čas, o čemž vás předem informujeme. Pokud máte předem dohodnuté časově omezené a cenově stanovené předplatné, tato cena zůstane v platnosti po dobu stanovenou ve smlouvě. Pokud nesouhlasíte s cenovou změnou, můžete zrušit své předplatné a přestat používat služby ke konci stávajícího období. Pokud budete pokračovat v používání služeb poté, co cena byla změněna, souhlasíte s platbou změněné ceny. K zavedení poplatků je vyžadován váš předchozí souhlas a registrace.",
+            "point3": "Zákazník není oprávněn zdržet platbu nebo provést protiúčet z jakéhokoli důvodu.",
+            "point4": "Jakýkoli spor ohledně faktury musí být podán mediální společnosti písemně do 8 (osmi) dnů od data faktury. Jakákoliv faktura, která nebyla do této doby zpochybněna, bude považována za přijatou.",
+            "point5": "Všechny platby mediální společnosti budou nejprve alokovány na náklady na vymáhání, poté na úroky a nakonec na nejstarší nezaplacené faktury v souvislosti s jakoukoli smlouvou. Jakékoliv zpožděné částky mohou generovat úroky ve výši 1 % (jeden procent) za kalendářní měsíc nebo jeho část, aniž by bylo vyžadováno oznámení o ztrátě platební neschopnosti, až do úplného zaplacení. Mediální společnost je navíc oprávněna účtovat úplné náklady na vymáhání, minimálně však ve výši £ 250 za případ.",
+            "point6": "V případě nedodržení ustanovení oddílu III. IAB podmínek a/nebo ustanovení 2.4, 2.5 a 3 těchto ZITRANSFER podmínek má mediální společnost právo pozastavit své služby nebo ukončit smlouvu."
+          }
+        },
+        "adrestrictions": {
+          "adrestrictions_heading": "Omezení reklamy",
+          "adrestrictions_points": {
+            "point1": "Mimo oddíl IX.c IAB podmínek reklamní materiály a reklamy nesmí obsahovat, propagovat, odkazovat nebo jinak se vztahovat k obsahu, který je jednoznačně podle uvážení mediální společnosti i) obscénní, pomlouvačný, klevetný, rouhavý, necudný nebo nezákonný a/nebo má násilný, sexuální nebo agresivní charakter tak, aby bylo rozumně pravděpodobné, že urazí jakoukoli skupinu lidí; ii) porušuje nebo zneužívá práva duševního vlastnictví třetích stran a/nebo práva na ochranu soukromí nebo jiné druhy práv; iii) představuje \"nenávistnou řeč\", ať už směřovanou na jednotlivce nebo skupinu, ať už založenou na rasovém, pohlavním, vyznání, národním původu, náboženské příslušnosti, sexuální orientaci nebo jazyce takového jednotlivce nebo skupiny; iv) je fakticky nepřesný, zavádějící nebo klamný; v) poškozuje pověst mediální společnosti nebo některé z jejích značek nebo je pravděpodobné, že znevěrohodní mediální společnost nebo některé z jejích přidružených společností; vi) vystavuje mediální společnost a její uživatele jakémukoli malwaru (například počítačovým virům, červům, trojským koňům nebo jiným škodlivým komponentám) a/nebo vii) porušuje politiku Media Company ohledně oznámení/odebrání <a href='https://zitransfer.com/legal/takedown' target='blank'>(https://zitransfer.com/legal/takedown)</a> nebo kreativní a obchodní směrnice Media Company.",
+            "point2": "Neměnně oddíl IX.c IAB podmínek si Media Company vyhrazuje právo odmítnout nebo okamžitě odstranit reklamu, včetně, ale neomezujíc se na situace, kdy by reklama podle uvážení Media Company byla v rozporu s: i) jakýmkoli platným zákonem nebo nařízením nebo ii) jakýmikoli předchozími dohodami, politikami, etickými kodexy nebo kreativními nebo obchodními směrnicemi Media Company nebo tímto dohodou."
+          }
+        },
+        "valueandtakover": {
+          "valueandtakover_heading": "Přidaná hodnota a převzetí",
+          "valueandtakover_points": {
+            "point1": "Media Company má právo poskytnout zákazníkovi dodatečný inventář zdarma (\"Přidaná hodnota\"). Media Company nedává žádnou záruku, zda, kde a kdy bude Přidaná hodnota doručena.",
+            "point2": "Media Company má právo poskytnout zákazníkovi exkluzivní umístění na stanovenou dobu (\"Převzetí\"). Pro jistotu Převzetí zajišťuje zákazníkovi exkluzivitu v čase, nikoli v dodatcích. Media Company může poskytnout odhad dodacího programu, ale neposkytne žádnou záruku pro jeho množství. V žádném případě nemůže Převzetí vést k nápravám. To platí i pro jakékoliv odchylky od odhadovaných dodávek, jak je uvedeno v této klauzuli 5.2."
+          }
+        },
+        "propertyrights": {
+          "propertyrights_heading": "Práva duševního vlastnictví",
+          "propertyrights_points": {
+            "point1": "Práva duševního vlastnictví jakéhokoli druhu v reklamním materiálu zůstanou a zůstanou ve vlastnictví zákazníka nebo jeho licenciantů. Zákazník tímto uděluje Media Company nevýlučnou, nepřenosnou, trvalou, bezplatnou a sublicencovatelnou licenci k (i) použití reklamních materiálů pro vytvoření reklamy a jejich zveřejnění jako součásti reklamy v souladu s IO a (ii) používání reklamy (včetně jakýchkoli reklamních materiálů v ní použitých) pro všeobecné obchodní účely Media Company a jejích subdodavatelů (například marketing a public relations).",
+            "point2": "Práva duševního vlastnictví jakéhokoli druhu v reklamě zůstanou a zůstanou ve vlastnictví Media Company nebo jejích licenciantů. Kromě toho, co je stanoveno v těchto Reklamních podmínkách, není zákazníku dovoleno kopírovat, používat, odstraňovat, modifikovat, zrcadlit, distribuovat, dekompilovat nebo inženýrovat jakýmkoli způsobem.",
+            "point3": "Tato smlouva nezahrnuje převod jakýchkoli práv duševního vlastnictví.",
+            "point4": "Tato klauzule 6 přežije ukončení této smlouvy."
+          }
+        },
+        "sanctions": {
+          "sanctions_heading": "Sankce",
+          "sanctions_points": {
+            "point1": "Agentura a inzerent prohlašují a zaručují, že (nebo kterákoli z jejich mateřských společností a/nebo dceřiných společností) nejsou v současné době předmětem sankcí uplatňovaných nebo vynucovaných vládou USA, Evropské unie nebo jakoukoliv jinou relevantní sankční autoritou (společně \"Sankce\"), včetně zařazení na seznamy určených stran a osob souvisejících se sankcemi (\"Seznamy sankcí\"), jako jsou Seznamy zvláštně určených národních a zablokovaných osob nebo Seznam obchodních subjektů a entit podléhajících finančním sankcím Evropské unie.",
+            "point2": "Agentura a inzerent prohlašují a zaručují, že (nebo kterákoli z jejich mateřských společností a/nebo dceřiných společností) nejsou umístěny, organizovány nebo trvale sídlí v zemi nebo území, které je předmětem nebo cílem sankcí, včetně, bez omezení, Kuby, Íránu, Severní Koreje, Sýrie, Ruska a Krymu (každý \"Sankcionovaný stát\").",
+            "point3": "Agentura a inzerent bezodkladně informují Media Company, pokud se během plnění dohody dozvědí, že sami nebo jejich dceřiné společnosti se staly předmětem sankcí nebo byly zařazeny na seznamy sankcí.",
+            "point4": "Agentura a inzerent uznávají, že Media Company je omezena v poskytování dodávek v Sankcionovaných státech. Samy agentura a inzerent jsou povinny udržovat informovanost o sankcích, Seznamech sankcí a Sankcionovaných státech, které jsou relevantní pro danou IO.",
+            "point5": "Media Company má právo zrušit a/nebo ukončit jakýkoli jiný smluvní vztah s agenturou a inzerentem kdykoli, bez sankcí a bez předchozího oznámení, pokud se stane zřejmým, že Media Company je omezena v obchodování s agenturou nebo inzerentem na základě zákonů USA nebo EU o sankcích."
+          }
+        },
+        "businessresponsibility": "ZODPOVĚDNÉ PODNIKÁNÍ",
+        "businessresponsibility_points": {
+          "point1": "Media Company má písemný Etický kodex, který zahrnuje Etický kodex inzerenta, politiku dárků a protikorupční politiku a politiku ekologických nákupů. Media Company žádá agenturu a inzerenta, aby dodržovali samostatný Etický kodex inzerenta, který jim Media Company včas poskytne.",
+          "point2": "Media Company má písemný Etický kodex, který zahrnuje politiku škodlivého chování, politiku dárků a protikorupční politiku a politiku ekologických nákupů. Media Company a její zaměstnanci dodržují tento Etický kodex a žádají agenturu a inzerenta, aby dodržovali samostatný Etický kodex inzerenta. Media Company včas poskytne kopii tohoto Etického kodexu inzerenta.",
+          "point3": "Agentura a inzerent prohlašují a zaručují, že dodržují platné zákony o práci a zaměstnanosti a zakazují jakoukoli formu nuceného nebo dětského práce nebo jiného vykořisťování dětí (osob mladších šestnácti (16) let) při výrobě a dodávce svých výrobků a služeb.",
+          "point4": "Agentura a inzerent souhlasí, že budou používat obchodně rozumné úsilí o dodržování udržitelných postupů s cílem snížit emise skleníkových plynů a dosáhnout uhlíkově neutrálních řešení.",
+          "point5": "Agentura a inzerent uznávají důležitost rozmanitosti na pracovišti a budou používat obchodně rozumné úsilí o vytvoření pracovního prostředí, které odráží zájmy různorodé pracovní síly."
+        }
+      }
+    },
+    "sidebarRight": {
+      "CLOSE": "ZAVŘÍT",
+      "PORTAL": "PORTÁL",
+      "CONTACTS": "KONTAKTY",
+      "BRANDING": "BRANDING",
+      "TRANSFERS": "PŘENOSY",
+      "searchByTitleFilenameOrEmail": "HLEDAT PODLE NÁZVU, NÁZVU SOUBORU NEBO E-MAILU",
+      "COPIED": "ZKOPIROVÁNO",
+      "copyLink": "ZKOPÍROVAT ODKAZ",
+      "noMessage": "ŽÁDNÁ ZPRÁVA",
+      "noTitle": "ŽÁDNÝ NÁZEV",
+      "shareTransfer": {
+        "download": "Stáhnout",
+        "preview": "Náhled",
+        "forward": "Přeposlat",
+        "delete": "Smazat",
+        "expiresIn": "vyprší za",
+        "password": "Heslo",
+        "ASSIGN": "PŘIDĚLIT",
+        "PAUSE": "Pozastavit",
+        "CODE": "Kód",
+        "EMAIL": "E-mail",
+        "MESSAGE": "Zpráva",
+        "totalDownloads": "Celkem stažení",
+        "NAME": "Název",
+        "TYPE": "Typ",
+        "SIZE": "Velikost",
+        "folder": "složka"
+      },
+      "transfers": {
+        "selections": {
+          "date": "datum",
+          "size": "velikost",
+          "title": "název",
+          "expirationDate": "datum vypršení platnosti"
+        },
+        "noDataFound": "Nebyla nalezena žádná data.",
+        "SENT": "ODESLÁNO",
+        "RECEIVED": "PŘIJATO",
+        "sortBy": "ŘADIT PODLE:",
+        "Downloaded": "STAŽENO",
+        "notYetDownloaded": "Dosud nesestáhnuté",
+        "file": "soubor",
+        "files": "soubory"
+      }
+    },
+    "sidemenu": {
+      "menu": "MENU",
+      "features": "VLASTNOSTI",
+      "products": "PRODUKTY",
+      "howToZtfr": "JAK ZTFR",
+      "pricing": "CENY",
+      "advertising": "REKLAMA",
+      "careersH": "KARIÉRA",
+      "company": "SPOLEČNOST",
+      "myAccount": "MŮJ ÚČET",
+      "newsRoom/Press": "NOVINOVÁ/TISK",
+      "terms": "PODMÍNKY",
+      "privacy": "SOUKROMÍ",
+      "advertisingSection": {
+        "hero": {
+          "advertiseWithUsAndAttractTheAttentionOf": "INZERUJTE S NÁMI A UPOUTEJTE POZORNOST",
+          "creativeProfessionalsAcrossTheGlobe": "KREATIVNÍ PROFESIONÁLOVÉ PO CELÉM SVĚTĚ.",
+          "reachOurGlobalProfessionals": "OSLOVTE NAŠE GLOBÁLNÍ PROFESIONÁLY",
+          "getStarted": "ZAČÍNÁME"
+        },
+
+        "watchThis": {
+          "inspireAWorldOfCreativeProfessionals": "INSPIRUJTE SVĚT KREATIVNÍCH PROFESIONÁLŮ",
+          "watchThis": "SLEDOVAT TOTO"
+        },
+        "videos": {
+          "ourAdvertsAreJustMoreThan": "NAŠE REKLAMY JSOU VÍC NEŽ JEN 'REKLAMY'",
+          "impressionsDontAlwaysInspires": "DOJMY NE VŽDY INSPIRUJÍ. INSPIRUJTE JEDNOU, INSPIRUJTE SE PRO ŽIVOT.",
+          "video": "VIDEO"
+        },
+        "images": {
+          "premiumPlatformThatPutsYourBrand": "PRÉMIOVÁ PLATFORMA, KTERÁ UMÍSTÍ VAŠI ZNAČKU",
+          "infront": "VPŘEDU",
+          "ofTheLocalAndGlobalAudiences": "MÍSTNÍHO A GLOBÁLNÍHO PUBLIKA",
+          "image": "OBRAZ"
+        },
+        "partners": {
+          "ourGlobalPartners": "NAŠI GLOBÁLNÍ PARTNEŘI"
+        },
+        "form": {
+          "becomeAPartner": "STAŇTE SE PARTNEREM",
+          "company/Organisation": "SPOLEČNOST/ORGANIZACE",
+          "country": "ZEMĚ",
+          "phoneNumber": "TELEFONNÍ ČÍSLO",
+          "customiseEveryAspectOfYourAd": "PŘIZPŮSOBTE SI KAŽDÝ ASPEKT VAŠÍ REKLAMY",
+          "inYourOfficialPartnerPortal": "NA VAŠEM OFICIÁLNÍM PARTNERSKÉM PORTÁLU",
+          "thankyou": "DĚKUJI VÁM ZA VÁŠ zájem stát se partnerem, vaše žádost",
+          "thankyouSubmited": "bylo odesláno a my se vám co nejdříve ozveme."
+        }
+      },
+      "pricingSection": {
+        "free": "ZDARMA",
+        "pricingFreeText": "pricing_free_czech"
+      },
+      "careers": {
+        "design": "NÁVRH A VÝSTAVBA SYSTÉMŮ, KTERÉ MĚNÍ SVĚT.",
+        "services": "Služby v více než stovce dvaceti zemí.",
+        "discover": "OBJEVIT",
+        "world": "NOVÝ SVĚT",
+        "together": "Společně tvoříme a budujeme lepší svět.",
+        "global": "GLOBÁLNÍ VIZE",
+        "remote": "S kulturou práce na dálku je rozmanitost přirozenou součástí naší DNA.",
+        "globe": "Rozprostřeni PO CELÉM SVĚTĚ, představujeme přes 23 různých národností.",
+        "join": "PŘIDEJTE SE DO NAŠEHO TÝMU"
+      }
+    },
+    "cookies": {
+      "cookiesWrapper": {
+        "thisWebsite": "TENTO WEB POUŽÍVÁ TECHNICKY POTŘEBNÉ COOKIES.",
+        "withYourConsent": "S VAŠÍM SOUHLASEM BUDE TENTO WEB POUŽÍVAT DALŠÍ SOUBORY COOKIES (VČETNĚ SOUBORŮ COOKIES TŘETÍCH STRAN) NEBO PODOBNÉ TECHNOLOGIE K FUNGOVÁNÍ NAŠICH STRÁNEK, PRO MARKETINGOVÉ ÚČELY A KE ZLEPŠENÍ VAŠICH ONLINE ZKUŠENOSTÍ.",
+        "ourWebsiteUses": "NAŠE WEBOVÉ STRÁNKY POUŽÍVAJÍ SOUBORY COOKIES KE ZLEPŠENÍ VÝKONU, SLUŽEB A LEPŠÍMU POROZUMĚNÍ VAŠIM POTŘEBÁM. PŘIJÍMÁNÍM SOUBORŮ COOKIES TŘETÍCH STRAN, JSME MY A NAŠI PARTNEŘI SCHOPNI NABÍDNOUT VÍCE RELEVANTNÍ REKLAMY NA NAŠICH WEBOVÝCH STRÁNKÁCH A ) A APLIKACE.",
+        "youWillHave": " \"BUDETE\" MÍT POZITIVNÍ VLIV, KTERÝ BUDETE VYUŽÍVAT NAŠE OCENĚNÉ REKLAMY A SLUŽBY (POKUD JE TO UPLATNĚNO).",
+        "furtherInformation": "DALŠÍ INFORMACE NALEZNETE V NAŠICH",
+        "privacyStatement": "PROHLÁŠENÍ O OCHRANĚ SOUKROMÍ",
+        "andInTheCookiesSetting": "A V NASTAVENÍ COOKIE.",
+        "accept": "AKCEPTOVAT",
+        "reject": "ODMÍTAT",
+        "manageCookies": "SPRÁVA COOKIES"
+      },
+      "manageCookies": {
+        "ourWebsiteUsesCookies": "NAŠE WEBOVÉ STRÁNKY POUŽÍVAJÍ SOUBORY COOKIES, KTERÉ NÁM POMÁHAJÍ FUNGOVAT, UMOŽŇUJTE NÁM ANALÝZOVAT, JAK S NĚMI INTERAKUJETE, A POMÁHÁTE NÁM ZLEPŠOVAT VÝKON. PŘIJETÍM NAŠICH SOUBORŮ COOKIES NÁM UMOŽŇUJETE, ABYCH VÁS PŘIJAL OSOBNĚ.",
+        "mostZimoGroupWebsites": "VĚTŠINA WEBOVÝCH STRÁNEK ZIMO GROUP POUŽÍVÁ SOUBORY COOKIES. COOKIES JSOU MALÉ TEXTOVÉ SOUBORY UMÍSTĚNÉ NA VAŠE ZAŘÍZENÍ K ULOŽENÍ DAT, ABY JE MOHLY WEBOVÉ SERVERY POUŽIT POZDĚJI. ZIMO GROUP A NAŠE PARTNEŘI TŘETÍCH STRAN A NASTAVENÍ PARTNERŮ TŘETÍCH STRANYREMREM PŘIHLÁSÍTE SE, UKÁŽETE SI PERSONALIZOVANÉ REKLAMY A ANALÝZUJETE, JAK DOBŘE FUNGUJÍ NAŠE WEBOVÉ STRÁNKY. VÍCE INFORMACÍ NAJDETE V SEKCI COOKIES A PODOBNÉ TECHNOLOGIE",
+        "required": "POŽADOVÁNO",
+        "weUseRequiredCookies": " POUŽÍVÁME POVINNÉ SOUBORY COOKIES K PROVÁDĚNÍ ZÁKLADNÍCH FUNKCÍ WEBOVÝCH STRÁNEK. NAPŘÍKLAD \"JSOU\" POUŽÍVÁME K PŘIHLÁŠENÍ, ULOŽENÍ VAŠICH JAZYKOVÝCH PŘEDVOLEB, POSKYTNUTÍ NÁKUPNÍHO KOŠÍKU,VHODNÉ, VHODNÉ), PROVOZ MEZI WEBOVÝMI SERVERY, ZJIŠŤUJTE ​​VELIKOST SVÉ OBRAZOVKY, URČTE DOBY NAČTENÍ STRÁNKY, ZLEPŠUJTE UŽIVATELSKÉ ZKUŠENOSTI A PRO MĚŘENÍ PUBLIKACE. TYTO COOKIES JSOU NEZBYTNÉ K FUNGOVÁNÍ NAŠICH WEBŮ.",
+        "analytics": "ANALYTIKA",
+        "weAllowThirdParties": "POVOLUJEME TŘETÍM STRANÁM POUŽÍVAT SOUBORY COOKIES ANALYTICS, ABY POCHOPILI, JAK POUŽÍVÁTE NAŠE STRÁNKY, A TAK JSME JE MOHLI VYLEPŠOVAT A TŘETÍ STRANY MOHLY VYVÍJET A ZLEPŠOVAT SVÉ PRODUKTY, KTERÉ NEMOHOU SVÉ STRÁNKY VLASTNÍT ZIMO GROUP. NAPŘÍKLAD \"JSOU\" POUŽÍVÁNY KE SHROMAŽDĚNÍ INFORMACÍ O STRÁNKÁCH, KTERÉ NAVŠTÍVÍTE A POČET KLIKNUTÍ POTŘEBNÝCH K SPLNĚNÍ ÚKOLU. K REKLAMĚ POUŽÍVÁME NĚKTERÉ SOUBORY COOKIES ANALYTICS.",
+        "socialMedia": "SOCIÁLNÍ MÉDIA",
+        "weAndThirdPartiesUseSocialMediaCookies": "MY A TŘETÍ STRANY POUŽÍVÁME SOUBORY COOKIES SOCIÁLNÍCH MÉDIÍ K ZOBRAZOVÁNÍ REKLAMY A OBSAHU NA ZÁKLADĚ VAŠICH PROFILŮ V SOCIÁLNÍCH MÉDIÍCH A AKTIVITY NA NAŠICH STRÁNKÁCH. \"JSOU\" POUŽÍVÁME K PŘIPOJENÍ VAŠICH STRÁNEK K VAŠÍM AKTIVITÁM PROFILY TAKŽE REKLAMY A OBSAH, KTERÝ VIDÍTE NA NAŠICH STRÁNKÁCH A NA SOCIÁLNÍCH MÉDIÍCH, LÉPE ODRÁŽEJÍ VAŠE ZÁJMY.",
+        "advertising": "REKLAMA",
+        "weAndThirdPartiesUseAdvertisingCookies": "MY A TŘETÍ STRANY POUŽÍVÁME SOUBORY COOKIES REKLAMNÍCH STRÁNEK K ZOBRAZENÍ NOVÝCH REKLAMY NAHRÁVÁNÍM, KTERÉ REKLAMY \"VŠI\" JIŽ VIDĚLI. \"JSOU\" TAKÉ POUŽÍVÁME K SLEDOVÁNÍ, KTERÉ REKLAMY SI VYZADÁVÁTE VYTVOŘTE PO KLIKNUTÍ NA REKLAMU PRO PLATEBNÍ ÚČELY A ABY VÁM UKÁZALY REKLAMY, KTERÉ JSOU PRO VÁS RELEVANTNĚJŠÍ. NAPŘÍKLAD \"JSOU\" POUŽÍVÁNY K ZJIŠTĚNÍ, KDYŽ KLIKNETE NA REKLAMU A ZOBRAZÍTE VÁM REKLAMY NA ZÁKLADĚ VAŠICH SOCIÁLNÍCH MÉDIÍ ZÁJMY A HISTORIE PROHLÍŽENÍ WEBU.",
+        "resetAll": "RESETOVAT VŠE",
+        "saveChanges": "ULOŽIT ZMĚNY"
+      }
+    },
+    "user": {
+      "sentMail": {
+        "checkYourEmail": "ZKONTROLUJTE SVŮJ E-MAIL",
+        "youShouldNowRecieve": "NYNÍ BYSTE MĚLI OBDRŽET E-MAIL S ODKAZEM K VYTVOŘENÍ NOVÉHO HESLA.",
+        "ifYouNotRecieved": "POKUD JSTE NEOBDRŽELI E-MAIL, ZKONTROLUJTE",
+        "wasTheEmail": "byl e-mail, který jste použili k vytvoření svého uživatelského ID"
+      }
+    },
+    "download": {
+      "downloadPassword": {
+        "incorrectPassword": "NESPRÁVNÉ HESLO"
+      },
+      "downloadPasswordAssign": {
+        "checking": "kontroluji..."
+      }
+    },
+    "ztfrX": {
+      "contentCreator": "TVŮRCE OBSAHU.",
+      "music": "HUDBA",
+      "getPaidForYourContent": "DOSTANETE ZAPLACENO ZA SVŮJ OBSAH",
+      "getPaidForYourTransfers": "NECHTE SI ZAPLATIT ZA SVÉ PŘEVODY",
+      "sellWhatYouCreate": "PRODÁVEJTE TO, CO VYTVOŘÍTE",
+      "ztfrXIsAnEasyAndSecureWay": "JE SNADNÝ A BEZPEČNÝ ZPŮSOB, JAK DOSTAT ZAPLACENO ZA SVOU PRÁCI. ZAČNĚTE ZPENĚŽOVAT SVOU KREATIVITU JEŠTĚ DNES.",
+      "exploreAWorldOfOpportunities": "OBJEVTE SVĚT PŘÍLEŽITOSTÍ",
+      "gettingPaid": "DOSTÁVÁM ZAPLACENO",
+      "getPaidDirectly": "DOSTÁVEJTE PLATBU PŘÍMO NA VÁŠ",
+      "withdrawFunds": "ÚČET. VYBRAT FINANČNÍ PROSTŘEDKY 24/7.",
+      "payments": "PLATBY",
+      "explore": "Prozkoumat",
+      "getPaidTextSize": "get_paid_directly_italian",
+      "ztfrGetPaidTxt": "ztfrGetPaid_bulgarian",
+      "paidCard": {
+        "paid": "Placené",
+        "paidTxtSize": "paid_card_bulgarian"
+      },
+      "musicCard": {
+        "relax": "Odpočinout si"
+      },
+      "constants": {
+        "animation": "Animace",
+        "applications": "Aplikace",
+        "architecture": "Architektura",
+        "art": "Umění",
+        "collaboration": "Spolupráce",
+        "collage": "Koláž",
+        "comics": "Komiksy",
+        "commissions": "Komise",
+        "community": "Komunita",
+        "creativeAdvice": "Tvorba rad",
+        "design": "Design",
+        "education": "Vzdělání",
+        "fashion": "Móda",
+        "fiction": "Fikce",
+        "film": "Film",
+        "gaming": "Hraní her",
+        "graphicDesign": "Grafický design",
+        "graphicNovels": "Grafické romány",
+        "illustration": "Ilustrace",
+        "installations": "Instalace",
+        "music": "Hudba",
+        "nft": "NFT",
+        "opinion": "Názor",
+        "painting": "Malba",
+        "partnerships": "Partnerství",
+        "performance": "Výkon",
+        "photography": "Fotografie",
+        "podcasts": "Podcasty",
+        "print": "Tisk",
+        "sculpture": "Sochařství",
+        "software": "SOFTWARE",
+        "textile": "Textil",
+        "video": "VIDEO",
+        "writing": "Psaní",
+        "other": "OSTATNÍ"
+      },
+      "howZtfrXWorks": {
+        "how": "JAK",
+        "works": "FUNGUJE"
+      },
+      "sellDigitalContent": {
+        "sellDigitalContent": "PRODÁVAT DIGITÁLNÍ OBSAH (PRODUKTY)",
+        "turningYourDigitalContent": "PŘEMĚNA VAŠEHO DIGITÁLNÍHO OBSAHU NA ZISK",
+        "allowsYouTo": "UMOŽŇUJE DISTRIBUOVAT, INZEROVAT A DOSTÁVAT ZAPLACENO ZA VÁŠ DIGITÁLNÍ OBSAH (PRODUKTY)"
+      },
+      "recieveQuickPayments": {
+        "recieveQuickPayments": "ZÍSKEJTE RYCHLÉ PLATBY OD VAŠICH KLIENTŮ",
+        "revolutionise": "REVOLUTIONISUJTE SVÉ PODNIKÁNÍ. ZABEZPEČENÁ ŘEŠENÍ, KTERÉ ZÍSKEJTE PLATBY OD KLIENTŮ V GLOBÁLNÍM MĚŘÍTKU",
+        "usesAdvanced": "POUŽÍVÁ POKROČILÝ STANDARDNÍ ŠIFROVÁNÍ (AES) 256BITOVÁ OCHRANA",
+        "whatContent": "JAKÝ OBSAH (PRODUKTY) PRODÁVAT?",
+        "weHaveIdeas": "MÁME NÁPADY, KTERÉ VÁM POMOHOU PROZKOUMAT NOVÉ MOŽNOSTI S NOVÝMI ZDROJI PŘÍJMU Z "
+      },
+      "buyNow": "KOUPIT HNED",
+      "buyText": "buy_text_italian",
+      "getPaidFor": {
+        "getPaidFor": "nechte si zaplatit za fotografie, hudbu, digitální umělecká díla, módní focení, personalizované kurzy a mnoho dalšího...",
+        "itsSimple": "JE TO JEDNODUCHÉ. VÍTE, CO VAŠI FANOUŠCI/KLIENTI CHTĚJÍ, ZABALTE SI SVÉ NEJNOVĚJŠÍ PRÁCE (FOTOGRAFOVÁNÍ, BALÍČKY PÍSEM, HUDBA, VIDEO, DIGITÁLNÍ UMĚNÍ, PRÁCE, ROMÁNY, PŘEDVOLBY, NÁVRHY PLAKÁTŮ A 01 NÁVRHŮ PLAKÁTŮ VÍCE...)",
+        "activateYour": "AKTIVOVAT SVŮJ ",
+        "andStartToUpload": "A ZAČNĚTE NAHRÁVAT POMOCÍ ",
+        "decideOnAPrice": "ROZHODNĚTE SE O CENĚ A JEDNODUŠE SDÍLEJTE SVŮJ ODKAZ (url), QR KÓD NEBO POMOCÍ NAŠICH VYBRANÝCH PARTNERŮ"
+      },
+      "sellYourEducational": {
+        "sellYourEducational": "PRODEJTE SVŮJ VZDĚLÁVACÍ OBSAH, DIGITÁLNÍ PROGRAMY, DIGITÁLNÍ KNIHY, NÁVODY, STUDIJNÍ PRŮVODCE A MNOHO DALŠÍHO...",
+        "startGenerating": "ZAČNĚTE GENEROVAT VÝNOSY VEDLE JINÝCH KREATIV, JAKO JSTE VY. PODĚLEJTE SE O SVÉ ZKUŠENOSTI A TALENT S GLOBÁLNÍM publikem. PŘEMĚŇTE SVÉ ČLÁNKY NA BLOGU NEBO ZDROJ INSTAGRAMU V E-KNIHU NEBO PDF A VYDĚLÁVEJTE DOPLNĚNÍ."
+      },
+      "sendFinalAssets": {
+        "sendFinalAssets": "POSLAT KONEČNÁ AKTIVA SVÝM KLIENTŮM A ZÍSKAT PLATBU",
+        "itsThatEasy": "JE TO TAK SNADNÉ. ZÍSKEJTE RYCHLE PLATBU ZA NEJNOVĚJŠÍ FOTOGRAFOVÁNÍ, KONZULTAČNÍ GIG NEBO JAKÝKOLI DOPORUČENÝ OBSAH. STAČÍ NAHRÁT SVÉ KONEČNÉ SOUBORY, PŘIZPŮSOBIT KAŽDÝ ASPEK VAŠÍ TAPETY A PŘIDEJTE TAPETU.",
+        "yourClientsCan": "VAŠI KLIENTI MOHOU PŘÍSTUP K VAŠEMU SOUKROMÉMU ODKAZU A ZAPLATÍ ZA STAŽENÍ SVÝCH SOUBORŮ.",
+        "howToGetStarted": "JAK ZAČÍT"
+      },
+      "Xlogo": {
+        "tryNow": "VYZKOUŠET NYNÍ"
+      },
+      "ztfrGetPaid": {
+        "getPaid": "DOSTAT PLATBU",
+        "effortless": "Bezproblémový přenos tvůrčích aktiv, velkých souborů, kompletních složek a celých projektů jednoduchým klepnutím.",
+        "learnMore": "Dozvědět se více"
+      },
+      "ztfrSecurity": {
+        "security": "BEZPEČNOST",
+        "withPassword": "S ochranou heslem a šifrováním souborů 256 bitů (aes) poskytujeme základní bezpečnostní funkce k ochraně vašeho obsahu/práce."
+      },
+      "ztfrShowcase": {
+        "showcase": "VITRÍNA",
+        "create": "Vytvořte nezapomenutelný dojem personalizací každého detailu od vaší ÚVODNÍ STRÁNKY až po e-maily.",
+        "unleash": "Pustte uzdu své představivosti bez omezení.",
+        "transferring": "přenášení..."
+      },
+      "getStartedVideos": {
+        "stepOne": "KROK JEDEN",
+        "stepTwo": "KROK DVA",
+        "stepThree": "KROK TŘI"
+      }
+    },
+    "createNewPassword": {
+      "confirmPass": "POTVRĎTE SVÉ NOVÉ HESLO",
+      "instructions": "Pošleme vám pokyny k resetování hesla a vrátíme vás ZPĚT NA PŘIHLÁŠENÍ.",
+      "newPass": "NOVÉ HESLO",
+      "confirmNewPass": "POTVRĎTE NOVÉ HESLO",
+      "reset": "POTVRĎTE RESETOVÁNÍ HESLA/PŘIHLÁŠENÍ"
+    },
+    "transferExpired": {
+      "transferExpired": "PŘEVOD VYPRŠEL",
+      "weRegret": "S POLITOVÁNÍM VÁM",
+      "youThatThis": "OZNAMUJEME,",
+      "REACHED": "ŽE PLATNOST TOHOTO PŘEVODU",
+      "notAccessible": "VYPRŠELA A JIŽ NENÍ PŘÍSTUPNÝ",
+      "sendFiles": "ODESLAT SOUBORY",
+      "regretMessagePosition": "regret_message_position_italian",
+      "regretMessageGap": "regret_message_gap_cz",
+      "jumperMobPosition": "jumper_mob_position_cz"
+    },
+    "scheduleDone": {
+      "time": "čas",
+      "emailFrom": "EMAIL OD",
+      "yourSchedule": "VAŠE PLÁNOVANÉ NAKLÁDÁNÍ ZTFR BUDE",
+      "initiate": "ZAHÁJIT DO 5 SEKUND.",
+      "dontClose": "NEZAVÍREJTE PROHLÍŽEČ",
+      "during": "BĚHEM TOHOTO PROCESU"
+    },
+    "noInternet": {
+      "notConnected": "Zdá se, že nejste připojeni k internetu",
+      "noConnection": "Žádné internetové připojení",
+      "checkConnection": "Zkontrolujte své připojení nebo zkuste znovu",
+      "internetSettings": "Nastavení internetu"
+    }
+  }
+}

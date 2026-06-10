@@ -1,0 +1,1343 @@
+{
+  "hero": {
+    "left": "hero_left_norwegian",
+    "letsDo": "GAWIN NATIN",
+    "this": "ITO",
+    "upload": "MAG-UPLOAD NG MGA FILE O MGA FOLDER SA PAG-DROP NG ITO SAANMAN SA LARAWANG ITO",
+    "welcomeText": "MALIGAYANG PAGDATING"
+  },
+  "sidebar": {
+    "uploadText": "upload__text__filipino",
+    "advanceTextTop": "advance_text_top_filipino_new",
+    "upload": "MAG-UPLOAD NG MGA FILE O MGA FOLDER SA PAG-DROP",
+    "them": "SAANMAN SA LARAWANG ITO",
+    "advance": "ADVANCED NA PAMANTAYAN SA PAG ENCRYPT (AES) 256 BIT"
+  },
+  "getlink": {
+    "sendEmail": "MAGPADALA NG EMAIL",
+    "unlimitedTransfers": "WALANG LIMITASYONG PAGLILIPAT",
+    "getALinkText": "get_a_link_text_french",
+    "geta": "kumuha ng link",
+    "uploadFileText": "upload_file_text_french",
+    "selectFolderText": "select_folder_text_italian",
+    "UptoTextSize": "Upto_text_size_filipino",
+    "uploadFiles": "MAG-UPLOAD NG MGA FILE",
+    "or": "O",
+    "select": "PUMILI NG ISANG FOLDER",
+    "selectFolderRightAlign": "select_folder_align_right_filipino",
+    "UptoTextRightAlign": "Upto_text_size_align_right_filipino",
+    "upto": "HANGGANG",
+    "free": "LIBRE"
+  },
+  "uploading": {
+    "uploadingFiles": "Pag-upload ng mga File",
+    "uploaded": "na-upload",
+    "uploading": "Nag-u-upload",
+    "pending": "Naka-pending",
+    "of_text": "ng",
+    "about_text": "tungkol sa",
+    "remaining_text": "natitira",
+    "title_text": "pamagat",
+    "note_text": "tala",
+    "cancel_text": "kanselahin",
+    "almostDone": "halos tapos na",
+    "styles": {
+      "uploadingFiles_text_lg": "text-[8px]",
+      "uploadingFiles_text_md": "text-[7px]"
+    },
+    "textsizes": {
+      "textsize1": "text__11__only",
+      "textsize2": "text__12__only",
+      "textsize3": "uploading_size_v2",
+      "textsize4": "text__12__10"
+    }
+  },
+  "uploaded": {
+    "filesUploaded": "Mga Na-upload na File",
+    "completed": "nakumpleto",
+    "youDidIt": "Nagawa mo!",
+    "copyDownloadLink": "Kopyahin ang Iyong Na-download na Link",
+    "seeWhatsInside": "Tingnan kung ano ang nasa loob",
+    "code": "code",
+    "styles": {
+      "filesUploaded_text_lg": "text-[10px]",
+      "filesUploaded_text_md": "text-[8px]",
+      "youDidIt_text_lg": "text-[30px]",
+      "youDidIt_text_md": "text-[20px]"
+    },
+    "textsizes": {
+      "textsize1": "text__8__10",
+      "textsize2": "text__8__10",
+      "textsize3": "text__6__9"
+    }
+  },
+  "assignContent": {
+    "assignHeading": "magtalaga",
+    "assign": "ANG ASSIGN AY ISANG EKSKLUSIBONG FEATURE NA NAGPAPAHAYAG SA ASSIGNER NA MAG-UPLOAD NG MGA FILES/FOLDER AT MAY OPSYON NA TUKOY AT KONTROL ALING FILES/FOLDERS ANG GUSTO NILA NA ACCESS NG ASSIGNEE. Isang NATATANGING 4 DIGIT PIN ang ibinibigay sa assignee para makakuha ng access sa mga file/folder.",
+    "one": "ISA LANG ANG MAAARING I-UPLOAD.",
+    "magnitude": "KALAKIHAN NG MGA POSIBILIDAD.",
+    "title": "PAMAGAT",
+    "note": "TANDAAN",
+    "Hi": "Hi, isipin ko lang na maaaring gusto mo itong magamit. Good luck. Kitakits. Jessica x",
+    "Revsion": "Mga Rebisyon ng File",
+    "lets_get": "Kunin natin",
+    "started": "Nagsimula",
+    "uploaded_Files": "Mga Na-upload na File",
+    "or": "O",
+    "folders": "Mga folder",
+    "clear": "malinaw",
+    "assignee": "ASSIGNEE"
+  },
+  "assign_SubContent": {
+    "assign_heading": "magtalaga",
+    "assign_files": "magtalaga ng mga file",
+    "assignee_name": "pangalan ng assignee",
+    "assign_pinCode": "magtalaga ng pin code",
+    "generate_pinCode": "bumuo ng pin",
+    "custom_pinCode": "custom na pin",
+    "Additional_Note": "karagdagang Tala",
+    "clear_text": "malinaw"
+  },
+  "fileDownloadedModal": {
+    "close": "malapit na",
+    "youDidIt": "Nagawa mo!",
+    "items_text": "Mga item dito",
+    "files": "mga file",
+    "folder": "folder",
+    "expiresIn": "Mag-e-expire Sa",
+    "days": "araw",
+    "downloadOrShare": "i-download o ibahagi",
+    "copied": "kinopya",
+    "copyLink": "Kopyahin ang Link",
+    "qrCode": "QR code",
+    "email": "email",
+    "whatsapp": "whatsapp",
+    "message": "mensahe",
+    "facebook": "facebook",
+    "x": "x",
+    "hours": "oras",
+    "textsizes": {
+      "textsize1": "text__20__12",
+      "textsize4": "text__6__8",
+      "textsize2": "text__12__10__8"
+    }
+  },
+  "FileDropZone": {
+    "drop": "I-drop ang iyong mga file dito"
+  },
+  "footer": {
+    "rightsReservedTextSize": "rights_reserved_text_german",
+    "partOfTextSize": "part_of_text_german",
+    "zitransferTextSize": "zitransfer_text_size_german",
+    "zitransfer": "© ZITRANSFER 2023",
+    "rights": "LAHAT NG KARAPATAN RESERBADO",
+    "partof": "ZITRANSFER AY BAHAGI NG ZIMO GROUP",
+    "zitransferUses": "GINAGAMIT NG ZITRANSFER ANG 256-BIT ADVANCED ENCRYPTION STANDARD (AES) UPANG PROTEKTAHAN ANG KUMPIDENSYAL NG DATA NA INA-UPLOAD MO."
+  },
+  "countries": {
+    "choose": "Pumili ng Iyong Bansa o Rehiyon",
+    "language": "WIKA"
+  },
+  "MainShare": {
+    "email": "EMAIL",
+    "emailTo": "EMAIL SA",
+    "yourEmail": "IYONG EMAIL",
+    "enterZVC": "ISULAT ANG ZVC CODE",
+    "messages": "MGA MENSAHE",
+    "typeYourCustomisedLink": "ISULAT ANG IYONG GINAWANG LINK",
+    "linkCopied": "Nakopya ang Link",
+    "logout": "MAG-LOG OUT",
+    "login": "MAG-LOGIN",
+    "createUserId": "GUMAWA NG USER ID",
+    "codeTextSize": "link_text_size_german",
+    "getLink": "KUMUHA NG LINK",
+    "gitQRCode": "KUMUHA NG QR CODE",
+    "uploadFileText": "upload_file_text_german_mainShare",
+    "ztfermt": "ztfer_margin_top_italian",
+    "exText": "expires_text_danish",
+    "title": "PAMAGAT",
+    "Revsion": "Mga Rebisyon ng File",
+    "note": "TANDAAN",
+    "assignHeading": "magtalaga",
+    "Hi": "Hi, isipin ko lang na maaaring gusto mo itong magamit. Good luck. Kitakits. Jessica x",
+    "Expires": "Mag-expire sa loob ng",
+    "days": "HANGGANG 365 ARAW",
+    "schedule": "ISKEDYUL ANG PAGLIPAT",
+    "advance": "ADVANCED NA PAMANTAYAN SA PAG ENCRYPT (AES) 256 BIT",
+    "assign": "ANG ASSIGN AY ISANG EKSKLUSIBONG FEATURE NA NAGPAPAHAYAG SA ASSIGNER NA MAG-UPLOAD NG MGA FILES/FOLDER AT MAY OPSYON NA TUKOY AT KONTROL ALING FILES/FOLDERS ANG GUSTO NILA NA ACCESS NG ASSIGNEE. Isang NATATANGING 4 DIGIT PIN ang ibinibigay sa assignee para makakuha ng access sa mga file/folder.",
+    "one": "ISA LANG ANG MAAARING I-UPLOAD.",
+    "magnitude": "KALAKIHAN NG MGA POSIBILIDAD.",
+    "assignButton": {
+      "files": {
+        "text": "magtalaga ng mga file",
+        "css": "text__v3"
+      },
+      "folders": {
+        "text": "magtalaga ng mga folder",
+        "css": "text__v3"
+      },
+      "filesFolder": {
+        "text": "magtalaga ng mga file/folder",
+        "css": "text__v23"
+      }
+    }
+  },
+  "Expires": {
+    "expires": "MAG-E-EXPIRE",
+    "setPasswordTextSize": "set_password_size_expires_filipino",
+    "minute": "minuto",
+    "hour": "oras",
+    "day": "araw",
+    "week": "linggo",
+    "months": "buwan",
+    "year": "taon",
+    "optional": "opsyonal",
+    "pick": "pumili mula sa kalendaryo",
+    "password": "maglagay ng password",
+    "invalidDate": "maling petsa"
+  },
+  "Verit": {
+    "verify": "patunayan ang iyong email",
+    "confirm": "KUMPIRMARIN ANG IYONG EMAIL",
+    "receive": "HINDI NAKATANGGAP NG EMAIL?",
+    "we": "NAGPADALA KAMI NG KODIGO NG PAGPAPATUNAY (ZVC)",
+    "to": "SA",
+    "sure": "UPANG MATIYAK NA IKAW ANG TUNAY NA IKAW",
+    "remember": "TANDAAN NA TINGNAN ANG IYONG FOLDER NG SPAM",
+    "verifyEmailTextsize": "verify_email_german_textsize",
+    "confirmEmailTextsize": "confirm_email_italian_textsize",
+    "recieveTextsize": "didnot_recieve_italian_textsize"
+  },
+  "Copy": {
+    "setPasswordTextSize": "set_password_size_copy_french",
+    "sendAnotherText": "send_another_text_copy_german",
+    "downloadLinkTextSize": "download_link_text_copy_french",
+    "Revision": "Mga Rebisyon ng File",
+    "download": "KOPYAHIN ANG LINK NG PAGDADOWNLOAD MO",
+    "link": "KOPYAHIN ang link",
+    "another": "MAGPADALA NG ISA PANG?"
+  },
+  "GetAQRCode": {
+    "linkCopied": "Nakopya ang Link",
+    "password": "text-[8px]",
+    "lgpassword": "text-[8px]",
+    "download": "I-DOWNLOAD"
+  },
+  "DateTimePicker": {
+    "meeting": "ISKEDYUL NG PAGPUPULONG",
+    "pick": "PUMILI MULA SA KALENDARYO"
+  },
+  "RenameFile": {
+    "rename": "PALITAN NG PANGALAN ANG FILE/FOLDER",
+    "renameTextSize": "rename_text_size_renameFile_filipino"
+  },
+  "RenameTitle": {
+    "rename": "PALITAN NG PAMAGAT"
+  },
+  "FirstPage": {
+    "drop": "I-drop ang mga file dito..."
+  },
+  "GetALink": {
+    "filename": "pangalan ng file"
+  },
+  "Download4": {
+    "revision": "rebisyon",
+    "files": "mga file"
+  },
+  "Download9": {
+    "complete": "kumpleto"
+  },
+  "CustomiseALink": {
+    "setPasswordTextSize": "set_password_size_customise_link_filipino ",
+    "password": "maglagay ng password",
+    "type": "maglagay ng iyong pasadyang link",
+    "copyDownloadText": "copy_download_text_french",
+    "Customise": "Pasadyang Link",
+    "your": "KOPYAHIN ANG LINK NG PAGDADOWNLOAD MO",
+    "copyCustomised": "Kopyahin ang Pasadyang Link"
+  },
+  "SetPassword": {
+    "protected": "protektado ng password",
+    "notmatch": "Hindi tugma ang mga password.",
+    "Removepassword": "Tanggalin ang password",
+    "enterPassword": "Mangyaring maglagay ng password una",
+    "Invalid": "Hindi wasto"
+  },
+  "Assign": {
+    "PIN": "kodigong PIN ng assegnasyon",
+    "generate": "GUMAWA NG PIN",
+    "customPin": "Pasadyang PIN",
+    "clear": "LINISIN"
+  },
+  "Preview": {
+    "prev": "PREBIYU",
+    "notImg": "Ito ay hindi isang file ng imahe o video",
+    "notSupported": "HINDI SUPORTADO ANG PREBIYU",
+    "limitExceeded": "LUMAMPAS SA LIMIT NG PREVIEW",
+    "fileLimit": "file ay lumampas sa limitasyon ng preview",
+    "previewError": "ERROR SA PREBIYU"
+  },
+  "Remove": {
+    "rev": "ALISIN",
+    "fileName": "Pangalan ng File"
+  },
+  "ViewDetails": {
+    "viewD": "TIGNAN ANG MGA DETALYE",
+    "fileD": "MGA DETALYE NG FILE",
+    "type": "URI",
+    "size": "SUkat",
+    "created": "likha",
+    "description": "PAGLALARAWAN",
+    "max": "MAX",
+    "addDescription": "Magdagdag ng Paglalarawan"
+  },
+  "Hero2": {
+    "Close": "Isara",
+    "oxford": "UNIBERSIDAD NG OXFORD",
+    "transfers": "PAGLIPATAN",
+    "send": "MAGPADALA",
+    "recevice": "TANGGAPIN",
+    "byDate": "SORTA NG PETSA",
+    "july2023": "Hulyo 2023",
+    "urgent": "Task 768 - Kritikal",
+    "NoYet": "Hindi pa dinownload",
+    "file": "file",
+    "minuteAgo": "IPINADALA 52 MINUTO NA ANG NAKALIPAS",
+    "18july": "18 HULYO 2023",
+    "london": "London Institute",
+    "Downloaded": "Nadownload na"
+  },
+  "CMail": {
+    "confirmEmail": "KUMPORMAHIN ANG IYONG EMAIL",
+    "quickCheck": "Mabilis na pagtsek upang siguraduhin na ikaw nga.",
+    "verificationLink": "Isang link ng pagkumpirma ay ipinadala namin sa",
+    "checkSpam": "(Kung hindi mo makita, tingnan ang Spam folder).",
+    "didn'tReceive": "Hindi mo natanggap ang email?"
+  },
+  "ForgetPassword": {
+    "reset": "IRESET ANG IYONG PASSWORD",
+    "sendInstructions": "Magsesend kami sa iyo ng mga tagubilin para i-reset ang iyong password at makapag-login muli."
+  },
+  "LoginUser": {
+    "Login": "MAG-LOGIN",
+    "CreateUser": "GUMAWA NG USER ID",
+    "withGoogle": "MAGPATULOY GAMIT ANG GOOGLE",
+    "or": "O",
+    "Forgotten": "Nalimutan ang iyong password?"
+  },
+  "SignupUser": {
+    "creatingUserID": "SA PAGGAWA NG USER ID, SUMASANG-AYON KA SA AMING MGA  ",
+    "Terms": "TUNTUNIN NG SERBISYO AT PATAKARAN SA PRIVACY & COOKIE",
+    "firstName": "UNANG PANGALAN",
+    "lastName": "HULING PANGALAN",
+    "organisationOptional": "ORGANISASYON (OPSYONAL)",
+    "additionalNote": "KARAGDAGANG TANDAAN"
+  },
+  "UserHeader": {
+    "sendFiles": "MAGPADALA NG MGA FILE",
+    "sendFolders": "MAGPADALA NG MGA FOLDER",
+    "shareIdeas": "IBAHAGI ANG MGA IDEYA",
+    "MultipleFormats": "IBAHAGI ANG MGA LIPATAN SA MARAMING FORMATO",
+    "unlimitedStorage": "WALANG HANGGANANG LAGRING",
+    "sendUnlimited": "MAGPADALA NG WALANG HANGGANANG PAGLIPATAN",
+    "ReceiveUnlimited": "TUMANGGAP NG WALANG HANGGANANG PAGLIPATAN",
+    "StorageUpTo": "LAGRING HANGGANG 10 TAON",
+    "portal": "PORTAL",
+    "customExpiration": "TIYAK NA PETSA NG PAGKATAPOS",
+    "AssignPIN": "TUKUYIN ANG PIN PROTEKSIYON",
+    "PublicSharing": "PAMPUBLIKONG PAGSASALO",
+    "DynamicLinks": "DINAMIKONG LINKS",
+    "PasswordsProtect": "PINOPROTEKSIYONAN NG PASSWORD",
+    "TrackDownloads": "SUBAYBAYAN ANG MGA DOWLOAD",
+    "advance": "ABANTENG AES 254-BIT ENKRIPSYON",
+    "creator": "TAGALIKHA NG NILALAMAN",
+    "userPortal": "PORTAL NG GUMAGAMIT",
+    "themes": "MGA TEMANG PERSONALIZED",
+    "customisedProfiles": "MGA CUSTOMISED NA PROFILE",
+    "militaryGrade": "MILITARY GRADE ENCRYPTION"
+  },
+  "Download": {
+    "ready": "HANDA.",
+    "set": "ITAKDA.",
+    "download": "IKARGA.",
+    "ZTFRExpires": "ANG ZTFR AY MAGEEXPIRE SA LOOB NG 7 ARAW",
+    "revision": "REBISYON",
+    "files": "MGA FAAYL",
+    "seeYou": "Hi, inisip ko baka gusto mo itong magamit. Good luck. Kitakits sa lalong madaling panahon. Jessica x",
+    "preview": "PREBIYU",
+    "unlocked": "NABUKSAN",
+
+    "advanceTxtSize": "advance_text_size",
+    "assignAdvanceTxtSize": "advance_text_size",
+
+    "letsDoLeft": "lets_do_left_portuguese",
+    "advanceTxt": "download_advance_txt_filipino_new",
+    "advanceAssignTxt": "download_advance_txt_filipino_new",
+    "ztfrExpiresIn": "MAG-E-EXPIRE ANG ZTFR SA",
+    "days": "MGA ARAW",
+    "ztfrExpired": "ZTFR LUMABAS"
+  },
+  "DownloadAssign": {
+    "ready": "HANDA.",
+    "set": "ITAKDA.",
+    "download": "IKARGA.",
+    "ZTFRExpires": "ANG ZTFR AY MAGEEXPIRE SA LOOB NG 30 ARAW",
+    "university": "UNIBERSIDAD",
+    "hiAll": "Hi sa lahat.",
+    "workAccess": "Mangyaring gamitin ang iyong itinakdang ZTFR PIN upang magkaroon ng access sa iyong trabaho.",
+    "assign": "ITAKDA"
+  },
+  "DownloadPassword": {
+    "enterPassword": "MAGLAGAY NG PASSWORD",
+    "pinCode": "KODIGO PIN"
+  },
+  "DownloadPasswordC": {
+    "revision": "MGA FAAYL NG REBISYON"
+  },
+  "DownloadPreview": {
+    "close": "ISARA",
+    "items": "MGA ITEM SA LOOB NG ZTFR NA ITO",
+    "ZTFRExpires": "ANG ZTFR AY MAGEEXPIRE SA LOOB NG 7 ARAW",
+    "downloadAll": "IKARGA LAHAT",
+    "lookingInside": "Nagtitingin sa loob ng folder.",
+    "WhatInside": "Ano ang nasa loob ng folder? Tingnan natin.",
+    "preview": "PREBIYU",
+    "name": "PANGALAN",
+    "type": "URI",
+    "size": "LAKI",
+    "hide": "tago"
+  },
+  "EnterPinCode": {
+    "pinCode": "KODIGO PIN",
+    "hello": "HELLO",
+    "youNote": "Mayroon kang note:",
+    "DueDate": "Ang takdang petsa ay Hulyo 19 - 09:00.",
+    "items": "MGA ITEM SA LOOB NG ZTFR NA ITO",
+    "enterPin": "ILAGAY ANG TINATAKDANG PIN-KODE MO",
+    "incorrectPin": "MALING PIN-KODE",
+    "clear": "LINISIN"
+  },
+  "ResendMail": {
+    "checkEmail": "TIGNAN ANG IYONG E-MAIL",
+    "getBottom": "Ating alamin ang dahilan. Ito ang e-mail na ginagamit mo sa ZTFR.",
+    "resend": "IULIT ANG PAGPAPADALA"
+  },
+  "Assignfiles": {
+    "assign": "ITAKDA",
+    "assignFiles": "itakda ang mga faayl",
+    "assignName": "itakda ang pangalan",
+    "assignPin": "itakda ang kodigong PIN",
+    "generatePin": "GUMAWA NG KODIGONG PIN",
+    "CustomPin": "KUSTOMISADONG KODIGONG PIN",
+    "AdditionalNote": "KARAGDAGANG NOTE",
+    "clear": "LINISIN"
+  },
+  "AssignShare": {
+    "exclusiveFeature": "ANG ITAKDA AY ISANG EKSKLUSIBONG FEATURE NA NAGBIBIGAY SA TAKDA (IKAW) NG PAGKAKATAON NA MAGLATHALA NG MGA FAAYL/MGA FOLDER AT MAY OPSYON NA TIYAKIN AT KONTROLIN ANG MGA FAAYL/MGA FOLDER NA GUSTO MONG IBIGAY SA TAKDA (RECIPIENT). ISANG PAMATAY-ALIW NA 4 DIGITONG KODIGO PIN ang ibinibigay sa takda (recipient) para magkaroon sila ng access sa mga faayl/mga folder.",
+    "gainAccess": "ANG ITAKDA AY ISANG EKSKLUSIBONG FEATURE NA NAGBIBIGAY SA TAKDA (IKAW) NG PAGKAKATAON NA MAGLATHALA NG MGA FAAYL/MGA FOLDER AT MAY OPSYON NA TIYAKIN AT KONTROLIN ANG MGA FAAYL/MGA FOLDER NA GUSTO MONG IBIGAY SA TAKDA (RECIPIENT). ISANG PAMATAY-ALIW NA 4 DIGITONG KODIGO PIN ang ibinibigay sa takda (recipient) para magkaroon sila ng access sa mga faayl/mga folder.",
+    "oneUpload": "ISA LANG NA UPLUAN. DAMI NG POSIBILIDAD.",
+    "title": "PAMAGAT",
+    "note": "NOTA",
+    "RevisionFiles": "MGA FAAYL NG REBISYON",
+    "justThought": "Hi, inisip ko baka gusto mo itong magamit. Good luck. Kitakits sa lalong madaling panahon. Jessica x",
+    "assignee": "TAKDA"
+  },
+  "DownloadIndex": {
+    "DownloadIndexStyle": "revision_file_french",
+    "heroLeft": "hero_left_portuguese",
+    "revision": "REBISYON",
+    "files": "MGA FILE"
+  },
+  "ShareIndividual": {
+    "renameTitle": "PALITAN ANG PAMAGAT",
+    "fileLgSIze": "lg:text-[11px]",
+    "fileSIze": "text-[8px]",
+    "renameFile": "PALITAN ANG MGA FILE/FOLDERS",
+    "preview": "PREBIYU",
+    "view": "TINGNAN ANG MGA DETALYE",
+    "expires": "EXPIRES SA LOOB NG",
+    "getLink": "KUHA NG LINK",
+    "QRCode": "KUHA NG QR CODE",
+    "setPassword": "ITAKDA ANG PASSWORD",
+    "assign": "ITAKDA",
+    "remove": "ALISIN",
+    "optionLgSIze": "lg:text-[6px]",
+    "optionSIze": "text-[6px]",
+    "moreOption": "MGA KARAGDAGANG OPSYON"
+  },
+  "Password": {
+    "password": "PASSWORD",
+    "confirmPassword": "Kumpirmahin ang Password"
+  },
+  "error": {
+    "required": "Kinakailangan",
+    "allFieldRequired": "Lahat ng field ay kailangan",
+    "invalidEmail": "Hindi wastong Email",
+    "invalidPassword": "Hindi wastong Password",
+    "enterValidEmail": "Ilagay ang wastong Email",
+    "enterValidPassword": "Ilagay ang wastong Password",
+    "enterValidFirstName": "Ilagay ang wastong Pangalan",
+    "enterValidLastName": "Ilagay ang wastong Apelyido",
+    "minimumLength3": "Dapat mayroong hindi bababa sa 3 na haba",
+    "shortLength": "Maikli ang haba",
+    "longLength": "Mahaba ang haba",
+    "passwordMatch": "HINDI TUMUTUGMA ANG MGA PASSWORD.",
+    "passwordMatchSize": "text__7__9",
+    "invalid": "Hindi wasto",
+    "passwordReq": "Kinakailangan ang Password",
+    "confirmPasswordReq": "Kinakailangan ang Pagkumpirma ng Password",
+    "verfied": "Nakumpirma",
+    "invalidZVC": "Hindi wastong ZVC",
+    "invalidCredentials": "Hindi wastong mga Credentials",
+    "invalidPin": "Hindi wastong Pin",
+    "inputPassword": "Ilagay ang Password muna",
+    "inputpasswordConfirm": "Ilagay ang Password para sa Pagkumpirma"
+  },
+  "page": {
+    "404": {
+      "somethingWrong": "Mayroong mali.",
+      "oops": "Pasensya na",
+      "oopsTextSize": "oops_text_size_filipino",
+      "couldNotFound": "Hindi namin mahanap ang pahinang hinahanap mo.",
+      "tryAgain": "Maaari mong subukan ulit o, kung nais mo, maari mo kaming sabihan kung ano ang nangyari.",
+      "sendError": "Ipadala ang iyong error code sa support@zitransfer.com at subukan naming tumulong.",
+      "copyCode": "kopyahin ang aking error code",
+      "codeCopied": "Nakopya ang error code"
+    },
+    "legalModal": {
+      "textsizes": {
+        "textsize3": "text__8__11_2xl"
+      },
+      "links": {
+        "termsOfServices": "Mga Tuntunin ng Serbisyo",
+        "privacyStatement": "Pahayag ng Pagkapribado",
+        "noticePolicy": "Patakaran Tungkol sa Abiso/Paggiba",
+        "advertisingTerms": "Mga Tuntunin sa Paggawa ng Advertisements"
+      },
+      "legal": "LEGAL",
+      "legalInfo": "Legal na Impormasyon at Mga Abiso",
+      "termsOfConditions": {
+        "termsOfServices": "MGA TUNTUNIN NG SERBISYO",
+        "ownership": {
+          "ownership_heading": "Pag-aari ng Site; Pagsang-ayon sa mga Tuntunin ng SERBISYO",
+          "ownership_para1": "Ang Mga Tuntunin at Kondisyon ng Serbisyo (ang \"Mga Tuntunin ng Serbisyo\") na ito ay nag-aapply sa ZTFR (ZITRANSFER) web site (platform) na matatagpuan sa <a href='https://zitransfer.com' target='_blank'>www.zitransfer.com</a>, <a href='https://zitransfer.com' target='_blank'>www.ztfr.org</a> at sa lahat ng kaugnay na site na may kaugnayan sa <a href='https://www.zimogroup.org' target='_blank'>www.zimogroup.org</a> na pinamumuhunan ng ZIMO (ZIMO GROUP), ang mga sangay nito at mga kaanib, kabilang na ang mga ZIMO sites sa buong mundo (kolektibong tinatawag na \"Site\"). Ang Site ay pag-aari ng ZIMO GROUP LIMITED (\"ZIMO\") at ng mga nagbigay ng lisensya nito. SA PAGGAMIT MO SA SITE, PINAGSASANG-AYONAN MO ANG MGA TUNTUNIN NG SERBISYO NA ITO; KUNG HINDI KA PUMAPAYAG, HUWAG GAMITIN ANG SITE.",
+          "ownership_para2": "Inihihimpil ng ZTFR ang karapatan, sa tanging kanyang pagpapasya, na baguhin, baguhin, magdagdag o magtanggal ng mga bahagi ng Mga Tuntunin ng Serbisyo na ito, anumang oras. Ito ay iyong responsibilidad na regular na suriin ang Mga Tuntunin ng Serbisyo na ito para sa mga pagbabago. Ang iyong patuloy na paggamit ng Site/Platform matapos ilathala ang mga pagbabago ay nangangahulugan na tinatanggap at pinanagotan mo ang mga pagbabago. Habang sumusunod ka sa mga Tuntunin ng Serbisyo na ito, nagkakaloob ng personal, hindi ekslusibo, hindi maipapasa, limitadong pribilehiyo sa iyo ang ZTFR na pumasok at gamitin ang Site/Platform."
+        },
+        "content": {
+          "content_heading": "NILALAMAN",
+          "content_para1": "Ang lahat ng teksto, grapika, user interfaces, visual interfaces, mga litrato, mga tatak-trademarks, mga logo, tunog, musika, obra, at code ng computer (kolektibong tinatawag na \"Nilalaman\"), kabilang ang ngunit hindi limitado sa disenyo, istraktura, pagpili, koordinasyon, ekspresyon, \"look and feel\" at aransele ng nasabing Nilalaman, na matatagpuan sa Site ay pag-aari, kontrolado, o may lisensya ng ZTFR (ZITRANSFER) at ZIMO, at protektado ng mga batas ukol sa anyo, karapatang-akda, patente at mga batas ukol sa mga tatak-trademarks, at iba't ibang iba't ibang karapatan sa intelehensiyang pang-propiedad at mga batas ukol sa labanang di-makatarungan.",
+          "content_para2": "Maliban sa espesyal na pagtitiyak na ibinibigay sa mga Tuntunin ng Serbisyo na ito, walang bahagi ng Site/Platform at ng anumang Nilalaman ang maaring kopyahin, ulitin, ilathala, ilathala sa publiko, i-encode, isalin, ipasa o ikalat sa anumang paraan (kabilang ang \"mirroring\") sa anumang ibang computer, server, Web site o ibang medium para sa publikasyon o distribusyon o para sa anumang komersyal na gawain, nang walang pahintulot na nakasulat mula sa ZIMO.",
+          "content_para3": "Maaring gamitin ang impormasyon tungkol sa mga produkto at serbisyong inaalok ng ZTFR (tulad ng data sheets, mga artikulong base sa kaalaman, at iba pang mga materyales) na inihanda ng ZIMO para sa pag-download mula sa Site, anupaman na (1) huwag alisin ang anumang wika ng pag-aari sa lahat ng mga kopya ng mga dokumentong ito, (2) gamitin ang impormasyon na ito lamang para sa iyong personal, hindi-komersyal na layunin at huwag kopyahin o ilathala ang impormasyong ito sa anumang networked computer o i-broadcast ito sa anumang midya, (3) huwag baguhin ang anumang impormasyong ito, at (4) huwag magbigay ng karagdagang mga pahayag o waranti ukol sa mga dokumentong ito."
+        },
+        "headlines": {
+          "headlines_heading": "MGA PAHAYAG SA UNAHAN",
+          "headlines_point1": "Ang iyong nilalaman ay iyo - ikaw ang may-ari nito, at ikaw ang may pananagutan para dito. Gagawin lamang namin ang kinakailangan para gumana nang maayos ang aming mga serbisyo.",
+          "headlines_point2": "Kung ikaw ay gumagawa ng mga bagay na labag sa batas, maaring kami ay magbloke at/o magtanggal ng iyong data/uploads/downloads, at pansamantalang ihinto ang iyong mga account.",
+          "headlines_point3": "Maaring magbago ang aming mga tuntunin, serbisyo, at/o bayad mula sa panahon sa panahon. Kung mayroon kang account at hindi mo gusto ang mga pagbabagong ginagawa namin, maaring kanselahin mo ito anumang oras.",
+          "headlines_point4": "Dapat namin sabihin na ginagamit mo ang aming serbisyo sa iyong sariling panganib; hindi kami mananagot para sa anumang pinsala kung sakaling may mga hindi inaasahang pangyayari."
+        },
+        "termsOfServices_points": {
+          "termsOfServices_heading": "MGA TUNTUNIN NG SERBISYO",
+          "termsOfServices_subheading": "INAALOK NG ZTFR ANG MGA SUMUSUNOD NA TOOL:",
+          "termsOfServices_point1": "Isang serbisyo para magbahagi ng mga file (\"ZTFR/ZITRANSFER File Sharing\")",
+          "termsOfServices_point2": "Isang serbisyo na nagpapahintulot sa iyo na mag-imbak, mag-organisa, magbahagi, at tumanggap ng nilalaman mula sa iba't ibang pinagmulang (\"Collect\")",
+          "termsOfServices_point3": "Isang serbisyo na nagpapahintulot sa iyo na magbahagi ng mga ideya at datos/mga file sa iba't ibang anyo/plataforma",
+          "termsOfServices_point4": "Isang serbisyo na nagpapahintulot sa iyo na magbenta gamit ang ZTFR X",
+          "termsOfServices_point5": "Isang serbisyo na libreng gamitin na may walang hanggang pag-upload/pag-download (ang mga premium na serbisyo ay hindi kasama)",
+          "termsOfServices_point6": "Karagdagang mga tampok at kakayahan",
+          "termsOfServices_para1": "Ang iyong paggamit at pag-access sa aming mga serbisyo, software, mga website (kasama ang mga browser extension) at/o mga aplikasyon (sa kabuuan: \"Serbisyo\") ay pinapamahalaan ng mga Tuntunin ng Serbisyo na ito (\"Mga Tuntunin\").",
+          "termsOfServices_para2": "Maaaring i-alok ang Serbisyo sa iyo online, sa anyo ng mobile at/o desktop application(s) at/o maaaring isama sa mga serbisyo ng mga ikatlong partido.",
+          "termsOfServices_para3": "Pinapahintulutan ka ng Serbisyo na mag-upload, magsumite, mag-imbak, magbahagi, tumanggap, magkolekta, magkuha, at/o mag-visualize ng iyong mga ideya, teksto, grapika, video, datos, impormasyon, mga file, mga presentation deck, o iba pang nilalaman, kabilang ang mga nilalamang ng mga ikatlong partido na ginagamit mo (sa kabuuan: \"Nilalaman\"). Iniingatan mo ang lahat ng mga karapatan, responsibilidad, at pananagutan para sa lahat ng Nilalaman. Hindi nagmamay-ari ng iyong Nilalaman ang ZTFR.",
+          "termsOfServices_para4": "Ang Serbisyo ay inilalagay sa iyo bilang gumagamit ng Serbisyo mula sa ZIMO GROUP LIMITED (\"ZITRANSFER\", \"ZTFR\"), na may pangunahing tanggapan sa 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, Inglatera, UK.",
+          "registered_location": "Nakarehistro sa Inglatera at Wales.",
+          "registered_number": "Rehistradong Numero ng Kumpanya: 14383397."
+        },
+        "applicability": {
+          "applicability_heading": "APLIKASYON",
+          "applicability_point1": "Ipinapahintulutan ka lamang na gumamit ng Serbisyo kung ikaw ay 16 na gulang o higit pa (maliban kung ginagamit mo ito sa ilalim ng ZTFR Education program).",
+          "applicability_point2": "Mangyaring basahin ng mabuti ang mga Tuntunin. Sa pamamagitan ng paggamit ng Serbisyo (direktang sa amin o sa pamamagitan ng aplikasyon ng ikatlong partido, plug-in, extension, o integrasyon), sumasang-ayon ka at tinatanggap ang mga Tuntunin na ito at ang aming Patakaran sa Abiso/Paggiba ('NTD Policy'). Para sa paggamit ng personal na datos at cookies kaugnay ng Serbisyo, ang aming Pahayag sa Pagkapribado ay nag-aapply.",
+          "applicability_point3": "Kung ang Serbisyo ay kasama, ginagamit kaugnay ng mga serbisyo ng mga ikatlong partido, maaring mag-apply ang mga tuntunin at kondisyon, mga patakaran sa abiso/paggiba, at/o mga pahayag sa pagkapribado ng mga ikatlong partido bukod sa mga Tuntunin na ito. Kung ikaw ay gumagamit ng Serbisyo para sa iyong employer o ibang organisasyon, sumasang-ayon ka sa mga tuntunin ng organisasyong iyon at nangangako ka at nagpapatunay na ikaw ay may awtoridad na gawin ito. Hindi sumasang-ayon ang ZTFR sa mga serbisyong, tuntunin, at/o patakaran ng mga ikatlong partido.",
+          "applicability_point4": "Kung nais mong maghain ng reklamo o abiso ukol sa mga Nilalaman na labag sa batas na inimbak o ibinahagi gamit ang Serbisyo o ang ZTFR API, mangyaring basahin ang NTD Policy.",
+          "applicability_point5": "Kung natuklasan mong may banta sa seguridad sa alinmang bahagi ng Serbisyo, mangyaring basahin ang aming Responsableng Pag-aanunsiyo.",
+          "applicability_point6": "Kung nais mong gumamit ng ZTFR API (tulad ng inilarawan sa API Terms of Use), ang API Terms of Use ay nag-aapply bukod sa mga Tuntunin na ito.",
+          "applicability_point7": "Maaring baguhin ng ZTFR ang mga Tuntunin mula sa oras sa oras. Ang mga nabagong Tuntunin ay magiging epektibo sa oras na ilathala ito sa mga website(s) ng ZITRANSFER (ZTFR) at/o sa mobile at/o desktop application(s) ng ZITRANSFER, o sa anumang oras na maaaring itukoy sa mga nabagong Tuntunin. Kaya't inirerekomenda namin na suriin mo ang mga Tuntunin mula sa oras sa oras at tandaan ang anumang mga pagbabago. Sa pamamagitan ng pagpapatuloy sa iyong paggamit ng Serbisyo, tinatanggap mo ang mga nabagong Tuntunin. Kung may mga malalaking pagbabago sa mga Tuntunin, ikaw ay bibigyan ng abiso bago ito maganap: (i) sa oras na ginagamit mo ang Serbisyo, o (ii) sa pamamagitan ng mensahe sa mga detalye ng kontakto na ibinigay mo sa amin, o (iii) sa pamamagitan ng paglathala ng abiso ng pagbabago sa mga website(s) ng ZITRANSFER at/o sa mobile at/o desktop application(s) ng ZITRANSFER. Kung hindi mo tatanggapin ang mga pagbabagong ito, maaari mong kanselahin ang iyong subscription.",
+          "applicability_point8": "Ang mga Tuntunin na ito ay nagsusupersede sa anumang mga dating oral at nasulat na kwotasyon, tuntunin, komunikasyon, kasunduan, at pang-unawa sa pagitan mo at ng ZTFR (ZITRANSFER)."
+        },
+        "fileSharing": {
+          "fileSharing_heading": "PAGBAHAGI NG MGA FILE",
+          "fileSharing_point1": "Pinapahintulutan ka ng ZTFR (ZITRANSFER) File Sharing na magbahagi ng iyong Nilalaman sa iba.",
+          "fileSharing_point2": "Upang magbahagi ng iyong Nilalaman, kailangan mong i-upload ito at ibigay sa amin ang (isang limitadong bilang ng) mga email address ng mga tatanggap (\"email transfer\"), pumili kung paano mo nais na ikalat ang link ng pag-download (\"Kumuha ng Link\") sa iyong sarili. Bukod dito, mayroon ka ring mga pagpipilian kung paano mo nais ipamahagi/ibahagi ang iyong nilalaman, pumili mula sa mga sumusunod na pamamaraan; Kumuha ng QR Code, WhatsApp, Facebook, Threads, X (dating Twitter), at Messages.",
+          "fileSharing_point3": "Nagbibigay-daan ang ZTFR (ZITRANSFER) File Sharing na magbahagi ng Nilalaman hanggang sa isang maximum na kabuuang kapasidad. Ang in-upload na Nilalaman ay itinatabi sa mga server ng ZITRANSFER sa isang limitadong panahon, pagkatapos ng kung saan ang kakayahan na mag-download ay nauubos.",
+          "fileSharing_point4": "Pagkatapos ng panahon ng pagkaka-expire, ang ZTFR ay permanenteng maglilinis at maglilinis ng mga in-upload na mga file gamit ang military grade na pamamahagi. Ang mga file na ito ay hindi na magiging available o maaaring kunin muli.",
+          "fileSharing_point5": "Ang pangunahing kakayahan ng ZTFR File Sharing ay (sa ngayon) libre mula sa rehistrasyon at bayad.",
+          "fileSharing_point6": "Itinuturing ng ZTFR na kumpidensyal ang Nilalaman at hindi kinokontrol ang paggamit ng mga link ng pag-download, sa kabila kung ito ay orihinal na ipinamahagi ng amin o ng iyo. Maaring i-forward ng mga tatanggap ang mga link at payagan ang iba na gamitin ang mga ito. Ikaw lamang ang may pananagutan para sa Nilalaman na iyong in-upload at ibinahagi.",
+          "fileSharing_point7": "Ang ZTFR Pro at ZTFR Premium ay mga bayad na bersyon ng subscription na nag-aalok sa iyo ng isang set ng premium na serbisyo at iba't ibang mga tuntunin ng subscription kumpara sa libreng bersyon.",
+          "fileSharing_point8": "Ang isang subscription ng ZTFR (kahit Libre, Pro, o Premium) ay naglalaman ng mga subscription sa iba pang mga bahagi ng ZTFR at ng mga serbisyo nito.",
+          "fileSharing_point9": "Inihihimpil ng ZTFR ang karapatan na awtomatikong magtanggal ng lahat ng Nilalaman na in-upload gamit ang ZTFR Pro at naroroon pa sa aming mga server, 28 araw pagkatapos ng pagtatapos ng iyong subscription ng ZTFR Pro o ZTFR Premium.",
+          "fileSharing_point10": "Ang ZTFR Premium ay nag-aalok sa iyo (kasama ang iba pa) ng walang hanggang ZITRANSFER File Sharing storage na may walang hanggang pag-customize. Mayroon kang walang hanggang Terabayt ng kapasidad sa iyong pangangalaga na may mga eksklusibong kagamitan sa pag-customize.",
+          "fileSharing_point11": "Ang ZTFR Teams (\"Teams\") ay isang bayad na bersyon ng ZTFR Pro at ZTFR Premium, na nagbibigay-daan sa iyo na magdagdag ng mga miyembro ng koponan sa iyong ZTFR Pro o ZTFR Premium account. Ang mga miyembro ng koponan ay maaring madaliang idagdag o tanggalin bawat yugto ng subscription.",
+          "fileSharing_point12": "Ang petsa ng pagsisimula ng bayad na subscription period ng ZTFR Teams ay kapag ka nagparehistro bilang ZTFR team vendor (\"Team Vendor\") ng ZTFR Teams account."
+        },
+        "payment": {
+          "payment_heading": "PAGBAYAD",
+          "payment_point1": "Ang ZTFR ay isang libreng serbisyo ng pagbabahagi ng mga file maliban na lang kung mayroon ka nang piniling serbisyong may bayad (ZTFR Pro, ZTFR Premium, ZTFR X, at iba pa).",
+          "payment_point2": "Maaring magdala o magbago kami ng mga bayarin para sa mga Serbisyo mula sa oras-oras, kung kaya't magbibigay kami sa iyo ng paunang abiso. Kung mayroon kang isang fixed term at price subscription, mananatili ang presyong iyon sa bisa para sa fixed term. Kung hindi ka sang-ayon sa pagbabago ng presyo, maaring kanselahin mo ang iyong subscription at tigilan ang paggamit ng mga Serbisyo sa pagtatapos ng kasalukuyang termino ng Serbisyo. Kung magpapatuloy ka sa paggamit ng mga Serbisyo matapos ang pagbabago ng presyo, sumasang-ayon ka na bayaran ang bagong presyo. Ang mga bagong bayarin ay mangangailangan ng iyong pahintulot at pagpaparehistro.",
+          "payment_point3": "Ayon sa piniling paraan ng pagbabayad, maaring singilin ka ng mga bayarin ang nakaugnay sa pagproseso ng iyong bayad ng tagapaglabas ng paraang pangbayad.",
+          "payment_point4": "Maaring baguhin ang iyong paraang pangbayad sa iyong mga setting ng account (Portal) ng nararapat na Serbisyo.",
+          "payment_point5": "Maaring i-suspend o kanselahin ng ZTFR ang mga Serbisyo sa iyo kung ang isang bayad ay hindi matagumpay na natapos (halimbawa, sa kaso ng kulang na pondo, pag-expire ng credit card, pagbabago sa mga detalye ng pagbabayad, o iba pa). Ang suspensyon o kanselasyon ng mga Serbisyo dahil sa hindi pagbabayad ay maaring magdulot ng pagkawala ng access at paggamit sa iyong account at iyong Nilalaman.",
+          "payment_point6": "Kung ikaw ay nag-subscribe at nagbabayad sa amin sa pamamagitan ng Apple App Store o Google Play Store, maaring may mga term and kondisyon na itinatakda ng Apple o Google na maaring mag-apply."
+        },
+        "subscription_cancelation": {
+          "subscription_cancelation_heading": "PAGKANSELA NG SUBSCRIPTION",
+          "subscription_cancelation_point1": "Ang oras ng orihinal na subscription term ay nag-iiba depende sa iyong pagpili at/o sa Serbisyong ito ay inaaplay.",
+          "subscription_cancelation_point2": "Maliban sa iyong karapatan sa ilalim ng mga lokal na batas na magpanconsumo, mayroon kang karapatan na kanselahin ang iyong subscription sa loob ng unang 7 araw, maliban na lang kung magsisimula ka nang gumamit ng Serbisyo sa panahong ito kung saan tatalikuran mo ang iyong karapatan na magkansela.",
+          "subscription_cancelation_point3": "Ang termino ng subscription ay awtomatikong magre-renew para sa napiling termino ng subscription, maliban na lang kung kinansela mo ang iyong subscription sa tamang oras (bago ang huling araw ng iyong subscription).",
+          "subscription_cancelation_point4": "Sa pagkansela, magpapatuloy ka na may access sa mga Serbisyo hanggang sa pagtatapos ng iyong bayad na termino ng subscription.",
+          "subscription_cancelation_point5": "Ang pagkansela ay hindi nagbibigay sa iyo ng karapatan sa reimbursement ng (bahagi ng) bayad sa subscription.",
+          "subscription_cancelation_point6": "Kung ang iyong subscription ay awtomatikong magre-renew para sa isang termino ng higit sa tatlong (3) buwan, mayroon kang karapatan na kanselahin ang subscription sa anumang oras pagkatapos ng ganitong pagre-renew na may termino na isang (1) buwan. Sa pagkansela batay sa klausulang ito, maaring humiling ng reimbursement para sa bahagi ng bayad sa subscription. Ito ay nangangahulugang babayaran mo ang panahon hanggang sa pumasok ang kanselasyon sa bisa, batay sa standard na buwanang bayad para sa nararapat na Serbisyo.",
+          "subscription_cancelation_point7": "Sa pagkansela o kung ang isang bayad ay hindi matagumpay na natapos (halimbawa dahil sa pag-expire o kulang na pondo), ang iyong account ay ide-deactivate matapos ang pagtatapos ng iyong subscription term. Hindi mo na magkakaroon ng access sa iyong personal na data, address book, at anumang Nilalaman na naka-store gamit ang Serbisyo. Maaring buksan muli ang iyong subscription anumang oras sa iyong mga setting ng account (Portal) sa loob ng apat na linggo matapos ang deactivation. Ang iyong subscription ay magre-renew mula sa araw ng pagbubukas muli.",
+          "subscription_cancelation_point8": "Kung hindi mo bubuksan muli ang iyong subscription sa loob ng itinakda na termino, maaring ang anumang Nilalaman na naka-store gamit ang Serbisyo at anumang impormasyon, kasama ang iyong personal na content, mga setting, address book, at anumang mga file na naka-store para sa paglilipat ay maaring awtomatikong at permanenteng ma-delete mula sa aming mga servers.",
+          "subscription_cancelation_point9": "Kung ikaw ay mag-subscribe sa pamamagitan ng Apple App Store, maaring ang mga term at kondisyon ng Apple ang ma-apply sa termino at kanselasyon ng iyong subscription sa halip ng mga term na itinakda sa klausulang ito."
+        },
+        "teams": {
+          "teams_heading": "TEAMS (Payment, terms and cancellation)",
+          "teams_point1": "Ang isang ZTFR Teams account ay rehistrado sa pangalan ng kanyang Team Vendor. Ang Team Vendor ang sisingilin para sa lahat ng mga miyembro ng koponan na nag-subscribe sa ZTFR Teams account.",
+          "teams_point2": "Ang Team Vendor at mga indibidwal na miyembro ng koponan ay maaaring magdagdag ng mga miyembro ng koponan sa Teams account, pagkatapos nito, ang mga bagong miyembro ng koponan ay may agad na access sa account. Kung ang mga miyembro ng koponan ay idinagdag habang nasa kasalukuyang termino ng subscription, singilin ang Team Vendor nang proporsyonal para sa mga araw na natitira sa termino na iyon. Pagkatapos nito, ang Team Vendor ay buo nang singilin para sa bagong miyembro ng koponan sa susunod na bayad na termino ng subscription.",
+          "teams_point3": "Ang Team Vendor at mga indibidwal na miyembro ng koponan ay maaaring tanggalin ang mga miyembro ng koponan mula sa ZTFR Teams account, pagkatapos nito, ang mga miyembro ng koponan na ito ay agad na mawawalan ng access sa account. Kung ang mga miyembro ng koponan ay tinanggal habang nasa kasalukuyang termino ng subscription, singilin ang Team Vendor para sa miyembro ng koponan na ito hanggang sa pagtatapos ng bayad na termino ng subscription. Hindi singilin ang Team Vendor para sa tinanggal na miyembro ng koponan sa susunod na bayad na termino ng subscription.",
+          "teams_point4": "Ang mga hindi nagamit na araw sa bayad na termino ng subscription dahil sa pagtanggal ng isang miyembro ng koponan, maaaring gamitin para sa isang bagong idinagdag na miyembro ng koponan sa parehong bayad na termino ng subscription.",
+          "teams_point5": "Kung kinansela ang isang ZTFR Teams account, magpapatuloy ang Team Vendor at mga miyembro ng koponan sa access sa ZTFR Teams account hanggang sa pagtatapos ng bayad na termino ng subscription. Pagkatapos ng bayad na termino ng subscription, ang Team Vendor at ang mga miyembro ng koponan ay awtomatikong magkakaroon ng access sa isang indibidwal, libreng ZTFR account.",
+          "teams_point6": "Kung awtomatikong na-renew ang iyong subscription para sa isang panahon na higit sa tatlong (3) buwan, may karapatan ka na kanselahin ang subscription anumang oras matapos ang renewal na may termino na isang (1) buwan. Sa pagkansela batay sa klausulang ito, maaaring humiling ka ng reimbursement para sa bahagi ng bayad sa subscription. Ito ay nangangahulugang babayaran mo ang panahon hanggang sa pumasok ang kanselasyon sa bisa, batay sa standard na buwanang bayad para sa nararapat na Serbisyo.",
+          "teams_point7": "Sa pagkansela o kung ang isang bayad ay hindi matagumpay na natapos (halimbawa dahil sa pag-expire o kulang na pondo), ide-deactivate ang iyong account matapos ang pagtatapos ng iyong termino ng subscription. Hindi mo na magkakaroon ng access sa iyong personal na data, address book, at anumang Nilalaman na naka-store gamit ang mga Serbisyo. Maaring buksan muli ang iyong subscription anumang oras sa iyong mga setting ng account (Portal) sa loob ng apat na linggo matapos ang deactivation. Ang iyong subscription ay magre-renew mula sa araw ng pagbubukas muli.",
+          "teams_point8": "Kung hindi mo bubuksan muli ang iyong subscription sa loob ng itinakda na termino, maaring ang anumang Nilalaman na naka-store gamit ang mga Serbisyo at anumang impormasyon, kasama ang iyong personal na content, mga setting, address book, at anumang mga file na naka-store para sa paglilipat ay maaring awtomatikong at permanenteng ma-delete mula sa aming mga servers.",
+          "teams_point9": "Kung ikaw ay mag-subscribe sa pamamagitan ng Apple App Store, maaring ang mga term at kondisyon ng Apple ang ma-apply sa termino at kanselasyon ng iyong subscription sa halip ng mga term na itinakda sa klausulang ito."
+        },
+        "content_ownership": {
+          "content_ownership_heading": "Pag-aari ng Nilalaman, mga pahintulot, at responsibilidad",
+          "content_ownership_point1": "Ang ZITRANSFER (ZTFR) ay hindi sumasakop sa anumang pag-aari ng Nilalaman na iyong nilikha, ginamit, itinago o ibinahagi gamit ang mga Serbisyo at ikaw lamang ang may pananagutan dito. Ikaw lamang ang may pananagutan na ibahagi ito sa tamang mga tatanggap. Ang anumang pananagutan para sa pinsala na may kaugnayan sa Nilalaman ay mayroon sa indibidwal na lumikha, gumamit, nagtangalan, at/o nagbahagi nito sa loob ng mga Serbisyo. Kinikilala mo na ang mga link sa pag-download at/o access ay maaaring ipasa at ang mga tatanggap ng link na may access ay maaring mag-access sa Nilalaman na konektado dito.",
+          "content_ownership_point2": "May mga Serbisyo na nagbibigay-daan sa iyo na protektahan ang Nilalaman o mga paglilipat gamit ang password at pin. Ang user ang may pananagutan para sa kumpidensyalidad at/o pamamahagi ng mga password.",
+          "content_ownership_point3": "Sa paggamit ng mga Serbisyo, ginagarantiya mo na mayroon ka, para sa anumang Nilalaman na iyong nilikha, ginamit, itinago, o ibinahagi gamit ang mga Serbisyo, ang lahat ng kinakailangang pahintulot (kasama ang mula sa may-ari ng copyright at iba pang mga may-ari ng intellectual property rights) upang i-distribute, sub-license, ilipat, itago, at/o gawing online na available ang Nilalaman bilang bahagi ng mga Serbisyo.",
+          "content_ownership_point4": "Ang ZTFR ay hindi sumasakop sa iyo o anumang ikatlong partido para sa anumang pinsala na nagmumula mula o may kaugnayan sa Nilalaman na nilikha, ginamit, itinago, o ibinahagi mo sa loob ng mga Serbisyo, kabilang na ang mga copyright protected works at/o mga trademarks.",
+          "content_ownership_point5": "Nangangailangan ang ZITRANSFER (ZTFR) ng isang lisensya mula sa iyo ukol sa Nilalaman PARA SA SOLE PURPOSE OF OPERATING, ENABLING, AND IMPROVING THE SERVICES. Tanging para sa ganitong layunin at hanggang hindi mo inaalis ang Nilalaman mula sa mga Serbisyo, sumasang-ayon ka at kinikilala na sa pamamagitan ng paggamit ng mga Serbisyo, nagbibigay ka sa amin ng isang walang limitasyong, pandaigdig, walang bayad na lisensya para (i) gamitin, i-host, itago, i-scan, i-search, i-sort, i-index, lumikha ng mga preview, at (ii) ireproduce, ipa-communicate, ipa-publish, ipa-publicly display, ipa-distribute, at i-edit (kasama na ngunit hindi limitado sa scaling, cropping, adapting, at translating) ang Nilalaman. ANG LICENSE NA BAHAGI NG (ii) AY HINDI NAG-AAPPLY SA ZITRANSFER (ZTFR) FILE SHARING tulad ng itinakda sa klausulang 2 ng mga Term na ito. Para sa wala nang duda, hindi magbebenta o mag-aadvertise ang ZITRANSFER (ZTFR) ng Nilalaman: Kailangan lamang ng ZITRANSFER (ZTFR) ang lisensya PARA SA SOLE PURPOSE OF OPERATING, ENABLING, AND IMPROVING THE SERVICES.",
+          "content_ownership_point6": "Hindi nagbibigay ng public search function, catalogue o listing ang ZTFR para hanapin ang Nilalaman.",
+          "content_ownership_point7": "Maaring ipakita ng ZTFR ang mga ads mula sa mga advertisers at artists na pinili ng ZTFR (tulad ng full-page wallpaper ads) kapag ikaw ay gumagamit ng mga Serbisyo."
+        },
+        "restrictions": {
+          "restrictions_heading": "Mga Pagganngan",
+          "restrictions_point1": "Ipinahahalaga ng ZTFR ang iyong mga karapatan at umaasahan na respetuhin mo ang mga karapatan ng iba, kasama na ang ZITRANSFER (ZTFR), mga artist, mga advertiser, at ikatlong partido. Kasama dito ang paggalang sa karapatan sa privacy, corporate intelligence, mga business secret, at mga karapatan sa intellectual property, tulad ng mga trademarks, copyrights, trade names, at logos. Sumasang-ayon ka na huwag gamitin ang mga Serbisyo para gumawa, mag-promote, mag-enable, o mag-facilitate ng anumang hindi legal o kriminal na gawain o paglabag sa mga Term na ito o mag-facilitate o mag-promote ng iba na gawin ito.",
+          "restrictions_point2": {
+            "point": {
+              "pointpart1": "Bilang isang kundisyon para magamit mo ang Mga Serbisyo ",
+              "pointpart2": "sumang-ayon na huwag gumawa, gumamit, mag-imbak o",
+              "pointpart3": " ibahagi ang anumang ",
+              "pointpart4": "Nilalaman na:"
+            },
+            "subpoint1": "Naglalaman ng mga imahe ng child sexual abuse",
+            "subpoint2": "Malaswa, paninirang-puri, libelo, panghihiya, paninira, bastos, hindi disente, diskriminasyon, pangbabanta, pang-aabusong, nakakasama, karumal-dumal, o ilegal",
+            "subpoint3": "Nagpo-promote ng racism, karahasan o pagtatanim ng galit",
+            "subpoint4": "Hindi totoo, pekeng impormasyon, nakaliligaw, mapanlinlang o nagpapaloko",
+            "subpoint5": "Wala kang karapatan",
+            "subpoint6": "Nanlalabag, lumalabag o nang-aappropriar ng mga karapatan sa intellectual property, karapatan sa privacy, kasama na ang mga karapatan sa data protection, at/o anumang ibang uri ng karapatan",
+            "subpoint7": "Nanlalabag o lumalabag sa anumang umiiral na batas o regulasyon; at/o",
+            "subpoint8": "Nagpapakita ng 'hate speech', ito man ay sa isang indibidwal o isang grupo, at ito man ay batay sa ras, kasarian, pananampalataya, bansang pinagmulan, kaugalian na pananampalataya, sexual orientation, wika o ibang katangian ng nasabing indibidwal o grupo."
+          },
+          "restrictions_point3": {
+            "point": "Dagdag dito, sumasang-ayon ka na hindi:",
+            "subpoint1": "Abusuhin, harasin, stalk, mag-intimidate, manggipit, gumawa ng karahasan, o kumilos ng ilegal, o hikayatin ang iba na gawin ito",
+            "subpoint2": "Magkunwari o mag-pretend ng pagkakaugnayan sa anumang tao o entidad",
+            "subpoint3": "Mag-access sa mga hindi pampublikong lugar ng mga Serbisyo",
+            "subpoint4": "Manghimasok sa anumang mga restriction sa access o paggamit",
+            "subpoint5": "Gamitin ang anumang data mining o data gathering o extraction methods, o kunin ang impormasyon tungkol sa mga users ng mga Serbisyo",
+            "subpoint6": "Magpadala ng mga virus, worm, malware, ransomware, junk email, spam, chain letters, phishing emails, unsolicited messages, promotions o advertisements ng anumang uri at para sa anumang layunin",
+            "subpoint7": "Manghimasok, siraan o ipinipinsala ang mga Serbisyo o kumilos ng paraan na maaring magdulot nito",
+            "subpoint8": "Subuking tuklasin, suriin, kompromiso o subukang i-test ang kakayahan ng mga Serbisyo o anumang kaugnay na serbisyo, sistema o network o lumabag sa anumang seguridad o authentication, maliban na lamang kung gagawin mo ito ayon sa aming Responsible Disclosure",
+            "subpoint9": "Gamitin ang mga automated means para mag-access o gumamit ng mga Serbisyo nang walang pahintulot mula sa amin",
+            "subpoint10": "I-reverse engineer o i-decompile ang anumang (parte) ng mga Serbisyo",
+            "subpoint11": "I-re-sell, i-sublicense, i-rent, i-lease, i-offer o i-commercialize ang mga Serbisyo nang walang pahintulot mula sa amin",
+            "subpoint12": "Pahintulutan ang iba na gamitin ang iyong account"
+          }
+        },
+        "violation": {
+          "content_ownership_heading": "Paglabag sa mga Tuntunin ng Serbisyo",
+          "content_ownership_point1": "Ini-reserba ng ZITRANSFER (ZTFR) ang karapatan na imbestigahan, ipagbigay-alam sa mga ikatlong partido, (panandalian) i-block at/o permanente na burahin mula sa kanyang mga servers, nang walang abiso o pananagutan, anumang Nilalaman at/o impormasyon ng account o upang i-block ang sinuman sa pag-access sa anumang bahagi ng mga Serbisyo, kapag natukoy ng ZTFR, sa kanyang sariling kagustuhan o matapos tanggapin ang mahusay na dokumentadong at wastong reklamo, na nilabag mo ang mga Tuntunin na ito o kumilos na lumabag sa anumang umiiral na batas o regulasyon. Higit pang impormasyon ay makukuha sa aming Patakaran sa Pagsabog/Pagtanggal."
+        },
+        "intellectual": {
+          "intellectual_heading": "Intellectual Property",
+          "intellectual_point1": "Lahat ng karapatan sa intellectual property at/o katulad na karapatan sa mga Serbisyo (kasama na ang software, wallpapers, videos, content, photography, graphic design, typography, portraits, logos, trademarks, trade names, domain names, copyrights at patents) ay nauukit sa ZITRANSFER (ZTFR) at/o sa kanyang mga licensors at hindi ka pinapayagan na gamitin, alisin, baguhin, kopyahin, gayahin, i-distribute, i-decompile, o i-reverse engineer ang alinman nito sa anumang paraan.",
+          "intellectual_point2": "Ang ZTFR ay hindi responsable o may pananagutan sa nilalabas na nilalaman ng ikatlong partido sa loob ng mga Serbisyo, sa mga in-ad links patungo sa mga external website o sa mga nilalaman, produkto o serbisyo na inaalok sa mga external website. Kinikilala mo at tinatanggap na ang lahat ng paggamit sa labas ng mga Serbisyo ay sa iyong sariling panganib.",
+          "intellectual_point3": "Laging igagalang at huhubugin mo ang mabuting pangalan at reputasyon ng ZITRANSFER (ZTFR)/ZIMO GROUP at tiyakin na ang iyong paggamit ng mga Serbisyo ay hindi sa anumang paraan magdudulot ng pagkapinsala sa mga karapatan at/o mabuting pangalan at reputasyon ng ZITRANSFER/ZTFR at ng kanyang mga licensors."
+        },
+        "disclaimer": {
+          "disclaimer_heading": "Disclaimer at Pagpaparehistro ng Account",
+          "disclaimer_point1": "Nagbibigay ng mga Serbisyo ang ZTFR \"AS-IS,\" nang walang anumang garantiya ng anumang uri. Nang hindi iniikli ang mga sumusunod, itinatangging itinatanggi nang eksplisito ng ZTFR ang anumang garantiya ng kalakalan, kalakip ang kalidad para sa partikular na layunin at kawalan ng paglabag sa ibang mga karapatan. Wala ngang garantiya ang ZTFR na ang mga Serbisyo ay magagamit nang tuloy-tuloy, ligtas, o walang error. Ang paggamit mo sa mga Serbisyo ay sa iyong sariling panganib. Kinikilala at sumasang-ayon ka na ang ZTFR ay hindi responsable sa anumang pinsala sa computer system o mobile device mo o ng alinmang ikatlong partido na nagmumula sa paggamit ng mga Serbisyo at hindi rin ito responsable sa anumang pagkabigo ng mga Serbisyo na mag-store, mag-transfer o mag-delete ng isang file o sa pagkakasira o pagkawala ng anumang data, impormasyon o Nilalaman na nasa loob ng isang file.",
+          "disclaimer_point2": "Maaring baguhin, tapusin o palawakin ang ZTFR ang mga Serbisyo mula sa oras-oras at ini-reserba ang karapatan na limitahan ang access o alisin ang anumang mga feature o functionality ng mga Serbisyo ayon sa kanyang sariling kagustuhan.",
+          "disclaimer_point3": "Ilang mga Serbisyo ay nangangailangan sa iyo na magparehistro at magbigay sa amin ng data tulad ng iyong email address, password at/o mga detalye ng pagbabayad. Dapat mong tiyakin na ang mga ito ay tama at panatilihin mo itong na-update sa iyong account settings (Portal). Ikaw ay responsable sa anumang aktibidad mula sa o sa pamamagitan ng iyong account, kaya't hindi mo dapat ibahagi ang iyong password at ito ay dapat mong protektahan ng mabuti. Kung lumabas na ginamit nang hindi tama ang mga registration o data ng account, ini-reserba ng ZTFR ang karapatan na burahin ang account. Hindi sumasagot ang ZTFR sa anumang pinsala o pagkapinsala na nagmumula sa hindi awtorisadong paggamit ng iyong account."
+        },
+        "indemnity": {
+          "indemnity_heading": "Indemnity at Pananagutan",
+          "indemnity_point1": "Ipagtatanggol, i-indemnify at iho-hold harmless mo ang ZITRANSFER/ZTFR (kasama na ang kanyang mga empleyado at mga kaanib) mula sa anumang mga reklamo, insidente, mga pananagutan, mga hakbang, mga pinsala, mga pagkawala at gastos (kasama ang mga abogado at accounting fees), na nagmumula o may kaugnayan sa iyong pag-access o paggamit ng mga Serbisyo o sa iyong paglabag sa mga Tuntunin na ito, kasama na ang mga reklamo ng ikatlong partido na ang Nilalaman na nilikha, ginamit, itinago o inishare gamit ang mga Serbisyo mula sa iyo o sa pamamagitan ng iyong account, ay nangangalabag o naglabag sa mga karapatan ng ikatlong partido.",
+          "indemnity_point2": "Maaring magbigay ng integrasyon ang mga Serbisyo sa mga serbisyo ng ikatlong partido. Kinikilala mo na: (i) Hindi responsable ang ZTFR sa anumang gawain o kapabayaan ng mga serbisyo ng ikatlong partido; (ii) na hindi ahente ang ZTFR ng mga serbisyo ng ikatlong partido; at (iii) ang iyong paggamit ng mga serbisyong iyon ay nasasailalim sa anumang mga naaangkop na tuntunin at kondisyon sa pagitan mo at ng mga nagbibigay ng mga serbisyong iyon.",
+          "indemnity_point3": "Sa sukat na maaaring ipinapahintulot sa ilalim ng mga lokal na mga batas na obilgasyon, hindi sumasagot ang ZTFR sa anumang pinsala o personal na pinsala na nagmumula mula sa anumang paggamit ng mga Serbisyo, kasama na ang anumang (panandalian) hindi magagamit o (aksidental) pagtanggal ng iyong Nilalaman o account. Ang limitasyon ng pananagutan na tinukoy sa kautusang ito ay hindi mag-aaplay kung ang pananagutan para sa pinsala ay dulot ng kasamaan o malupit na kapabayaan mula sa ZTFR. Kung ang ZTFR ay pananagot sa pinsala sa ilalim ng mga mandatories na batas, ang kabuuang pananagot ng ZTFR sa iyo - sa sukat na maaaring ipinapahintulot sa ilalim ng mga lokal na mandatories na batas - para sa anumang at lahat ng mga reklamo na nagmumula o may kaugnayan sa paggamit ng mga Serbisyo ay hindi mag-e-exceed ng halagang isang daang dolyar ($100) bawat insidente."
+        },
+        "wavier": {
+          "wavier_heading": "Waiver, Pagkabahagi, at Pag-assign",
+          "wavier_point1": "Ang hindi pagpapatupad ng ZITRANSFER ng isang probisyon ay hindi isang waiver ng karapatan na ito na gawin ito sa hinaharap.",
+          "wavier_point2": "Kung anumang (parte ng isang) probisyon ng mga Tuntunin na ito ay natukoy na ilegal, hindi maipatutupad o iba pang hindi wasto, (i) mananatiling may bisa ang natitirang mga Tuntunin sa buhay at epekto hanggang sa sukat na maaaring ipinapahintulot sa ilalim o naaayon sa mga kaugnay na batas; at (ii) ang bahagi na ito ay ituturing na burado at papalitan ng wastong bahagi na may epekto sa ekonomiya nito na pinakamalapit sa buradong bahagi.",
+          "wavier_point3": "Hindi mo maaaring i-assign ang anumang mga karapatan mo sa ilalim ng mga Tuntunin na ito. Ang ZTFR ay maaaring sa anumang oras magkaruon ng mga karapatan nito sa kanyang mga kaanib o subsidiaries, o sa alinmang tagapagmana ng anumang negosyo na kaugnay sa mga Serbisyo nang walang pahintulot mo o anumang ibang paghihigpit."
+        },
+        "applicable_law": {
+          "applicable_law_heading": "Naayon sa Batas at Jurisdiction na Pumapaksa",
+          "applicable_law_point1": "Ang mga Tuntunin na ito at ang anumang hindi-kontraktuwal na mga obligasyon na nagmumula o may kaugnayan dito ay pangangasiwaan at huhusgahan at i-i-interpret ayon sa batas ng Inglatera, kasama na ang mga mandatoryong mga batas ng mga mamimili. Hindi babawasan ang mga karapatan sa proteksyon ng mga mamimili na maaaring iyong mayroon sa ilalim ng mga mandatoryong batas ng iyong bansa ng residence.",
+          "applicable_law_point2": "Ang anumang mga alitan tungkol sa mga Tuntunin na ito ay isusumite sa eksklusibong hurisdiksyon ng kumpetenteng korte sa Inglatera, United Kingdom (liban sa Ingles na pribadong internasyonal na batas)."
+        },
+        "contact": {
+          "contact_heading": "Makipag-ugnay",
+          "contact_point1": "Maaari kang makipag-ugnay sa ZITRANSFER (ZTFR) Legal sa ",
+          "email": "legal@zimogroup.org"
+        }
+      },
+      "privacyStatement": {
+        "privacyStatement": "PRIVACY STATEMENT",
+        "privacy": {
+          "privacy_heading": "Ang Privacy STATEMENT ay naglalarawan kung paano nangangalap, gumagamit, at nagbabahagi ng iyong personal na data ang ZTFR.",
+          "privacy_para1": "Ang pagprotekta sa data ng aming mga user ay napakahalaga para sa amin, at gumagawa kami ng mga hakbang upang siguruhing ito ay ligtas.",
+          "privacy_para2": "Seryoso namin ang iyong tiwala at karapatan sa privacy at patuloy na nagtatrabaho upang mapanatili ang iyong digital na bakas ng paa maliit at sa iyong kontrol. Gayunpaman, upang paganahin ka sa iyong daloy at upang mapabuti at ma secure ang aming serbisyo, kailangan naming iproseso ang ilang personal na impormasyon. Para sa mga tanong na may kaugnayan sa privacy, mangyaring maabot ang aming Data Protection Team sa pamamagitan ng ",
+          "privacy_para3": "Ang pahayag na ito ay tumutukoy sa mga aktibidad ng ZITRANSFER (ZTFR) services, software, mga website (kasama na ang mga browser extensions) at/o mga aplikasyon (kasama: \"Services\"). Pinapayagan ka ng Services na lumikha, magbahagi, mag-ipon, mag-capture at/o mag-visualize ng iyong mga ideya, teksto, grapika, video, data, impormasyon, mga file, decks o iba pang nilalaman (kasama: \"Content\"). Maaaring ihatid sa iyo ang mga Services online, sa anyo ng mobile at/o desktop application(s) at/o maaring ma-integrate sa isang serbisyong pang-ikatlong partido. Sa pamamagitan ng paggamit ng alinmang ng Services, sumasang-ayon ka na nagbasa at naiintindihan ang aming Privacy Statement sa ibaba.",
+          "privacy_para4": "Maari mong alamin ang aming mga praktis sa privacy, na makikita sa pamamagitan ng mga pamagat sa ibaba.",
+          "accordians": {
+            "accordian1": {
+              "heading": "ANO ANG IMPORMASYON ANG KINOKOLEKTA NAMIN?",
+              "content": {
+                "first_para": "Iniimbak namin ang ilang personal na impormasyon upang gawing posible ang paggamit mo ng aming mga Serbisyo. Maaring ito ay nakuha mula sa iyo o ini-kolekta namin nang awtomatikong gamit ang aming mga Serbisyo. Iba't-ibang uri ng personal na impormasyon ang maaaring kolektahin depende sa paraan ng paggamit mo ng aming mga Serbisyo at kung aling mga Serbisyo ang iyong ginagamit. Mangyaring suriin ang seksyon na \"Ano ang mga karapatan mo bilang user\" upang malaman kung paano maaaring baguhin, ma-access, o ma-delete ang iyong personal na impormasyon.",
+                "sub_heading1": {
+                  "heading": "Personal na Impormasyon na Iyong Ini-sumite",
+                  "text1": "Kami sa ZITRANSFER (ZTFR) ay nagko-kolekta, nagpoproseso, o nagho-host ng personal na impormasyon na iyong ini-sumite.",
+                  "text2": "Ang uploader o creator ay responsable sa legalidad ng Nilalaman at kinakailangang sundan ang aming Mga Tuntunin ng Serbisyo. Ang ZTFR ay nagpoproseso lamang nito upang magbigay ng mga Serbisyo. Kung nag-upload, nagpadala, o nag-cre-create ka ng personal na impormasyon gamit ang isa sa aming mga Serbisyo, maaring humiling ka ng Data Processing Agreement sa pamamagitan ng pagpapadala ng email sa ",
+                  "points": {
+                    "point1": "IMPORMASYON SA PAGKAKA-KONTAK: iyong pangalan at email address o email address ng mga tatanggap.",
+                    "point2": "IMPORMASYON TUNGKOL SA SARILI: edad, kasarian, lungsod, bansa.",
+                    "point3": "PAGPIPILI: halimbawa, mga setting ng wika o mga interes.",
+                    "point4": "NILALAMAN AT METADATA: maaari kang pumili na mag-upload o lumikha ng Nilalaman na naglalaman ng iba't-ibang uri ng personal na impormasyon tungkol sa iyo at sa iba. Ang ganitong Nilalaman ay naglalaman rin ng pangalan ng file, sukat, at uri.",
+                    "point5": "PERSONAL NA MGA MENSAHE/NOTA: ang mga mensahe na iyong isinusumite sa mga tao kasama ng pagbabahagi ng iyong mga file."
+                  }
+                },
+                "sub_heading2": {
+                  "heading": "Personal na Impormasyon na Ini-kolekta namin nang Awtomatikong",
+                  "text1": "Kolektahin at gamitin din ng ZTFR ang personal na impormasyon nang awtomatikong habang ginagamit mo ang aming mga Serbisyo.",
+                  "points": {
+                    "point1": "IMPORMASYON TUNGKOL SA BROWSER: uri ng browser, setting ng wika, bansa, at time zone.",
+                    "point2": "IMPORMASYON TUNGKOL SA COOKIES O WEB BEACON: mga cookie IDs at mga setting ng cookies, at iba pang personal na impormasyon na natatanggap mula sa mga cookies, web beacons, o pixel tags. Alamin pa nang higit sa seksyon na 'Bakit at paano ginagamit ang mga cookies.'",
+                    "point3": "IMPORMASYON TUNGKOL SA DEVICE: uri ng device, hardware model, at operating system.",
+                    "point4": "DETALYE NG PAGKILALA: mga unique identifiers tulad ng IDFA (para sa iOS), MAC address, o User ID.",
+                    "point5": "IMPORMASYON TUNGKOL SA NETWORK: mga IP address at impormasyon tungkol sa mobile network.",
+                    "point6": "DATA TUNGKOL SA LOKASYON: data tungkol sa iyong geo-lokasyon. Kung ginagamit namin ang iyong geo-location nang batay sa iyong device, tinitiyak namin na ginagawa namin ito matapos naming makatanggap ng iyong pahintulot.",
+                    "point7": "PAGGAMIT NG SERBISYO: impormasyon hinggil sa paraan ng iyong pakikipag-ugnayan sa aming mga Serbisyo, mga website, at mga mobile app."
+                  }
+                },
+                "sub_heading3": {
+                  "heading": "Personal na Impormasyon na Natatanggap namin mula sa mga Partners",
+                  "text1": "Maaari kaming magtanggap ng personal na impormasyon mula sa mga ikatlong partido, tulad ng:",
+                  "points": {
+                    "point1": "IMPORMASYON TUNGKOL SA INTEGRASYON: maaari kang pumili na i-integrate ang ilan sa aming mga Serbisyo sa iyong account sa (social media o messaging services) upang magbigay sa iyo ng mas maraming kakayahan sa pagsusumite ng mga mensahe.",
+                    "point2": "IMPORMASYON TUNGKOL SA MARKETING: maaaring magbigay ang ilang mga partner ng karagdagang (pinagsama-samang) impormasyon, halimbawa sa pamamagitan ng kanilang mga Software Developer Kits (SDKs). Maaaring ito'y naglalaman ng impormasyon tungkol sa demograpiko o asal upang mas mapersonalize ang Nilalaman, mga advertisement, at mga alok, at upang matukoy ang tamang audience para sa aming mga advertisement.",
+                    "point3": "LEGAL NA IMPORMASYON: kapag iniutos ng mga ahensiyang nagpapatupad ng batas o ng mga hukuman na tanggalin ang Nilalaman, maaaring sa unang hakbang ay kami ay magtanggap ng personal na impormasyon tungkol sa iyo at sa iyong asal."
+                  }
+                }
+              }
+            },
+            "accordian2": {
+              "heading": "ANO ANG MGA PARTIDO NA IYONG IBINABAHAGI ANG PERSONAL NA IMPORMASYON?",
+              "content": {
+                "first_para": "Mayroong ilang mga partner ang ZTFR upang mag-operate at mapabuti ang aming mga Serbisyo. Bukod dito, maaaring ibahagi o payagan ka naming magbahagi ng iyong impormasyon bilang bahagi ng ilan sa aming mga Serbisyo.",
+                "second_para": "Kami ay isang pandaigdigang platform/negosyo at bahagi ng isang pandaigdigang organisasyon sa Teknolohiya, na nangangahulugan na maaring ibahagi o i-storage ang personal na impormasyon sa mga bansa sa labas ng European Economic Area ('EEA'). Ang mga bansang ito ay may mga iba't-ibang mga batas sa proteksyon ng data. Gayunpaman, kapag naglilipat kami at nagho-host ng data sa buong mundo, tinitiyak namin na may angkop na mga seguridad na naka-ayos upang siguruhing ang iyong personal na impormasyon ay nagtatamasa ng parehong antas ng proteksyon na gaya nito sa loob ng EEA.",
+                "points": {
+                  "point1": "MGA TAGAPAGBIGAY NG SERBISYO: tulad ng aming nagho-host na provider, provider ng suporta ng user, mga provider ng IT at software, aming mga processors ng bayad, mga processors ng email, at ang mga accountant(s).",
+                  "point2": "MGA TAO AT (SOCIAL) MEDIA NG IYONG PAGPILI: maaari kang pumili na magbahagi ng iyong Nilalaman sa iba, tulad ng mga kasama sa trabaho, sa loob ng aming mga Serbisyo o sa (social) media tulad ng Facebook, X, atbp.",
+                  "point3": "MGA AHENSIYANG NAGPAPATUPAD NG BATAS O NG MGA REGULATOR: kami ay obligado na ibahagi ang iyong personal na impormasyon sa kaso ng legal na kahilingan. Sa kaso ng pagkakakitaan namin ng CSAI o kapag kami ay inabisuhan tungkol sa ibang ilegal na Nilalaman, ibabahagi rin namin ang iyong personal na impormasyon sa mga ahensiyang nagpapatawag ng batas.",
+                  "point4": "MGA PARTNER SA NEGOSYO: kami ay nakikipagtulungan sa mga partner sa advertisement, mga ahensiyang pang-marketing at komunikasyon. Ginagawa namin ito para sa (interest-based) advertisement, pagsasanay ng mga brand, at pagtuklas sa iyo. Ang aming mga partner sa advertisement ay nag-i-implement ng kanilang sariling mga tracking cookies na sumusunod sa kanilang mga tuntunin ng serbisyo at pahayag sa privacy.",
+                  "point5": "INTEGRATED NA MGA SERBISYO: kung magpasya kang i-integrate (isa sa mga) aming mga Serbisyo sa ibang serbisyo (tulad ng iyong social media account), ikokonekta namin ang serbisyong iyon sa aming sarili. Upang magbigay ng ganyang serbisyo, kailangan naming ibahagi ang ilan sa iyong personal na impormasyon sa serbisyong iyon. Ang mga tuntunin at pahayag sa privacy ng mga ikatlong partido ay umiiral, kahit na lamang para sa kanilang bahagi ng koneksyon.",
+                  "point6": "MGA ENTITY NG ZTFR: ibinabahagi namin ang personal na impormasyon sa pagitan ng mga entity na bahagi ng ZITRANSFER at ZIMO GROUP upang magbigay ng aming mga Serbisyo at para sa lahat ng mga layunin na binanggit sa ilalim ng 'Bakit namin ginagamit ang iyong personal na impormasyon?'"
+                }
+              }
+            },
+            "accordian3": {
+              "heading": "BAKIT AT PAANO GINAGAMIT ANG MGA COOKIES?",
+              "content": {
+                "first_para": "Naglalagay kami ng mga cookies upang gawing mas maganda ang ZTFR. Nagtutrabaho kami nang husto upang gawing ligtas, maganda, at hindi nakakairita ang aming mga Serbisyo. Huwag kang mag-atubiling i-block ang mga cookies, ngunit maaaring makaapekto ito sa kung gaano kahusay gumagana ang aming mga Serbisyo.",
+                "second_para": "Naglalagay kami ng maraming cookies (o kahawig na teknolohiya, tulad ng mga pixels o web beacons) sa iyong aparato upang mapadali ang iyong paggamit ng Serbisyo at upang malaman kung paano ito maaaring mapabuti. Kami o ang aming mga partner sa advertising ay naglalagay din ng mga cookies sa aming mga website. Bilang isang pandaigdigang serbisyo, maaaring mag-iba ang mga partner na ito sa bawat bansa. Kapag naglalagay ang aming mga partner sa advertising ng mga cookies, maaaring gamitin ang mga cookies na ito upang prosesuhin ang personal na impormasyon at masukat ang epekto ng kampanya.",
+                "third_para": "Ang mga cookies ay maliit na mga text file na iniimbak ng iyong browser sa iyong computer kapag binibisita mo ang isang website. Mga halimbawa ng mga layunin ng cookies ay: ang iyong mga preference sa wika, pag-login sa isang account, pag-remember ng mga login details, paglilingkod ng personalized na mga advertisements, at pagsang-ayon sa mga Tuntunin ng Serbisyo at Pahayag sa Pagkapribado. Ang aming website ay maaaring maglagay ng mga cookies para sa mga sumusunod na layunin:",
+                "points": {
+                  "point1": "Ginagamit ang FUNCTIONAL COOKIES upang magbigay ng mga functionality kapag gumagamit ng aming Serbisyo, tulad ng posibilidad na itakda ang mga preference o tandaan ang iyong mga dating setting.",
+                  "point2": "Ginagamit ang ANALYTICAL COOKIES upang ma-optimize ang aming Serbisyo. Halimbawa nito ay ang pag-o-optimize ng kahusayan ng aming website sa pamamagitan ng AB-testing ng isang bagong feature, upang gawing mas madali ang paggamit ng website at upang suriin kung paano mo ginagamit ang aming Serbisyo. Ginagamit din namin ang mga analytical cookies upang pigilan ang mga bot at masamang gawain tulad ng spam. Kapag gumagamit kami ng mga analytical cookies, maaaring kasama ang mga third party cookies, na matatagpuan sa listahan ng cookies. Ang mga third party analytical cookies na ito ay nagproseso ng personal na impormasyon, na detalyado sa listahan ng cookies.",
+                  "point3": "Ang MGA COOKIES SA PAG-AANUNSYO ay ginagamit para sa mga layuning pang-negosyo, pang-editoryal, at pang-promosyon. Sa mga cookies na ito, maaring ma-monitor ang iyong gawi sa internet at pagsusurf sa iba't ibang dominyo at mga website. Sa tulong ng ZTFR, maaari naming suriin ang (isa) website na binisita mo bago pumunta sa isa sa aming mga website. Hindi namin sinusundan ang website na iyong binisita pagkatapos mo lumisan sa aming website. Madalas na inilalagay ang mga cookies para sa pag-aanunsyo ng mga ikatlong partido upang masukat ang epekto ng kanilang mga kampanya sa pag-aanunsyo at upang ma-monitor ang iyong gawi sa internet at pagsusurf sa iba't ibang dominyo at mga website kung saan inilalagay nila ang isang cookie. Wala pong akses ang ZTFR o kontrol sa personal na impormasyon na kinolekta gamit ang mga cookies na ito o iba pang mga feature na maaaring gamitin ng mga tagapag-anunsiyo at mga ikatlong partido. Kaya't hindi maaaring gamitin ang aming Pahayag sa Pagkapribado sa mga cookies ng mga ikatlong partido na ito at inirerekomenda naming magbasa ka ng Pahayag sa Pagkapribado ng mga ikatlong partido para malaman kung paano nila hinaharap ang personal na impormasyon.",
+                  "point4": "ANG MGA PIXEL TAG O MGA WEB BEACON ay isang piraso ng code na naka-embed sa website na nagkukolekta ng personal na impormasyon tungkol sa pakikilahok ng mga gumagamit sa pahinang iyon. Ang paggamit ng pixel ay nagpapahintulot sa amin na mairekord, halimbawa, na binisita ng isang gumagamit ang tiyak na pahina ng web o pindutin ang partikular na anunsiyo. Pinapayagan din tayo ng pixel na makita kung mula sa anong dating website o channel nagmula ang isang gumagamit papunta sa aming website."
+                }
+              }
+            },
+            "accordian4": {
+              "heading": "BAKIT NATIN GINAGAMIT ANG INYONG PERSONAL NA IMPORMASYON?",
+              "content": {
+                "first_para": "Ginagamit natin ang inyong personal na impormasyon upang magbigay at mapabuti ang aming mga Serbisyo, sumunod sa mga legal na obligasyon, at mag-anunsiyo ng aming mga Serbisyo para mapanatili itong ligtas at maayos. Narito kung paano natin ginagamit ang inyong personal na impormasyon nang partikular at kung sa mga legal na base namin binabatay ang paggamit ng inyong personal na impormasyon.",
+                "sub_heading1": {
+                  "heading": "Personal na impormasyon na kinokolekta gamit ang automated na pamamaraan",
+                  "points": {
+                    "point1": "SERBISYO: Ang pinakamahalagang dahilan para gamitin ang inyong personal na impormasyon ay upang mag-alok sa inyo ng aming mga Serbisyo, tulad ng nabanggit sa aming Mga Tuntunin ng Serbisyo, halimbawa para lumikha o ipakita ang inyong Nilalaman o ibahagi ang inyong mga ideya at para payagan kang mag-access at gamitin ang inyong Nilalaman sa iba't ibang mga aparato.",
+                    "point2": "SUPORTA: Nagbibigay kami ng iba't ibang mga serbisyong pang-suporta upang tulungan ka kapag ikaw ay nangangailangan, halimbawa kapag kailangan mo ng tulong na teknikal. Kung kinakailangan para sa suporta, ang koponan ng Suporta ay maaaring, sa iyong kahilingan, mag-access sa inyong Nilalaman upang tulungan ka.",
+                    "point3": "ACCOUNT & BILLING: Nililikha at inilalabas namin ang inyong personal na account, halimbawa para mapadali ang iyong address book at mapagkalooban ka ng access sa inyong Nilalaman sa iba't ibang mga aparato, mapadali ang pagbabayad ng iyong bayad sa subscription, at magpatupad ng accounting, auditing, at mga gawain sa billing.",
+                    "point4": "KALIGTASAN, INTEGRIDAD AT SEGURIDAD: Sinusunod ng ZTFR ang mga ulat ng pang-aabuso, mga ulat ng NTD/DMCA, mga imbestigasyon sa pandaraya, at maaring mag-imbestiga ng iyong pagsunod sa aming Mga Tuntunin ng Serbisyo at/o API Tuntunin ng Paggamit. Bukod dito, tinitingnan at binublock namin ang Child Sexual Abuse Imagery (CSAI). Ang pagtuklas ng CSAI ay nagreresulta sa mga awtomatikong desisyon kung ang Nilalaman ay potensyal na CSAI. Ang mga kaso ng potensyal na CSAI ay idineretso namin sa mga ahensiyang tagapagpatupad ng batas. Bukod dito, nagpoprotekta kami laban sa pandaraya at iba pang mga ilegal na gawain. Sa lahat ng mga ito, inilalaan namin ang karapatan na mapanatili ang inyong Nilalaman at ibahagi ito, kasama ang iba pang mga impormasyon na makakilala sa iyo, sa mga ahensiyang tagapagpatupad ng batas. Sa huli, maaring gamitin namin ang inyong personal na impormasyon para sa internal control upang mapanatili ang aming kaligtasan, integridad, at seguridad, gayundin ang inyong kaligtasan, integridad, at seguridad. Halimbawa, sa kaso ng anumang pag-aalinlangan sa paglabag sa aming Mga Tuntunin ng Serbisyo o sa API Tuntunin ng Paggamit.",
+                    "point5": "PAGPAPABUTI AT PAGPAPATULOY: ini-evaluate namin ang paggamit ng aming mga Serbisyo upang mapabuti ang aming mga Serbisyo, ayusin ang mga bug, at lumikha ng mga bagong produkto at serbisyo. Ginagawa namin ito sa pamamagitan ng market research (halimbawa sa pamamagitan ng pagpapadala ng mga survey) o sa pamamagitan ng pagsasagawa ng mga pagsusuri (halimbawa sa pamamagitan ng pagsusunod at pagsasama-sama ng inyong personal na impormasyon sa aming mga Serbisyo o sa pamamagitan ng inyong mga mobile device). Ginagawa namin ito upang maunawaan kung paano sa pangkalahatan ang aming mga user ay nakikipag-ugnayan sa aming mga Serbisyo, ngunit pati na rin upang suriin ang epekto ng aming mga anunsiyo at mapabuti ang mga Serbisyong iyon at ang mga anunsiyo ayon dito.",
+                    "point6": "MARKETING, PAG-AANUNSYO AT PAGKOKOMUNIKASYON: ginagamit namin ang inyong personal na impormasyon para sa marketing at (interest based) advertising, halimbawa sa pamamagitan ng SDK o cookies, pati na rin sa komunikasyon. Isipin ang mga update sa mga bagong Serbisyo, ngunit pati na rin ang mga personalisadong anunsiyo ng ZTFR o ng aming mga partner, na maaring aming ipakita sa aming mga website o sa mga website ng ikatlong partido. Upang makahanap ng tamang manonood para sa mga anunsiyong ito, tinitingnan namin ang ilang mga segmento ng mga tao. Halimbawa, ang mga taong gumagamit ng mga katulad na Serbisyo sa amin, ang mga taong may parehong mga katangian sa aming kasalukuyang mga gumagamit, o ang mga tao sa tiyak na geo-location, tulad ng London. Upang makipag-ugnayan sa aming target audience, maaaring gamitin namin ang sequential messaging, na kung saan ito ay halos isang anyo ng storytelling: tuwing ikaw ay nakikipag-ugnayan sa aming mga Serbisyo sa iba't ibang aparato, maaari kang makatanggap ng isang kaunting ibang anunsiyo sa ibang anyo, ngunit ang mga anunsiyo ay bahagi ng parehong kwento. Bukod dito, batay sa paraan ng iyong pakikipag-ugnayan sa aming mga Serbisyo sa pamamagitan ng iyong mga aparato, maaaring itaguyod namin ang isa sa aming mga (ibang) Serbisyo o mga feature. Bukod dito, pinapapayagan ka namin na makilahok sa anumang (personalisadong) aksyon, promosyon, o mga kaganapan na inaalok namin. Sa huli, gumagamit kami ng email marketing upang magpadala sa iyo ng mga kaukulang kwento tungkol sa kreatibidad o mga balita mula sa ZTFR. Kung kinakailangan, palaging hihingi kami ng inyong pahintulot bago kami magpadala sa inyo ng email marketing. Siyempre, maaari kang mag-opt-out sa bawat email na iyong matanggap.",
+                    "point7": "LEGAL: sa abot ng aming kakayahan, maaaring gamitin namin ang inyong personal na impormasyon upang idepensa ang ZITRANSFER (ZTFR) / ZIMO GROUP sa mga legal na hakbang kaugnay o bilang resulta ng inyong paggamit ng aming mga Serbisyo, na sumusunod sa isang court order, sa mga batas, regulasyon, o hiling ng gobyerno, sa pagtutulungan sa mga tagapagpatupad ng batas, sa pagtutulungan sa mga imbestigasyon ng pandaraya ng mga ikatlong partido, sa pagpapangalaga ng pambansang seguridad, depensa, pampublikong seguridad, at sa pagsunod sa aming Mga Tuntunin ng Serbisyo."
+                  }
+                },
+                "sub_heading2": {
+                  "heading": "Legal na Batayan",
+                  "text1": "Ang bawat aktibidad ng proseso ay mayroong wastong legal na batayan, na inilalarawan sa ibaba.",
+                  "points": {
+                    "point1": "MGA KONTRAKTWAL NA OBLIGASYON SA IYO: hinggil sa mga aktibidad at layunin na nabanggit sa ilalim ng 1, 2, at 3. Kinakailangan naming prosesuhin ang personal na impormasyon upang mag-alok ng aming mga Serbisyo sa pamamagitan ng aming mga website at mobile apps, magbigay ng (teknikal) suporta, at singilin ang iyong bayad sa subscription.",
+                    "point2": "MGA LEGAL NA OBLIGASYON: hinggil sa mga aktibidad at layunin na nabanggit sa ilalim ng 3, 4, at 7. Legal na obligasyon namin na prosesuhin ang inyong personal na impormasyon para sa mga layuning accounting, pagtugon sa mga legal na hiling at mga hiling ng NTD o DMCA.",
+                    "point3": "PAGKONSINTI: (bahagi) hinggil sa mga aktibidad at layunin na nabanggit sa ilalim ng 2 (halimbawa, pag-access sa inyong Nilalaman para sa suporta) at 6, maliban na lamang kung kami ay nagko-komunikasyon ng direct marketing kaugnay sa aming sariling at katulad na mga Serbisyo sa iyo bilang isang nagbabayad na user.",
+                    "point4": "LEHITIMONG INTERES: (bahagi) hinggil sa mga aktibidad at layunin sa ilalim ng 1 at 3 (halimbawa, upang magbigay ng cross device access). Para sa mga layuning nabanggit sa ilalim ng 4 upang magbigay ng ligtas na mga Serbisyo, upang maiwasan ang pandaraya, at umaksyon laban sa ilegal na paggamit ng aming mga Serbisyo. Para sa aming mga lehitimong interes na nabanggit sa ilalim ng 5. At sa huli para sa aming (diretso) marketing, interes sa brand sa ilalim ng 6, at mga lehitimong interes sa legalidad at pagsunod na inilarawan sa ilalim ng 7. Kapag ginagamit namin ang inyong personal na impormasyon base sa aming o sa lehitimong interes ng isang ikatlong partido, siguraduhin namin na balansehin ang inyong mga karapatan at kalayaan laban sa nabanggit na lehitimong interes. Kung, sa saklaw ng maaring magamit, nais mong mag-objekto sa mga aktibidad na batay sa aming lehitimong interes at walang opsyon na opt-out sa iyong mga account settings o natanggap na komunikasyon, mangyaring makipag-ugnayan sa"
+                  }
+                }
+              }
+            },
+            "accordian5": {
+              "heading": "MAARI BANG GAMITIN ANG ZITRANSFER (ZTFR) PARA SA PRIVADO AT SENSITIBONG MGA FILE?",
+              "content": {
+                "first_para": "Ipinamamalas namin ang iyong Nilalaman na may respeto. Hindi kami nagbibigay ng anumang pampublikong paghahanap, katalogo, o listahan para hanapin ang Nilalaman. Umiasa kami na naiintindihan mo na upang tupdin ang aming moral na responsibilidad na bawasan ang pagkalat ng mga Larawan ng Seksuwal na Pag-aabuso ng mga Bata (CSAI), gumagamit kami ng mga awtomatikong sistema upang makilala ang gayong Nilalaman. Sa wakas, kami ay obligado na burahin ang iyong Nilalaman kapag natanggap namin ang isang Notice Takedown/DMCA na kahilingan o kapag natanggap namin ang isang legal na kahilingan.",
+                "second_para": "Mangyaring maging maingat kapag nagbibigay ng mga link para sa pag-download/o pag-access - ang sinuman na pinasa o may access sa isang link para sa pag-download/o pag-access ay maaaring mag-access o mag-download ng Nilalaman. Para sa karagdagang seguridad at kumpidensyalidad, maaring gusto mong gamitin ang aming feature upang protektahan ang iyong mga file gamit ang isang password (kung available)."
+              }
+            },
+            "accordian6": {
+              "heading": "GAANO KA LIGTAS ANG PAGGAMIT NG AMING ENCRYPTED NA SERBISYO?",
+              "content": {
+                "first_para": "Kumukuha ang ZITRANSFER (ZTFR) ng mga teknikal at organisasyonal na hakbang upang protektahan ang iyong personal na impormasyon laban sa pagkawala o iba pang anyo ng hindi legal na pagproseso.",
+                "second_para": "Tinutiyak namin na ang personal na impormasyon ay maari lamang ma-access ng mga taong kinakailangan ang access para sa kanilang trabaho at na sila ay wastong awtorisado. Ibig sabihin namin, kami ay nag-iimbak ng mga talaan kung sino ang may access sa personal na impormasyon, kami ay naglilimita ng dami ng mga taong may access, at kami ay nagpapastiging ang personal na impormasyon ay maari lamang basahin, kopyahin, baguhin, o alisin ng wastong awtorisadong mga staff. Kami ay nagmamanman ng internal na aktibidad upang tiyakin ang kaligtasan at katiyakan ng personal na impormasyon.",
+                "third_para": "Kinakailangan sa mga staff ng ZTFR na magpakita ng katuwiran at disiplina alinsunod sa mga alituntunin ng kumpanya hinggil sa kumpidensyalidad, etika, at wastong paggamit ng personal na impormasyon. Kinakailangan sa mga staff na pumirma ng kasunduan ng kumpidensyalidad.",
+                "forth_para": "Sa panahon ng pag-upload, habang ito ay naka-imbak sa aming mga server, at sa panahon ng pag-download, ang Nilalaman ay na-encrypt at naipapadala lamang sa pamamagitan ng isang ligtas na koneksyon (https). Ang mga server na ginagamit namin upang mag-imbak ng iyong Nilalaman ay sumusunod sa GDPR at ligtas."
+              },
+              "text": "GUMAGAMIT ANG ZTFR NG ADVANCED ENCRYPTION STANDARD (AES) 256-BIT UPANG PROTEKTAHAN ANG KUMPIDENSYALIDAD NG DATOS NA INYONG INI-UPLOAD."
+            },
+            "accordian7": {
+              "heading": "ANONG MGA PROSESO NG RETENSYON ANG NAKALAGAY SA LUGAR?",
+              "content": {
+                "para": "Depende sa serbisyo na ginagamit mo at depende ito sa kategorya ng personal na impormasyon na tinutukoy natin. Palaging tingnan ang website(s) o app(s) ng mga Serbisyo para sa mga tiyak na impormasyon tungkol sa mga panahon ng retensyon.",
+                "heading1": {
+                  "sub_heading": "PERSONAL NA IMPORMASYON",
+                  "para": "Ini-retain ng ZTFR ang iyong personal na impormasyon hanggang sa ito ay kinakailangan para sa pagbibigay ng aming mga Serbisyo sa iyo (halimbawa, pagpapanatili ng iyong user account), para sa pagpapatakbo ng aming mga gawain sa negosyo, at upang tupdin ang aming mga lehitimong interes, tulad ng pagbibigay ng ligtas at protektadong mga serbisyo, pag-aayos ng mga bug, at pagtawag sa iyo, upang sumunod sa mga naaangkop na batas (halimbawa, pag-a-retain ng impormasyong pinansiyal sa loob ng 7 taon para sa mga layuning buwis) at legal na mga kahilingan, at upang malutas (legal) na mga alitan."
+                },
+                "heading2": {
+                  "sub_heading": "MGA FILE NA INI-TRANSFER MO",
+                  "para": "Kapag gumagamit ng ZTFR File Sharing, ang iyong Nilalaman ay tatanggalin pagkatapos ng 7 araw (default), maliban kung mayroon kang piniling partikular na tagal. Ang data ng transfer ng ZTFR Pro account ay ini-imbak sa loob ng 28 araw o hanggang sa petsa ng pag-expire na itinakda mo. Pagkatapos ng panahong ito, ang isang file ay awtomatikong tatanggalin mula sa aming mga server gamit ang military grade na pagwawala. Ang personal na impormasyon na kaakibat ng iyong transfer ay ini-retain nang hanggang sa 12 na buwan. Ang gayong personal na impormasyon ay maari lamang ma-access ng napakakakaunting tao sa loob ng ZTFR, ang mga taong kinakailangan ito para sa kanilang trabaho, halimbawa para sa pagbibigay ng suporta. Kapag ang data ay higit sa 12 na buwan, ito ay tinatanggal mula sa database, pina-pseudonymise o ginagawang anonymous para sa pagsusuri. Ang pseudonymising ng iyong personal na impormasyon ay nangangahulugang hindi namin ginagamit ang iyong email address o IP address para sa mga layuning pang-analisis, kundi gumagawa kami ng isang random na pseudonym para pareho nito at ginagamit ang pseudonym na ito sa halip. Sa ganitong paraan, hindi na namin kailangang hawakan ang direktang identifiable na personal na impormasyon, na kaaya-ayang para sa privacy."
+                },
+                "heading3": {
+                  "sub_heading": "NILALAMAN NA NILIKHA, GINAMIT, INIMBAK O BINAHAGI MO GAMIT ANG MGA SERBISYO MALIBAN SA FILE SHARING",
+                  "para": "Ang Nilalaman na nilikha, ginamit, inimbak, o ibinahagi mo sa aming mga Serbisyo, maliban sa aming File Sharing Service, ay, sa prinsipyo, ini-retain hanggang sa tumigil ka sa pakikipag-ugnayan sa aming mga Serbisyo, kapag tinanggal mo ang iyong Nilalaman mula sa aming mga Serbisyo, kapag tinanggal mo ang mga Serbisyo mula sa iyong mga aparato, o kapag tinanggal mo ang iyong account. Palaging tingnan ang website(s) o app(s) ng mga Serbisyo na ginagamit mo para sa mga tiyak na impormasyon."
+                }
+              }
+            },
+            "accordian8": {
+              "heading": "ANO ANG MGA KARAPATAN MO BILANG ISANG USER?",
+              "content": {
+                "para1": "Kung kailangan mo ng karagdagang impormasyon tungkol sa iyong personal na impormasyon, ipaalam lamang sa amin. Maaring hingin namin ang patunay ng iyong pagkakakilanlan. Kung nagbago ka ng isip at hindi mo na nais na i-proseso ng amin ang iyong personal na impormasyon, ipaalam sa amin.",
+                "points": {
+                  "text": "Maaring hilingin mo sa ZTFR ang mga sumusunod:",
+                  "point1": "Access, pagtanggap ng kopya, o pagtama ng iyong personal na impormasyon",
+                  "point2": "Sa ilang mga kaso, burahin (military grade) ang iyong personal na impormasyon o harangan o limitahan ang aming paggamit nito",
+                  "point3": "Sa ilang mga kaso, ipadala ang iyong personal na impormasyon sa ibang mga third party"
+                },
+                "para2": "Maaring ito gawin sa pamamagitan ng pagpapadala ng email sa <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>. Paki banggit nang malinaw sa subject kung ang iyong kahilingan ay may kinalaman sa privacy at mas tukuyan kung ito ay hiling para sa access, correction, o deletion. Tandaan na sa ilalim ng mga tiyak na sitwasyon, maaring hilingin ng ZTFR ang karagdagang impormasyon upang tukuyin ang iyong pagkakakilanlan.",
+                "heading1": {
+                  "sub_heading": "KARAPATAN NA MAGTANGGI",
+                  "para1": "Mayroon kang karapatan na magtanggi sa aming paggamit ng iyong personal na impormasyon, halimbawa kung ang legal na base para sa pagproseso ay batay sa isa sa aming mga lehitimong interes (tingnan ang subsection \"Mga Batayang Legal\"). Kung ipinaalam mo sa amin na hindi mo na nais na i-proseso ang iyong personal na impormasyon o na hindi ka na nais na kontakin, ililipat ng ZTFR ang iyong personal na impormasyon sa isang hiwalay na file. Ang iyong personal na impormasyon ay hindi na gagamitin para sa mga nabanggit na layunin, maliban na lamang kung ang aming lehitimong interes, halimbawa ang kaligtasan at seguridad, ay mas matimbang kaysa sa iyong karapatan na magtanggi. Maaring hilingin ito sa pamamagitan ng <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>. Paki banggit nang malinaw na ang iyong kahilingan ay may kinalaman sa privacy at mas tukuyan kung ito ay paggamit ng karapatan na magtanggi.",
+                  "para2": "Kung sa palagay mo ay nilabag namin ang iyong mga karapatan sa privacy, maaring magreklamo ka sa kaukulang awtoridad na namumuno. Maaring magreklamo ka lalo na sa bansa kung saan ka naninirahan, sa iyong lugar ng trabaho, o sa lugar na sa palagay mo ay nilabag namin ang iyong mga karapatan."
+                },
+                "heading2": {
+                  "sub_heading": "PAG-WITHDRAW NG CONSENT",
+                  "para": "Kapag nagbigay ka ng iyong pahintulot para sa amin na i-proseso ang iyong personal na impormasyon, maaring i-withdraw ang iyong consent anumang oras, na hindi apektado ang legalidad ng mga gawain ng pagproseso batay sa pahintulot bago ito i-withdraw. Kung i-withdraw mo ang iyong consent, hindi na namin i-proseso ang personal na impormasyon na natanggap namin batay sa iyong consent."
+                },
+                "heading3": {
+                  "sub_heading": "MGA KONSUMIDOR SA CALIFORNIA",
+                  "para": "Sa ilalim ng ilang mga limitasyon sa ilalim ng California Civil Code § 1798.83, kung ikaw ay isang residente ng California, maaring hilingin mo sa amin na magbigay sa iyo ng (i) isang listahan ng tiyak na mga kategorya ng personal na impormasyon na ibinukas namin sa tiyak na mga third party para sa kanilang mga direktang layuning pang-merkado noong nakaraang taon at (ii) ang pagkakakilanlan ng tiyak na mga third party na tumanggap ng personal na impormasyon mula sa amin para sa kanilang mga direktang layuning pang-merkado noong kalendaryong taon na iyon. Gayunpaman, hindi namin ibinabahagi ang iyong personal na impormasyon sa mga tagapag-merkado, alinsunod sa batas na ito."
+                }
+              }
+            },
+            "accordian9": {
+              "heading": "PAANO MAARING MAKONTAK ANG ZITRANSFER (ZTFR)",
+              "content": {
+                "para": "Ang aming support team ay maaring makontak sa pamamagitan ng <b><a href='mailto:support@zitransfer.com?subject= Support enquiry'>support@zitransfer.com</a></b>. Kung mayroon kang mga tanong, mangyaring mag-email sa amin. Kung may mga tanong ka tungkol sa paraan kung paano pinoproseso ng ZITRANSFER (ZTFR) ang iyong personal na impormasyon o ang personal na impormasyon na ini-imbak ng ZTFR tungkol sa iyo, mangyaring kontakin ang ZTFR sa pamamagitan ng pag-email ng iyong tanong sa <b><a href='mailto:legal@zimogroup.org?subject= Legal enquiry'>legal@zimogroup.org</a></b>. Kung kailangan mong makontak ang aming Data Protection Team, mangyaring gawin ito sa pamamagitan ng <b><a href='mailto:dpt@zitransfer.com?subject= DPT enquiry'>dpt@zitransfer.com</a></b>."
+              }
+            },
+            "accordian10": {
+              "heading": "MGA PAGBABAGO SA PAGPAPAHAYAG NG PRIVACY",
+              "content": {
+                "para": "Paksa na maaaring amyendahan ng ZITRANSFER (ZTFR) ang Privacy Statement mula sa panahon sa panahon. Ang bawat bersyon ng amyendadong ito ay may petsa at ipinopost sa website. Inirerekomenda ng ZITRANSFER na suriin mo ang website mula sa panahon sa panahon at tandaan ang anumang mga pagbabago. Kung hindi ka sumasang-ayon sa Privacy Statement, hindi mo dapat o hindi ka na mag-access o gumamit sa website at/o serbisyo. Sa pamamagitan ng patuloy na paggamit sa website at/o serbisyo, tinatanggap mo ang anumang mga pagbabago na ginawa sa Privacy Statement."
+              }
+            }
+          }
+        }
+      },
+      "noticePolicy": {
+        "noticepolicy": "PATAKARAN SA PAUNAWA/TANGGALIN",
+        "content": {
+          "para1": "Ipinapahalagahan ng ZTFR ang iyong mga karapatan at umaasahan na igalang mo ang karapatan ng iba. Sa di-inaasahang pagkakataon na makita o malaman ng ZTFR ang mga hindi-legal na mga file o nilalaman na inilalathala sa pamamagitan ng aming Serbisyo, susundan namin ang mga pamamaraan na inilarawan sa patakaran ng Paunawa/Tanggalin na ito.",
+          "para2": "Sa paggamit ng aming website/platform o serbisyong pang-transfer ng file, sumasang-ayon ka na sumunod sa aming Patakaran sa Paunawa/Tanggalin sa ibaba."
+        },
+        "information": {
+          "information_heading": "PERSONAL NA IMPORMASYON NA INISUMITE MO",
+          "information_para": "Sumusunod ang ZTFR sa English Notice/Takedown Code of Conduct (\"Code\") ng Platform Internet Security. Itong Code of Conduct ay nagpapalakas ng mga pamamaraan para sa mga intermediaries sa internet tulad ng ZITRANSFER (ZTFR) sa pag-handle ng mga ulat ng (alleged) hindi-legal na nilalaman, na layuning alisin ang pinag-aalitang nilalaman (\"Ulat\" o \"Mga Ulat\"). Ipinakiklaro ng Patakaran ng Paunawa/Tanggalin (\"NTD Policy\") na ito ang mga pamamaraan at mga time limit na inaaplay ng ZITRANSFER (ZTFR) sa pag-handle ng mga Ulat na gaya nito."
+        },
+        "requirements": {
+          "requirements_heading": "MGA KINAKAILANGANG REQUISITO NG ULAT",
+          "requirements_para1": "Ang sinumang tao o organisasyon na nagpapasa ng Ulat (\"Nag-ulat\") ay may obligasyon na tiyakin na ito ay tama at kumpleto.",
+          "requrements_para2": "Dapat masuri ng ZITRANSFER ang mga Ulat matapos ang isang imbestigasyon ukol sa isang krimeng kinakaharap mula sa isang inspection o imbestigasyon service, o sa kaso ng isang opisyal na legal na utos mula sa Public Prosecutor’s Office. Ang Ulat ng anumang ibang kategorya maliban dito ay dapat kumpleto ang mga sumusunod na impormasyon:",
+          "requrements_points": {
+            "point1": "Kontak na impormasyon ng Nag-ulat, pangalan, posisyon, organisasyon, address, email address",
+            "point2": "Lahat ng impormasyon na kinakailangan ng ZITRANSFER upang suriin ang kahalalan ng pinag-aalitang nilalaman, kasama na ang kanyang lokasyon (URL)",
+            "point3": "Valid na rason ukol sa kahalalan ng nilalaman, o bakit ito ay labag sa mga Tuntunin ng Serbisyo ng ZITRANSFER, NTD, o Pahayag sa Privacy"
+          }
+        },
+        "indemnity": {
+          "heading": "bayad-pinsala",
+          "para": "Ang Nag-ulat ay magbibigay ng malinaw na indemnity sa ZITRANSFER laban sa 1) mga reklamo mula sa user na nag-aalitang nilalaman (\"Content Provider\") na may kaugnayan sa mga aksyon na ginawa ng ZITRANSFER sa pag-handle ng Ulat, at 2) mga reklamo mula sa Nag-ulat ukol sa nilalaman na ipinadala sa pamamagitan ng aming Serbisyo."
+        },
+        "urgency": {
+          "heading": "pagmamadali",
+          "para": "Maaaring humiling ang Nag-ulat sa ZITRANSFER na asikasuhin ang ulat nang maagap. Sa ganitong kaso, ang Ulat ay dapat magbigay ng mga sapat na dahilan ukol sa urgency. Sa kanyang sariling katuwiran, nagdedesisyon ang ZITRANSFER kung ang Ulat ay ita-trato bilang isang pangunahing alalahanin batay sa mga naunang paliwanag."
+        },
+        "evaluation": {
+          "evaluation_heading": "pagsusuri",
+          "evaluation_text": "Sisiyasatin ng ZITRANSFER ang Ulat at itatala ito sa isa sa tatlong mga kategorya:",
+          "evaluations_points": {
+            "point1": "Nilalaman na may parusa ay inireport ng isang inspection o imbestigasyon service, o sa kaso ng isang opisyal na legal na utos mula sa Public Prosecutor’s Office",
+            "point2": "Nilalaman na malinaw na hindi-legal o may parusa at/o nilalaman na inireport ng iba pang mga source maliban sa mga awtoridad na nabanggit sa kategoryang 1",
+            "point3": "Lahat ng iba pang nilalaman, na hindi kabilang sa kategorya 1) o 2)"
+          }
+        },
+        "measures": {
+          "measures_heading": "mga Hakbang",
+          "measures_text": "Ang kategorisasyon ng ZITRANSFER sa Ulat ay nagtatakda kung anong mga hakbang ang ginagawa upang tugunan ang Ulat.",
+          "measures_points": {
+            "point1": "Sa pagkakataon na natutukoy ng ZITRANSFER na ang nilalaman ay lubos na labag sa batas o maaring parusahan, sa ibang salita, ito ay nasa mga nabanggit na kategoriya 1) at 2), tiyakin ng ZITRANSFER na agad na inaalis ang nasabing nilalaman.",
+            "point2": "Kapag natutukoy ng ZITRANSFER na ang nilalaman ay hindi lubos na labag sa batas o maaring parusahan, sa ibang salita, ito ay nasa nabanggit na kategoriya 3), hindi aalisin ang nasabing nilalaman. Iuunawaan ng ZITRANSFER ang Notifier ukol dito.",
+            "point3": "Kapag hindi sapat o hindi kayang magpasiya ang ZITRANSFER kung ang nilalaman ay lubos na labag sa batas o maaring parusahan, ilalathala ng ZITRANSFER ang Ulat sa Content Provider na may hiling na (i) payagan ang ZITRANSFER na alisin ang nilalaman o (ii) makipag-ugnayan sa Notifier. Kung hindi makakarating sa kasunduan ang Notifier at Content Provider, maaaring gumawa ng opisyal na ulat ang Notifier sa pulisya kung may posibilidad ng paglabag sa batas na kriminal. Kung nauukit ito sa nilalaman na alegasyon na paglabag sa sibil na batas, maaaring dalhin ng Notifier ang alitan sa isang korte sa Ingles. Kung hindi nais magbigay ng sapat na impormasyon ang Content Provider sa Notifier, may karapatan ang ZITRANSFER na (i) ibigay sa Notifier ang pangalan, email address, at IP address ng Content Provider o (ii) alisin ang nasabing nilalaman."
+          }
+        },
+        "period": {
+          "heading": "panahon",
+          "para": "Ang kategorisasyon at ang angkop na mga hakbang ay maaring maganap sa lalong madaling panahon, ngunit sa huli'y 10 araw na pantrabaho matapos matanggap ang Ulat."
+        },
+        "caution": {
+          "heading": "nararapat na pag iingat",
+          "para": "Sa mga pagkakataon na kinakailangang alisin ang nilalaman, tiniyak ng ZITRANSFER na gagamitin nito ang nararapat na pag-iingat upang siguruhing hindi aalisin ang higit sa kinakailangang nilalaman, hinggil sa Ulat."
+        },
+        "questions": {
+          "heading": "mga tanong?",
+          "para": "Para sa mga tanong ukol sa Patakaran ng NTD na ito, maari kayong makipag-ugnayan sa ZITRANSFER sa pamamagitan ng pagpapadala ng email sa "
+        }
+      },
+      "advertisementTerms": {
+        "advertisingterms": "MGA TUNAY NG ADVERTISING",
+        "terms": {
+          "heading": "MGA TUNAY NG ZITRANSFER (ZTFR)",
+          "para": "Ang mga MGA TUNAY NG ZITRANSFER na ito (\"MGA TUNAY NG ZITRANSFER\") ay nagpapalupit, ngunit hindi pumapalit, sa alinmang Kasunduan sa Pagsusuri na pumasok sa pagitan ng ZITRANSFER at Customer (na tinukoy sa ibaba), kasama ang mga IAB Standard Terms and Conditions for Internet Advertising for Media Buys One year or Less, Bersyon 3.0.",
+          "link": "https://www.iab.com/wp-content/uploads/2015/06/IAB_4As-tsandcs-FINAL.pdf",
+          "refered": "(tinatawag na \"IAB Terms\")."
+        },
+        "definitionscope": {
+          "definitionscope_heading": "MGA PAG-UYAM AT SAKOP",
+          "definitionscope_points": {
+            "point1": "Lahat ng mga salitang may letrang malaki ngunit hindi inilalatag dito ay may parehong kahulugan na inilatag sa IAB Terms, maliban sa mga sumusunod na kahulugan, na binago at ngayon ay itinuturing sa mga TUNAY NG ZITRANSFER, mga IAB Terms, ang IO, at ang mga Annexes ng mga sumusunod: \"Ad\" ay tumutukoy sa anumang advertisement (kasama pero hindi limitado sa nilalaman ng mga tatak) na likha ng Media Company, anuman ang batayan o nasusundan mula sa mga Advertising Materials. \"Advertising Materials\" ay tumutukoy sa nilalaman para sa mga Ads, kasama ang artworks, kopya, audio o video na nilalaman, o aktibong URL. \"Media Company Properties\" ay tumutukoy sa mga website, (online) newsletter, podcasts, videos, web series, o mga Internet audio o video channels na tinukoy sa isang IO na pag-aari, pinapatakbo, o kinokontrol ng Media Company. \"Network Properties\" ay tumutukoy sa mga website, podcasts, web series, o mga Internet audio o video channels o mga platforms na tinukoy sa isang IO na hindi pag-aari, pinapatakbo, o kinokontrol ng Media Company, ngunit kung saan may kontratwal na karapatan ang Media Company na magserbisyo ng mga Ads. Ang sumusunod na mga kahulugan ay idinadagdag at may mga sumusunod na kahulugan: \"Kasunduan\" ay tumutukoy sa kasunduang pumasok sa pagitan ng Media Company at Customer, binubuo ng IO, MGA TUNAY NG ZITRANSFER, mga Annexes (Studio at/o Branded Content), at mga IAB Terms. \"Customer\" ay tumutukoy sa kalipunan ng mga kliyente ng Media Company sa ilalim ng kasunduang ito, na inilarawan sa at pumirma sa IO. \"Petsa ng Epektibo\" ay ang petsa ng pagsasagawa ng IO. \"Karapatan ng Intellectual Property\" ay tumutukoy sa mga patente, mga trademark, mga marka ng serbisyo, mga pangalang pang-negosyo, mga karapatan ng copyright, mga karapatan sa topograpiya, mga pangalang pang-dominyo, mga karapatan sa database, at mga karapatan sa disenyo, maging ito man ay naka-rehistro o hindi, kasama ang mga aplikasyon para dito, mga sikreto ng kalakalan, at mga karapatan ng kumpiyansa; lahat ng mga karapatan o anyo ng proteksyon ng kaurian o may kaurian o may katulad na epekto dito, na maaring umiral sa alinmang bahagi ng mundo. \"Newsletter Deliverables\" ay tumutukoy sa mga Deliverables na binebenta sa basis ng per sent newsletter (sa pamamagitan ng email). \"Pagpapaliban\" ay tumutukoy sa malinaw o hindi malinaw na pagsasailalim ng (isang bahagi ng) paghahatid ng Ad para sa anumang dahilan, sa isang petsa na higit pang huli kaysa sa petsa ng simula ng IO, dulot o iniutos ng Customer.",
+            "point2": "Kontra sa pagpapakilala ng IAB Terms, kahit pa sa pagkakataon na ang Customer ay iba pang partido maliban sa isang Agency (halimbawa pero hindi limitado sa isang Advertiser), ang lahat ng mga karapatan at obligasyon na itinakda sa IAB Terms na nauukit sa isang Agency, ay mag-aapply mutatis mutandis sa Customer.",
+            "point3": "Sa kabila ng Seksyon XIV.c. ng mga IAB Terms, ang Kasunduan sa pagitan ng Customer at Media Company ay binubuo ng IO, MGA TUNAY NG ZITRANSFER, mga Annexes, at mga IAB Terms. Sa kaganapan ng alitan sa pagitan ng mga elemento ng kontrata na bumubuo ng Kasunduan, ang order ng prioritasyon ay: i) IO, ii) MGA TUNAY NG ZITRANSFER, iii) mga Annexes, at iv) mga IAB Terms. Hindi tinatanggap ng Media Company ang mga tuntunin at kundisyon at/o ang pagsusulat ng IO ng Customer o alinmang ikatlong partido, na samakatuwid ay hindi bumubuo ng bahagi ng Kasunduan at hindi nakatali sa Media Company. Ang mga pagsusuri na inamyendahan ay kinakailangang isagawa sa pagsusulat at tanggapin ng isa pang partido sa pagsusulat.",
+            "point4": "Maliban na lamang kung sa ibang paraan ay eksplisitong pinagkasunduan sa pagsusulat, ang mga proposal at mga alok ng Media Company ay may bisa ng 30 (tatlongpu) na araw. Ang Kasunduan ay papasok sa bisa sa petsa ng Epektibo, pagkaalis ng IO na pirmado ng Customer kung saan tinatanggap ng Customer ang MGA TUNAY NG ZITRANSFER, ang Annex(es), at ang mga IAB Terms. Ang Inventory ay hindi maaaring i-reserba o garantiyahin bago ang Petsa ng Epektibo. Ang Kasunduan ay magtatapos sa pagkumpleto ng IO (ang Petsa ng Pagtatapos na nakasaad sa IO)."
+          }
+        },
+        "changeterms": {
+          "changeterms_heading": "MGA PAGBABAGO SA MGA TUNAY NG IAB",
+          "changeterms_points": {
+            "point1": "Kontra sa Seksyon I.a. at II.a. ng mga IAB Terms: Ang Media Company ay hindi gagawa ng mga schedule para sa paghahatid.",
+            "point2": "Binago at ngayon ay ito ang nilalaman ng Seksyon I.b. bahagi (i) ng mga IAB Terms: pagsang-ayon ng IO ng Media Company at Agency sa pagsusulat (na kasama ang komunikasyon sa pamamagitan ng email o mga lagda gamit ang mga electronic contract management system).",
+            "point3": "Sang-ayon sa Seksyon II.d. ng mga IAB Terms, wala nang warranty ang Media Company ukol sa mga kalapit-kalapit na kumpetisyon para sa mga Ads na lumilitaw sa Media Company Properties. Sa kahilingan ng Customer sa pagsusulat, susumikap ang Media Company na sundan ang nais ng Customer ukol sa mga kalapit-kalapit na kumpetisyon.",
+            "point4": "Sang-ayon sa Seksyon III.b. ng mga IAB Terms, kung hindi nakatanggap ng bayad ang Media Company sa loob ng itinakdang panahon ng pagbabayad, may karapatan ang Media Company na (i) kanselahin ang lahat ng kasalukuyang at hinaharap na IO ng Customer at (ii) agarang magbayad para sa lahat ng mga nakabinbing pirmadong IO at mga gastos na nauincurso hanggang sa petsa ng kanselasyon.",
+            "point5": "Ang Seksyon III.c. ng mga IAB Terms ay binago at ngayon ay ito ang nilalaman: Ang Customer lamang ang may pananagot para sa pagkolekta ng bayad na inisyu nito sa sarili nitong mga kliyente. Hindi maaring isantabi ng Customer ang anumang obligasyon na pagbabayad sa Media Company batay sa hindi pagtanggap ng bayad na inisyu nito sa sarili nitong mga kliyente. Sa kanilang eksklusibong pasiya, maaring hingin ng Media Company ang bayad bago ang serbisyo.",
+            "point6": "Ang Seksyon IV.c. ng mga IAB Terms ay lubusang tinanggal at hindi bumubuo ng bahagi ng Kasunduan.",
+            "point7": "Sang-ayon sa Seksyon V. ng mga IAB Terms, sa kaganapan ng kanselasyon, aalisin ng Media Company ang kanseladong (bahagi ng) IO sa loob ng 48 oras mula sa pagtanggap ng abiso ng kanselasyon ng Customer. Magpapadala ang Media Company ng kumpirmasyon na email sa Customer tungkol sa kanselasyon. Ang mga invoice ay batay sa petsa ng kumpirmasyon na email ng Media Company.",
+            "point8": "Sang-ayon sa Seksyon V. ng mga IAB Terms, sa kaganapan ng pagpapaliban, may karapatan ang Media Company na magpadala ng invoice na nagkakahalaga ng 10% (sampung porsiyento) ng mga gastos na nakasaad sa IO bilang kabayaran. Ang kabayaran na ito ay hindi maaaring bawasan ng Customer mula sa anumang invoice ng Media Company at hindi ito magkakaroon ng epekto o magpapawala ng obligasyon ng Customer na bayaran ang lahat ng mga invoice ng Media Company na buo. Sa kaganapan ng pagpapaliban na maganap nang higit sa isang beses at/o kung ang itinakdang bagong petsa ay nasa isang bagong taon ng kalendaryo, may karapatan ang Media Company na kanselahin ang (bahagi ng) IO at magpadala ng invoice para sa (bahagi ng) IO sa buo.",
+            "point9": "Ang huling pahayag ng Seksyon VI.a. ng mga IAB Terms ay binago at ito ay binasa na ito ang nilalaman: Kung ang hindi paghahatid ay higit sa 10% sa kaugnayan sa bilang ng mga Deliverables sa nasasakupan ng IO, ang Agency at Media Company ay maaring mag-arrange ng mga makegood ayon sa mga Terms na ito. Kung ang hindi paghahatid ay hindi higit sa 10% sa kaugnayan sa bilang ng mga Deliverables sa nasasakupan ng IO, walang makegood na maaring makamtan. Dahil ang Media Company ay nagbibigay ng invoice batay sa aktuwal na mga Deliverables, ang hindi paghahatid ay awtomatikong ilalantad sa invoice.",
+            "point10": "Kontra sa ikalawang pahayag ng Seksyon VI.b. ng mga IAB Terms, ang Media Company ay nagbibigay lamang ng invoice batay sa aktuwal na mga Deliverables na ayon sa sariling mga talaan, kaya't ang Agency ay hindi maaring magpatupad ng credit na katumbas ng halaga ng hindi na-deliver na bahagi ng IO na iningay nito.",
+            "point11": "Ang huling pahayag ng Seksyon VIII.a. ng mga IAB Terms ay tinanggal at hindi bumubuo ng bahagi ng Kasunduan.",
+            "point12": "Ang termino sa Seksyon VIII.a. at VIII.c. ng mga IAB Terms ay binago patungo sa labing-apat (14) na araw.",
+            "point13": "Ang Seksyon IX.e. ng mga IAB Terms ay binago at ito ang nilalaman: Ang Media Company ay may karapatan na gawin ang mga kinakailangang teknikal na pagsasa-ayos sa Advertising Material na inilahad ng Customer (tulad ng paglalaki o pag-cropping). Kapag humiling ang Customer na gawin ng Media Company ang nilalaman para sa Ads (tulad ng artwork, kopya, audio, video, mga pagsasalin) o gawin ng mga makabuluhang pagbabago sa Advertising Material na inilahad ng Customer (tulad ng pagpapalit ng artwork, kopya, audio, video o pag-salin ng nilalaman), ito ay tinatawag na \"Serbisyo\", ibig sabihin, ang Media Company ay nagbibigay ng Serbisyo \"AS-IS\", nang walang anumang warranty ng anumang uri. Malinaw na itinatanggi ng Media Company ang lahat ng pananagot ukol sa Serbisyo at ito ay walang warranty na walang error. Ang pagtanggap at paggamit ng Customer sa Serbisyo ay nasa kanyang sariling panganib. Kinikilala at pinanunumpaan ng Customer na hindi responsable at/o walang pananagot ang Media Company para sa anumang pinsala na nagmumula sa paggamit ng Serbisyo.",
+            "point14": "Ang Seksyon IX.f. ng mga IAB Terms ay binago at ito ang nilalaman: Hindi pinapayagan ng Media Company ang mga Third Party Ad Server tags, anuman ang uri ng Ad.",
+            "point15": "Ang Seksyon X.a. ng mga IAB Terms ay binago at ito ang nilalaman: Ang Media Company ay magbibigay proteksiyon sa Customer, sa kanyang mga Affiliate at Representatives mula sa mga pinsala, responsibilidad, gastos, at mga gastusin (kasama ang makatarungan na bayad ng mga abogado) (isa-isa, \"Pagkalugi\") mula sa anumang claim, judgement, o kaso (isa-isa, \"Mga paghahabol\"), na nagsusustento na ang mga serbisyo ng Media Company ay lumalabag sa mga karapatan ng intellectual property ng mga Third Party, maliban kung ang Claim(s) ay nagmumula sa paglabag ng Customer sa Seksyon 4.1 ng mga TUNAY NG ZITRANSFER na ito.",
+            "point16": "Ang unang pahayag ng Seksyon XII.b. ng mga IAB Terms ay binago at ito ang itinatag sa sumusunod: Sa kabila ng anumang nilalaman na lalabag dito, ang termino na \"Kumpidensyal na Impormasyon\" ay hindi sasama sa impormasyon na: (i) ay naging batid na noon ng Recipient; (ii) ay o naging pangkalahatang magagamit sa publiko sa walang kasalanan ng Recipient; (iii) ay may kinalaman sa isang Ad na ipinapadala o ipinapakita sa Site ng Media Company at naging pangkalahatang magagamit sa pamamagitan ng pagkakapadala nito, tulad ng uri ng Ad, ang teritoryo, at ang pagkakakilanlan ng Advertiser; (iv) ay naging sa posisyon ng Recipient nang walang obligasyon ng kumpidensyalidad sa oras ng pagkaka-kumun-ikasyon nito ng Discloser; (v) ay ginawa ng mga empleyado o mga ahente ng Recipient nang independiyente at walang sanggunian sa Kumpidensyal na Impormasyon; o (vi) ay ibinahagi ng Discloser sa isang hindi kaugnay na ikatlong partido nang walang obligasyon ng kumpidensyalidad.",
+            "point17": "Ang Seksyon XII d (ii) ng mga IAB Terms ay binago at ito ang nilalaman: Ang Media Company ay maaring magkaruon ng mga Aggregated data mula sa Collected Data at maaring gamitin at ibunyag ang mga data na ito para sa pangkalahatang layunin ng negosyo ng Media Company (tulad ng marketing at public relations).",
+            "point18": "Ang Seksyon XIII. ng mga IAB Terms ay tinanggal at buo itong pinalitan ng sumusunod: Sa kaganapan na ang isang invoice ay itinatag batay sa mga talaan at may mga pagkaka-iba sa pagitan ng mga talaan ng parehong panig (halimbawa sa mga Deliverables o sa mga lokasyon ng mga Deliverables), magkakaroon ng pagsusubaybay ang mga panig sa kanilang mga talaan at mag-uusap upang magkaruon ng isang maayos na solusyon na may katuwiran. Sa kaganapan na hindi magtagumpay ang mga panig na makipagkasunduang magkasundong mga talaan, mananaig ang mga talaan ng Media Company at magiging basehan ng invoice.",
+            "point19": "Alinsunod sa Seksyon XIV.a. ng mga Tuntunin ng IAB, pinatutunayan at ginagarantiyahan ng Advertiser na ang mga Materyales sa Pagsusuri ay sumusunod sa lahat ng mga naaangkop na batas, mga alituntunin, at regulasyon, kabilang ngunit hindi limitado sa lokal at sektor-spisipikong mga kode ng pagsusuri at mga alituntunin ng industriya hinggil sa mga kaganapan ng pagsusuri at promosyon (sa kolektibong pangalang 'Mga Batas ng Pagsusuri'). Nauunawaan ng Advertiser at sumasang-ayon na siya lamang ang may pananagot sa pagpapabatid at pagbibigay ng kinakailangang impormasyon at tagubiling makatiyak na sumusunod ang Pagsusuri sa Mga Batas ng Pagsusuri.",
+            "point20": "Alinsunod sa Seksyon XIV.f. ng mga Tuntunin ng IAB, ang mga Seksyon 1, 2, at 3 ng mga Tuntunin ng ZITRANSFER na ito ay mananatili kahit magwakas o matapos ang Kasunduan."
+          }
+        },
+        "invoices": {
+          "invoices_heading": "MGA INOBISYO AT BAYARAN (KARAGDAGANG MGA KLAUSULA)",
+          "invoices_points": {
+            "point1": "Ang lahat ng mga inobisyo mula sa Kumpanya ng Midya ay dapat bayaran nang walang anumang diskuwento, bawas, setoff, counterclaim, o kompensasyon, at malaya at malinis mula sa anumang bawas para o dahil sa anumang buwis at babayaran ito sa Euro (€), US Dollar ($) o UK Pound (£) (ayon sa nakasaad sa IO) sa bank account na itinukoy ng Kumpanya ng Midya. Ang bawat inobisyo ay magpapakita ng mga bayad na walang VAT at ang kaugnay na VAT. Para sa malinaw na pang-unawa: kung sakop ang Kumpanya ng Buwis, ipakikita ito sa inobisyo at kinakailangang bayaran ng Customer ang inobisyo kasama ang VAT.",
+            "point2": "Maaring mag-introduce o baguhin namin ang mga bayad para sa mga Serbisyo mula sa panahon hanggang panahon, kung saan bibigyan ka namin ng paunang abiso. Kung mayroon kang fixed term at presyong subscription, mananatili ang presyong iyon sa bisa para sa fixed term. Kung hindi ka sumasang-ayon sa pag-angkat ng presyo, maari mong kanselahin ang iyong subscription at itigil ang paggamit ng Serbisyo sa katapusan ng kasalukuyang termino ng Serbisyo. Kung magpapatuloy kang gumamit ng Serbisyo pagkatapos ng pag-angkat ng presyo, sumasang-ayon ka na bayaran ang binagong presyo. Ang mga introduksyon ng bayad ay mangangailangan ng iyong pahintulot at pagrehistro.",
+            "point3": "Hindi karapatan ng Customer na pigilin ang pagbabayad o mag-set-off sa anumang dahilan anuman.",
+            "point4": "Anumang alitan tungkol sa isang inobisyo ay dapat isumite sa Kumpanya ng Midya sa pagsusulat sa loob ng 8 (walong) araw mula sa petsa ng inobisyo. Ang anumang inobisyo na hindi isinagkaalitan sa loob ng panahong ito ay ituturing na tinanggap.",
+            "point5": "Ang lahat ng mga bayad sa Kumpanya ng Midya ay unaunang itatalaga sa mga gastos ng koleksyon, pagkatapos sa interes, at sa huli sa mga pinakamatandang hindi pa nababayarang inobisyo na may kaugnayan sa alinmang Kasunduan. Maaring mag-akumula ang anumang hindi pa nabayarang halaga ng interes na katumbas ng 1% (isa porsiyento) bawat buwan ng kalendaryo o kahit bahagi nito, nang walang anumang abiso ng default na kinakailangan, hanggang sa buong pagbabayad nito. Bukod dito, ang Kumpanya ng Midya ay may karapatan na singilin ang buong gastos ng koleksyon, sa hindi kukulangin sa £ 250, bawat kaso.",
+            "point6": "Kung ang Customer ay hindi susunod sa mga probisyon ng Bahagi III. ng Mga Tuntunin ng IAB at/o mga klausula 2.4, 2.5, at 3 ng mga Tuntunin ng ZITRANSFER na ito, may karapatan ang Kumpanya ng Midya na itigil ang mga serbisyo nito o kanselahin ang Kasunduan."
+          }
+        },
+        "adrestrictions": {
+          "adrestrictions_heading": "MGA RESTRIKSYON SA PAHAYAGAN",
+          "adrestrictions_points": {
+            "point1": "Bukod pa sa Bahagi IX.c ng Mga Tuntunin ng IAB, ang mga Materyales ng Pahayagan at Pahayagan ay hindi dapat naglalaman, nagpapahayag, naglilink, o may kaugnayan sa nilalaman na, sa pagpapasya ng tanging Kumpanya ng Midya i) ay labag sa kahon ng malaswa, paninira, pang-aalimura, pamumutiktik, kalaswaan o mga iligal na bagay at/o ay karahasan, sekswal, o karahasang sa paraang may kakayahang magdulot ng pagkakasala sa anumang materyal na grupo ng mga tao; ii) ay sumusuway o nang-aagaw ng mga Karapatan sa Intelehwal Propiedad ng third party at/o mga karapatan sa privacy o anumang uri ng karapatan; iii) ay nauugma sa \"salita ng galit,\" anuman ang direktang inuukit sa isang indibidwal o isang grupo, at anuman ang batay sa lahi, kasarian, pananampalataya, pambansang pinagmulan, relihiyosong pagsasamahan, orientasyon sa sekswal, o wika ng nasabing indibidwal o grupo; iv) ay hindi totoo, malilinlang, mapanlinlang; v) sumisira sa reputasyon ng Kumpanya ng Midya o ng alinmang mga brand nito o malamang na magdadala ng kahihiyan sa Kumpanya ng Midya o alinmang mga kaanib nito; vi) nagdudulot ng pagkakalantad ng Kumpanya ng Midya at ng mga user nito sa anumang malware (tulad ng mga virus ng computer, mga uod, mga Trojan horse o anumang katulad na o iba pang nakakasirang componente), at/o vii) sumusuway sa Patakaran ng Pansin/Kanselahin ng Kumpanya ng Midya <a href='https://zitransfer.com/legal/takedown' target='blank'>(https://zitransfer.com/legal/takedown)</a> o mga gabay ukol sa likhang-sining at kalakal ng Kumpanya ng Midya.",
+            "point2": "Sa kabila ng Bahagi IX.c ng Mga Tuntunin ng IAB, may karapatan ang Kumpanya ng Midya na tanggihan o tanggalin, nang walang paunang abiso, ang isang Pahayagan, kasama, subalit hindi limitado dito, sa mga sitwasyon kung saan ang Pahayagan, sa pasya ng Kumpanya ng Midya, ay maaaring lumabag sa: i) anumang umiiral na batas o regulasyon, o ii) anumang naunang kasunduan, patakaran, mga Kodigo ng Pag-uugali, o mga gabay ukol sa likhang-sining o kalakal ng Kumpanya ng Midya, o Kasunduan na ito."
+          }
+        },
+        "valueandtakover": {
+          "valueandtakover_heading": "KARAGDAGANG HALAGA AT PAGKAMIT",
+          "valueandtakover_points": {
+            "point1": "May karapatan ang Kumpanya ng Midya na magbigay ng karagdagang inventory para sa libreng (\"Karagdagang Halaga\"). Hindi garantiya ng Kumpanya ng Midya kung, saan, at kailan ibibigay ang Karagdagang Halaga.",
+            "point2": "May karapatan ang Kumpanya ng Midya na magbigay sa Customer ng mga eksklusibong puwesto para sa itinakdang panahon (\"Pag-aari\"). Para sa malinaw na pang-unawa, nagbibigay ng Pag-aari sa Customer ng eksklusibidad sa oras, hindi sa Mga Kalalabasang Bagay. Maaring magbigay ang Kumpanya ng Midya ng isang tantiya ng Mga Kalalabasang Bagay, ngunit hindi ito magbibigay ng anumang garantiya para sa dami nito. Sa anumang sitwasyon, hindi maaring magresulta ang Pag-aari sa Pagre-remedyo. Ito rin ay naaangkop sa anumang derogasyon ng mga tinatayang Mga Kalalabasang Bagay tulad ng inire-refer sa klausulang ito 5.2."
+          }
+        },
+        "propertyrights": {
+          "propertyrights_heading": "MGA KARAPATAN SA INTELEHWAL NA KABUHAYAN",
+          "propertyrights_points": {
+            "point1": "Ang mga Karapatan sa Intelehwal na Kabuhayan ng anumang uri sa Mga Materyales ng Pahayagan ay dapat at mananatiling pag-aari ng Customer o ng kanyang mga lisensyador. Pinagkakaloob ng Customer sa Kumpanya ng Midya ang isang hindi-mai-transfer, hindi-eksklusibong, permanente, walang royalty at sub-licensable na lisensya upang (i) gamitin ang Mga Materyales ng Pahayagan para sa paglikha ng Pahayagan at upang ilathala ang mga ito bilang bahagi ng Pahayagan, ayon sa IO at (ii) upang gamitin ang Pahayagan (kasama ang anumang Mga Materyales ng Pahayagan na ginamit dito) para sa pangkalahatang layunin ng negosyo ng Kumpanya ng Midya at ng kanyang mga kontratista (tulad ng marketing at relasyong pampubliko).",
+            "point2": "Ang mga Karapatan sa Intelehwal na Kabuhayan ng anumang uri sa Pahayagan ay dapat at mananatiling pag-aari ng Kumpanya ng Midya o ng kanyang mga lisensyador. Maliban sa itinakda sa Mga Tuntuning ito ng Pahayagan, hindi pinapayagan ang Customer na kopyahin, gamitin, alisin, baguhin, kopyahin, ipamahagi, idekompila, o buksan mula sa pabalik ang anumang bahagi nito sa anumang paraan.",
+            "point3": "Ang Kasunduang ito ay hindi kasama ang paglilipat ng anumang Karapatan sa Intelehwal na Kabuhayan.",
+            "point4": "Ang klausulang ito 6 ay nananatiling epekto kahit tapusin ang Kasunduang ito."
+          }
+        },
+        "sanctions": {
+          "sanctions_heading": "MGA PAGBABAWAL",
+          "sanctions_points": {
+            "point1": "Kinakatawan at itinuturing ng Agency at Advertiser na sila (o ang kanilang mga holding company at/o mga subsidiary) ay kasalukuyang hindi sakop ng anumang mga pagbabawal na itinataguyod o ipinatutupad ng pamahalaan ng Estados Unidos, ng Unyon ng Europa, o anumang ibang ahensiyang may kinalaman sa pagbabawal (sa kabuuang, \"Pagbabawal\"), kabilang ang ang pagkakalista o pagmamay-ari ng 50% o higit pa, o sa ibang paraan kontrolado ng mga taong nasa isang Sanctions List na may kaugnayan sa mga itinalagang partido at mga tao (\"Listahan ng Pagbabawal\") tulad ng Specially Designated Nationals and Blocked Persons List o Foreign Sanctions Evaders List na pinamamahalaan ng Office of Foreign Assets Control ng Kagawaran ng Kabanalan ng mga Yaman ng Estados Unidos at Consolidated List of Persons, Groups, and Entities Subject to European Union Financial Sanctions.",
+            "point2": "Kinakatawan at itinuturing ng Agency at Advertiser na sila (o ang kanilang mga holding company at/o mga subsidiary) ay hindi matatagpuan, hindi organisado, o hindi naninirahan sa isang bansa o teritoryo na may kaugnayan sa mga Pagbabawal, kabilang, subalit hindi limitado dito, sa Cuba, Iran, North Korea, Syria, Russia at Crimea (bawat isa, isang \"Bansang may Pagbabawal\").",
+            "point3": "Kinakatawan at itinuturing ng Agency at Advertiser na dapat agad na ipaalam sa Kumpanya ng Midya, kung sa anumang pagkakataon habang isinasagawa ang Kasunduan, sila ay naging kalaunan na sakop ng mga Pagbabawal o naging kasama sa anumang Listahan ng Pagbabawal.",
+            "point4": "Kinikilala ng Agency at Advertiser na may karapatan ang Kumpanya ng Midya na kanselahin at/o tapusin anumang iba pang kontraktwal na relasyon sa Agency at Advertiser sa anumang oras, nang walang parusa at walang paunang abiso, kung maging malinaw na na may pagbabawal ang Kumpanya ng Midya sa pagnenegosyo sa Agency o Advertiser ayon sa mga batas ng sanctions ng Estados Unidos o Unyon ng Europa."
+          }
+        },
+        "businessresponsibility": "PAGPAPATUPAD NG NEGOSYO NG MAY PANANAGOT NA PARAAN",
+        "businessresponsibility_points": {
+          "point1": "Ang Kumpanya ng Midya ay nagpapanatili ng isang nakasulat na Kodigo ng Pag-uugali, kabilang ang Kodigo ng Pag-uugali ng Advertiser, Patakaran sa mga Regalo at Anti-Pandaraya, at Patakaran sa Pagbili ng Kalikasan. Hinihiling ng Kumpanya ng Midya sa Agency at Advertiser na sumunod sa hiwalay na Kodigo ng Pag-uugali ng Advertiser, na bibigyan ng Kumpanya ng Midya sa tamang oras. Ang Kumpanya ng Midya ay nagpapanatili ng isang nakasulat na Kodigo ng Pag-uugali, kabilang ang Patakaran sa Masamang Pag-uugali, Patakaran sa mga Regalo at Anti-Pandaraya, at Patakaran sa Pagbili ng Kalikasan. Sumusunod ang Kumpanya ng Midya at ang kanyang mga tauhan sa Kodigo ng Pag-uugali na ito at hinihiling sa Agency at Advertiser na sumunod sa hiwalay na Kodigo ng Pag-uugali ng Advertiser. Bibigyan ng Kumpanya ng Midya ng isang kopya ng Kodigo ng Pag-uugali ng Advertiser na ito sa tamang oras.",
+          "point2": "Ang Kumpanya ng Midya ay nagpapanatili ng isang nakasulat na Kodigo ng Pag-uugali, kabilang ang Patakaran sa Masamang Pag-uugali, Patakaran sa mga Regalo at Anti-Pandaraya, at Patakaran sa Pagbili ng Kalikasan. Sumusunod ang Kumpanya ng Midya at ang kanyang mga tauhan sa Kodigo ng Pag-uugali na ito at hinihiling sa Agency at Advertiser na sumunod sa hiwalay na Kodigo ng Pag-uugali ng Advertiser. Bibigyan ng Kumpanya ng Midya ng isang kopya ng Kodigo ng Pag-uugali ng Advertiser na ito sa tamang oras.",
+          "point3": "Kinakatawan at itinuturing ng Agency at Advertiser na sumusunod sila sa mga naaangkop na batas sa trabaho at empleyo at ipinagbabawal ang anumang uri ng pwersahang o child labor o iba pang pang-aabuso sa mga bata (isang tao na mas bata sa labing-anim (16) na taon gulang) sa paggawa at paghahatid ng kanilang mga produkto at serbisyo.",
+          "point4": "Nag-aako ang Agency at Advertiser na gagamit sila ng mga komersyal na makatuwirang pagsisikap upang sumunod sa mga praktika ng pananagot sa layunin ng pagbawas ng mga emisyon ng greenhouse gas at pagkuha ng mga solusyon na carbon neutral.",
+          "point5": "Kinikilala ng Agency at Advertiser ang kahalagahan ng pagkakaiba-iba sa lugar ng trabaho at gagamit ng komersyal na makatuwirang pagsisikap upang makamit ang isang kapaligiran sa trabaho na nagpapakita ng mga interes ng isang magkakaibang puwersa ng trabaho."
+        }
+      }
+    },
+    "sidebarRight": {
+      "CLOSE": "ISARA",
+      "PORTAL": "PORTAL",
+      "CONTACTS": "KONTAKTO",
+      "BRANDING": "BRAND",
+      "TRANSFERS": "PAGLILIPATAN",
+      "searchByTitleFilenameOrEmail": "MAGHANAP BATAY SA PAMAGAT, PANGALAN NG FILE O EMAIL",
+      "COPIED": "NAKOPIYA",
+      "copyLink": "KOPYAHIN ANG LINK",
+      "noMessage": "WALA PONG MENSAHE",
+      "noTitle": "WALA PONG PAMAGAT",
+      "shareTransfer": {
+        "download": "IKUHA",
+        "preview": "UNANG TINGIN",
+        "forward": "IPASA",
+        "delete": "TANGGALIN",
+        "expiresIn": "MAKAKALIMUTAN SA LOOB NG",
+        "password": "PASSWORD",
+        "ASSIGN": "ITUKOD",
+        "PAUSE": "ITIGIL",
+        "CODE": "KODIGO",
+        "EMAIL": "EMAIL",
+        "MESSAGE": "MENSAHE",
+        "totalDownloads": "KABUUANG I-DOWNLOAD",
+        "NAME": "PANGALAN",
+        "TYPE": "URI",
+        "SIZE": "LAKI",
+        "folder": "folder",
+        "typeAlignment": "share_transfers_type_alignment_filipino",
+        "sizeAlignment": "share_transfers_size_alignment_filipino"
+      },
+      "transfers": {
+        "selections": {
+          "date": "Petsa",
+          "size": "Laki",
+          "title": "Pamagat",
+          "expirationDate": "Petsa ng Pag-expire"
+        },
+        "noDataFound": "Walang data na natagpuan.",
+        "SENT": "IPINADALA",
+        "RECEIVED": "NATANGGAP",
+        "sortBy": "SALAIN NG :",
+        "Downloaded": "NADOWNLOAD",
+        "notYetDownloaded": "Hindi pa nadownload",
+        "file": "file",
+        "files": "files"
+      }
+    },
+    "sidemenu": {
+      "menu": "MENU",
+      "features": "MGA TAMPOK",
+      "products": "MGA PRODUKTO",
+      "howToZtfr": "PAANO GAMITIN ANG ZTFR",
+      "pricing": "PREYSYO",
+      "advertising": "PAG-AANUNSYO",
+      "careersH": "MGA CAREER",
+      "company": "KOMPANYA",
+      "myAccount": "AKING ACCOUNT",
+      "newsRoom/Press": "KUWARTO NG BALITA/PRESS",
+      "terms": "MGA TUNTUNIN",
+      "privacy": "PRIVACY",
+      "advertisingSection": {
+        "hero": {
+          "advertiseWithUsAndAttractTheAttentionOf": "MAG ADVERTISE SA AMIN AT MAAKIT ANG PANSIN NG",
+          "creativeProfessionalsAcrossTheGlobe": "CREATIVE PROPESYONAL SA BUONG MUNDO.",
+          "reachOurGlobalProfessionals": "MAABOT ANG AMING MGA GLOBAL NA PROPESYONAL",
+          "getStarted": "MAGSIMULA KA NA"
+        },
+        "watchThis": {
+          "inspireAWorldOfCreativeProfessionals": "MAGBIGAY NG INSPIRASYON SA ISANG MUNDO NG MGA CREATIVE PROFESSIONALS",
+          "watchThis": "PANOORIN MO ITO"
+        },
+        "videos": {
+          "ourAdvertsAreJustMoreThan": "ANG ATING MGA ADVERTS AY HIGIT PA SA 'ADS' LANG ",
+          "impressionsDontAlwaysInspires": "HINDI LAGING NAKAKA-INPIRASYON ANG MGA IMPRESSION. MINSAN AY INSPIRASYON, INSPIRED HABANG BUHAY.",
+          "video": "VIDEO"
+        },
+        "images": {
+          "premiumPlatformThatPutsYourBrand": "PREMIUM PLATFORM NA NAGLALAGAY SA IYONG TATAK",
+          "infront": "SA HARAP",
+          "ofTheLocalAndGlobalAudiences": "NG LOCAL AND GLOBAL AUDIENCES",
+          "image": "LARAWAN"
+        },
+        "partners": {
+          "ourGlobalPartners": "ANG ATING MGA GLOBAL PARTNERS"
+        },
+        "form": {
+          "becomeAPartner": "MAGING ISANG KASAMA",
+          "company/Organisation": "KOMPANYA/ORGANISASYON",
+          "country": "BANSA",
+          "phoneNumber": "NUMERO NG TELEPONO",
+          "customiseEveryAspectOfYourAd": "I-CUSTOMISE ANG BAWAT ASPECT NG IYONG AD",
+          "inYourOfficialPartnerPortal": "SA IYONG OPISYAL NA PARTNER PORTAL",
+          "thankyou": "SALAMAT SA IYONG Interes na maging isang kasosyo, ang iyong kahilingan",
+          "thankyouSubmited": "ay isinumite na at kami ay makakakuha ng bumalik sa iyo sa lalong madaling panahon."
+        }
+      },
+      "pricingSection": {
+        "free": "LIBRE",
+        "pricingFreeText": "pricing_free_filipino"
+      },
+      "careers": {
+        "design": "MAG-DISENYO AT MAGTAYO NG MGA SISTEMA NA NAGBABAGO SA MUNDO.",
+        "services": "Mga serbisyo sa mahigit isang daan at dalawampung bansa.",
+        "discover": "Matuklasan",
+        "world": "ISANG BAGONG MUNDO",
+        "together": "Kasama, binubuo natin at binubuo ang isang mas magandang mundo.",
+        "global": "Pandaigdigang Pananaw",
+        "remote": "Sa kultura ng remote work, ang pagiging magkaiba ay likas na nasa ating DNA.",
+        "globe": "Batay sa BUONG GLOBO, kinakatawan namin ang higit sa 23 magkakaibang nasyonalidad.",
+        "join": "SUMALI SA AMING TEAM"
+      }
+    },
+    "cookies": {
+      "cookiesWrapper": {
+        "thisWebsite": "GUMAGAMIT ANG WEBSITE NA ITO NG MGA TEKNIKAL NA KAILANGAN NA COOKIES.",
+        "withYourConsent": "SA IYONG PAHINTULOT, ANG WEBSITE NA ITO AY GAGAMIT NG MGA KARAGDAGANG COOKIES (KASAMA ANG MGA THIRD PARTY COOKIES) O MGA KATULAD NA TEKNOLOHIYA UPANG GUMAGANA ANG ATING SITE, PARA SA MGA LAYUNIN SA MARKETING AT PARA PABUTI ANG IYONG ONLINE NA KARANASAN.",
+        "ourWebsiteUses": "GUMAGAMIT NG MGA COOKIES ANG AMING WEBSITE UPANG MABUTI ANG PAGGANAP, SERBISYO, AT MAS MABUTI NA MAUNAWAAN ANG IYONG MGA PANGANGAILANGAN. SA PAGTANGGAP NG ATING THIRD-PARTY COOKIES, KAMI AT ANG ATING MGA KASAMA AY MAAARING MAG-Alok SA IYO NG HIGIT NA KAUGNAY NA ADVERTISING NG ) AT APPS.",
+        "youWillHave": " IKAW AY MAGKAROON NG POSITIBO NA EPEKTO SA PAMAMAGITAN NG PAGKARANAS SA ATING MGA PANALO NA ADS AT SERBISYO (KUNG ANGKOP)",
+        "furtherInformation": "KARAGDAGANG IMPORMASYON AY MATATAGPUAN SA AMING",
+        "privacyStatement": "PAHAYAG SA PRIVACY",
+        "andInTheCookiesSetting": "AT SA MGA SETTING NG COOKIE.",
+        "accept": "TANGGAPIN",
+        "reject": "ITAKWIL",
+        "manageCookies": "PAMAHALAAN ANG MGA COOKIES"
+      },
+      "manageCookies": {
+        "ourWebsiteUsesCookies": "GUMAGAMIT ANG AMING WEBSITE NG MGA COOKIES NA TUMULONG SA PAGGUMANGON NITO, HINAYAAN KAMI NA SURIIN KUNG PAANO MO ITO MAKIPAG-INTERAKTO, AT TULUNGAN KAMI NA MABUTI ANG PAGGANAP. SA PAGTANGGAP SA AMING MGA COOKIES, PINAPAHAYAG MO KAMI NA MAGPAKITA SA IYO NG MGA PERSONALIZED NA AD.",
+        "mostZimoGroupWebsites": "KARAMIHAN SA ZIMO GROUP WEBSITES AY GUMAGAMIT NG COOKIES. COOKIES AY MALIIT NA TEXT FILES NA ILAGAY SA IYONG DEVICE UPANG MAG-IMBOR NG DATA PARA MAAARI ITO NG MGA WEB SERVER SA MAMAYA. ANG ZIMO GROUP AT ANG ATING THIRD-PARTY NA MGA KASAMA SA PARTNER AY GINAMIT MO AT GINAMIT MO ANG MGA KASASAMA NG THIRD-PARTY. MAG-LOG IN KA, MAGPAKITA SA IYONG MGA PERSONALIZED NA AD AT MAG-ANALYSE KUNG GAANO GUMAGANA ANG AMING MGA WEBSITE. PARA SA KARAGDAGANG IMPORMASYON, TINGNAN ANG SEKSIYON NG MGA COOKIES AT KATULAD NA TEKNOLOHIYA NG",
+        "required": "KINAKAILANGAN",
+        "weUseRequiredCookies": " GINAGAMIT NAMIN ANG MGA KINAKAILANGAN NA COOKIES UPANG MAGAGAWA NG MAHAHALAGANG WEBSITE FUNCTIONS. HALIMBAWA, GINAMIT ANG SILA PARA MAG-LOG IN KA, I-SAVE ANG IYONG MGA GUSTO SA WIKA, MAGBIBIGAY NG SHOPPING BASKET EXPERIENCE (KUNG GANAP ANG KARANASAN) TRAPIKO SA PAGITAN NG MGA WEB SERVER, I-DETEKTO ANG LAKI NG IYONG SCREEN, TUKUYIN ANG MGA ORAS NG PAG-LOAD NG PAGE, PAGBUTI ANG KARANASAN NG USER AT PARA SA PAGSUKAT NG AUDIENCE. ANG MGA COOKIES NA ITO AY KAILANGAN PARA GUMAGANA ANG AMING MGA WEBSITE.",
+        "analytics": "ANALYTICS",
+        "weAllowThirdParties": "PINAPAHAYAG NAMIN ANG MGA THIRD PARTIES NA GUMAMIT NG ANALYTICS COOKIES UPANG MAUNAWAAN MO KUNG PAANO MO GINAGAMIT ANG AMING MGA WEBSITE UPANG MABUTI NAMIN ANG MGA ITO AT ANG MGA IKATLONG PARTIDO AY MAAARING MABUBUO AT MAGPABUTI NG KANILANG MGA PRODUKTO, NA MAAARING GAMITIN NILA AYON SA WEBSITE. ZIMO GROUP. HALIMBAWA, ANG SILA AY GINAMIT UPANG MAGTITIPON NG IMPORMASYON TUNGKOL SA MGA PAGES NA BISITAHIN MO AT KUNG ILANG PAG-CLICK ANG KAILANGAN MO PARA MABUO ANG ISANG GAWAIN. GUMAGAMIT KAMI NG ILANG ANALYTICS COOKIES PARA SA ADVERTISING.",
+        "socialMedia": "SOCIAL MEDIA",
+        "weAndThirdPartiesUseSocialMediaCookies": "GINAGAMIT KAMI AT ANG MGA THIRD PARTIES NG SOCIAL MEDIA COOKIES UPANG IPAKITA SA IYO ANG MGA AD AT NILALAMAN BATAY SA IYONG MGA PROFILE AT AKTIBIDAD SA SOCIAL MEDIA SA AMING MGA WEBSITE. SILA NA GINAGAMIT UPANG I-KONEKTA ANG IYO SA MEDITY MGA PROFILE KUNG ANG MGA ADS AT NILALAMAN NA MAKIKITA MO SA AMING MGA WEBSITE AT SA SOCIAL MEDIA AY MAS MABUTI ANG IYONG MGA INTERES.",
+        "advertising": "ADVERTISING",
+        "weAndThirdPartiesUseAdvertisingCookies": "KAMI AT ANG MGA THIRD PARTY AY GUMAGAMIT NG MGA COOKIES SA ADVERTISING UPANG IPAKITA SA IYO ANG MGA BAGONG AD SA PAMAMAGITAN NG PAG RECORD KUNG ALING MGA AD IKAW NA NA NAKITA. SILA GINAGAMIT DIN UPANG SUBAYBAYAN KUNG ALING MGA AD ANG IYONG I CLICK O MGA PAGBILI NA GINAWA MO PAGKATAPOS MAG CLICK SA ISANG AD PARA SA MGA LAYUNIN NG PAGBABAYAD, AT UPANG IPAKITA SA IYO ANG MGA AD NA MAS MAY KAUGNAYAN SA IYO. HALIMBAWA, SILA NA GINAGAMIT UPANG MATUKOY KAPAG NAG CLICK KA SA ISANG AD AT NAGPAPAKITA SA IYO NG MGA AD BATAY SA IYONG MGA INTERES SA SOCIAL MEDIA AT KASAYSAYAN NG PAG BROWSE SA WEBSITE.",
+        "resetAll": "I-RESET LAHAT",
+        "saveChanges": "I-SAVE ANG MGA PAGBABAGO"
+      }
+    },
+    "user": {
+      "sentMail": {
+        "checkYourEmail": "SURIIN ANG IYONG EMAIL",
+        "youShouldNowRecieve": "DAPAT KA NGAYON MAKATANGGAP NG EMAIL NA MAY LINK UPANG GUMAWA NG BAGONG PASSWORD.",
+        "ifYouNotRecieved": "KUNG HINDI KA NAKATANGGAP NG EMAIL, MANGYARING SURIIN",
+        "wasTheEmail": "ay ang email na ginamit mo sa paggawa ng iyong user id"
+      }
+    },
+    "download": {
+      "downloadPassword": {
+        "incorrectPassword": "MALI ANG PASSWORD"
+      },
+      "downloadPasswordAssign": {
+        "checking": "pag check ng mga..."
+      }
+    },
+    "ztfrX": {
+      "contentCreator": "NLLIKHA NG NILALAMAN.",
+      "music": "MUSIKA",
+      "getPaidForYourContent": "MAGBAYAD PARA SA IYONG NILALAMAN",
+      "getPaidForYourTransfers": "MAGBAYAD PARA SA IYONG MGA PAGLIPAT",
+      "sellWhatYouCreate": "IBENTA ANG INYONG NILIKHA",
+      "ztfrXIsAnEasyAndSecureWay": "AY ISANG MADALI AT LIGTAS NA PARAAN UPANG MAKAKUHA NG BAYAD PARA SA IYONG TRABAHO. SIMULAN ANG MONETISING ANG IYONG PAGKAMALIKHAIN NGAYON.",
+      "exploreAWorldOfOpportunities": "TINGNAN ANG ISANG MUNDO NG MGA OPORTUNIDAD",
+      "exploreTxtSize": "explore_easy_txt_filipino",
+      "gettingPaid": "PAGKUHA NG BAYAD",
+      "getPaidDirectly": "MAKATANGGAP NG BAYAD NG DIREKTA SA INYONG",
+      "withdrawFunds": "ACCOUNT. WITDRAW FUNDS 24/7.",
+      "payments": "MGA BAYAD",
+      "explore": "Mag-eksplora",
+      "getPaidTextSize": "get_paid_directly_italian",
+      "ztfrGetPaidTxt": "ztfrGetPaid_bulgarian",
+      "paidCard": {
+        "paid": "BINAYARAN",
+        "paidTxtSize": "paid_card_russian"
+      },
+      "musicCard": {
+        "relax": "Mag-relaks"
+      },
+      "constants": {
+        "animation": "Animasyon",
+        "applications": "Aplikasyon",
+        "architecture": "Arkitektura",
+        "art": "Sining",
+        "collaboration": "Pagsasamahan",
+        "collage": "Kolayj",
+        "comics": "Komiks",
+        "commissions": "Komisyon",
+        "community": "Komunidad",
+        "creativeAdvice": "Malikhaing Payo",
+        "design": "Disenyo",
+        "education": "Edukasyon",
+        "fashion": "Moda",
+        "fiction": "Piksyon",
+        "film": "Pelikula",
+        "gaming": "Palaro",
+        "graphicDesign": "Grafikong Disenyo",
+        "graphicNovels": "Grafikong Nobela",
+        "illustration": "Ilustrasyon",
+        "installations": "Instalasyon",
+        "music": "Musika",
+        "nft": "NFT",
+        "opinion": "Opinyon",
+        "painting": "Pintura",
+        "partnerships": "Pagsasamahan",
+        "performance": "Pagsasalinwika",
+        "photography": "Potograpiya",
+        "podcasts": "Podcast",
+        "print": "Impresyon",
+        "sculpture": "Skultura",
+        "software": "SOFTWARE",
+        "textile": "Tekstilya",
+        "video": "Bideo",
+        "writing": "Pagsusulat",
+        "other": "IBA"
+      },
+      "howZtfrXWorks": {
+        "how": "PAANO",
+        "works": "MGA GAWA"
+      },
+      "sellDigitalContent": {
+        "sellDigitalContent": "MAGBENTA NG DIGITAL NA NILALAMAN (MGA PRODUKTO)",
+        "turningYourDigitalContent": "PAGGAWA NG IYONG DIGITAL NA NILALAMAN SA KITA",
+        "allowsYouTo": "PINAPAYAGAN KANG IPAMAHAGI, MAG ADVERTISE AT MAKAKUHA NG BAYAD PARA SA IYONG DIGITAL NA NILALAMAN (MGA PRODUKTO)"
+      },
+      "recieveQuickPayments": {
+        "recieveQuickPayments": "MAGTANGGAP NG MABILIS NA PAGBAYAD MULA SA IYONG MGA KLIENTE",
+        "revolutionise": "REBOLUTIONISE IYONG NEGOSYO. SECURE SOLUTIONS PARA MABAYAD NG MGA CLIENTS SA GLOBAL SCALE",
+        "usesAdvanced": "GUMAGAMIT NG ADVANCED ENCRYPTION STANDARD (AES) 256 BIT PROTECTION",
+        "whatContent": "ANONG NILALAMAN (PRODUKTO) ANG IBENTA?",
+        "weHaveIdeas": "MAY MGA IDEYA KAMI NA MAKAKATULONG SA IYO NA MAG-EXPLORE NG MGA BAGONG POSIBILIDAD NA MAY MGA BAGONG PINAGMUMULAN NG KITA MULA SA "
+      },
+      "buyNow": "Bumili na NGAYON",
+      "buyText": "buy_text_filipino",
+      "getPaidFor": {
+        "getPaidFor": "mabayaran para sa iyong photography, musika, digital artwork, fashion shoots, personalized na mga kurso, at marami pang iba...",
+        "itsSimple": "SIMPLE ITO. ALAM MO KUNG ANO ANG GUSTO NG IYONG MGA FANS/CLIENTS, PACKAGE UP IYONG MGA PINAKABAGONG GAWA (PHOTOSHOOT, FONT PACKS, MUSIC, VIDEO, DIGITAL ART, SHORT STORIES, NOVELS, PRESET PACKS, POSTER DESIGNS1,00, AT'S HIGIT PA...)",
+        "activateYour": "I-activate ang iyong",
+        "andStartToUpload": "AT MAGSIMULA NG MAG-UPLOAD GAMIT ",
+        "decideOnAPrice": "MAGDESISYON SA ISANG PRESYO, AT IBAHAGI LANG ANG IYONG LINK (url), QR code O SA PAGGAMIT NG ATING MGA FEATURED PARTNERS"
+      },
+      "sellYourEducational": {
+        "sellYourEducational": "IBENTA ANG IYONG PANG EDUKASYON NA NILALAMAN, DIGITAL NA PROGRAMA, DIGITAL NA LIBRO, TUTORIAL, GABAY SA PAG AARAL AT MARAMI PANG IBA...",
+        "startGenerating": "SIMULAN ANG PAGBUO NG KITA KASAMA ANG IBA PANG MGA CREATIVE TULAD MO. IBAHAGI ANG IYONG KADALUBHASAAN AT TALENTO SA ISANG PANDAIGDIGANG MADLA. GAWING EBOOK O PDF ANG IYONG MGA ARTIKULO SA BLOG O INSTAGRAM FEED UPANG MAKABUO NG KARAGDAGANG KITA.  "
+      },
+      "sendFinalAssets": {
+        "sendFinalAssets": "MAGPADALA NG MGA HULING ASSET SA IYONG MGA KLIYENTE AT MAGPABAYAD",
+        "itsThatEasy": "GANUN LANG KADALI. MABILIS NA MAGBAYAD PARA SA PINAKABAGONG PHOTOSHOOT NA IYON, PAGKONSULTA SA GIG, O ALINMAN SA INIREREKOMENDANG NILALAMAN. SIMPLENG I UPLOAD ANG IYONG MGA PANGWAKAS NA FILE, IPASADYA ANG BAWAT ASPETO NG IYONG WALLPAPER, MAGDAGDAG NG ISANG PRESYO ANG IYONG NAIS AT IPADALA.",
+        "yourClientsCan": "ANG IYONG MGA KLIYENTE AY MAAARING MA ACCESS ANG IYONG PRIBADONG LINK AT MAGBAYAD UPANG I DOWNLOAD ANG KANILANG MGA FILE.",
+        "howToGetStarted": "PAANO MAGSIMULA"
+      },
+      "Xlogo": {
+        "tryNow": "SUBUKAN NGAYON"
+      },
+      "ztfrGetPaid": {
+        "getPaid": "MABAYARAN",
+        "effortless": "walang kahirap-hirap na paglilipat ng mga creative asset, malalaking file, kumpletong folder, at buong proyekto sa isang simpleng pag-click lang.",
+        "learnMore": "matuto pa"
+      },
+      "ztfrSecurity": {
+        "security": "SEGURIDAD",
+        "withPassword": "Sa proteksyon ng password at 256 bit (aes) file encryption, pagsasama ng mga mahahalagang pag andar ng seguridad upang maprotektahan ang iyong nilalaman / trabaho."
+      },
+      "ztfrShowcase": {
+        "showcase": "SHOWCASE",
+        "create": "Lumikha ng isang hindi malilimutang epekto sa pamamagitan ng personalising bawat aspeto, mula sa iyong LANDING PAGE sa iyong mga email.",
+        "unleash": "Ilabas ang iyong imahinasyon nang walang limitasyon.",
+        "transferring": "paglilipat..."
+      },
+      "getStartedVideos": {
+        "stepOne": "UNANG HAKBANG",
+        "stepTwo": "IKALAWANG HAKBANG",
+        "stepThree": "IKATLONG HAKBANG",
+        "stepsTextSize": "steps_filipino"
+      }
+    },
+    "createNewPassword": {
+      "confirmPass": "KUMPORMAHIN ANG INYONG BAGONG PASSWORD",
+      "instructions": "Ipadala namin sa inyo ang mga tagubilin para i-reset ang inyong password at makapasok kayo ulit.",
+      "newPass": "BAGONG PASSWORD",
+      "confirmNewPass": "KUMPORMAHIN ANG BAGONG PASSWORD",
+      "reset": "KUMPORMAHIN ANG RESET NG INYONG PASSWORD/PUMASOK"
+    },
+    "transferExpired": {
+      "regretMessageGap": "regret_message_gap_none",
+
+      "transferExpired": "EXPIRED NA ANG PAGLIPAT",
+      "weRegret": "IKINALULUNGKOT NAMING",
+      "youThatThis": "IPAALAM SA IYO",
+      "REACHED": " NA ANG PAGLILIPAT NA ITO AY UMABOT NA",
+      "notAccessible": "SA PAG-EXPIRE AT HINDI NA MAA-ACCESS",
+      "sendFiles": "MAGPADALA NG MGA FILE"
+    },
+    "scheduleDone": {
+      "time": "oras",
+      "emailFrom": "EMAIL MULA SA",
+      "yourSchedule": "ANG INYONG ISKEDULADONG ZTFR UPLOAD AY",
+      "initiate": "SIMULAN SA LOOB NG 5 SEGUNDO.",
+      "dontClose": "HUWAG ISARA ANG INYONG BROWSER",
+      "during": "SA PANAHONG ITO NG PROSESO"
+    },
+    "noInternet": {
+      "notConnected": "Mukhang hindi ka konektado sa internet",
+      "noConnection": "Walang koneksyon sa internet",
+      "checkConnection": "Suriin ang iyong koneksyon o subukan muli",
+      "internetSettings": "Mga Setting ng Internet"
+    }
+  }
+}
