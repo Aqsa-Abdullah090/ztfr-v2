@@ -53,7 +53,7 @@ export default function Header({ onFlagClick, selectedRegion, isSidebarOpen }) {
                 src={flagProp}
                 alt={selectedRegion?.country_name || "flag"}
                 // w-auto ke sath aspect ratio aur object-cover dynamic dimensions ko theek karega
-                className="h-[40px] w-[40px] object-cover rounded-xl"
+                className="h-[30px] w-[30px] object-cover rounded-lg"
                 onError={(e) => {
                   console.warn(
                     "Flag image failed loading, hiding fallback dynamic nodes.",
@@ -62,7 +62,7 @@ export default function Header({ onFlagClick, selectedRegion, isSidebarOpen }) {
                 }}
               />
             ) : (
-              <div className="h-[40px] w-auto flex items-center justify-center text-3xl leading-[40px] select-none">
+              <div className="h-[30px] w-auto flex items-center justify-center text-3xl leading-[30px] select-none">
                 {flagProp}
               </div>
             )

@@ -98,8 +98,8 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
   }, [controls, onScrollChange, isDesktop]);
 
   return (
-    <div 
-      ref={containerRef} 
+    <div
+      ref={containerRef}
       onScroll={(e) => {
         if (isDesktop || !onScrollChange) return;
         const { scrollTop, scrollHeight, clientHeight } = e.currentTarget;
@@ -160,7 +160,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
   // Dynamic localization execution handler
   const handleItemSelection = (region) => {
     const designatedLang = String(region.value || "en").toLowerCase();
-    
+
     // Switch languages dynamically via instance sync
     i18n.changeLanguage(designatedLang);
     localStorage.setItem("language", designatedLang);
@@ -171,17 +171,17 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
 
   return (
     <>
-      <div 
-        className={`fixed inset-0 z-50 transition-opacity duration-700 ease-in-out ${isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`} 
-        onClick={onClose} 
+      <div
+        className={`fixed inset-0 z-50 transition-opacity duration-400 ease-in-out ${isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
+        onClick={onClose}
       />
 
-      <div className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[45px] w-full lg:w-[480px] text-white flex flex-col transform transition-transform duration-900 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}
+      <div className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[45px] w-full lg:w-[480px] text-white flex flex-col transform transition-transform duration-400 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}
         style={{
           backdropFilter: "blur(30px)",
           WebkitBackdropFilter: "blur(30px)",
         }}>
-        
+
         <div className="pt-[30px] lg:pt-[45px] space-y-[10px] lg:space-y-[20px] flex-shrink-0">
           <h2 className="text-[12px] lg:text-[14px] tracking-[1px] uppercase font-arial">
             {t("countries.choose", "CHOOSE YOUR COUNTRY OR REGION")} {/* 🔥 Dynamic translation with English fallback */}
@@ -207,40 +207,42 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                   <img
                     src={isActive && selectedRegion?.country_flag && !selectedRegion.country_flag.includes('dynamic') ? selectedRegion.country_flag : region.country_flag}
                     alt={`${region.country_name} flag`}
-                    className="h-[40px] w-[40px] object-cover rounded-xl"
+                    className="h-[30px] w-[30px] object-cover rounded-lg"
                     loading="lazy"
                   />
                 </div>
 
                 <div
-                  className={`flex-1 grid grid-cols-3 gap-x-[20px] lg:gap-x-[50px] items-center text-[8.5px] lg:text-[12px] font-arial tracking-[1.5px] ${
-                    isActive ? "text-[#0098AA] font-bold" : "text-white"
-                  }`}
-                >
-                  <span 
-                    className={`uppercase whitespace-nowrap transition-colors cursor-pointer ${
-                      isActive || isRowHovered ? "text-[#0098AA]" : "text-white"
+                  className={`flex-1 grid grid-cols-3 gap-x-[20px] lg:gap-x-[50px] items-center text-[8.5px] lg:text-[12px] font-arial tracking-[1.5px] ${isActive ? "text-[#0098AA] font-bold" : "text-white"
                     }`}
-                    onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
+                >
+                  <span
+                    className={`inline-block uppercase whitespace-nowrap transition-colors ${isActive || isRowHovered ? "text-[#0098AA]" : "text-white"
+                      } cursor-pointer`}
+                    onMouseEnter={() =>
+                      setHoveredRow({ id: region.id, type: "primary" })
+                    }
                   >
                     {region.country_name}
                   </span>
 
-                  <span 
-                    className={`uppercase transition-colors cursor-pointer pl-[20px] ${
-                      isActive || (isRowHovered && hoveredRow.type === "primary") ? "text-[#0098AA]" : "text-white"
-                    }`}
+                  <span
+                    className={`uppercase transition-colors  ml-[20px] ${isActive || (isRowHovered && hoveredRow.type === "primary") ? "text-[#0098AA]" : "text-white"
+                      } cursor-pointer`}
                     onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
                   >
                     {region.country_language}
                   </span>
 
                   {region.country_language_optional ? (
-                    <span 
-                      className={`uppercase italic transition-colors cursor-pointer ${
-                        isActive || (isRowHovered && hoveredRow.type === "optional") ? "text-[#0098AA]" : "text-white"
-                      }`}
-                      onMouseEnter={() => setHoveredRow({ id: region.id, type: "optional" })}
+                    <span
+                      className={`inline w-fit uppercase italic transition-colors cursor-pointer ${isActive || (isRowHovered && hoveredRow.type === "optional")
+                          ? "text-[#0098AA]"
+                          : "text-white"
+                        }`}
+                      onMouseEnter={() =>
+                        setHoveredRow({ id: region.id, type: "optional" })
+                      }
                     >
                       {region.country_language_optional}
                     </span>
