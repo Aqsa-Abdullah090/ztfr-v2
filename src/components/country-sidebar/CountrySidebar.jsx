@@ -105,7 +105,7 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
         const { scrollTop, scrollHeight, clientHeight } = e.currentTarget;
         onScrollChange(scrollTop + clientHeight >= scrollHeight - 5);
       }}
-      className={`flex-1 mt-[20px] lg:pt-[20px] ${isDesktop ? "overflow-hidden" : "overflow-y-auto scrolling-touch"}`}
+      className={`flex-1 ${isDesktop ? "overflow-hidden" : "overflow-y-auto scrolling-touch"}`}
     >
       <motion.div animate={isDesktop ? controls : { y: 0 }} className="relative w-full space-y-[25px] lg:space-y-[30px] pb-[30px] lg:pb-[60px]">
         {children}
@@ -157,11 +157,9 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
     return [activeItem, ...remainingItems];
   }, [cleanActiveId, cleanActiveName]);
 
-  // Dynamic localization execution handler
   const handleItemSelection = (region) => {
     const designatedLang = String(region.value || "en").toLowerCase();
 
-    // Switch languages dynamically via instance sync
     i18n.changeLanguage(designatedLang);
     localStorage.setItem("language", designatedLang);
 
@@ -182,12 +180,12 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
           WebkitBackdropFilter: "blur(30px)",
         }}>
 
-        <div className="pt-[30px] lg:pt-[45px] space-y-[10px] lg:space-y-[20px] flex-shrink-0">
+        <div className="my-[10px] lg:my-[20px] space-y-[8px] lg:space-y-[10px] flex-shrink-0">
           <h2 className="text-[12px] lg:text-[14px] tracking-[1px] uppercase font-arial">
-            {t("countries.choose", "CHOOSE YOUR COUNTRY OR REGION")} {/* 🔥 Dynamic translation with English fallback */}
+            {t("countries.choose", "CHOOSE YOUR COUNTRY OR REGION")} 
           </h2>
           <p className="text-[12px] lg:text-[14px] italic tracking-[1px] font-arial">
-            {t("countries.language", "LANGUAGE")} {/* 🔥 Dynamic translation with English fallback */}
+            {t("countries.language", "LANGUAGE")} 
           </p>
         </div>
 
@@ -213,7 +211,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                 </div>
 
                 <div
-                  className={`flex-1 grid grid-cols-3 gap-x-[20px] lg:gap-x-[50px] items-center text-[8.5px] lg:text-[12px] font-arial tracking-[1.5px] ${isActive ? "text-[#0098AA] font-bold" : "text-white"
+                  className={`flex-1 grid grid-cols-3 gap-x-[20px] lg:gap-x-[70px] items-center text-[8.5px] lg:text-[12px] font-arial tracking-[1.5px] ${isActive ? "text-[#0098AA] font-bold" : "text-white"
                     }`}
                 >
                   <span
@@ -227,7 +225,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                   </span>
 
                   <span
-                    className={`uppercase transition-colors  ml-[20px] ${isActive || (isRowHovered && hoveredRow.type === "primary") ? "text-[#0098AA]" : "text-white"
+                    className={`uppercase transition-colors  ml-[10px] ${isActive || (isRowHovered && hoveredRow.type === "primary") ? "text-[#0098AA]" : "text-white"
                       } cursor-pointer`}
                     onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
                   >
