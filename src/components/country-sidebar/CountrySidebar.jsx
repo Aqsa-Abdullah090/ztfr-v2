@@ -278,7 +278,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                       style={{
                         fontSize: "12px",
                         letterSpacing: "1.5px",
-                        fontStyle: "italic", // Hamesha default styling rahegi ispar
+                        fontStyle: "italic",
                       }}
                       className={`inline w-fit uppercase transition-colors cursor-pointer ${isActive || (isRowHovered && hoveredRow.type === "optional")
                           ? "text-[#0098AA]"
