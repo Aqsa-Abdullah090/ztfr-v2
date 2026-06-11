@@ -25,7 +25,6 @@ export default function Home() {
   }, [dispatch]);
 
   // 2. Heavy-Duty Synchronization Loop
-  // 2. Heavy-Duty Synchronization Loop
   useEffect(() => {
     // Priority 1: User Explicit Selection (LocalStorage Locked Preference)
     const savedRegion = localStorage.getItem('activeRegion');
@@ -114,13 +113,22 @@ export default function Home() {
 
   return (
     <main className="relative h-screen w-full overflow-hidden text-white flex flex-col justify-between bg-transparent">
-      <div className="absolute inset-0 -z-10">
-        <img
-          src="/assets/14.jpeg"
-          alt="Background graphic"
+      
+      {/* 🔥 Video Background Container */}
+      <div className="absolute inset-0 -z-10 overflow-hidden">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
           className="absolute inset-0 h-full w-full object-cover"
-        />
-        <div className="absolute inset-0 bg-black/20 pointer-events-none" />
+        >
+          {/* Apni video ka path yahan public folder ke mutabik set karein */}
+          <source src="/assets/World’s Best Airline 2025.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        {/* Dark overlay taake video ke upar text sahi se read ho sake */}
+        <div className="absolute inset-0 bg-black/30 pointer-events-none" />
       </div>
 
       <div className="pl-16 md:pl-20 z-10">
@@ -166,7 +174,7 @@ export default function Home() {
         isOpen={isRegionPanelOpen}
         onClose={() => setIsRegionPanelOpen(false)}
         activeRegionId={selectedRegion?.id}
-        selectedRegion={selectedRegion} // YEH WALA PROP ZAROOR ADD KAREIN
+        selectedRegion={selectedRegion}
         onSelectRegion={handleRegionSelect}
       />
     </main>
