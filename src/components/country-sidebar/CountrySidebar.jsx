@@ -81,11 +81,11 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
       const maxScroll = Math.max(0, contentHeight - viewHeight);
 
       targetRef.current = Math.min(Math.max(targetRef.current, 0), maxScroll);
-      currentRef.current += (targetRef.current - currentRef.current) * 0.08;
+      currentRef.current += (targetRef.current - currentRef.current) * 0.45;
 
       controls.start({
         y: -currentRef.current,
-        transition: { duration: 0.8, ease: "linear" },
+        transition: { duration: 0.01, ease: "linear" },
       });
 
       if (onScrollChange) {
