@@ -205,14 +205,14 @@ export const countriesData = [
     country_name: "UNITED KINGDOM",
     country_language: "ENGLISH",
     id: 1,
-    value: "en",
+    value: "UK",
     country_flag: "/assets/flags/UNITED KINGDOM.svg",
   },
   {
     country_name: "UNITED STATES",
     country_language: "ENGLISH",
     id: 2,
-    value: "en",
+    value: "US",
     country_flag: "/assets/flags/UNITED STATES.svg",
   },
 ];
