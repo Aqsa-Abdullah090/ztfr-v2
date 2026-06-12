@@ -157,14 +157,12 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
     return [activeItem, ...remainingItems];
   }, [cleanActiveId, cleanActiveName]);
 
-  // Updated language selection handler
   const handleItemSelection = (region, selectEnglish = false) => {
     const designatedLang = selectEnglish ? "en" : String(region.value || "en").toLowerCase();
 
     i18n.changeLanguage(designatedLang);
     localStorage.setItem("language", designatedLang);
 
-    // custom callback logic if needed
     if (onSelectRegion) {
       onSelectRegion({
         ...region,
@@ -174,7 +172,6 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
     onClose();
   };
 
-  // Helper function for dynamic language styling
   const getLanguageStyles = (langValue) => {
     const upperLang = String(langValue || "").toUpperCase();
 
@@ -206,6 +203,10 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
     };
   };
 
+  // صرف مین ہیڈر کے لیے ایکٹیو زبان چیک کی جا رہی ہے
+  const currentLang = String(i18n.language || "").toLowerCase();
+  const isGlobalRTL = currentLang === "pk" || currentLang === "ae";
+
   return (
     <>
       <div
@@ -213,13 +214,17 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
         onClick={onClose}
       />
 
-      <div className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[45px] w-full lg:w-[480px] text-white flex flex-col transform transition-transform duration-400 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}
+      {/* ہیڈر کو کنٹرول کرنے کے لیے اس کنٹینر کی ڈائریکشن کو ڈائنامک رکھا گیا ہے */}
+      <div 
+        dir={isGlobalRTL ? "rtl" : "ltr"}
+        className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[45px] pr-[20px] lg:pr-[45px] w-full lg:w-[480px] text-white flex flex-col transform transition-transform duration-400 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}
         style={{
           backdropFilter: "blur(30px)",
           WebkitBackdropFilter: "blur(30px)",
         }}>
 
-        <div className="my-[10px] lg:my-[20px] space-y-[8px] lg:space-y-[10px] flex-shrink-0">
+        {/* یہ ہیڈر ٹیکسٹ کو بالکل درست دائیں طرف الائن رکھے گا */}
+        <div className={`my-[10px] lg:my-[20px] space-y-[8px] lg:space-y-[10px] flex-shrink-0 ${isGlobalRTL ? "text-right" : "text-left"}`}>
           <h2 className="text-[12px] lg:text-[14px] tracking-[1px] uppercase font-arial">
             {t("countries.choose", "CHOOSE YOUR COUNTRY OR REGION")}
           </h2>
@@ -233,19 +238,19 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
             const isCountryActive = isCountryMatch(region);
             const isRowHovered = hoveredRow.id === region.id;
             
-      
-            const currentGlobalLang = String(i18n.language || "").toLowerCase();
             const nativeLangValue = String(region.value || "").toLowerCase();
 
-            const isNativeActive = isCountryActive && currentGlobalLang === nativeLangValue;
-            const isEnglishActive = isCountryActive && currentGlobalLang === "en";
+            const isNativeActive = isCountryActive && currentLang === nativeLangValue;
+            const isEnglishActive = isCountryActive && currentLang === "en";
 
             const dynamicStyles = getLanguageStyles(region.value);
 
             return (
+              /* لسٹ کی ڈائریکشن کو مستقل 'ltr' اور 'flex-row' رکھا ہے تاکہ امیج کے مطابق لسٹ الٹی نہ ہو */
               <div
                 key={region.id}
-                className="flex items-center space-x-[20px] lg:space-x-[40px] transition-opacity"
+                dir="ltr"
+                className="flex items-center flex-row space-x-[20px] lg:space-x-[40px] transition-opacity"
                 onMouseLeave={() => setHoveredRow({ id: null, type: null })}
               >
                 <div className="flex items-center flex-shrink-0 cursor-pointer" onClick={() => handleItemSelection(region, false)}>
@@ -263,11 +268,10 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                     letterSpacing: dynamicStyles.letterSpacing,
                     fontStyle: dynamicStyles.fontStyle,
                   }}
-                  className="flex-1 grid grid-cols-3 gap-x-[20px] lg:gap-x-[70px] items-center font-arial text-white"
+                  className="flex-1 grid grid-cols-3 gap-x-[20px] lg:gap-x-[120px] items-center font-arial text-white text-left"
                 >
-                  {/* --- 1. Country Name Column --- */}
                   <span
-                    className={`inline-block uppercase whitespace-nowrap not-italic transition-colors cursor-pointer ${
+                    className={`inline-block uppercase whitespace-nowrap not-italic transition-colors cursor-pointer text-left ${
                       isCountryActive ? "text-[#0098AA] font-bold" : (isRowHovered && hoveredRow.type === "primary" ? "text-[#0098AA]" : "text-white")
                     }`}
                     onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
@@ -276,9 +280,8 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                     {region.country_name}
                   </span>
 
-                  {/* --- 2. Native Language Column --- */}
                   <span
-                    className={`uppercase transition-colors ml-[10px] cursor-pointer ${
+                    className={`uppercase transition-colors cursor-pointer text-left ml-[10px] whitespace-nowrap ${
                       isNativeActive ? "text-[#0098AA] font-bold" : (isRowHovered && hoveredRow.type === "primary" ? "text-[#0098AA]" : "text-white")
                     }`}
                     onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
@@ -287,7 +290,6 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                     {region.country_language}
                   </span>
 
-                  {/* --- 3. Optional EN Language Column --- */}
                   {region.country_language_optional ? (
                     <span
                       style={{
@@ -295,11 +297,11 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                         letterSpacing: "1.5px",
                         fontStyle: "italic",
                       }}
-                      className={`inline w-fit uppercase transition-colors cursor-pointer ${
+                      className={`inline w-fit uppercase transition-colors cursor-pointer text-left ${
                         isEnglishActive ? "text-[#0098AA] font-bold" : (isRowHovered && hoveredRow.type === "optional" ? "text-[#0098AA]" : "text-white")
                       }`}
                       onMouseEnter={() => setHoveredRow({ id: region.id, type: "optional" })}
-                      onClick={() => handleItemSelection(region, true)} // True passing because EN clicked
+                      onClick={() => handleItemSelection(region, true)}
                     >
                       {region.country_language_optional}
                     </span>
