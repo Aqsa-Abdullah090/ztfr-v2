@@ -4,6 +4,7 @@ export const countriesData = [
     country_language: "ENGLISH",
     id: 4,
     value: "en",
+    country_code: "au",
     country_flag: "/assets/flags/AUSTRALIA.svg",
   },
   {
@@ -12,6 +13,7 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 27,
     value: "PT",
+    country_code: "br",
     country_flag: "/assets/flags/BRAZIL.svg",
   },
   {
@@ -20,6 +22,7 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 15,
     value: "BG",
+    country_code: "bg",
     country_flag: "/assets/flags/BULGARIA.svg",
   },
   {
@@ -29,6 +32,7 @@ export const countriesData = [
     id: 3,
     value: "en",
     optionalValue: "FR",
+    country_code: "ca",
     country_flag: "/assets/flags/CANADA.svg",
   },
   {
@@ -37,6 +41,7 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 16,
     value: "CZ",
+    country_code: "cz",
     country_flag: "/assets/flags/CZECH REPUBLIC.svg",
   },
   {
@@ -45,6 +50,7 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 20,
     value: "CN",
+    country_code: "cn",
     country_flag: "/assets/flags/CHINA.svg",
   },
   {
@@ -53,6 +59,7 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 12,
     value: "DK",
+    country_code: "dk",
     country_flag: "/assets/flags/DENMARK.svg",
   },
   {
@@ -61,6 +68,7 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 6,
     value: "DE",
+    country_code: "de",
     country_flag: "/assets/flags/GERMANY.svg",
   },
   {
@@ -69,6 +77,7 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 8,
     value: "ES",
+    country_code: "es",
     country_flag: "/assets/flags/SPAIN.svg",
   },
   {
@@ -77,6 +86,7 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 7,
     value: "FR",
+    country_code: "fr",
     country_flag: "/assets/flags/FRANCE.svg",
   },
   {
@@ -85,6 +95,7 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 26,
     value: "IN",
+    country_code: "in",
     country_flag: "/assets/flags/INDIA.svg",
   },
   {
@@ -93,6 +104,7 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 5,
     value: "IT",
+    country_code: "it",
     country_flag: "/assets/flags/ITALY.svg",
   },
   {
@@ -101,15 +113,16 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 22,
     value: "JP",
+    country_code: "jp",
     country_flag: "/assets/flags/JAPAN.svg",
   },
-
   {
     country_name: "Nederland",
     country_language: "Nederlands",
     country_language_optional: "EN",
     id: 10,
     value: "NL",
+    country_code: "nl",
     country_flag: "/assets/flags/NETHERLANDS.svg",
   },
   {
@@ -118,14 +131,16 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 11,
     value: "NO",
+    country_code: "no",
     country_flag: "/assets/flags/NORWAY.svg",
   },
-   {
+  {
     country_name: "پاکستان",
     country_language: "اردو",
     country_language_optional: "EN",
     id: 19,
     value: "PK",
+    country_code: "pk",
     country_flag: "/assets/flags/PAKISTAN.svg",
   },
   {
@@ -134,15 +149,16 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 25,
     value: "PH",
+    country_code: "ph",
     country_flag: "/assets/flags/PHILIPPINES.svg",
   },
-
   {
     country_name: "Polska",
     country_language: "Polski",
     country_language_optional: "EN",
     id: 14,
     value: "PL",
+    country_code: "pl",
     country_flag: "/assets/flags/POLAND.svg",
   },
   {
@@ -151,6 +167,7 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 9,
     value: "PT",
+    country_code: "pt",
     country_flag: "/assets/flags/PORTUGAL.svg",
   },
   {
@@ -159,6 +176,7 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 21,
     value: "RU",
+    country_code: "ru",
     country_flag: "/assets/flags/RUSSIA.svg",
   },
   {
@@ -167,6 +185,7 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 23,
     value: "KP",
+    country_code: "kr",
     country_flag: "/assets/flags/SOUTH KOREA.svg",
   },
   {
@@ -175,6 +194,7 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 13,
     value: "SE",
+    country_code: "se",
     country_flag: "/assets/flags/SWEDEN.svg",
   },
   {
@@ -183,6 +203,7 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 24,
     value: "TH",
+    country_code: "th",
     country_flag: "/assets/flags/THAILAND.svg",
   },
   {
@@ -191,6 +212,7 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 17,
     value: "TR",
+    country_code: "tr",
     country_flag: "/assets/flags/TÜRKİYE.svg",
   },
   {
@@ -199,20 +221,23 @@ export const countriesData = [
     country_language_optional: "EN",
     id: 18,
     value: "AE",
+    country_code: "ae",
     country_flag: "/assets/flags/UNITED ARAB EMIRATES.svg",
   },
   {
     country_name: "UNITED KINGDOM",
     country_language: "ENGLISH",
     id: 1,
-    value: "UK",
+    value: "en",
+    country_code: "gb",
     country_flag: "/assets/flags/UNITED KINGDOM.svg",
   },
   {
     country_name: "UNITED STATES",
     country_language: "ENGLISH",
     id: 2,
-    value: "US",
+    value: "en",
+    country_code: "us",
     country_flag: "/assets/flags/UNITED STATES.svg",
   },
 ];

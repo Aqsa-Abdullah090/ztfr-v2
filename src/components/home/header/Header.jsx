@@ -17,8 +17,9 @@ export default function Header({ onFlagClick, selectedRegion, isSidebarOpen }) {
   };
 
   const shouldBeUp = startFlyUp || isSidebarOpen;
-
   const flagProp = selectedRegion?.country_flag;
+
+  // ایموجی فلیگ چیکر سیکیورٹی گارڈ
   const isEmoji =
     flagProp &&
     typeof flagProp === "string" &&
@@ -52,12 +53,9 @@ export default function Header({ onFlagClick, selectedRegion, isSidebarOpen }) {
               <img
                 src={flagProp}
                 alt={selectedRegion?.country_name || "flag"}
-                // w-auto ke sath aspect ratio aur object-cover dynamic dimensions ko theek karega
                 className="h-[30px] w-[30px] object-cover rounded-lg"
                 onError={(e) => {
-                  console.warn(
-                    "Flag image failed loading, hiding fallback dynamic nodes.",
-                  );
+                  console.warn("Flag image failed loading, hiding rendering fallback node.");
                   e.target.style.display = "none";
                 }}
               />

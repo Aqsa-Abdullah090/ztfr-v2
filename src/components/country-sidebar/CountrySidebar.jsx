@@ -132,21 +132,36 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
     };
   }, [isOpen, onClose]);
 
+  // کلین پیرامیٹر سٹرنگز فار میچنگ میٹرکس
   const cleanActiveId = String(activeRegionId || "").trim().toLowerCase();
   const cleanActiveName = String(selectedRegion?.country_name || "").trim().toLowerCase();
 
+  // 🛠️ سو فیصد محفوظ 'country_code' میچنگ فنکشن
   const isCountryMatch = (region) => {
     const localId = String(region.id || "").trim().toLowerCase();
-    const localValueCode = String(region.value || "").trim().toLowerCase();
+    const localCode = String(region.country_code || "").trim().toLowerCase();
     const localName = String(region.country_name || "").trim().toLowerCase();
     const localFlagPath = String(region.country_flag || "").trim().toLowerCase();
 
-    const isIdOrCodeMatch = localId === cleanActiveId || localValueCode === cleanActiveId;
-    const isNameMatch = cleanActiveName && (localName === cleanActiveName || localFlagPath.includes(cleanActiveName));
+    // 1. اگر آئی ڈی براہ راست لسٹ سے میچ کر جائے (جب صارف خود کلک کرے)
+    if (cleanActiveId && localId === cleanActiveId) return true;
 
-    return isIdOrCodeMatch || isNameMatch;
+    // 2. کلاؤڈ یا وی پی این کوڈز کی میچنگ (جیسے 'us', 'pk') اور اوپیرا وی پی این 'uk' -> 'gb' فال بیک کا حل
+    if (cleanActiveId) {
+      if (cleanActiveId === "uk" && localCode === "gb") return true;
+      if (localCode === cleanActiveId) return true;
+    }
+
+    // 3. نیم یا فلیگ یو آر ایل پاتھ کی میچنگ کا فائنل سیف گارڈ
+    if (cleanActiveName) {
+      const isNameMatch = localName === cleanActiveName || localFlagPath.includes(cleanActiveName);
+      if (isNameMatch) return true;
+    }
+
+    return false;
   };
 
+  // ڈیٹا لسٹ ری آرڈر میٹرکس (فعال ملک کو ٹاپ پر لانے کے لیے)
   const orderedCountries = useMemo(() => {
     if (!cleanActiveId && !cleanActiveName) return countriesData;
 
@@ -158,6 +173,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
   }, [cleanActiveId, cleanActiveName]);
 
   const handleItemSelection = (region, selectEnglish = false) => {
+    // ملٹی لینگویج (i18n) سسٹم کے لیے ویلیو (en, pt, rz) ہمیشہ کلین سورس رہے گی
     const designatedLang = selectEnglish ? "en" : String(region.value || "en").toLowerCase();
 
     i18n.changeLanguage(designatedLang);
@@ -213,7 +229,6 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
         onClick={onClose}
       />
 
-
       <div 
         dir={isGlobalRTL ? "rtl" : "ltr"}
         className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[45px] pr-[20px] lg:pr-[45px] w-full lg:w-[480px] text-white flex flex-col transform transition-transform duration-400 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}
@@ -244,7 +259,6 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
             const dynamicStyles = getLanguageStyles(region.value);
 
             return (
-        
               <div
                 key={region.id}
                 dir="ltr"

@@ -40,13 +40,13 @@ export default function Home() {
       }
     }
 
-    // Priority 2: Extracting From Visitor Data (Redux State)
+    // Priority 2: Extracting From Visitor Data (Redux State via country_code)
     if (visitorData) {
       const apiCountryCode = visitorData?.countryCode || 
-                            visitorData?.country_code || 
-                            visitorData?.country?.country_code || 
-                            visitorData?.country?.code ||
-                            visitorData?.geo?.country_code;
+                             visitorData?.country_code || 
+                             visitorData?.country?.country_code || 
+                             visitorData?.country?.code ||
+                             visitorData?.geo?.country_code;
 
       const dynamicFlagUrl = visitorData?.country?.flag_url || visitorData?.flag_url || visitorData?.flag;
       const apiCountryName = visitorData?.country_name || visitorData?.country?.country_name || visitorData?.country;
@@ -54,10 +54,14 @@ export default function Home() {
       if (apiCountryCode) {
         const cleanApiCode = String(apiCountryCode).trim().toLowerCase();
 
-        // Check local array 'value' field (like 'pk', 'in') as priority matching keys
+        // خاص طور پر نئی 'country_code' فیلڈ کی بنیاد پر میچنگ کریں
         const matchedCountry = countriesData.find((c) => {
-          const localCode = c.value || c.country_code || c.code || c.id;
-          return localCode && String(localCode).trim().toLowerCase() === cleanApiCode;
+          const localCode = String(c.country_code || "").trim().toLowerCase();
+          
+          // اوپیرا وی پی این کی خاص ہینڈلنگ (اگر کلاؤڈ 'uk' بھیجے تو لسٹ کے 'gb' سے میچ کرے)
+          if (cleanApiCode === "uk" && localCode === "gb") return true;
+          
+          return localCode === cleanApiCode;
         });
 
         if (matchedCountry) {
@@ -70,7 +74,7 @@ export default function Home() {
         }
       }
 
-      // ULTIMATE FALLBACK: Agar English Name ya Asset verification matches mil jayein
+      // ULTIMATE FALLBACK: اگر انگلش نام یا امیج پاتھ میچ ہو جائے
       if (apiCountryName && typeof apiCountryName === 'string') {
         const cleanApiName = apiCountryName.trim().toLowerCase();
         const matchedByName = countriesData.find((c) => {
@@ -89,7 +93,7 @@ export default function Home() {
         }
       }
 
-      // EXTRA EMERGENCY SAFEGUARD
+      // EXTRA EMERGENCY SAFEGUARD: اگر ملک لسٹ میں نہ ہو تب بھی کریش نہ ہو
       if (dynamicFlagUrl) {
         const fallbackId = apiCountryCode ? String(apiCountryCode).trim().toLowerCase() : 'dynamic-api-node';
         setSelectedRegion({
@@ -123,11 +127,9 @@ export default function Home() {
           playsInline
           className="absolute inset-0 h-full w-full object-cover"
         >
-          {/* Apni video ka path yahan public folder ke mutabik set karein */}
           <source src="/assets/World’s Best Airline 2025.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        {/* Dark overlay taake video ke upar text sahi se read ho sake */}
         <div className="absolute inset-0 bg-black/30 pointer-events-none" />
       </div>
 
