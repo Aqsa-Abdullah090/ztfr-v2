@@ -54,10 +54,12 @@ export default function Home() {
       if (apiCountryCode) {
         const cleanApiCode = String(apiCountryCode).trim().toLowerCase();
 
-        // Check local array 'value' field (like 'pk', 'in') as priority matching keys
+        // UK/GB یا دیگر کوڈز کے لیے نام اور فلیگ پاتھ کا بیک اپ چیک بھی شامل کر دیا ہے
         const matchedCountry = countriesData.find((c) => {
           const localCode = c.value || c.country_code || c.code || c.id;
-          return localCode && String(localCode).trim().toLowerCase() === cleanApiCode;
+          const localName = String(c.country_name).trim().toLowerCase();
+          return (localCode && String(localCode).trim().toLowerCase() === cleanApiCode) || 
+                 (cleanApiCode === "gb" && localName === "united kingdom");
         });
 
         if (matchedCountry) {
@@ -76,7 +78,7 @@ export default function Home() {
         const matchedByName = countriesData.find((c) => {
           const localName = String(c.country_name).trim().toLowerCase();
           const localFlagPath = String(c.country_flag).trim().toLowerCase();
-          return localName === cleanApiName || localFlagPath.includes(cleanApiName);
+          return localName === cleanApiName || localFlagPath.includes(cleanApiName) || (cleanApiName === "united kingdom" && localName === "united kingdom");
         });
 
         if (matchedByName) {
@@ -123,11 +125,9 @@ export default function Home() {
           playsInline
           className="absolute inset-0 h-full w-full object-cover"
         >
-          {/* Apni video ka path yahan public folder ke mutabik set karein */}
           <source src="/assets/World’s Best Airline 2025.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        {/* Dark overlay taake video ke upar text sahi se read ho sake */}
         <div className="absolute inset-0 bg-black/30 pointer-events-none" />
       </div>
 

@@ -135,7 +135,12 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
   const cleanActiveId = String(activeRegionId || "").trim().toLowerCase();
   const cleanActiveName = String(selectedRegion?.country_name || "").trim().toLowerCase();
 
+  // آئی ڈی بیسڈ میچنگ کو اولین ترجیح دی گئی ہے تاکہ UK/US کا مسئلہ پیدا نہ ہو
   const isCountryMatch = (region) => {
+    if (cleanActiveId && String(region.id) === cleanActiveId) {
+      return true;
+    }
+
     const localId = String(region.id || "").trim().toLowerCase();
     const localValueCode = String(region.value || "").trim().toLowerCase();
     const localName = String(region.country_name || "").trim().toLowerCase();
@@ -213,7 +218,6 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
         onClick={onClose}
       />
 
-
       <div 
         dir={isGlobalRTL ? "rtl" : "ltr"}
         className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[45px] pr-[20px] lg:pr-[45px] w-full lg:w-[480px] text-white flex flex-col transform transition-transform duration-400 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}
@@ -244,7 +248,6 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
             const dynamicStyles = getLanguageStyles(region.value);
 
             return (
-        
               <div
                 key={region.id}
                 dir="ltr"
