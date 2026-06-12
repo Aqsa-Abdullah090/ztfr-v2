@@ -85,7 +85,7 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
 
       controls.start({
         y: -currentRef.current,
-        transition: { duration: 0.01, ease: "linear" },
+        transition: { duration: 0.28, ease: "linear" },
       });
 
       if (onScrollChange) {
