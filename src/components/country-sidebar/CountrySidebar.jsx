@@ -107,7 +107,7 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
       }}
       className={`flex-1 ${isDesktop ? "overflow-hidden" : "overflow-y-auto scrolling-touch"}`}
     >
-      <motion.div animate={isDesktop ? controls : { y: 0 }} className="relative w-full space-y-[25px] lg:space-y-[30px] pb-[30px] lg:pb-[60px]">
+      <motion.div animate={isDesktop ? controls : { y: 0 }} className="relative w-full space-y-[25px] lg:space-y-[30px] pb-[20px] lg:pb-[30px]">
         {children}
       </motion.div>
     </div>
@@ -198,9 +198,9 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
         fontStyle: "normal",
       };
     }
-    if (["TH", "KP", "JP", "IN"].includes(upperLang)) {
+    if (["TH", "IN"].includes(upperLang)) {
       return {
-        fontSize: "15px",
+        fontSize: "14px",
         letterSpacing: "0px",
         fontStyle: "normal",
       };
@@ -238,10 +238,10 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
         }}>
 
         <div className={`my-[10px] lg:my-[20px] space-y-[8px] lg:space-y-[10px] flex-shrink-0 ${isGlobalRTL ? "text-right" : "text-left"}`}>
-          <h2 className="text-[12px] lg:text-[14px] tracking-[1px] uppercase font-arial">
+          <h2 className="text-[12px] tracking-[1px] uppercase font-arial">
             {t("countries.choose", "CHOOSE YOUR COUNTRY OR REGION")}
           </h2>
-          <p className="text-[12px] lg:text-[14px] italic tracking-[1px] font-arial">
+          <p className="text-[12px] italic tracking-[1px] font-arial">
             {t("countries.language", "LANGUAGE")}
           </p>
         </div>
