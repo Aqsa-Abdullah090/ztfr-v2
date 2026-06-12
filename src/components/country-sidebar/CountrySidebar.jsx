@@ -203,7 +203,6 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
     };
   };
 
-  // صرف مین ہیڈر کے لیے ایکٹیو زبان چیک کی جا رہی ہے
   const currentLang = String(i18n.language || "").toLowerCase();
   const isGlobalRTL = currentLang === "pk" || currentLang === "ae";
 
@@ -214,7 +213,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
         onClick={onClose}
       />
 
-      {/* ہیڈر کو کنٹرول کرنے کے لیے اس کنٹینر کی ڈائریکشن کو ڈائنامک رکھا گیا ہے */}
+
       <div 
         dir={isGlobalRTL ? "rtl" : "ltr"}
         className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[45px] pr-[20px] lg:pr-[45px] w-full lg:w-[480px] text-white flex flex-col transform transition-transform duration-400 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}
@@ -223,7 +222,6 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
           WebkitBackdropFilter: "blur(30px)",
         }}>
 
-        {/* یہ ہیڈر ٹیکسٹ کو بالکل درست دائیں طرف الائن رکھے گا */}
         <div className={`my-[10px] lg:my-[20px] space-y-[8px] lg:space-y-[10px] flex-shrink-0 ${isGlobalRTL ? "text-right" : "text-left"}`}>
           <h2 className="text-[12px] lg:text-[14px] tracking-[1px] uppercase font-arial">
             {t("countries.choose", "CHOOSE YOUR COUNTRY OR REGION")}
@@ -246,7 +244,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
             const dynamicStyles = getLanguageStyles(region.value);
 
             return (
-              /* لسٹ کی ڈائریکشن کو مستقل 'ltr' اور 'flex-row' رکھا ہے تاکہ امیج کے مطابق لسٹ الٹی نہ ہو */
+        
               <div
                 key={region.id}
                 dir="ltr"
