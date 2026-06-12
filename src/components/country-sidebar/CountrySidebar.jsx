@@ -205,7 +205,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
         fontStyle: "normal",
       };
     }
-    if (["CN", "BG"].includes(upperLang)) {
+    if (["CN", "BG", "KP", "JP"].includes(upperLang)) {
       return {
         fontSize: "12px",
         letterSpacing: "0px",
