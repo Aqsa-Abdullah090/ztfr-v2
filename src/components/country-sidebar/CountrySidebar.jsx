@@ -284,7 +284,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                 >
                   <span
                     className={`inline-block uppercase whitespace-nowrap not-italic transition-colors cursor-pointer text-left ${
-                      isCountryActive ? "text-[#0098AA] font-bold" : (isRowHovered && hoveredRow.type === "primary" ? "text-[#0098AA]" : "text-white")
+                      isCountryActive ? "text-[#0098AA]" : (isRowHovered && hoveredRow.type === "primary" ? "text-[#0098AA]" : "text-white")
                     }`}
                     onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
                     onClick={() => handleItemSelection(region, false)}
@@ -294,7 +294,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
 
                   <span
                     className={`uppercase transition-colors cursor-pointer text-left ml-[10px] whitespace-nowrap ${
-                      isNativeActive ? "text-[#0098AA] font-bold" : (isRowHovered && hoveredRow.type === "primary" ? "text-[#0098AA]" : "text-white")
+                      isNativeActive ? "text-[#0098AA]" : (isRowHovered && hoveredRow.type === "primary" ? "text-[#0098AA]" : "text-white")
                     }`}
                     onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
                     onClick={() => handleItemSelection(region, false)}
@@ -310,7 +310,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                         fontStyle: "italic",
                       }}
                       className={`inline w-fit uppercase transition-colors cursor-pointer text-left ${
-                        isEnglishActive ? "text-[#0098AA] font-bold" : (isRowHovered && hoveredRow.type === "optional" ? "text-[#0098AA]" : "text-white")
+                        isEnglishActive ? "text-[#0098AA]" : (isRowHovered && hoveredRow.type === "optional" ? "text-[#0098AA]" : "text-white")
                       }`}
                       onMouseEnter={() => setHoveredRow({ id: region.id, type: "optional" })}
                       onClick={() => handleItemSelection(region, true)}
