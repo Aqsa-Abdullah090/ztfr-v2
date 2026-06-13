@@ -132,27 +132,24 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
     };
   }, [isOpen, onClose]);
 
-  // کلین پیرامیٹر سٹرنگز فار میچنگ میٹرکس
+
   const cleanActiveId = String(activeRegionId || "").trim().toLowerCase();
   const cleanActiveName = String(selectedRegion?.country_name || "").trim().toLowerCase();
 
-  // 🛠️ سو فیصد محفوظ 'country_code' میچنگ فنکشن
   const isCountryMatch = (region) => {
     const localId = String(region.id || "").trim().toLowerCase();
     const localCode = String(region.country_code || "").trim().toLowerCase();
     const localName = String(region.country_name || "").trim().toLowerCase();
     const localFlagPath = String(region.country_flag || "").trim().toLowerCase();
 
-    // 1. اگر آئی ڈی براہ راست لسٹ سے میچ کر جائے (جب صارف خود کلک کرے)
     if (cleanActiveId && localId === cleanActiveId) return true;
 
-    // 2. کلاؤڈ یا وی پی این کوڈز کی میچنگ (جیسے 'us', 'pk') اور اوپیرا وی پی این 'uk' -> 'gb' فال بیک کا حل
     if (cleanActiveId) {
       if (cleanActiveId === "uk" && localCode === "gb") return true;
+      if (localCode === "gb" && cleanActiveId === "gb") return true;
       if (localCode === cleanActiveId) return true;
     }
 
-    // 3. نیم یا فلیگ یو آر ایل پاتھ کی میچنگ کا فائنل سیف گارڈ
     if (cleanActiveName) {
       const isNameMatch = localName === cleanActiveName || localFlagPath.includes(cleanActiveName);
       if (isNameMatch) return true;
@@ -161,7 +158,6 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
     return false;
   };
 
-  // ڈیٹا لسٹ ری آرڈر میٹرکس (فعال ملک کو ٹاپ پر لانے کے لیے)
   const orderedCountries = useMemo(() => {
     if (!cleanActiveId && !cleanActiveName) return countriesData;
 
@@ -173,7 +169,6 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
   }, [cleanActiveId, cleanActiveName]);
 
   const handleItemSelection = (region, selectEnglish = false) => {
-    // ملٹی لینگویج (i18n) سسٹم کے لیے ویلیو (en, pt, rz) ہمیشہ کلین سورس رہے گی
     const designatedLang = selectEnglish ? "en" : String(region.value || "en").toLowerCase();
 
     i18n.changeLanguage(designatedLang);
@@ -205,7 +200,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
         fontStyle: "normal",
       };
     }
-    if (["CN", "BG", "KP", "JP"].includes(upperLang)) {
+    if (["CN", "KP", "JP"].includes(upperLang)) {
       return {
         fontSize: "12px",
         letterSpacing: "0px",
@@ -221,6 +216,8 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
 
   const currentLang = String(i18n.language || "").toLowerCase();
   const isGlobalRTL = currentLang === "pk" || currentLang === "ae";
+
+  const headerLanguageStyles = getLanguageStyles(currentLang);
 
   return (
     <>
@@ -238,10 +235,22 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
         }}>
 
         <div className={`my-[10px] lg:my-[20px] space-y-[8px] lg:space-y-[10px] flex-shrink-0 ${isGlobalRTL ? "text-right" : "text-left"}`}>
-          <h2 className="text-[12px] tracking-[1px] uppercase font-arial">
+          <h2 
+           style={{
+              fontSize: headerLanguageStyles.fontSize,
+              letterSpacing: headerLanguageStyles.letterSpacing,
+            }}
+          className="text-[12px] tracking-[1px] uppercase font-arial not-italic">
             {t("countries.choose", "CHOOSE YOUR COUNTRY OR REGION")}
           </h2>
-          <p className="text-[12px] italic tracking-[1px] font-arial">
+          <p 
+            style={{
+              fontSize: headerLanguageStyles.fontSize,
+              letterSpacing: headerLanguageStyles.letterSpacing,
+              fontStyle: headerLanguageStyles.fontStyle,
+            }}
+            className="uppercase font-arial transition-all duration-300"
+          >
             {t("countries.language", "LANGUAGE")}
           </p>
         </div>
@@ -262,7 +271,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
               <div
                 key={region.id}
                 dir="ltr"
-                className="flex items-center flex-row space-x-[20px] lg:space-x-[40px] transition-opacity"
+                className="flex items-center flex-row space-x-[20px] lg:space-x-[58px] transition-opacity"
                 onMouseLeave={() => setHoveredRow({ id: null, type: null })}
               >
                 <div className="flex items-center flex-shrink-0 cursor-pointer" onClick={() => handleItemSelection(region, false)}>
