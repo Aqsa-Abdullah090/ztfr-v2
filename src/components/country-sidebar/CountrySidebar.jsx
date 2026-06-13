@@ -310,7 +310,7 @@ export default function CountryFlagsSidebar({
                   />
                 </div>
 
-                <div className="flex-1 grid grid-cols-3 gap-x-[105px] lg:gap-x-[120px] items-center font-arial text-white text-left">
+                <div className="flex-1 grid grid-cols-3 gap-x-[105px] lg:gap-x-[125px] items-center font-arial text-white text-left">
                   <span
                     lang={nativeLangValue}
                     style={dynamicStyles()}
@@ -351,7 +351,7 @@ export default function CountryFlagsSidebar({
                     <span
                       lang="en"
                       style={dynamicStyles()}
-                      className={`inline w-fit uppercase transition-colors cursor-pointer text-left ${
+                      className={`inline w-fit uppercase italic transition-colors cursor-pointer text-left ${
                         isEnglishActive
                           ? "text-[#0098AA]"
                           : isRowHovered && hoveredRow.type === "optional"
