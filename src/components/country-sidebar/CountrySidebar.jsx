@@ -119,6 +119,23 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
   const { t } = useTranslation();
   const [hideBottomIcon, setHideBottomIcon] = useState(false);
   const [hoveredRow, setHoveredRow] = useState({ id: null, type: null });
+  const [currentLang, setCurrentLang] = useState("en");
+
+  // i18n Language runtime synchronizer tracker hooks link
+  useEffect(() => {
+    if (i18n.language) {
+      setCurrentLang(String(i18n.language).toLowerCase());
+    }
+    
+    const handleLangUpdate = (lng) => {
+      setCurrentLang(String(lng).toLowerCase());
+    };
+
+    i18n.on("languageChanged", handleLangUpdate);
+    return () => {
+      i18n.off("languageChanged", handleLangUpdate);
+    };
+  }, []);
 
   useEffect(() => {
     const handleEscape = (e) => { if (e.key === "Escape") onClose(); };
@@ -131,7 +148,6 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
       document.body.style.overflow = "unset";
     };
   }, [isOpen, onClose]);
-
 
   const cleanActiveId = String(activeRegionId || "").trim().toLowerCase();
   const cleanActiveName = String(selectedRegion?.country_name || "").trim().toLowerCase();
@@ -183,41 +199,18 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
     onClose();
   };
 
-  const getLanguageStyles = (langValue) => {
-    const upperLang = String(langValue || "").toUpperCase();
-
-    if (upperLang === "PK" || upperLang === "AE") {
-      return {
-        fontSize: "17px",
-        letterSpacing: "0px",
-        fontStyle: "normal",
-      };
-    }
-    if (["TH", "IN"].includes(upperLang)) {
-      return {
-        fontSize: "14px",
-        letterSpacing: "0px",
-        fontStyle: "normal",
-      };
-    }
-    if (["CN", "KP", "JP"].includes(upperLang)) {
-      return {
-        fontSize: "12px",
-        letterSpacing: "0px",
-        fontStyle: "normal",
-      };
-    }
-    return {
-      fontSize: "12px",
-      letterSpacing: "1.5px",
-      fontStyle: "italic",
-    };
-  };
-
-  const currentLang = String(i18n.language || "").toLowerCase();
   const isGlobalRTL = currentLang === "pk" || currentLang === "ae";
 
-  const headerLanguageStyles = getLanguageStyles(currentLang);
+  const dynamicTextStyles = (baseSize) => ({
+    fontSize: `calc(${baseSize} + var(--lang-size-offset))`,
+    letterSpacing: "var(--lang-letter-spacing)",
+    fontStyle: "var(--lang-font-style)",
+  });
+
+   const dynamicStyles = (baseSize) => ({
+    fontSize: `calc(${baseSize} + var(--lang-size-offset))`,
+    letterSpacing: "var(--lang-letter-spacing)",
+  });
 
   return (
     <>
@@ -234,27 +227,26 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
           WebkitBackdropFilter: "blur(30px)",
         }}>
 
-        <div className={`my-[10px] lg:my-[20px] space-y-[8px] lg:space-y-[10px] flex-shrink-0 ${isGlobalRTL ? "text-right" : "text-left"}`}>
+        {/* Header Section - Uses current selected global application language */}
+        <div 
+          lang={currentLang}
+          className={`my-[10px] lg:my-[20px] space-y-[8px] lg:space-y-[10px] flex-shrink-0 ${isGlobalRTL ? "text-right" : "text-left"}`}
+        >
           <h2 
-           style={{
-              fontSize: headerLanguageStyles.fontSize,
-              letterSpacing: headerLanguageStyles.letterSpacing,
-            }}
-          className="text-[12px] tracking-[1px] uppercase font-arial not-italic">
+            style={dynamicStyles("12px")}
+            className="uppercase font-arial"
+          >
             {t("countries.choose", "CHOOSE YOUR COUNTRY OR REGION")}
           </h2>
           <p 
-            style={{
-              fontSize: headerLanguageStyles.fontSize,
-              letterSpacing: headerLanguageStyles.letterSpacing,
-              fontStyle: headerLanguageStyles.fontStyle,
-            }}
+            style={dynamicTextStyles("12px")}
             className="uppercase font-arial transition-all duration-300"
           >
             {t("countries.language", "LANGUAGE")}
           </p>
         </div>
 
+        {/* Scroll Content Block */}
         <SmoothScrollRegions onScrollChange={setHideBottomIcon} isOpen={isOpen}>
           {orderedCountries.map((region) => {
             const isCountryActive = isCountryMatch(region);
@@ -264,8 +256,6 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
 
             const isNativeActive = isCountryActive && currentLang === nativeLangValue;
             const isEnglishActive = isCountryActive && currentLang === "en";
-
-            const dynamicStyles = getLanguageStyles(region.value);
 
             return (
               <div
@@ -283,15 +273,12 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                   />
                 </div>
 
-                <div
-                  style={{
-                    fontSize: dynamicStyles.fontSize,
-                    letterSpacing: dynamicStyles.letterSpacing,
-                    fontStyle: dynamicStyles.fontStyle,
-                  }}
-                  className="flex-1 grid grid-cols-3 gap-x-[20px] lg:gap-x-[120px] items-center font-arial text-white text-left"
-                >
+                <div className="flex-1 grid grid-cols-3 gap-x-[20px] lg:gap-x-[120px] items-center font-arial text-white text-left">
+                  
+                  {/* Each individual block has its own strict context container lang attribute trigger */}
                   <span
+                    lang={nativeLangValue}
+                    style={dynamicStyles("12px")}
                     className={`inline-block uppercase whitespace-nowrap not-italic transition-colors cursor-pointer text-left ${
                       isCountryActive ? "text-[#0098AA]" : (isRowHovered && hoveredRow.type === "primary" ? "text-[#0098AA]" : "text-white")
                     }`}
@@ -302,6 +289,8 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                   </span>
 
                   <span
+                    lang={nativeLangValue}
+                    style={dynamicTextStyles("12px")}
                     className={`uppercase transition-colors cursor-pointer text-left ml-[10px] whitespace-nowrap ${
                       isNativeActive ? "text-[#0098AA]" : (isRowHovered && hoveredRow.type === "primary" ? "text-[#0098AA]" : "text-white")
                     }`}
@@ -313,12 +302,9 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
 
                   {region.country_language_optional ? (
                     <span
-                      style={{
-                        fontSize: "12px",
-                        letterSpacing: "1.5px",
-                        fontStyle: "italic",
-                      }}
-                      className={`inline w-fit uppercase transition-colors cursor-pointer text-left ${
+                      lang="en"
+                      style={dynamicStyles("12px")}
+                      className={`inline w-fit uppercase italic transition-colors cursor-pointer text-left ${
                         isEnglishActive ? "text-[#0098AA]" : (isRowHovered && hoveredRow.type === "optional" ? "text-[#0098AA]" : "text-white")
                       }`}
                       onMouseEnter={() => setHoveredRow({ id: region.id, type: "optional" })}
