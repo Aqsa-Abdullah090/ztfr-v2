@@ -121,20 +121,13 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
   const [hoveredRow, setHoveredRow] = useState({ id: null, type: null });
   const [currentLang, setCurrentLang] = useState("en");
 
-  // i18n Language runtime synchronizer tracker hooks link
   useEffect(() => {
     if (i18n.language) {
       setCurrentLang(String(i18n.language).toLowerCase());
     }
-    
-    const handleLangUpdate = (lng) => {
-      setCurrentLang(String(lng).toLowerCase());
-    };
-
+    const handleLangUpdate = (lng) => { setCurrentLang(String(lng).toLowerCase()); };
     i18n.on("languageChanged", handleLangUpdate);
-    return () => {
-      i18n.off("languageChanged", handleLangUpdate);
-    };
+    return () => { i18n.off("languageChanged", handleLangUpdate); };
   }, []);
 
   useEffect(() => {
@@ -159,56 +152,51 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
     const localFlagPath = String(region.country_flag || "").trim().toLowerCase();
 
     if (cleanActiveId && localId === cleanActiveId) return true;
-
     if (cleanActiveId) {
       if (cleanActiveId === "uk" && localCode === "gb") return true;
       if (localCode === "gb" && cleanActiveId === "gb") return true;
       if (localCode === cleanActiveId) return true;
     }
-
     if (cleanActiveName) {
-      const isNameMatch = localName === cleanActiveName || localFlagPath.includes(cleanActiveName);
-      if (isNameMatch) return true;
+      return localName === cleanActiveName || localFlagPath.includes(cleanActiveName);
     }
-
     return false;
   };
 
   const orderedCountries = useMemo(() => {
     if (!cleanActiveId && !cleanActiveName) return countriesData;
-
     const activeItem = countriesData.find(item => isCountryMatch(item));
     if (!activeItem) return countriesData;
-
     const remainingItems = countriesData.filter(item => !isCountryMatch(item));
     return [activeItem, ...remainingItems];
   }, [cleanActiveId, cleanActiveName]);
 
   const handleItemSelection = (region, selectEnglish = false) => {
     const designatedLang = selectEnglish ? "en" : String(region.value || "en").toLowerCase();
-
     i18n.changeLanguage(designatedLang);
     localStorage.setItem("language", designatedLang);
-
     if (onSelectRegion) {
-      onSelectRegion({
-        ...region,
-        chosenLanguage: designatedLang
-      });
+      onSelectRegion({ ...region, chosenLanguage: designatedLang });
     }
     onClose();
   };
 
   const isGlobalRTL = currentLang === "pk" || currentLang === "ae";
 
-  const dynamicTextStyles = (baseSize) => ({
-    fontSize: `calc(${baseSize} + var(--lang-size-offset))`,
+  /* 🛠️ CSS clamp(min, preferred, max) setup:
+    Yahan preferred calculation views flexible viewport parameters context use karengi:
+    - Mobile / Small viewports (<768px): Base automatically switches around 8px
+    - Tablet / Large desktop (lg / 1024px): Evaluates roughly near 10px
+    - Ultra large displays (2xl / 1536px): Maxes out locked firmly at 12px
+  */
+  const dynamicTextStyles = () => ({
+    fontSize: `calc(clamp(8px, 10px, 12px) + var(--lang-size-offset))`,
     letterSpacing: "var(--lang-letter-spacing)",
     fontStyle: "var(--lang-font-style)",
   });
 
-   const dynamicStyles = (baseSize) => ({
-    fontSize: `calc(${baseSize} + var(--lang-size-offset))`,
+  const dynamicStyles = () => ({
+    fontSize: `calc(clamp(8px, 10px, 12px) + var(--lang-size-offset))`,
     letterSpacing: "var(--lang-letter-spacing)",
   });
 
@@ -221,25 +209,25 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
 
       <div 
         dir={isGlobalRTL ? "rtl" : "ltr"}
-        className={`fixed inset-y-0 right-0 z-50 pl-[20px] lg:pl-[45px] pr-[20px] lg:pr-[45px] w-full lg:w-[480px] text-white flex flex-col transform transition-transform duration-400 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}
+        className={`fixed inset-y-0 right-0 z-50 px-[28px] lg:px-[30px] 2xl:px-[45px] w-full lg:w-[420px] 2xl:w-[480px] text-white flex flex-col transform transition-transform duration-400 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}
         style={{
           backdropFilter: "blur(30px)",
           WebkitBackdropFilter: "blur(30px)",
         }}>
 
-        {/* Header Section - Uses current selected global application language */}
+        {/* Header Section */}
         <div 
           lang={currentLang}
-          className={`my-[10px] lg:my-[20px] space-y-[8px] lg:space-y-[10px] flex-shrink-0 ${isGlobalRTL ? "text-right" : "text-left"}`}
+          className={`my-[10px] 2xl:my-[20px] space-y-[8px] 2xl:space-y-[10px] flex-shrink-0 ${isGlobalRTL ? "text-right" : "text-left"}`}
         >
           <h2 
-            style={dynamicStyles("12px")}
+            style={dynamicStyles()}
             className="uppercase font-arial"
           >
             {t("countries.choose", "CHOOSE YOUR COUNTRY OR REGION")}
           </h2>
           <p 
-            style={dynamicTextStyles("12px")}
+            style={dynamicTextStyles()}
             className="uppercase font-arial transition-all duration-300"
           >
             {t("countries.language", "LANGUAGE")}
@@ -253,7 +241,6 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
             const isRowHovered = hoveredRow.id === region.id;
             
             const nativeLangValue = String(region.value || "").toLowerCase();
-
             const isNativeActive = isCountryActive && currentLang === nativeLangValue;
             const isEnglishActive = isCountryActive && currentLang === "en";
 
@@ -261,7 +248,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
               <div
                 key={region.id}
                 dir="ltr"
-                className="flex items-center flex-row space-x-[20px] lg:space-x-[58px] transition-opacity"
+                className="flex items-center flex-row space-x-[20px] lg:space-x-[34px] 2xl:space-x-[58px] transition-opacity"
                 onMouseLeave={() => setHoveredRow({ id: null, type: null })}
               >
                 <div className="flex items-center flex-shrink-0 cursor-pointer" onClick={() => handleItemSelection(region, false)}>
@@ -273,12 +260,11 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                   />
                 </div>
 
-                <div className="flex-1 grid grid-cols-3 gap-x-[20px] lg:gap-x-[120px] items-center font-arial text-white text-left">
+                <div className="flex-1 grid grid-cols-3 gap-x-[120px] lg:gap-x-[120px] items-center font-arial text-white text-left">
                   
-                  {/* Each individual block has its own strict context container lang attribute trigger */}
                   <span
                     lang={nativeLangValue}
-                    style={dynamicStyles("12px")}
+                    style={dynamicStyles()}
                     className={`inline-block uppercase whitespace-nowrap not-italic transition-colors cursor-pointer text-left ${
                       isCountryActive ? "text-[#0098AA]" : (isRowHovered && hoveredRow.type === "primary" ? "text-[#0098AA]" : "text-white")
                     }`}
@@ -290,7 +276,7 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
 
                   <span
                     lang={nativeLangValue}
-                    style={dynamicTextStyles("12px")}
+                    style={dynamicTextStyles()}
                     className={`uppercase transition-colors cursor-pointer text-left ml-[10px] whitespace-nowrap ${
                       isNativeActive ? "text-[#0098AA]" : (isRowHovered && hoveredRow.type === "primary" ? "text-[#0098AA]" : "text-white")
                     }`}
@@ -303,8 +289,8 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                   {region.country_language_optional ? (
                     <span
                       lang="en"
-                      style={dynamicStyles("12px")}
-                      className={`inline w-fit uppercase italic transition-colors cursor-pointer text-left ${
+                      style={dynamicStyles()}
+                      className={`inline w-fit uppercase transition-colors cursor-pointer text-left ${
                         isEnglishActive ? "text-[#0098AA]" : (isRowHovered && hoveredRow.type === "optional" ? "text-[#0098AA]" : "text-white")
                       }`}
                       onMouseEnter={() => setHoveredRow({ id: region.id, type: "optional" })}
