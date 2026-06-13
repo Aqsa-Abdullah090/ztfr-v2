@@ -74,3 +74,14 @@ div:not([lang="pk"]):not([lang="ae"]):not([lang="th"]):not([lang="in"]):not([lan
 }
 
 
+/* --- Hide Scrollbar Utilities for Touch/Mobile Viewports --- */
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important; /* Safari aur Chrome browser engine track override */
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none !important;  /* IE aur old Edge support */
+  scrollbar-width: none !important;  /* Firefox production engine layout masking */
+}
