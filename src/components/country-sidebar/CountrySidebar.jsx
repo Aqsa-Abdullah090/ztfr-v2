@@ -46,7 +46,9 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
       }
     };
 
-    const handleTouchStart = (e) => { startY = e.touches[0].clientY; };
+    const handleTouchStart = (e) => {
+      startY = e.touches[0].clientY;
+    };
     const handleTouchMove = (e) => {
       const container = containerRef.current;
       if (!container) return;
@@ -94,9 +96,12 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
       rafRef.current = requestAnimationFrame(animate);
     };
     animate();
-    return () => { if (rafRef.current) cancelAnimationFrame(rafRef.current); };
+    return () => {
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+    };
   }, [controls, onScrollChange, isDesktop]);
 
+  // Is block ko "SmoothScrollRegions" component ke return statement mein replace karein
   return (
     <div
       ref={containerRef}
@@ -105,9 +110,17 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
         const { scrollTop, scrollHeight, clientHeight } = e.currentTarget;
         onScrollChange(scrollTop + clientHeight >= scrollHeight - 5);
       }}
-      className={`flex-1 ${isDesktop ? "overflow-hidden" : "overflow-y-auto scrolling-touch"}`}
+      /* 🛠️ Yahan "no-scrollbar" class append kar di hai */
+      className={`flex-1 ${
+        isDesktop
+          ? "overflow-hidden"
+          : "overflow-y-auto scrolling-touch no-scrollbar"
+      }`}
     >
-      <motion.div animate={isDesktop ? controls : { y: 0 }} className="relative w-full space-y-[25px] lg:space-y-[30px] pb-[20px] lg:pb-[30px]">
+      <motion.div
+        animate={isDesktop ? controls : { y: 0 }}
+        className="relative w-full space-y-[25px] lg:space-y-[30px] pb-[20px] lg:pb-[30px]"
+      >
         {children}
       </motion.div>
     </div>
@@ -115,7 +128,13 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
 }
 
 // ---------------- Main Sidebar Component ---------------- //
-export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = null, onSelectRegion, selectedRegion = null }) {
+export default function CountryFlagsSidebar({
+  isOpen,
+  onClose,
+  activeRegionId = null,
+  onSelectRegion,
+  selectedRegion = null,
+}) {
   const { t } = useTranslation();
   const [hideBottomIcon, setHideBottomIcon] = useState(false);
   const [hoveredRow, setHoveredRow] = useState({ id: null, type: null });
@@ -125,13 +144,19 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
     if (i18n.language) {
       setCurrentLang(String(i18n.language).toLowerCase());
     }
-    const handleLangUpdate = (lng) => { setCurrentLang(String(lng).toLowerCase()); };
+    const handleLangUpdate = (lng) => {
+      setCurrentLang(String(lng).toLowerCase());
+    };
     i18n.on("languageChanged", handleLangUpdate);
-    return () => { i18n.off("languageChanged", handleLangUpdate); };
+    return () => {
+      i18n.off("languageChanged", handleLangUpdate);
+    };
   }, []);
 
   useEffect(() => {
-    const handleEscape = (e) => { if (e.key === "Escape") onClose(); };
+    const handleEscape = (e) => {
+      if (e.key === "Escape") onClose();
+    };
     if (isOpen) {
       window.addEventListener("keydown", handleEscape);
       document.body.style.overflow = "hidden";
@@ -142,14 +167,26 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
     };
   }, [isOpen, onClose]);
 
-  const cleanActiveId = String(activeRegionId || "").trim().toLowerCase();
-  const cleanActiveName = String(selectedRegion?.country_name || "").trim().toLowerCase();
+  const cleanActiveId = String(activeRegionId || "")
+    .trim()
+    .toLowerCase();
+  const cleanActiveName = String(selectedRegion?.country_name || "")
+    .trim()
+    .toLowerCase();
 
   const isCountryMatch = (region) => {
-    const localId = String(region.id || "").trim().toLowerCase();
-    const localCode = String(region.country_code || "").trim().toLowerCase();
-    const localName = String(region.country_name || "").trim().toLowerCase();
-    const localFlagPath = String(region.country_flag || "").trim().toLowerCase();
+    const localId = String(region.id || "")
+      .trim()
+      .toLowerCase();
+    const localCode = String(region.country_code || "")
+      .trim()
+      .toLowerCase();
+    const localName = String(region.country_name || "")
+      .trim()
+      .toLowerCase();
+    const localFlagPath = String(region.country_flag || "")
+      .trim()
+      .toLowerCase();
 
     if (cleanActiveId && localId === cleanActiveId) return true;
     if (cleanActiveId) {
@@ -158,21 +195,27 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
       if (localCode === cleanActiveId) return true;
     }
     if (cleanActiveName) {
-      return localName === cleanActiveName || localFlagPath.includes(cleanActiveName);
+      return (
+        localName === cleanActiveName || localFlagPath.includes(cleanActiveName)
+      );
     }
     return false;
   };
 
   const orderedCountries = useMemo(() => {
     if (!cleanActiveId && !cleanActiveName) return countriesData;
-    const activeItem = countriesData.find(item => isCountryMatch(item));
+    const activeItem = countriesData.find((item) => isCountryMatch(item));
     if (!activeItem) return countriesData;
-    const remainingItems = countriesData.filter(item => !isCountryMatch(item));
+    const remainingItems = countriesData.filter(
+      (item) => !isCountryMatch(item),
+    );
     return [activeItem, ...remainingItems];
   }, [cleanActiveId, cleanActiveName]);
 
   const handleItemSelection = (region, selectEnglish = false) => {
-    const designatedLang = selectEnglish ? "en" : String(region.value || "en").toLowerCase();
+    const designatedLang = selectEnglish
+      ? "en"
+      : String(region.value || "en").toLowerCase();
     i18n.changeLanguage(designatedLang);
     localStorage.setItem("language", designatedLang);
     if (onSelectRegion) {
@@ -207,26 +250,23 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
         onClick={onClose}
       />
 
-      <div 
+      <div
         dir={isGlobalRTL ? "rtl" : "ltr"}
         className={`fixed inset-y-0 right-0 z-50 px-[28px] lg:px-[30px] 2xl:px-[45px] w-full lg:w-[420px] 2xl:w-[480px] text-white flex flex-col transform transition-transform duration-400 ease-out shadow-2xl select-none ${isOpen ? "translate-x-0" : "translate-x-full"}`}
         style={{
           backdropFilter: "blur(30px)",
           WebkitBackdropFilter: "blur(30px)",
-        }}>
-
+        }}
+      >
         {/* Header Section */}
-        <div 
+        <div
           lang={currentLang}
           className={`my-[10px] 2xl:my-[20px] space-y-[8px] 2xl:space-y-[10px] flex-shrink-0 ${isGlobalRTL ? "text-right" : "text-left"}`}
         >
-          <h2 
-            style={dynamicStyles()}
-            className="uppercase font-arial"
-          >
+          <h2 style={dynamicStyles()} className="uppercase font-arial">
             {t("countries.choose", "CHOOSE YOUR COUNTRY OR REGION")}
           </h2>
-          <p 
+          <p
             style={dynamicTextStyles()}
             className="uppercase font-arial transition-all duration-300"
           >
@@ -239,9 +279,10 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
           {orderedCountries.map((region) => {
             const isCountryActive = isCountryMatch(region);
             const isRowHovered = hoveredRow.id === region.id;
-            
+
             const nativeLangValue = String(region.value || "").toLowerCase();
-            const isNativeActive = isCountryActive && currentLang === nativeLangValue;
+            const isNativeActive =
+              isCountryActive && currentLang === nativeLangValue;
             const isEnglishActive = isCountryActive && currentLang === "en";
 
             return (
@@ -251,9 +292,18 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                 className="flex items-center flex-row space-x-[20px] lg:space-x-[34px] 2xl:space-x-[58px] transition-opacity"
                 onMouseLeave={() => setHoveredRow({ id: null, type: null })}
               >
-                <div className="flex items-center flex-shrink-0 cursor-pointer" onClick={() => handleItemSelection(region, false)}>
+                <div
+                  className="flex items-center flex-shrink-0 cursor-pointer"
+                  onClick={() => handleItemSelection(region, false)}
+                >
                   <img
-                    src={isCountryActive && selectedRegion?.country_flag && !selectedRegion.country_flag.includes('dynamic') ? selectedRegion.country_flag : region.country_flag}
+                    src={
+                      isCountryActive &&
+                      selectedRegion?.country_flag &&
+                      !selectedRegion.country_flag.includes("dynamic")
+                        ? selectedRegion.country_flag
+                        : region.country_flag
+                    }
                     alt={`${region.country_name} flag`}
                     className="h-[30px] w-[30px] object-cover rounded-lg"
                     loading="lazy"
@@ -261,14 +311,19 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                 </div>
 
                 <div className="flex-1 grid grid-cols-3 gap-x-[120px] lg:gap-x-[120px] items-center font-arial text-white text-left">
-                  
                   <span
                     lang={nativeLangValue}
                     style={dynamicStyles()}
                     className={`inline-block uppercase whitespace-nowrap not-italic transition-colors cursor-pointer text-left ${
-                      isCountryActive ? "text-[#0098AA]" : (isRowHovered && hoveredRow.type === "primary" ? "text-[#0098AA]" : "text-white")
+                      isCountryActive
+                        ? "text-[#0098AA]"
+                        : isRowHovered && hoveredRow.type === "primary"
+                          ? "text-[#0098AA]"
+                          : "text-white"
                     }`}
-                    onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
+                    onMouseEnter={() =>
+                      setHoveredRow({ id: region.id, type: "primary" })
+                    }
                     onClick={() => handleItemSelection(region, false)}
                   >
                     {region.country_name}
@@ -278,9 +333,15 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                     lang={nativeLangValue}
                     style={dynamicTextStyles()}
                     className={`uppercase transition-colors cursor-pointer text-left ml-[10px] whitespace-nowrap ${
-                      isNativeActive ? "text-[#0098AA]" : (isRowHovered && hoveredRow.type === "primary" ? "text-[#0098AA]" : "text-white")
+                      isNativeActive
+                        ? "text-[#0098AA]"
+                        : isRowHovered && hoveredRow.type === "primary"
+                          ? "text-[#0098AA]"
+                          : "text-white"
                     }`}
-                    onMouseEnter={() => setHoveredRow({ id: region.id, type: "primary" })}
+                    onMouseEnter={() =>
+                      setHoveredRow({ id: region.id, type: "primary" })
+                    }
                     onClick={() => handleItemSelection(region, false)}
                   >
                     {region.country_language}
@@ -291,9 +352,15 @@ export default function CountryFlagsSidebar({ isOpen, onClose, activeRegionId = 
                       lang="en"
                       style={dynamicStyles()}
                       className={`inline w-fit uppercase transition-colors cursor-pointer text-left ${
-                        isEnglishActive ? "text-[#0098AA]" : (isRowHovered && hoveredRow.type === "optional" ? "text-[#0098AA]" : "text-white")
+                        isEnglishActive
+                          ? "text-[#0098AA]"
+                          : isRowHovered && hoveredRow.type === "optional"
+                            ? "text-[#0098AA]"
+                            : "text-white"
                       }`}
-                      onMouseEnter={() => setHoveredRow({ id: region.id, type: "optional" })}
+                      onMouseEnter={() =>
+                        setHoveredRow({ id: region.id, type: "optional" })
+                      }
                       onClick={() => handleItemSelection(region, true)}
                     >
                       {region.country_language_optional}
