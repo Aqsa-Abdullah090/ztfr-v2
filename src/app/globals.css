@@ -5,7 +5,7 @@
 /* --- Default / English / Unlisted Languages Fallback --- */
 :root,
 [lang="en"],
-div:not([lang="pk"]):not([lang="ae"]):not([lang="th"]):not([lang="in"]):not([lang="cn"]):not([lang="jp"]):not([lang="kp"]):not([lang="bg"]) {
+div:not([lang="pk"]):not([lang="ae"]):not([lang="th"]):not([lang="in"]):not([lang="cn"]):not([lang="jp"]):not([lang="kp"]) {
   --lang-size-offset: 0px;
   --lang-letter-spacing: 1.5px;
   --lang-font-style: italic;
