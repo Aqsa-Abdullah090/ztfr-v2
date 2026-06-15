@@ -310,7 +310,7 @@ export default function CountryFlagsSidebar({
                   />
                 </div>
 
-                <div className="flex-1 grid grid-cols-3 gap-x-[110px] lg:gap-x-[128px] items-center font-arial text-white text-left">
+                <div className="flex-1 grid grid-cols-3 gap-x-[115px] lg:gap-x-[128px] items-center font-arial text-white text-left">
                   <span
                     lang={nativeLangValue}
                     style={dynamicStyles()}
