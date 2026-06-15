@@ -110,7 +110,6 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
         const { scrollTop, scrollHeight, clientHeight } = e.currentTarget;
         onScrollChange(scrollTop + clientHeight >= scrollHeight - 5);
       }}
-      /* 🛠️ Yahan "no-scrollbar" class append kar di hai */
       className={`flex-1 ${
         isDesktop
           ? "overflow-hidden"
@@ -119,7 +118,7 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
     >
       <motion.div
         animate={isDesktop ? controls : { y: 0 }}
-        className="relative w-full space-y-[25px] lg:space-y-[30px] pb-[20px] lg:pb-[30px]"
+        className="relative w-full pt-[9px] lg:pt-[12px] space-y-[25px] lg:space-y-[30px] pb-[20px] lg:pb-[30px]"
       >
         {children}
       </motion.div>
@@ -226,12 +225,6 @@ export default function CountryFlagsSidebar({
 
   const isGlobalRTL = currentLang === "pk" || currentLang === "ae";
 
-  /* 🛠️ CSS clamp(min, preferred, max) setup:
-    Yahan preferred calculation views flexible viewport parameters context use karengi:
-    - Mobile / Small viewports (<768px): Base automatically switches around 8px
-    - Tablet / Large desktop (lg / 1024px): Evaluates roughly near 10px
-    - Ultra large displays (2xl / 1536px): Maxes out locked firmly at 12px
-  */
   const dynamicTextStyles = () => ({
     fontSize: `calc(clamp(8px, 10px, 12px) + var(--lang-size-offset))`,
     letterSpacing: "var(--lang-letter-spacing)",
