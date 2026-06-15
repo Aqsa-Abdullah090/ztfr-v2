@@ -141,25 +141,9 @@ export default function Home() {
         />
       </div>
 
-      <section className="relative flex-1 flex flex-col items-center justify-center px-6 pl-20 md:pl-24 text-center z-10">
-        <div className="max-w-3xl w-full p-8 space-y-6">
-          <div className="space-y-4 select-none">
-            <p className="text-[11px] font-bold tracking-[0.3em] text-white/50 uppercase font-mono">
-              SYSTEM INTERFACE ACTIVE
-            </p>
-            <h1 className="text-sm md:text-base font-medium tracking-[0.15em] text-slate-200 max-w-xl mx-auto uppercase leading-relaxed font-sans">
-              UPLOAD FILES OR FOLDERS BY DROPPING THEM ANYWHERE IN THIS WINDOW
-            </h1>
-          </div>
-          <div className="pt-4">
-            <button
-              onClick={() => setIsPanelOpen(true)}
-              className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 hover:bg-white/20 backdrop-blur-md px-6 py-2.5 text-xs font-semibold tracking-widest uppercase transition-all active:scale-95"
-            >
-              Open Transfer Panel
-            </button>
-          </div>
-        </div>
+      <section className="relative flex-1 flex items-center justify-between px-6 pl-20 md:pl-24 text-center z-10">
+       <div>dsf</div>
+       <div>sdf</div>
       </section>
 
       <div className="pl-16 md:pl-20">
