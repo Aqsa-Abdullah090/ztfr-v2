@@ -2,7 +2,7 @@
 
 /* globals.css */
 
-/* --- Default / English / Unlisted Languages Fallback --- */
+/* --- Default / English */
 :root,
 [lang="en"],
 div:not([lang="pk"]):not([lang="ae"]):not([lang="th"]):not([lang="in"]):not([lang="cn"]):not([lang="jp"]):not([lang="kp"]) {
@@ -11,21 +11,21 @@ div:not([lang="pk"]):not([lang="ae"]):not([lang="th"]):not([lang="in"]):not([lan
   --lang-font-style: italic;
 }
 
-/* --- Explicit Override: URDU / ARABIC (PK, AE) --- */
+/* URDU / ARABIC (PK, AE) */
 [lang="pk"], [lang="ae"] {
   --lang-size-offset: clamp(2px, 3px, 5px); 
   --lang-letter-spacing: 0px;
   --lang-font-style: normal;
 }
 
-/* --- Explicit Override: THAI / HINDI (TH, IN) --- */
+/* THAI / HINDI (TH, IN) */
 [lang="th"], [lang="in"] {
   --lang-size-offset: 2px;
   --lang-letter-spacing: 0px;
   --lang-font-style: normal;
 }
 
-/* --- Explicit Override: CHINESE / JAPANESE / KOREAN (CN, JP, KP) --- */
+/* CHINESE / JAPANESE / KOREAN (CN, JP, KP) */
 [lang="cn"], [lang="jp"], [lang="kp"] {
   --lang-size-offset: 0px;
   --lang-letter-spacing: 0px;
