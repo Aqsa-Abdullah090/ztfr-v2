@@ -101,7 +101,7 @@ function SmoothScrollRegions({ children, onScrollChange, isOpen }) {
     };
   }, [controls, onScrollChange, isDesktop]);
 
-  // Is block ko "SmoothScrollRegions" component ke return statement mein replace karein
+
   return (
     <div
       ref={containerRef}
