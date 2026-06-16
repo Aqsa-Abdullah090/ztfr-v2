@@ -36,30 +36,31 @@ export default function Partner() {
 
   return (
     <div
-      className="relative flex items-center h-[300px] w-[480px] max-w-full overflow-hidden cursor-pointer"
+      className="relative flex items-center h-[300px] w-[480px] max-w-full overflow-hidden cursor-pointer bg-black/20" // added a temporary placeholder background just in case
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
     >
       {/* Initial View */}
       <AnimatePresence mode="wait">
+        {!isOpen && ( // This condition is vital to let the exit animation trigger!
           <motion.div
             key="initial-view"
             className="absolute right-0 flex flex-col items-center justify-center gap-[20px] px-[10px]"
             initial={{ opacity: 1 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.3 }}
+            transition={{ duration: 0.2 }}
           >
             {/* Logo */}
             <motion.img
               src="/assets/image/Porsche Crest.svg"
               alt="Porsche Crest"
               className="h-auto w-[30px] object-contain"
-              initial={{ x: 100, opacity: 0 }}
+              initial={{ x: 50, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{
-                duration: 1,
+                duration: 0.6,
                 ease: "easeOut",
               }}
             />
@@ -67,30 +68,31 @@ export default function Partner() {
             {/* Vertical Text */}
             <motion.p
               className="text-white text-[15px] font-arial tracking-[0.2em] [writing-mode:vertical-lr]"
-              initial={{ x: 100, opacity: 0 }}
+              initial={{ x: 50, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{
-                duration: 1,
+                duration: 0.6,
                 ease: "easeOut",
-                delay: 0.3, // Reduced for snappier feedback
+                delay: 0.2,
               }}
             >
               VISIT PARTNER
             </motion.p>
           </motion.div>
+        )}
       </AnimatePresence>
 
-      {/* Hover Panel */}
+      {/* Hover/Tap Panel */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
             key="hover-panel"
-            className="absolute right-0 h-[300px] w-[480px] max-w-full backdrop-blur-[30px] bg-white/5"
+            className="absolute right-0 h-[300px] w-[480px] max-w-full backdrop-blur-[30px] bg-white/5 z-10"
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{
-              duration: 0.5,
+              duration: 0.4,
               ease: "easeInOut"
             }}
           >
