@@ -46,7 +46,7 @@ export default function Partner() {
         {!isOpen && (
           <motion.div
             key="initial-view"
-            className="absolute right-0 flex flex-col items-center justify-center gap-[20px] px-[10px]"
+            className="absolute right-10 lg:right-0 flex flex-col items-center justify-center gap-[20px] px-[10px]"
             initial={{ opacity: 1 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
