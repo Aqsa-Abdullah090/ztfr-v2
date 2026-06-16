@@ -14,7 +14,7 @@ export default function Partner() {
     >
       {/* Initial View */}
       <AnimatePresence>
-        {!isHovered && (
+        {/* {!isHovered && ( */}
           <motion.div
             className="absolute right-0 flex flex-col items-center justify-center gap-[20px] px-[10px] "
             initial={{ opacity: 1 }}
@@ -49,7 +49,7 @@ export default function Partner() {
               VISIT PARTNER
             </motion.p>
           </motion.div>
-        )}
+         {/* )} */}
       </AnimatePresence>
 
       {/* Hover Panel */}
