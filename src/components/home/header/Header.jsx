@@ -19,7 +19,6 @@ export default function Header({ onFlagClick, selectedRegion, isSidebarOpen }) {
   const shouldBeUp = startFlyUp || isSidebarOpen;
   const flagProp = selectedRegion?.country_flag;
 
-  // ایموجی فلیگ چیکر سیکیورٹی گارڈ
   const isEmoji =
     flagProp &&
     typeof flagProp === "string" &&
@@ -28,9 +27,9 @@ export default function Header({ onFlagClick, selectedRegion, isSidebarOpen }) {
     flagProp.length <= 4;
 
   return (
-    <header className="relative w-full z-10 flex items-center justify-between px-8 py-6 bg-gradient-to-b from-black/40 to-transparent">
+    <header className="relative w-full z-10 flex items-center justify-between bg-gradient-to-b from-black/40 to-transparent h-[40px] bg-amber-400">
       <div className="flex items-center space-x-2">
-        <img src="/assets/ZTFR-b.svg" alt="logo" className="h-[40px] w-auto" />
+        <img src="/assets/ZTFR-b.svg" alt="logo" className="h-[30px] w-auto" />
       </div>
 
       <div className="flex items-center space-x-6">
@@ -65,7 +64,7 @@ export default function Header({ onFlagClick, selectedRegion, isSidebarOpen }) {
               </div>
             )
           ) : (
-            <div className="h-[40px] w-[40px] flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
+            <div className="h-[30px] w-[40px] flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
