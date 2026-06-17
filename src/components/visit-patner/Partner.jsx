@@ -23,7 +23,6 @@ export default function Partner() {
     >
       {/* Initial View */}
       <AnimatePresence mode="wait">
-        {!isOpen && (
           <motion.div
             key="initial-view"
             className="absolute right-0 flex flex-col items-center justify-center gap-[20px] px-[10px]"
@@ -50,7 +49,6 @@ export default function Partner() {
               VISIT PARTNER
             </motion.p>
           </motion.div>
-        )}
       </AnimatePresence>
 
       {/* Hover Panel */}
