@@ -2,6 +2,10 @@
 
 /* globals.css */
 
+body {
+  font-family: Arial, sans-serif;
+}
+
 /* --- Default / English */
 :root,
 [lang="en"],

@@ -43,10 +43,9 @@ export default function Partner() {
     >
       {/* Initial View */}
       <AnimatePresence mode="wait">
-        {!isOpen && (
           <motion.div
             key="initial-view"
-            className="absolute right-36 lg:right-0 flex flex-col items-center justify-center gap-[20px] px-[10px]"
+            className="absolute right-100 lg:right-0 flex flex-col items-center justify-center gap-[20px] px-[10px]"
             initial={{ opacity: 1 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -67,7 +66,7 @@ export default function Partner() {
 
             {/* Vertical Text */}
             <motion.p
-              className="text-white text-[15px] font-arial tracking-[0.2em] [writing-mode:vertical-lr]"
+              className="text-white text-[12px] tracking-[0.2em] [writing-mode:vertical-lr]"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{
@@ -79,7 +78,6 @@ export default function Partner() {
               VISIT PARTNER
             </motion.p>
           </motion.div>
-        )}
       </AnimatePresence>
 
       {/* Hover Panel */}
@@ -103,7 +101,7 @@ export default function Partner() {
                 className="h-[80px] w-auto max-w-[170px] self-start"
               />
 
-              <h1 className="text-[14px] tracking-[4px] text-white">
+              <h1 className="text-[16px] tracking-[4px] text-white">
                 VISIT PARTNER
               </h1>
 
