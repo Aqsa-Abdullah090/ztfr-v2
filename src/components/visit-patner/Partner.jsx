@@ -39,14 +39,14 @@ export default function Partner() {
               className="h-auto w-[25px] lg:w-[30px] object-contain"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, ease: "easeOut" }}
+              transition={{ duration: 1.2, ease: "easeOut", delay: 0.1 }}
             />
 
             <motion.p
               className="text-white text-[10px] lg:text-[12px] tracking-[0.2em] [writing-mode:vertical-lr]"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
+              transition={{ duration: 1.2, ease: "easeOut", delay: 0.5 }}
             >
               VISIT PARTNER
             </motion.p>
