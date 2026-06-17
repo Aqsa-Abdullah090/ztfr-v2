@@ -45,7 +45,7 @@ export default function Partner() {
       <AnimatePresence mode="wait">
         <motion.div
           key="initial-view"
-          className="absolute right-3 lg:right-0 flex flex-col items-center justify-center gap-[20px] px-[10px]"
+          className="absolute right-2 lg:right-0 flex flex-col items-center justify-center gap-[20px] px-[10px]"
           initial={{ opacity: 1 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
@@ -85,7 +85,7 @@ export default function Partner() {
         {isOpen && (
           <motion.div
             key="hover-panel"
-            className="absolute h-[300px] w-[480px] max-w-full backdrop-blur-[30px] bg-white/5"
+            className="absolute right-0 h-[300px] w-[480px] max-w-full backdrop-blur-[30px] bg-white/5"
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
