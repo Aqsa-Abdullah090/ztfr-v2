@@ -85,7 +85,7 @@ export default function Partner() {
         {isOpen && (
           <motion.div
             key="hover-panel"
-            className="absolute right-0 h-[300px] w-[480px] max-w-full backdrop-blur-[30px] bg-white/5"
+            className="absolute right-0 h-[300px] w-[300px] lg:w-[480px] max-w-full backdrop-blur-[30px] bg-white/5"
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
