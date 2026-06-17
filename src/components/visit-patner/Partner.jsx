@@ -21,8 +21,10 @@ export default function Partner() {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
+      
       {/* Initial View */}
       <AnimatePresence mode="wait">
+          {!isOpen && (
           <motion.div
             key="initial-view"
             className="absolute right-0 flex flex-col items-center justify-center gap-[12px] lg:gap-[20px] px-[10px] pointer-events-none md:pointer-events-auto"
@@ -49,6 +51,7 @@ export default function Partner() {
               VISIT PARTNER
             </motion.p>
           </motion.div>
+          )}
       </AnimatePresence>
 
       {/* Hover Panel */}
