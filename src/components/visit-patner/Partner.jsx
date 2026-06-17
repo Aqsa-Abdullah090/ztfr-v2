@@ -12,7 +12,7 @@ export default function Partner() {
     const checkDevice = () => {
       setIsMobile(window.matchMedia("(max-width: 768px)").matches);
     };
-    
+
     checkDevice(); // Initial check
     window.addEventListener("resize", checkDevice);
     return () => window.removeEventListener("resize", checkDevice);
@@ -43,41 +43,41 @@ export default function Partner() {
     >
       {/* Initial View */}
       <AnimatePresence mode="wait">
-          <motion.div
-            key="initial-view"
-            className="absolute right-100 lg:right-0 flex flex-col items-center justify-center gap-[20px] px-[10px]"
-            initial={{ opacity: 1 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.3 }}
-          >
-            {/* Logo */}
-            <motion.img
-              src="/assets/image/Porsche Crest.svg"
-              alt="Porsche Crest"
-              className="h-auto w-[30px] object-contain"
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{
-                duration: 1,
-                ease: "easeOut",
-              }}
-            />
+        <motion.div
+          key="initial-view"
+          className="absolute right-100 lg:right-0 flex flex-col items-center justify-center gap-[20px] px-[10px]"
+          initial={{ opacity: 1 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.3 }}
+        >
+          {/* Logo */}
+          <motion.img
+            src="/assets/image/Porsche Crest.svg"
+            alt="Porsche Crest"
+            className="h-auto w-[30px] object-contain"
+            initial={{ x: 100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{
+              duration: 1,
+              ease: "easeOut",
+            }}
+          />
 
-            {/* Vertical Text */}
-            <motion.p
-              className="text-white text-[12px] tracking-[0.2em] [writing-mode:vertical-lr]"
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{
-                duration: 1,
-                ease: "easeOut",
-                delay: 0.3, // Reduced for snappier feedback
-              }}
-            >
-              VISIT PARTNER
-            </motion.p>
-          </motion.div>
+          {/* Vertical Text */}
+          <motion.p
+            className="text-white text-[12px] tracking-[0.2em] [writing-mode:vertical-lr]"
+            initial={{ x: 100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{
+              duration: 1,
+              ease: "easeOut",
+              delay: 0.3, // Reduced for snappier feedback
+            }}
+          >
+            VISIT PARTNER
+          </motion.p>
+        </motion.div>
       </AnimatePresence>
 
       {/* Hover Panel */}
@@ -94,14 +94,14 @@ export default function Partner() {
               ease: "easeInOut"
             }}
           >
-            <div className="p-[24px] flex flex-col w-full items-center justify-between h-full">
+            <div className="p-[24px] flex flex-col w-full items-center justify-between h-full relative">
               <img
                 src="/assets/image/Porsche Crest.svg"
                 alt="Porsche Crest"
                 className="h-[80px] w-auto max-w-[170px] self-start"
               />
 
-              <h1 className="text-[16px] tracking-[4px] text-white">
+              <h1 className="text-[16px] tracking-[4px] text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                 VISIT PARTNER
               </h1>
 
