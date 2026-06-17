@@ -36,7 +36,7 @@ export default function Partner() {
 
   return (
     <div
-      className="relative flex items-center h-[300px] w-[480px] max-w-full overflow-hidden cursor-pointer"
+      className="flex items-center cursor-pointer"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
