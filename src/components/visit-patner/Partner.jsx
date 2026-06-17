@@ -85,7 +85,7 @@ export default function Partner() {
         {isOpen && (
           <motion.div
             key="hover-panel"
-            className="absolute right-52 h-[300px] w-[480px] max-w-full backdrop-blur-[30px] bg-white/5"
+            className="absolute h-[300px] w-[480px] max-w-full backdrop-blur-[30px] bg-white/5"
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
@@ -98,17 +98,17 @@ export default function Partner() {
               <img
                 src="/assets/image/Porsche Crest.svg"
                 alt="Porsche Crest"
-                className="h-[40px] lg:h-[80px] w-auto lg:max-w-[170px] self-start"
+                className="h-[40px] lg:h-[80px] w-auto max-w-[120px] lg:max-w-[170px] self-start"
               />
 
-              <h1 className="text-[16px] tracking-[4px] text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+              <h1 className="text-[12px] lg:text-[16px] tracking-[4px] text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                 VISIT PARTNER
               </h1>
 
               <img
                 src="/assets/image/Porsche W.svg"
                 alt=""
-                className="w-[160px]"
+                className="w-[120px] lg:w-[160px]"
               />
             </div>
           </motion.div>
