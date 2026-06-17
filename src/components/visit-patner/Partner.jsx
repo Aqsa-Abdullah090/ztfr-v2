@@ -25,7 +25,7 @@ export default function Partner() {
       <AnimatePresence mode="wait">
           <motion.div
             key="initial-view"
-            className="absolute right-0 flex flex-col items-center justify-center gap-[20px] px-[10px]"
+            className="absolute right-0 flex flex-col items-center justify-center gap-[20px] px-[10px] pointer-events-none md:pointer-events-auto"
             initial={{ opacity: 1 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
