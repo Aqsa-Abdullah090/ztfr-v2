@@ -25,7 +25,7 @@ export default function Partner() {
       <AnimatePresence mode="wait">
           <motion.div
             key="initial-view"
-            className="absolute right-0 flex flex-col items-center justify-center gap-[20px] px-[10px] pointer-events-none md:pointer-events-auto"
+            className="absolute right-0 flex flex-col items-center justify-center gap-[12px] lg:gap-[20px] px-[10px] pointer-events-none md:pointer-events-auto"
             initial={{ opacity: 1 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -34,14 +34,14 @@ export default function Partner() {
             <motion.img
               src="/assets/image/Porsche Crest.svg"
               alt="Porsche Crest"
-              className="h-auto w-[30px] object-contain"
+              className="h-auto w-[25px] lg:w-[30px] object-contain"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, ease: "easeOut" }}
             />
 
             <motion.p
-              className="text-white text-[12px] tracking-[0.2em] [writing-mode:vertical-lr]"
+              className="text-white text-[10px] lg:text-[12px] tracking-[0.2em] [writing-mode:vertical-lr]"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
