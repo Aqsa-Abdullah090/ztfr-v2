@@ -14,6 +14,7 @@ import IPBlockProvider from "@/components/primitives/ip-block/IPBlockProvider";
 
 import "swiper/css";
 import i18n from "@/components/primitives/I18n";
+import Globals from "@/components/utils/Globals";
 
 const queryClient = new QueryClient();
 
@@ -107,6 +108,7 @@ function ProvidersContent({ children }) {
             <ProtectedRoute>
               {children}
             </ProtectedRoute>
+             <Globals />
           </IPBlockProvider>
         </motion.div>
       </AnimatePresence>

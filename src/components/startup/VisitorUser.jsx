@@ -1,45 +1,48 @@
-"use client";
-
 import { useEffect } from "react";
+import {
+  fetchVisitor,
+  loadVisitor,
+} from "../../store/features/visitorSlice";
+import { fetchBGData, loadBgData } from "../../store/features/bgSlice";
 import { useDispatch, useSelector } from "react-redux";
+import { detect } from "detect-browser";
 
-import { fetchVisitor, loadVisitor } from "../../store/features/visitorSlice";
-
-function VisitorUser({ setLoading }) {
+function VisitorUser({ loading, setLoading }) {
+  const { status } = useSelector((state) => state.visitor);
+  const { status: bgStatus, page } = useSelector((state) => state.bg);
+  const bgData = useSelector((state) => state?.bg?.data);
   const dispatch = useDispatch();
 
-  // SAFE SELECTORS (no destructuring crash)
-  const visitorStatus = useSelector((state) => state.visitor?.status);
-  const visitorData = useSelector((state) => state.visitor?.data);
-  const isAllowed = useSelector((state) => state.visitor?.isAllowed);
+  // Retrieve page number from localStorage or set default value to 1
 
-  const bgStatus = useSelector((state) => state.bg?.status);
-  const bgPage = useSelector((state) => state.bg?.page);
-  const bgData = useSelector((state) => state.bg?.data);
+  const { data } = useSelector((state) => state.visitor);
 
-  // 1️⃣ Load visitor
   useEffect(() => {
-    if (typeof window === "undefined") return;
-
-    const visitorDataLocal = localStorage.getItem("visitor_data");
-
-    if (!visitorDataLocal) {
+    const visitorData = localStorage.getItem("visitor_data");
+    const bgData = localStorage.getItem("bg_data"); // Get the background data from local storage
+    if (!visitorData) {
       dispatch(fetchVisitor());
     } else {
       dispatch(loadVisitor());
     }
-  }, [dispatch]);
+    if (bgData) {
+      dispatch(loadBgData()); // Load background data if available in local storage
+    }
+  }, []);
 
-  
-
-  // 3️⃣ Handle loading state
+  // fetch bg data, when visitor data is successed
   useEffect(() => {
-    if (
-      visitorStatus === "success" 
-    ) {
+    if (data) {
+      dispatch(fetchBGData({ country: data.countryName, page: page }));
+    }
+  }, [data, page]); // Include page in dependency array
+
+  // handle loading
+  useEffect(() => {
+    if (status === "success" && bgStatus === "success" && bgData) {
       setLoading(false);
     }
-  }, [visitorStatus, bgStatus, bgData, setLoading]);
+  }, [status, bgStatus, bgData]);
 
   return null;
 }
