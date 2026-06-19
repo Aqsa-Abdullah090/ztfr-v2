@@ -1,4 +1,4 @@
-// import useColors from "@/hooks/useColors";
+import useColors from "../../hooks/useColors";
 import clsx from "clsx";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
@@ -6,42 +6,15 @@ import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from "react-redux";
 import Headers from "./header/Header";
 import PreAdvert from "./advert/PreAdvert";
+import MetaHandler from "../primitives/MetaHandler";
 
 const Hero = () => {
-  const sidebarRightState = useSelector(
-    (state) => state.modals.sidebarRightState
-  );
-  const sidebarModalTab = useSelector((state) => state?.modals?.sidebar);
 
   const { isVideoPlaying } = useSelector((state) => state.meta);
   const { isImageInBackground } = useSelector((state) => state.meta);
   const { indexForBgImage } = useSelector((state) => state.meta);
 
-  const { t } = useTranslation();
-  const [showCountries, setShowCountries] = useState(false);
-  const [selectedCountryFlag, setSelectedCountryFlag] = useState("");
-
-  const welcomeState = useSelector((state) => state?.modals?.welcomeState);
-  const handleFlagClick = () => {
-    setShowCountries(!showCountries);
-  };
-
-  const handleCountryClick = (country) => {
-    setSelectedCountryFlag(country.country_flag);
-    setShowCountries(false);
-  };
-
   const dispatch = useDispatch();
-  const handleFilesDropped = (files) => {
-    // Do something with the dropped files
-    // console.log(files);
-  };
-  const { index, olympicsVideo, olympicsPicture, olympicsState } = useSelector(
-    (state) => state.meta
-  );
-  const { asideNavItem } = useSelector((state) => state.modals);
-  const { isShowFileDownloadModal } = useSelector((state) => state.modals);
-  const terms = useSelector((state) => state?.modals?.termsModalState);
 
   const bgData = useSelector((state) => state?.bg?.data);
 

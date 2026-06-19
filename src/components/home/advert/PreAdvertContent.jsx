@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
+
 import { setBgVideo } from "../../../store/features/bgSlice";
 import {
   incCurrent,
@@ -12,135 +14,138 @@ import {
 import {
   changePipState,
   setIsVideoPlaying,
-} from "@/src/store/features/pip.slice";
+} from "../../../store/features/pip.slice";
+
 import { motion } from "framer-motion";
-import { useRouter } from "next/router";
+import { useSearchParams } from "next/navigation";
 import { memo, useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+
 import RandomizedAudioWaveAnimation from "./RandomizedAudioWaveAnimation";
 
 function PreAdvertContent() {
-  const router = useRouter();
+  const searchParams = useSearchParams();
   const videoRef = useRef(null);
-  const bgData = useSelector((state) => state?.bg?.data);
-  const dynamicVideos = bgData?.filter((video) => video?.type === "video");
-  const dynamicImages = bgData?.filter((image) => image?.type === "image");
-  const { indexForVideo, isActualVideoPlaying } = useSelector(
-    (state) => state.meta
-  );
   const dispatch = useDispatch();
+
+  // ---------------- Redux ----------------
+  const bgData = useSelector((state) => state?.bg?.data || []);
+  const dynamicVideos = bgData.filter((item) => item?.type === "video");
+  const dynamicImages = bgData.filter((item) => item?.type === "image");
+
+  const { indexForVideo } = useSelector((state) => state.meta);
+  const bgVideo = useSelector((state) => state.bg.bgVideo);
+
+ const enabled = useSelector((state) => state?.pip?.enabled);
+const pipClickCount = useSelector((state) => state?.pip?.pipClickCount);
+
+  // ---------------- State ----------------
   const [isVideoEnd, setIsVideoEnd] = useState(false);
   const [isMuted, setIsMuted] = useState(true);
-  const bgVideo = useSelector((state) => state.bg.bgVideo);
+
   const [isShowSecondImage, setIsShowSecondImage] = useState(false);
   const [isShowText, setIsShowText] = useState(false);
   const [isShowVideo, setIsShowVideo] = useState(false);
   const [isShowZigLogo, setIsShowZigLogo] = useState(false);
-  const { videoId } = router.query;
+
   const [foundVideo, setFoundVideo] = useState(null);
-  const randomIndex = Math.floor(Math.random() * dynamicVideos?.length);
-  const randomIndexForImage = Math.floor(Math.random() * dynamicImages?.length);
-  // state to render PIP
-  const { enabled, pipClickCount } = useSelector((state) => state.pip);
 
+  // ---------------- Query Param ----------------
+  const videoId = searchParams.get("videoId");
+
+  const randomIndex = Math.floor(Math.random() * (dynamicVideos?.length || 1));
+  const randomIndexForImage = Math.floor(
+    Math.random() * (dynamicImages?.length || 1)
+  );
+
+  // ---------------- Find Video ----------------
   useEffect(() => {
-    if (videoId) {
-      const id = atob(videoId);
-      const founded = dynamicVideos.find((video) => video.id == id);
-      setFoundVideo(founded);
+    if (!videoId || !dynamicVideos.length) return;
+
+    try {
+      const decodedId = atob(videoId);
+      const match = dynamicVideos.find((v) => v.id == decodedId);
+      setFoundVideo(match || null);
+    } catch (err) {
+      console.error("Invalid videoId:", err);
     }
-  }, [videoId]); // Effect runs when videoId changes
+  }, [videoId, dynamicVideos]);
 
+  // ---------------- Start Video ----------------
   useEffect(() => {
-    // setIsShowZigLogo(true);
-    // const timer1 = setTimeout(() => {
-    //   setIsShowSecondImage(true);
-    // }, 4000);
-    // const timer2 = setTimeout(() => {
-    //   setIsShowText(true);
-    // }, 8000);
-    // const timer3 = setTimeout(() => {
-    //   setIsShowVideo(true);
-    //   dispatch(setIsActualVideoPlaying(true));
-    // }, 8000);
-
     setIsShowVideo(true);
     dispatch(setIsActualVideoPlaying(true));
+  }, [dispatch]);
 
-    // return () => {
-    //   // clearTimeout(timer1);
-    //   // clearTimeout(timer2);
-    //  // clearTimeout(timer3);
-    // };
-  }, []);
-
+  // ---------------- Reset BG Image ----------------
   useEffect(() => {
     dispatch(setBgImage(null));
   }, [dispatch]);
 
+  // ---------------- Video End Check ----------------
   useEffect(() => {
-    if (indexForVideo === dynamicVideos?.length) {
+    if (indexForVideo === dynamicVideos.length) {
       setIsVideoEnd(true);
       dispatch(setVideoPlaying(false));
     }
-  }, [indexForVideo]);
+  }, [indexForVideo, dynamicVideos.length, dispatch]);
 
+  // ---------------- Mute Toggle ----------------
   const toggleMute = () => {
-    if (videoRef.current) {
-      videoRef.current.muted = !videoRef.current.muted;
-      setIsMuted(videoRef.current.muted);
-    }
+    if (!videoRef.current) return;
+    videoRef.current.muted = !videoRef.current.muted;
+    setIsMuted(videoRef.current.muted);
   };
 
+  // ---------------- Handle Video End ----------------
   const handleVideoEnd = () => {
     if (document.pictureInPictureElement) {
       document.exitPictureInPicture();
     }
+
     dispatch(setShow(false));
     setIsShowSecondImage(false);
     setIsShowText(false);
     setIsShowVideo(false);
-    dispatch(setIsActualVideoPlaying(false));
     setIsShowZigLogo(false);
+
+    dispatch(setIsActualVideoPlaying(false));
     dispatch(setIsVideoPlaying(false));
     dispatch(setVideoPlaying(false));
     dispatch(setBgVideo(null));
+
     dispatch(incIndexForBgImage(randomIndexForImage));
     dispatch(incVideoIndex(randomIndex));
     dispatch(incCurrent());
 
     if (foundVideo) {
-      router.replace("/");
+      window.location.href = "/";
     }
   };
 
+  // ---------------- Play Video Source ----------------
   const playVideo = () => {
-    if (foundVideo) {
-      return foundVideo.url;
-    } else {
-      return (
-        bgVideo ||
-        (dynamicVideos[indexForVideo]
-          ? dynamicVideos[indexForVideo]?.url
-          : null)
-      );
-    }
+    if (foundVideo) return foundVideo.url;
+
+    if (bgVideo) return bgVideo;
+
+    return dynamicVideos?.[indexForVideo]?.url || null;
   };
 
-  // picture in picture
+  // ---------------- Picture in Picture ----------------
   const togglePictureInPicture = () => {
     try {
       if (document.pictureInPictureElement) {
         document.exitPictureInPicture();
       } else {
-        videoRef.current.requestPictureInPicture();
+        videoRef.current?.requestPictureInPicture();
       }
     } catch (e) {
-      console.clear();
+      console.error(e);
     }
   };
 
-  // // toggle picture in picture when user switch tab
+  // ---------------- Tab Visibility PIP ----------------
   useEffect(() => {
     const handleVisibilityChange = () => {
       if (
@@ -153,148 +158,72 @@ function PreAdvertContent() {
     };
 
     document.addEventListener("visibilitychange", handleVisibilityChange);
-
-    return () => {
-      document.removeEventListener("visibilitychange", handleVisibilityChange);
-    };
+    return () =>
+      document.removeEventListener(
+        "visibilitychange",
+        handleVisibilityChange
+      );
   }, []);
 
-  // handle picture in picture event
+  // ---------------- PIP Events ----------------
   useEffect(() => {
     const video = document.getElementById("advert-video");
 
-    if (video && isShowVideo) {
-      const handleEnterPictureInPicture = () => {
-        dispatch(changePipState(true));
-      };
+    if (!video || !isShowVideo) return;
 
-      const handleLeavePictureInPicture = () => {
-        dispatch(changePipState(false));
-      };
+    const enter = () => dispatch(changePipState(true));
+    const leave = () => dispatch(changePipState(false));
 
-      video.addEventListener(
-        "enterpictureinpicture",
-        handleEnterPictureInPicture
-      );
-      video.addEventListener(
-        "leavepictureinpicture",
-        handleLeavePictureInPicture
-      );
+    video.addEventListener("enterpictureinpicture", enter);
+    video.addEventListener("leavepictureinpicture", leave);
 
-      return () => {
-        video.removeEventListener(
-          "enterpictureinpicture",
-          handleEnterPictureInPicture
-        );
-        video.removeEventListener(
-          "leavepictureinpicture",
-          handleLeavePictureInPicture
-        );
-      };
-    }
-  }, [isShowVideo]);
+    return () => {
+      video.removeEventListener("enterpictureinpicture", enter);
+      video.removeEventListener("leavepictureinpicture", leave);
+    };
+  }, [isShowVideo, dispatch]);
 
-  // pipture in picture video pause fix when cross clicked
+  // ---------------- Auto Resume ----------------
   useEffect(() => {
-    if (!enabled) {
-      if (videoRef?.current?.pause) {
-        videoRef?.current?.play();
-      }
+    if (!enabled && videoRef.current) {
+      videoRef.current.play();
     }
   }, [enabled]);
 
-  // replacement for button click
+  // ---------------- External PIP Trigger ----------------
   useEffect(() => {
     if (pipClickCount > 0) {
       togglePictureInPicture();
     }
   }, [pipClickCount]);
 
+  // ---------------- UI ----------------
   return (
     <>
-      {isShowZigLogo && (
-        <motion.section
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 4 }}
-          className="absolute top-0 overflow-hidden left-0 bg-black z-0 flex items-center justify-center w-full h-full"
-        >
-          <img
-            src="/assets/ZitransferZigZag.svg"
-            className="w-32 opacity-0 fade-in-and-out"
-            alt=""
-          />
-        </motion.section>
-      )}
-      {isShowSecondImage && (
-        <motion.section
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 4 }}
-          className="absolute top-0 overflow-hidden left-0 bg-black z-28 flex items-center justify-center w-full h-full"
-        >
-          <img
-            src="/assets/ZIMO.svg"
-            className="w-32 opacity-0 fade-in-and-out"
-            alt=""
-          />
-        </motion.section>
-      )}
-      {isShowText && (
-        <motion.section
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 4 }}
-          className={`absolute top-0 overflow-hidden left-0 bg-black z-28 flex items-center justify-center w-full h-full`}
-        >
-          <p className="text-3xl opacity-0 fade-in-and-out tracking-widest text-white uppercase">
-            Presents
-          </p>
-        </motion.section>
-      )}
+      {/* Video Layer */}
       {isShowVideo && (
         <motion.section
           initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 4 }}
-          className="absolute top-0 overflow-hidden fade-in-video object-cover bg-black left-0 z-28 flex items-center justify-center w-full h-full"
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          className="absolute top-0 left-0 w-full h-full bg-black z-50 flex items-center justify-center"
         >
-          <div className="h-screen w-screen fixed inset-0 bg-black opacity-[20%]" />
+          <div className="absolute inset-0 bg-black opacity-20" />
 
           <video
             id="advert-video"
-            onPlay={() => dispatch(setIsVideoPlaying(true))}
             ref={videoRef}
-            onEnded={handleVideoEnd}
             autoPlay
             muted={isMuted}
             playsInline
-            onPause={() => {
-              videoRef.current.play();
-            }}
+            onPlay={() => dispatch(setIsVideoPlaying(true))}
+            onEnded={handleVideoEnd}
+            onPause={() => videoRef.current?.play()}
             poster="/assets/black.jpg"
-            // loop
-            className={`object-cover w-full h-full bg-black`}
             src={playVideo()}
-            // src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-            // playVideo()
-            // src="/assets/countdown.mp4"
+            className="w-full h-full object-cover"
           />
-          {/* <div
-            onClick={toggleMute}
-            className={`absolute top-[72px] 3xl:top-[92px] z-50 cursor-pointer right-6 animate__transition transition-colors`}
-          >
-            <img
-              src={
-                !isMuted ? "/assets/UnmuteVolume.svg" : "/assets/MuteVolume.svg"
-              }
-              alt="mute and unmute icon  "
-              className={clsx(
-                "w-[20px] 3xl:w-[25px] cursor-pointer ",
-                !isShowVideo && "hidden"
-              )}
-            />
-          </div> */}
+
           <RandomizedAudioWaveAnimation
             toggleMute={toggleMute}
             isMuted={isMuted}
