@@ -153,7 +153,8 @@ const pipClickCount = useSelector((state) => state?.pip?.pipClickCount);
         videoRef.current &&
         !document.pictureInPictureElement
       ) {
-        videoRef.current.requestPictureInPicture();
+        // videoRef.current.requestPictureInPicture();
+        
       }
     };
 
