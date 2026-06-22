@@ -207,7 +207,7 @@ const pipClickCount = useSelector((state) => state?.pip?.pipClickCount);
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="absolute top-0 left-0 w-full h-full bg-black z-50 flex items-center justify-center"
+          className="absolute top-0 left-0 w-full h-full bg-black flex items-center justify-center"
         >
           <div className="absolute inset-0 bg-black opacity-20" />
 
