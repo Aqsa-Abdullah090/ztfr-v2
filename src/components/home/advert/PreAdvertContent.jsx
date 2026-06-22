@@ -201,6 +201,46 @@ const pipClickCount = useSelector((state) => state?.pip?.pipClickCount);
   // ---------------- UI ----------------
   return (
     <>
+      {isShowZigLogo && (
+        <motion.section
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 4 }}
+          className="absolute top-0 overflow-hidden left-0 bg-black z-0 flex items-center justify-center w-full h-full"
+        >
+          <img
+            src="/assets/ZitransferZigZag.svg"
+            className="w-32 opacity-0 fade-in-and-out"
+            alt=""
+          />
+        </motion.section>
+      )}
+      {isShowSecondImage && (
+        <motion.section
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 4 }}
+          className="absolute top-0 overflow-hidden left-0 bg-black z-28 flex items-center justify-center w-full h-full"
+        >
+          <img
+            src="/assets/ZIMO.svg"
+            className="w-32 opacity-0 fade-in-and-out"
+            alt=""
+          />
+        </motion.section>
+      )}
+      {isShowText && (
+        <motion.section
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 4 }}
+          className={`absolute top-0 overflow-hidden left-0 bg-black z-28 flex items-center justify-center w-full h-full`}
+        >
+          <p className="text-3xl opacity-0 fade-in-and-out tracking-widest text-white uppercase">
+            Presents
+          </p>
+        </motion.section>
+      )}
       {/* Video Layer */}
       {isShowVideo && (
         <motion.section
