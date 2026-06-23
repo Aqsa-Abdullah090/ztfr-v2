@@ -24,22 +24,33 @@ export default function Partner() {
     setIsOpen(false);
   };
 
-  // 2. LOGO 1 Selection Logic: Agar version blackandwhite hai toh White wala, warna conditional handling
-  // (Aapki condition ke mutabiq: color case me color/black aur blackandwhite case me white logo)
+  // LOGO 1 
   const logo1Src =
     activeVideo?.premiumLogo1Version === "blackandwhite"
       ? activeVideo?.premiumLogo1White
       : activeVideo?.premiumLogo1Black || activeVideo?.advertiser_logo;
 
-  // 3. LOGO 2 Selection Logic: Agar premiumLogoText text dynamic available hai toh text, warna fallback image
+  // LOGO 2 
   const logo2Text = activeVideo?.premiumLogoText;
-  const logo2Src = activeVideo?.premiumLogo1Black || activeVideo?.advertiser_logo; // Fallback agar text na ho
+  const logo2Src = activeVideo?.premiumLogo1Black || activeVideo?.advertiser_logo; 
+
+  // click functionality
+  const partnerUrl =
+  activeVideo?.premium_destination_url ||
+  activeVideo?.advertiser_link;
+
+const handlePartnerClick = () => {
+  if (partnerUrl) {
+    window.open(partnerUrl, "_blank", "noopener,noreferrer");
+  }
+};
 
   return (
     <div
       className="flex items-center cursor-pointer"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onClick={handlePartnerClick}
     >
       {/* Initial View */}
       <AnimatePresence mode="wait">
@@ -104,7 +115,7 @@ export default function Partner() {
 
               {/* Dynamic Logo 2 handling: Text dynamic check or SVG Image */}
               {logo2Text ? (
-                <span className="text-white text-[14px] lg:text-[20px] font-bold tracking-[2px] uppercase">
+                <span className="text-white text-[10px] lg:text-[12px] text-center font-bold tracking-[2px] uppercase">
                   {logo2Text}
                 </span>
               ) : (
