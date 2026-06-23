@@ -60,7 +60,7 @@ const Hero = () => {
               }
             : null
         }
-        onClick={() => dispatch(changeSidebar(sidebarTab.sidebar))}
+        // onClick={() => dispatch(changeSidebar(sidebarTab.sidebar))}
       >
         <Headers />
 
