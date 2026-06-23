@@ -36,8 +36,8 @@ function PreAdvertContent() {
   const { indexForVideo } = useSelector((state) => state.meta);
   const bgVideo = useSelector((state) => state.bg.bgVideo);
 
- const enabled = useSelector((state) => state?.pip?.enabled);
-const pipClickCount = useSelector((state) => state?.pip?.pipClickCount);
+  const enabled = useSelector((state) => state?.pip?.enabled);
+  const pipClickCount = useSelector((state) => state?.pip?.pipClickCount);
 
   // ---------------- State ----------------
   const [isVideoEnd, setIsVideoEnd] = useState(false);
@@ -55,7 +55,7 @@ const pipClickCount = useSelector((state) => state?.pip?.pipClickCount);
 
   const randomIndex = Math.floor(Math.random() * (dynamicVideos?.length || 1));
   const randomIndexForImage = Math.floor(
-    Math.random() * (dynamicImages?.length || 1)
+    Math.random() * (dynamicImages?.length || 1),
   );
 
   // ---------------- Find Video ----------------
@@ -154,16 +154,12 @@ const pipClickCount = useSelector((state) => state?.pip?.pipClickCount);
         !document.pictureInPictureElement
       ) {
         // videoRef.current.requestPictureInPicture();
-        
       }
     };
 
     document.addEventListener("visibilitychange", handleVisibilityChange);
     return () =>
-      document.removeEventListener(
-        "visibilitychange",
-        handleVisibilityChange
-      );
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
   }, []);
 
   // ---------------- PIP Events ----------------
@@ -185,11 +181,13 @@ const pipClickCount = useSelector((state) => state?.pip?.pipClickCount);
   }, [isShowVideo, dispatch]);
 
   // ---------------- Auto Resume ----------------
-  useEffect(() => {
-    if (!enabled && videoRef.current) {
-      videoRef.current.play();
-    }
-  }, [enabled]);
+ useEffect(() => {
+  if (!enabled && videoRef.current) {
+    videoRef.current.play().catch((err) => {
+      console.log("Auto play failed:", err?.message);
+    });
+  }
+}, [enabled]);
 
   // ---------------- External PIP Trigger ----------------
   useEffect(() => {
@@ -259,7 +257,15 @@ const pipClickCount = useSelector((state) => state?.pip?.pipClickCount);
             playsInline
             onPlay={() => dispatch(setIsVideoPlaying(true))}
             onEnded={handleVideoEnd}
-            onPause={() => videoRef.current?.play()}
+            onPause={() => {
+              const video = videoRef.current;
+
+              if (!video) return;
+
+              video.play().catch((err) => {
+                console.log("Play interrupted:", err?.message);
+              });
+            }}
             poster="/assets/black.jpg"
             src={playVideo()}
             className="w-full h-full object-cover"
