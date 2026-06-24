@@ -28,13 +28,11 @@ function ProvidersContent({ children }) {
   // ---------------- LANGUAGE HANDLING ----------------
   useEffect(() => {
     const storedLanguage = localStorage.getItem("language");
-    let activeLang = "en"; // ڈیفالٹ بیک اپ
+    let activeLang = "en"; 
 
-    // Case 1: Agar user ne manually change kiya hai ya pehle se cache store hai
     if (storedLanguage) {
       activeLang = storedLanguage.toLowerCase();
     } 
-    // Case 2: Agar local storage empty hai, to visitor location IP language backup run hoga
     else if (language) {
       const map = {
         "БЪЛГАРСКИ": "bg",
@@ -66,15 +64,12 @@ function ProvidersContent({ children }) {
       localStorage.setItem("language", activeLang);
     }
 
-    // i18n کو ایکچوئل اپڈیٹ کریں
     i18n.changeLanguage(activeLang);
     
-    // 🌍 جادوئی لائن: لے آؤٹ کو چھیڑے بغیر براہِ راست DOM کے <html> ٹیگ کا lang بدلیں
     document.documentElement.lang = activeLang;
 
   }, [status, language]);
 
-  // 🛠️ مینوئل لینگویج چینج (جیسے سائڈبار) کو لسن کرنے کے لیے ایک اور ایفیکٹ تاکہ لائیو چینجنگ پر بھی HTML Lang سنک رہے
   useEffect(() => {
     const handleLangChange = (lng) => {
       document.documentElement.lang = String(lng).toLowerCase();

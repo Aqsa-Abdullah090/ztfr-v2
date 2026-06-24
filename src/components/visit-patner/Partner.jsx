@@ -7,12 +7,11 @@ import { useSelector } from "react-redux";
 export default function Partner() {
   const [isOpen, setIsOpen] = useState(false);
 
-  // 1. Redux se video data aur current playing index nikalna (Same as PreAdvertContent)
+  // 1. Redux data
   const bgData = useSelector((state) => state?.bg?.data || []);
   const dynamicVideos = bgData.filter((item) => item?.type === "video");
   const { indexForVideo } = useSelector((state) => state.meta);
 
-  // Current active video object
   const activeVideo = dynamicVideos?.[indexForVideo] || null;
 
   // Desktop Hover Handlers
@@ -24,26 +23,31 @@ export default function Partner() {
     setIsOpen(false);
   };
 
-  // LOGO 1 
-  const logo1Src =
-    activeVideo?.premiumLogo1Version === "blackandwhite"
-      ? activeVideo?.premiumLogo1White
-      : activeVideo?.premiumLogo1Black || activeVideo?.advertiser_logo;
+  // LOGO 1
+ const logo1Src =
+  activeVideo?.premiumLogo1Color ||
+    activeVideo?.premiumLogo1White ||
+  activeVideo?.premiumLogo1Black ||
+  activeVideo?.advertiser_logo;
 
-  // LOGO 2 
+  // LOGO 2
   const logo2Text = activeVideo?.premiumLogoText;
-  const logo2Src = activeVideo?.premiumLogo1Black || activeVideo?.advertiser_logo; 
+  const logo2Src =
+    activeVideo?.premiumLogo2Color ||
+     activeVideo?.premiumLogo2White ||
+  activeVideo?.premiumLogo2Black ||
+  activeVideo?.advertiser_logo;
+
 
   // click functionality
   const partnerUrl =
-  activeVideo?.premium_destination_url ||
-  activeVideo?.advertiser_link;
+    activeVideo?.premium_destination_url || activeVideo?.advertiser_link;
 
-const handlePartnerClick = () => {
-  if (partnerUrl) {
-    window.open(partnerUrl, "_blank", "noopener,noreferrer");
-  }
-};
+  const handlePartnerClick = () => {
+    if (partnerUrl) {
+      window.open(partnerUrl, "_blank", "noopener,noreferrer");
+    }
+  };
 
   return (
     <div
@@ -58,12 +62,12 @@ const handlePartnerClick = () => {
           <motion.div
             key="initial-view"
             className="absolute right-0 flex flex-col items-center justify-center gap-[12px] lg:gap-[20px] px-[10px] pointer-events-none md:pointer-events-auto"
-            initial={{ opacity: 1 }}
+            initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
           >
-            {/* Dynamic Logo 1 (Initial View) */}
+            {/* Logo 1 */}
             {logo1Src && (
               <motion.img
                 src={logo1Src}
@@ -71,15 +75,26 @@ const handlePartnerClick = () => {
                 className="h-auto w-[25px] lg:w-[30px] object-contain"
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
-                transition={{ duration: 1.2, ease: "easeOut", delay: 0.1 }}
+                exit={{ x: 100, opacity: 0 }}
+                transition={{
+                  duration: 0.8,
+                  ease: "easeOut",
+                  delay: 0.1,
+                }}
               />
             )}
 
+            {/* TEXT */}
             <motion.p
               className="text-white text-[10px] lg:text-[12px] tracking-[0.2em] [writing-mode:vertical-lr]"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1.2, ease: "easeOut", delay: 0.5 }}
+              exit={{ x: 100, opacity: 0 }}
+              transition={{
+                duration: 0.8,
+                ease: "easeOut",
+                delay: 0.5,
+              }}
             >
               VISIT PARTNER
             </motion.p>
@@ -99,8 +114,6 @@ const handlePartnerClick = () => {
             transition={{ duration: 0.5, ease: "easeInOut" }}
           >
             <div className="p-[24px] flex flex-col w-full items-center justify-between h-full relative">
-              
-              {/* Dynamic Logo 1 (Top Left in Panel) */}
               {logo1Src && (
                 <img
                   src={logo1Src}
@@ -113,9 +126,8 @@ const handlePartnerClick = () => {
                 VISIT PARTNER
               </h1>
 
-              {/* Dynamic Logo 2 handling: Text dynamic check or SVG Image */}
               {logo2Text ? (
-                <span className="text-white text-[10px] lg:text-[12px] text-center font-bold tracking-[2px] uppercase">
+                <span className="text-white text-[10px] lg:text-[12px] text-center tracking-[2px] uppercase">
                   {logo2Text}
                 </span>
               ) : (
@@ -127,7 +139,6 @@ const handlePartnerClick = () => {
                   />
                 )
               )}
-
             </div>
           </motion.div>
         )}
