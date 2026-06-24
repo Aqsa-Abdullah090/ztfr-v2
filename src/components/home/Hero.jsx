@@ -43,7 +43,7 @@ const Hero = () => {
         transition={{ duration: 4 }}
         className={
           isVideoPlaying
-            ? `relative lg:h-screen w-full flex flex-col justify-between transition-colors duration-1000`
+            ? `relative h-screen w-full flex flex-col justify-between transition-colors duration-1000`
             : `relative h-screen flex w-full flex-col justify-between transition-colors duration-1000 bg-center bg-cover ${
                 !isImageInBackground ? background_color : null
               }`
